@@ -1,0 +1,312 @@
+solidity ^0.4.18 
+Ownable ERC20Basic SafeMath ERC20 BasicToken StandardToken ERC827 ERC827Token Recoverable StandardTokenExt OraclizeI OraclizeAddrResolverI Buffer CBOR usingOraclize ApolloGame 
+SafeMath Buffer CBOR SafeMath 
+buffer Game 
+buffer has buf
+buffer has capacity
+Game has endTime
+Game has tickets
+Game has ticketsBought
+Game has ticketsUsed
+Game has winner
+Game has prize
+Game has seed
+Game has ticketsByUser
+owner c c c balances totalSupply_ allowed oldValue cbAddress capacity oldbuf dest src len mask mask MAJOR_TYPE_INT MAJOR_TYPE_NEGATIVE_INT MAJOR_TYPE_BYTES MAJOR_TYPE_STRING MAJOR_TYPE_ARRAY MAJOR_TYPE_MAP MAJOR_TYPE_CONTENT_FREE day week month proofType_NONE proofType_TLSNotary proofType_Ledger proofType_Android proofType_Native proofStorage_IPFS networkID_auto networkID_mainnet networkID_testnet networkID_morden networkID_consensys OAR oraclize price price price price price price price price price args price args price args price args dynargs dynargs dynargs dynargs dynargs dynargs dynargs dynargs dynargs dynargs dynargs dynargs dynargs dynargs dynargs dynargs dynargs dynargs dynargs dynargs price args price args price args price args dynargs dynargs dynargs dynargs dynargs dynargs dynargs dynargs dynargs dynargs dynargs dynargs dynargs dynargs dynargs dynargs dynargs dynargs dynargs dynargs tmp iaddr b1 b2 i a b minLength i h n _ba _bb _bc _bd _be abcde babcde k i bresult mint decimals i j len bstr k buf i buf i oraclize_network_name nbytes unonce sessionKeyHash sessionKeyHash_bytes32 delay delay_bytes8 args queryId delay_bytes8_left oraclize_randomDS_args oraclize_randomDS_sessionKeysHashVerified sigok signer sigr sigs sigr_ offset sigs_ sigok sig2 appkey1_pubkey tosign2 CODEHASH LEDGERKEY tosign3 sig3 proofVerified proofVerified match_ i ledgerProofLength keyhash sig1 commitmentSlice1 sessionPubkey sig2offset sessionPubkeyHash tosign1 minLength i j ret addr r s v ticketToken interval firstGameTime ticketVault serviceVault games gameIndex maxOneTimeBuy silencePeriod apiKey priceAgents prize position i position i random winner totalBank prize service 
+Ownable transferOwnership totalSupply balanceOf transfer mul div sub add allowance transferFrom approve totalSupply transfer balanceOf transferFrom approve allowance increaseApproval decreaseApproval approve transfer transferFrom approve transfer transferFrom increaseApproval decreaseApproval Recoverable recoverTokens tokensToBeReturned isToken query query_withGasLimit query2 query2_withGasLimit queryN queryN_withGasLimit getPrice getPrice useCoupon setProofType setConfig setCustomGasPrice randomDS_getSessionPubKeyHash getAddress init resize max append append appendInt shl8 encodeType encodeIndefiniteLengthType encodeUInt encodeInt encodeBytes encodeString startArray startMap endSequence oraclize_setNetwork __callback __callback oraclize_useCoupon oraclize_getPrice oraclize_getPrice oraclize_query oraclize_query oraclize_query oraclize_query oraclize_query oraclize_query oraclize_query oraclize_query oraclize_query oraclize_query oraclize_query oraclize_query oraclize_query oraclize_query oraclize_query oraclize_query oraclize_query oraclize_query oraclize_query oraclize_query oraclize_query oraclize_query oraclize_query oraclize_query oraclize_query oraclize_query oraclize_query oraclize_query oraclize_query oraclize_query oraclize_query oraclize_query oraclize_query oraclize_query oraclize_query oraclize_query oraclize_query oraclize_query oraclize_query oraclize_query oraclize_query oraclize_query oraclize_query oraclize_query oraclize_query oraclize_query oraclize_query oraclize_query oraclize_query oraclize_query oraclize_query oraclize_query oraclize_query oraclize_query oraclize_query oraclize_query oraclize_cbAddress oraclize_setProof oraclize_setCustomGasPrice oraclize_setConfig oraclize_randomDS_getSessionPubKeyHash getCodeSize parseAddr strCompare indexOf strConcat strConcat strConcat strConcat parseInt parseInt uint2str stra2cbor ba2cbor oraclize_setNetworkName oraclize_getNetworkName oraclize_newRandomDSQuery oraclize_randomDS_setCommitment verifySig oraclize_randomDS_proofVerify__sessionKeyValidity oraclize_randomDS_proofVerify__returnCode matchBytes32Prefix oraclize_randomDS_proofVerify__main copyBytes safer_ecrecover ecrecovery safeMemoryCleaner setPriceAgent ApolloGame  PRIZE_POOL setTicketVault setServiceVault setVaults setApiKey getTicketsForUser useTickets useTicketsForUser __callback resolveGame 
+ERC20 inherits from ERC20Basic BasicToken inherits from ERC20Basic StandardToken inherits from ERC20 StandardToken inherits from BasicToken ERC827 inherits from ERC20 ERC827Token inherits from ERC827 ERC827Token inherits from StandardToken Recoverable inherits from Ownable StandardTokenExt inherits from StandardToken StandardTokenExt inherits from ERC827Token StandardTokenExt inherits from Recoverable ApolloGame inherits from Recoverable ApolloGame inherits from usingOraclize 
+onlyOwner oraclizeAPI coupon oraclize_randomDS_proofVerify onlyPriceAgent 
+OwnershipTransferred Transfer Approval GameResolved 
+owner is equal to msg sender
+owner is equal to newOwner
+If a corresponds to 0
+ is equal to msg sender sub
+ is equal to balances _to add
+ is equal to balances _from sub
+ is equal to balances _to add
+ is equal to allowed _from msg sender sub
+ is equal to _value
+ is equal to msg sender _spender add
+If _subtractedValue is greater then oldValue
+ is equal to 0
+ is equal to oldValue sub
+If capacity Invalid symbol 32 is different from 0
+capacity increments of 32 minus 
+buf capacity is equal to capacity
+If a is greater then b
+If data length plus buf buf length is greater then buf capacity
+len is greater or equal to 32
+dest increments of 32
+src increments of 32
+If buf buf length plus 1 is greater then buf capacity
+If len plus buf buf length is greater then buf capacity
+If value is less or equal to 23
+If value is greater or equal to 0
+oraclize is equal to OraclizeI
+If getCodeSize is greater then 0
+OAR is equal to OraclizeAddrResolverI
+If getCodeSize is greater then 0
+OAR is equal to OraclizeAddrResolverI
+If getCodeSize is greater then 0
+OAR is equal to OraclizeAddrResolverI
+If getCodeSize is greater then 0
+OAR is equal to OraclizeAddrResolverI
+If getCodeSize is greater then 0
+OAR is equal to OraclizeAddrResolverI
+If getCodeSize is greater then 0
+OAR is equal to OraclizeAddrResolverI
+If getCodeSize is greater then 0
+OAR is equal to OraclizeAddrResolverI
+If price is greater then 1 ether plus tx gasprice multiplied by 200000
+If price is greater then 1 ether plus tx gasprice multiplied by 200000
+If price is greater then 1 ether plus tx gasprice multiplied by gaslimit
+If price is greater then 1 ether plus tx gasprice multiplied by gaslimit
+If price is greater then 1 ether plus tx gasprice multiplied by 200000
+If price is greater then 1 ether plus tx gasprice multiplied by 200000
+If price is greater then 1 ether plus tx gasprice multiplied by gaslimit
+If price is greater then 1 ether plus tx gasprice multiplied by gaslimit
+If price is greater then 1 ether plus tx gasprice multiplied by 200000
+If price is greater then 1 ether plus tx gasprice multiplied by 200000
+If price is greater then 1 ether plus tx gasprice multiplied by gaslimit
+If price is greater then 1 ether plus tx gasprice multiplied by gaslimit
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+If price is greater then 1 ether plus tx gasprice multiplied by 200000
+If price is greater then 1 ether plus tx gasprice multiplied by 200000
+If price is greater then 1 ether plus tx gasprice multiplied by gaslimit
+If price is greater then 1 ether plus tx gasprice multiplied by gaslimit
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+i is less then 2 plus 2 multiplied by 20
+iaddr is multiplied by 256
+b1 is equal to 
+b2 is equal to 
+If  Invalid symbol 
+b1 decreases of 87
+If  Invalid symbol 
+b2 decreases of 87
+iaddr increments of 
+If b length is less then minLength
+minLength is equal to b length
+i is less then minLength
+If  is less then 
+If a length is less then b length
+If h length is less then 1 Invalid symbol  Invalid symbol 
+i is less then _ba length
+i is equal to 0
+i is less then _bb length
+i is equal to 0
+i is less then _bc length
+i is equal to 0
+i is less then _bd length
+i is equal to 0
+i is less then _be length
+i is less then bresult length
+If  Invalid symbol 
+
+If _b corresponds to 0
+mint is multiplied by 10
+mint increments of  minus 48
+If _b is greater then 0
+mint is multiplied by 10 Invalid symbol _b
+If i corresponds to 0
+While j is different from 0
+j is divided by 10
+While i is different from 0
+ is equal to 
+i is divided by 10
+i is less then arr length
+i is less then arr length
+oraclize_network_name is equal to _network_name
+If  Invalid symbol 
+_delay is multiplied by 10
+ is equal to 
+ is equal to commitment
+sigr_ is equal to copyBytes
+offset increments of 32 plus 2
+sigs_ is equal to copyBytes
+ is equal to safer_ecrecover
+If  corresponds to signer
+ is equal to safer_ecrecover
+ is equal to 1
+sigok is equal to verifySig
+If sigok corresponds to False
+ is equal to 0xFE
+sigok is equal to verifySig
+If  Invalid symbol  Invalid symbol 
+If proofVerified corresponds to False
+If prefix length is different from n_random_bytes
+i is less then n_random_bytes
+If  is different from 
+match_ is equal to False
+If 
+If 
+If  corresponds to sha3
+If 
+If  corresponds to False
+ is equal to oraclize_randomDS_proofVerify__sessionKeyValidity
+If to length is less then minLength
+While i is less then 
+i increments of 32
+j increments of 32
+If sig length is different from 65
+If v is less then 27
+v increments of 27
+If v is different from 27 Invalid symbol 
+ is equal to state
+If now is greater then _firstGameTime
+ticketToken is equal to StandardTokenExt
+interval is equal to _interval
+firstGameTime is equal to _firstGameTime
+gameIndex is equal to 1000000
+games gameIndex endTime is equal to firstGameTime
+games gameIndex seed is equal to _seed
+ticketVault is equal to vault
+serviceVault is equal to vault
+ticketVault is equal to _ticketVault
+serviceVault is equal to _serviceVault
+apiKey is equal to _apiKey
+If amount is greater then maxOneTimeBuy
+If now is greater then games gameIndex endTime sub
+games gameIndex ticketsBought is equal to games gameIndex ticketsBought add
+i is less then amount
+ is equal to msg sender
+games gameIndex ticketsUsed is equal to games gameIndex ticketsUsed add
+ is equal to msg sender add
+If amount is greater then maxOneTimeBuy
+If now is greater then games gameIndex endTime sub
+games gameIndex ticketsBought is equal to games gameIndex ticketsBought add
+i is less then amount
+ is equal to user
+games gameIndex ticketsUsed is equal to games gameIndex ticketsUsed add
+ is equal to  user add
+If now is less then games gameIndex endTime
+If msg sender is different from oraclize_cbAddress
+random is equal to  Invalid symbol games gameIndex ticketsUsed
+If random is greater or equal to games gameIndex ticketsUsed
+games gameIndex winner is equal to winner
+games gameIndex seed is equal to random
+games gameIndex endTime is equal to  endTime add
+ prize is equal to prize
+If 
+If 
+If now is less then games gameIndex endTime
+If games gameIndex ticketsUsed is greater then 0
+games gameIndex seed is equal to  seed
+games gameIndex endTime is equal to  endTime add

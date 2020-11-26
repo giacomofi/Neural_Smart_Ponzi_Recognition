@@ -1,0 +1,26 @@
+solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 
+IERC20 ERC20Detailed SafeMath ERC20 Roles PauserRole Pausable ERC20Pausable ERC20Burnable ERC20PausableBurnable Best 
+SafeMath Roles 
+Role 
+Role has bearer
+_name _symbol _decimals c c c c _balances _allowances _totalSupply _pausers _paused DECIMALS INITIAL_SUPPLY 
+totalSupply balanceOf transfer allowance approve transferFrom name symbol decimals add sub mul div mod totalSupply balanceOf transfer allowance approve transferFrom increaseAllowance decreaseAllowance _transfer _mint _burn _approve _burnFrom add remove has isPauser addPauser renouncePauser _addPauser _removePauser paused pause unpause transfer transferFrom approve increaseAllowance decreaseAllowance burn burnFrom burn burnFrom 
+ERC20Detailed inherits from IERC20 ERC20 inherits from IERC20 Pausable inherits from PauserRole ERC20Pausable inherits from ERC20 ERC20Pausable inherits from Pausable ERC20Burnable inherits from ERC20 ERC20PausableBurnable inherits from ERC20Burnable ERC20PausableBurnable inherits from ERC20Pausable Best inherits from ERC20PausableBurnable Best inherits from ERC20Detailed 
+onlyPauser whenNotPaused whenPaused 
+Transfer Approval PauserAdded PauserRemoved Paused Unpaused 
+_name is equal to name
+_symbol is equal to symbol
+_decimals is equal to decimals
+If a corresponds to 0
+ is equal to _balances sender sub
+ is equal to _balances recipient add
+_totalSupply is equal to _totalSupply add
+ is equal to _balances account add
+_totalSupply is equal to _totalSupply sub
+ is equal to _balances account sub
+ is equal to value
+ is equal to True
+ is equal to False
+_paused is equal to False
+_paused is equal to True
+_paused is equal to False

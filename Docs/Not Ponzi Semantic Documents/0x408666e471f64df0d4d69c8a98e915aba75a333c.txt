@@ -1,0 +1,45 @@
+solidity 0.5.14 
+Context Roles LexDAORole SafeMath Address IERC20 ERC20 ERC20Burnable ERC20Capped OfferToken 
+Roles SafeMath Address SafeMath 
+Role requests 
+Role has bearer
+requests has requester
+requests has rNumber
+requests has timeStamp
+requests has details
+requests has response
+requests has review
+requests has responded
+_lexDAOs c c c c codehash accountHash _balances _allowances _totalSupply _name _symbol _decimals decreasedAllowance _cap _owner min rate closed RR offer redemptions rNumber rr rr 
+_msgSender _msgData add remove has isLexDAO addLexDAO renounceLexDAO _addLexDAO _removeLexDAO add sub sub mul div div mod mod isContract sendValue totalSupply balanceOf transfer allowance approve transferFrom name symbol decimals totalSupply balanceOf transfer allowance approve transferFrom increaseAllowance decreaseAllowance _transfer _mint _burn _approve _setupDecimals _beforeTokenTransfer burn burnFrom cap _beforeTokenTransfer buyOfferToken redeemOfferToken writeRedemptionReview owner isOwner renounceOwnership transferOwnership _transferOwnership adjustOfferRate updateOfferStatus writeRedemptionResponse lexDAOburn lexDAOmint lexDAOtransfer 
+LexDAORole inherits from Context ERC20 inherits from Context ERC20 inherits from IERC20 ERC20Burnable inherits from Context ERC20Burnable inherits from ERC20 ERC20Capped inherits from ERC20 OfferToken inherits from LexDAORole OfferToken inherits from ERC20Burnable OfferToken inherits from ERC20Capped 
+onlyLexDAO onlyOwner 
+LexDAOAdded LexDAORemoved Transfer Approval Redeemed Responded Reviewed OwnershipTransferred 
+ is equal to True
+ is equal to False
+If a corresponds to 0
+_name is equal to name
+_symbol is equal to symbol
+_decimals is equal to 18
+ is equal to _balances sender sub
+ is equal to _balances recipient add
+_totalSupply is equal to _totalSupply add
+ is equal to _balances account add
+ is equal to _balances account sub
+_totalSupply is equal to _totalSupply sub
+ is equal to amount
+_decimals is equal to decimals_
+_cap is equal to cap
+If from corresponds to 
+min is equal to _min
+rate is equal to _rate
+offer is equal to _offer
+RR is equal to RR add
+ is equal to requests
+rr review is equal to review
+_owner is equal to 
+_owner is equal to newOwner
+rate is equal to newRate
+closed is equal to offerClosed
+rr response is equal to response
+rr responded is equal to True

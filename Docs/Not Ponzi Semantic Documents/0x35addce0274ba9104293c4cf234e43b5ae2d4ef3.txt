@@ -1,0 +1,330 @@
+solidity ^0.4.25 solidity ^0.4.25 solidity ^0.4.25 solidity ^0.4.25 solidity ^0.4.24 solidity ^0.4.25 solidity ^0.4.19 solidity ^0.4.25 solidity ^0.4.25 
+ACOwned Constants ContractResolver ResolverClient SafeMath DaoConstants DoublyLinkedList DaoStructs DaoRewardsStorage 
+SafeMath DoublyLinkedList SafeMath DaoStructs 
+Item Data IndexedUint IndexedAddress IndexedBytes Address Bytes Uint PrlAction Voting ProposalVersion Proposal SpecialProposal DaoQuarterInfo IntermediateResults 
+Item has item
+Item has previous_index
+Item has next_index
+Data has first_index
+Data has last_index
+Data has count
+Data has item_index
+Data has valid_indexes
+Data has collection
+IndexedUint has data
+IndexedAddress has data
+IndexedBytes has data
+Address has data
+Bytes has data
+Uint has data
+PrlAction has at
+PrlAction has doc
+PrlAction has actionId
+Voting has startTime
+Voting has usedCommits
+Voting has commits
+Voting has yesVotes
+Voting has noVotes
+Voting has passed
+Voting has claimed
+Voting has funded
+ProposalVersion has docIpfsHash
+ProposalVersion has created
+ProposalVersion has milestoneCount
+ProposalVersion has finalReward
+ProposalVersion has milestoneFundings
+ProposalVersion has moreDocs
+Proposal has proposalId
+Proposal has currentState
+Proposal has timeCreated
+Proposal has proposalVersionDocs
+Proposal has proposalVersions
+Proposal has draftVoting
+Proposal has votingRounds
+Proposal has collateralStatus
+Proposal has collateralAmount
+Proposal has finalVersion
+Proposal has prlActions
+Proposal has proposer
+Proposal has endorser
+Proposal has isPausedOrStopped
+Proposal has isDigix
+SpecialProposal has proposalId
+SpecialProposal has timeCreated
+SpecialProposal has voting
+SpecialProposal has uintConfigs
+SpecialProposal has addressConfigs
+SpecialProposal has bytesConfigs
+SpecialProposal has proposer
+DaoQuarterInfo has minimalParticipationPoint
+DaoQuarterInfo has quarterPointScalingFactor
+DaoQuarterInfo has reputationPointScalingFactor
+DaoQuarterInfo has totalEffectiveDGDPreviousQuarter
+DaoQuarterInfo has moderatorMinimalParticipationPoint
+DaoQuarterInfo has moderatorQuarterPointScalingFactor
+DaoQuarterInfo has moderatorReputationPointScalingFactor
+DaoQuarterInfo has totalEffectiveModeratorDGDLastQuarter
+DaoQuarterInfo has dgxDistributionDay
+DaoQuarterInfo has dgxRewardsPoolLastQuarter
+DaoQuarterInfo has sumRewardsFromBeginning
+IntermediateResults has currentForCount
+IntermediateResults has currentAgainstCount
+IntermediateResults has currentSumOfEffectiveBalance
+IntermediateResults has countedUntil
+owner new_owner is_ac_owned_init NULL_ADDRESS ZERO EMPTY contracts locked_forever resolver key CONTRACT_ADDRESS _n i _is_locked EMPTY_BYTES EMPTY_ADDRESS PROPOSAL_STATE_PREPROPOSAL PROPOSAL_STATE_DRAFT PROPOSAL_STATE_MODERATED PROPOSAL_STATE_ONGOING PROPOSAL_STATE_CLOSED PROPOSAL_STATE_ARCHIVED PRL_ACTION_STOP PRL_ACTION_PAUSE PRL_ACTION_UNPAUSE COLLATERAL_STATUS_UNLOCKED COLLATERAL_STATUS_LOCKED COLLATERAL_STATUS_CLAIMED INTERMEDIATE_DGD_IDENTIFIER INTERMEDIATE_MODERATOR_DGD_IDENTIFIER INTERMEDIATE_BONUS_CALCULATION_IDENTIFIER CONTRACT_DAO CONTRACT_DAO_SPECIAL_PROPOSAL CONTRACT_DAO_STAKE_LOCKING CONTRACT_DAO_VOTING CONTRACT_DAO_VOTING_CLAIMS CONTRACT_DAO_SPECIAL_VOTING_CLAIMS CONTRACT_DAO_IDENTITY CONTRACT_DAO_REWARDS_MANAGER CONTRACT_DAO_REWARDS_MANAGER_EXTRAS CONTRACT_DAO_ROLES CONTRACT_DAO_FUNDING_MANAGER CONTRACT_DAO_WHITELISTING CONTRACT_DAO_INFORMATION CONTRACT_SERVICE_ROLE CONTRACT_SERVICE_DAO_INFO CONTRACT_SERVICE_DAO_LISTING CONTRACT_SERVICE_DAO_CALCULATOR CONTRACT_STORAGE_DAO CONTRACT_STORAGE_DAO_COUNTER CONTRACT_STORAGE_DAO_UPGRADE CONTRACT_STORAGE_DAO_IDENTITY CONTRACT_STORAGE_DAO_POINTS CONTRACT_STORAGE_DAO_SPECIAL CONTRACT_STORAGE_DAO_CONFIG CONTRACT_STORAGE_DAO_STAKE CONTRACT_STORAGE_DAO_REWARDS CONTRACT_STORAGE_DAO_WHITELISTING CONTRACT_STORAGE_INTERMEDIATE_RESULTS CONTRACT_DGD_TOKEN CONTRACT_DGX_TOKEN CONTRACT_BADGE_TOKEN ROLES_ROOT ROLES_FOUNDERS ROLES_PRLS ROLES_KYC_ADMINS QUARTER_DURATION CONFIG_MINIMUM_LOCKED_DGD CONFIG_MINIMUM_DGD_FOR_MODERATOR CONFIG_MINIMUM_REPUTATION_FOR_MODERATOR CONFIG_LOCKING_PHASE_DURATION CONFIG_QUARTER_DURATION CONFIG_VOTING_COMMIT_PHASE CONFIG_VOTING_PHASE_TOTAL CONFIG_INTERIM_COMMIT_PHASE CONFIG_INTERIM_PHASE_TOTAL CONFIG_DRAFT_QUORUM_FIXED_PORTION_NUMERATOR CONFIG_DRAFT_QUORUM_FIXED_PORTION_DENOMINATOR CONFIG_DRAFT_QUORUM_SCALING_FACTOR_NUMERATOR CONFIG_DRAFT_QUORUM_SCALING_FACTOR_DENOMINATOR CONFIG_VOTING_QUORUM_FIXED_PORTION_NUMERATOR CONFIG_VOTING_QUORUM_FIXED_PORTION_DENOMINATOR CONFIG_VOTING_QUORUM_SCALING_FACTOR_NUMERATOR CONFIG_VOTING_QUORUM_SCALING_FACTOR_DENOMINATOR CONFIG_FINAL_REWARD_SCALING_FACTOR_NUMERATOR CONFIG_FINAL_REWARD_SCALING_FACTOR_DENOMINATOR CONFIG_DRAFT_QUOTA_NUMERATOR CONFIG_DRAFT_QUOTA_DENOMINATOR CONFIG_VOTING_QUOTA_NUMERATOR CONFIG_VOTING_QUOTA_DENOMINATOR CONFIG_MINIMAL_QUARTER_POINT CONFIG_QUARTER_POINT_SCALING_FACTOR CONFIG_REPUTATION_POINT_SCALING_FACTOR CONFIG_MODERATOR_MINIMAL_QUARTER_POINT CONFIG_MODERATOR_QUARTER_POINT_SCALING_FACTOR CONFIG_MODERATOR_REPUTATION_POINT_SCALING_FACTOR CONFIG_QUARTER_POINT_DRAFT_VOTE CONFIG_QUARTER_POINT_VOTE CONFIG_QUARTER_POINT_INTERIM_VOTE CONFIG_QUARTER_POINT_MILESTONE_COMPLETION_PER_10000ETH CONFIG_BONUS_REPUTATION_NUMERATOR CONFIG_BONUS_REPUTATION_DENOMINATOR CONFIG_SPECIAL_PROPOSAL_COMMIT_PHASE CONFIG_SPECIAL_PROPOSAL_PHASE_TOTAL CONFIG_SPECIAL_QUOTA_NUMERATOR CONFIG_SPECIAL_QUOTA_DENOMINATOR CONFIG_SPECIAL_PROPOSAL_QUORUM_NUMERATOR CONFIG_SPECIAL_PROPOSAL_QUORUM_DENOMINATOR CONFIG_MAXIMUM_REPUTATION_DEDUCTION CONFIG_PUNISHMENT_FOR_NOT_LOCKING CONFIG_REPUTATION_PER_EXTRA_QP_NUM CONFIG_REPUTATION_PER_EXTRA_QP_DEN CONFIG_MAXIMUM_MODERATOR_REPUTATION_DEDUCTION CONFIG_REPUTATION_PER_EXTRA_MODERATOR_QP_NUM CONFIG_REPUTATION_PER_EXTRA_MODERATOR_QP_DEN CONFIG_PORTION_TO_MODERATORS_NUM CONFIG_PORTION_TO_MODERATORS_DEN CONFIG_DRAFT_VOTING_PHASE CONFIG_REPUTATION_POINT_BOOST_FOR_BADGE CONFIG_VOTE_CLAIMING_DEADLINE CONFIG_PREPROPOSAL_COLLATERAL CONFIG_MAX_FUNDING_FOR_NON_DIGIX CONFIG_MAX_MILESTONES_FOR_NON_DIGIX CONFIG_NON_DIGIX_PROPOSAL_CAP_PER_QUARTER CONFIG_PROPOSAL_DEAD_DURATION CONFIG_CARBON_VOTE_REPUTATION_BONUS NONE EMPTY_BYTES NULL_ADDRESS _index item _item_index _item_index _item_index _item_index _current_index _previous_index _current_index _next_index EMPTY_BYTES _n i _n i _finalVersion _milestoneCount allQuartersInfo claimableDGXs totalDGXsClaimed lastParticipatedQuarter previousLastParticipatedQuarter lastQuarterThatRewardsWasUpdated lastQuarterThatReputationWasUpdated 
+init_ac_owned is_owner change_owner claim_ownership init_register_contract lock_resolver_forever get_contract sender_is sender_is_from init is_locked get_contract mul div sub add find get append remove remove_item total start start_item end end_item valid valid_item previous previous_item next next_item find get append remove remove_item total start start_item end end_item valid valid_item previous previous_item next next_item find get find get append remove remove_item total start start_item end end_item valid valid_item previous previous_item next next_item append remove remove_item total start start_item end end_item valid valid_item previous previous_item next next_item append remove remove_item total start start_item end end_item valid valid_item previous previous_item next next_item find get append remove remove_item total start start_item end end_item valid valid_item previous previous_item next next_item append remove remove_item total start start_item end end_item valid valid_item previous previous_item next next_item countVotes listVotes readVote revealVote readVersion readProposalMilestone addProposalVersion updateQuarterInfo updateClaimableDGX updateLastParticipatedQuarter updatePreviousLastParticipatedQuarter updateLastQuarterThatRewardsWasUpdated updateLastQuarterThatReputationWasUpdated addToTotalDgxClaimed readQuarterInfo readQuarterGeneralInfo readQuarterModeratorInfo readQuarterParticipantInfo readDgxDistributionDay readTotalEffectiveDGDLastQuarter readTotalEffectiveModeratorDGDLastQuarter readRewardsPoolOfLastQuarter 
+ContractResolver inherits from ACOwned ContractResolver inherits from Constants DaoRewardsStorage inherits from ResolverClient DaoRewardsStorage inherits from DaoConstants 
+if_owner unless_registered if_owner_origin if_sender_is if_not_locked if_sender_is if_sender_is_from unless_resolver_is_locked 
+If is_ac_owned_init corresponds to False
+owner is equal to msg sender
+is_ac_owned_init is equal to True
+_success is equal to True
+_is_owner is equal to 
+new_owner is equal to _new_owner
+_success is equal to True
+owner is equal to new_owner
+_success is equal to True
+locked_forever is equal to False
+ is equal to _contract_address
+_success is equal to True
+locked_forever is equal to True
+_success is equal to True
+_contract is equal to 
+_isFrom is equal to msg sender corresponds to 
+i is less then _n
+If  corresponds to 
+If msg sender corresponds to 
+_isFrom is equal to True
+If _is_locked corresponds to False
+CONTRACT_ADDRESS is equal to 
+resolver is equal to _resolver
+key is equal to _key
+_success is equal to True
+_success is equal to False
+_locked is equal to 
+_contract is equal to 
+If _a corresponds to 0
+c is equal to _a multiplied by _b
+c is equal to _a plus _b
+If  Invalid symbol 
+_item_index is equal to NONE
+_item_index is equal to 
+If  corresponds to True
+_item is equal to  item
+_item is equal to EMPTY_BYTES
+If find is different from NONE Invalid symbol 
+_success is equal to False
+If self last_index corresponds to NONE
+If  Invalid symbol 
+self first_index is equal to self last_index is equal to _index
+self count is equal to 1
+ next_index is equal to _index
+self last_index is equal to _index
+ is equal to True
+ is equal to _index
+_success is equal to True
+If  corresponds to True
+If item previous_index corresponds to NONE
+self first_index is equal to item next_index
+ next_index is equal to item next_index
+If item next_index corresponds to NONE
+self last_index is equal to item previous_index
+ previous_index is equal to item previous_index
+ is equal to False
+_success is equal to True
+_success is equal to False
+If _item_index is different from NONE
+_success is equal to True
+_success is equal to False
+_total_count is equal to self count
+_item_index is equal to self first_index
+If _item_index is different from NONE
+_item is equal to get
+_item is equal to EMPTY_BYTES
+_item_index is equal to self last_index
+If _item_index is different from NONE
+_item is equal to get
+_item is equal to EMPTY_BYTES
+_yes is equal to 
+_yes is equal to 
+If  corresponds to True
+_previous_index is equal to  previous_index
+_previous_index is equal to NONE
+If _current_index is different from NONE
+_previous_item is equal to get
+_previous_item is equal to EMPTY_BYTES
+If  corresponds to True
+_next_index is equal to  next_index
+_next_index is equal to NONE
+If _current_index is different from NONE
+_next_item is equal to get
+_next_item is equal to EMPTY_BYTES
+_item_index is equal to find
+_item is equal to 
+_success is equal to append
+_success is equal to remove
+_success is equal to remove_item
+_total_count is equal to total
+_index is equal to start
+_start_item is equal to 
+_index is equal to end
+_end_item is equal to 
+_yes is equal to valid
+_yes is equal to valid_item
+_previous_index is equal to previous
+_previous_item is equal to 
+_next_index is equal to next
+_next_item is equal to 
+_item_index is equal to find
+_item is equal to 
+_item_index is equal to find
+_item is equal to 
+_success is equal to append
+_success is equal to remove
+_success is equal to remove_item
+_total_count is equal to total
+_index is equal to start
+_start_item is equal to 
+_index is equal to end
+_end_item is equal to 
+_yes is equal to valid
+_yes is equal to valid_item
+_previous_index is equal to previous
+_previous_item is equal to 
+_next_index is equal to next
+_next_item is equal to 
+_success is equal to append
+_success is equal to remove
+_success is equal to remove_item
+_total_count is equal to total
+_index is equal to start
+_start_item is equal to 
+_index is equal to end
+_end_item is equal to 
+_yes is equal to valid
+_yes is equal to valid_item
+_previous_index is equal to previous
+_previous_item is equal to 
+_next_index is equal to next
+_next_item is equal to 
+_success is equal to append
+_success is equal to remove
+_success is equal to remove_item
+_total_count is equal to total
+_index is equal to start
+_start_item is equal to 
+_index is equal to end
+_end_item is equal to 
+_yes is equal to valid
+_yes is equal to valid_item
+_previous_index is equal to previous
+_previous_item is equal to 
+_next_index is equal to next
+_next_item is equal to 
+_item_index is equal to find
+_item is equal to get
+_success is equal to append
+_success is equal to remove
+_success is equal to remove_item
+_total_count is equal to total
+_index is equal to start
+_start_item is equal to start_item
+_index is equal to end
+_end_item is equal to end_item
+_yes is equal to valid
+_yes is equal to valid_item
+_previous_index is equal to previous
+_previous_item is equal to previous_item
+_next_index is equal to next
+_next_item is equal to next_item
+_success is equal to append
+_success is equal to remove
+_success is equal to remove_item
+_total_count is equal to total
+_index is equal to start
+_start_item is equal to 
+_index is equal to end
+_end_item is equal to 
+_yes is equal to valid
+_yes is equal to valid_item
+_previous_index is equal to previous
+_previous_item is equal to 
+_next_index is equal to next
+_next_item is equal to 
+i is less then _n
+If  is greater then 0
+_for is equal to _for add
+_length is equal to 0
+_voters is equal to 
+If _vote corresponds to True
+i is equal to 0
+i is less then _n
+If  is greater then 0
+ is equal to 
+i is equal to 0
+i is less then _n
+If  is greater then 0
+ is equal to 
+If  is greater then 0
+_weight is equal to 
+_vote is equal to True
+_weight is equal to 
+_vote is equal to False
+
+ is equal to _weight
+ is equal to _weight
+_doc is equal to _version docIpfsHash
+_created is equal to _version created
+_milestoneFundings is equal to _version milestoneFundings
+_finalReward is equal to _version finalReward
+If _milestoneIndex is less then _milestoneCount
+_funding is equal to 
+_funding is equal to  _finalVersion finalReward
+ _newDoc docIpfsHash is equal to _newDoc
+ _newDoc created is equal to now
+ _newDoc milestoneCount is equal to _newMilestoneFundings length
+ _newDoc milestoneFundings is equal to _newMilestoneFundings
+ _newDoc finalReward is equal to _finalReward
+allQuartersInfo _quarterNumber minimalParticipationPoint is equal to _minimalParticipationPoint
+allQuartersInfo _quarterNumber quarterPointScalingFactor is equal to _quarterPointScalingFactor
+allQuartersInfo _quarterNumber reputationPointScalingFactor is equal to _reputationPointScalingFactor
+allQuartersInfo _quarterNumber totalEffectiveDGDPreviousQuarter is equal to _totalEffectiveDGDPreviousQuarter
+allQuartersInfo _quarterNumber moderatorMinimalParticipationPoint is equal to _moderatorMinimalQuarterPoint
+allQuartersInfo _quarterNumber moderatorQuarterPointScalingFactor is equal to _moderatorQuarterPointScalingFactor
+allQuartersInfo _quarterNumber moderatorReputationPointScalingFactor is equal to _moderatorReputationPointScalingFactor
+allQuartersInfo _quarterNumber totalEffectiveModeratorDGDLastQuarter is equal to _totalEffectiveModeratorDGDLastQuarter
+allQuartersInfo _quarterNumber dgxDistributionDay is equal to _dgxDistributionDay
+allQuartersInfo _quarterNumber dgxRewardsPoolLastQuarter is equal to _dgxRewardsPoolLastQuarter
+allQuartersInfo _quarterNumber sumRewardsFromBeginning is equal to _sumRewardsFromBeginning
+ is equal to _newClaimableDGX
+ is equal to _lastQuarter
+ is equal to _lastQuarter
+ is equal to _lastQuarter
+ is equal to _lastQuarter
+totalDGXsClaimed is equal to totalDGXsClaimed add
+_minimalParticipationPoint is equal to allQuartersInfo _quarterNumber minimalParticipationPoint
+_quarterPointScalingFactor is equal to allQuartersInfo _quarterNumber quarterPointScalingFactor
+_reputationPointScalingFactor is equal to allQuartersInfo _quarterNumber reputationPointScalingFactor
+_totalEffectiveDGDPreviousQuarter is equal to allQuartersInfo _quarterNumber totalEffectiveDGDPreviousQuarter
+_moderatorMinimalQuarterPoint is equal to allQuartersInfo _quarterNumber moderatorMinimalParticipationPoint
+_moderatorQuarterPointScalingFactor is equal to allQuartersInfo _quarterNumber moderatorQuarterPointScalingFactor
+_moderatorReputationPointScalingFactor is equal to allQuartersInfo _quarterNumber moderatorReputationPointScalingFactor
+_totalEffectiveModeratorDGDLastQuarter is equal to allQuartersInfo _quarterNumber totalEffectiveModeratorDGDLastQuarter
+_dgxDistributionDay is equal to allQuartersInfo _quarterNumber dgxDistributionDay
+_dgxRewardsPoolLastQuarter is equal to allQuartersInfo _quarterNumber dgxRewardsPoolLastQuarter
+_sumRewardsFromBeginning is equal to allQuartersInfo _quarterNumber sumRewardsFromBeginning
+_dgxDistributionDay is equal to allQuartersInfo _quarterNumber dgxDistributionDay
+_dgxRewardsPoolLastQuarter is equal to allQuartersInfo _quarterNumber dgxRewardsPoolLastQuarter
+_sumRewardsFromBeginning is equal to allQuartersInfo _quarterNumber sumRewardsFromBeginning
+_moderatorMinimalQuarterPoint is equal to allQuartersInfo _quarterNumber moderatorMinimalParticipationPoint
+_moderatorQuarterPointScalingFactor is equal to allQuartersInfo _quarterNumber moderatorQuarterPointScalingFactor
+_moderatorReputationPointScalingFactor is equal to allQuartersInfo _quarterNumber moderatorReputationPointScalingFactor
+_totalEffectiveModeratorDGDLastQuarter is equal to allQuartersInfo _quarterNumber totalEffectiveModeratorDGDLastQuarter
+_minimalParticipationPoint is equal to allQuartersInfo _quarterNumber minimalParticipationPoint
+_quarterPointScalingFactor is equal to allQuartersInfo _quarterNumber quarterPointScalingFactor
+_reputationPointScalingFactor is equal to allQuartersInfo _quarterNumber reputationPointScalingFactor
+_totalEffectiveDGDPreviousQuarter is equal to allQuartersInfo _quarterNumber totalEffectiveDGDPreviousQuarter
+_distributionDay is equal to allQuartersInfo _quarterNumber dgxDistributionDay
+_totalEffectiveDGDPreviousQuarter is equal to allQuartersInfo _quarterNumber totalEffectiveDGDPreviousQuarter
+_totalEffectiveModeratorDGDLastQuarter is equal to allQuartersInfo _quarterNumber totalEffectiveModeratorDGDLastQuarter
+_rewardsPool is equal to allQuartersInfo _quarterNumber dgxRewardsPoolLastQuarter

@@ -1,0 +1,22 @@
+x15 
+Participant 
+Participant has etherAddress
+Participant has amount
+participants payoutIdx collectedFees balance owner idx transactionAmount 
+Doubler  enter collectFees setOwner 
+onlyowner 
+owner is equal to msg sender
+If msg value is less then 1 ether
+participants length increments of 1
+participants idx etherAddress is equal to msg sender
+participants idx amount is equal to msg value
+If idx is different from 0
+collectedFees increments of msg value divided by 30
+balance increments of msg value
+collectedFees increments of msg value
+If balance is greater then participants payoutIdx amount multiplied by 2
+balance decreases of participants payoutIdx amount multiplied by 2
+payoutIdx increments of 1
+If collectedFees corresponds to 0
+collectedFees is equal to 0
+owner is equal to _owner

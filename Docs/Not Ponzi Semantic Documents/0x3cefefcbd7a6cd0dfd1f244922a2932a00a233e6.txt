@@ -1,0 +1,65 @@
+solidity ^0.4.24 
+SafeMath ERC20 ITokenController Controlled ApproveAndCallFallBack MiniMeToken MiniMeTokenFactory 
+SafeMath 
+Checkpoint 
+Checkpoint has fromBlock
+Checkpoint has value
+c c controller name decimals symbol version erc20 scalingFactor valuePerToken assetIncome assetIncomeIssued incomeOwed previousValuePerToken parentToken parentSnapShotBlock creationBlock balances allowed totalSupplyHistory transfersEnabled tokenFactory previousBalanceFrom previousBalanceTo amount bookBalance actualBalance diffBalance valuePerTokenDifference snapshot cloneToken curTotalSupply previousBalanceTo min max mid newCheckPoint oldCheckPoint size token balance newToken 
+mul div sub add getFractionalAmount decimals totalSupply balanceOf allowance transfer approve transferFrom proxyPayment onTransfer onApprove changeController receiveApproval transfer transferFrom doTransfer balanceOf approve allowance approveAndCall totalSupply withdraw issueDividends checkForTransfers collectLatestPayments getAmountOwed getERC20 balanceOfAt totalSupplyAt createCloneToken generateTokens enableTransfers getValueAt updateValueAtNow isContract min  claimTokens createCloneToken 
+MiniMeToken inherits from Controlled 
+onlyController updateIncomeClaimed 
+Transfer Approval LogIncomeReceived LogIncomeCollected LogCheckBalance ClaimedTokens Transfer NewCloneToken Approval NewToken 
+If a corresponds to 0
+controller is equal to msg sender
+controller is equal to _newController
+tokenFactory is equal to _tokenFactory
+name is equal to _tokenName
+decimals is equal to _decimalUnits
+symbol is equal to _tokenSymbol
+parentToken is equal to _parentToken
+parentSnapShotBlock is equal to _parentSnapShotBlock
+transfersEnabled is equal to _transfersEnabled
+creationBlock is equal to block number
+If _erc20Address is different from 
+erc20 is equal to ERC20
+If msg sender is different from controller
+If  is less then _amount
+ decreases of _amount
+If _amount corresponds to 0
+If previousBalanceFrom is less then _amount
+
+
+ is equal to _amount
+assetIncomeIssued is equal to assetIncomeIssued add
+If  corresponds to 
+If  corresponds to 
+assetIncome is equal to assetIncome add
+valuePerToken is equal to valuePerToken add
+If  corresponds to 
+actualBalance is equal to 
+actualBalance is equal to erc20 balanceOf
+If diffBalance is greater then 0
+valuePerToken is equal to valuePerToken add
+assetIncome is equal to assetIncome add
+ is equal to incomeOwed _investor add
+ is equal to valuePerToken
+If  Invalid symbol 
+If  is different from 0
+If  Invalid symbol 
+If  is different from 0
+transfersEnabled is equal to _transfersEnabled
+If checkpoints length corresponds to 0
+If _block is greater or equal to checkpoints length sub fromBlock
+If _block is less then checkpoints 0 fromBlock
+While max is greater then min
+If checkpoints mid fromBlock is less or equal to _block
+min is equal to mid
+max is equal to mid sub
+If  Invalid symbol 
+newCheckPoint fromBlock is equal to 
+newCheckPoint value is equal to 
+oldCheckPoint value is equal to 
+If _addr corresponds to 0
+assetIncome is equal to assetIncome add
+valuePerToken is equal to valuePerToken add
+If _token corresponds to 0x0

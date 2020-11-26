@@ -1,0 +1,26 @@
+solidity ^0.4.0 
+PonzICO 
+owner total invested balances investors amount dividend fee i dividend fee i 
+PonzICO ownerFee withdraw reinvest invest  
+checkZeroBalance accreditedInvestor 
+LogInvestment LogWithdrawal 
+owner is equal to msg sender
+If total is less then 200000 ether
+fee is equal to amount divided by 2
+ increments of fee
+ is equal to 0
+If 
+ is equal to amount
+ is equal to 0
+dividend decreases of fee
+i is less then investors length
+ increments of dividend multiplied by  divided by total
+ increments of 
+total increments of 
+dividend decreases of fee
+i is less then investors length
+ increments of dividend multiplied by  divided by total
+If  corresponds to 0
+ is equal to msg value
+ increments of msg value
+total increments of msg value

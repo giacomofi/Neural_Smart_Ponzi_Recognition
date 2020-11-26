@@ -1,0 +1,51 @@
+solidity ^0.6.0 experimental ABIEncoderV2 
+AccountInterface ListInterface IndexInterface ConnectorsInterface ConnectorInterface Helpers AccountResolver ConnectorsResolver Resolver 
+UserLink UserList AccountLink AccountList List AuthorityData ConnectorsData 
+UserLink has first
+UserLink has last
+UserLink has count
+UserList has prev
+UserList has next
+AccountLink has first
+AccountLink has last
+AccountLink has count
+AccountList has prev
+AccountList has next
+List has prev
+List has next
+AuthorityData has IDs
+AuthorityData has accounts
+AuthorityData has versions
+ConnectorsData has connector
+ConnectorsData has connectorID
+ConnectorsData has name
+index list connectors indexContract listContract connectorsContract userLink IDs id i userList IDs accounts i accountLink authorities authority i accountList versions i accounts enabledCount addresses connectorArrayLength count i connector enabledCount connectorsData connectorArrayLength count i connector staticLength staticConnectorArray i staticLength staticConnectorsData i staticConnector name version 
+isAuth sheild version accounts accountID accountAddr userLink userList accountLink accountList master list connectors account check versionCount chief connectors staticConnectors connectorArray connectorLength staticConnectorArray staticConnectorLength connectorCount isConnector isStaticConnector name getID getAccount getAuthorityIDs getAuthorityAccounts getIDAuthorities getAccountAuthorities getAccountVersions getAuthorityDetails isShield getEnabledConnectors getEnabledConnectorsData getStaticConnectors getStaticConnectorsData 
+AccountResolver inherits from Helpers ConnectorsResolver inherits from AccountResolver Resolver inherits from ConnectorsResolver 
+i is less then userLink count
+ is equal to id
+id is equal to userList next
+i is less then IDs length
+ is equal to getAccount
+i is less then accountLink count
+ is equal to authority
+authority is equal to accountList next
+i is less then accounts length
+ is equal to 
+shield is equal to 
+i is less then connectorArrayLength
+
+ is equal to connector
+i is less then connectorArrayLength
+
+ is equal to ConnectorsData
+i is less then staticLength
+ is equal to connectorsContract staticConnectorArray
+i is less then staticLength
+ is equal to ConnectorsData
+index is equal to _index
+indexContract is equal to IndexInterface
+list is equal to indexContract list
+listContract is equal to ListInterface
+connectors is equal to indexContract connectors
+connectorsContract is equal to ConnectorsInterface

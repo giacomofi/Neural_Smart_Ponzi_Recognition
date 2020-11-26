@@ -1,0 +1,27 @@
+solidity ^0.4.24 
+ERC20 Ownable Pausable SafeMath StandardToken SafeERC20 TokenVesting 
+SafeMath SafeMath SafeERC20 
+owner paused c c c c balances allowed totalSupply_ oldValue beneficiary token start lock_time currentBalance 
+totalSupply balanceOf allowance transfer approve transferFrom transferOwnership _transferOwnership pause unpause mul div sub add totalSupply balanceOf allowance transfer transferFrom approve increaseApproval decreaseApproval safeTransfer safeTransferFrom safeApprove release balance blocktime 
+Pausable inherits from Ownable StandardToken inherits from ERC20 StandardToken inherits from Pausable TokenVesting inherits from Ownable 
+onlyOwner whenNotPaused whenPaused 
+Transfer Approval OwnershipTransferred Pause Unpause Released 
+owner is equal to msg sender
+owner is equal to _newOwner
+paused is equal to True
+paused is equal to False
+If _a corresponds to 0
+ is equal to msg sender sub
+ is equal to balances _to add
+ is equal to balances _from sub
+ is equal to balances _to add
+ is equal to allowed _from msg sender sub
+ is equal to _value
+ is equal to 
+If _subtractedValue is greater or equal to oldValue
+ is equal to 0
+ is equal to oldValue sub
+beneficiary is equal to _beneficiary
+start is equal to _start
+token is equal to _token
+If block timestamp is less then start add

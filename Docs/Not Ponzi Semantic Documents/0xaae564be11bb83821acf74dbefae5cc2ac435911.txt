@@ -1,0 +1,26 @@
+solidity ^0.4.4 
+Token StandardToken FASTPAYTOKEN 
+balances allowed totalSupply name decimals symbol version unitsOneEthCanBuy totalEthInWei fundsWallet amount 
+totalSupply balanceOf transfer transferFrom approve allowance transfer transferFrom balanceOf approve allowance FASTPAYTOKEN  approveAndCall 
+StandardToken inherits from Token FASTPAYTOKEN inherits from StandardToken 
+Transfer Approval 
+If  is greater or equal to _value Invalid symbol 
+ decreases of _value
+ increments of _value
+If  is greater or equal to _value Invalid symbol  Invalid symbol 
+ increments of _value
+ decreases of _value
+ decreases of _value
+ is equal to _value
+ is equal to 33388800000000000000000000
+totalSupply is equal to 33388800000000000000000000
+name is equal to FASTPAYTOKEN
+decimals is equal to 18
+symbol is equal to FPAY
+unitsOneEthCanBuy is equal to 190
+fundsWallet is equal to msg sender
+totalEthInWei is equal to totalEthInWei plus msg value
+ is equal to  minus amount
+ is equal to  plus amount
+ is equal to _value
+If 

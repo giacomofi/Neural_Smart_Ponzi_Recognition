@@ -1,0 +1,107 @@
+solidity ^0.5.0 
+Context IERC20 SafeMath ERC20 Roles PauserRole Pausable ERC20Detailed MinterRole ERC20Mintable ERC20Burnable Ownable UsingConfig UsingValidator IAllocator Killable Decimals VoteCounter IMarket IMarketBehavior Policy VoteTimes Metrics UsingStorage IGroup MetricsGroup MetricsFactory Lockup Dev Market PropertyGroup WithdrawStorage Withdraw AllocatorStorage Allocator LockupStorage VoteCounterStorage IPolicy VoteTimesStorage MarketGroup PolicySet AddressConfig EternalStorage AddressValidator PolicyGroup PolicyFactory Property 
+SafeMath Roles Roles SafeMath SafeMath SafeMath SafeMath SafeMath SafeMath Decimals SafeMath SafeMath Decimals SafeMath Decimals SafeMath SafeMath 
+Role 
+Role has bearer
+c c c c _balances _allowances _totalSupply _pausers _paused _name _symbol _decimals _minters _owner _config _validator _owner basisValue a alreadyVote voteCount voteCount agreeCount oppositeCount schema _policy _votingEndBlockNumber voteCounter result tmp voteTimes voteTimesByProperty voteTimes voteTimes voteTimesByProperty market property _storage tmp totalCount metrics metricsGroup metricsAddress isWaiting isWaiting blockNumber lockupedValue priceValue _last price priceGap lockupedValue value pending value erc20 value value value value value value price pending blockNumber enabled behavior _votingEndBlockNumber issuedMetrics idMap marketVotingBlocks len tokenValue policy metricsGroup sender metricsFactory metrics authenticationFee voteCounter value price erc20 price amountFrom amountTo pendFrom pendTo totalLimit total priceValue total price _last totalLimit balanceLimit price priceGap balance total value _value value basis market metrics market totalAssets lockupValue blocks mint value marketValue assets result holders interest aShare vShare mint property voteTimes abstentionCount notTargetPeriod blockNumber notTargetBlockNumber blockNumber baseBlockNumber lastAllocationBlockNumber key key key key key key key key alreadyVoteKey alreadyVoteKey key number key index key index i key key token allocator allocatorStorage withdraw withdrawStorage marketFactory marketGroup propertyFactory propertyGroup metricsGroup metricsFactory policy policyFactory policySet policyGroup lockup lockupStorage voteTimes voteTimesStorage voteCounter voteCounterStorage currentOwner uIntStorage stringStorage addressStorage bytesStorage boolStorage intStorage errorMessage policy policyAddress policyGroup policySet policySet policyGroup i policyAddress _decimals _supply author devToken 
+_msgSender _msgData totalSupply balanceOf transfer allowance approve transferFrom add sub sub mul div div mod mod totalSupply balanceOf transfer allowance approve transferFrom increaseAllowance decreaseAllowance _transfer _mint _burn _approve _burnFrom add remove has isPauser addPauser renouncePauser _addPauser _removePauser paused pause unpause name symbol decimals isMinter addMinter renounceMinter _addMinter _removeMinter mint burn burnFrom owner isOwner renounceOwnership transferOwnership _transferOwnership config configAddress addressValidator allocate calculatedCallback beforeBalanceChange getRewardsAmount allocation kill outOf basis addVoteCount getAgreeCount getOppositeCount getVoteCount addAgreeCount addOppositeCount getStorage calculate authenticate getAuthenticationFee authenticatedCallback vote schema authenticate calculate voting rewards holdersShare assetValue authenticationFee marketApproval policyApproval marketVotingBlocks policyVotingBlocks abstentionPenalty lockUpBlocks vote setVotingEndBlockNumber addVoteTime addVoteTimesByProperty resetVoteTimesByProperty getAbstentionTimes getStorage eternalStorage getStorageAddress createStorage setStorage changeOwner isGroup addGroup getGroupKey addGroup isGroup totalIssuedMetrics getTotalCountKey create lockup cancel withdraw increment _calculateInterestAmount calculateInterestAmount _calculateWithdrawableInterestAmount calculateWithdrawableInterestAmount withdrawInterest getAllValue addAllValue subAllValue getPropertyValue getValue addValue hasValue addPropertyValue subPropertyValue incrementInterest updatePendingInterestWithdrawal possible getStorage deposit depositFrom fee lock toEnable calculate authenticate getAuthenticationFee authenticatedCallback vote schema addGroup isGroup setRewardsAmount getRewardsAmount getRewardsAmountKey setCumulativePrice getCumulativePrice getCumulativePriceKey setWithdrawalLimitTotal getWithdrawalLimitTotal getWithdrawalLimitTotalKey setWithdrawalLimitBalance getWithdrawalLimitBalance getWithdrawalLimitBalanceKey setLastWithdrawalPrice getLastWithdrawalPrice getLastWithdrawalPriceKey setPendingWithdrawal getPendingWithdrawal getPendingWithdrawalKey withdraw beforeBalanceChange increment getRewardsAmount _calculateAmount calculateAmount _calculateWithdrawableAmount calculateWithdrawableAmount getStorage setLastBlockNumber getLastBlockNumber getLastBlockNumberKey setBaseBlockNumber getBaseBlockNumber getBaseBlockNumberKey setPendingIncrement getPendingIncrement getPendingIncrementKey setLastAllocationBlockEachMetrics getLastAllocationBlockEachMetrics getLastAllocationBlockEachMetricsKey setLastAssetValueEachMetrics getLastAssetValueEachMetrics getLastAssetValueEachMetricsKey setLastAssetValueEachMarketPerBlock getLastAssetValueEachMarketPerBlock getLastAssetValueEachMarketPerBlockKey allocate calculatedCallback increment beforeBalanceChange getRewardsAmount allocation validateTargetPeriod getLastAllocationBlockNumber getStorage setAllValue getAllValue getAllValueKey setValue getValue getValueKey setPropertyValue getPropertyValue getPropertyValueKey setWithdrawalStatus getWithdrawalStatus getWithdrawalStatusKey setInterestPrice getInterestPrice getInterestPriceKey setLastInterestPrice getLastInterestPrice getLastInterestPriceKey setPendingInterestWithdrawal getPendingInterestWithdrawal getPendingInterestWithdrawalKey setAlreadyVoteFlg getAlreadyVoteFlg getAlreadyVoteKey getAgreeCount setAgreeCount getAgreeVoteCountKey getOppositeCount setOppositeCount getOppositeVoteCountKey rewards holdersShare assetValue authenticationFee marketApproval policyApproval marketVotingBlocks policyVotingBlocks abstentionPenalty lockUpBlocks getVoteTimes setVoteTimes getVoteTimesKey getVoteTimesByProperty setVoteTimesByProperty getVoteTimesByPropertyKey addGroup isGroup addCount getCount getCountKey addSet deleteAll count get getIndexKey getPlicySetIndexKey setAllocator setAllocatorStorage setWithdraw setWithdrawStorage setMarketFactory setMarketGroup setPropertyFactory setPropertyGroup setMetricsFactory setMetricsGroup setPolicyFactory setPolicyGroup setPolicySet setPolicy setToken setLockup setLockupStorage setVoteTimes setVoteTimesStorage setVoteCounter setVoteCounterStorage changeOwner getUint getString getAddress getBytes getBool getInt setUint setString setAddress setBytes setBool setInt deleteUint deleteString deleteAddress deleteBytes deleteBool deleteInt validateIllegalAddress validateGroup validateGroups validateAddress validateAddresses addGroup deleteGroup isGroup create convergePolicy transfer withdraw 
+ERC20 inherits from Context ERC20 inherits from IERC20 PauserRole inherits from Context Pausable inherits from Context Pausable inherits from PauserRole ERC20Detailed inherits from IERC20 MinterRole inherits from Context ERC20Mintable inherits from ERC20 ERC20Mintable inherits from MinterRole ERC20Burnable inherits from Context ERC20Burnable inherits from ERC20 Ownable inherits from Context VoteCounter inherits from UsingConfig VoteCounter inherits from UsingValidator VoteCounter inherits from Killable Policy inherits from Killable Policy inherits from UsingConfig Policy inherits from UsingValidator VoteTimes inherits from UsingConfig VoteTimes inherits from UsingValidator VoteTimes inherits from Killable UsingStorage inherits from Ownable MetricsGroup inherits from UsingConfig MetricsGroup inherits from UsingStorage MetricsGroup inherits from UsingValidator MetricsGroup inherits from IGroup MetricsGroup inherits from Killable MetricsFactory inherits from Pausable MetricsFactory inherits from UsingConfig MetricsFactory inherits from UsingValidator MetricsFactory inherits from Killable Lockup inherits from Pausable Lockup inherits from UsingConfig Lockup inherits from UsingValidator Lockup inherits from Killable Dev inherits from ERC20Detailed Dev inherits from ERC20Mintable Dev inherits from ERC20Burnable Dev inherits from UsingConfig Dev inherits from UsingValidator Market inherits from UsingConfig Market inherits from IMarket Market inherits from UsingValidator PropertyGroup inherits from UsingConfig PropertyGroup inherits from UsingStorage PropertyGroup inherits from UsingValidator PropertyGroup inherits from IGroup PropertyGroup inherits from Killable WithdrawStorage inherits from UsingStorage WithdrawStorage inherits from UsingConfig WithdrawStorage inherits from UsingValidator WithdrawStorage inherits from Killable Withdraw inherits from Pausable Withdraw inherits from UsingConfig Withdraw inherits from UsingValidator Withdraw inherits from Killable AllocatorStorage inherits from UsingStorage AllocatorStorage inherits from UsingConfig AllocatorStorage inherits from UsingValidator AllocatorStorage inherits from Killable Allocator inherits from Killable Allocator inherits from UsingConfig Allocator inherits from IAllocator Allocator inherits from UsingValidator LockupStorage inherits from UsingConfig LockupStorage inherits from UsingStorage LockupStorage inherits from UsingValidator LockupStorage inherits from Killable VoteCounterStorage inherits from UsingStorage VoteCounterStorage inherits from UsingConfig VoteCounterStorage inherits from UsingValidator VoteCounterStorage inherits from Killable VoteTimesStorage inherits from UsingStorage VoteTimesStorage inherits from UsingConfig VoteTimesStorage inherits from UsingValidator VoteTimesStorage inherits from Killable MarketGroup inherits from UsingConfig MarketGroup inherits from UsingStorage MarketGroup inherits from IGroup MarketGroup inherits from UsingValidator MarketGroup inherits from Killable PolicySet inherits from UsingConfig PolicySet inherits from UsingStorage PolicySet inherits from UsingValidator PolicySet inherits from Killable AddressConfig inherits from Ownable AddressConfig inherits from UsingValidator AddressConfig inherits from Killable PolicyGroup inherits from UsingConfig PolicyGroup inherits from UsingStorage PolicyGroup inherits from UsingValidator PolicyGroup inherits from IGroup PolicyGroup inherits from Killable PolicyFactory inherits from Pausable PolicyFactory inherits from UsingConfig PolicyFactory inherits from UsingValidator PolicyFactory inherits from Killable Property inherits from ERC20 Property inherits from ERC20Detailed Property inherits from UsingConfig Property inherits from UsingValidator 
+onlyPauser whenNotPaused whenPaused onlyMinter onlyOwner hasStorage onlyCurrentOwner 
+Transfer Approval PauserAdded PauserRemoved Paused Unpaused MinterAdded MinterRemoved OwnershipTransferred Create Lockedup BeforeAllocation Create 
+If a corresponds to 0
+ is equal to _balances sender sub
+ is equal to _balances recipient add
+_totalSupply is equal to _totalSupply add
+ is equal to _balances account add
+ is equal to _balances account sub
+_totalSupply is equal to _totalSupply sub
+ is equal to amount
+ is equal to True
+ is equal to False
+_paused is equal to False
+_paused is equal to True
+_paused is equal to False
+_name is equal to name
+_symbol is equal to symbol
+_decimals is equal to decimals
+_owner is equal to _msgSender
+_owner is equal to 
+_owner is equal to newOwner
+_config is equal to AddressConfig
+_validator is equal to 
+_owner is equal to msg sender
+If _a corresponds to 0
+
+If  corresponds to _sender
+voteCount is equal to 
+voteCount is equal to 
+agreeCount is equal to agreeCount add
+oppositeCount is equal to oppositeCount add
+_policy is equal to IPolicy
+If result corresponds to False
+_votingEndBlockNumber is equal to 0
+If  corresponds to 
+_votingEndBlockNumber is equal to block number add
+voteTimes is equal to voteTimes add
+voteTimesByProperty is equal to voteTimesByProperty add
+market is equal to _market
+property is equal to _property
+_storage is equal to 
+_storage is equal to _storageAddress
+totalCount is equal to totalCount add
+blockNumber is equal to blockNumber add
+value is equal to value add
+value is equal to value sub
+value is equal to value add
+value is equal to value add
+value is equal to value sub
+If blockNumber corresponds to 0
+behavior is equal to _behavior
+enabled is equal to False
+_votingEndBlockNumber is equal to block number add
+enabled is equal to True
+ is equal to True
+issuedMetrics is equal to issuedMetrics add
+enabled is equal to 
+If totalLimit is different from total
+If totalLimit corresponds to total
+balance is equal to balanceLimit
+If notTargetPeriod corresponds to 0
+If baseBlockNumber corresponds to 0
+number is equal to number add
+index is equal to index add
+i is less then index
+allocator is equal to _addr
+allocatorStorage is equal to _addr
+withdraw is equal to _addr
+withdrawStorage is equal to _addr
+marketFactory is equal to _addr
+marketGroup is equal to _addr
+propertyFactory is equal to _addr
+propertyGroup is equal to _addr
+metricsFactory is equal to _addr
+metricsGroup is equal to _addr
+policyFactory is equal to _addr
+policyGroup is equal to _addr
+policySet is equal to _addr
+policy is equal to _addr
+token is equal to _addr
+lockup is equal to _addr
+lockupStorage is equal to _addr
+voteTimes is equal to _addr
+voteTimesStorage is equal to _addr
+voteCounter is equal to _addr
+voteCounterStorage is equal to _addr
+currentOwner is equal to _newOwner
+ is equal to _value
+ is equal to _value
+ is equal to _value
+ is equal to _value
+ is equal to _value
+ is equal to _value
+
+If _addr corresponds to _target1
+If  corresponds to 
+i is less then policySet count
+If policyAddress corresponds to _currentPolicyAddress
+author is equal to _own

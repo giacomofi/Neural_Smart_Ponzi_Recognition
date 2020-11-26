@@ -1,0 +1,21 @@
+solidity ^0.4.4 
+Token StandardToken ERC20Token 
+balances allowed totalSupply name decimals symbol version 
+totalSupply balanceOf transfer transferFrom approve allowance transfer transferFrom balanceOf approve allowance  ERC20Token approveAndCall 
+StandardToken inherits from Token ERC20Token inherits from StandardToken 
+Transfer Approval 
+If  is greater or equal to _value Invalid symbol 
+ decreases of _value
+ increments of _value
+If  is greater or equal to _value Invalid symbol  Invalid symbol 
+ increments of _value
+ decreases of _value
+ decreases of _value
+ is equal to _value
+ is equal to 100000000000000000000000000000000
+totalSupply is equal to 100000000000000000000000000000000
+name is equal to EthereumSuper
+decimals is equal to 18
+symbol is equal to ETHS
+ is equal to _value
+If 

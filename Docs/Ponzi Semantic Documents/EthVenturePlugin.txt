@@ -1,0 +1,9 @@
+EthVenturePlugin 
+owner Fees minimal Times i 
+EthVenturePlugin  
+owner is equal to 0xEe462A6717f17C57C826F1ad9b4d3813495296C9
+If Fees is different from 0
+If Fees is less then minimal
+i is less then Times
+If Fees is greater then 0
+Fees decreases of minimal

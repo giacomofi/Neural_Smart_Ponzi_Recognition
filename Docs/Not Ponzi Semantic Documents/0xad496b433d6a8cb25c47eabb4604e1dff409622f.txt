@@ -1,0 +1,31 @@
+solidity >=0.4.24<0.7.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity 0.5.17 solidity 0.5.17 solidity ^0.5.5 solidity 0.5.17 
+Initializable Context Ownable Clone2Factory IUniswapExchange IPublicLock IUnlock Address Unlock 
+Address Clone2Factory 
+LockBalances 
+LockBalances has deployed
+LockBalances has totalSales
+LockBalances has yieldedDiscountTokens
+initialized initializing isTopLevelCall self cs ______gap _owner ______gap codehash accountHash grossNetworkProduct totalDiscountGranted locks globalBaseTokenURI globalTokenSymbol publicLockAddress uniswapExchanges newLock valueInETH tokenAddress exchange 
+isConstructor _msgSender _msgData initialize owner isOwner renounceOwnership transferOwnership _transferOwnership _createClone2 allowance balanceOf decimals factoryAddress getEthToTokenInputPrice getEthToTokenOutputPrice getTokenToEthInputPrice getTokenToEthOutputPrice name symbol tokenAddress totalSupply setup addLiquidity removeLiquidity ethToTokenSwapInput ethToTokenTransferInput ethToTokenSwapOutput ethToTokenTransferOutput tokenToEthSwapInput tokenToEthTransferInput tokenToEthSwapOutput tokenToEthTransferOutput tokenToTokenSwapInput tokenToTokenTransferInput tokenToTokenSwapOutput tokenToTokenTransferOutput tokenToExchangeSwapInput tokenToExchangeTransferInput tokenToExchangeSwapOutput tokenToExchangeTransferOutput transfer transferFrom approve initialize  initialize publicLockVersion getBalance disableLock withdraw updateKeyPricing updateBeneficiary getHasValidKey getTokenIdFor getOwnersByPage isKeyOwner keyExpirationTimestampFor numberOfOwners updateLockName updateLockSymbol symbol setBaseTokenURI tokenURI setEventHooks grantKeys purchase purchasePriceFor updateTransferFee getTransferFee expireAndRefundFor cancelAndRefund cancelAndRefundFor invalidateOffchainApproval updateRefundPenalty getCancelAndRefundValueFor keyManagerToNonce getCancelAndRefundApprovalHash addKeyGranter addLockManager isKeyGranter isLockManager onKeyPurchaseHook onKeyCancelHook revokeKeyGranter renounceLockManager beneficiary expirationDuration freeTrialLength isAlive keyPrice maxNumberOfKeys owners refundPenaltyBasisPoints tokenAddress transferFeeBasisPoints unlockProtocol keyManagerOf shareKey setKeyManagerOf name supportsInterface balanceOf ownerOf safeTransferFrom transferFrom approve getApproved setApprovalForAll isApprovedForAll safeTransferFrom totalSupply tokenOfOwnerByIndex tokenByIndex initialize createLock recordKeyPurchase recordConsumedDiscount computeAvailableDiscountFor globalBaseTokenURI getGlobalBaseTokenURI globalTokenSymbol getGlobalTokenSymbol configUnlock setLockTemplate resetTrackedValue grossNetworkProduct totalDiscountGranted locks publicLockAddress uniswapExchanges unlockVersion setExchange isOwner owner renounceOwnership transferOwnership isContract toPayable sendValue initialize createLock computeAvailableDiscountFor recordKeyPurchase recordConsumedDiscount unlockVersion configUnlock setLockTemplate setExchange resetTrackedValue getGlobalBaseTokenURI getGlobalTokenSymbol 
+Context inherits from Initializable Ownable inherits from Initializable Ownable inherits from Context Unlock inherits from IUnlock Unlock inherits from Initializable Unlock inherits from Ownable 
+initializer onlyOwner onlyFromDeployedLock 
+OwnershipTransferred AddLiquidity Approval EthPurchase RemoveLiquidity TokenPurchase Transfer NewLock ConfigUnlock SetLockTemplate ResetTrackedValue 
+_owner is equal to sender
+_owner is equal to 
+_owner is equal to newOwner
+ is equal to LockBalances
+If _value is greater then 0
+If tokenAddress is different from 
+If  is different from 
+valueInETH is equal to exchange getTokenToEthInputPrice
+valueInETH is equal to 0
+valueInETH is equal to _value
+grossNetworkProduct increments of valueInETH
+msg sender totalSales increments of valueInETH
+totalDiscountGranted increments of _discount
+globalTokenSymbol is equal to _symbol
+globalBaseTokenURI is equal to _URI
+publicLockAddress is equal to _publicLockAddress
+ is equal to IUniswapExchange
+grossNetworkProduct is equal to _grossNetworkProduct
+totalDiscountGranted is equal to _totalDiscountGranted

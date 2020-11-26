@@ -1,0 +1,21 @@
+solidity 0.5.14 
+SafeMath IERC20 SwapToken 
+SafeMath 
+Swap 
+Swap has partyA
+Swap has partyAswap
+Swap has partyAtkn
+Swap has partyB
+Swap has partyBswap
+Swap has partyBtkn
+Swap has swapNumber
+Swap has swapTermination
+Swap has details
+Swap has executed
+c c c c swapsRegistered swaps swapNumber swapTermination swap 
+add sub sub mul div div mod mod totalSupply balanceOf transfer allowance approve transferFrom registerSwap executeSwap 
+Transfer Approval Registered Executed 
+If a corresponds to 0
+swapsRegistered is equal to swapsRegistered add
+ is equal to Swap
+swap executed is equal to True

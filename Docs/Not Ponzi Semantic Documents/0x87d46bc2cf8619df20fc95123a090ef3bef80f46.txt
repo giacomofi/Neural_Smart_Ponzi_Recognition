@@ -1,0 +1,46 @@
+solidity ^0.4.18 
+SafeMath AltcoinToken ERC20Basic ERC20 PCX 
+SafeMath 
+totalSupply owner balances allowed blacklist name symbol decimals totalSupply tokenPerETH valueToGive totalDistributed totalRemaining distributionFinished teamtoken investor invest toGive toGive bonus t bal myAddress etherBalance token amount burner 
+mul div sub add balanceOf transfer balanceOf transfer allowance transferFrom approve PCX transferOwnership finishDistribution distr  buyToken balanceOf transfer transferFrom approve allowance getTokenBalance withdraw withdrawAltcoinTokens burn burnFrom 
+ERC20 inherits from ERC20Basic PCX inherits from ERC20 
+canDistr onlyOwner onlyPayloadSize 
+Transfer Approval Transfer Approval Distr DistrFinished Burn 
+If a corresponds to 0
+c is equal to a multiplied by b
+c is equal to a plus b
+owner is equal to msg sender
+If newOwner is different from 
+owner is equal to newOwner
+distributionFinished is equal to True
+totalDistributed is equal to totalDistributed add
+totalRemaining is equal to totalRemaining sub
+ is equal to balances _to add
+If invest corresponds to 0
+ is equal to True
+valueToGive is equal to 
+If invest is greater then 0
+If _invest is greater or equal to 1 ether divided by 100 Invalid symbol 
+bonus is equal to toGive multiplied by 1 divided by 100
+If _invest is greater or equal to 1 ether divided by 100 Invalid symbol 
+bonus is equal to toGive multiplied by 1 divided by 100
+If _invest is greater or equal to 1 ether divided by 100 Invalid symbol 
+bonus is equal to toGive multiplied by 10 divided by 100
+If _invest is greater or equal to 1 ether divided by 10 Invalid symbol 
+bonus is equal to toGive multiplied by 20 divided by 100
+If _invest is greater or equal to 1 ether
+bonus is equal to toGive multiplied by 50 divided by 100
+toGive is equal to toGive add
+ is equal to msg sender sub
+ is equal to balances _to add
+ is equal to balances _from sub
+ is equal to allowed _from msg sender sub
+ is equal to balances _to add
+If _value is different from 0 Invalid symbol 
+ is equal to _value
+ is equal to balances burner sub
+totalSupply is equal to totalSupply sub
+totalDistributed is equal to totalDistributed sub
+ is equal to balances _burner sub
+totalSupply is equal to totalSupply sub
+totalDistributed is equal to totalDistributed sub

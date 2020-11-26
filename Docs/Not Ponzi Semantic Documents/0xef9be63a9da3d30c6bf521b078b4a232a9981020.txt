@@ -1,0 +1,6 @@
+solidity ^0.6.0 
+AccountInterface EventInterface Basics Auth ConnectAuth 
+_eventCode _eventParam _eventCode _eventParam name 
+enable disable emitEvent getEventAddr connectorID addModule removeModule 
+Auth inherits from Basics ConnectAuth inherits from Auth 
+LogAddAuth LogRemoveAuth 

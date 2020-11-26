@@ -1,0 +1,108 @@
+Ethstick 
+Donkey Entry 
+Donkey has addr
+Donkey has nickname
+Donkey has invested
+Entry has entryAddress
+Entry has deposit
+Entry has payout
+Entry has paid
+pig balance maxDeposit fee multiplier payoutOrder donkeysInvested investmentRecord carrots eligibleForFees donkeyKing donkeys entries ranking dValue index newEntry done samePosition existingAt payout fees luckyDonkey i FACTOR factor lastBlockNumber hashVal 
+Ethstick  init chase rankDown addNewDonkey rand changePig changeMultiplier changeFee changeMaxDeposit changeRankingSize changeEligibleDonkeys setNickname carrotsCaught currentBalance theDonkeyKing donkeyName currentMultiplier generousFee nextPayoutGoal totalEntries entryDetails donkeyRanking donkeyInvested totalInvested currentDepositLimit donkeysEligibleForFees 
+onlypig 
+NewKing 
+pig is equal to msg sender
+ranking length is equal to 10
+If msg value is less then 100 finney
+If msg value is greater then maxDeposit multiplied by 1 ether
+dValue is equal to maxDeposit multiplied by 1 ether
+dValue is equal to msg value
+balance increments of  divided by 100
+donkeysInvested increments of dValue
+msg sender invested increments of dValue
+While ranking index invested is less then newEntry Invalid symbol 
+If index is greater then 0
+done is equal to  addr invested is greater then newEntry
+If ranking index addr corresponds to msg sender
+existingAt is equal to index
+
+If ranking index addr corresponds to msg sender
+ is equal to 
+samePosition is equal to True
+If not done
+done is equal to True
+index is equal to 0
+If ranking index addr corresponds to msg sender Invalid symbol 
+ is equal to 
+samePosition is equal to True
+If not samePosition
+ is equal to 
+While balance is greater then entries payoutOrder payout
+entries payoutOrder paid is equal to True
+balance decreases of payout
+If fees is greater then 0
+If entries length is greater or equal to 50 Invalid symbol 
+fees is equal to dValue multiplied by fee divided by 100
+If ranking luckyDonkey addr is different from 
+If msg sender invested is greater then investmentRecord
+donkeyKing is equal to msg sender
+investmentRecord is equal to msg sender invested
+If ranking 0 addr is different from donkeys donkeyKing addr Invalid symbol 
+ is equal to 
+ is equal to 
+i is greater then index
+ is equal to 
+If donkeys Address addr corresponds to 
+donkeys Address addr is equal to Address
+donkeys Address nickname is equal to GullibleDonkey
+donkeys Address invested is equal to 0
+pig is equal to newPig
+If multi is less then 110 Invalid symbol 
+multiplier is equal to multi
+If newFee is greater then 5
+fee is equal to newFee
+If max is less then 1 Invalid symbol 
+maxDeposit is equal to max
+If size is less then 5 Invalid symbol 
+ranking length is equal to size
+If number is less then 5 Invalid symbol 
+eligibleForFees is equal to number
+If  is greater or equal to 2 Invalid symbol 
+msg sender nickname is equal to name
+amount is equal to carrots
+info is equal to The number of payouts sent to participants.
+theBalance is equal to balance divided by 1 finney
+info is equal to The balance of the contract in Finneys.
+king is equal to donkeyKing
+nickname is equal to donkeys donkeyKing nickname
+totalInvested is equal to donkeys donkeyKing invested divided by 1 ether
+info is equal to The greediest of all donkeys. You go, ass!
+nickname is equal to donkeys Address nickname
+theMultiplier is equal to multiplier
+info is equal to The multiplier applied to all deposits (x100). It determines the amount of money you will get when you catch the carrot.
+feePercentage is equal to fee
+info is equal to The generously modest fee percentage applied to all deposits. It can change to lure more donkeys (max 5%).
+finneys is equal to  divided by 1 finney
+info is equal to The amount of Finneys (Ethers * 1000) that need to be deposited for the next donkey to catch his carrot.
+count is equal to entries length
+info is equal to The number of times the carrot was chased by gullible donkeys.
+If index is less then entries length Invalid symbol 
+donkey is equal to entries index entryAddress
+nickName is equal to entries index entryAddress nickname
+deposit is equal to entries index deposit divided by 1 finney
+payout is equal to entries index payout divided by 1 finney
+paid is equal to entries index paid
+info is equal to Entry info: donkey address, name, deposit, expected payout in Finneys, payout status.
+If index is less then ranking length
+donkey is equal to ranking index addr
+nickname is equal to ranking index addr nickname
+totalInvested is equal to ranking index addr invested divided by 1 ether
+info is equal to Top donkey stats: address, name, ethers deposited. Lower index number means higher rank.
+invested is equal to 
+info is equal to The amount of Ethers the donkey has chased carrots with.
+invested is equal to donkeysInvested divided by 1 ether
+info is equal to The combined investments of all donkeys in Ethers.
+ethers is equal to maxDeposit
+info is equal to The current maximum number of Ethers you may deposit at once.
+top is equal to eligibleForFees
+info is equal to The number of donkeys in the ranking that are eligible to receive fees.

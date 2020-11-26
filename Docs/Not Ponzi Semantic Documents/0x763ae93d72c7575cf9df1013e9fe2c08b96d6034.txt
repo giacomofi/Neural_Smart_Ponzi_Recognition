@@ -1,0 +1,22 @@
+solidity ^0.4.21 
+BitXCoin 
+MAX_UINT256 balances allowed name decimals symbol totalSupply allowance 
+transfer transferFrom balanceOf approve allowance 
+Transfer Approval 
+totalSupply is equal to _initialAmount
+ is equal to totalSupply
+ is equal to 
+name is equal to _tokenName
+decimals is equal to _decimalUnits
+symbol is equal to _tokenSymbol
+ decreases of _value
+ increments of _value
+If _allowed is greater then 0
+ increments of _allowed
+ increments of _value
+ increments of _value
+ decreases of _value
+If allowance is less then MAX_UINT256
+ decreases of _value
+ increments of _value
+ is equal to _value

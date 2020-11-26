@@ -1,0 +1,35 @@
+solidity ^0.5.4 
+SafeMath ReserveEternalStorage IERC20 Reserve 
+SafeMath SafeMath 
+c c c c owner escapeHatch balance allowed frozenTime data name symbol decimals totalSupply paused owner minter pauser freezer nominatedOwner 
+mul div sub add mod transferOwnership transferEscapeHatch addBalance subBalance setBalance setAllowed setFrozenTime transfer approve transferFrom totalSupply balanceOf allowance getEternalStorageAddress changeMinter changePauser changeFreezer nominateNewOwner acceptOwnership renounceOwnership transferEternalStorage changeName pause unpause freeze unfreeze wipe balanceOf allowance transfer approve transferFrom increaseAllowance decreaseAllowance mint burnFrom _transfer _burn _approve 
+Reserve inherits from IERC20 
+onlyOwner only onlyOwnerOr notPaused notFrozen 
+OwnershipTransferred EscapeHatchTransferred Transfer Approval OwnerChanged MinterChanged PauserChanged FreezerChanged Paused Unpaused NameChanged Frozen Unfrozen Wiped 
+If a corresponds to 0
+owner is equal to msg sender
+escapeHatch is equal to escapeHatchAddress
+owner is equal to newOwner
+escapeHatch is equal to newEscapeHatch
+ is equal to balance key add
+ is equal to balance key sub
+ is equal to value
+ is equal to value
+ is equal to time
+data is equal to 
+owner is equal to msg sender
+pauser is equal to msg sender
+minter is equal to newMinter
+pauser is equal to newPauser
+freezer is equal to newFreezer
+nominatedOwner is equal to nominee
+If msg sender is different from owner
+owner is equal to msg sender
+nominatedOwner is equal to 
+owner is equal to 
+name is equal to newName
+symbol is equal to newSymbol
+paused is equal to True
+paused is equal to False
+totalSupply is equal to totalSupply add
+totalSupply is equal to totalSupply sub

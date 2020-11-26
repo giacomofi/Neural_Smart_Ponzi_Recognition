@@ -1,0 +1,64 @@
+solidity ^0.5.17 
+ERC20Token Ownable ShuffleRaffle_v2 SafeMath UniswapExchangeInterface UniswapFactoryInterface Gastoken 
+SafeMath 
+Order 
+Order has position
+Order has size
+Order has owner
+owner TicketBook ZERO_ADDRESS shufAddress shuf UniShuf UniFactory gastoken RaffleNo NextRaffle TicketPrice PickerReward minTickets RafflePerc dappDivsPerc dappAddress nextTicketPrice nextPickerReward nextminTickets nextRafflePerc nextdappDivsPerc nextdappAddress random_seed raffle_closed _tt i mustPickWinner TotalTickets bill TotalTickets bill ethBill TotalTickets token tokenExchange UniToken bill ethBill tokenBill TotalTickets contract_shuf_balance t gaslimit Totaltickets winningticket winner reward divs oldticketPrice oldpickerReward oldminTickets oldRafflePerc olddappDivsPerc olddappAddress TotalOrders Totaltickets L R raffleno m Am r c c c c 
+totalSupply balanceOf allowance transfer approve transferFrom transferOwnership TicketsOfAddress Stats BuyTicket BuyTicketEth BuyTicketUniswap pushTickets pickWinner _find_curr_position _find_winner setTicketPrice setPickerReward setminTickets setRafflePerc setdappDivsPerc setdappAddress _random divRound add sub sub mul div div getEthToTokenOutputPrice getTokenToEthOutputPrice ethToTokenTransferOutput tokenToTokenTransferOutput getExchange freeUpTo 
+ShuffleRaffle_v2 inherits from Ownable 
+onlyOwner 
+OwnershipTransferred Ticket Winner RaffleClosed TicketPriceChanged PickerRewardChanged minTicketsChanged RafflePercChanged dappDivsPercChanged dappAddressChanged 
+owner is equal to msg sender
+owner is equal to newOwner
+i is less then TicketBook RaffleNo length
+If TicketBook RaffleNo i owner corresponds to addr
+_tt is equal to _tt add
+If now is greater then NextRaffle Invalid symbol 
+mustPickWinner is equal to True
+mustPickWinner is equal to False
+If now is greater then NextRaffle
+NextRaffle is equal to NextRaffle add
+If now is greater then NextRaffle
+NextRaffle is equal to NextRaffle add
+If msg value is greater then ethBill
+If now is greater then NextRaffle
+NextRaffle is equal to NextRaffle add
+If token allowance is less then tokenBill
+t size is equal to tickets
+t owner is equal to msg sender
+t position is equal to TotalTickets plus tickets
+If raffle_closed corresponds to False
+raffle_closed is equal to True
+random_seed is equal to block number
+RaffleNo is equal to RaffleNo add
+NextRaffle is equal to NextRaffle add
+raffle_closed is equal to False
+If dappDivsPerc is greater then 0
+reward is equal to reward sub
+reward is equal to reward sub
+If nextTicketPrice is different from TicketPrice
+TicketPrice is equal to nextTicketPrice
+If nextPickerReward is different from PickerReward
+PickerReward is equal to nextPickerReward
+If nextminTickets is different from minTickets
+minTickets is equal to nextminTickets
+If nextRafflePerc is different from RafflePerc
+RafflePerc is equal to nextRafflePerc
+If nextdappDivsPerc is different from dappDivsPerc
+dappDivsPerc is equal to nextdappDivsPerc
+If dappAddress is different from dappAddress
+dappAddress is equal to nextdappAddress
+While L is less or equal to R
+If Am position is less then winning_ticket
+L is equal to m add
+nextTicketPrice is equal to newticketprice
+nextPickerReward is equal to newpickerreward
+nextminTickets is equal to newmintickets
+nextRafflePerc is equal to newRafflePerc
+nextdappDivsPerc is equal to newdappDivsPerc
+nextdappAddress is equal to newdappAddress
+If x Invalid symbol y is different from 0
+r is equal to r plus 1
+If a corresponds to 0

@@ -1,0 +1,10 @@
+solidity 0.5.16 
+Ownable IFlashWETH IExchange ExampleExchangeThief 
+_owner exchange fWETH 
+owner isOwner renounceOwnership transferOwnership _transferOwnership deposit withdraw flashMint totalSupply balanceOf transfer allowance approve transferFrom depositETH depositFWETH withdrawETH withdrawFWETH internalSwapToETH internalSwapToFWETH ethBalance fwethBalance fWETH  beginFlashMint executeOnFlashMint withdrawMyETH withdrawMyFWETH ethBalance fwethBalance 
+ExampleExchangeThief inherits from Ownable 
+onlyOwner 
+OwnershipTransferred Transfer Approval 
+_owner is equal to msg sender
+_owner is equal to 
+_owner is equal to newOwner

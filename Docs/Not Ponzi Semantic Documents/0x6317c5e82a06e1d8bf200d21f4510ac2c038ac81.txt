@@ -1,0 +1,34 @@
+solidity 0.5.12 experimental ABIEncoderV2 
+PoolInterface TokenInterface ExchangeProxy 
+Swap 
+Swap has pool
+Swap has tokenInParam
+Swap has tokenOutParam
+Swap has maxPrice
+_mutex weth c TI TO i swap pool TI TO i swap pool TO i swap pool wethBalance TI i swap pool wethBalance TO i swap pool wethBalance TI i swap pool wethBalance 
+swapExactAmountIn swapExactAmountOut balanceOf allowance approve transfer transferFrom deposit withdraw add batchSwapExactIn batchSwapExactOut batchEthInSwapExactIn batchEthOutSwapExactIn batchEthInSwapExactOut batchEthOutSwapExactOut  
+_logs_ _lock_ 
+LOG_CALL 
+_mutex is equal to True
+_mutex is equal to False
+weth is equal to TokenInterface
+i is less then swaps length
+If TI allowance is less then totalAmountIn
+totalAmountOut is equal to add
+i is less then swaps length
+If TI allowance is less then maxTotalAmountIn
+totalAmountIn is equal to add
+i is less then swaps length
+If weth allowance is less then msg value
+totalAmountOut is equal to add
+If wethBalance is greater then 0
+i is less then swaps length
+If TI allowance is less then totalAmountIn
+totalAmountOut is equal to add
+i is less then swaps length
+If weth allowance is less then msg value
+totalAmountIn is equal to add
+If wethBalance is greater then 0
+i is less then swaps length
+If TI allowance is less then maxTotalAmountIn
+totalAmountIn is equal to add

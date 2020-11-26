@@ -1,0 +1,16 @@
+solidity ^0.5.12 
+LibNote VatLike GemLike5 GemJoin5 
+wards vat ilk gem dec live wad18 wad18 
+slip decimals transfer transferFrom rely deny cage mul join exit 
+GemJoin5 inherits from LibNote 
+note auth 
+LogNote 
+ is equal to 1
+ is equal to 0
+gem is equal to GemLike5
+dec is equal to gem decimals
+ is equal to 1
+live is equal to 1
+vat is equal to VatLike
+ilk is equal to ilk_
+live is equal to 0

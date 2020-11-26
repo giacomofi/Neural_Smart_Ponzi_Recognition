@@ -1,0 +1,37 @@
+solidity ^0.5.8 
+SafeMath ReentrancyGuard Ownable Roles PauserRole Pausable WCKAds ERC20 KittyCore KittyAuction 
+Roles SafeMath 
+Role AdvertisingSlot 
+Role has bearer
+AdvertisingSlot has kittyIdBeingAdvertised
+AdvertisingSlot has blockThatPriceWillResetAt
+AdvertisingSlot has valuationPrice
+AdvertisingSlot has slotOwner
+c c c c _guardCounter localCounter _owner _pausers _paused advertisingSlots kittyCoreContractAddress kittySalesContractAddress kittySiresContractAddress wckContractAddress minimumPriceIncrementInBasisPoints maxRentalPeriodInBlocks minimumRentalPrice currentSlot seller currentSlot newBlockThatPriceWillResetAt newAdvertisingSlot currentSlot 
+mul div sub add mod owner isOwner renounceOwnership transferOwnership _transferOwnership add remove has isPauser addPauser renouncePauser _addPauser _removePauser paused pause unpause getCurrentPriceToRentAdvertisingSlot ownsKitty rentAdvertisingSlot changeKittyIdBeingAdvertised ownerUpdateMinimumRentalPrice ownerUpdateMinimumPriceIncrement ownerUpdateMaxRentalPeriod ownerWithdrawERC20 ownerWithdrawEther  _computeNextPrice transfer transferFrom ownerOf getAuction 
+Pausable inherits from PauserRole WCKAds inherits from ReentrancyGuard WCKAds inherits from Ownable WCKAds inherits from Pausable 
+nonReentrant onlyOwner onlyPauser whenNotPaused whenPaused 
+OwnershipTransferred PauserAdded PauserRemoved Paused Unpaused AdvertisingSlotRented AdvertisingSlotContentsChanged 
+If a corresponds to 0
+_guardCounter is equal to 1
+_guardCounter increments of 1
+_owner is equal to msg sender
+_owner is equal to 
+_owner is equal to newOwner
+ is equal to True
+ is equal to False
+_paused is equal to False
+_paused is equal to True
+_paused is equal to False
+If block number is less then currentSlot blockThatPriceWillResetAt
+If  corresponds to _address
+ is equal to 
+If seller corresponds to _address
+ is equal to 
+If seller corresponds to _address
+If block number is less then currentSlot blockThatPriceWillResetAt
+ is equal to newAdvertisingSlot
+currentSlot kittyIdBeingAdvertised is equal to _kittyId
+minimumRentalPrice is equal to _newMinimumRentalPrice
+minimumPriceIncrementInBasisPoints is equal to _newMinimumPriceIncrementInBasisPoints
+maxRentalPeriodInBlocks is equal to _newMaxRentalPeriodInBlocks

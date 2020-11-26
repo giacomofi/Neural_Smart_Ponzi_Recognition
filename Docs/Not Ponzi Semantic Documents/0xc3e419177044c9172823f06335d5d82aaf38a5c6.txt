@@ -1,0 +1,36 @@
+solidity ^0.5.0 
+IERC20 Roles PauserRole SafeMath ERC20 MinterRole KVPStore Ownable ERC20Detailed ERC20Mintable ERC20Burnable Pausable MegaERC20 KVPMegaERC20 
+Roles SafeMath Roles 
+Role 
+Role has bearer
+_pausers c c c c _balances _allowed _totalSupply _minters jsonKvps _owner _name _symbol _decimals _paused cap 
+transfer approve transferFrom totalSupply balanceOf allowance add remove has isPauser addPauser renouncePauser _addPauser _removePauser mul div sub add mod totalSupply balanceOf allowance transfer approve transferFrom increaseAllowance decreaseAllowance _transfer _mint _burn _burnFrom isMinter addMinter renounceMinter _addMinter _removeMinter getKvps owner isOwner renounceOwnership transferOwnership _transferOwnership name symbol decimals mint burn burnFrom paused pause unpause mint transfer transferFrom approve increaseAllowance decreaseAllowance 
+ERC20 inherits from IERC20 ERC20Detailed inherits from IERC20 ERC20Mintable inherits from ERC20 ERC20Mintable inherits from MinterRole ERC20Burnable inherits from ERC20 Pausable inherits from PauserRole MegaERC20 inherits from Ownable MegaERC20 inherits from ERC20Detailed MegaERC20 inherits from ERC20Mintable MegaERC20 inherits from ERC20Burnable MegaERC20 inherits from Pausable KVPMegaERC20 inherits from MegaERC20 KVPMegaERC20 inherits from KVPStore 
+onlyPauser onlyMinter onlyOwner whenNotPaused whenPaused 
+Transfer Approval PauserAdded PauserRemoved MinterAdded MinterRemoved OwnershipTransferred Paused Unpaused 
+ is equal to True
+ is equal to False
+If a corresponds to 0
+ is equal to value
+ is equal to _allowed from msg sender sub
+ is equal to msg sender spender add
+ is equal to msg sender spender sub
+ is equal to _balances from sub
+ is equal to _balances to add
+_totalSupply is equal to _totalSupply add
+ is equal to _balances account add
+_totalSupply is equal to _totalSupply sub
+ is equal to _balances account sub
+ is equal to _allowed account msg sender sub
+jsonKvps is equal to _jsonKvps
+_owner is equal to msg sender
+_owner is equal to 
+_owner is equal to newOwner
+_name is equal to name
+_symbol is equal to symbol
+_decimals is equal to decimals
+_paused is equal to False
+_paused is equal to True
+_paused is equal to False
+cap is equal to _cap
+If cap is greater then 0

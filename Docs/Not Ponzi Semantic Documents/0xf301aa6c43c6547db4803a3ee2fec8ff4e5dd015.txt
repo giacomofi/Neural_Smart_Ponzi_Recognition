@@ -1,0 +1,10 @@
+solidity ^0.5.10 
+Token BalanceChecker 
+tokenCode addrBalances i j addrIdx 
+balanceOf  tokenBalance balances 
+If tokenCode is greater then 0
+i is less then users length
+j is less then tokens length
+If  is different from 
+ is equal to tokenBalance
+ is equal to users i balance

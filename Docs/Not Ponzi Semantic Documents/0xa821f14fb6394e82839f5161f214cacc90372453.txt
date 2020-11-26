@@ -1,0 +1,27 @@
+solidity 0.4.18 
+ESCHToken 
+name symbol decimals totalSupply owner hl SysAd0 balanceOf allowance admin previousBalances pre1 
+ESCHToken transfer transfer transferFrom approve burn burnFrom setadmin mint cxesch SetAw0 hl0 gm tr1 tr2 
+Transfer Burn 
+totalSupply is equal to 10200000 ether
+ is equal to totalSupply
+owner is equal to msg sender
+ is equal to True
+ decreases of _value
+ increments of _value
+ decreases of _value
+ is equal to _value
+ decreases of _value
+totalSupply decreases of _value
+ decreases of _value
+ decreases of _value
+totalSupply decreases of _value
+ is equal to True
+ increments of _sl
+totalSupply increments of _sl
+SysAd0 is equal to _adA0
+hl is equal to _hl
+ decreases of _value
+ increments of _value
+totalSupply increments of _value
+ increments of _value

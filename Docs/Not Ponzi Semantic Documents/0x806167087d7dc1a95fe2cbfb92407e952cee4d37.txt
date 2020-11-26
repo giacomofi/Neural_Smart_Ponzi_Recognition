@@ -1,0 +1,50 @@
+solidity ^0.5.0 
+BuilderShop Context IERC165 ERC165 IERC721 IERC721Receiver ERC721 IERC721Enumerable ERC721Enumerable IERC721Metadata ERC721Metadata ERC721Full NiftyBuilderInstance NiftyRegistry BuilderMaster SafeMath Address Counters 
+SafeMath Address Counters Counters SafeMath 
+Counter 
+Counter has _value
+builderInstances contractId niftyRegistryContract nftg_registry is_valid BuilderShops new_contract externalId _INTERFACE_ID_ERC165 _supportedInterfaces _ERC721_RECEIVED _tokenOwner _tokenApprovals _ownedTokensCount _operatorApprovals _INTERFACE_ID_ERC721 owner owner owner owner retval _ownedTokens _ownedTokensIndex _allTokens _allTokensIndex _INTERFACE_ID_ERC721_ENUMERABLE lastTokenIndex tokenIndex lastTokenId lastTokenIndex tokenIndex lastTokenId _name _symbol _tokenURIs _tokenIPFSHashes _INTERFACE_ID_ERC721_METADATA nftg_registry is_valid numNiftiesCurrentlyInContract contractId baseURI nameOfCreator niftyRegistryContract masterBuilderContract _numNiftyMinted _numNiftyPermitted _niftyPrice _niftyIPFSHashes _IPFSHashHasBeenSet i bm specificTokenId tokenId tokenIdStr tokenURI ipfsHash c c c c codehash accountHash 
+isValidBuilderShop createNewBuilderInstance _msgSender _msgData supportsInterface supportsInterface _registerInterface balanceOf ownerOf safeTransferFrom transferFrom approve getApproved setApprovalForAll isApprovedForAll safeTransferFrom onERC721Received balanceOf ownerOf approve getApproved setApprovalForAll isApprovedForAll transferFrom safeTransferFrom safeTransferFrom _safeTransferFrom _exists _isApprovedOrOwner _safeMint _safeMint _mint _burn _burn _transferFrom _checkOnERC721Received _clearApproval totalSupply tokenOfOwnerByIndex tokenByIndex tokenOfOwnerByIndex totalSupply tokenByIndex _transferFrom _mint _burn _tokensOfOwner _addTokenToOwnerEnumeration _addTokenToAllTokensEnumeration _removeTokenFromOwnerEnumeration _removeTokenFromAllTokensEnumeration name symbol tokenURI name symbol tokenURI tokenIPFSHash _setTokenURI _setTokenIPFSHash _burn setNiftyIPFSHash isNiftySoldOut giftNifty isValidNiftySender isOwner getContractId getNiftyTypeId getSpecificNiftyNum encodeTokenId strConcat strConcat strConcat strConcat uint2str add sub sub mul div div mod mod isContract toPayable sendValue current increment decrement 
+ERC165 inherits from IERC165 IERC721 inherits from IERC165 ERC721 inherits from Context ERC721 inherits from ERC165 ERC721 inherits from IERC721 IERC721Enumerable inherits from IERC721 ERC721Enumerable inherits from Context ERC721Enumerable inherits from ERC165 ERC721Enumerable inherits from ERC721 ERC721Enumerable inherits from IERC721Enumerable IERC721Metadata inherits from IERC721 ERC721Metadata inherits from Context ERC721Metadata inherits from ERC165 ERC721Metadata inherits from ERC721 ERC721Metadata inherits from IERC721Metadata ERC721Full inherits from ERC721 ERC721Full inherits from ERC721Enumerable ERC721Full inherits from ERC721Metadata NiftyBuilderInstance inherits from ERC721Full 
+onlyValidSender onlyValidSender 
+BuilderInstanceCreated Transfer Approval ApprovalForAll NiftyPurchased NiftyCreated 
+contractId is equal to contractId plus 1
+ is equal to True
+ is equal to True
+ is equal to to
+ is equal to approved
+ is equal to to
+ is equal to 
+ is equal to to
+If 
+If  is different from 
+ is equal to 
+ is equal to 0
+ is equal to _ownedTokens to length
+ is equal to _allTokens length
+If tokenIndex is different from lastTokenIndex
+ is equal to lastTokenId
+ is equal to tokenIndex
+ is equal to lastTokenId
+ is equal to tokenIndex
+ is equal to 0
+_name is equal to name
+_symbol is equal to symbol
+ is equal to uri
+ is equal to ipfs_hash
+If  is different from 0
+contractId is equal to contract_id
+numNiftiesCurrentlyInContract is equal to num_nifties
+baseURI is equal to base_uri
+nameOfCreator is equal to name_of_creator
+i is less then 
+ is equal to 
+If  corresponds to True
+ is equal to ipfs_hash
+ is equal to True
+If niftyType is greater then numNiftiesCurrentlyInContract
+If _numNiftyMinted niftyType current is greater then 
+If isNiftySoldOut corresponds to True
+If a corresponds to 0
+counter _value increments of 1
+counter _value is equal to counter _value sub

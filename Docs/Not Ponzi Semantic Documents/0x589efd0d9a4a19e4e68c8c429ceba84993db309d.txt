@@ -1,0 +1,23 @@
+solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 
+IERC23 SafeMath ERC23 ERC23Detailed ERC23Burnable Ownable KURCHAIN_TOKEN 
+SafeMath 
+c c c c _balances _allowances _totalSupply _name _symbol _decimals _owner i 
+totalSupply balanceOf transfer allowance approve transferFrom add sub mul div mod totalSupply balanceOf transfer allowance approve transferFrom increaseAllowance decreaseAllowance _transfer _mint _burn _approve _burnFrom name symbol decimals burn burnFrom owner isOwner renounceOwnership transferOwnership _transferOwnership distributeToken 
+ERC23 inherits from IERC23 ERC23Detailed inherits from IERC23 ERC23Burnable inherits from ERC23 KURCHAIN_TOKEN inherits from ERC23 KURCHAIN_TOKEN inherits from ERC23Detailed KURCHAIN_TOKEN inherits from ERC23Burnable KURCHAIN_TOKEN inherits from Ownable 
+onlyOwner 
+Transfer Approval OwnershipTransferred 
+If a corresponds to 0
+ is equal to _balances sender sub
+ is equal to _balances recipient add
+_totalSupply is equal to _totalSupply add
+ is equal to _balances account add
+_totalSupply is equal to _totalSupply sub
+ is equal to _balances account sub
+ is equal to value
+_name is equal to name
+_symbol is equal to symbol
+_decimals is equal to decimals
+_owner is equal to msg sender
+_owner is equal to 
+_owner is equal to newOwner
+i is less then addresses length

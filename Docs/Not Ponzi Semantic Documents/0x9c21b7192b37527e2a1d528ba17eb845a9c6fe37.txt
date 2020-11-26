@@ -1,0 +1,41 @@
+solidity ^0.6.0 experimental ABIEncoderV2 
+AccountInterface ListInterface IndexInterface ConnectorsInterface Helpers SmartAccountResolver ConnectorsResolver 
+UserLink UserList AccountLink AccountList List OwnerData 
+UserLink has first
+UserLink has last
+UserLink has count
+UserList has prev
+UserList has next
+AccountLink has first
+AccountLink has last
+AccountLink has count
+AccountList has prev
+AccountList has next
+List has prev
+List has next
+OwnerData has IDs
+OwnerData has accounts
+OwnerData has versions
+index list connectors indexContract listContract connectorsContract userLink IDs id i userList IDs accounts i accountLink owners owner i accountList versions i accounts name version count enabledAddr addressess i list count addressess i 
+isAuth sheild version accounts accountID accountAddr userLink userList accountLink accountList master list connectors account check versionCount chief connectors staticConnectors count first last list staticCount staticList isConnector isStaticConnector getID getAccount getOwnerIDs getOwnerAccounts getIDOwners getAccountOwners getAccountVersions getOwnerDetails getEnabledConnectores getStaticConnectores 
+SmartAccountResolver inherits from Helpers ConnectorsResolver inherits from SmartAccountResolver 
+i is less then userLink count
+ is equal to id
+id is equal to userList next
+i is less then IDs length
+ is equal to getAccount
+i is less then accountLink count
+ is equal to owner
+owner is equal to accountList next
+i is less then accounts length
+ is equal to 
+indexContract is equal to IndexInterface
+list is equal to indexContract list
+listContract is equal to ListInterface
+connectors is equal to indexContract connectors
+connectorsContract is equal to ConnectorsInterface
+ is equal to enabledAddr
+i is less then count
+ is equal to list next
+i is less then count
+ is equal to connectorsContract staticList

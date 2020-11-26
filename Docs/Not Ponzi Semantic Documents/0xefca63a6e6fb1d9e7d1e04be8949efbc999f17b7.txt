@@ -1,0 +1,26 @@
+solidity ^0.5.0 
+SafeCast SafeMath GameInterface Utilities Wheel 
+SafeCast SafeCast SafeMath SafeMath SafeCast SafeMath 
+c INT256_MIN c c PROBABILITY_DIVISOR HOUSE_EDGE HOUSE_EDGE_DIVISOR tmp1 tmp2 enumerator denominator houseEdgeValue combinedHash MAX_BET_DIVIDER PAYOUT_DIVIDER RESULT_RANGE MAX_BET PAYOUT risk segments risk segments maxBetValue randNum risk segments payout payoutValue risk segments payout maxPayout i 
+castToInt castToUint mul mul div div sub sub add add maxBet resultNumber userProfit maxUserProfit maxBetFromProbability calcProfitFromTotalWon generateRandomNumber maxBet resultNumber userProfit maxUserProfit calculateProfit getRisk getSegments 
+Wheel inherits from GameInterface Wheel inherits from Utilities 
+onlyValidNum onlyValidResultNum 
+If a corresponds to 0
+c is equal to a multiplied by b
+If a corresponds to 0
+c is equal to a plus b
+ is equal to 632
+ is equal to 386
+ is equal to 134
+ is equal to 134
+ is equal to 17
+ is equal to 8
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+i is less then payout length
+If  is greater then maxPayout
+maxPayout is equal to 

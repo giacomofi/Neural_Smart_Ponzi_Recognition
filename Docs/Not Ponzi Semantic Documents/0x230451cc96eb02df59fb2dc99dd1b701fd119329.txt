@@ -1,0 +1,26 @@
+solidity ^0.5.0 
+IERC20 SafeMath ERC20Detailed KEYGOLD 
+SafeMath 
+c c c c d _name _symbol _decimals _balances _allowed tokenName tokenSymbol tokenDecimals _totalSupply basePercent roundValue onePercent tokensToBurn tokensToTransfer i tokensToBurn tokensToTransfer 
+totalSupply balanceOf allowance transfer approve transferFrom mul div sub add ceil name symbol decimals totalSupply balanceOf allowance findOnePercent transfer multiTransfer approve transferFrom increaseAllowance decreaseAllowance _mint burn _burn burnFrom 
+ERC20Detailed inherits from IERC20 KEYGOLD inherits from ERC20Detailed 
+Transfer Approval 
+If a corresponds to 0
+_name is equal to name
+_symbol is equal to symbol
+_decimals is equal to decimals
+ is equal to msg sender sub
+ is equal to _balances to add
+_totalSupply is equal to _totalSupply sub
+i is less then receivers length
+ is equal to value
+ is equal to _balances from sub
+ is equal to _balances to add
+_totalSupply is equal to _totalSupply sub
+ is equal to _allowed from msg sender sub
+ is equal to 
+ is equal to 
+ is equal to _balances account add
+_totalSupply is equal to _totalSupply sub
+ is equal to _balances account sub
+ is equal to _allowed account msg sender sub

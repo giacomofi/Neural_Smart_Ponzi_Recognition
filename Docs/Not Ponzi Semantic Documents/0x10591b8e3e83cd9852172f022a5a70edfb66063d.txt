@@ -1,0 +1,124 @@
+solidity ^0.4.19 
+Token Exchange 
+OrderPair TradeValues 
+OrderPair has makerAmountBuy
+OrderPair has makerAmountSell
+OrderPair has makerNonce
+OrderPair has takerAmountBuy
+OrderPair has takerAmountSell
+OrderPair has takerNonce
+OrderPair has takerGasFee
+OrderPair has takerIsBuying
+OrderPair has makerTokenBuy
+OrderPair has makerTokenSell
+OrderPair has maker
+OrderPair has takerTokenBuy
+OrderPair has takerTokenSell
+OrderPair has taker
+OrderPair has makerOrderHash
+OrderPair has takerOrderHash
+TradeValues has qty
+TradeValues has invQty
+TradeValues has makerAmountTaken
+TradeValues has takerAmountTaken
+standard name symbol totalSupply decimals allowTransactions balanceOf allowance c c owner admins futuresContracts futuresContractsAddedBlock balances lastActiveTransaction orderFills userAllowedFuturesContracts userFirstDeposits feeAccount EtmTokenAddress fistFuturesContract inactivityReleasePeriod withdrawn makerFee takerFee character character character character balance reserve hash hash hash i t tv i orderHash cancelHash 
+transfer approveAndCall approve transferFrom assert safeMul safeSub safeAdd setOwner getOwner setAdmin setFuturesContract  setInactivityReleasePeriod Exchange setFees updateBalanceAndReserve updateBalance updateReserve decodeBalanceAndReserve futuresContractAllowed balanceOf getReserve setReserve setBalance subBalanceAddReserve addBalanceSubReserve subBalanceSubReserve availableBalanceOf getInactivityReleasePeriod addBalance subBalance deposit depositForUser depositToken depositToken withdraw userAllowFuturesContract allowFuturesContractForUser allowFuturesContractForUserByFuturesContract adminWithdraw batchAdminWithdraw getMakerTakerBalances getUserBalances trade batchOrderTrade cancelOrder min 
+onlyOwner onlyAdmin onlyFuturesContract 
+SetFuturesContract SetOwner Trade Deposit Withdraw WithdrawTo FeeChange AllowFuturesContract LogError LogUint LogBool LogAddress InactivityReleasePeriodChange CancelOrder 
+If not assertion
+owner is equal to newOwner
+ is equal to isAdmin
+If fistFuturesContract corresponds to 
+fistFuturesContract is equal to futuresContract
+ is equal to isFuturesContract
+ is equal to block number
+If expiry is greater then 1000000
+inactivityReleasePeriod is equal to expiry
+owner is equal to msg sender
+feeAccount is equal to feeAccount_
+inactivityReleasePeriod is equal to inactivityReleasePeriod_
+makerFee is equal to makerFee_
+takerFee is equal to takerFee_
+makerFee is equal to makerFee_
+takerFee is equal to takerFee_
+character Invalid symbol reserve Invalid symbol 128
+ is equal to character
+character Invalid symbol getReserve Invalid symbol 128
+ is equal to character
+character Invalid symbol reserve Invalid symbol 128
+ is equal to character
+If fistFuturesContract corresponds to futuresContract
+If  corresponds to True
+If  is less then 
+If 
+If availableBalanceOf is less then amount
+If 
+If 
+If 
+If 
+If availableBalanceOf is less then amount
+If  corresponds to 0
+ is equal to block number
+ is equal to block number
+If  corresponds to 0
+ is equal to block number
+ is equal to block number
+If  corresponds to 0
+ is equal to block number
+ is equal to block number
+If 
+If  corresponds to 0
+ is equal to block number
+ is equal to block number
+If 
+If availableBalanceOf is less then amount
+If token corresponds to 
+If 
+If 
+If 
+ is equal to True
+If 
+If ecrecover is different from user
+ is equal to True
+If 
+If ecrecover is different from user
+ is equal to True
+
+ is equal to True
+If ecrecover is different from user
+If feeWithdrawal is greater then 50 finney
+feeWithdrawal is equal to 50 finney
+If availableBalanceOf is less then amount
+If token corresponds to 
+If 
+If 
+ is equal to block number
+i is less then amount length
+If ecrecover is different from t maker
+If ecrecover is different from t taker
+If t makerTokenBuy is different from t takerTokenSell Invalid symbol 
+If t takerGasFee is greater then 100 finney
+If 
+If t takerIsBuying corresponds to 0
+tv qty is equal to min
+If tv qty corresponds to 0
+tv invQty is equal to safeMul divided by t makerAmountBuy
+tv makerAmountTaken is equal to safeSub
+tv takerAmountTaken is equal to safeSub
+ is equal to safeAdd
+ is equal to safeAdd
+ is equal to block number
+ is equal to block number
+tv qty is equal to min
+If tv qty corresponds to 0
+tv invQty is equal to safeMul divided by t makerAmountSell
+tv makerAmountTaken is equal to safeSub
+tv takerAmountTaken is equal to safeSub
+ is equal to safeAdd
+ is equal to safeAdd
+ is equal to block number
+ is equal to block number
+i is less then tradeAddresses length
+If  is greater then 50 finney
+ is equal to 50 finney
+ is equal to 

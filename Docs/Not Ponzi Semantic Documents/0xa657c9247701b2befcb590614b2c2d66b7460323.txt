@@ -1,0 +1,20 @@
+solidity ^0.4.16 
+SafeMath EightCoin 
+SafeMath 
+c c c name symbol decimals owner totalSupply mintingFinished balances allowed _initialSupply 
+mul div sub add transferOwnership EightCoin totalSupply balanceOf transfer transferFrom approve allowance mint finishMinting 
+onlyOwner canMint 
+Transfer Approval Mint MintFinished OwnershipTransferred 
+If a corresponds to 0
+owner is equal to newOwner
+ is equal to _initialSupply
+totalSupply is equal to _initialSupply
+ is equal to msg sender sub
+ is equal to balances _to add
+ is equal to balances _from sub
+ is equal to allowed _from msg sender sub
+ is equal to balances _to add
+ is equal to _value
+totalSupply is equal to totalSupply add
+ is equal to balances _to add
+mintingFinished is equal to True

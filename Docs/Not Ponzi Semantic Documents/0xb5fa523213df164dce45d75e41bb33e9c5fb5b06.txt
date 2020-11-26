@@ -1,0 +1,42 @@
+solidity ^0.5.0 
+Ownable IERC165 IERC721 IERC721Metadata IERC721Receiver SafeMath Address Counters ERC165 ERC721 ERC721Burnable IERC721Enumerable ERC721Enumerable ERC721Base TestToken 
+SafeMath SafeMath Address Counters 
+Counter 
+Counter has _value
+_owner c c c c size _INTERFACE_ID_ERC165 _supportedInterfaces _ERC721_RECEIVED _tokenOwner _tokenApprovals _ownedTokensCount _operatorApprovals _INTERFACE_ID_ERC721 owner owner owner owner retval _ownedTokens _ownedTokensIndex _allTokens _allTokensIndex _INTERFACE_ID_ERC721_ENUMERABLE lastTokenIndex tokenIndex lastTokenId lastTokenIndex tokenIndex lastTokenId name symbol tokenURIPrefix _tokenURIs _INTERFACE_ID_ERC721_METADATA _ba _bb bab k i i _INTERFACE_ID_CONTRACT_URI 
+owner isOwner renounceOwnership transferOwnership _transferOwnership supportsInterface balanceOf ownerOf safeTransferFrom transferFrom approve getApproved setApprovalForAll isApprovedForAll safeTransferFrom name symbol tokenURI onERC721Received add sub mul div mod isContract current increment decrement supportsInterface _registerInterface balanceOf ownerOf approve getApproved setApprovalForAll isApprovedForAll transferFrom safeTransferFrom safeTransferFrom _exists _isApprovedOrOwner _mint _burn _burn _transferFrom _checkOnERC721Received _clearApproval burn totalSupply tokenOfOwnerByIndex tokenByIndex tokenOfOwnerByIndex totalSupply tokenByIndex _transferFrom _mint _burn _tokensOfOwner _addTokenToOwnerEnumeration _addTokenToAllTokensEnumeration _removeTokenFromOwnerEnumeration _removeTokenFromAllTokensEnumeration _setTokenURIPrefix tokenURI _setTokenURI _burn strConcat contractURI mint setTokenURIPrefix 
+IERC721 inherits from IERC165 IERC721Metadata inherits from IERC721 ERC165 inherits from IERC165 ERC721 inherits from ERC165 ERC721 inherits from IERC721 ERC721Burnable inherits from ERC721 IERC721Enumerable inherits from IERC721 ERC721Enumerable inherits from ERC165 ERC721Enumerable inherits from ERC721 ERC721Enumerable inherits from IERC721Enumerable ERC721Base inherits from ERC721 ERC721Base inherits from ERC721Enumerable TestToken inherits from Ownable TestToken inherits from IERC721 TestToken inherits from IERC721Metadata TestToken inherits from ERC721Burnable TestToken inherits from ERC721Base 
+onlyOwner 
+OwnershipTransferred Transfer Approval ApprovalForAll 
+_owner is equal to msg sender
+_owner is equal to 
+_owner is equal to newOwner
+If a corresponds to 0
+counter _value increments of 1
+counter _value is equal to counter _value sub
+ is equal to True
+ is equal to to
+ is equal to approved
+ is equal to to
+ is equal to 
+ is equal to to
+If 
+If  is different from 
+ is equal to 
+ is equal to 0
+ is equal to _ownedTokens to length
+ is equal to _allTokens length
+If tokenIndex is different from lastTokenIndex
+ is equal to lastTokenId
+ is equal to tokenIndex
+ is equal to lastTokenId
+ is equal to tokenIndex
+ is equal to 0
+name is equal to _name
+symbol is equal to _symbol
+tokenURIPrefix is equal to _tokenURIPrefix
+tokenURIPrefix is equal to _tokenURIPrefix
+ is equal to uri
+If  is different from 0
+i is less then _ba length
+i is less then _bb length

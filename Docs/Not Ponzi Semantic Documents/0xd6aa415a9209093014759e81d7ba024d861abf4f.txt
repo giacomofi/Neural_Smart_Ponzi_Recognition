@@ -1,0 +1,29 @@
+solidity ^0.5.8 
+SafeMath Roles Ownable PauserRole Pausable IERC20 ERC20Detailed ERC20 ERC20Pausable EYEXContract 
+Roles SafeMath SafeMath 
+Role 
+Role has bearer
+c c c c _owner _pausers _paused _name _symbol _decimals _balances _allowances _totalSupply total_supply 
+add sub mul div mod add remove has owner isOwner renounceOwnership transferOwnership _transferOwnership isPauser addPauser renouncePauser _addPauser _removePauser paused pause unpause totalSupply balanceOf transfer allowance approve transferFrom name symbol decimals totalSupply balanceOf transfer allowance approve transferFrom increaseAllowance decreaseAllowance _transfer _mint _burn _approve _burnFrom transfer transferFrom approve increaseAllowance decreaseAllowance 
+Pausable inherits from PauserRole ERC20Detailed inherits from IERC20 ERC20 inherits from IERC20 ERC20Pausable inherits from ERC20 ERC20Pausable inherits from Pausable EYEXContract inherits from Ownable EYEXContract inherits from ERC20Detailed EYEXContract inherits from ERC20Pausable 
+onlyOwner onlyPauser whenNotPaused whenPaused 
+OwnershipTransferred PauserAdded PauserRemoved Paused Unpaused Transfer Approval 
+If a corresponds to 0
+ is equal to True
+ is equal to False
+_owner is equal to msg sender
+_owner is equal to 
+_owner is equal to newOwner
+_paused is equal to False
+_paused is equal to True
+_paused is equal to False
+_name is equal to name
+_symbol is equal to symbol
+_decimals is equal to decimals
+ is equal to _balances sender sub
+ is equal to _balances recipient add
+_totalSupply is equal to _totalSupply add
+ is equal to _balances account add
+_totalSupply is equal to _totalSupply sub
+ is equal to _balances account sub
+ is equal to value

@@ -1,0 +1,13 @@
+solidity ^0.5.0 solidity 0.5.10 
+Ownable KYCRegistry 
+_owner KYCConfirmed admin 
+owner isOwner renounceOwnership transferOwnership _transferOwnership isConfirmed setAdministrator removeAddressFromKYC addAddressToKYC 
+KYCRegistry inherits from Ownable 
+onlyOwner onlyAdmin 
+OwnershipTransferred RemovedFromKYC AddedToKYC 
+_owner is equal to msg sender
+_owner is equal to 
+_owner is equal to newOwner
+admin is equal to _admin
+ is equal to False
+ is equal to True

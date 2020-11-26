@@ -1,0 +1,11 @@
+solidity 0.5.10 
+AbstractAccount DepositProxy 
+Device 
+Device has isOwner
+Device has exists
+Device has existed
+devices account paymentManager empty 
+addDevice removeDevice executeTransaction  
+DeviceAdded DeviceRemoved TransactionExecuted 
+account is equal to _account
+paymentManager is equal to _paymentManager

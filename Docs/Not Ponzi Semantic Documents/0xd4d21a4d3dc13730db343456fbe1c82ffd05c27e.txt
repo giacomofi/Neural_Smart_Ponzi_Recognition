@@ -1,0 +1,35 @@
+solidity ^0.5.10 
+SafeMath Hoo 
+c c c name symbol decimals totalSupply owner balanceOf freezeOf allowance 
+mul div sub add transfer approve transferFrom burn freeze unfreeze withdrawEther  
+Hoo inherits from SafeMath 
+Transfer Burn Freeze Unfreeze 
+ is equal to initialSupply
+totalSupply is equal to initialSupply
+name is equal to tokenName
+symbol is equal to tokenSymbol
+decimals is equal to decimalUnits
+owner is equal to msg sender
+If  is less then _value
+If  plus _value is less then 
+ is equal to SafeMath sub
+ is equal to SafeMath add
+ is equal to _value
+If  is less then _value
+If  plus _value is less then 
+If _value is greater then 
+ is equal to SafeMath sub
+ is equal to SafeMath add
+ is equal to SafeMath sub
+If  is less then _value
+If _value is less or equal to 0
+ is equal to SafeMath sub
+totalSupply is equal to SafeMath sub
+If  is less then _value
+If _value is less or equal to 0
+ is equal to SafeMath sub
+ is equal to SafeMath add
+If  is less then _value
+If _value is less or equal to 0
+ is equal to SafeMath sub
+ is equal to SafeMath add

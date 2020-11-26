@@ -1,0 +1,30 @@
+solidity ^0.4.24 
+ERC20 DBInterface Events SafeMath DToken AssetManagerFunds 
+SafeMath 
+database c c database events transactionNumber token amountOwed balanceBefore balanceAfter fundingToken payoutAmounts tokenAddresses numEntries i token tokensOwed fundingToken balanceBefore tokenIndex weiOwed i token balanceBefore amountOwed balanceAfter token balance token amountOwed i localCounter 
+decimals totalSupply balanceOf allowance transfer approve transferFrom setContractManager setAddress setUint setString setBytes setBytes32 setBool setInt deleteAddress deleteUint deleteString deleteBytes deleteBytes32 deleteBool deleteInt uintStorage stringStorage addressStorage bytesStorage bytes32Storage boolStorage intStorage message transaction registration contractChange asset escrow order exchange operator consensus mul div sub add getFractionalAmount withdraw getAmountOwed balanceOf transfer getERC20 withdraw retrieveAssetManagerTokens retrieveAssetManagerETH viewBalance viewAmountOwed containsAddress destroy  
+onlyApprovedContract nonReentrant onlyOwner 
+Transfer Approval LogEvent LogTransaction LogAddress LogContractChange LogAsset LogEscrow LogOrder LogExchange LogOperator LogConsensus EtherReceived 
+database is equal to DBInterface
+If a corresponds to 0
+database is equal to DBInterface
+events is equal to Events
+If token getERC20 corresponds to 
+balanceBefore is equal to 
+amountOwed is equal to token getAmountOwed
+amountOwed is equal to token getAmountOwed
+balanceBefore is equal to fundingToken balanceOf
+i is less then _assetAddress length
+If tokensOwed is greater then 0
+If tokenIndex is less then _assetAddress length
+ is equal to payoutAmounts tokenIndex add
+ is equal to 
+ is equal to tokensOwed
+i is equal to 0
+i is less then numEntries
+i is less then _assetAddress length
+If amountOwed is greater then 0
+weiOwed is equal to weiOwed add
+i is less then _addressList length
+If  corresponds to _addr
+transactionNumber increments of 1

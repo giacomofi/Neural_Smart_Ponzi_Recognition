@@ -1,0 +1,29 @@
+solidity ^0.4.26 
+FiatDex_protocol_v1 
+Swap 
+Swap has swapState
+Swap has sendAmount
+Swap has fiatTrader
+Swap has ethTrader
+Swap has openTime
+Swap has ethTraderCollateral
+Swap has fiatTraderCollateral
+Swap has feeAmount
+owner feeDelay dailyFeeIncrease version swaps swap _sendAmount _ethTraderCollateral swap swap swap swap feeAmount currentTime seconds_over feePercent 
+viewSwap viewFiatDexSpecs changeContractOwner openSwap addFiatTraderCollateral refundSwap closeSwap 
+onlyNotOpenSwaps onlyInitializedSwaps onlyActiveSwaps 
+Open Close ChangedOwnership 
+owner is equal to msg sender
+owner is equal to _newOwner
+ is equal to swap
+swap fiatTraderCollateral is equal to msg value
+swap swapState is equal to States ACTIVE
+swap swapState is equal to States CLOSED
+swap swapState is equal to States CLOSED
+If swap openTime plus 86400 multiplied by feeDelay is less then currentTime
+If feePercent is greater then 0
+If feePercent is greater then 99000
+feePercent is equal to 99000
+feeAmount is equal to  divided by 100000
+If feeAmount is greater then 0
+swap feeAmount is equal to feeAmount

@@ -1,0 +1,31 @@
+solidity ^0.4.26 
+SafeMath ERC20Interface ApproveAndCallFallBack Owned SAMPLE 
+SafeMath 
+owner symbol name decimals _totalSupply _stopTrade balances allowed 
+add sub mul div totalSupply balanceOf allowance transfer approve transferFrom receiveApproval isOwner totalSupply stopTrade startTrade balanceOf transfer approve transferFrom allowance approveAndCall  transferAnyERC20Token burn 
+SAMPLE inherits from ERC20Interface SAMPLE inherits from Owned 
+onlyOwner 
+Transfer Approval Burn 
+c is equal to a plus b
+c is equal to a minus b
+c is equal to a multiplied by b
+c is equal to a divided by b
+owner is equal to admin
+symbol is equal to Jimmy
+name is equal to 유투버_Jimmy Kim
+decimals is equal to 18
+_totalSupply is equal to 100000000 multiplied by 10 Invalid symbol 
+_stopTrade is equal to False
+ is equal to _totalSupply
+_stopTrade is equal to True
+_stopTrade is equal to False
+ is equal to msg sender sub
+ is equal to balances to add
+ is equal to tokens
+ is equal to balances from sub
+If from is different from to Invalid symbol 
+ is equal to allowed from msg sender sub
+ is equal to balances to add
+ is equal to tokens
+ is equal to msg sender sub
+_totalSupply is equal to _totalSupply sub

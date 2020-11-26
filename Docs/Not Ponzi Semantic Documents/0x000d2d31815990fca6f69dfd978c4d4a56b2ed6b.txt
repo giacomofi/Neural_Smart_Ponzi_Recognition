@@ -1,0 +1,36 @@
+solidity 0.4.20 
+Accessible TrueProfileStorage TrueProfileLogic 
+Signature 
+Signature has v
+Signature has r
+Signature has s
+Signature has revocationReasonId
+Signature has isValue
+owner accessAllowed signatureStorage uIntStorage stringStorage addressStorage bytesStorage boolStorage intStorage tempSignature tempSignature tempSignature trueProfileStorage revokationReasonId v r s oldRevocationReasonId v r s revocationReasonId v r s revocationReasonId v r s revocationReasonId 
+Accessible allowAccess denyAccess transferOwnership getSignature setSignature deleteSignature getAddress getUint getString getBytes getBool getInt setAddress setUint setString setBytes setBool setInt deleteAddress deleteUint deleteString deleteBytes deleteBool deleteInt TrueProfileLogic addTrueProof revokeTrueProof isValidTrueProof isValidSignatureTrueProof isNotRevokedTrueProof getSignature getRevocationReasonId 
+TrueProfileStorage inherits from Accessible TrueProfileLogic inherits from Accessible 
+ownership accessible 
+owner is equal to msg sender
+If _address is different from 
+ is equal to True
+If _address is different from 
+ is equal to False
+If _address is different from 
+owner is equal to _address
+
+ is equal to tempSignature
+ is equal to tempSignature
+ is equal to _value
+ is equal to _value
+ is equal to _value
+ is equal to _value
+ is equal to _value
+ is equal to _value
+trueProfileStorage is equal to TrueProfileStorage
+ is equal to trueProfileStorage getSignature
+If this isValidSignatureTrueProof Invalid symbol this isNotRevokedTrueProof
+ is equal to trueProfileStorage getSignature
+
+ is equal to trueProfileStorage getSignature
+If revocationReasonId corresponds to 0
+ is equal to trueProfileStorage getSignature

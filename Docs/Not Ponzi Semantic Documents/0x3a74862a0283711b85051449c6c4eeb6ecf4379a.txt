@@ -1,0 +1,31 @@
+solidity >=0.5.0<0.6.0 
+SafeMath Ownable IERC20 ERC20 ERC20Detailed ERC20Burnable Roles PauserRole Pausable ERC20Pausable ERC20Frozen BnxToken 
+SafeMath Roles 
+Role 
+Role has bearer
+c c c c _owner _balances _allowances _totalSupply _name _symbol _decimals _pausers _paused frozenAccounts 
+add sub mul div mod owner isOwner renounceOwnership transferOwnership _transferOwnership totalSupply balanceOf transfer allowance approve transferFrom totalSupply balanceOf transfer allowance approve transferFrom increaseAllowance decreaseAllowance _transfer _mint _burn _approve _burnFrom name symbol decimals burn burnFrom add remove has isPauser addPauser renouncePauser _addPauser _removePauser paused pause unpause transfer transferFrom approve increaseAllowance decreaseAllowance freezeAccount unFreezeAccount frozen transfer transferFrom 
+ERC20 inherits from IERC20 ERC20 inherits from Ownable ERC20Detailed inherits from IERC20 ERC20Burnable inherits from ERC20 Pausable inherits from PauserRole ERC20Pausable inherits from ERC20 ERC20Pausable inherits from Pausable ERC20Frozen inherits from ERC20 BnxToken inherits from ERC20 BnxToken inherits from ERC20Detailed BnxToken inherits from ERC20Burnable BnxToken inherits from ERC20Pausable BnxToken inherits from ERC20Frozen 
+onlyOwner onlyPauser whenNotPaused whenPaused canTransfer 
+OwnershipTransferred Transfer Approval PauserAdded PauserRemoved Paused Unpaused FrozenFunds 
+If a corresponds to 0
+_owner is equal to msg sender
+_owner is equal to 
+_owner is equal to newOwner
+ is equal to _balances sender sub
+ is equal to _balances recipient add
+_totalSupply is equal to _totalSupply add
+ is equal to _balances account add
+_totalSupply is equal to _totalSupply sub
+ is equal to _balances account sub
+ is equal to value
+_name is equal to name
+_symbol is equal to symbol
+_decimals is equal to decimals
+ is equal to True
+ is equal to False
+_paused is equal to False
+_paused is equal to True
+_paused is equal to False
+ is equal to True
+ is equal to False

@@ -1,0 +1,143 @@
+solidity 0.4.25 solidity 0.4.25 solidity 0.4.25 
+DappDatasets SafeMath AWGame AWToken AWMain 
+Player Fomo Lottery 
+Player has withdrawalAmount
+Player has wallet
+Player has fomoTotalRevenue
+Player has lotteryTotalRevenue
+Player has dynamicIncome
+Player has rechargeAmount
+Player has staticIncome
+Player has shareholderLevel
+Player has underUmbrellaLevel
+Player has subbordinateTotalPerformance
+Player has isExist
+Player has superior
+Player has superiorAddr
+Player has subordinates
+Fomo has whetherToEnd
+Fomo has endTime
+Fomo has fomoPrizePool
+Fomo has participant
+Lottery has whetherToEnd
+Lottery has lotteryPool
+Lottery has unopenedBonus
+Lottery has number
+Lottery has todayAmountTotal
+Lottery has totayLotteryAmountTotal
+Lottery has grandPrizeNum
+Lottery has firstPrizeNum
+Lottery has secondPrizeNum
+Lottery has thirdPrizeNum
+Lottery has lotteryMap
+Lottery has numToAddr
+Lottery has personalAmount
+Lottery has awardAmount
+random numberArray i temp c c c c owner mainAddr temp numArr depositBalance fomoSession lotterySession awToken main fomoGame lotteryGame awCount playerAddr num superiorAddr i usdt aw num superiorAddr subordinates length splitEqually i playerAddr superiorAddr shareholderLevel level shareholderAmount j servings count lottery i lottery lotteryNumber grandPrizeNum firstPrizeNum secondPrizeNum thirdPrizeNum flag number lottery prize personal i lottery lottery awardArray i fomo fomo lottery needAw lotteryPool amount fomoPool n issue fomo count nowTime laveTime day hour playerAddr superiorAddr num i usdt playerAddr superiorAddr shareholderLevel shareholderAmount level k servings fomo fomo fomoPool length personalAmount num i 
+getNowTime rand returnArray add sub sub mul div div mod mod init redeemAW awPushStraightDividend fosterInteraction awShareHolderDividend buyLotto getLottoCode atomicOperationLottery prizeDistribution getLotteryInfo getHistoryLottery getFOMOInfo startFomoGame deposit timeExtended fomoPenny fomoShareHolderDistribution getFomoParticpantLength endFomoGame burn balanceOf calculationNeedAW gainAWToken transfer rewardDistribution getPlayer releaseStaticPoolAndV4 updateRevenue 
+
+number is equal to number plus 9
+If temp corresponds to 0
+ is equal to temp
+If i corresponds to len
+If a corresponds to 0
+owner is equal to _owner
+awToken is equal to AWToken
+ is equal to DappDatasets Lottery
+main is equal to AWMain
+mainAddr is equal to addr
+i is less then 3
+ is equal to main getPlayer
+If superiorAddr is different from 
+playerAddr is equal to superiorAddr
+num decreases of 3
+ is equal to main getPlayer
+If subordinates length is greater then 0
+If subordinates length is greater then 30
+length is equal to 30
+i is less then length
+If superiorAddr is different from 
+j is less then 50
+If level is greater or equal to 1 Invalid symbol 
+ is equal to main getPlayer
+If superiorAddr is different from 
+If shareholderLevel is greater or equal to level
+level is equal to level plus servings
+playerAddr is equal to superiorAddr
+If count corresponds to 0
+If count is greater then 1
+i is less then count
+ is equal to addr
+lottery totayLotteryAmountTotal is equal to SafeMath add
+lottery whetherToEnd is equal to True
+If lottery lotteryPool is greater then 0 Invalid symbol 
+
+grandPrizeNum is equal to DappDatasets returnArray
+lottery grandPrizeNum is equal to grandPrizeNum
+flag is equal to lottery totayLotteryAmountTotal is greater or equal to lottery todayAmountTotal
+
+If lotteryNumber is less then 3
+number is equal to lotteryNumber minus 1
+firstPrizeNum is equal to DappDatasets returnArray
+lottery firstPrizeNum is equal to firstPrizeNum
+number is equal to 5
+flag is equal to lottery totayLotteryAmountTotal is greater or equal to SafeMath div
+
+If lotteryNumber is less then 6
+number is equal to lotteryNumber minus 1
+secondPrizeNum is equal to DappDatasets returnArray
+lottery secondPrizeNum is equal to secondPrizeNum
+number is equal to 20
+If lotteryNumber is less then 21
+number is equal to lotteryNumber minus 1
+thirdPrizeNum is equal to DappDatasets returnArray
+lottery thirdPrizeNum is equal to thirdPrizeNum
+lottery unopenedBonus is equal to SafeMath add
+ is equal to DappDatasets Lottery
+
+If num corresponds to 0
+personal is equal to SafeMath add
+lottery unopenedBonus is equal to 0
+i is less then winningNumber length
+ is equal to SafeMath add
+ is equal to personal
+lottery unopenedBonus is equal to SafeMath add
+i is less then 4
+ is equal to 
+If fomoSession is greater then 1
+ is equal to DappDatasets Fomo
+depositBalance is equal to usdtVal
+depositBalance is equal to SafeMath sub
+lottery lotteryPool is equal to SafeMath add
+lottery todayAmountTotal is equal to SafeMath add
+depositBalance is equal to SafeMath sub
+depositBalance is equal to SafeMath sub
+If SafeMath add is greater then 2100 multiplied by 10 Invalid symbol 4 multiplied by 
+If fomo fomoPrizePool is less then 2100 multiplied by 10 Invalid symbol 4 multiplied by 
+fomo fomoPrizePool is equal to SafeMath add
+fomo fomoPrizePool is equal to SafeMath add
+If count is greater then 0
+laveTime is equal to SafeMath add
+If laveTime is less or equal to day
+fomo endTime is equal to SafeMath add
+fomo endTime is equal to SafeMath add
+i is less then 3
+ is equal to main getPlayer
+If superiorAddr is different from 
+depositBalance is equal to SafeMath sub
+num decreases of 3
+playerAddr is equal to superiorAddr
+k is less then 50
+If level is greater or equal to 1 Invalid symbol 
+ is equal to main getPlayer
+If superiorAddr is different from 
+If shareholderLevel is greater or equal to level
+depositBalance is equal to SafeMath sub
+level is equal to level plus servings
+playerAddr is equal to superiorAddr
+fomo whetherToEnd is equal to True
+If fomo fomoPrizePool corresponds to 0
+If fomo participant length is less then frequency
+length is equal to fomo participant length
+i is greater then 0
+If num corresponds to 100 Invalid symbol 

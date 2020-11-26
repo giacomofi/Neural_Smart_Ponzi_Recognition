@@ -1,0 +1,51 @@
+solidity ^0.4.24 
+SafeMath Ownable ERC20Basic BasicToken ERC20 StandardToken Pausable PausableToken MKExCoin 
+SafeMath SafeMath 
+TimeLock 
+TimeLock has releaseTime
+TimeLock has balance
+owner balances totalSupply_ allowed oldValue paused name symbol standard decimals INITIAL_SUPPLY allocations alllock_sum j can_unlock total_lockamount total_unlockamount j sum x i find j 
+mul div sub add transferOwnership _transferOwnership totalSupply balanceOf transfer totalSupply transfer balanceOf allowance transferFrom approve transferFrom approve allowance increaseApproval decreaseApproval pause unpause transfer transferFrom approve increaseApproval decreaseApproval transfer transferFrom canSubAllocation subAllocation setAllocation 
+BasicToken inherits from ERC20Basic ERC20 inherits from ERC20Basic StandardToken inherits from ERC20 StandardToken inherits from BasicToken Pausable inherits from Ownable PausableToken inherits from StandardToken PausableToken inherits from Pausable MKExCoin inherits from PausableToken 
+onlyOwner whenNotPaused whenPaused 
+OwnershipTransferred Transfer Approval Pause Unpause NewLock UnLock 
+If a corresponds to 0
+c is equal to a multiplied by b
+c is equal to a plus b
+owner is equal to msg sender
+owner is equal to _newOwner
+ is equal to msg sender sub
+ is equal to balances _to add
+ is equal to balances _from sub
+ is equal to balances _to add
+ is equal to allowed _from msg sender sub
+ is equal to _value
+ is equal to 
+If _subtractedValue is greater or equal to oldValue
+ is equal to 0
+ is equal to oldValue sub
+paused is equal to True
+paused is equal to False
+totalSupply_ is equal to INITIAL_SUPPLY
+ is equal to INITIAL_SUPPLY
+If sub_value corresponds to 0
+If  is less then sub_value
+If allocations sender length corresponds to 0
+j is less then allocations sender length
+If allocations sender j releaseTime is greater or equal to block timestamp
+alllock_sum is equal to alllock_sum add
+j is less then allocations sender length
+If allocations sender j releaseTime is less then block timestamp
+total_unlockamount is equal to total_unlockamount add
+allocations sender j balance is equal to 0
+total_lockamount is equal to total_lockamount add
+If total_unlockamount is greater then 0
+If total_lockamount corresponds to 0 Invalid symbol 
+x is less then balanceRequires length
+sum is equal to sum add
+i is less then times length
+j is less then allocations _address length
+If allocations _address j releaseTime corresponds to 
+allocations _address j balance is equal to allocations _address j balance add
+find is equal to True
+If not find

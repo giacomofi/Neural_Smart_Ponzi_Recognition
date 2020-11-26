@@ -1,0 +1,101 @@
+solidity ^0.4.17 solidity ^0.4.18 solidity ^0.4.18 solidity ^0.4.17 solidity ^0.4.17 solidity ^0.4.17 solidity ^0.4.17 solidity ^0.4.18 solidity ^0.4.18 solidity ^0.4.18 solidity ^0.4.17 solidity ^0.4.18 solidity ^0.4.18 solidity ^0.4.17 solidity ^0.4.17 solidity ^0.4.17 solidity ^0.4.17 solidity ^0.4.17 solidity ^0.4.17 solidity ^0.4.17 solidity ^0.4.17 
+IManager Ownable Pausable IController Manager ManagerProxyTarget IJobsManager ECRecovery MerkleProof SafeMath JobLib ERC20Basic ERC20 ILivepeerToken IMinter IBondingManager IRoundsManager IVerifiable IVerifier MathUtils JobsManager 
+SafeMath SafeMath SafeMath 
+Broadcaster Job Claim 
+Broadcaster has deposit
+Broadcaster has withdrawBlock
+Job has jobId
+Job has streamId
+Job has transcodingOptions
+Job has maxPricePerSegment
+Job has broadcasterAddress
+Job has transcoderAddress
+Job has creationRound
+Job has creationBlock
+Job has endBlock
+Job has claims
+Job has escrow
+Claim has claimId
+Claim has segmentRange
+Claim has claimRoot
+Claim has claimBlock
+Claim has endVerificationBlock
+Claim has endVerificationSlashingBlock
+Claim has segmentVerifications
+Claim has status
+owner paused controller targetContractId r s v proofElement computedHash i c c c PERSONAL_HASH_PREFIX VIDEO_PROFILE_SIZE transcodingOptionsLength totalProfiles prefixBytes totalSupply PERC_DIVISOR verificationRate verificationPeriod verificationSlashingPeriod failedVerificationSlashAmount missedVerificationSlashAmount doubleClaimSegmentSlashAmount finderFee broadcasters jobs numJobs amount blockNum job job blockNum fees endVerificationBlock endVerificationSlashingBlock job claim challengeBlock job claim transcoder i job claim blockNum challengeBlock job claim1 claim2 job claim fees job claim verifierContract price job fees 
+setController Ownable transferOwnership pause unpause setContractInfo updateController getContract Manager setController recover verifyProof mul div sub add validTranscodingOptions calcFees shouldVerifySegment validateBroadcasterSig validateReceipt segmentHash personalSegmentHash transcodeReceiptHash balanceOf transfer allowance transferFrom approve mint burn createReward trustedTransferTokens trustedBurnTokens trustedWithdrawETH depositETH setCurrentRewardTokens getController setActiveTranscoders updateTranscoderWithFees slashTranscoder electActiveTranscoder transcoderTotalStake activeTranscoderTotalStake isRegisteredTranscoder getTotalBonded initializeRound blockNum blockHash currentRound currentRoundStartBlock currentRoundInitialized currentRoundLocked receiveVerification verify getPrice validPerc percOf percOf percPoints JobsManager setVerificationRate setVerificationPeriod setVerificationSlashingPeriod setFailedVerificationSlashAmount setMissedVerificationSlashAmount setDoubleClaimSegmentSlashAmount setFinderFee deposit withdraw job claimWork verify receiveVerification batchDistributeFees missedVerificationSlash doubleClaimSegmentSlash distributeFees jobStatus getJob getClaim isClaimSegmentVerified invokeVerification refundBroadcaster minter bondingManager roundsManager verifier 
+Pausable inherits from Ownable IController inherits from Pausable Manager inherits from IManager ManagerProxyTarget inherits from Manager ERC20 inherits from ERC20Basic ILivepeerToken inherits from ERC20 ILivepeerToken inherits from Ownable JobsManager inherits from ManagerProxyTarget JobsManager inherits from IVerifiable JobsManager inherits from IJobsManager 
+onlyOwner whenNotPaused whenPaused onlyController onlyControllerOwner whenSystemNotPaused whenSystemPaused onlyVerifier jobExists sufficientPayment 
+SetController ParameterUpdate OwnershipTransferred Pause Unpause SetContractInfo Deposit Withdraw NewJob NewClaim Verify DistributeFees PassedVerification FailedVerification Transfer Approval SetCurrentRewardTokens TranscoderUpdate TranscoderEvicted TranscoderResigned TranscoderSlashed Reward Bond Unbond Rebond WithdrawStake WithdrawFees NewRound 
+owner is equal to msg sender
+owner is equal to newOwner
+paused is equal to True
+paused is equal to False
+controller is equal to IController
+controller is equal to IController
+If sig length is different from 65
+If v is less then 27
+v increments of 27
+If v is different from 27 Invalid symbol 
+If _proof length Invalid symbol 32 is different from 0
+i is less or equal to _proof length
+If computedHash is less then proofElement
+computedHash is equal to keccak256
+computedHash is equal to keccak256
+If a corresponds to 0
+If _segmentNumber is less then  Invalid symbol 
+If  Invalid symbol _verificationRate corresponds to 0
+verificationRate is equal to _verificationRate
+verificationPeriod is equal to _verificationPeriod
+verificationSlashingPeriod is equal to _verificationSlashingPeriod
+failedVerificationSlashAmount is equal to _failedVerificationSlashAmount
+missedVerificationSlashAmount is equal to _missedVerificationSlashAmount
+doubleClaimSegmentSlashAmount is equal to _doubleClaimSegmentSlashAmount
+finderFee is equal to _finderFee
+msg sender deposit is equal to msg sender deposit add
+job jobId is equal to numJobs
+job streamId is equal to _streamId
+job transcodingOptions is equal to _transcodingOptions
+job maxPricePerSegment is equal to _maxPricePerSegment
+job broadcasterAddress is equal to msg sender
+job creationRound is equal to 
+job creationBlock is equal to blockNum
+job endBlock is equal to _endBlock
+numJobs is equal to numJobs add
+If _endBlock is greater then msg sender withdrawBlock
+msg sender withdrawBlock is equal to _endBlock
+If job transcoderAddress is different from 
+job transcoderAddress is equal to msg sender
+job broadcasterAddress deposit is equal to job broadcasterAddress deposit sub
+job escrow is equal to job escrow add
+ is equal to True
+If not _result
+claim status is equal to ClaimStatus Slashed
+i is less then _claimIds length
+claim status is equal to ClaimStatus Slashed
+claim1 status is equal to ClaimStatus Slashed
+claim2 status is equal to ClaimStatus Slashed
+job escrow is equal to job escrow sub
+claim status is equal to ClaimStatus Complete
+If jobs _jobId endBlock is less or equal to 
+streamId is equal to job streamId
+transcodingOptions is equal to job transcodingOptions
+maxPricePerSegment is equal to job maxPricePerSegment
+broadcasterAddress is equal to job broadcasterAddress
+transcoderAddress is equal to job transcoderAddress
+creationRound is equal to job creationRound
+creationBlock is equal to job creationBlock
+endBlock is equal to job endBlock
+escrow is equal to job escrow
+totalClaims is equal to job claims length
+segmentRange is equal to claim segmentRange
+claimRoot is equal to claim claimRoot
+claimBlock is equal to claim claimBlock
+endVerificationBlock is equal to claim endVerificationBlock
+endVerificationSlashingBlock is equal to claim endVerificationSlashingBlock
+status is equal to claim status
+If price is greater then 0
+job escrow is equal to job escrow sub
+job broadcasterAddress deposit is equal to job broadcasterAddress deposit add
+job endBlock is equal to 

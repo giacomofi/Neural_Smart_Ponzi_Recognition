@@ -1,0 +1,38 @@
+solidity ^0.4.25 
+SafeMath Ownable ERC20Basic ERC20 BasicToken PromTokenVault 
+SafeMath SafeMath 
+c c c owner totalSupply balances MONTH token_ publicKey liquidityKey teamKey companyKey privateKey communityKey ecosystemKey liquidity_ team_ company_ private_ community_ ecosystem_ alreadyWithdrawn TGE_timestamp token unlockDate totalReleasable monthPassed unlockDate totalReleasable monthPassed totalReleasable firstPart currentlyReleasable unlockDate monthPassed secondPart unfreezeTimestamp currentlyReleasable totalReleasable firstPart monthPassed releases secondPart toSend toSend toSend toSend toSend toSend 
+mul div sub add transferOwnership balanceOf transfer allowance transferFrom approve transfer balanceOf getLiqudityAddress getTeamAddress getCompanyAddress getPrivateAddress getCommunityAddress getEcosystemAddress setLiqudityAddress setTeamAddress setCompanyAddress setPrivateAddress setCommunityAddress setEcosystemAddress getLiquidityAvailable getTeamAvailable getCompanyAvailable getPrivateAvailable getCommunityAvailable getEcosystemAvailable getPercentReleasable getMonthsPassed getLiquidityReleasable getTeamReleasable getCompanyReleasable getPrivateReleasable getCommunityReleasable getEcosystemReleasable incrementReleased releaseLiqudity releaseTeam releaseCompany releasePrivate releaseCommunity releaseEcosystem getAlreadyWithdrawn 
+ERC20 inherits from ERC20Basic BasicToken inherits from ERC20Basic BasicToken inherits from Ownable PromTokenVault inherits from Ownable 
+onlyOwner 
+OwnershipTransferred Transfer Approval 
+If a corresponds to 0
+owner is equal to msg sender
+owner is equal to newOwner
+ is equal to msg sender sub
+ is equal to balances _to add
+token is equal to ERC20
+private_ is equal to _private
+ecosystem_ is equal to _ecosystem
+liquidity_ is equal to _liquidity
+team_ is equal to _team
+company_ is equal to _company
+community_ is equal to _community
+TGE_timestamp is equal to block timestamp
+liquidity_ is equal to _liquidity
+team_ is equal to _team
+company_ is equal to _company
+private_ is equal to _private
+community_ is equal to _community
+ecosystem_ is equal to _ecosystem
+If _part is greater or equal to _full
+_part is equal to _full
+If block timestamp is greater or equal to TGE_timestamp
+If block timestamp is greater or equal to unlockDate
+If now is greater or equal to unlockDate
+If now is greater or equal to unlockDate
+currentlyReleasable is equal to firstPart add
+If now is greater or equal to unfreezeTimestamp
+If block timestamp is greater or equal to TGE_timestamp
+currentlyReleasable is equal to firstPart add
+ is equal to alreadyWithdrawn _key add

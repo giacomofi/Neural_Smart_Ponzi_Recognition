@@ -1,0 +1,34 @@
+solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.5 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity >0.5.0 solidity >0.5.0 
+Context IERC165 IERC721 IERC721Receiver SafeMath Address Counters ERC165 ERC721 IERC721Metadata Ownable ERC721WithMessage 
+SafeMath SafeMath Address Counters 
+Counter Message 
+Counter has _value
+Message has content
+Message has encrypted
+c c c c codehash accountHash _INTERFACE_ID_ERC165 _supportedInterfaces _ERC721_RECEIVED _tokenOwner _tokenApprovals _ownedTokensCount _operatorApprovals _INTERFACE_ID_ERC721 owner owner owner owner retval _initialized _owner msgSender msgSender _name _symbol _tokenURI _tokenMessages _INTERFACE_ID_ERC721_METADATA message 
+_msgSender _msgData supportsInterface balanceOf ownerOf safeTransferFrom transferFrom approve getApproved setApprovalForAll isApprovedForAll safeTransferFrom onERC721Received add sub sub mul div div mod mod isContract toPayable sendValue current increment decrement initialize supportsInterface _registerInterface initialize balanceOf ownerOf approve getApproved setApprovalForAll isApprovedForAll transferFrom safeTransferFrom safeTransferFrom _safeTransferFrom _exists _isApprovedOrOwner _safeMint _safeMint _mint _burn _burn _transferFrom _checkOnERC721Received _clearApproval name symbol tokenURI owner isOwner setupOwnership renounceOwnership transferOwnership _transferOwnership initialize name symbol tokenURI tokenMessage mintWithMessage 
+IERC721 inherits from IERC165 ERC165 inherits from IERC165 ERC721 inherits from Context ERC721 inherits from ERC165 ERC721 inherits from IERC721 IERC721Metadata inherits from IERC721 Ownable inherits from Context ERC721WithMessage inherits from Context ERC721WithMessage inherits from ERC165 ERC721WithMessage inherits from ERC721 ERC721WithMessage inherits from IERC721Metadata ERC721WithMessage inherits from Ownable 
+onlyOwner 
+Transfer Approval ApprovalForAll OwnershipTransferred 
+If a corresponds to 0
+counter _value increments of 1
+counter _value is equal to counter _value sub
+ is equal to True
+ is equal to to
+ is equal to approved
+ is equal to to
+ is equal to 
+ is equal to to
+If 
+If  is different from 
+ is equal to 
+_owner is equal to msgSender
+_initialized is equal to True
+_owner is equal to msgSender
+_initialized is equal to True
+_owner is equal to 
+_owner is equal to newOwner
+_name is equal to name
+_symbol is equal to symbol
+_tokenURI is equal to tokenURI
+ is equal to Message

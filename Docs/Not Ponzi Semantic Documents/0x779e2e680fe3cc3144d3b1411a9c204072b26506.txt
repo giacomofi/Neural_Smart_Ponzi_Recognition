@@ -1,0 +1,16 @@
+solidity ^0.5.1 
+VCTAToken 
+totalSupply balances allowed name decimals symbol allowance 
+transfer transferFrom balanceOf approve allowance 
+Transfer Approval 
+ is equal to _initialAmount
+totalSupply is equal to _initialAmount
+name is equal to _tokenName
+decimals is equal to _decimalUnits
+symbol is equal to _tokenSymbol
+ decreases of _value
+ increments of _value
+ increments of _value
+ decreases of _value
+ decreases of _value
+ is equal to _value

@@ -1,0 +1,67 @@
+solidity ^0.5.0 
+Context SafeMath Address IERC1820Registry IERC777Recipient IERC777 ISmartexUID ISmartexOracle SmartexBase SmartexLite 
+SafeMath Address 
+User 
+User has exists
+User has id
+User has uplineID
+User has referrerID
+User has isBurner
+User has holdings
+User has downlines
+User has referrals
+User has levelPayments
+User has levels
+c c c c codehash accountHash users authorizedCallers _burnersSet ERC1820_REGISTRY _creator _currentUserID MAX_LEVEL _token _suid _oracle SMARTEX_UID_INTERFACE_HASH TOKENS_RECIPIENT_INTERFACE_HASH _levelUSDPrices _wallets msgSender uplineID level referrer uplineID referrer lvl price change referrer user amount _user amount 
+_msgSender _msgData add sub sub mul div div mod mod isContract toPayable sendValue setManager getManager setInterfaceImplementer getInterfaceImplementer interfaceHash updateERC165Cache implementsERC165Interface implementsERC165InterfaceNoCache tokensReceived name symbol granularity decimals totalSupply balanceOf send transfer mint burn isOperatorFor authorizeOperator revokeOperator defaultOperators operatorSend operatorBurn addUser userExists getIDByAddress getAddressByID currentETHPrice lastETHPriceUpdate currentTokenPrice lastTokenPriceUpdate setETHPrice updateTokenPrice creator currentUserID token setSUID suid setOracle oracle wallet levelPrice levelPrices userUpline userLevelPayments userLevels userHoldings userDownlines userReferrals userHasLevel setAuthorizedCaller addBurner tokensReceived _registerUser _buyLevel _autoBuy _transferLevelPayment _getUplineID _releaseUserHoldings _newUser _bytesToAddress 
+SmartexBase inherits from Context SmartexBase inherits from IERC777Recipient SmartexLite inherits from SmartexBase 
+onlyCreator onlyAuthorizedCaller 
+InterfaceImplementerSet ManagerChanged Sent Minted Burned AuthorizedOperator RevokedOperator NewUser ETHPriceUpdated TokenPriceUpdated RegisterUser BuyLevel GetLevelProfit LostLevelProfit BurnLevelProfit 
+If a corresponds to 0
+_token is equal to token
+_creator is equal to msgSender
+ is equal to _newUser
+ is equal to msgSender
+ is equal to True
+ is equal to True
+ is equal to True
+_suid is equal to suid
+_oracle is equal to oracle
+If height corresponds to 0 Invalid symbol 
+ is equal to allowed
+If _currentUserID corresponds to 63
+_burnersSet is equal to True
+ is equal to _newUser
+ is equal to burner
+ is equal to True
+ is equal to True
+ is equal to True
+While level is greater then 0 Invalid symbol 
+
+referrerID is equal to 
+ is equal to _newUser
+ is equal to newUser
+ is equal to True
+If  Invalid symbol  Invalid symbol 
+If  is different from 
+lvl is greater then 0
+ is equal to True
+If 
+ is equal to True
+users user holdings is equal to 0
+If referrer corresponds to 
+referrer is equal to _creator
+If referrer isContract Invalid symbol 
+
+If level is different from MAX_LEVEL Invalid symbol 
+If  Invalid symbol 
+user holdings is equal to user holdings add
+If levelPrice is less or equal to user holdings
+uplineID is equal to users _wallets _currentUserID uplineID
+If _currentUserID Invalid symbol 2 is different from 0
+uplineID increments of 1
+If  corresponds to 0 Invalid symbol 
+_user holdings is equal to 0
+ is equal to 20 multiplied by 
+ is equal to 30 multiplied by 
+ is equal to 50 multiplied by 

@@ -1,0 +1,26 @@
+solidity ^0.4.25 
+SafeMath ERC20Interface ApproveAndCallFallBack Owned CMBCCoinERC20Token 
+c c c owner newOwner symbol name decimals _totalSupply balances allowed 
+safeMul safeDiv safeSub safeAdd totalSupply balanceOf allowance transfer approve transferFrom receiveApproval transferOwnership acceptOwnership totalSupply balanceOf transfer approve transferFrom allowance approveAndCall  transferAnyERC20Token setName setSymbol kill 
+CMBCCoinERC20Token inherits from ERC20Interface CMBCCoinERC20Token inherits from Owned CMBCCoinERC20Token inherits from SafeMath 
+onlyOwner 
+Transfer Approval OwnershipTransferred 
+If a corresponds to 0
+owner is equal to msg sender
+newOwner is equal to _newOwner
+owner is equal to newOwner
+newOwner is equal to 
+symbol is equal to CMBC
+name is equal to Creatanium Community Token
+decimals is equal to 8
+_totalSupply is equal to 100000000000000000
+ is equal to _totalSupply
+ is equal to safeSub
+ is equal to safeAdd
+ is equal to tokens
+ is equal to safeSub
+ is equal to safeSub
+ is equal to safeAdd
+ is equal to tokens
+name is equal to _value
+symbol is equal to _value

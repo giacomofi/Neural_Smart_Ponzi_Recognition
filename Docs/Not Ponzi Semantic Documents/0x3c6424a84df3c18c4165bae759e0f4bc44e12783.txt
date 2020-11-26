@@ -1,0 +1,76 @@
+solidity >=0.5.0 
+SafeMath ECDSA IERC20 SafeERC20 ERC20Detailed Ownable ECRecover ERC20 IERC20X ITokenReceiver ERC20X ERC20Meta Token ALBToken 
+SafeMath SafeMath SafeERC20 
+c c c c r s v newAllowance newAllowance _name _symbol _decimals _owner nonces ethSignedMessageHash _balances _allowed _totalSupply messageHash signer messageHash signer messageHash signer messageHash signer messageHash signer messageHash signer chains freezings freezingBalance release i currentKey headKey head currentKey next amount release balance key parentKey next nextKey parent startdate beneficiary1 beneficiary2 beneficiary3 beneficiary4 beneficiary5 amount 
+mul div sub add mod recover toEthSignedMessageHash transfer approve transferFrom totalSupply balanceOf allowance safeTransfer safeTransferFrom safeApprove safeIncreaseAllowance safeDecreaseAllowance name symbol decimals owner isOwner renounceOwnership transferOwnership _transferOwnership recoverSigner validateNonceForSigner totalSupply balanceOf allowance transfer approve transferFrom increaseAllowance decreaseAllowance _transfer _mint _burn _burnFrom approveAndCall receiveApproval approveAndCall _approveAndCall metaApproveAndCall metaTransfer metaTransferFrom metaApprove metaIncreaseAllowance metaDecreaseAllowance metaTransferHash metaApproveAndCallHash metaTransferFromHash metaApproveHash metaIncreaseAllowanceHash metaDecreaseAllowanceHash balanceOf actualBalanceOf freezingBalanceOf freezingCount getFreezing freezeTo _freezeTo releaseOnce releaseAll toKey freeze transferAnyERC20Token 
+ERC20Detailed inherits from IERC20 ERC20 inherits from IERC20 ERC20X inherits from IERC20X ERC20X inherits from ERC20 ERC20Meta inherits from ERC20X ERC20Meta inherits from ECRecover Token inherits from ERC20Meta Token inherits from Ownable ALBToken inherits from Token ALBToken inherits from ERC20Detailed 
+onlyOwner 
+Transfer Approval OwnershipTransferred ApprovalAndCall Freezed Released 
+If a corresponds to 0
+If signature length is different from 65
+If v is less then 27
+v increments of 27
+If v is different from 27 Invalid symbol 
+_name is equal to name
+_symbol is equal to symbol
+_decimals is equal to decimals
+_owner is equal to msg sender
+_owner is equal to 
+_owner is equal to newOwner
+ is equal to value
+ is equal to _allowed from msg sender sub
+ is equal to msg sender spender add
+ is equal to msg sender spender sub
+ is equal to _balances from sub
+ is equal to _balances to add
+_totalSupply is equal to _totalSupply add
+ is equal to _balances account add
+_totalSupply is equal to _totalSupply sub
+ is equal to _balances account sub
+ is equal to _allowed account msg sender sub
+ is equal to _value
+If _reward is greater then 0
+If _reward is greater then 0
+ is equal to _allowed _from signer sub
+If _reward is greater then 0
+ is equal to _value
+If _reward is greater then 0
+ is equal to _allowed signer _spender add
+If _reward is greater then 0
+ is equal to _allowed signer _spender sub
+If _reward is greater then 0
+While release is different from 0
+release is equal to 
+i is less then _index plus 1
+_release is equal to 
+If _release corresponds to 0
+_balance is equal to 
+ is equal to _balances _from sub
+ is equal to freezings currentKey add
+ is equal to freezingBalance _to add
+ is equal to msg sender add
+ is equal to msg sender sub
+If next corresponds to 0
+ is equal to next
+ is equal to getFreezing
+While release is different from 0 Invalid symbol 
+tokens increments of balance
+ is equal to getFreezing
+result is equal to 0x5749534800000000000000000000000000000000000000000000000000000000
+If next corresponds to 0
+ is equal to _until
+While next is different from 0 Invalid symbol 
+parent is equal to next
+parentKey is equal to nextKey
+next is equal to 
+nextKey is equal to toKey
+If _until corresponds to next
+If next is different from 0
+ is equal to next
+ is equal to _until
+startdate is equal to 1566766800
+beneficiary1 is equal to 0x11308512672859E403C570996dA51EEb6F5d1cD3
+beneficiary2 is equal to 0x3c35a288d9EA25E8F727C7d45383c04E633B5bdC
+beneficiary3 is equal to 0xc643E129c49CAb15dfC964643f2deCC9Dbfc7091
+beneficiary4 is equal to 0x188f445c13F702cBB3734Df63fb4Cb96c474866d
+beneficiary5 is equal to 0xFd05e00091b947AaA3ebA36beC62C2CA6003BCE7

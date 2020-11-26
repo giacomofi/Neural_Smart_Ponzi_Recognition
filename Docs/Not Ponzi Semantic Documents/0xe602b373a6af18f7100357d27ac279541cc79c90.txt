@@ -1,0 +1,27 @@
+solidity >=0.5.16 
+ChainValidator EnergyChainValidator 
+IterableMap 
+IterableMap has listIndex
+IterableMap has list
+NET_PRECISION MIN_DEPOSIT MIN_VESTING MAX_VESTING index foundIndex lastIndex admins whitelistedUsers maxNumOfValidators usersTotalCount i i i 
+validateNewValidator validateNewTransactor insertAcc removeAcc existAcc validateNewValidator validateNewTransactor setMaxNumOfValidators addWhitelistedUsers removeWhitelistedUsers addAdmins removeAdmin getAdmins getWhitelistedUsers getUsers addUsers removeUsers 
+EnergyChainValidator inherits from ChainValidator 
+ is equal to map list length
+ is equal to foundIndex plus 1
+ is equal to 
+ is equal to 0
+If vesting is less then MIN_VESTING Invalid symbol 
+If maxNumOfValidators is different from 0 Invalid symbol  Invalid symbol 
+If existAcc corresponds to True Invalid symbol 
+maxNumOfValidators is equal to num
+count is equal to 0
+i is equal to batch multiplied by 100
+i is less then  multiplied by 100 Invalid symbol 
+ is equal to 
+If i is greater or equal to usersTotalCount
+end is equal to True
+end is equal to False
+i is less then users length
+If existAcc corresponds to False
+i is less then users length
+If existAcc corresponds to True

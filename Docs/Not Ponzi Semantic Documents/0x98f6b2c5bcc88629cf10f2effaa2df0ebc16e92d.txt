@@ -1,0 +1,21 @@
+solidity ^0.5.0 
+ERC20Interface SafeMath BlockonomiToken 
+name symbol decimals _totalSupply balances allowed 
+totalSupply balanceOf allowance transfer approve transferFrom safeAdd safeSub safeMul safeDiv totalSupply balanceOf allowance approve transfer transferFrom 
+BlockonomiToken inherits from ERC20Interface BlockonomiToken inherits from SafeMath 
+Transfer Approval 
+c is equal to a plus b
+c is equal to a minus b
+c is equal to a multiplied by b
+c is equal to a divided by b
+name is equal to Saiful
+symbol is equal to SFL
+decimals is equal to 18
+_totalSupply is equal to 100000000000000000000000
+ is equal to _totalSupply
+ is equal to tokens
+ is equal to safeSub
+ is equal to safeAdd
+ is equal to safeSub
+ is equal to safeSub
+ is equal to safeAdd

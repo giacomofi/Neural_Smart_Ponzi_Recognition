@@ -1,0 +1,14 @@
+solidity ^0.5.15 
+JugAbstract PotAbstract VatAbstract VowAbstract GemPitAbstract DSTokenAbstract OsmAbstract PotHelper Hadaiken 
+pa ONE PIT MKR JUG POT VAT VOW PIP_ETH PIP_BAT pit gem jug pot vow vat osmeth osmbat poth ETH_A BAT_A USDC_A 
+drip drip dsr chi rho dai sin sin Sin Ash bump hump flap heal burn balanceOf pass poke mul rmul rpow drop pot _rawSysDebt rawSysDebt _sysSurplusThreshold sysSurplusThreshold heal healStat _heal drip drop _dripPot dripIlks _dripIlks kickable _kickable finishhim _finishhim ccccombobreaker _ccccombobreaker _pokeETH _pokeBAT _pokeThings hundredHandSlap hadaiken 
+pa is equal to PotAbstract
+z is equal to mul divided by ONE
+If now corresponds to pa rho
+poth is equal to 
+sd is equal to _rawSysDebt
+chi is equal to pot drip
+burned is equal to gem balanceOf
+
+
+

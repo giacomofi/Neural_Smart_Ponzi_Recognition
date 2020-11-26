@@ -1,0 +1,15 @@
+solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 
+IERC20 SafeMath SafeERC20 Ownable AsureBounty 
+SafeMath SafeERC20 
+c c c c newAllowance newAllowance _owner token decimals decimalFactor DEFAULT_AIRDROP_AMOUNT_ASR i i 
+transfer approve transferFrom totalSupply balanceOf allowance mul div sub add mod safeTransfer safeTransferFrom safeApprove safeIncreaseAllowance safeDecreaseAllowance owner isOwner renounceOwnership transferOwnership _transferOwnership drop airdrop 
+AsureBounty inherits from Ownable 
+onlyOwner 
+Transfer Approval OwnershipTransferred 
+If a corresponds to 0
+_owner is equal to msg sender
+_owner is equal to 
+_owner is equal to newOwner
+token is equal to IERC20
+i is less then recipients length
+i is less then recipients length

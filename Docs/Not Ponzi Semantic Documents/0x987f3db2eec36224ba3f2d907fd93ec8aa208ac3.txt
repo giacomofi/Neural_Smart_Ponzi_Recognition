@@ -1,0 +1,6 @@
+solidity 0.6.5 experimental ABIEncoderV2 
+ERC20 TokenAdapter AToken AaveTokenAdapter 
+underlying underlyingTokens 
+name symbol decimals getMetadata getComponents underlyingAssetAddress getMetadata getComponents 
+AaveTokenAdapter inherits from TokenAdapter 
+ is equal to Component

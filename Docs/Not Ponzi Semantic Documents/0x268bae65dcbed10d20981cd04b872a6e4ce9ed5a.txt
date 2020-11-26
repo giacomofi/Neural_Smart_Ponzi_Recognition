@@ -1,0 +1,26 @@
+solidity ^0.5.0 
+ConflictResolutionInterface MathUtil SafeCast SafeMath GameInterface Games ConflictResolution 
+SafeMath SafeMath SafeCast SafeCast SafeMath SafeMath 
+c INT256_MIN c c games i maxBetVal betValue res betValue res SERVER_TIMEOUT USER_TIMEOUT MIN_BET_VALUE MIN_BANKROLL NOT_ENDED_FINE CONFLICT_END_FINE MAX_BALANCE validMinBetValue validMaxBetValue newBalance stake newBalance stake profit resNum profit 
+minHouseStake maxBalance conflictEndFine isValidBet endGameConflict serverForceGameEnd userForceGameEnd abs max min castToInt castToUint mul mul div div sub sub add add maxBet resultNumber userProfit maxUserProfit maxBet resultNumber userProfit maxUserProfit getGameImplementation conflictEndFine maxBalance minHouseStake isValidBet endGameConflict serverForceGameEnd userForceGameEnd processBet 
+ConflictResolution inherits from ConflictResolutionInterface ConflictResolution inherits from Games 
+onlyValidBet onlyValidBalance 
+If _val is less then 0
+If a corresponds to 0
+c is equal to a multiplied by b
+If a corresponds to 0
+c is equal to a plus b
+i is less then gameContracts length
+ is equal to GameInterface
+newBalance is equal to newBalance sub
+If newBalance is less then 
+newBalance is equal to 
+If _gameType is different from 0
+newBalance is equal to processBet
+newBalance is equal to newBalance sub
+If newBalance is less then 
+newBalance is equal to 
+If _gameType corresponds to 0 Invalid symbol  Invalid symbol  Invalid symbol 
+profit is equal to 0
+profit is equal to Games maxUserProfit
+profit is equal to profit add

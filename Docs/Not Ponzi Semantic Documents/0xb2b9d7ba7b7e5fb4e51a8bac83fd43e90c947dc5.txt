@@ -1,0 +1,30 @@
+solidity 0.4.24 
+Address ERC20Basic BasicToken SafeERC20 IERC20 SafeMath Ownable WrapperLock AmpleforthWrapper 
+SafeMath SafeMath Address SafeERC20 SafeMath SafeMath 
+size balances totalSupply_ newAllowance newAllowance success c c c owner TRANSFER_PROXY_VEFX TRANSFER_PROXY_V2 isSigner name symbol decimals originalToken depositLock balances DECIMALS MAX_UINT256 INITIAL_FRAGMENTS_SUPPLY TOTAL_GONS balance 
+isContract totalSupply balanceOf transfer totalSupply transfer balanceOf safeTransfer safeTransferFrom safeApprove safeIncreaseAllowance safeDecreaseAllowance callOptionalReturn totalSupply balanceOf transfer allowance approve transferFrom mul div sub add Ownable transferOwnership WrapperLock deposit addToBalance withdraw subtractFromBalance withdrawBalanceDifference withdrawDifferentToken transfer transferFrom allowance balanceOf isValidSignature addSigner keccak balanceOf totalSupply transferFrom addToBalance subtractFromBalance withdrawBalanceDifference gonsPerFragment toGon fromGon 
+BasicToken inherits from ERC20Basic WrapperLock inherits from BasicToken WrapperLock inherits from Ownable AmpleforthWrapper inherits from WrapperLock 
+onlyOwner 
+Transfer Transfer Approval OwnershipTransferred 
+ is equal to msg sender sub
+ is equal to balances _to add
+If a corresponds to 0
+owner is equal to msg sender
+owner is equal to newOwner
+originalToken is equal to _originalToken
+name is equal to _name
+symbol is equal to _symbol
+decimals is equal to _decimals
+ is equal to True
+ is equal to now plus _forTime multiplied by 1 hours
+ is equal to msg sender add
+totalSupply_ is equal to totalSupply_ add
+If now is less or equal to 
+ is equal to 0
+ is equal to msg sender sub
+totalSupply_ is equal to totalSupply_ sub
+ is equal to balances _to add
+ is equal to 
+ is equal to balances _from sub
+If _spender corresponds to TRANSFER_PROXY_VEFX Invalid symbol 
+ is equal to True

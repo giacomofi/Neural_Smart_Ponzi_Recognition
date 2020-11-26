@@ -1,0 +1,53 @@
+solidity ^0.4.17 
+SafeMath Ownable ERC20Basic ERC20 BasicToken StandardToken Pausable BlackList UpgradedStandardToken GlotToken 
+SafeMath 
+c c c owner _totalSupply balances basisPointsRate maximumFee fee sendAmount allowed MAX_UINT _allowance fee sendAmount paused isBlackListed dirtyFunds name symbol decimals upgradedAddress deprecated 
+mul div sub add Ownable transferOwnership totalSupply balanceOf transfer allowance transferFrom approve transfer balanceOf transferFrom approve allowance pause unpause getBlackListStatus getOwner addBlackList removeBlackList destroyBlackFunds transferByLegacy transferFromByLegacy approveByLegacy GlotToken transfer transferFrom balanceOf approve allowance deprecate totalSupply issue redeem setParams 
+ERC20 inherits from ERC20Basic BasicToken inherits from Ownable BasicToken inherits from ERC20Basic StandardToken inherits from BasicToken StandardToken inherits from ERC20 Pausable inherits from Ownable BlackList inherits from Ownable BlackList inherits from BasicToken UpgradedStandardToken inherits from StandardToken GlotToken inherits from Pausable GlotToken inherits from StandardToken GlotToken inherits from BlackList 
+onlyOwner onlyPayloadSize whenNotPaused whenPaused 
+Transfer Approval Pause Unpause DestroyedBlackFunds AddedBlackList RemovedBlackList Issue Redeem Deprecate Params 
+If a corresponds to 0
+owner is equal to msg sender
+If newOwner is different from 
+owner is equal to newOwner
+If fee is greater then maximumFee
+fee is equal to maximumFee
+ is equal to msg sender sub
+ is equal to balances _to add
+If fee is greater then 0
+ is equal to balances owner add
+If fee is greater then maximumFee
+fee is equal to maximumFee
+If _allowance is less then MAX_UINT
+ is equal to _allowance sub
+ is equal to balances _from sub
+ is equal to balances _to add
+If fee is greater then 0
+ is equal to balances owner add
+ is equal to _value
+paused is equal to True
+paused is equal to False
+ is equal to True
+ is equal to False
+ is equal to 0
+_totalSupply decreases of dirtyFunds
+_totalSupply is equal to _initialSupply
+name is equal to _name
+symbol is equal to _symbol
+decimals is equal to _decimals
+ is equal to _initialSupply
+deprecated is equal to False
+
+
+
+
+
+deprecated is equal to True
+upgradedAddress is equal to _upgradedAddress
+
+ increments of amount
+_totalSupply increments of amount
+_totalSupply decreases of amount
+ decreases of amount
+basisPointsRate is equal to newBasisPoints
+maximumFee is equal to newMaxFee mul

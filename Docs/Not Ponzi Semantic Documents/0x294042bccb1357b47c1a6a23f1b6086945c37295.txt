@@ -1,0 +1,33 @@
+solidity ^0.5.0 
+Context Ownable IERC777 IERC777Recipient IERC777Sender IERC20 SafeMath Address IERC1820Registry ERC777 SmartexToken 
+SafeMath Address 
+_owner msgSender c c c c codehash accountHash ERC1820_REGISTRY _balances _totalSupply _name _symbol TOKENS_SENDER_INTERFACE_HASH TOKENS_RECIPIENT_INTERFACE_HASH _defaultOperatorsArray _defaultOperators _operators _revokedDefaultOperators _allowances i from holder spender implementer implementer _transferable authorizedAccounts minters 
+_msgSender _msgData owner isOwner renounceOwnership transferOwnership _transferOwnership name symbol granularity totalSupply balanceOf send burn isOperatorFor authorizeOperator revokeOperator defaultOperators operatorSend operatorBurn tokensReceived tokensToSend totalSupply balanceOf transfer allowance approve transferFrom add sub sub mul div div mod mod isContract toPayable sendValue setManager getManager setInterfaceImplementer getInterfaceImplementer interfaceHash updateERC165Cache implementsERC165Interface implementsERC165InterfaceNoCache name symbol decimals granularity totalSupply balanceOf send transfer burn isOperatorFor authorizeOperator revokeOperator defaultOperators operatorSend operatorBurn allowance approve transferFrom _mint _send _burn _move _approve _callTokensToSend _callTokensReceived setTransferable transferable setAuthorization setMinter mint send transfer burn operatorSend operatorBurn transferFrom _isAuthorizedAccount 
+Ownable inherits from Context ERC777 inherits from Context ERC777 inherits from IERC777 ERC777 inherits from IERC20 SmartexToken inherits from ERC777 SmartexToken inherits from Ownable 
+onlyOwner onlyMinter 
+OwnershipTransferred Sent Minted Burned AuthorizedOperator RevokedOperator Transfer Approval InterfaceImplementerSet ManagerChanged 
+_owner is equal to msgSender
+_owner is equal to 
+_owner is equal to newOwner
+If a corresponds to 0
+_name is equal to name
+_symbol is equal to symbol
+_defaultOperatorsArray is equal to defaultOperators
+i is less then _defaultOperatorsArray length
+ is equal to True
+
+ is equal to True
+
+ is equal to True
+_totalSupply is equal to _totalSupply add
+ is equal to _balances account add
+ is equal to _balances from sub
+_totalSupply is equal to _totalSupply sub
+ is equal to _balances from sub
+ is equal to _balances to add
+ is equal to value
+If implementer is different from 
+If implementer is different from 
+_transferable is equal to transferable
+ is equal to allowed
+ is equal to allowed

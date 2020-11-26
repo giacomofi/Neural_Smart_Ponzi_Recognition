@@ -1,0 +1,3 @@
+solidity 0.5.16 
+AddressRegistry 
+AaveLendingPoolAddressProviderAddress AaveEthAddress UniswapFactoryAddress CompoundPriceOracleAddress CompoundComptrollerAddress CEtherAddress CUSDCAddress CDaiAddress CSaiAddress DaiAddress BatAddress UsdcAddress EthJoinAddress UsdcJoinAddress BatJoinAddress DaiJoinAddress JugAddress DssProxyActionsAddress DssCdpManagerAddress 

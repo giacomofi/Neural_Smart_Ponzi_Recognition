@@ -1,0 +1,25 @@
+solidity ^0.4.23 
+ATOmuCOIN 
+admin_address account_address balances name symbol decimals initSupply totalSupply allowed oldValue vipaccount 
+balanceOf transfer transferFrom approve allowance increaseApproval decreaseApproval burn setvip vipquery setAdmin withDraw  mul div sub add 
+admin_only 
+Transfer Approval Burn 
+totalSupply is equal to mul
+ is equal to totalSupply
+ is equal to sub
+ is equal to add
+ is equal to sub
+ is equal to add
+ is equal to sub
+ is equal to _value
+ is equal to add
+If _subtractedValue is greater then oldValue
+ is equal to 0
+ is equal to sub
+ is equal to sub
+ is equal to add
+ is equal to True
+admin_address is equal to new_admin_address
+If a corresponds to 0
+c is equal to a multiplied by b
+c is equal to a plus b

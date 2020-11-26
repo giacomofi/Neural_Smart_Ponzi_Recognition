@@ -1,0 +1,81 @@
+solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity >=0.4.24<0.7.0 
+SafeMath ENSResolver PointerInterface ChainlinkRequestInterface LinkTokenInterface ENSInterface Buffer CBOR Chainlink ChainlinkClient SafeMath2 Ticketh 
+Buffer CBOR Chainlink SafeMath SafeMath2 
+buffer Request Lottery ChainlinkCallbackDetails 
+buffer has buf
+buffer has capacity
+Request has id
+Request has callbackAddress
+Request has callbackFunctionId
+Request has nonce
+Request has buf
+Lottery has lotteryId
+Lottery has ticketPrice
+Lottery has currentSum
+Lottery has blockNumber
+Lottery has endBlocks
+Lottery has lotteryStatus
+Lottery has participatingPlayers
+Lottery has roundWinners
+ChainlinkCallbackDetails has lotteryId
+c c c c buf oldbuf dest src mask mask mask MAJOR_TYPE_INT MAJOR_TYPE_NEGATIVE_INT MAJOR_TYPE_BYTES MAJOR_TYPE_STRING MAJOR_TYPE_ARRAY MAJOR_TYPE_MAP MAJOR_TYPE_CONTENT_FREE defaultBufferSize i LINK AMOUNT_OVERRIDE SENDER_OVERRIDE ARGS_VERSION ENS_TOKEN_SUBNAME ENS_ORACLE_SUBNAME LINK_TOKEN_POINTER ens ensNode link oracle requestCount pendingRequests req requested linkSubnode resolver oracleSubnode resolver c c c c oraclePrice jobId oracleAddress lotteries chainlinkDetails ownerAddress self lottery req requestId details lottery totalSum i 
+add sub mul div mod addr getAddress oracleRequest cancelOracleRequest allowance approve balanceOf decimals decreaseApproval increaseApproval name symbol totalSupply transfer transferAndCall transferFrom setSubnodeOwner setResolver setOwner setTTL owner resolver ttl init fromBytes resize max truncate write append append writeUint8 appendUint8 write writeBytes20 appendBytes20 appendBytes32 writeInt appendInt encodeType encodeIndefiniteLengthType encodeUInt encodeInt encodeBytes encodeString startArray startMap endSequence initialize setBuffer add addBytes addInt addUint addStringArray buildChainlinkRequest sendChainlinkRequest sendChainlinkRequestTo cancelChainlinkRequest setChainlinkOracle setChainlinkToken setPublicChainlinkToken chainlinkTokenAddress chainlinkOracleAddress addChainlinkExternalRequest useChainlinkWithENS updateChainlinkOracleWithENS encodeRequest validateChainlinkCallback add sub sub mul div div mod mod buyTicket requestRandomNumber distributePrize resetLottery withdraw endManually changeEndBlocks changeTicketPrice changeOraclePrice changeOracleAddress changeJobId getPlayers getWinners getStatus getBlockNum getOraclePrice getOracleAddress getJobId getLotteryTicketPrice getLotteryEndBlocks 
+Ticketh inherits from ChainlinkClient 
+recordChainlinkFulfillment notPendingRequest onlyOwner 
+NewOwner Transfer NewResolver NewTTL ChainlinkRequested ChainlinkFulfilled ChainlinkCancelled 
+If a corresponds to 0
+If capacity Invalid symbol 32 is different from 0
+capacity increments of 32 minus 
+buf capacity is equal to capacity
+buf buf is equal to b
+buf capacity is equal to b length
+If a is greater then b
+If off plus len is greater then buf capacity
+len is greater or equal to 32
+dest increments of 32
+src increments of 32
+If off is greater or equal to buf capacity
+If len plus off is greater then buf capacity
+data is equal to data Invalid symbol 
+If len plus off is greater then buf capacity
+If value is less or equal to 23
+If value is greater or equal to 0
+self id is equal to _id
+self callbackAddress is equal to _callbackAddress
+self callbackFunctionId is equal to _callbackFunction
+i is less then _values length
+requestId is equal to keccak256
+_req nonce is equal to requestCount
+ is equal to _oracle
+requestCount increments of 1
+oracle is equal to ChainlinkRequestInterface
+link is equal to LinkTokenInterface
+ is equal to _oracle
+ens is equal to ENSInterface
+ensNode is equal to _node
+If a corresponds to 0
+ownerAddress is equal to msg sender
+oraclePrice is equal to 100000000000000000
+jobId is equal to 85e21af0bcfb45d5888851286d57ce0c
+oracleAddress is equal to 0x89f70fA9F439dbd0A1BC22a09BEFc56adA04d9b4
+ is equal to Lottery
+ is equal to Lottery
+ is equal to Lottery
+ is equal to Lottery
+lottery currentSum is equal to lottery currentSum plus msg value
+If lottery participatingPlayers length corresponds to 1
+lottery blockNumber is equal to block number plus lottery endBlocks
+If lottery blockNumber is different from 0 Invalid symbol 
+lottery lotteryStatus is equal to False
+ is equal to ChainlinkCallbackDetails
+lottery participatingPlayers is equal to 
+lottery currentSum is equal to 0
+lottery blockNumber is equal to 0
+lottery lotteryStatus is equal to True
+i is less then 3
+totalSum is equal to totalSum plus lotteries i currentSum
+lotteries lotteryId endBlocks is equal to numberOfBlocks
+lotteries lotteryId ticketPrice is equal to ticketPrice
+oraclePrice is equal to newPrice
+oracleAddress is equal to newAddress
+jobId is equal to newJobId

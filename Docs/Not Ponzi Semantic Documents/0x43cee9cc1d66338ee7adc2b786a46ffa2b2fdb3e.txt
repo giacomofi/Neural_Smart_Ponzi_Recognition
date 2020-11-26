@@ -1,0 +1,13 @@
+solidity ^0.6.0 
+ERC20Interface AccountInterface MemoryInterface EventInterface Memory BasicResolver ConnectBasic 
+amt token _eventCode _eventParam amt token _eventCode _eventParam name 
+allowance balanceOf approve transfer transferFrom isAuth getUint setUint emitEvent getMemoryAddr getEventAddr connectorID getUint setUint getEthAddr deposit withdraw 
+BasicResolver inherits from Memory ConnectBasic inherits from BasicResolver 
+LogDeposit LogWithdraw 
+returnVal is equal to 
+If setId is different from 0
+If erc20 is different from getEthAddr
+amt is equal to 
+If erc20 corresponds to getEthAddr
+amt is equal to 
+amt is equal to 

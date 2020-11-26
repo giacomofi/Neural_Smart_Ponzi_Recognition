@@ -1,0 +1,24 @@
+solidity 0.5.14 
+Context Roles LexDAORole SafeMath IERC20 ERC20 ERC20Detailed LexDAI 
+Roles SafeMath 
+Role 
+Role has bearer
+_lexDAOs c c c c _balances _allowances _totalSupply _name _symbol _decimals $DAIaddress $DAI emoji lexDAOchat version lexDAO 
+_msgSender _msgData add remove has isLexDAO addLexDAO renounceLexDAO _addLexDAO _removeLexDAO add sub sub mul div div mod mod totalSupply balanceOf transfer allowance approve transferFrom totalSupply balanceOf transfer allowance approve transferFrom increaseAllowance decreaseAllowance _transfer _mint _burn _approve _burnFrom name symbol decimals mint$LXD redeem$LXD payLexDAO resolve$LXD transferLexDAO 
+LexDAORole inherits from Context ERC20 inherits from Context ERC20 inherits from IERC20 ERC20Detailed inherits from IERC20 LexDAI inherits from LexDAORole LexDAI inherits from ERC20 LexDAI inherits from ERC20Detailed 
+onlyLexDAO 
+LexDAOAdded LexDAORemoved Transfer Approval LexDAOPaid LexDAOTransferred 
+ is equal to True
+ is equal to False
+If a corresponds to 0
+ is equal to _balances sender sub
+ is equal to _balances recipient add
+_totalSupply is equal to _totalSupply add
+ is equal to _balances account add
+ is equal to _balances account sub
+_totalSupply is equal to _totalSupply sub
+ is equal to amount
+_name is equal to name
+_symbol is equal to symbol
+_decimals is equal to decimals
+lexDAO is equal to newLexDAO

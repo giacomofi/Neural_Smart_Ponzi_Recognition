@@ -1,0 +1,19 @@
+solidity >=0.5.1<0.6.0 
+SafeMath IERC20 ERC20 Ownable Pausable ERC20Pausable ProtossToken 
+SafeMath 
+c c c c _balances _allowances _totalSupply owner _paused name symbol decimals INIT_TOTALSUPPLY 
+add sub sub mul div div mod mod totalSupply balanceOf transfer allowance approve transferFrom totalSupply balanceOf transfer allowance approve transferFrom increaseAllowance decreaseAllowance _transfer _approve transferOwnership _transferOwnership paused pause unpause transfer transferFrom approve increaseAllowance decreaseAllowance 
+ERC20 inherits from IERC20 Pausable inherits from Ownable ERC20Pausable inherits from ERC20 ERC20Pausable inherits from Pausable ProtossToken inherits from ERC20Pausable 
+onlyOwner whenNotPaused whenPaused 
+Transfer Approval OwnershipTransferred Paused Unpaused 
+If a corresponds to 0
+ is equal to _balances sender sub
+ is equal to _balances recipient add
+ is equal to value
+owner is equal to _newOwner
+_paused is equal to False
+_paused is equal to True
+_paused is equal to False
+owner is equal to 
+_totalSupply is equal to INIT_TOTALSUPPLY
+ is equal to _totalSupply

@@ -1,0 +1,10 @@
+solidity >=0.4.21<0.6.0 
+Ownable ERC20Basic UserWallet GotchuWallet 
+_owner _token _version token userWallet 
+owner isOwner transferOwnership _transferOwnership balanceOf transfer transferOwnership balanceOfToken _balanceOfToken withdrawToken _withdrawToken sweep setNewOwner generateUserWallet version 
+UserWallet inherits from Ownable GotchuWallet inherits from Ownable 
+onlyOwner 
+OwnershipTransferred Transfer TokenWithdraw TokenSweep 
+_owner is equal to msg sender
+_owner is equal to newOwner
+_token is equal to token

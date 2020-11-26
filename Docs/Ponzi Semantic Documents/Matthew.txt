@@ -1,0 +1,19 @@
+solidity ^0.4.6 
+Matthew 
+owner whale blockheight stake period DELTA WINNERTAX_PRECENT mustBeDestroyed newPeriod isSuccess nextStake isOtherSuccess 
+Matthew setFacts  destroyWhenRoundOver setNewPeriod getPeriod getNewPeriod getDestroyedWhenRoundOver getBlocksTillMatthew 
+onlyOwner 
+MatthewWon StakeIncreased 
+owner is equal to msg sender
+stake is equal to this balance
+period is equal to newPeriod
+blockheight is equal to block number
+whale is equal to msg sender
+If block number minus period is greater or equal to blockheight
+If isSuccess corresponds to False
+isSuccess is equal to whale send
+
+If msg value is less then stake plus DELTA
+mustBeDestroyed is equal to True
+newPeriod is equal to _newPeriod
+If blockheight plus period is greater then block number

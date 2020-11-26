@@ -1,0 +1,36 @@
+solidity >=0.4.21<0.6.0 
+AddressArray MultiSigInterface MultiSigTools AddressList TrustList TrustListFactory IERC20AuctionOpProxy SafeMath TransferableToken TokenClaimer ERC20TokenBankInterface ERC20AuctionOpProxy 
+AddressArray SafeMath 
+i i index index multisig_contract hash old address_status addresses i i i i tl token balance object_erc20_pool exchange_erc20_token benifit_pool auction_mgr_contract total token old_balance new_balance old_total total token old_balance new_balance old_addr old 
+exists index_of remove replace update_and_check_reach_majority is_signer transfer_multisig get_all_addresses get_address get_address_num is_address_exist _add_address _remove_address _reset is_trusted get_trusted get_trusted_num add_trusted add_multi_trusted remove_trusted remove_multi_trusted createTrustList add_auction apply_bid revoke_bid apply_auction object_token object_total_amount safeAdd safeSub safeMul safeDiv balanceOf transfer transferFrom _claimStdTokens balance token issue add_auction apply_bid revoke_bid apply_auction object_token object_total_amount change_object_erc20_pool change_benifit_pool 
+TrustList inherits from AddressList TrustList inherits from MultiSigTools ERC20AuctionOpProxy inherits from AddressList ERC20AuctionOpProxy inherits from IERC20AuctionOpProxy ERC20AuctionOpProxy inherits from MultiSigTools 
+only_signer is_majority_sig 
+TransferMultiSig AddTrust RemoveTrust NewTrustList ClaimedTokens ChangeObjectERC20Pool ChangeBenifitPool 
+i is less then self length
+If  corresponds to addr
+i is less then self length
+If  corresponds to addr
+ is equal to 
+ is equal to new_addr
+multisig_contract is equal to MultiSigInterface
+multisig_contract is equal to MultiSigInterface
+
+ is equal to True
+If 
+ is equal to False
+i is less then addresses length
+ is equal to False
+i is less then _list length
+i is less then _list length
+i is less then _list length
+c is equal to a plus b
+c is equal to a minus b
+c is equal to a multiplied by b
+c is equal to a divided by b
+If _token corresponds to 
+object_erc20_pool is equal to ERC20TokenBankInterface
+exchange_erc20_token is equal to _exchange_erc20_token
+benifit_pool is equal to _benifit_pool
+auction_mgr_contract is equal to _auction_mgr
+object_erc20_pool is equal to ERC20TokenBankInterface
+benifit_pool is equal to new_pool

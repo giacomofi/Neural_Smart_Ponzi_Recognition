@@ -1,0 +1,29 @@
+solidity ^0.5.0 
+Context SafeMath IERC20 ERC20 
+SafeMath 
+c c c c _balances _allowances frozenAccount _totalSupply _cap _name _symbol _decimals _owner _creator _minter _burner 
+_msgSender _msgData add sub sub mul div div mod mod totalSupply balanceOf transfer allowance approve transferFrom setOwner setCreator setMinter setBurner name symbol decimals totalSupply cap balanceOf transfer allowance approve transferFrom increaseAllowance decreaseAllowance _transfer freezeAccount mint _mint burn _burn _approve _burnFrom 
+ERC20 inherits from Context ERC20 inherits from IERC20 
+Transfer Approval FrozenFunds 
+If a corresponds to 0
+_name is equal to name
+_symbol is equal to symbol
+_totalSupply is equal to totalSupply multiplied by 10 Invalid symbol 
+_cap is equal to _totalSupply
+_owner is equal to msg sender
+_creator is equal to msg sender
+_burner is equal to msg sender
+_minter is equal to msg sender
+ is equal to _totalSupply
+_owner is equal to newOwner
+_creator is equal to newCreator
+_minter is equal to newMinter
+_burner is equal to newBurner
+ is equal to _balances sender sub
+ is equal to _balances recipient add
+ is equal to freeze
+_totalSupply is equal to _totalSupply add
+ is equal to _balances account add
+ is equal to _balances account sub
+_totalSupply is equal to _totalSupply sub
+ is equal to amount

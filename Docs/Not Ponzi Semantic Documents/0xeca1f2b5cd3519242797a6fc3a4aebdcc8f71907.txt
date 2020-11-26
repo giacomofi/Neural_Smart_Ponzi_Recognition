@@ -1,0 +1,36 @@
+solidity 0.5.14 
+Context Roles LexDAORole SafeMath IERC20 ICHAI ICERC20 LexGrow 
+Roles SafeMath 
+Role Deposit 
+Role has bearer
+Deposit has client
+Deposit has provider
+Deposit has amount
+Deposit has wrap
+Deposit has termination
+Deposit has index
+Deposit has details
+Deposit has dsr
+Deposit has locked
+Deposit has released
+_lexDAOs c c c c daiToken dai chaiToken chai usdcToken usdc cUSDCtoken cUSDC vault lexDAO version depositFee lxg emoji deposit index balance exchangeRateMantissa supplyRateMantissa balance mintResult index depos depos depos depos 
+_msgSender _msgData add remove has isLexDAO addLexDAO renounceLexDAO _addLexDAO _removeLexDAO add sub sub mul div div mod mod totalSupply balanceOf transfer allowance approve transferFrom balanceOf transfer dai dai join balanceOf transfer mint exchangeRateCurrent supplyRatePerBlock registerDAI registerUSDC release withdraw lock resolve newDepositFee 
+LexDAORole inherits from Context LexGrow inherits from LexDAORole 
+onlyLexDAO 
+LexDAOAdded LexDAORemoved Transfer Approval Log Registered Released Locked Resolved 
+ is equal to True
+ is equal to False
+If a corresponds to 0
+depositFee is equal to 1000000000000000
+lxg is equal to lxg add
+ is equal to Deposit
+lxg is equal to lxg add
+ is equal to Deposit
+If depos dsr corresponds to True
+depos released is equal to True
+If depos dsr corresponds to True
+depos released is equal to True
+depos locked is equal to True
+If depos dsr corresponds to True
+depos released is equal to True
+depositFee is equal to weiAmount

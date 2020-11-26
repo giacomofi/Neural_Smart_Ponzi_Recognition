@@ -1,0 +1,30 @@
+solidity =0.5.12 
+LibNote GemLike DSTokenLike VatLike GemJoin ETHJoin DaiJoin 
+wards vat ilk gem dec live wards vat ilk live wards vat dai live ONE 
+decimals transfer transferFrom mint burn slip move rely deny cage join exit rely deny cage join exit rely deny cage mul join exit 
+GemJoin inherits from LibNote ETHJoin inherits from LibNote DaiJoin inherits from LibNote 
+note auth auth auth 
+LogNote 
+ is equal to 1
+ is equal to 0
+ is equal to 1
+live is equal to 1
+vat is equal to VatLike
+ilk is equal to ilk_
+gem is equal to GemLike
+dec is equal to gem decimals
+live is equal to 0
+ is equal to 1
+ is equal to 0
+ is equal to 1
+live is equal to 1
+vat is equal to VatLike
+ilk is equal to ilk_
+live is equal to 0
+ is equal to 1
+ is equal to 0
+ is equal to 1
+live is equal to 1
+vat is equal to VatLike
+dai is equal to DSTokenLike
+live is equal to 0

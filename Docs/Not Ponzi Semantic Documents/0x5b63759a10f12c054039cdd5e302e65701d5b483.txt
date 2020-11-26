@@ -1,0 +1,23 @@
+solidity ^0.5.4 
+IERC20 OwnAdminable Pausable MasBurner 
+_owner _admin _paused name BURN_ADDRESS BURN_START_TIME ONE_WEEK_IN_SECONDS burnAmountArr burnTimestampArr numOfBurns weeklyLimit tokenAddress totalBurnAmount totalReceivingMcashAmount burningRate feeRate thisWeekStartTime total i amt fee mcashReceivingAmount 
+transfer approve transferFrom totalSupply balanceOf allowance owner admin isOwner isOwnerOrAdmin renounceOwnership transferOwnership setAdmin _transferOwnership paused pause unpause setWeeklyLimit setBurningRate setFeeRate getWeekIndex getThisWeekStartTime getThisWeekBurnedAmount getThisWeekBurnAmountLeft getMcashReceivingAmount burn 
+Pausable inherits from OwnAdminable MasBurner inherits from Pausable 
+onlyOwner onlyOwnerOrAdmin whenNotPaused whenPaused 
+Transfer Approval OwnershipTransferred Paused Unpaused ChangeWeeklyLimit Burn ChangeBurningRate ChangeFeeRate 
+_owner is equal to msg sender
+_owner is equal to 
+_admin is equal to newAdmin
+_owner is equal to newOwner
+_paused is equal to False
+_paused is equal to True
+_paused is equal to False
+tokenAddress is equal to _tokenAddress
+weeklyLimit is equal to _weeklyLimit
+burningRate is equal to _burningRate
+feeRate is equal to _feeRate
+i is greater or equal to 1
+If  is less then thisWeekStartTime
+total increments of 
+totalBurnAmount increments of amount
+totalReceivingMcashAmount increments of mcashReceivingAmount

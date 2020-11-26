@@ -1,0 +1,28 @@
+solidity ^0.4.16 
+tokenRecipient ERC_20_2 
+name symbol decimals totalSupply lockAll creator owner newOwner balanceOf allowance frozens tm oldOwner previousBalances spender 
+receiveApproval offer transferOwnership acceptOwnership setLockAll setFreezeAddress _transfer transfer transferExtra transferFrom approve approveAndCall _burn burn burnFrom  
+onlyOwner 
+Transfer TransferExtra Approval Burn Offer OwnerChanged FreezeAddress 
+name is equal to tokenName
+symbol is equal to tokenSymbol
+decimals is equal to tokenDecimals
+totalSupply is equal to initialSupplyHM multiplied by 10000 multiplied by 10000 multiplied by 
+ is equal to totalSupply
+owner is equal to msg sender
+creator is equal to msg sender
+totalSupply increments of tm
+ increments of tm
+newOwner is equal to _newOwner
+owner is equal to newOwner
+newOwner is equal to 0x0
+lockAll is equal to _lockAll
+ is equal to _freeze
+ decreases of _value
+ increments of _value
+ decreases of _value
+ is equal to _value
+
+ decreases of _value
+totalSupply decreases of _value
+ decreases of _value

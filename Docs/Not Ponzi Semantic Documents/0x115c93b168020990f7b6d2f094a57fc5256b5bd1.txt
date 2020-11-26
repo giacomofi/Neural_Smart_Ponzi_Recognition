@@ -1,0 +1,34 @@
+solidity ^0.5.0 
+ERC20 ExchangeInterface DSMath ConstantAddressesMainnet ConstantAddressesKovan ConstantAddresses SaverExchange 
+WAD RAY MAKER_DAI_ADDRESS IDAI_ADDRESS SOLO_MARGIN_ADDRESS CDAI_ADDRESS KYBER_ETH_ADDRESS MKR_ADDRESS WETH_ADDRESS VOX_ADDRESS PETH_ADDRESS TUB_ADDRESS WALLET_ID LOGGER_ADDRESS OTC_ADDRESS KYBER_WRAPPER UNISWAP_WRAPPER ETH2DAI_WRAPPER KYBER_INTERFACE UNISWAP_FACTORY FACTORY_ADDRESS PIP_INTERFACE_ADDRESS PROXY_REGISTRY_INTERFACE_ADDRESS GAS_TOKEN_INTERFACE_ADDRESS CTOKEN_INTERFACE COMPOUND_DAI_ADDRESS STUPID_EXCHANGE KYBER_ETH_ADDRESS WETH_ADDRESS MAKER_DAI_ADDRESS MKR_ADDRESS VOX_ADDRESS PETH_ADDRESS TUB_ADDRESS LOGGER_ADDRESS WALLET_ID OTC_ADDRESS COMPOUND_DAI_ADDRESS IDAI_ADDRESS SOLO_MARGIN_ADDRESS CDAI_ADDRESS STUPID_EXCHANGE KYBER_WRAPPER UNISWAP_WRAPPER ETH2DAI_WRAPPER FACTORY_ADDRESS PIP_INTERFACE_ADDRESS PROXY_REGISTRY_INTERFACE_ADDRESS GAS_TOKEN_INTERFACE_ADDRESS KYBER_INTERFACE CTOKEN_INTERFACE UNISWAP_FACTORY SERVICE_FEE fee exchangeWrapper daiEthPrice daiBalance exchangeWrapper ethDaiPrice ethReturned daiReturned fee expectedRateKyber expectedRateUniswap expectedRateEth2Dai 
+totalSupply balanceOf transfer transferFrom approve allowance decimals swapEtherToToken swapTokenToEther getExpectedRate add sub mul min max imin imax wmul rmul wdiv rdiv rpow swapDaiToEth swapEthToDai getBestPrice takeFee  
+ConstantAddresses inherits from ConstantAddressesMainnet SaverExchange inherits from DSMath SaverExchange inherits from ConstantAddresses 
+Approval 
+z is equal to add divided by WAD
+z is equal to add divided by RAY
+z is equal to add divided by y
+z is equal to add divided by y
+z is equal to 
+n is divided by 2
+n is different from 0
+x is equal to rmul
+If n Invalid symbol 2 is different from 0
+z is equal to rmul
+_amount is equal to sub
+ is equal to getBestPrice
+If daiBalance is greater then 0
+ is equal to getBestPrice
+ is equal to 
+daiReturned is equal to sub
+If ethReturned is greater then 0
+ is equal to 
+ is equal to 
+ is equal to 
+If _exchangeType corresponds to 1
+If _exchangeType corresponds to 2
+If _exchangeType corresponds to 3
+If  Invalid symbol 
+If  Invalid symbol 
+If  Invalid symbol 
+feeAmount is equal to _amount divided by SERVICE_FEE
+If feeAmount is greater then 0

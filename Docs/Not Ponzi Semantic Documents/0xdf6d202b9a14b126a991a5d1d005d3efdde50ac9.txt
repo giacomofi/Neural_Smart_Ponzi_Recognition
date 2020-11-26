@@ -1,0 +1,56 @@
+solidity ^0.5.0 
+SafeMath Killable Context Ownable IGroup AddressValidator UsingValidator AddressConfig UsingConfig Roles PauserRole Pausable EternalStorage UsingStorage MetricsGroup 
+Roles SafeMath 
+Role 
+Role has bearer
+c c c c _owner _owner msgSender errorMessage _validator token allocator allocatorStorage withdraw withdrawStorage marketFactory marketGroup propertyFactory propertyGroup metricsGroup metricsFactory policy policyFactory policySet policyGroup lockup lockupStorage voteTimes voteTimesStorage voteCounter voteCounterStorage _config _pausers _paused currentOwner uIntStorage stringStorage addressStorage bytesStorage boolStorage intStorage _storage tmp totalCount totalCount 
+add sub sub mul div div mod mod kill _msgSender _msgData owner isOwner renounceOwnership transferOwnership _transferOwnership isGroup addGroup getGroupKey validateIllegalAddress validateGroup validateGroups validateAddress validateAddresses addressValidator setAllocator setAllocatorStorage setWithdraw setWithdrawStorage setMarketFactory setMarketGroup setPropertyFactory setPropertyGroup setMetricsFactory setMetricsGroup setPolicyFactory setPolicyGroup setPolicySet setPolicy setToken setLockup setLockupStorage setVoteTimes setVoteTimesStorage setVoteCounter setVoteCounterStorage config configAddress add remove has isPauser addPauser renouncePauser _addPauser _removePauser paused pause unpause changeOwner getUint getString getAddress getBytes getBool getInt setUint setString setAddress setBytes setBool setInt deleteUint deleteString deleteAddress deleteBytes deleteBool deleteInt eternalStorage getStorageAddress createStorage setStorage changeOwner addGroup removeGroup isGroup totalIssuedMetrics getTotalCountKey 
+Ownable inherits from Context AddressConfig inherits from Ownable AddressConfig inherits from UsingValidator AddressConfig inherits from Killable PauserRole inherits from Context Pausable inherits from Context Pausable inherits from PauserRole UsingStorage inherits from Ownable UsingStorage inherits from Pausable MetricsGroup inherits from UsingConfig MetricsGroup inherits from UsingStorage MetricsGroup inherits from UsingValidator MetricsGroup inherits from IGroup 
+onlyOwner onlyPauser whenNotPaused whenPaused onlyCurrentOwner hasStorage 
+OwnershipTransferred PauserAdded PauserRemoved Paused Unpaused 
+If a corresponds to 0
+_owner is equal to msg sender
+_owner is equal to msgSender
+_owner is equal to 
+_owner is equal to newOwner
+
+If _addr corresponds to _target1
+_validator is equal to 
+allocator is equal to _addr
+allocatorStorage is equal to _addr
+withdraw is equal to _addr
+withdrawStorage is equal to _addr
+marketFactory is equal to _addr
+marketGroup is equal to _addr
+propertyFactory is equal to _addr
+propertyGroup is equal to _addr
+metricsFactory is equal to _addr
+metricsGroup is equal to _addr
+policyFactory is equal to _addr
+policyGroup is equal to _addr
+policySet is equal to _addr
+policy is equal to _addr
+token is equal to _addr
+lockup is equal to _addr
+lockupStorage is equal to _addr
+voteTimes is equal to _addr
+voteTimesStorage is equal to _addr
+voteCounter is equal to _addr
+voteCounterStorage is equal to _addr
+_config is equal to AddressConfig
+ is equal to True
+ is equal to False
+_paused is equal to False
+_paused is equal to True
+_paused is equal to False
+currentOwner is equal to _newOwner
+ is equal to _value
+ is equal to _value
+ is equal to _value
+ is equal to _value
+ is equal to _value
+ is equal to _value
+_storage is equal to 
+_storage is equal to _storageAddress
+totalCount is equal to totalCount add
+totalCount is equal to totalCount sub

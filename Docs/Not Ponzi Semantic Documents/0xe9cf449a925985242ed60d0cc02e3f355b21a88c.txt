@@ -1,0 +1,52 @@
+solidity >=0.5.10 
+SafeMath ERC20Interface ApproveAndCallFallBack Owned TokenERC20 Lethereum 
+SafeMath 
+owner newOwner symbol name decimals _totalSupply balances allowed aSBlock aEBlock aCap aTot aAmt sSBlock sEBlock sCap sTot sChunk sPrice _eth _tkns _price _owner 
+add sub mul div totalSupply balanceOf allowance transfer approve transferFrom receiveApproval transferOwnership acceptOwnership totalSupply balanceOf transfer approve transferFrom allowance approveAndCall  getAirdrop tokenSale viewAirdrop viewSale startAirdrop startSale clearETH  
+TokenERC20 inherits from ERC20Interface TokenERC20 inherits from Owned Lethereum inherits from TokenERC20 
+onlyOwner 
+Transfer Approval OwnershipTransferred 
+c is equal to a plus b
+c is equal to a minus b
+c is equal to a multiplied by b
+c is equal to a divided by b
+owner is equal to msg sender
+newOwner is equal to _newOwner
+owner is equal to newOwner
+newOwner is equal to 
+symbol is equal to LETH
+name is equal to Lethereum 
+decimals is equal to 0
+_totalSupply is equal to 150 Invalid symbol 10 multiplied by 
+ is equal to _totalSupply
+ is equal to msg sender sub
+ is equal to balances to add
+ is equal to tokens
+ is equal to balances from sub
+ is equal to allowed from msg sender sub
+ is equal to balances to add
+ is equal to tokens
+If msg sender is different from _refer Invalid symbol  Invalid symbol 
+ is equal to  sub
+ is equal to balances _refer add
+ is equal to  sub
+ is equal to msg sender add
+If sChunk is different from 0
+_tkns is equal to sChunk multiplied by _price
+_tkns is equal to _eth divided by sPrice
+If msg sender is different from _refer Invalid symbol  Invalid symbol 
+ is equal to  sub
+ is equal to balances _refer add
+ is equal to  sub
+ is equal to msg sender add
+aSBlock is equal to _aSBlock
+aEBlock is equal to _aEBlock
+aAmt is equal to _aAmt
+aCap is equal to _aCap
+aTot is equal to 0
+sSBlock is equal to _sSBlock
+sEBlock is equal to _sEBlock
+sChunk is equal to _sChunk
+sPrice is equal to _sPrice
+sCap is equal to _sCap
+sTot is equal to 0

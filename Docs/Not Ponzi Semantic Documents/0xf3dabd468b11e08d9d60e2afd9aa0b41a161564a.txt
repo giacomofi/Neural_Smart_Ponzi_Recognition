@@ -1,0 +1,59 @@
+solidity >0.4.18 solidity ^0.4.19 solidity 0.4.24 solidity 0.4.24 solidity ^0.4.18 solidity 0.4.24 solidity 0.4.24 solidity 0.4.24 solidity ^0.4.24 solidity 0.4.24 solidity ^0.4.24 solidity 0.4.24 
+Buffer CBOR Chainlink ENSResolver ENSInterface LinkTokenInterface ChainlinkRequestInterface PointerInterface SafeMath ChainlinkClient Ownable ATestnetConsumer 
+Buffer CBOR Chainlink SafeMath 
+buffer Request 
+buffer has buf
+buffer has capacity
+Request has id
+Request has callbackAddress
+Request has callbackFunctionId
+Request has nonce
+Request has buf
+buf oldbuf dest src mask mask mask MAJOR_TYPE_INT MAJOR_TYPE_NEGATIVE_INT MAJOR_TYPE_BYTES MAJOR_TYPE_STRING MAJOR_TYPE_ARRAY MAJOR_TYPE_MAP MAJOR_TYPE_CONTENT_FREE defaultBufferSize i LINK AMOUNT_OVERRIDE SENDER_OVERRIDE ARGS_VERSION ENS_TOKEN_SUBNAME ENS_ORACLE_SUBNAME LINK_TOKEN_POINTER ens ensNode link oracle requests pendingRequests req requested linkSubnode resolver oracleSubnode resolver owner ORACLE_PAYMENT currentPrice changeDay lastMarket req req req path link tempEmptyStringTest 
+init fromBytes resize max truncate write append append writeUint8 appendUint8 write writeBytes20 appendBytes20 appendBytes32 writeInt appendInt encodeType encodeIndefiniteLengthType encodeUInt encodeInt encodeBytes encodeString startArray startMap endSequence initialize setBuffer add addBytes addInt addUint addStringArray addr setSubnodeOwner setResolver setOwner setTTL owner resolver ttl allowance approve balanceOf decimals decreaseApproval increaseApproval name symbol totalSupply transfer transferAndCall transferFrom oracleRequest cancelOracleRequest getAddress mul div sub add buildChainlinkRequest sendChainlinkRequest sendChainlinkRequestTo cancelChainlinkRequest setChainlinkOracle setChainlinkToken setPublicChainlinkToken chainlinkTokenAddress chainlinkOracleAddress addChainlinkExternalRequest useChainlinkWithENS updateChainlinkOracleWithENS encodeRequest validateChainlinkCallback renounceOwnership transferOwnership _transferOwnership requestEthereumPrice requestEthereumChange requestEthereumLastMarket fulfillEthereumPrice fulfillEthereumChange fulfillEthereumLastMarket getChainlinkToken withdrawLink stringToBytes32 
+ATestnetConsumer inherits from ChainlinkClient ATestnetConsumer inherits from Ownable 
+recordChainlinkFulfillment notPendingRequest onlyOwner 
+NewOwner Transfer NewResolver NewTTL ChainlinkRequested ChainlinkFulfilled ChainlinkCancelled OwnershipRenounced OwnershipTransferred RequestEthereumPriceFulfilled RequestEthereumChangeFulfilled RequestEthereumLastMarket 
+If capacity Invalid symbol 32 is different from 0
+capacity increments of 32 minus 
+buf capacity is equal to capacity
+buf buf is equal to b
+buf capacity is equal to b length
+If a is greater then b
+If off plus len is greater then buf capacity
+len is greater or equal to 32
+dest increments of 32
+src increments of 32
+If off is greater or equal to buf capacity
+If len plus off is greater then buf capacity
+data is equal to data Invalid symbol 
+If len plus off is greater then buf capacity
+If value is less or equal to 23
+If value is greater or equal to 0
+self id is equal to _id
+self callbackAddress is equal to _callbackAddress
+self callbackFunctionId is equal to _callbackFunction
+i is less then _values length
+If _a corresponds to 0
+c is equal to _a multiplied by _b
+c is equal to _a plus _b
+requestId is equal to keccak256
+_req nonce is equal to requests
+ is equal to _oracle
+requests increments of 1
+oracle is equal to ChainlinkRequestInterface
+link is equal to LinkTokenInterface
+ is equal to _oracle
+ens is equal to ENSInterface
+ensNode is equal to _node
+owner is equal to msg sender
+owner is equal to 
+owner is equal to _newOwner
+ is equal to RAW
+ is equal to ETH
+ is equal to USD
+ is equal to LASTMARKET
+currentPrice is equal to _price
+changeDay is equal to _change
+lastMarket is equal to _market
+If tempEmptyStringTest length corresponds to 0

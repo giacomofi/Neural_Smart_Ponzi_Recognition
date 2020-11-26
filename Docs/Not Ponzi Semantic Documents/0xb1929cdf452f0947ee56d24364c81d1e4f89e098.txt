@@ -1,0 +1,17 @@
+solidity ^0.4.16 
+TokenBasic 
+name symbol decimals totalSupply sellScale lockAll owner newOwner frozens balanceOf previousBalances 
+TokenBasic transferOwnership acceptOwnership contBuy freezeAccount setScale freezeAll contTransfer transfer _transfer sellToAddress sell  
+onlyOwner 
+Transfer FrozenFunds OwnerUpdate 
+totalSupply is equal to 1000000000 multiplied by 10 Invalid symbol 
+ is equal to totalSupply
+owner is equal to msg sender
+newOwner is equal to tOwner
+owner is equal to newOwner
+newOwner is equal to 0x0
+ is equal to freeze
+sellScale is equal to newSellScale
+lockAll is equal to lock
+ decreases of _value
+ increments of _value

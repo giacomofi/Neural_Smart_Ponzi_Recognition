@@ -1,0 +1,30 @@
+solidity 0.5.11 
+SafeMath Ownable ERC20Basic ERC20 BasicToken StandardToken Pausable PausableToken EDC 
+SafeMath 
+c c c owner totalSupply balances allowed oldValue paused name symbol decimals 
+mul div sub add transferOwnership balanceOf transfer allowance transferFrom approve transfer balanceOf transferFrom approve allowance increaseApproval decreaseApproval pause unpause transfer transferFrom approve increaseApproval decreaseApproval burnTokens destroy 
+ERC20 inherits from ERC20Basic BasicToken inherits from ERC20Basic BasicToken inherits from Ownable StandardToken inherits from ERC20 StandardToken inherits from BasicToken Pausable inherits from StandardToken PausableToken inherits from Pausable EDC inherits from PausableToken 
+onlyOwner whenNotPaused whenPaused 
+OwnershipTransferred Transfer Approval Pause Unpause TokensBurned 
+If a corresponds to 0
+owner is equal to msg sender
+owner is equal to newOwner
+ is equal to msg sender sub
+ is equal to balances _to add
+ is equal to balances _from sub
+ is equal to balances _to add
+ is equal to allowed _from msg sender sub
+ is equal to _value
+ is equal to msg sender _spender add
+If _subtractedValue is greater then oldValue
+ is equal to 0
+ is equal to oldValue sub
+paused is equal to True
+paused is equal to False
+name is equal to EDC Blockchain
+symbol is equal to EDC
+decimals is equal to 6
+totalSupply is equal to 1000000000 multiplied by 1000000
+ is equal to totalSupply
+ is equal to msg sender sub
+totalSupply is equal to totalSupply sub

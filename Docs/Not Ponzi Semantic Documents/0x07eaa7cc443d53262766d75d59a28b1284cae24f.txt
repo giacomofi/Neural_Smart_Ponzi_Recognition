@@ -1,0 +1,62 @@
+solidity ^0.4.25 
+Ownable FactoryTokenInterface TokenFactoryInterface ZapCoordinatorInterface BondageInterface CurrentCostInterface RegistryInterface FundingContest DispatchInterface Client1 Client2 Client3 Client4 ClientBytes32Array ClientIntArray GitFundContest 
+owner currentCost reserveToken coord tokenFactory bondage oracle ttl winner winValue status curves curves_list beneficiaries curve_creators redeemed redeemed_list registry registry issued numReserve i numDots dots tokenDotBalance numWin j issued reserveCost tokensBalance curveToken reward funderReward token registry i i bytesString result i c to_inc contest coordinator bondage dispatch owner query_id startPrice endpoints queryId start_time bondageAddress dispatchAddress reserveToken params tmp_params i dispatchAddress 
+transferOwnership balanceOf transfer transferFrom approve allowance mint burnFrom create addImmutableContract updateContract getContractName getContract updateAllDependencies bond unbond delegateBond escrowDots releaseDots returnDots calcZapForDots currentCostOfDot getDotsIssued getBoundDots getZapBound dotLimit _currentCostOfDot _dotLimit _costOfNDots initiateProvider initiateProviderCurve setEndpointParams getEndpointParams getProviderPublicKey getProviderTitle setProviderParameter setProviderTitle clearEndpoint getProviderParameter getAllProviderParams getProviderCurveLength getProviderCurve isProviderInitiated getAllOracles getProviderEndpoints getEndpointBroker initializeContest initializeCurve bond judge settle reset unbond newToken getTokenAddress getEndpoints getStatus isEndpointValid setBeneficiary toBytes bytes32ToString bytesToAddr query respond1 respond2 respond3 respond4 respondBytes32Array respondIntArray cancelQuery getProvider getSubscriber getEndpoint getStatus getCancel getUserQuery getSubscriberOnchain callback callback callback callback callback callback bondToGitOracle queryToSettle callback 
+FactoryTokenInterface inherits from Ownable ZapCoordinatorInterface inherits from Ownable FundingContest inherits from Ownable GitFundContest inherits from Ownable GitFundContest inherits from ClientBytes32Array 
+onlyOwner 
+OwnershipTransferred DotTokenCreated Bonded Unbonded Initialized Closed Judged Settled Expired Reset 
+owner is equal to msg sender
+owner is equal to newOwner
+coord is equal to ZapCoordinatorInterface
+reserveToken is equal to FactoryTokenInterface
+bondage is equal to BondageInterface
+currentCost is equal to CurrentCostInterface
+tokenFactory is equal to TokenFactoryInterface
+status is equal to ContestStatus Uninitialized
+oracle is equal to oracleAddress
+ttl is equal to _ttl plus block number
+status is equal to ContestStatus Initialized
+ is equal to newToken
+ is equal to msg sender
+ is equal to numReserve
+If block number is greater then ttl
+status is equal to ContestStatus Expired
+winner is equal to endpoint
+status is equal to ContestStatus Judged
+If status corresponds to ContestStatus Expired Invalid symbol 
+i is less then curves_list length
+If numDots is greater then 0
+status is equal to ContestStatus Expired
+j is less then curves_list length
+If  is different from winner
+dots is equal to bondage getDotsIssued
+If dots is greater then 0
+winValue is equal to reserveToken balanceOf divided by numWin
+status is equal to ContestStatus Settled
+If status corresponds to ContestStatus Expired
+status is equal to ContestStatus Initialized
+If status corresponds to ContestStatus Initialized Invalid symbol 
+status is equal to ContestStatus Expired
+tokensBalance is equal to curveToken balanceOf
+reserveCost is equal to 
+tokensBalance is equal to curveToken balanceOf
+reserveCost is equal to currentCost _costOfNDots
+tokenAddress is equal to 
+i is less then curves_list length
+If _endpoint corresponds to 
+ is equal to b
+b is equal to 
+i is less then 20
+bytesString is equal to abi encodePacked
+i plus 1 is greater then 0
+result increments of to_inc
+owner is equal to msg sender
+contest is equal to FundingContest
+coordinator is equal to ZapCoordinatorInterface
+bondage is equal to BondageInterface
+dispatch is equal to DispatchInterface
+start_time is equal to now
+ is equal to 
+i is less then tmp_params length
+ is equal to 
+queryId is equal to dispatch query

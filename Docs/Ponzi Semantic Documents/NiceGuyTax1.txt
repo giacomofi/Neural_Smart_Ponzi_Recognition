@@ -1,0 +1,22 @@
+NiceGuyTax 
+Investor NiceGuy 
+Investor has addr
+NiceGuy has addr
+investors niceGuys payoutIndex currentNiceGuyIndex investorIndex currentNiceGuy index niceGuyIndex 
+NiceGuyTax  
+currentNiceGuy is equal to msg sender
+If msg value is different from 9 ether
+If investorIndex is less then 8
+investors length increments of 1
+investors index addr is equal to msg sender
+If investorIndex is greater then 7
+niceGuys length increments of 1
+niceGuys niceGuyIndex addr is equal to msg sender
+If investorIndex is greater then 8
+currentNiceGuy is equal to niceGuys currentNiceGuyIndex addr
+currentNiceGuyIndex increments of 1
+If investorIndex is less then 9
+investorIndex increments of 1
+investorIndex is equal to 0
+While this balance is greater or equal to 10 ether
+payoutIndex increments of 1

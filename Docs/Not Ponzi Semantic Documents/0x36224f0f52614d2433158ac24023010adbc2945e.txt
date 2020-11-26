@@ -1,0 +1,42 @@
+solidity 0.5.8 
+IERC20 SafeMath ERC20 EtheCarat 
+SafeMath 
+LockInfo 
+LockInfo has releaseTime
+LockInfo has balance
+c c c c _balances _allowances _totalSupply name symbol decimals initialSupply owner paused freezes lockInfo lockedBalance i i 
+totalSupply balanceOf transfer allowance approve transferFrom add sub mul div mod totalSupply balanceOf transfer allowance approve transferFrom increaseAllowance decreaseAllowance _transfer _mint _burn _approve _burnFrom renounceOwnership transferOwnership _transferOwnership pause unpause freeze unfreeze isFrozen transfer transferFrom mint burn balanceOf releaseLock lockCount lockState lock lockAfter unlock transferWithLock transferWithLockAfter currentTime afterTime 
+ERC20 inherits from IERC20 EtheCarat inherits from ERC20 
+onlyOwner whenNotPaused whenPaused whenNotFrozen 
+Transfer Approval OwnershipRenounced OwnershipTransferred Pause Unpause Frozen Unfrozen Mint Burn Lock Unlock 
+If a corresponds to 0
+ is equal to _balances sender sub
+ is equal to _balances recipient add
+_totalSupply is equal to _totalSupply add
+ is equal to _balances account add
+_totalSupply is equal to _totalSupply sub
+ is equal to _balances account sub
+ is equal to value
+owner is equal to msg sender
+owner is equal to 
+owner is equal to _newOwner
+paused is equal to True
+paused is equal to False
+ is equal to True
+ is equal to False
+i is less then lockInfo _holder length
+lockedBalance is equal to lockedBalance add
+i is less then lockInfo _holder length
+If lockInfo _holder i releaseTime is less or equal to now
+ is equal to _balances _holder add
+lockInfo _holder i balance is equal to 0
+If i is different from lockInfo _holder length minus 1
+ is equal to 
+ is equal to _balances _holder sub
+ is equal to _balances _holder sub
+ is equal to _balances _holder add
+lockInfo _holder i balance is equal to 0
+If i is different from lockInfo _holder length minus 1
+ is equal to 
+ is equal to _balances owner sub
+ is equal to _balances owner sub

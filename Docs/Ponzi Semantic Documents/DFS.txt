@@ -1,0 +1,44 @@
+solidity ^0.4.4 
+DFS 
+Deposit 
+Deposit has amount
+Deposit has plan
+Deposit has time
+Deposit has payed
+Deposit has sender
+numDeposits deposits owner1 owner2 amount i rest depositDays profit amountToWithdraw 
+makeDeposit pay 
+If msg value is less then 3 ether Invalid symbol 
+If msg value is greater then 1000 ether
+If 
+amount is equal to 1000 ether
+amount is equal to msg value
+ is equal to Deposit
+If 
+If 
+If ref1 is different from 
+If 
+If ref2 is different from 
+If 
+If ref3 is different from 
+If 
+While i is less then numDeposits Invalid symbol 
+If deposits i plan corresponds to 1
+If depositDays is greater then 30
+depositDays is equal to 30
+profit is equal to deposits i amount multiplied by depositDays multiplied by 7 divided by 2 divided by 100
+If deposits i plan corresponds to 2
+If depositDays is greater then 90
+depositDays is equal to 90
+profit is equal to deposits i amount multiplied by depositDays multiplied by 27 divided by 20 divided by 100
+If deposits i plan corresponds to 3
+If depositDays is greater then 180
+depositDays is equal to 180
+profit is equal to deposits i amount multiplied by depositDays multiplied by 9 divided by 10 divided by 100
+If profit is greater then deposits i payed
+amountToWithdraw is equal to profit minus deposits i payed
+If this balance is greater then amountToWithdraw
+If 
+deposits i payed is equal to profit
+If i corresponds to numDeposits
+i is equal to 0

@@ -1,0 +1,20 @@
+solidity ^0.4.26 
+SafeMath Owned Moveer 
+c c c owner name symbol decimals _balances _allowed totalSupply 
+safeMul safeDiv safeSub safeAdd _assert transferOwnership balanceOf transfer burn transferFrom approve allowance 
+Moveer inherits from SafeMath Moveer inherits from Owned 
+onlyOwner 
+Approval Transfer Burn 
+If not assertion
+owner is equal to msg sender
+owner is equal to newOwner
+ is equal to totalSupply
+If _to corresponds to 
+ is equal to safeSub
+ is equal to safeAdd
+ is equal to safeSub
+totalSupply is equal to safeSub
+ is equal to safeAdd
+ is equal to safeSub
+ is equal to safeSub
+ is equal to value

@@ -1,0 +1,43 @@
+solidity ^0.5.0 
+SafeMath ERC20Interface ApproveAndCallFallBack Owned Roles MinterRole GDC 
+Roles 
+Role 
+Role has bearer
+owner newOwner _minters symbol name decimals _totalSupply _owner balances allowed 
+safeAdd safeSub safeMul safeDiv totalSupply balanceOf allowance transfer approve transferFrom receiveApproval transferOwnership acceptOwnership add remove has isMinter addMinter renounceMinter _addMinter _removeMinter totalSupply balanceOf transfer approve transferFrom allowance transferAnyERC20Token burn burnFrom burnOwner addOwner mint mintOwner _burn _burnFrom 
+GDC inherits from ERC20Interface GDC inherits from Owned GDC inherits from SafeMath GDC inherits from MinterRole 
+onlyOwner onlyMinter 
+Transfer Approval OwnershipTransferred MinterAdded MinterRemoved 
+c is equal to a plus b
+c is equal to a minus b
+c is equal to a multiplied by b
+c is equal to a divided by b
+owner is equal to msg sender
+newOwner is equal to _newOwner
+owner is equal to newOwner
+newOwner is equal to 
+ is equal to True
+ is equal to False
+symbol is equal to GDC
+name is equal to Global Digital Cash
+decimals is equal to 18
+_totalSupply is equal to 2100000000000000000000000000
+_owner is equal to 0xe6C3119573D1AB769B1d9E3E925711A6C09a3965
+ is equal to _totalSupply
+ is equal to safeSub
+ is equal to safeAdd
+ is equal to tokens
+ is equal to safeSub
+ is equal to safeSub
+ is equal to safeAdd
+_totalSupply is equal to safeSub
+ is equal to safeSub
+_totalSupply is equal to safeAdd
+ is equal to safeAdd
+ is equal to safeAdd
+ is equal to safeSub
+_totalSupply is equal to safeAdd
+ is equal to safeAdd
+ is equal to safeSub
+ is equal to safeAdd
+ is equal to safeSub

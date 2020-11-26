@@ -1,0 +1,74 @@
+solidity 0.5.9 
+SafeMath EtherWinAccessControl ERC20 DividendManagerInterface EtherWin 
+SafeMath 
+Ticket WinBlock 
+Ticket has value
+Ticket has executed
+WinBlock has exists
+WinBlock has lastByte
+WinBlock has rate
+WinBlock has jp
+WinBlock has value
+c c c owner dividendManagerAddress devWallet ownerWallet1 ownerWallet2 ownerWallet3 minWei maxWei maxWeiPerBlock ownersWeis depositWeis prizePercent ownersPercent refPercent tickets blocks rates winBlocks allTicketsPrice allTicketsForBlock JPBlocks refs userRefs divider lastPayout t bhash lastByte wBlock t winValue value value varA varB varX varL minjp varR varX1 deposit dividends dividendManager val _quotient token balance 
+mul div sub add setOwnerWallet setDividendManager allowance transferFrom totalSupply balanceOf transfer ownerTransfer approve depositDividend  play addWinBlock admin _addWinBlock getPrize minJackpotValue jackpotValue getJPValue _calcJP changeTicketWeiLimit changeWeiPerBlock returnDeposit transferEthersToDividendManager addEth fromHexChar getByte withdrawRefsPercent valueFromPercent claimTokens 
+EtherWin inherits from EtherWinAccessControl 
+onlyOwner 
+OwnershipTransferred Transfer Approval NewTicket NewPrice NewWeiPerBlock SendPrize FundsTransferred WinBlockAdded 
+If a corresponds to 0
+owner is equal to msg sender
+devWallet is equal to msg sender
+ownerWallet1 is equal to 0x1C1e05Ea9b972910Df19f96011e368A99A3EC834
+ownerWallet2 is equal to 0x9055ECF66E8b73dD114dddb38533f23e79550BC2
+ownerWallet3 is equal to 0x2a3d308819C98f36dB28935E70F69aF32eA283ED
+dividendManagerAddress is equal to 0x973a4d00428ddE6e5a9e87365EeFd327cba8a015
+ownerWallet1 is equal to _wallet1
+ownerWallet2 is equal to _wallet2
+ownerWallet3 is equal to _wallet3
+dividendManagerAddress is equal to _dividendManagerAddress
+ is equal to 15
+ is equal to 15
+ is equal to 15
+ is equal to 20
+ is equal to 20
+ is equal to 30
+ is equal to 99
+t value is equal to t value add
+ is equal to block number add
+If _ref is different from  Invalid symbol 
+ is equal to _ref
+allTicketsPrice is equal to allTicketsPrice add
+ is equal to allTicketsPrice
+If  is different from 
+ is equal to refs _ref add
+ownersWeis is equal to ownersWeis add
+ownersWeis is equal to ownersWeis add
+wBlock exists is equal to True
+wBlock lastByte is equal to _lastByte
+wBlock rate is equal to 
+If _lastByte corresponds to 153
+wBlock jp is equal to True
+If JPBlocks length is greater then 0
+wBlock value is equal to  sub
+wBlock value is equal to 
+If 
+
+winValue is equal to getJPValue
+winValue is equal to 
+t executed is equal to True
+If JPBlocks length is greater then 0
+value is equal to allTicketsForBlock _blockNum sub
+value is equal to 
+If JPBlocks length is greater then 0
+value is equal to allTicketsForBlock _blockNum sub
+value is equal to 
+varL is equal to varL mul
+varR is equal to 
+minWei is equal to _minWei
+maxWei is equal to _maxWei
+divider is equal to _divider
+maxWeiPerBlock is equal to _value
+depositWeis is equal to 0
+lastPayout is equal to now
+ownersWeis is equal to 0
+depositWeis is equal to depositWeis add
+ is equal to 0

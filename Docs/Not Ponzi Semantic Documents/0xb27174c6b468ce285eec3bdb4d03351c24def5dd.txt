@@ -1,0 +1,20 @@
+solidity ^0.5.10 
+SafeMath Token DaiSwap 
+c c decimals name daiposit totaldai baseMultiplier fee decOffset daiContract usdcContract base amt_dai amt_usdc usdc dai usdc base amt_dai amt_usdc usdc usdc base amt_dai amt_usdc dai dai 
+safeMul safeSub safeAdd totalSupply balanceOf transfer transferFrom approve allowance usdcAmountFromDai deposit withdraw calcSwapForUSDC swapForUSDC calcSwapForDai swapForDai 
+DaiSwap inherits from SafeMath 
+Transfer Approval 
+If totaldai corresponds to 0
+ is equal to safeAdd
+totaldai is equal to safeAdd
+If 
+If 
+totaldai is equal to safeSub
+ is equal to 0
+If 
+If 
+usdc is equal to usdc divided by decOffset
+If 
+If 
+If 
+If 

@@ -1,0 +1,19 @@
+solidity ^0.5.0 solidity 0.5.8 
+IERC20 CoveredCall 
+currentState buyer seller underlyingAssetToken purchasingToken underlyingAssetAmount strikePrice premiumAmount expirationDate oldPremiumAmount paymentAmount 
+totalSupply balanceOf transfer allowance approve transferFrom initialize updatePremium open close redeem 
+Transfer Approval PremiumUpdated Initialized Opened Redeemed Closed 
+seller is equal to msg sender
+underlyingAssetToken is equal to _underlyingAssetToken
+underlyingAssetAmount is equal to _underlyingAssetAmount
+purchasingToken is equal to _purchasingToken
+strikePrice is equal to _strikePrice
+premiumAmount is equal to _premiumAmount
+expirationDate is equal to _expirationDate
+currentState is equal to ContractStates NONE
+currentState is equal to ContractStates STATUS_INITIALIZED
+premiumAmount is equal to _premiumAmount
+buyer is equal to msg sender
+currentState is equal to ContractStates STATUS_OPEN
+currentState is equal to ContractStates STATUS_CLOSED
+currentState is equal to ContractStates STATUS_REDEEMED

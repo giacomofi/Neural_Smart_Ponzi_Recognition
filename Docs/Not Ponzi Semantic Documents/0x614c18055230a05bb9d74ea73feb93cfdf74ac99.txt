@@ -1,0 +1,41 @@
+solidity 0.4.24 
+SafeMath ERC20Basic BasicToken ERC20 StandardToken SafeERC20 Owned TokenVesting TokenVault BurnableToken KAN_Token 
+SafeMath SafeMath SafeERC20 SafeERC20 
+c c c balances totalSupply_ allowed oldValue owner beneficiary cliff start duration revocable released revoked ownerShip unreleased balance unreleased refund currentBalance totalBalance token amount burner name symbol decimals HARD_CAP saleTokensAddress reserveTokensVault daySecond lock90Days unlock100Days lock365Days vestingOf saleTokens reserveTokens tokenVault tokens tokensAmount vesting tokensAmount afterSec cliffSec durationSec vesting 
+mul div sub add totalSupply balanceOf transfer totalSupply transfer balanceOf allowance transferFrom approve transferFrom approve allowance increaseApproval decreaseApproval safeTransfer safeTransferFrom safeApprove release revoke releasableAmount vestedAmount fillUpAllowance burn createReserveTokensVault createTokenVaultInt createTokensInt vestTokensDetailInt vestTokensStartAtInt vestTokensFromNowInt vestCmdNow1PercentInt vestCmd3Month1PercentInt vestCmd1YearInstantInt releaseVestedTokens releaseVestedTokensFor lockedBalanceOf releaseableBalanceOf revokeVestedTokensFor makeReserveToVault 
+BasicToken inherits from ERC20Basic ERC20 inherits from ERC20Basic StandardToken inherits from ERC20 StandardToken inherits from BasicToken TokenVesting inherits from Owned BurnableToken inherits from StandardToken KAN_Token inherits from BurnableToken KAN_Token inherits from Owned 
+onlyOwner 
+Transfer Approval Released Revoked Burn 
+If a corresponds to 0
+ is equal to msg sender sub
+ is equal to balances _to add
+ is equal to balances _from sub
+ is equal to balances _to add
+ is equal to allowed _from msg sender sub
+ is equal to _value
+ is equal to msg sender _spender add
+If _subtractedValue is greater then oldValue
+ is equal to 0
+ is equal to oldValue sub
+owner is equal to msg sender
+beneficiary is equal to _beneficiary
+revocable is equal to _revocable
+duration is equal to _duration
+cliff is equal to _start add
+start is equal to _start
+ownerShip is equal to _realOwner
+ is equal to released token add
+ is equal to True
+If block timestamp is less then cliff
+token is equal to _token
+ is equal to balances burner sub
+totalSupply_ is equal to totalSupply_ sub
+saleTokensAddress is equal to _saleTokensAddress
+reserveTokensVault is equal to createTokenVaultInt
+totalSupply_ is equal to totalSupply_ add
+ is equal to balances _destination add
+If  corresponds to 0x0
+ is equal to 
+If  corresponds to 0x0
+ is equal to 
+If  corresponds to 

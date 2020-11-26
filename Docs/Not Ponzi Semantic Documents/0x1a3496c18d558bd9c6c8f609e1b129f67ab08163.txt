@@ -1,0 +1,69 @@
+solidity ^0.4.21 solidity ^0.4.21 solidity ^0.4.18 solidity ^0.4.21 solidity ^0.4.21 solidity ^0.4.21 solidity ^0.4.21 solidity ^0.4.21 solidity ^0.4.18 solidity ^0.4.18 solidity ^0.4.18 
+Ownable SafeMath GroupLockup ERC20Basic BasicToken ERC20 StandardToken MintableToken ERC223Token ERC223ContractInterface DEAPCoin 
+SafeMath SafeMath SafeMath 
+owner lockup_list lockup_list_flag user_list user_list_index user_is_exist user_address user_lockup_time user_list_index balances totalSupply_ allowed oldValue mintingFinished name symbol decimals INITIAL_SUPPLY INITIAL_SALE_SUPPLY INITIAL_UNSALE_SUPPLY owner_wallet unsale_owner_wallet group_lockup empty isUserAddress receiver empty inLockupList lockupTime isUserAddress receiver inLockupList lockupTime isUserAddress receiver to value isUserAddress canTransfer transferFailMsg i 
+Ownable transferOwnership mul div sub add getLockupTime isLockup inLockupList updateLockupList updateLockupTime totalSupply balanceOf transfer totalSupply transfer balanceOf allowance transferFrom approve transferFrom approve allowance increaseApproval decreaseApproval mint finishMinting transfer tokenFallback sendTokens transfer transfer batchTransfer 
+GroupLockup inherits from Ownable BasicToken inherits from ERC20Basic ERC20 inherits from ERC20Basic StandardToken inherits from ERC20 StandardToken inherits from BasicToken MintableToken inherits from StandardToken MintableToken inherits from Ownable ERC223Token inherits from MintableToken DEAPCoin inherits from ERC223Token 
+onlyOwner canMint 
+OwnershipTransferred UpdateLockupList UpdateLockupTime LockupTimeList Transfer Approval Mint MintFinished TransferERC223 BatchTransferFail 
+owner is equal to msg sender
+owner is equal to newOwner
+If a corresponds to 0
+c is equal to a multiplied by b
+c is equal to a plus b
+If  corresponds to 0
+If lockup_date corresponds to 0
+user_list_index is less then user_list length
+If  corresponds to user_address
+If not user_is_exist
+ is equal to lockup_date
+If 
+ is equal to True
+user_list_index is less then user_list length
+If  is different from 0
+user_address is equal to 
+user_lockup_time is equal to getLockupTime
+If user_lockup_time corresponds to old_lockup_date
+ is equal to new_lockup_date
+
+ is equal to False
+If 
+ is equal to True
+ is equal to msg sender sub
+ is equal to balances _to add
+ is equal to balances _from sub
+ is equal to balances _to add
+ is equal to allowed _from msg sender sub
+ is equal to _value
+ is equal to msg sender _spender add
+If _subtractedValue is greater then oldValue
+ is equal to 0
+ is equal to oldValue sub
+totalSupply_ is equal to totalSupply_ add
+ is equal to balances _to add
+mintingFinished is equal to True
+group_lockup is equal to _group_lockup
+owner_wallet is equal to _sale_owner_wallet
+unsale_owner_wallet is equal to _unsale_owner_wallet
+ is equal to balances owner_wallet sub
+ is equal to balances _to add
+If isUserAddress corresponds to False
+
+ is equal to msg sender sub
+ is equal to balances _to add
+If isUserAddress corresponds to False
+
+ is equal to msg sender sub
+ is equal to balances _to add
+If isUserAddress corresponds to False
+i is less then _users length
+to is equal to 
+value is equal to 
+isUserAddress is equal to False
+canTransfer is equal to False
+transferFailMsg is equal to 
+If not isUserAddress
+transferFailMsg is equal to try to send token to contract
+
+ is equal to balances _from sub
+ is equal to balances to add

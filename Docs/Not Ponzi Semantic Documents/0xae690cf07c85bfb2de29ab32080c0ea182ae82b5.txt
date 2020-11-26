@@ -1,0 +1,29 @@
+solidity ^0.4.19 
+REBITCOIN 
+symbol name decimals _totalSupply _totalBurned owner balances allowed 
+REBITCOIN totalSupply totalBurned balanceOf transfer transferFrom approve allowance burn burnFrom 
+onlyOwner 
+Transfer Approval Burn 
+owner is equal to msg sender
+ is equal to _totalSupply
+l_totalSupply is equal to _totalSupply
+l_totalBurned is equal to _totalBurned
+If _to corresponds to 0x0
+If  is greater or equal to _amount Invalid symbol  Invalid symbol 
+ decreases of _amount
+ increments of _amount
+If _to corresponds to 0x0
+If  is greater or equal to _amount Invalid symbol  Invalid symbol  Invalid symbol 
+ decreases of _amount
+ decreases of _amount
+ increments of _amount
+ is equal to _amount
+If  is less then _value
+ decreases of _value
+_totalSupply decreases of _value
+_totalBurned increments of _value
+If  is less then _value
+If _value is greater then 
+ decreases of _value
+_totalSupply decreases of _value
+_totalBurned increments of _value

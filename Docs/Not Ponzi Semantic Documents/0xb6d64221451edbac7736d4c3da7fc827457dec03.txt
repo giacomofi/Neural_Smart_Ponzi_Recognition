@@ -1,0 +1,22 @@
+solidity ^0.5.4 
+Module BaseWallet 
+implementation owner authorised enabled modules i success module 
+init addModule recoverToken init authoriseModule enableStaticCall setOwner invoke  
+moduleOnly 
+AuthorisedModule EnabledStaticCall Invoked Received OwnerChanged 
+owner is equal to _owner
+modules is equal to _modules length
+i is less then _modules length
+ is equal to True
+If  is greater then 0
+If  is different from _value
+If _value corresponds to True
+modules increments of 1
+ is equal to True
+modules decreases of 1
+ is equal to _module
+owner is equal to _newOwner
+ is equal to 
+If not success
+If msg data length is greater then 0
+If module corresponds to 

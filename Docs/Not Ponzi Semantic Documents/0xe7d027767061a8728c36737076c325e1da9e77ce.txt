@@ -1,0 +1,21 @@
+solidity ^0.4.23 
+GAC 
+balances lockedBalances name decimals symbol totalSupply owner 
+transfer burnFrom makeCoin balanceOf withdraw withdrawTo 
+Transfer 
+ is equal to _initialAmount
+totalSupply is equal to _initialAmount
+name is equal to _tokenName
+decimals is equal to _decimalUnits
+symbol is equal to _tokenSymbol
+owner is equal to _owner
+If _to is different from 
+If  is greater or equal to now
+ decreases of _value
+ increments of _value
+totalSupply decreases of _value
+ decreases of _value
+ is equal to 0
+ is equal to 0
+totalSupply increments of _value
+ increments of _value

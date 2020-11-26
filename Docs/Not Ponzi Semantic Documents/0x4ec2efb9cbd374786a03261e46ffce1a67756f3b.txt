@@ -1,0 +1,36 @@
+solidity ^0.5.0 
+IERC20 SafeMath ERC20Detailed Deflacoin 
+SafeMath 
+c c c c d _name _symbol _decimals _balances _allowed tokenName tokenSymbol tokenDecimals _totalSupply noFee heightEnd20Percent heightEnd10Percent heightEnd05Percent currentRate onePercent tokensToBurn tokensToTransfer tokensToBurn tokensToTransfer 
+totalSupply balanceOf allowance transfer approve transferFrom mul div sub add ceil name symbol decimals totalSupply balanceOf allowance findPercent returnRate transfer _transferBurnYes _transferBurnNo approve transferFrom _transferFromBurnYes _transferFromBurnNo increaseAllowance decreaseAllowance _mint burn _burn burnFrom 
+ERC20Detailed inherits from IERC20 Deflacoin inherits from ERC20Detailed 
+Transfer Approval 
+If a corresponds to 0
+_name is equal to name
+_symbol is equal to symbol
+_decimals is equal to decimals
+If block number is less then heightEnd20Percent
+If block number is greater or equal to heightEnd20Percent Invalid symbol 
+If block number is greater or equal to heightEnd10Percent Invalid symbol 
+If block number is greater or equal to heightEnd05Percent
+If value is less then noFee
+ is equal to msg sender sub
+ is equal to _balances to add
+_totalSupply is equal to _totalSupply sub
+ is equal to msg sender sub
+ is equal to _balances to add
+ is equal to value
+If value is less then noFee
+ is equal to _balances from sub
+ is equal to _balances to add
+_totalSupply is equal to _totalSupply sub
+ is equal to _allowed from msg sender sub
+ is equal to _balances from sub
+ is equal to _balances to add
+ is equal to _allowed from msg sender sub
+ is equal to 
+ is equal to 
+ is equal to _balances account add
+_totalSupply is equal to _totalSupply sub
+ is equal to _balances account sub
+ is equal to _allowed account msg sender sub

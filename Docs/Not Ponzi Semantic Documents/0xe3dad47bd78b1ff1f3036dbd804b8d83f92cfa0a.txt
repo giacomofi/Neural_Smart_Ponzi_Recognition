@@ -1,0 +1,21 @@
+solidity ^0.5.10 
+Token SafeMath ERC20 Ownable NotTransferable Coinstantine 
+SafeMath 
+c c c balance allowed MAX_UINT256 allowance admin enabledTransfer Name Symbol Decimals TotalSupply 
+totalSupply balanceOf transfer transferFrom approve allowance safeMul safeSub safeAdd safeDiv transfer transferFrom approve allowance totalSupply balanceOf transferOwnership destroy destroyAndSend enableTransfers transferFromContract transfer transferFrom approve totalSupply 
+ERC20 inherits from Token NotTransferable inherits from ERC20 NotTransferable inherits from Ownable Coinstantine inherits from NotTransferable 
+onlyAdmin 
+Transfer Approval Transfer TransferFrom Approval 
+ is equal to msg sender safeSub
+ is equal to balance _to safeAdd
+ is equal to balance _to safeAdd
+ is equal to balance _from safeSub
+If  is different from MAX_UINT256 Invalid symbol 
+ is equal to allowed _from msg sender safeSub
+ is equal to _value
+remaining is equal to 
+admin is equal to msg sender
+admin is equal to _newAdmin
+enabledTransfer is equal to _enabledTransfer
+enabledTransfer is equal to True
+ is equal to TotalSupply

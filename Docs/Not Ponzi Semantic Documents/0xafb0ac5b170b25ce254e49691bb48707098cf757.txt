@@ -1,0 +1,5 @@
+solidity 0.6.4 experimental ABIEncoderV2 
+ProtocolAdapter ERC20 Staking ZrxAdapter 
+STAKING 
+adapterType tokenType getBalance approve transfer transferFrom balanceOf totalSupply decimals symbol name getTotalStake adapterType tokenType getBalance 
+ZrxAdapter inherits from ProtocolAdapter 

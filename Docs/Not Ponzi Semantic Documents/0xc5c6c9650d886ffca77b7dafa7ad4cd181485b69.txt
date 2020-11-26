@@ -1,0 +1,55 @@
+solidity 0.5.14 
+SwapProxyInterface ERC20 Auction AdminRole Withdrawable GasReserve Swapper Bidder 
+adminGroup owner erc20 erc20 g consumed_gas words gaddr len start end i len start end i swapProxy swapProxySize i i spi start_gas token start_gas token spi tmp i spi token index rate spi token auctionAddress transferProxy start_gas quantity auction srcToken dstToken dst_startBalance start_gas quantity auction srcToken dstToken dst_startBalance 
+name getSwapQuantity getSwapRate executeSwap balanceOf transfer decimals transferFrom approve allowance bidAndWithdraw addAdmin delAdmin isAdmin kill withdrawTo sendFounds reserveGas gasWordsQuantity useGas releaseGas getReserveAddr reserve release addSwapProxy delSwapProxy getBestSwapRate TokenSwapOnBest TokenSwapOn getBestRate swapOnBest swapOn bidAndSwapOn bidAndSwapOnBest 
+Withdrawable inherits from AdminRole Swapper inherits from Withdrawable Swapper inherits from GasReserve Bidder inherits from Swapper 
+onlyAdmin onlyOwner 
+GasReport TokenSwapped 
+ is equal to True
+owner is equal to msg sender
+ is equal to True
+ is equal to False
+If token corresponds to 
+If token corresponds to 
+erc20 is equal to ERC20
+If quantity is different from 0
+If g length is different from 0
+If quantity is less or equal to g length
+len is equal to len plus quantity
+i is less then end
+len is equal to len minus quantity
+i is less then end
+i is less then 10
+If  corresponds to 
+ is equal to addr
+swapProxySize is equal to swapProxySize plus 1
+i is less then 10
+If  corresponds to addr
+ is equal to 
+swapProxySize is equal to swapProxySize minus 1
+If swapProxySize corresponds to 0
+ is equal to getBestRate
+If rate is different from 0
+spi is equal to SwapProxyInterface
+name is equal to spi name
+
+
+
+
+i is equal to 0
+i is less then 10
+If  is different from 
+spi is equal to SwapProxyInterface
+tmp is equal to spi getSwapRate
+If tmp is greater then rate
+rate is equal to tmp
+index is equal to i
+ is equal to getBestRate
+spi is equal to SwapProxyInterface
+spi is equal to SwapProxyInterface
+quantity is equal to  multiplied by minimumBid
+
+
+quantity is equal to  multiplied by minimumBid
+
+

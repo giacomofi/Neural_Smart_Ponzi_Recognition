@@ -1,0 +1,4 @@
+solidity 0.5.16 solidity 0.5.16 
+IERC20 DedgeGeneralManager 
+totalSupply balanceOf transfer allowance approve transferFrom decimals symbol name  transferETH transferERC20 
+Transfer Approval 

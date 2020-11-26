@@ -1,0 +1,23 @@
+solidity >=0.4.21<0.6.0 
+ERC20 TokenVoluntaryUpgrade SafeMath Ownable DpeToken 
+c c c _owner _name _symbol _standard _decimals _totalSupply _trustedIPNS _upgradeContract balances allowed 
+balanceOf transfer allowance transferFrom approve setUpgradeContract burnAfterUpgrade mul div sub uintSub add owner isOwner renounceOwnership transferOwnership _transferOwnership  name symbol standard decimals totalSupply transfer approve safeApprove transferFrom allowance balanceOf trustedIPNS setTrustedIPNS upgradeContract setUpgradeContract burnAfterUpgrade 
+DpeToken inherits from Ownable DpeToken inherits from TokenVoluntaryUpgrade 
+onlyOwner 
+Transfer Approval UpgradeContractChange UpgradeBurn OwnershipTransferred Transfer Approval UpgradeContractChange UpgradeBurn 
+If a corresponds to 0
+_owner is equal to msg sender
+_owner is equal to 
+_owner is equal to newOwner
+ is equal to totalSupply
+ is equal to SafeMath sub
+ is equal to SafeMath add
+ is equal to _value
+If  corresponds to _currentValue
+ is equal to SafeMath sub
+ is equal to SafeMath sub
+ is equal to SafeMath add
+_trustedIPNS is equal to _trustedIPNSparam
+_upgradeContract is equal to _upgradeContractAddress
+_totalSupply is equal to SafeMath sub
+ is equal to SafeMath sub

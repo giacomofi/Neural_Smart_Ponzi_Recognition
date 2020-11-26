@@ -1,0 +1,29 @@
+solidity 0.4.24 
+SafeMath ERC20Interface ApproveAndCallFallBack Owned Litecoin_SV 
+owner newOwner businessName businessCountry symbol name decimals _totalSupply balances allowed 
+safeAdd safeSub safeMul safeDiv totalSupply balanceOf allowance transfer approve transferFrom receiveApproval transferOwnership acceptOwnership totalSupply balanceOf transfer approve transferFrom allowance approveAndCall  transferAnyERC20Token 
+Litecoin_SV inherits from ERC20Interface Litecoin_SV inherits from Owned Litecoin_SV inherits from SafeMath 
+onlyOwner 
+Transfer Approval OwnershipTransferred 
+c is equal to a plus b
+c is equal to a minus b
+c is equal to a multiplied by b
+c is equal to a divided by b
+owner is equal to msg sender
+newOwner is equal to _newOwner
+owner is equal to newOwner
+newOwner is equal to 
+businessName is equal to Litecoin SV LLC.
+businessCountry is equal to SG
+symbol is equal to LSV
+name is equal to Litecoin SV
+decimals is equal to 18
+_totalSupply is equal to 25000000000000000000000000
+ is equal to _totalSupply
+ is equal to safeSub
+ is equal to safeAdd
+ is equal to tokens
+ is equal to safeSub
+ is equal to safeSub
+ is equal to safeAdd
+ is equal to tokens

@@ -1,0 +1,13 @@
+solidity ^0.4.25 
+TokenERC20 
+name symbol decimals totalSupply balanceOf previousBalances 
+_transfer transfer burn 
+Transfer Burn 
+totalSupply is equal to initialSupply multiplied by 10 Invalid symbol 
+ is equal to totalSupply
+name is equal to tokenName
+symbol is equal to tokenSymbol
+ decreases of _value
+ increments of _value
+ decreases of _value
+totalSupply decreases of _value

@@ -1,0 +1,179 @@
+solidity 0.5.8 
+multiowned ERC20Basic SafeMath BasicToken ERC20 StandardToken SparksterTokenSwap 
+SafeMath SafeMath 
+MultiOwnedOperationPendingState Member Group 
+MultiOwnedOperationPendingState has yetNeeded
+MultiOwnedOperationPendingState has ownersDone
+MultiOwnedOperationPendingState has index
+Member has weiBalance
+Member has groups
+Group has state
+Group has exists
+Group has name
+Group has ratio
+Group has unlockTime
+Group has startTime
+Group has phase1endTime
+Group has phase2endTime
+Group has deadline
+Group has max2
+Group has max3
+Group has weiTotal
+Group has cap
+Group has nextDistributionIndex
+Group has addresses
+i owner currentOwnerIndex ownerIndex ownerIndex result i ownerIndexBit pending pending ownerIndexBit free length i ownerIndex pending c_maxOwners m_multiOwnedRequired m_numOwners m_owners m_ownerIndex m_multiOwnedPending m_multiOwnedPendingIndex balances totalSupply_ allowed oldValue initialSigners oracleAddress oldSprkAddress owner transferLock allowedToBuyBack allowedToPurchase name symbol decimals maxGroups penalty maxGasPrice nextGroupNumber sellPrice minimumRequiredBalance openGroupNumber members groups withdrawableBalances oldSprk amount decimalAmount amountToTransfer oldOwnerBalance memberRecord openGroup currentTimestamp weiAmount weiTotal userWeiTotal n theGroup weiTotal i memberRecord weiAmount n theGroup i theAddress n theGroup newOwnerSupply i theAddress memberRecord weiAmount additionalBalance amount n thePenalty totalRefund i weiAmount theAddress theGroup amountAllowedToDrain decimalAmount totalCost theGroup theGroup state theGroup theGroup theGroup state n nextDistributionIndex exclusiveEndIndex newOwnerSupply i theAddress balance theGroup theGroup n newOwnerBalance i theAddress airdropAmount currentBalance theGroup theMember memberGroups n i theMember theGroup 
+changeOwner addOwner removeOwner changeRequirement getOwner getOwners isOwner amIOwner revoke hasConfirmed confirmAndCheck reorganizeOwners clearPending checkOwnerIndex makeOwnerBitmapBit isOperationActive assertOwnersAreConsistent assertOperationIsConsistent totalSupply balanceOf transfer mul sub add totalSupply transfer balanceOf allowance transferFrom approve transferFrom approve allowance increaseApproval decreaseApproval  swapTokens setOwnerAddress setOracleAddress removeOracleAddress setMaximumGasPrice purchase purchaseCallbackOnAccept accept insertAndApprove callbackInsertApproveAndDistribute getWithdrawableAmount withdraw refund signalDoneDistributing drain setPenalty buyback fundContract setSellPrice setAllowedToBuyBack setAllowedToPurchase createGroup getGroup getGroupUnlockTime getHowMuchUntilHardCap_ getHowMuchUntilHardCap addMemberToGroup instructOracleToDistribute distributeCallback getHowManyLeftToDistribute unlock liftGlobalLock airdrop transfer transferFrom setOpenGroup getGroupState getLockedTokensInGroup_ getLockedTokens_ getLockedTokens getUndistributedBalanceOf_ getUndistributedBalanceOf checkMyUndistributedBalance 
+BasicToken inherits from ERC20Basic ERC20 inherits from ERC20Basic StandardToken inherits from ERC20 StandardToken inherits from BasicToken SparksterTokenSwap inherits from StandardToken SparksterTokenSwap inherits from multiowned 
+onlyOwner onlyManyOwners validNumOwners multiOwnedValidRequirement ownerExists ownerDoesNotExist multiOwnedOperationIsActive onlyOwnerOrOracle onlyManyOwnersOrOracle canTransfer canPurchase canSell 
+Confirmation Revoke FinalConfirmation OwnerChanged OwnerAdded OwnerRemoved RequirementChanged Transfer Approval WantsToPurchase PurchasedCallbackOnAccept WantsToDistribute NearingHardCap ReachedHardCap DistributeDone DistributedBatch ShouldCallDoneDistributing AirdroppedBatch RefundedBatch AddToGroup ChangedTransferLock ChangedAllowedToPurchase ChangedAllowedToBuyBack SetSellPrice 
+m_numOwners is equal to _owners length
+m_multiOwnedRequired is equal to _required
+i is less then _owners length
+ is equal to owner
+ is equal to currentOwnerIndex
+ is equal to _to
+ is equal to 0
+ is equal to ownerIndex
+ is equal to _owner
+ is equal to checkOwnerIndex
+ is equal to 
+ is equal to 0
+m_multiOwnedRequired is equal to _newRequired
+i is less then m_numOwners
+pending ownersDone decreases of ownerIndexBit
+If 512 corresponds to m_multiOwnedPendingIndex length
+If 
+pending yetNeeded is equal to m_multiOwnedRequired
+pending ownersDone is equal to 0
+pending index is equal to 
+ is equal to _operation
+If pending ownersDone Invalid symbol ownerIndexBit corresponds to 0
+If pending yetNeeded corresponds to 1
+pending ownersDone Invalid symbol ownerIndexBit
+While free is less then m_numOwners
+While free is less then m_numOwners Invalid symbol 
+While m_numOwners is greater then 1 Invalid symbol 
+If free is less then m_numOwners Invalid symbol  Invalid symbol 
+ is equal to 
+ is equal to free
+ is equal to 
+i is less then length
+If  is different from 0
+If a corresponds to 0
+c is equal to a multiplied by b
+c is equal to a plus b
+ is equal to msg sender sub
+ is equal to balances _to add
+ is equal to balances _from sub
+ is equal to balances _to add
+ is equal to allowed _from msg sender sub
+ is equal to _value
+ is equal to 
+If _subtractedValue is greater then oldValue
+ is equal to 0
+ is equal to oldValue sub
+oldSprk is equal to ERC20
+owner is equal to msg sender
+name is equal to Sparkster
+decimals is equal to 18
+symbol is equal to SPRK
+maxGasPrice is equal to 40 multiplied by 10 Invalid symbol 9
+totalSupply_ is equal to decimalAmount
+ is equal to decimalAmount
+ is equal to msg sender add
+ is equal to balances owner sub
+ is equal to balances newAddress add
+ is equal to 0
+owner is equal to newAddress
+oracleAddress is equal to newAddress
+oracleAddress is equal to 
+maxGasPrice is equal to gweiPrice mul
+If 
+ is equal to True
+If currentTimestamp is less or equal to openGroup phase1endTime
+i is less then n
+weiTotal is equal to weiTotal add
+ is equal to  groupNumber add
+theGroup weiTotal is equal to weiTotal
+If getHowMuchUntilHardCap_ is less or equal to 100 ether
+If weiTotal is greater or equal to theGroup cap
+i is less then n
+If 
+ is equal to True
+i is less then n
+ is equal to  groupNumber add
+If 
+ is equal to True
+If additionalBalance is greater then 0
+ is equal to balances theAddress add
+newOwnerSupply is equal to newOwnerSupply sub
+ is equal to newOwnerSupply
+If getGroupState is different from GroupStates distributed
+theGroup state is equal to GroupStates distributed
+ is equal to 0
+minimumRequiredBalance is equal to minimumRequiredBalance sub
+i is less then n
+If thePenalty is less then weiAmount
+weiAmount is equal to weiAmount sub
+totalRefund is equal to totalRefund add
+ is equal to withdrawableBalances theAddress add
+minimumRequiredBalance is equal to minimumRequiredBalance add
+theGroup state is equal to GroupStates distributed
+penalty is equal to newPenalty
+ is equal to msg sender sub
+minimumRequiredBalance is equal to minimumRequiredBalance add
+ is equal to balances owner add
+ is equal to msg sender add
+sellPrice is equal to thePrice
+allowedToBuyBack is equal to value
+allowedToPurchase is equal to value
+createdGroupNumber is equal to nextGroupNumber
+theGroup name is equal to groupName
+theGroup startTime is equal to startEpoch
+theGroup phase1endTime is equal to phase1endEpoch
+theGroup phase2endTime is equal to phase2endEpoch
+theGroup deadline is equal to deadlineEpoch
+theGroup unlockTime is equal to unlockAfterEpoch
+theGroup max2 is equal to phase2weiCap
+theGroup max3 is equal to phase3weiCap
+theGroup cap is equal to hardWeiCap
+theGroup ratio is equal to ratio
+success is equal to True
+groupName is equal to theGroup name
+status is equal to 
+phase2cap is equal to theGroup max2
+phase3cap is equal to theGroup max3
+cap is equal to theGroup cap
+ratio is equal to theGroup ratio
+startTime is equal to theGroup startTime
+phase1endTime is equal to theGroup phase1endTime
+phase2endTime is equal to theGroup phase2endTime
+deadline is equal to theGroup deadline
+weiTotal is equal to theGroup weiTotal
+If theGroup weiTotal is greater then theGroup cap
+If state is different from GroupStates distributing
+theGroup state is equal to GroupStates distributing
+If exclusiveEndIndex is greater then n
+exclusiveEndIndex is equal to n
+i is less then exclusiveEndIndex
+If balance is greater then 0
+ is equal to balances theAddress add
+newOwnerSupply is equal to newOwnerSupply sub
+ is equal to newOwnerSupply
+If exclusiveEndIndex is less then n
+theGroup nextDistributionIndex is equal to exclusiveEndIndex
+theGroup state is equal to GroupStates unlocked
+transferLock is equal to False
+i is less then n
+If airdropAmount is greater then 0
+ is equal to currentBalance add
+newOwnerBalance is equal to newOwnerBalance sub
+ is equal to newOwnerBalance
+openGroupNumber is equal to groupNumber
+If theGroup state is less then GroupStates distributed
+If block timestamp is less then theGroup unlockTime
+If getGroupState corresponds to GroupStates unlocked
+i is less then n
+balance is equal to balance add
+If getGroupState is greater then GroupStates distributing

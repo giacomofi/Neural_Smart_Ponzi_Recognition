@@ -1,0 +1,28 @@
+solidity >=0.6.3 
+Context Owned glaretoken SafeMath 
+SafeMath 
+owner newOwner _balances _allowances symbol name decimals _totalSupply glare airdropSize airdropActive airdropIndex airdropTaken c c c c 
+_msgSender _msgData transferOwnership acceptOwnership totalSupply balanceOf transfer allowance approve transferFrom increaseAllowance decreaseAllowance mint burn _transfer _approve _beforeTokenTransfer setGlare claimAirdrop setAirdropSize setAirdropActive setAirdropIndex add sub sub mul div div mod mod 
+glaretoken inherits from Context glaretoken inherits from Owned 
+onlyOwner onlyGlare 
+OwnershipTransferred Transfer Approval 
+owner is equal to msg sender
+newOwner is equal to _newOwner
+owner is equal to newOwner
+newOwner is equal to 
+symbol is equal to GLX
+name is equal to Glare
+decimals is equal to 18
+_totalSupply is equal to _totalSupply add
+ is equal to _balances account add
+ is equal to _balances account sub
+_totalSupply is equal to _totalSupply sub
+ is equal to _balances sender sub
+ is equal to _balances recipient add
+ is equal to amount
+glare is equal to _glare
+ is equal to True
+airdropSize is equal to amount
+airdropActive is equal to status
+airdropIndex is equal to index
+If a corresponds to 0

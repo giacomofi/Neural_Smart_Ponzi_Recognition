@@ -1,0 +1,32 @@
+solidity >=0.4.24<0.7.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 
+Initializable IERC20 ERC20Detailed Context SafeMath ERC20 Roles MinterRole ERC20Mintable PauserRole Pausable ERC20Pausable StandaloneERC20 
+SafeMath Roles Roles 
+Role 
+Role has bearer
+initialized initializing isTopLevelCall self cs ______gap _name _symbol _decimals ______gap c c c c _balances _allowances _totalSupply ______gap _minters ______gap ______gap _pausers ______gap _paused ______gap ______gap i i i i 
+isConstructor totalSupply balanceOf transfer allowance approve transferFrom initialize name symbol decimals _msgSender _msgData add sub sub mul div div mod mod totalSupply balanceOf transfer allowance approve transferFrom increaseAllowance decreaseAllowance _transfer _mint _burn _approve _burnFrom add remove has initialize isMinter addMinter renounceMinter _addMinter _removeMinter initialize mint initialize isPauser addPauser renouncePauser _addPauser _removePauser initialize paused pause unpause initialize transfer transferFrom approve increaseAllowance decreaseAllowance initialize initialize 
+ERC20Detailed inherits from Initializable ERC20Detailed inherits from IERC20 Context inherits from Initializable ERC20 inherits from Initializable ERC20 inherits from Context ERC20 inherits from IERC20 MinterRole inherits from Initializable MinterRole inherits from Context ERC20Mintable inherits from Initializable ERC20Mintable inherits from ERC20 ERC20Mintable inherits from MinterRole PauserRole inherits from Initializable PauserRole inherits from Context Pausable inherits from Initializable Pausable inherits from Context Pausable inherits from PauserRole ERC20Pausable inherits from Initializable ERC20Pausable inherits from ERC20 ERC20Pausable inherits from Pausable StandaloneERC20 inherits from Initializable StandaloneERC20 inherits from ERC20Detailed StandaloneERC20 inherits from ERC20Mintable StandaloneERC20 inherits from ERC20Pausable 
+initializer onlyMinter onlyPauser whenNotPaused whenPaused 
+Transfer Approval MinterAdded MinterRemoved PauserAdded PauserRemoved Paused Unpaused 
+_name is equal to name
+_symbol is equal to symbol
+_decimals is equal to decimals
+If a corresponds to 0
+ is equal to _balances sender sub
+ is equal to _balances recipient add
+_totalSupply is equal to _totalSupply add
+ is equal to _balances account add
+ is equal to _balances account sub
+_totalSupply is equal to _totalSupply sub
+ is equal to amount
+ is equal to True
+ is equal to False
+If 
+If 
+_paused is equal to False
+_paused is equal to True
+_paused is equal to False
+i is less then minters length
+i is less then pausers length
+i is less then minters length
+i is less then pausers length

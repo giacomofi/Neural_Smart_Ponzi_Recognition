@@ -1,0 +1,14 @@
+solidity ^0.6.0 experimental ABIEncoderV2 
+CTokenInterface OrcaleComp Helpers Resolver InstaCompoundResolver 
+CompData 
+CompData has tokenPrice
+CompData has exchangeRateStored
+CompData has balanceOfUser
+CompData has borrowBalanceStoredUser
+CompData has supplyRatePerBlock
+CompData has borrowRatePerBlock
+tokensData i cToken name 
+exchangeRateStored borrowRatePerBlock supplyRatePerBlock borrowBalanceStored balanceOf getUnderlyingPrice getAddressETH getComptrollerAddress getOracleAddress getPosition 
+Resolver inherits from Helpers InstaCompoundResolver inherits from Resolver 
+i is less then cAddress length
+ is equal to CompData

@@ -1,0 +1,17 @@
+MyScheme 
+treeBalance numInvestorsMinusOne treeDepth myTree amount 
+MyScheme getNumInvestors  
+treeBalance is equal to 0
+myTree length is equal to 6
+ is equal to msg sender
+numInvestorsMinusOne is equal to 0
+a is equal to numInvestorsMinusOne plus 1
+If amount is greater or equal to 1000000000000000000
+numInvestorsMinusOne increments of 1
+ is equal to msg sender
+amount decreases of 1000000000000000000
+treeBalance increments of 1000000000000000000
+If numInvestorsMinusOne is less or equal to 2
+treeBalance is equal to 0
+treeDepth is equal to 1
+treeBalance increments of amount

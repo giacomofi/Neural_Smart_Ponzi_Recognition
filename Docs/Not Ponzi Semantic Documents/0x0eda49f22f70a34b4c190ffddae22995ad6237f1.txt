@@ -1,0 +1,13 @@
+solidity ^0.4.16 
+Ownable Pausable Register 
+owner paused registry 
+Ownable transferOwnership pause unpause addUser getInfo 
+Pausable inherits from Ownable Register inherits from Pausable 
+onlyOwner whenNotPaused whenPaused 
+Pause Unpause 
+owner is equal to msg sender
+If newOwner is different from 
+owner is equal to newOwner
+paused is equal to True
+paused is equal to False
+ is equal to info

@@ -1,0 +1,36 @@
+solidity ^0.4.9 
+ProtectTheCastle 
+jester lastReparation piggyBank collectedFee citizensAddresses citizensAmounts totalCitizens lastCitizenPaid bribedCitizen round amountAlreadyPaidBack amountInvested SIX_HOURS amount 
+ProtectTheCastle repairTheCastle  newBribedCitizen collectFee newJester 
+bribedCitizen is equal to msg sender
+jester is equal to msg sender
+lastReparation is equal to block timestamp
+amountAlreadyPaidBack is equal to 0
+amountInvested is equal to 0
+totalCitizens is equal to 0
+If amount is less then 10 finney
+If amount is greater then 100 ether
+amount is equal to 100 ether
+If lastReparation plus SIX_HOURS is less then block timestamp
+If totalCitizens corresponds to 1
+piggyBank is equal to 0
+jester is equal to msg sender
+lastReparation is equal to block timestamp
+totalCitizens increments of 1
+amountInvested increments of amount
+piggyBank increments of amount
+collectedFee increments of amount multiplied by 3 divided by 100
+round increments of 1
+lastReparation is equal to block timestamp
+totalCitizens increments of 1
+amountInvested increments of amount
+piggyBank increments of 
+collectedFee increments of amount multiplied by 3 divided by 100
+While  is less then  Invalid symbol 
+amountAlreadyPaidBack increments of 
+lastCitizenPaid increments of 1
+If msg sender corresponds to bribedCitizen
+bribedCitizen is equal to newBribedCitizen
+If msg sender corresponds to bribedCitizen
+If msg sender corresponds to jester
+jester is equal to newJester

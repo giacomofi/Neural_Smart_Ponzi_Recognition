@@ -1,0 +1,211 @@
+solidity ^0.5.0 
+tokenTransfer UtilLXZG Context Ownable Roles WhitelistAdminRole LXZG SafeMath 
+Roles SafeMath 
+Role User GameInfo UserGlobal Invest SeedInvest 
+Role has bearer
+User has id
+User has userAddress
+User has inviteCode
+User has referrer
+User has staticLevel
+User has dynamicLevel
+User has allInvest
+User has freezeAmount
+User has allStaticAmount
+User has allDynamicAmount
+User has hisStaticAmount
+User has hisDynamicAmount
+User has inviteAmount
+User has performance
+User has reInvestCount
+User has lastReInvestTime
+User has seedFreezeAmount
+User has seedAllStaticAmount
+User has seedHisStaticAmount
+User has seedUnlockAmount
+User has seedInvests
+User has invests
+User has staticFlag
+User has seedStaticFlag
+GameInfo has luckPort
+GameInfo has specialUsers
+UserGlobal has id
+UserGlobal has userAddress
+UserGlobal has inviteCode
+UserGlobal has referrer
+Invest has userAddress
+Invest has investAmount
+Invest has limitAmount
+Invest has earnAmount
+Invest has investTime
+SeedInvest has userAddress
+SeedInvest has investAmount
+SeedInvest has earnAmount
+SeedInvest has investTime
+SeedInvest has releaseTime
+SeedInvest has times
+ethWei _owner _whitelistAdmins name ethWei zxlContract fzcContract startTime endTime investCount rInvestCount investMoney rInvestMoney rInfo uid rid period dividendRate statisticsDay userRoundMapping userMapping addressMapping indexMapping addr codeLength gas seedValue walletValue userGlobal referrerAddr user referrerAddr referrerAddr limitAmount invest releaseTime seedInvest user resultMoney resultMoney userAddress user allStatic i invest income i userAddr tmpReferrer i tmpUserAddr calUser recommendSc moneyResult tmpDynamicAmount invest user _now i invest zxlIncome user userInfo userInfo betting flag newRate _now userGlobal c c c c 
+transfer transferFrom balanceOf getLevel getLineLevel getScByLevel getRecommendScaleByLevelAndTim compareStr _msgSender _msgData owner isOwner renounceOwnership transferOwnership _transferOwnership add remove has isWhitelistAdmin addWhitelistAdmin removeWhitelistAdmin renounceWhitelistAdmin _addWhitelistAdmin _removeWhitelistAdmin  investIn withdrawProfit sendMoneyToPartner calStaticProfit calStaticProfitInner calDynamicProfit registerUserInfo calUserDynamicProfit seedRedeem isUsed getUserAddressByCode getGameInfo getUserInfo getSeedInfo activeGame correctionStatistics endStatistics getTimeLeft getDividendRate registerUser mul div sub add mod 
+Ownable inherits from Context WhitelistAdminRole inherits from Context WhitelistAdminRole inherits from Ownable LXZG inherits from UtilLXZG LXZG inherits from WhitelistAdminRole 
+onlyOwner onlyWhitelistAdmin isHuman 
+OwnershipTransferred WhitelistAdminAdded WhitelistAdminRemoved LogInvestIn LogWithdrawProfit LogRedeem 
+If value is greater or equal to 1 multiplied by ethWei Invalid symbol 
+If value is greater or equal to 6 multiplied by ethWei Invalid symbol 
+If value is greater or equal to 11 multiplied by ethWei Invalid symbol 
+If value is greater or equal to 1 multiplied by ethWei Invalid symbol 
+If value is greater or equal to 6 multiplied by ethWei Invalid symbol 
+If value is greater or equal to 11 multiplied by ethWei
+If level corresponds to 1
+If level corresponds to 2
+If level corresponds to 3
+If times corresponds to 1
+If performance is greater or equal to 1000 multiplied by ethWei Invalid symbol 
+If times is greater or equal to 2 Invalid symbol 
+If performance is greater then 3000 multiplied by ethWei Invalid symbol 
+If times is greater or equal to 2 Invalid symbol 
+If times is greater or equal to 5 Invalid symbol 
+If performance is greater then 6000 multiplied by ethWei Invalid symbol 
+If times is greater or equal to 2 Invalid symbol 
+If times is greater or equal to 5 Invalid symbol 
+If times is greater or equal to 11 Invalid symbol 
+If performance is greater or equal to 10000 multiplied by ethWei
+If times is greater or equal to 2 Invalid symbol 
+If times is greater or equal to 5 Invalid symbol 
+If times is greater or equal to 11 Invalid symbol 
+If keccak256 corresponds to keccak256
+_owner is equal to _msgSender
+_owner is equal to 
+_owner is equal to newOwner
+ is equal to True
+ is equal to False
+If userGlobal id corresponds to 0
+If  is different from 0
+user allInvest is equal to user allInvest add
+user freezeAmount is equal to user freezeAmount add
+user seedFreezeAmount is equal to user seedFreezeAmount add
+user staticLevel is equal to getLevel
+user dynamicLevel is equal to getLineLevel
+If 
+userRoundMapping rid referrerAddr performance is equal to userRoundMapping rid referrerAddr performance add
+user id is equal to userGlobal id
+user userAddress is equal to msg sender
+user freezeAmount is equal to walletValue
+user seedFreezeAmount is equal to seedValue
+user staticLevel is equal to getLevel
+user dynamicLevel is equal to getLineLevel
+user allInvest is equal to value
+user inviteCode is equal to userGlobal inviteCode
+user referrer is equal to userGlobal referrer
+If 
+userRoundMapping rid referrerAddr performance is equal to userRoundMapping rid referrerAddr performance add
+investCount is equal to investCount add
+investMoney is equal to investMoney add
+statisticsDay is equal to statisticsDay add
+If resultMoney is greater then 0
+user allStaticAmount is equal to 0
+user allDynamicAmount is equal to 0
+If user id corresponds to 0
+i is less then user invests length
+allStatic is equal to allStatic add
+invest earnAmount is equal to invest earnAmount add
+If invest earnAmount is greater or equal to invest limitAmount
+user staticFlag is equal to user staticFlag add
+user freezeAmount is equal to user freezeAmount sub
+user allStaticAmount is equal to user allStaticAmount add
+user hisStaticAmount is equal to user hisStaticAmount add
+i is less or equal to end
+i is less or equal to 20
+
+If calUser id corresponds to 0
+If money is less or equal to calUser freezeAmount
+moneyResult is equal to money
+moneyResult is equal to calUser freezeAmount
+If recommendSc is different from 0
+If calUser freezeAmount is greater then 0
+calUser allDynamicAmount is equal to calUser allDynamicAmount add
+calUser hisDynamicAmount is equal to calUser hisDynamicAmount add
+invest earnAmount is equal to invest earnAmount add
+If invest earnAmount is greater or equal to invest limitAmount
+calUser staticFlag is equal to calUser staticFlag add
+calUser freezeAmount is equal to calUser freezeAmount sub
+tmpReferrer is equal to calUser referrer
+i is less then user seedInvests length
+If _now is greater or equal to invest releaseTime
+user seedStaticFlag is equal to user seedStaticFlag add
+zxlIncome is equal to 
+invest earnAmount is equal to invest earnAmount add
+user seedHisStaticAmount is equal to user seedHisStaticAmount add
+user seedAllStaticAmount is equal to user seedAllStaticAmount add
+user seedFreezeAmount is equal to user seedFreezeAmount sub
+user seedUnlockAmount is equal to user seedUnlockAmount add
+If user seedUnlockAmount is greater then 0
+user seedUnlockAmount is equal to 0
+user seedAllStaticAmount is equal to 0
+If roundId corresponds to 0
+roundId is equal to rid
+ is equal to userInfo id
+ is equal to userInfo staticLevel
+ is equal to userInfo dynamicLevel
+ is equal to userInfo allInvest
+ is equal to userInfo freezeAmount
+ is equal to 0
+ is equal to userInfo allStaticAmount
+ is equal to userInfo allDynamicAmount
+ is equal to userInfo hisStaticAmount
+ is equal to userInfo hisDynamicAmount
+ is equal to userInfo inviteAmount
+ is equal to userInfo reInvestCount
+ is equal to userInfo staticFlag
+ is equal to userInfo invests length
+If  is different from 0
+ is equal to  i investAmount
+ is equal to  i limitAmount
+ is equal to  i earnAmount
+ is equal to  i investTime
+ is equal to 0
+ is equal to 0
+ is equal to 0
+ is equal to 0
+ is equal to userInfo performance
+ is equal to userInfo seedInvests length
+ is equal to userInfo seedFreezeAmount
+ is equal to userInfo seedAllStaticAmount
+ is equal to userInfo seedHisStaticAmount
+ is equal to userInfo seedUnlockAmount
+inviteCode is equal to userMapping user inviteCode
+referrer is equal to userMapping user referrer
+If roundId corresponds to 0
+roundId is equal to rid
+ is equal to userInfo seedInvests length
+If  is different from 0
+ is equal to  i investAmount
+ is equal to  i earnAmount
+ is equal to  i investTime
+ is equal to  i releaseTime
+ is equal to 0
+ is equal to 0
+ is equal to 0
+ is equal to 0
+startTime is equal to time
+endTime is equal to startTime add
+If _statisticsDay is different from 0
+dividendRate is equal to getDividendRate
+
+startTime is equal to now
+endTime is equal to startTime add
+dividendRate is equal to newRate
+statisticsDay is equal to 0
+If _now is less then endTime
+If yeji is less or equal to 50000 multiplied by ethWei
+If yeji is greater then 50000 multiplied by ethWei Invalid symbol 
+If yeji is greater then 100000 multiplied by ethWei Invalid symbol 
+If yeji is greater then 150000 multiplied by ethWei Invalid symbol 
+If yeji is greater then 200000 multiplied by ethWei Invalid symbol 
+If yeji is greater then 250000 multiplied by ethWei
+userGlobal id is equal to uid
+userGlobal userAddress is equal to user
+userGlobal inviteCode is equal to inviteCode
+userGlobal referrer is equal to referrer
+ is equal to user
+ is equal to user
+If a corresponds to 0

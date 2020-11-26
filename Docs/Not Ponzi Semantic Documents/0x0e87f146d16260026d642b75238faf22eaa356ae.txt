@@ -1,0 +1,63 @@
+solidity 0.5.8 
+IERC20 ApproveAndCallFallBack SafeMath ERC20Detailed FOMO6D 
+SafeMath 
+c c c c d _name _symbol _decimals _balances _allowed tokenName tokenSymbol tokenDecimals _totalSupply contractOwner fullUnitsStaked_total excludedFromStaking _totalRewardsPerUnit _totalRewardsPerUnit_positions _savedRewards i initalBalance newBalance fus_total initalBalance newBalance fus_total sixPercent initalBalance_from newBalance_from initalBalance_to newBalance_to fus_total amountToBurn stakingRewards rewardsPerUnit newRewardsPerUnit newRewards rewards initalBalance_staker newBalance_staker fus_total 
+totalSupply balanceOf allowance transfer approve transferFrom receiveApproval mul div sub add ceil name symbol decimals transferOwnership totalSupply balanceOf fullUnitsStaked toFullUnits allowance transfer multiTransfer transferFrom approve approveAndCall increaseAllowance decreaseAllowance _mint burn burnFrom _burn _executeTransfer updateRewardsFor viewUnpaidRewards payoutRewards excludeAddressFromStaking withdrawERC20Tokens 
+ERC20Detailed inherits from IERC20 FOMO6D inherits from ERC20Detailed 
+Transfer Approval OwnershipTransferred 
+If a corresponds to 0
+_name is equal to name
+_symbol is equal to symbol
+_decimals is equal to decimals
+contractOwner is equal to msg sender
+ is equal to True
+ is equal to True
+contractOwner is equal to newOwner
+i is less then receivers length
+ is equal to _allowed from msg sender sub
+ is equal to value
+ is equal to tokens
+ is equal to 
+ is equal to 
+ is equal to newBalance
+_totalSupply is equal to _totalSupply add
+If 
+fus_total is equal to fus_total sub
+fus_total is equal to fus_total add
+fullUnitsStaked_total is equal to fus_total
+ is equal to _allowed account msg sender sub
+ is equal to newBalance
+_totalSupply is equal to _totalSupply sub
+If 
+fus_total is equal to fus_total sub
+fus_total is equal to fus_total add
+fullUnitsStaked_total is equal to fus_total
+If sixPercent corresponds to 0 Invalid symbol 
+sixPercent is equal to 1
+value is equal to value sub
+ is equal to newBalance_from
+ is equal to newBalance_to
+If 
+fus_total is equal to fus_total sub
+fus_total is equal to fus_total add
+If 
+fus_total is equal to fus_total sub
+fus_total is equal to fus_total add
+fullUnitsStaked_total is equal to fus_total
+If fus_total is greater then 0
+_totalRewardsPerUnit is equal to _totalRewardsPerUnit add
+ is equal to  add
+amountToBurn is equal to amountToBurn sub
+_totalSupply is equal to _totalSupply sub
+ is equal to viewUnpaidRewards
+ is equal to _totalRewardsPerUnit
+
+ is equal to 0
+If 
+fus_total is equal to fus_total sub
+fus_total is equal to fus_total add
+fullUnitsStaked_total is equal to fus_total
+ is equal to  sub
+ is equal to newBalance_staker
+ is equal to exclude
+fullUnitsStaked_total is equal to 

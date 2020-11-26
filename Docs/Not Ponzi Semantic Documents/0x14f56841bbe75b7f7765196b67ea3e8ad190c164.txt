@@ -1,0 +1,19 @@
+solidity ^0.4.16 
+tokenRecipient Okextokencoin 
+name symbol decimals totalSupply balanceOf allowance previousBalances spender 
+receiveApproval TokenERC20 _transfer transfer transferFrom approve approveAndCall burn burnFrom 
+Transfer Burn 
+totalSupply is equal to 9000000000000
+ is equal to totalSupply
+name is equal to Okextokencoin
+symbol is equal to  OKB
+ decreases of _value
+ increments of _value
+ decreases of _value
+ is equal to _value
+
+ decreases of _value
+totalSupply decreases of _value
+ decreases of _value
+ decreases of _value
+totalSupply decreases of _value

@@ -1,0 +1,19 @@
+solidity ^0.5.0 
+SafeMath Context Ownable ISmartexOracle SmartexOracle 
+SafeMath 
+c c c c _owner msgSender authorizedCallers TOKEN_PRICE_UPDATE_PERIOD _currentTokenPrice _lastTokenPriceUpdate _currentETHPrice _lastETHPriceUpdate 
+add sub sub mul div div mod mod _msgSender _msgData owner isOwner renounceOwnership transferOwnership _transferOwnership currentETHPrice lastETHPriceUpdate currentTokenPrice lastTokenPriceUpdate setETHPrice updateTokenPrice currentETHPrice currentTokenPrice lastETHPriceUpdate lastTokenPriceUpdate setAuthorizedCaller setETHPrice updateTokenPrice 
+Ownable inherits from Context SmartexOracle inherits from ISmartexOracle SmartexOracle inherits from Ownable 
+onlyOwner onlyAuthorizedCaller 
+OwnershipTransferred ETHPriceUpdated TokenPriceUpdated 
+If a corresponds to 0
+_owner is equal to msgSender
+_owner is equal to 
+_owner is equal to newOwner
+_currentTokenPrice is equal to 10 Invalid symbol 8
+_lastTokenPriceUpdate is equal to now
+ is equal to allowed
+_lastETHPriceUpdate is equal to now
+_currentETHPrice is equal to price
+_lastTokenPriceUpdate is equal to now
+_currentTokenPrice is equal to 

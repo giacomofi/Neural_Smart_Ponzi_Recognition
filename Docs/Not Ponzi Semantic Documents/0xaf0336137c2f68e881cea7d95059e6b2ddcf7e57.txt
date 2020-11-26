@@ -1,0 +1,24 @@
+solidity ^0.5.2 
+SafeMath Ownable IERC20 ERC20 ERC20Detailed Token 
+SafeMath 
+c c c c _owner _newOwner _balances _allowed _totalSupply _name _symbol _decimals DECIMALS INITIAL_SUPPLY _length sumValue i i 
+mul div sub add mod owner newOwner_ isOwner renounceOwnership transferOwnership acceptOwnership _transferOwnership transfer approve transferFrom totalSupply balanceOf allowance totalSupply balanceOf allowance transfer approve transferFrom increaseAllowance decreaseAllowance _transfer _mint _approve name symbol decimals multiSendToken 
+ERC20 inherits from IERC20 ERC20 inherits from Ownable ERC20Detailed inherits from IERC20 Token inherits from ERC20 Token inherits from ERC20Detailed 
+onlyOwner 
+OwnershipTransferred Transfer Approval 
+If a corresponds to 0
+_owner is equal to msg sender
+_owner is equal to 
+_newOwner is equal to newOwner
+_owner is equal to newOwner
+ is equal to _balances from sub
+ is equal to _balances to add
+_totalSupply is equal to _totalSupply add
+ is equal to _balances account add
+ is equal to value
+_name is equal to name
+_symbol is equal to symbol
+_decimals is equal to decimals
+i is less then _length
+sumValue is equal to sumValue plus 
+i is less then _length

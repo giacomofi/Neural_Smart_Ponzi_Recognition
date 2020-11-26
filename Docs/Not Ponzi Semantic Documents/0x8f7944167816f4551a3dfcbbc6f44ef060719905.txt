@@ -1,0 +1,6 @@
+solidity 0.6.4 experimental ABIEncoderV2 
+ERC20 TokenAdapter YToken IearnTokenAdapter 
+underlyingTokens 
+name symbol decimals getMetadata getComponents token getPricePerFullShare getMetadata getComponents 
+IearnTokenAdapter inherits from TokenAdapter 
+ is equal to Component

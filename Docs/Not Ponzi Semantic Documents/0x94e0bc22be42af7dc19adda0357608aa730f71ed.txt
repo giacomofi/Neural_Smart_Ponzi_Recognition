@@ -1,0 +1,29 @@
+solidity 0.5.3 
+SafeMath SafeERC20 Roles MinterRole PauserRole Pausable IERC20 ERC20 ERC20Detailed ERC20Pausable BlacklistAdminRole BlacklistedRole TES 
+SafeMath Roles Roles SafeMath Roles Roles SafeERC20 
+Role 
+Role has bearer
+c c c c newAllowance newAllowance _minters _pausers _paused _balances _allowed _totalSupply _name _symbol _decimals _BlacklistAdmins _Blacklisteds bCalled _totalSupplyWithDecimals 
+mul div sub add mod safeTransfer safeTransferFrom safeApprove safeIncreaseAllowance safeDecreaseAllowance add remove has isMinter addMinter renounceMinter _addMinter _removeMinter isPauser addPauser renouncePauser _addPauser _removePauser paused pause unpause transfer approve transferFrom totalSupply balanceOf allowance totalSupply balanceOf allowance transfer approve transferFrom increaseAllowance decreaseAllowance _transfer _mint _burn _approve _burnFrom name symbol decimals transfer transferFrom approve increaseAllowance decreaseAllowance isBlacklistAdmin addBlacklistAdmin _addBlacklistAdmin _removeBlacklistAdmin isBlacklisted addBlacklisted removeBlacklisted _addBlacklisted _removeBlacklisted approveAndCall transfer transferFrom approve increaseAllowance decreaseAllowance mint sudoRetrieveFrom sudoBurnFrom 
+Pausable inherits from PauserRole ERC20 inherits from IERC20 ERC20Detailed inherits from IERC20 ERC20Pausable inherits from ERC20 ERC20Pausable inherits from Pausable BlacklistedRole inherits from BlacklistAdminRole TES inherits from ERC20Detailed TES inherits from ERC20Pausable TES inherits from MinterRole TES inherits from BlacklistedRole 
+onlyMinter onlyPauser whenNotPaused whenPaused onlyBlacklistAdmin onlyNotBlacklisted 
+MinterAdded MinterRemoved PauserAdded PauserRemoved Paused Unpaused Transfer Approval BlacklistAdminAdded BlacklistAdminRemoved BlacklistedAdded BlacklistedRemoved 
+If a corresponds to 0
+ is equal to True
+ is equal to False
+_paused is equal to False
+_paused is equal to True
+_paused is equal to False
+ is equal to _balances from sub
+ is equal to _balances to add
+_totalSupply is equal to _totalSupply add
+ is equal to _balances account add
+_totalSupply is equal to _totalSupply sub
+ is equal to _balances account sub
+ is equal to value
+_name is equal to name
+_symbol is equal to symbol
+_decimals is equal to decimals
+bCalled is equal to False
+bCalled is equal to True
+bCalled is equal to False

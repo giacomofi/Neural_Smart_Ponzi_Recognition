@@ -1,0 +1,34 @@
+solidity 0.4.25 
+SafeMath Ownable ERC20 StandardToken MintableToken CappedToken BurnableToken Withdrawable Token 
+SafeMath 
+c c c c owner new_owner totalSupply_ name symbol decimals balances allowed i oldValue mintingFinished cap 
+mul div sub add mod _transferOwnership acceptOwnership transferOwnership totalSupply balanceOf transfer transferFrom allowance approve totalSupply balanceOf transfer multiTransfer transferFrom allowance approve increaseApproval decreaseApproval mint finishMinting mint _burn burn burnFrom withdrawEther withdrawTokensTransfer withdrawTokensTransferFrom withdrawTokensApprove 
+StandardToken inherits from ERC20 MintableToken inherits from StandardToken MintableToken inherits from Ownable CappedToken inherits from MintableToken BurnableToken inherits from StandardToken Withdrawable inherits from Ownable Token inherits from StandardToken Token inherits from CappedToken Token inherits from BurnableToken Token inherits from Withdrawable 
+onlyOwner canMint hasMintPermission 
+OwnershipTransfer OwnershipTransferred Transfer Approval Mint MintFinished Burn WithdrawEther 
+If a corresponds to 0
+owner is equal to msg sender
+new_owner is equal to _to
+owner is equal to new_owner
+new_owner is equal to 
+name is equal to _name
+symbol is equal to _symbol
+decimals is equal to _decimals
+ is equal to msg sender sub
+ is equal to balances _to add
+i is less then _to length
+ is equal to balances _from sub
+ is equal to balances _to add
+ is equal to allowed _from msg sender sub
+ is equal to _value
+ is equal to 
+If _subtractedValue is greater then oldValue
+ is equal to 0
+ is equal to oldValue sub
+totalSupply_ is equal to totalSupply_ add
+ is equal to balances _to add
+mintingFinished is equal to True
+cap is equal to _cap
+ is equal to balances _who sub
+totalSupply_ is equal to totalSupply_ sub
+ is equal to allowed _from msg sender sub

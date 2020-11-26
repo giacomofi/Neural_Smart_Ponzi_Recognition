@@ -1,0 +1,56 @@
+solidity ^0.5.16 
+SimbiozPlus 
+User 
+User has id
+User has referrerID
+User has referrals
+User has levelExpiresAt
+creator currentUserID levelPrice users userAddresses MAX_LEVEL REFERRALS_LIMIT LEVEL_DURATION i level i referrer l referrals referrer i height referrer 
+ registerUser buyLevel findReferrer transferLevelPayment getUserUpline getUserReferrals getUserLevelExpiresAt createNewUser bytesToAddress addressToPayable 
+userNotRegistered userRegistered validReferrerID validLevel validLevelAmount 
+RegisterUserEvent BuyLevelEvent GetLevelProfitEvent LostLevelProfitEvent 
+ is equal to 0.03 ether
+ is equal to 0.09 ether
+ is equal to 0.15 ether
+ is equal to 0.3 ether
+ is equal to 0.35 ether
+ is equal to 0.6 ether
+ is equal to 1 ether
+ is equal to 2 ether
+ is equal to 5 ether
+ is equal to 10 ether
+creator is equal to 0x9FE5F739D3df1BEf612bbB8a06952D233C5474E3
+ is equal to createNewUser
+ is equal to creator
+i is less or equal to MAX_LEVEL
+ is equal to 113131641600
+i is less or equal to MAX_LEVEL
+If msg value corresponds to 
+level is equal to i
+If msg sender id is different from 0
+If level is different from 1
+If users userAddresses _referrerID referrals length is greater or equal to REFERRALS_LIMIT
+_referrerID is equal to findReferrer id
+ is equal to createNewUser
+ is equal to msg sender
+ is equal to now plus LEVEL_DURATION
+l is greater then 0
+If getUserLevelExpiresAt is less then now
+ is equal to now plus LEVEL_DURATION
+ increments of LEVEL_DURATION
+If users _user referrals length is less then REFERRALS_LIMIT
+ is equal to 
+ is equal to 
+ is equal to 
+i is less then 1200
+If users referrals i referrals length is less then REFERRALS_LIMIT
+referrer is equal to 
+If i is greater or equal to 400
+ is equal to 
+ is equal to 
+ is equal to 
+If referrer corresponds to 
+referrer is equal to creator
+If getUserLevelExpiresAt is less then now
+
+If height is less or equal to 0 Invalid symbol 

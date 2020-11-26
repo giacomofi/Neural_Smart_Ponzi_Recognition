@@ -1,0 +1,32 @@
+NanoPyramid 
+Participant 
+Participant has etherAddress
+Participant has payout
+pyramidMultiplier minAmount maxAmount fee collectedFees minFeePayout owner participants payoutOrder balance amount amountToRefund payoutToSend payout idx 
+NanoPyramid  enter totalParticipants awaitingParticipants outstandingBalance setOwner 
+onlyowner 
+owner is equal to msg sender
+If msg value is less then minAmount
+collectedFees increments of msg value
+If msg value is greater then maxAmount
+If amountToRefund is greater or equal to minAmount
+If 
+amount is equal to maxAmount
+amount is equal to msg value
+balance increments of  divided by 100
+collectedFees increments of  divided by 100
+While balance is greater then participants payoutOrder payout
+balance decreases of payoutToSend
+payoutOrder increments of 1
+If collectedFees is greater or equal to minFeePayout
+If 
+
+collectedFees is equal to 0
+collectedFees is equal to 0
+count is equal to participants length
+count is equal to participants length minus payoutOrder
+idx is equal to payoutOrder
+idx is less then participants length
+payout increments of participants idx payout
+amount is equal to payout minus balance
+owner is equal to _owner

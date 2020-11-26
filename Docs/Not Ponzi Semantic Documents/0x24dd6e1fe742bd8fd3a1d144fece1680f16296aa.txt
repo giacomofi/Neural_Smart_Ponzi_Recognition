@@ -1,0 +1,17 @@
+solidity ^0.4.16 
+OBK 
+MAX_UINT256 balances allowed totalSupply name decimals symbol allowance 
+OBK transfer transferFrom balanceOf approve allowance 
+Transfer Approval 
+ is equal to 1000000000000
+totalSupply is equal to 1000000000000
+name is equal to OurBank
+decimals is equal to 4
+symbol is equal to OBK
+ decreases of _value
+ increments of _value
+ increments of _value
+ decreases of _value
+If allowance is less then MAX_UINT256
+ decreases of _value
+ is equal to _value

@@ -1,0 +1,10 @@
+solidity ^0.4.11 
+Ownable Token Indorser 
+owner i 
+Ownable transferOwnership transfer RPexchange 
+Indorser inherits from Ownable 
+onlyOwner onlyOwner 
+owner is equal to 0x2B59D24F789f456b1E4Df6e31A4873F34A15AA62
+If newOwner is different from 
+owner is equal to newOwner
+i is less then _to length

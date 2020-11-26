@@ -1,0 +1,19 @@
+solidity 0.5.10 experimental ABIEncoderV2 
+Types 
+Party Order Signature 
+Party has wallet
+Party has token
+Party has param
+Party has kind
+Order has nonce
+Order has expiry
+Order has maker
+Order has taker
+Order has affiliate
+Signature has signer
+Signature has v
+Signature has r
+Signature has s
+Signature has version
+EIP191_HEADER DOMAIN_TYPEHASH ORDER_TYPEHASH PARTY_TYPEHASH 
+hashOrder hashDomain 

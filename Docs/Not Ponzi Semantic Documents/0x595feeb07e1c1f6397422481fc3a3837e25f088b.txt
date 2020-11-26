@@ -1,0 +1,4 @@
+solidity 0.6.4 experimental ABIEncoderV2 
+ERC20 ProtocolAdapter CurveAdapter 
+balanceOf adapterType tokenType getBalance adapterType tokenType getBalance 
+CurveAdapter inherits from ProtocolAdapter 

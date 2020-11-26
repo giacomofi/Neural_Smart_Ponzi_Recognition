@@ -1,0 +1,217 @@
+solidity 0.5.17 solidity 0.5.17 solidity 0.5.17 solidity 0.5.17 solidity 0.5.17 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity 0.5.17 solidity ^0.5.0 solidity ^0.5.0 solidity 0.5.17 
+DeliverFunds Ownable EthexJackpot EthexHouse EthexSuperprize Context IERC20 SafeMath Roles DistributorRole ERC20Distributable ERC20Detailed EthexFreeSpins IUniswapFactory IUniswapExchange EthexLoto 
+Roles SafeMath 
+Segment Payout Role Bet Transaction Superprize 
+Segment has start
+Segment has end
+Segment has processed
+Payout has index
+Payout has amount
+Payout has block
+Payout has winnerAddress
+Payout has betId
+Role has bearer
+Bet has blockNumber
+Bet has amount
+Bet has id
+Bet has bet
+Bet has gamer
+Transaction has amount
+Transaction has gamer
+Superprize has amount
+Superprize has id
+owner tickets prevJackpots amounts starts ends numberStarts numberEnd firstNumber lotoAddress newVersionAddress previousContract PRECISION i number i payAmounts wins PARTS i start modulo i i modulo payAmounts wins PARTS i i superprizeAmount i start end processed LENGTH distributedAmount amount payouts lotoAddress newVersionAddress previousContract hold PARTS PRECISION MONTHLY amount sum temp i payoutArray i index amount betBlock winner betId payoutsCount i c c c c _distributors _balances _allowances _totalSupply _name _symbol _decimals _migrated lotoAddress oldVersionAddress newVersionAddress Rate totalAmount balance exchangeTemplate tokenCount name symbol decimals betQueue counters holdBalance newVersionAddress jackpotAddress houseAddress superprizeAddress freeSpinsAddress uniswapAddress MIN_BET PRECISION JACKPOT_PERCENT HOUSE_EDGE i token uniswapFactory exchangeAddress uniswap tokensSold balance converted freeSpinsToken freeSpinAmount freeSpinBalance coefficient markedCount holdAmount jackpotFee houseEdgeFee betAmount betCount first last i length transactions superprizes hold balance bet coefficient markedCount holdAmount blockHash matchesCount isSuperPrize j field payoutAmount first last betCount first last betCount first last i 
+transferOwnership  migrate registerTicket setLoto setNewVersion payIn settleJackpot settleMissedJackpot paySuperprize setOldVersion getAddress setJackpot distribute getNumber payIn withdraw  initSuperprize paySuperprize setOldVersion setNewVersion setLoto migrate getPayoutsCount _msgSender _msgData totalSupply balanceOf transfer allowance approve transferFrom add sub sub mul div div mod mod add remove has isDistributor addDistributor renounceDistributor _addDistributor _removeDistributor totalSupply balanceOf transfer allowance approve transferFrom increaseAllowance decreaseAllowance _transfer _mint _burn _approve _burnFrom name symbol decimals use removeDistributor setLoto mint setOldVersion setNewVersion migrate payIn totalBalanceOf createExchange getExchange getToken getTokenWithId initializeFactory tokenAddress factoryAddress addLiquidity removeLiquidity getEthToTokenInputPrice getEthToTokenOutputPrice getTokenToEthInputPrice getTokenToEthOutputPrice ethToTokenSwapInput ethToTokenTransferInput ethToTokenSwapOutput ethToTokenTransferOutput tokenToEthSwapInput tokenToEthTransferInput tokenToEthSwapOutput tokenToEthTransferOutput tokenToTokenSwapInput tokenToTokenTransferInput tokenToTokenSwapOutput tokenToTokenTransferOutput tokenToExchangeSwapInput tokenToExchangeTransferInput tokenToExchangeSwapOutput tokenToExchangeTransferOutput transfer transferFrom approve allowance balanceOf totalSupply setup  placeTokenBet placeFreeSpinBet placeBet placeBet settleBets migrate setJackpot setSuperprize setFreeSpins setNewVersion setOldVersion withdrawToken length enqueue dequeue getLength getCounters getHold 
+EthexJackpot inherits from Ownable EthexHouse inherits from Ownable EthexSuperprize inherits from Ownable DistributorRole inherits from Context ERC20Distributable inherits from Context ERC20Distributable inherits from IERC20 ERC20Distributable inherits from DistributorRole ERC20Detailed inherits from IERC20 EthexFreeSpins inherits from Ownable EthexFreeSpins inherits from Context EthexFreeSpins inherits from ERC20Distributable EthexFreeSpins inherits from ERC20Detailed EthexLoto inherits from Ownable 
+onlyOwner onlyLoto onlyDistributor 
+OwnershipTransferred Jackpot Ticket Superprize Superprize Transfer Approval DistributorAdded DistributorRemoved TokenBetAdded PlaceBet PayoutBet RefundBet 
+owner is equal to msg sender
+owner is equal to newOwner
+If gamer corresponds to 
+i is less then 4
+If block number is greater or equal to 
+i is less then 4
+If block number is greater or equal to 
+ is equal to number
+numberEnd is equal to number
+ is equal to gamer
+lotoAddress is equal to loto
+newVersionAddress is equal to newVersion
+i is less then 4
+If block number is greater or equal to 
+i is less then 4
+If block number corresponds to start Invalid symbol 
+If prevJackpots start i processed corresponds to False Invalid symbol 
+ is equal to  multiplied by PRECISION divided by  divided by PRECISION
+ decreases of 
+prevJackpots start i processed is equal to True
+ is equal to getNumber
+i is less then 4
+If  is greater then 0 Invalid symbol 
+i is less then 4
+If block number is greater or equal to 
+If blockHeight is less then block number minus 256
+i is less then 4
+If prevJackpots blockHeight i processed corresponds to False Invalid symbol 
+ is equal to  multiplied by PRECISION divided by  divided by PRECISION
+ decreases of 
+prevJackpots blockHeight i processed is equal to True
+ is equal to getNumber
+i is less then 4
+If  is greater then 0 Invalid symbol 
+ is equal to 0
+ is equal to 0
+ is equal to 0
+ is equal to 0
+If superprizeAmount is greater then 0 Invalid symbol 
+previousContract is equal to EthexJackpot
+i is less then 4
+ is equal to previousContract starts
+ is equal to previousContract ends
+ is equal to previousContract numberStarts
+ is equal to previousContract prevJackpots
+ is equal to Segment
+ is equal to previousContract amounts
+numberEnd is equal to previousContract numberEnd
+firstNumber is equal to numberEnd
+If number is less or equal to firstNumber
+prevJackpots ends jackpotType jackpotType processed is equal to prevJackpots starts jackpotType jackpotType end corresponds to numberEnd
+ is equal to 
+ is equal to  plus 
+prevJackpots starts jackpotType jackpotType start is equal to 
+prevJackpots starts jackpotType jackpotType end is equal to numberEnd
+If distributedAmount is less then 
+ increments of amount
+ increments of amount
+ increments of amount
+ increments of amount
+hold is equal to 
+i is less then PARTS
+temp is equal to amount multiplied by PRECISION multiplied by  divided by 75 divided by PRECISION
+sum increments of temp
+If payouts length corresponds to 0
+While i is greater then 0
+If payouts i block is less or equal to block number
+hold decreases of payouts i amount
+ is equal to 
+i is equal to 0
+i is less then payoutArray length
+If payoutArray i block is greater then block number
+i is equal to 0
+i is less then payoutArray length
+If payoutArray i block is less or equal to block number Invalid symbol 
+previousContract is equal to EthexSuperprize
+lotoAddress is equal to previousContract lotoAddress
+hold is equal to previousContract hold
+i is less then payoutsCount
+ is equal to previousContract payouts
+newVersionAddress is equal to newVersion
+lotoAddress is equal to loto
+If a corresponds to 0
+ is equal to True
+ is equal to False
+ is equal to _balances sender sub
+ is equal to _balances recipient add
+_totalSupply is equal to _totalSupply add
+ is equal to _balances account add
+ is equal to _balances account sub
+_totalSupply is equal to _totalSupply sub
+ is equal to amount
+_name is equal to name
+_symbol is equal to symbol
+_decimals is equal to decimals
+Rate is equal to rate
+If oldVersionAddress is different from  Invalid symbol 
+ is equal to True
+lotoAddress is equal to loto
+oldVersionAddress is equal to oldVersion
+newVersionAddress is equal to newVersion
+If oldVersionAddress is different from  Invalid symbol 
+jackpotAddress is equal to jackpot
+houseAddress is equal to house
+superprizeAddress is equal to superprize
+freeSpinsAddress is equal to freeSpins
+uniswapAddress is equal to uniswap
+i is less or equal to 10
+If tokenAddress corresponds to freeSpinsAddress
+ is equal to getHold
+holdBalance increments of holdAmount
+ is equal to getCounters
+If first is greater then last
+length is equal to 
+i is less then length
+If betQueue first blockNumber is greater or equal to block number
+length is equal to i
+ is equal to getHold
+hold decreases of holdAmount
+balance increments of holdAmount
+If bet blockNumber is less then block number minus 256
+ is equal to Transaction
+balance decreases of bet amount
+coefficient is equal to 0
+j is less then bet bet length
+If  is greater then 0x13
+isSuperPrize is equal to False
+If j Invalid symbol 2 corresponds to 0
+field is equal to  Invalid symbol 4
+field is equal to  Invalid symbol 0x0F
+If  is less then 0x10
+If field corresponds to 
+coefficient increments of 30
+isSuperPrize is equal to False
+isSuperPrize is equal to False
+If  corresponds to 0x10
+If field is greater then 0x09 Invalid symbol 
+coefficient increments of 5
+If  corresponds to 0x11
+If field is less then 0x0A
+coefficient increments of 3
+If  corresponds to 0x12
+If field is less then 0x0A Invalid symbol 
+coefficient increments of 6
+If  corresponds to 0x13
+If field is less then 0x0A Invalid symbol 
+coefficient increments of 6
+coefficient is multiplied by PRECISION multiplied by 8
+ is equal to Transaction
+balance decreases of payoutAmount
+If isSuperPrize corresponds to True
+superprizes i amount is equal to balance
+superprizes i id is equal to bet id
+balance is equal to 0
+holdBalance is equal to hold
+i is equal to 0
+i is less then length
+If transactions i amount is greater then 0 Invalid symbol 
+If superprizes i id is different from 0
+If superprizes i amount is greater then 0 Invalid symbol 
+jackpotAddress is equal to jackpot
+superprizeAddress is equal to superprize
+freeSpinsAddress is equal to freeSpins
+newVersionAddress is equal to newVersion
+counters is equal to 
+ is equal to getCounters
+ is equal to Bet
+counters is equal to betCount Invalid symbol 128 Invalid symbol 
+ is equal to getCounters
+bet is equal to 
+If first corresponds to last
+counters is equal to betCount Invalid symbol 128 Invalid symbol 0x20000000000000001
+counters is equal to betCount Invalid symbol 128 Invalid symbol 
+ is equal to getCounters
+betCount is equal to counters Invalid symbol 128
+first is equal to  Invalid symbol 64
+last is equal to counters Invalid symbol 0xffffffffffffffff
+i is less then bet length
+If  is greater then 0x13
+If  is less then 0x10
+coefficient increments of 30
+If  corresponds to 0x10
+coefficient increments of 5
+If  corresponds to 0x11
+coefficient increments of 3
+If  corresponds to 0x12
+coefficient increments of 6
+If  corresponds to 0x13
+coefficient increments of 6
+holdAmount is equal to amount multiplied by coefficient multiplied by 8 divided by 15 divided by markedCount

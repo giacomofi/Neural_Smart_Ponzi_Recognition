@@ -1,0 +1,12 @@
+solidity ^0.5.10 
+SafeMath Token DaiSwap 
+c c daiposit totaldai baseMultiplier fee decOffset daiContract usdContract amt_dai amt_usd shares usd dai usd base amt_dai amt_usd usd usd base amt_dai amt_usd dai dai 
+safeMul safeSub safeAdd balanceOf transfer transferFrom sharesFromDai usdAmountFromShares usdAmountFromDai deposit withdraw calcSwapForUSD swapForUSD calcSwapForDai swapForDai 
+DaiSwap inherits from SafeMath 
+If totaldai corresponds to 0
+If totaldai corresponds to 0
+ is equal to safeAdd
+totaldai is equal to safeAdd
+totaldai is equal to safeSub
+ is equal to 0
+usd is equal to usd divided by decOffset

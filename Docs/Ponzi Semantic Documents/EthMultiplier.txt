@@ -1,0 +1,25 @@
+solidity ^0.4.10 
+EthMultiplier 
+Investor 
+Investor has addr
+Investor has payout
+Investor has paidOut
+id payoutIdx owner investors feePercentage payOutPercentage smartContactForSale priceOfSmartContract iPayoutIdx 
+EthMultiplier  invest checkInvestmentRequired buySmartContract setFeePercentage setPayOutPercentage putSmartContractOnSale setSmartContractPrice 
+entryCosts awaitingPayOut isForSale onlyOwner FPLimits POTODLimits SCPLimits 
+newInvestor lastInvestorPaidOut manualCheckInvestmentRequired newOwner newFeePercentageIsSet newPayOutPercentageIsSet smartContractIsForSale smartContractSaleEnded smartContractPriceIsSet 
+owner is equal to msg sender
+investors id addr is equal to msg sender
+investors id payout is equal to msg value multiplied by  divided by 100
+While this balance is greater or equal to investors payoutIdx payout
+ paidOut is equal to True
+iPayoutIdx is less or equal to _investorId
+amount increments of investors iPayoutIdx payout
+amount is equal to  multiplied by 100 divided by 
+
+owner is equal to msg sender
+smartContactForSale is equal to False
+feePercentage is equal to _percentage
+payOutPercentage is equal to _percentageOnTopOfDeposit
+smartContactForSale is equal to _sell
+priceOfSmartContract is equal to _price

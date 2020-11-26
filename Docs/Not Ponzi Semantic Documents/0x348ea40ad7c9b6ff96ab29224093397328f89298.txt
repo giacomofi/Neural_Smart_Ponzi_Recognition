@@ -1,0 +1,14 @@
+solidity 0.6.4 experimental ABIEncoderV2 
+TokenAdapter ERC20 CToken Exchange Factory UniswapV1TokenAdapter 
+FACTORY ETH SAI_POOL CSAI_POOL underlyingToken totalSupply underlyingTokenType underlyingTokens length result i i 
+getMetadata getComponents approve transfer transferFrom balanceOf totalSupply decimals symbol name isCToken name symbol decimals getToken getMetadata getComponents getPoolName getSymbol convertToString 
+UniswapV1TokenAdapter inherits from TokenAdapter 
+ is equal to Component
+ is equal to Component
+If token corresponds to SAI_POOL
+If returnData length corresponds to 32
+i is less then 32
+If  is different from 
+result is equal to 
+i is less then length
+ is equal to 

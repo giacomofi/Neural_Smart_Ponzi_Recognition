@@ -1,0 +1,17 @@
+solidity 0.5.8 
+EasyBrokermanToken SafeMath 
+SafeMath 
+name symbol decimals balances allowed totalSupply owner c 
+balanceOf transfer approve allowance transferFrom burnFrom sub add 
+Approval Transfer 
+totalSupply is equal to 200000000e8
+owner is equal to msg sender
+ is equal to totalSupply
+ is equal to msg sender sub
+ is equal to balances receiver add
+ is equal to numTokens
+ is equal to balances from sub
+ is equal to allowed from msg sender sub
+ is equal to balances buyer add
+ is equal to balances from sub
+ is equal to balances owner add

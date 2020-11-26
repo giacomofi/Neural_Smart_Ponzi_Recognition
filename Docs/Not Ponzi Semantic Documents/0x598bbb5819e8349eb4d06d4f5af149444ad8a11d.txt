@@ -1,0 +1,73 @@
+solidity ^0.5.0 
+RevolutionFactory Revolution 
+JusticeScale Trial 
+JusticeScale has voters
+JusticeScale has votes
+JusticeScale has amount
+Trial has citizen
+Trial has sansculotteScale
+Trial has privilegedScale
+Trial has lastLotteryBlock
+Trial has opened
+Trial has matchesCriteria
+owner hashtags revolutions owner factory criteria hashtag distributionBlockPeriod distributionAmount lastDistributionBlockNumber testingMode locked citizens names trials bastilleBalance trial scale shouldClose trial winnerScale loserScale bastilleVote remainingRewardCakes i voter winningCakes rewardCakes i voter randomHash probabilityPercent million threshold trial blocksSince firstCitizen i citizenIndex citizen trial distributed trial trial 
+createRevolution getRevolution lockRevolution lock vote closeTrial pseudoRandomNumber trialLottery distribute getScaleAmount trialStatus getName setName voteAndSetName  
+RevolutionCreated TrialOpened TrialClosed VoteReceived Distribution 
+If  corresponds to 
+ is equal to 
+factory is equal to msg sender
+owner is equal to _owner
+criteria is equal to _criteria
+hashtag is equal to _hashtag
+distributionBlockPeriod is equal to _distributionBlockPeriod
+distributionAmount is equal to _distributionAmount
+lastDistributionBlockNumber is equal to block number
+testingMode is equal to _testingMode
+locked is equal to False
+locked is equal to True
+If _vote is different from trial matchesCriteria
+trial opened is equal to True
+If trial citizen corresponds to 
+trial citizen is equal to _citizen
+trial lastLotteryBlock is equal to block number
+If _vote corresponds to False
+scale is equal to trial privilegedScale
+ increments of msg value
+scale amount increments of msg value
+If testingMode corresponds to False
+If shouldClose corresponds to False
+trial opened is equal to False
+trial matchesCriteria is equal to False
+If trial sansculotteScale amount is greater then trial privilegedScale amount
+winnerScale is equal to trial sansculotteScale
+loserScale is equal to trial privilegedScale
+trial matchesCriteria is equal to True
+i is less then winnerScale voters length
+ is equal to 0
+remainingRewardCakes decreases of rewardCakes
+bastilleBalance increments of remainingRewardCakes
+winnerScale amount is equal to 0
+i is less then loserScale voters length
+ is equal to 0
+loserScale amount is equal to 0
+If testingMode corresponds to True
+If blocksSince is less then distributionBlockPeriod
+threshold is multiplied by blocksSince divided by distributionBlockPeriod
+trial lastLotteryBlock is equal to block number
+If pseudoRandomNumber is less then threshold
+If block number minus lastDistributionBlockNumber is less then distributionBlockPeriod
+i is less then citizens length
+If citizenIndex is greater or equal to citizens length
+citizenIndex is equal to citizenIndex minus citizens length
+If trial opened corresponds to False Invalid symbol 
+If bastilleBalance is greater or equal to distributionAmount
+distributed is equal to distributionAmount
+If locked corresponds to True
+distributed is equal to bastilleBalance
+If distributed is greater then 0
+
+bastilleBalance decreases of distributed
+lastDistributionBlockNumber is equal to block number
+If _vote corresponds to True
+ is equal to _name
+bastilleBalance increments of msg value

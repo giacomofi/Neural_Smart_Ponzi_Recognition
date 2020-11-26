@@ -1,0 +1,61 @@
+solidity ^0.4.12 
+IMigrationContract SafeMath Token StandardToken BermToken 
+z z z totalSupply balances allowed name symbol decimals version ethFundDeposit newContractAddr isFunding fundingStartBlock fundingStopBlock currentSupply tokenRaised tokenMigrated tokenExchangeRate value value tokens newContract tokens tokens 
+migrate safeAdd safeSubtract safeMult balanceOf transfer transferFrom approve allowance transfer transferFrom balanceOf approve allowance formatDecimals BermToken setTokenExchangeRate increaseSupply decreaseSupply startFunding stopFunding setMigrateContract changeOwner migrate transferETH allocateToken  
+StandardToken inherits from Token BermToken inherits from StandardToken BermToken inherits from SafeMath 
+isOwner 
+Transfer Approval AllocateToken IssueToken IncreaseSupply DecreaseSupply Migrate 
+If  is greater or equal to _value Invalid symbol 
+ decreases of _value
+ increments of _value
+If  is greater or equal to _value Invalid symbol  Invalid symbol 
+ increments of _value
+ decreases of _value
+ decreases of _value
+ is equal to _value
+ethFundDeposit is equal to _ethFundDeposit
+isFunding is equal to False
+fundingStartBlock is equal to 0
+fundingStopBlock is equal to 0
+currentSupply is equal to formatDecimals
+totalSupply is equal to formatDecimals
+If currentSupply is greater then totalSupply
+If _tokenExchangeRate corresponds to 0
+If _tokenExchangeRate corresponds to tokenExchangeRate
+tokenExchangeRate is equal to _tokenExchangeRate
+If value plus currentSupply is greater then totalSupply
+currentSupply is equal to safeAdd
+If value plus tokenRaised is greater then currentSupply
+currentSupply is equal to safeSubtract
+
+If _fundingStartBlock is greater or equal to _fundingStopBlock
+If block number is greater or equal to _fundingStartBlock
+fundingStartBlock is equal to _fundingStartBlock
+fundingStopBlock is equal to _fundingStopBlock
+isFunding is equal to True
+If not isFunding
+isFunding is equal to False
+If _newContractAddr corresponds to newContractAddr
+newContractAddr is equal to _newContractAddr
+If _newFundDeposit corresponds to 
+ethFundDeposit is equal to _newFundDeposit
+
+If newContractAddr corresponds to 
+If tokens corresponds to 0
+ is equal to 0
+tokenMigrated is equal to safeAdd
+If 
+If this balance corresponds to 0
+If 
+If _eth corresponds to 0
+If _addr corresponds to 
+If tokens plus tokenRaised is greater then currentSupply
+tokenRaised is equal to safeAdd
+ increments of tokens
+If not isFunding
+If msg value corresponds to 0
+If block number is less then fundingStartBlock
+If block number is greater then fundingStopBlock
+If tokens plus tokenRaised is greater then currentSupply
+tokenRaised is equal to safeAdd
+ increments of tokens

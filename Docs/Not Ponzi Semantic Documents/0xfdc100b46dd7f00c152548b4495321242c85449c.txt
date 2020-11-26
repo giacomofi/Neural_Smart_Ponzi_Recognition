@@ -1,0 +1,135 @@
+solidity 0.4.25 solidity 0.4.25 solidity 0.4.25 
+SafeMath DappDatasets AWMain TetherToken AWToken AWGame 
+Player Fomo Lottery 
+Player has withdrawalAmount
+Player has wallet
+Player has fomoTotalRevenue
+Player has lotteryTotalRevenue
+Player has dynamicIncome
+Player has rechargeAmount
+Player has staticIncome
+Player has shareholderLevel
+Player has underUmbrellaLevel
+Player has subbordinateTotalPerformance
+Player has isExist
+Player has superior
+Player has superiorAddr
+Player has subordinates
+Fomo has whetherToEnd
+Fomo has endTime
+Fomo has fomoPrizePool
+Fomo has participant
+Lottery has whetherToEnd
+Lottery has lotteryPool
+Lottery has unopenedBonus
+Lottery has number
+Lottery has todayAmountTotal
+Lottery has totayLotteryAmountTotal
+Lottery has grandPrizeNum
+Lottery has firstPrizeNum
+Lottery has secondPrizeNum
+Lottery has thirdPrizeNum
+Lottery has lotteryMap
+Lottery has numToAddr
+Lottery has personalAmount
+Lottery has awardAmount
+c c c c random numberArray i temp owner specifyAddr technologyAddr gameAddr temp staticDividendUsdt staticPrizePool staticTotalRecharge allPlayer shareholdersV1 shareholdersV2 shareholdersV3 shareholdersV4 usdtPool tether awToken game playerMap player award index i player performance numberArray i number motionAndStaticAmount withdrawableBalance value difference number motionAndStaticAmount withdrawableBalance amount value handlingFee count i proportionOfInvestment personalAmount player amount remaining player length tempAddr player length i levelCount j areaTotal tempPlayer count player number reward length splitEqually i staticPool60 amount length splitEqually i player player usdtPrice staticAmount player superiorPlayer 
+add sub sub mul div div mod mod getNowTime rand returnArray  resetNodePool addWalletAndDynamicIncome usdtNode getShareholder getStatistics getSubordinatesAndPerformanceByAddr getPlayerInfo getRevenueAndPerformance withdrawImpl withdrawService afterStaticPayment staticDividend participateFomo increasePerformance promotionMechanisms rewardDistribution fosterInteraction releaseStaticPoolAndV4 updateRevenue participateLottery getPlayer exchange register transfer transferFrom burn balanceOf calculationNeedAW usdtPrice deposit updateLotteryPoolAndTodayAmountTotal redeemAW buyLotto 
+If a corresponds to 0
+
+number is equal to number plus 9
+If temp corresponds to 0
+ is equal to temp
+If i corresponds to len
+owner is equal to _owner
+specifyAddr is equal to _specifyAddr
+ is equal to player
+tether is equal to TetherToken
+awToken is equal to AWToken
+game is equal to AWGame
+gameAddr is equal to _gameAddr
+technologyAddr is equal to _technologyAddr
+If owner is different from technologyAddr
+ is equal to player
+usdtPool is equal to 0
+playerMap addr wallet is equal to SafeMath add
+playerMap addr dynamicIncome is equal to SafeMath add
+If shareholdersV4 length is less then 1
+staticPrizePool is equal to SafeMath add
+i is less then shareholdersV4 length
+If index corresponds to count
+i is less then player subordinates length
+ is equal to SafeMath add
+ is equal to playerMap  i subordinates length
+If motionAndStaticAmount is greater then withdrawableBalance
+number is equal to SafeMath sub
+If value is greater then SafeMath mul
+difference is equal to 0
+difference is equal to SafeMath sub
+If motionAndStaticAmount is greater then withdrawableBalance
+number is equal to SafeMath sub
+If amount is greater then 1000 multiplied by 10 Invalid symbol 6
+value is equal to 1000 multiplied by 10 Invalid symbol 6
+playerMap addr wallet is equal to SafeMath sub
+playerMap addr withdrawalAmount is equal to SafeMath add
+staticPrizePool is equal to SafeMath add
+staticPrizePool is equal to SafeMath sub
+staticDividendUsdt is equal to 0
+i is less then allPlayer length
+If playerMap allPlayer i rechargeAmount corresponds to 0 Invalid symbol 
+playerMap allPlayer i wallet is equal to SafeMath add
+playerMap allPlayer i staticIncome is equal to SafeMath add
+staticDividendUsdt increments of personalAmount
+If count corresponds to 100
+player rechargeAmount is equal to SafeMath add
+staticTotalRecharge is equal to SafeMath add
+playerMap technologyAddr wallet is equal to SafeMath add
+usdtPool is equal to SafeMath add
+staticPrizePool is equal to SafeMath add
+
+player is equal to 
+player subbordinateTotalPerformance is equal to SafeMath add
+If length corresponds to 50
+If player subbordinateTotalPerformance is greater or equal to 10 multiplied by 10 Invalid symbol 10
+If player subordinates length is greater then 30
+length is equal to 30
+i is less then 4
+If player shareholderLevel corresponds to i
+j is less then length
+If i corresponds to 0 Invalid symbol 
+If areaTotal is greater or equal to 3 multiplied by 10 Invalid symbol 10
+If levelCount is greater or equal to 2
+player shareholderLevel is equal to i plus 1
+If i corresponds to 0
+
+tempPlayer is equal to 
+If tempPlayer underUmbrellaLevel is less then i plus 1
+tempPlayer underUmbrellaLevel is equal to i plus 1
+If count corresponds to 49
+
+number is equal to SafeMath add
+If player subordinates length is greater then 0
+If player subordinates length is greater then 30
+length is equal to 30
+i is less then length
+number is equal to SafeMath add
+staticPrizePool is equal to SafeMath add
+If shareholdersV4 length is greater then 0
+If shareholdersV4 length is greater then 100
+length is equal to 100
+length is equal to shareholdersV4 length
+i is less then length
+staticPrizePool is equal to SafeMath add
+
+player wallet is equal to SafeMath add
+player fomoTotalRevenue is equal to SafeMath add
+player wallet is equal to SafeMath add
+player lotteryTotalRevenue is equal to SafeMath add
+staticPrizePool is equal to SafeMath add
+staticPrizePool is equal to SafeMath add
+If playerMap addr isExist corresponds to True
+If superiorAddr corresponds to  Invalid symbol 
+player is equal to DappDatasets Player
+ is equal to player
+player is equal to DappDatasets Player
+ is equal to player

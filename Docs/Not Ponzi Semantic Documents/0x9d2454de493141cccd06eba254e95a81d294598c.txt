@@ -1,0 +1,22 @@
+solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.14 solidity ^0.5.0 solidity ^0.5.14 
+Context Roles WhitelistAdminRole WhitelistedRole MetaFactoryWhitelist IERC20 SealedBidsRegistry 
+Roles Roles 
+Role Offer 
+Role has bearer
+Offer has ipfsHash
+Offer has timestamp
+_whitelistAdmins _whitelisteds whitelist totalBids offers startTime endTime self i bidder amount contractBalance offer 
+_msgSender _msgData add remove has isWhitelistAdmin addWhitelistAdmin renounceWhitelistAdmin _addWhitelistAdmin _removeWhitelistAdmin isWhitelisted addWhitelisted removeWhitelisted renounceWhitelisted _addWhitelisted _removeWhitelisted totalSupply balanceOf transfer allowance approve transferFrom recordOffer clearOffer updateStartTime updateEndTime pullFunds withdrawFunds getOffer 
+WhitelistAdminRole inherits from Context WhitelistedRole inherits from Context WhitelistedRole inherits from WhitelistAdminRole MetaFactoryWhitelist inherits from WhitelistedRole 
+onlyWhitelistAdmin onlyWhitelisted onlyWhenOpen onlyWhenWhitelisted 
+WhitelistAdminAdded WhitelistAdminRemoved WhitelistedAdded WhitelistedRemoved Transfer Approval OfferMade OfferUpdated OfferCleared StartTimeUpdated EndTimeUpdated 
+ is equal to True
+ is equal to False
+whitelist is equal to _whitelist
+startTime is equal to _startTime
+endTime is equal to _endTime
+If  corresponds to 0
+ is equal to Offer
+startTime is equal to _startTime
+endTime is equal to _endTime
+i is less then bidders length

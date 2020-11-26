@@ -1,0 +1,26 @@
+solidity ^0.4.16 
+owned SafeMath KDG 
+owner c c c name symbol decimals totalSupply balanceOf freezeOf allowance previousBalances 
+transferOwnership safeMul safeDiv safeSub safeAdd _transfer transfer approve transferFrom burn mintToken freeze unfreeze 
+KDG inherits from owned KDG inherits from SafeMath 
+onlyOwner 
+Transfer Burn Freeze Unfreeze 
+owner is equal to msg sender
+owner is equal to newOwner
+totalSupply is equal to 7.15 multiplied by 10 Invalid symbol 26
+ is equal to totalSupply
+name is equal to Key Golden
+symbol is equal to KDG
+decimals is equal to 18
+ is equal to SafeMath safeSub
+ is equal to SafeMath safeAdd
+ is equal to _value
+ is equal to SafeMath safeSub
+ is equal to SafeMath safeSub
+totalSupply is equal to SafeMath safeSub
+ is equal to SafeMath safeAdd
+totalSupply is equal to SafeMath safeAdd
+ is equal to SafeMath safeSub
+ is equal to SafeMath safeAdd
+ is equal to SafeMath safeSub
+ is equal to SafeMath safeAdd

@@ -1,0 +1,15 @@
+solidity ^0.4.19 
+BaseToken CustomToken 
+name symbol decimals totalSupply balanceOf allowance previousBalances 
+_transfer transfer transferFrom approve CustomToken 
+CustomToken inherits from BaseToken 
+Transfer Approval 
+ decreases of _value
+ increments of _value
+ decreases of _value
+ is equal to _value
+totalSupply is equal to 500000000000000000000000000
+name is equal to MTS token
+symbol is equal to MTS
+decimals is equal to 18
+ is equal to totalSupply

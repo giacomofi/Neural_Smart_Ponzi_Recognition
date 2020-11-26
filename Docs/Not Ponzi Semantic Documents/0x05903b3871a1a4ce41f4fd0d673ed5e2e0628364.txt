@@ -1,0 +1,95 @@
+solidity ^0.5.0 solidity ^0.5.0 solidity 0.5.12 solidity 0.5.12 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity 0.5.12 solidity 0.5.12 solidity 0.5.12 solidity 0.5.12 solidity 0.5.12 solidity 0.5.12 solidity 0.5.12 
+Context Ownable ILoanContractDispatcher IAuthorization IERC20 ERC20Detailed SafeMath IDAIProxy ILoanContract ISwapAndDeposit ISwapAndDepositFactory IERC20Wrapper ERC20Wrapper LoanContract LoanContractDispatcher 
+SafeMath 
+Position 
+Position has bidAmount
+Position has withdrawn
+_owner _name _symbol _decimals c c c c returnValue swapFactory proxyContractAddress tokenAddress originator administrator minAmount maxAmount auctionEndTimestamp auctionStartTimestamp auctionLength lastFundedTimestamp termEndTimestamp termLength auctionBalance loanWithdrawnAmount borrowerDebt minInterestRate maxInterestRate operatorFee operatorBalance MONTH_SECONDS ONE_HUNDRED lenderPosition currentState proxy loanWithdrawn minimumReached interest allFees amount amount swapAddress auth DAIProxyAddress swapFactory administrator operatorFee minAmount maxAmount minTermLength minAuctionLength minInterestRate maxInterestRate acceptedTokens isLoanContract loanContract 
+_msgSender _msgData owner isOwner renounceOwnership transferOwnership _transferOwnership checkLoanContract isTokenAccepted addTokenToAcceptedList removeTokenFromAcceptedList setAuthAddress setDaiProxyAddress setAdministrator setOperatorFee setMinAmount setMaxAmount setMinInterestRate setMaxInterestRate setMinTermLength setMinAuctionLength deploy getKycAddress getDepositAddress hasDeposited isKYCConfirmed setKYCRegistry setDepositRegistry totalSupply balanceOf transfer allowance approve transferFrom name symbol decimals add sub sub mul div div mod mod fund repay onFundingReceived withdrawRepayment withdrawRepaymentAndDeposit withdrawLoan onRepaymentReceived getInterestRate calculateValueWithInterest getMaxAmount getAuctionBalance getTokenAddress init isDestroyed swapAndDeposit setAuthAddress setUniswapAddress setLibraryAddress deploy totalSupply balanceOf allowance transfer transferFrom approve symbol balanceOf allowance transfer transferFrom approve isIssuedToken checkSuccess getMaxAmount getAuctionBalance getLenderBidAmount getLenderWithdrawn getTokenAddress onFundingReceived unlockFundsWithdrawal withdrawFees withdrawFundsUnlocked withdrawRefund withdrawRepayment withdrawRepaymentAndDeposit withdrawLoan onRepaymentReceived isAuctionExpired isDefaulted updateStateMachine calculateValueWithInterest getInterestRate setState setSuccessfulAuction isTokenAccepted addTokenToAcceptedList removeTokenFromAcceptedList setAuthAddress setDaiProxyAddress setSwapFactory setAdministrator setOperatorFee setMinAmount setMaxAmount setMinInterestRate setMaxInterestRate setMinTermLength setMinAuctionLength deploy checkLoanContract 
+Ownable inherits from Context ERC20Detailed inherits from IERC20 LoanContract inherits from ILoanContract LoanContractDispatcher inherits from ILoanContractDispatcher LoanContractDispatcher inherits from Ownable 
+onlyOwner onlyFrozen onlyAdmin onlyCreated onlyActive onlyRepaid onlyFailedToFund onlyProxy onlyOriginator onlyKYC onlyAdmin 
+OwnershipTransferred LoanContractCreated MinAmountUpdated MaxAmountUpdated MinInterestRateUpdated MaxInterestRateUpdated MinTermLengthUpdated MinAuctionLengthUpdated OperatorFeeUpdated AuthAddressUpdated DaiProxyAddressUpdated SwapFactoryAddressUpdated AdministratorUpdated AddTokenToAcceptedList RemoveTokenFromAcceptedList LoanDispatcherCreated Transfer Approval SwapDeposit SwapContract LoanCreated MinimumFundingReached FullyFunded Funded LoanRepaid RepaymentWithdrawn RefundWithdrawn FullyRefunded FailedToFund LoanFundsWithdrawn LoanDefaulted AuctionSuccessful FundsUnlockedWithdrawn FullyFundsUnlockedWithdrawn LoanFundsUnlocked OperatorWithdrawn LoanContractCreated MinAmountUpdated MaxAmountUpdated MinInterestRateUpdated MaxInterestRateUpdated MinTermLengthUpdated MinAuctionLengthUpdated OperatorFeeUpdated AuthAddressUpdated DaiProxyAddressUpdated SwapFactoryAddressUpdated AdministratorUpdated AddTokenToAcceptedList RemoveTokenFromAcceptedList LoanDispatcherCreated 
+_owner is equal to _msgSender
+_owner is equal to 
+_owner is equal to newOwner
+_name is equal to name
+_symbol is equal to symbol
+_decimals is equal to decimals
+If a corresponds to 0
+
+
+
+tokenAddress is equal to _tokenAddress
+proxyContractAddress is equal to _proxyAddress
+proxy is equal to IDAIProxy
+originator is equal to _originator
+administrator is equal to _administrator
+swapFactory is equal to _swapFactory
+minInterestRate is equal to _minInterestRate
+maxInterestRate is equal to _maxInterestRate
+minAmount is equal to _minAmount
+maxAmount is equal to _maxAmount
+auctionLength is equal to _auctionLength
+auctionStartTimestamp is equal to block timestamp
+auctionEndTimestamp is equal to auctionStartTimestamp plus auctionLength
+termLength is equal to _termLength
+loanWithdrawnAmount is equal to 0
+operatorFee is equal to _operatorFee
+
+If auctionBalance is less then minAmount
+lenderPosition lender bidAmount is equal to lenderPosition lender bidAmount add
+auctionBalance is equal to auctionBalance add
+lastFundedTimestamp is equal to block timestamp
+If auctionBalance is greater or equal to minAmount Invalid symbol 
+minimumReached is equal to True
+If auctionBalance corresponds to maxAmount
+operatorBalance is equal to 0
+msg sender withdrawn is equal to True
+loanWithdrawnAmount is equal to loanWithdrawnAmount add
+If loanWithdrawnAmount corresponds to auctionBalance add
+msg sender withdrawn is equal to True
+loanWithdrawnAmount is equal to loanWithdrawnAmount add
+If loanWithdrawnAmount corresponds to auctionBalance
+msg sender withdrawn is equal to True
+loanWithdrawnAmount is equal to loanWithdrawnAmount add
+If loanWithdrawnAmount corresponds to borrowerDebt
+msg sender withdrawn is equal to True
+loanWithdrawnAmount is equal to loanWithdrawnAmount add
+If loanWithdrawnAmount corresponds to borrowerDebt
+loanWithdrawn is equal to True
+If block timestamp is less or equal to auctionEndTimestamp Invalid symbol 
+If isAuctionExpired Invalid symbol currentState corresponds to LoanState CREATED
+If not minimumReached
+If isDefaulted Invalid symbol currentState corresponds to LoanState ACTIVE
+If currentState corresponds to LoanState CREATED
+currentState is equal to state
+borrowerDebt is equal to calculateValueWithInterest
+operatorBalance is equal to 
+auctionBalance is equal to auctionBalance minus operatorBalance
+If block timestamp is less then auctionEndTimestamp
+termEndTimestamp is equal to block timestamp add
+termEndTimestamp is equal to auctionEndTimestamp add
+auth is equal to authAddress
+DAIProxyAddress is equal to _DAIProxyAddress
+swapFactory is equal to _swapFactory
+minAmount is equal to 1e18
+maxAmount is equal to 2500000e18
+maxInterestRate is equal to 20e18
+minInterestRate is equal to 0e18
+operatorFee is equal to 2e18
+minAuctionLength is equal to 604800
+minTermLength is equal to 2592000
+ is equal to True
+ is equal to False
+auth is equal to authAddress
+DAIProxyAddress is equal to daiProxyAddress
+swapFactory is equal to _swapFactory
+administrator is equal to admin
+operatorFee is equal to newFee
+minAmount is equal to requestedMinAmount
+maxAmount is equal to requestedMaxAmount
+minInterestRate is equal to requestedMinInterestRate
+maxInterestRate is equal to requestedMaxInterestRate
+minTermLength is equal to requestedMinTermLength
+minAuctionLength is equal to requestedMinAuctionLength
+ is equal to True

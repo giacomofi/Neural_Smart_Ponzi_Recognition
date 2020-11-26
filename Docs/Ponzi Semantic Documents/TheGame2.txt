@@ -1,0 +1,36 @@
+TheGame 
+first_player regeneration jackpot collectedFee playersAddresses playersAmounts totalplayers lastPlayerPaid mainPlayer round amountAlreadyPaidBack amountInvested SIX_HOURS amount 
+TheGame contribute_toTheGame  restart new_mainPlayer collectFee newfirst_player 
+mainPlayer is equal to msg sender
+first_player is equal to msg sender
+regeneration is equal to block timestamp
+amountAlreadyPaidBack is equal to 0
+amountInvested is equal to 0
+totalplayers is equal to 0
+If amount is less then 1 divided by 2 ether
+If amount is greater then 25 ether
+amount is equal to 25 ether
+If regeneration plus SIX_HOURS is less then block timestamp
+If totalplayers corresponds to 1
+jackpot is equal to 0
+first_player is equal to msg sender
+regeneration is equal to block timestamp
+totalplayers increments of 1
+amountInvested increments of amount
+jackpot increments of amount
+collectedFee increments of amount multiplied by 3 divided by 100
+round increments of 1
+regeneration is equal to block timestamp
+totalplayers increments of 1
+amountInvested increments of amount
+jackpot increments of 
+collectedFee increments of amount multiplied by 3 divided by 100
+While  is less then  Invalid symbol 
+amountAlreadyPaidBack increments of 
+lastPlayerPaid increments of 1
+If msg sender corresponds to mainPlayer
+If msg sender corresponds to mainPlayer
+mainPlayer is equal to new_mainPlayer
+If msg sender corresponds to mainPlayer
+If msg sender corresponds to first_player
+first_player is equal to newfirst_player

@@ -1,0 +1,44 @@
+solidity ^0.5.0 
+SafeMath Address ReentrancyGuard Context Ownable IERC1820Registry IERC777Recipient IERC777 ISmartexOracle SmartexExchange 
+SafeMath Address 
+OrderStruct 
+OrderStruct has exists
+OrderStruct has owner
+OrderStruct has amount
+c c c c codehash accountHash _notEntered _owner msgSender authorizedCallers orders ERC1820_REGISTRY _wallet _secondWallet _currentOrderID _orderUSDMinAmount _token _oracle TOKENS_RECIPIENT_INTERFACE_HASH order order remaining order buyer result weiAmount weiToSend remaining change fee result ownerPayment walletsPayment firstWalletPayment secondWalletPayment 
+add sub sub mul div div mod mod isContract toPayable sendValue _msgSender _msgData owner isOwner renounceOwnership transferOwnership _transferOwnership setManager getManager setInterfaceImplementer getInterfaceImplementer interfaceHash updateERC165Cache implementsERC165Interface implementsERC165InterfaceNoCache tokensReceived name symbol granularity decimals totalSupply balanceOf send transfer mint burn isOperatorFor authorizeOperator revokeOperator defaultOperators operatorSend operatorBurn currentETHPrice lastETHPriceUpdate currentTokenPrice lastTokenPriceUpdate setETHPrice updateTokenPrice setOracle oracle token wallet secondWallet setOrderUSDMinAmount setAuthorizedCaller tokensReceived cancelOrder buyOrder _splitAndSendWei getWeiAmount getTokenAmount getOrderTokenMinAmount _isDust 
+Ownable inherits from Context SmartexExchange inherits from Ownable SmartexExchange inherits from ReentrancyGuard 
+nonReentrant onlyOwner onlyAuthorizedCaller 
+OwnershipTransferred InterfaceImplementerSet ManagerChanged Sent Minted Burned AuthorizedOperator RevokedOperator ETHPriceUpdated TokenPriceUpdated Order Cancel Close Trade 
+If a corresponds to 0
+_notEntered is equal to True
+_notEntered is equal to False
+_notEntered is equal to True
+_owner is equal to msgSender
+_owner is equal to 
+_owner is equal to newOwner
+_wallet is equal to wallet
+_secondWallet is equal to secondWallet
+_token is equal to token
+_orderUSDMinAmount is equal to 20 multiplied by 
+_oracle is equal to oracle
+_orderUSDMinAmount is equal to amount
+ is equal to allowed
+ is equal to order
+order amount is equal to 0
+
+order amount is equal to 0
+If tokens is greater or equal to order amount
+tokens is equal to order amount
+order amount is equal to 0
+order amount is equal to order amount sub
+
+order amount is equal to 0
+If remaining is greater then 0
+weiToSend is equal to weiToSend sub
+If order owner corresponds to owner
+result is equal to 
+result is equal to 
+If change is greater then 0
+result is equal to buyer send
+If walletsPayment is greater then 0

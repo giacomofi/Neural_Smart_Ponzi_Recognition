@@ -1,0 +1,18 @@
+solidity ^0.4.8 
+Token StandardToken HumanStandardToken 
+totalSupply balances allowed name decimals symbol version 
+balanceOf transfer transferFrom approve allowance transfer transferFrom balanceOf approve allowance HumanStandardToken approveAndCall 
+StandardToken inherits from Token HumanStandardToken inherits from StandardToken 
+Transfer Approval 
+ decreases of _value
+ increments of _value
+ increments of _value
+ decreases of _value
+ decreases of _value
+ is equal to _value
+ is equal to 21000000000000000
+totalSupply is equal to 21000000000000000
+name is equal to POWER
+decimals is equal to 8
+symbol is equal to POWER
+ is equal to _value

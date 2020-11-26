@@ -1,0 +1,26 @@
+solidity >=0.4.21<0.6.0 
+MultiSigInterface MultiSigTools TrustListInterface TrustListTools TransferableToken TokenClaimer SafeMath ERC20DepositPool ERC20DepositPoolFactory 
+SafeMath 
+multisig_contract hash old list token balance erc20_token all_deposits locked_deposits token old_balance new_balance dp 
+update_and_check_reach_majority is_signer transfer_multisig is_trusted balanceOf transfer transferFrom _claimStdTokens safeAdd safeSub safeMul safeDiv deposit transfer withdraw lock unlock outside_transfer internal_transfer lockedOf balanceOf createERC20DepositPool 
+ERC20DepositPool inherits from TrustListTools 
+only_signer is_majority_sig is_trusted 
+TransferMultiSig ClaimedTokens DepositPoolTransfer OutsideTransfer InternalTransfer DepositERC20 WithdrawERC20 LockERC20 UnlockERC20 NewERC20DepositPool 
+multisig_contract is equal to MultiSigInterface
+multisig_contract is equal to MultiSigInterface
+list is equal to TrustListInterface
+If _token corresponds to 
+c is equal to a plus b
+c is equal to a minus b
+c is equal to a multiplied by b
+c is equal to a divided by b
+erc20_token is equal to _token
+ is equal to msg sender safeAdd
+ is equal to msg sender safeSub
+ is equal to all_deposits _to safeAdd
+ is equal to msg sender safeSub
+ is equal to locked_deposits addr safeAdd
+ is equal to locked_deposits addr safeSub
+ is equal to all_deposits from safeSub
+ is equal to all_deposits from safeSub
+ is equal to all_deposits to safeAdd

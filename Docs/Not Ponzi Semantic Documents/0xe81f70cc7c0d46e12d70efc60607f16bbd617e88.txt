@@ -1,0 +1,12 @@
+solidity ^0.6.0 experimental ABIEncoderV2 
+CTokenInterface GemJoinInterface ConnectorsInterface IndexInterface Helpers InstaMapping 
+connectors instaIndex version cTokenMapping gemJoinMapping i cErc20 erc20 i gemJoin ilk name ethAddress cEth 
+underlying ilk chief master addCtknMapping addGemJoinMapping 
+InstaMapping inherits from Helpers 
+isChief 
+LogAddCTokenMapping LogAddGemJoinMapping 
+i is less then cTkn length
+ is equal to cErc20
+i is less then gemJoins length
+ is equal to gemJoin
+ is equal to cEth

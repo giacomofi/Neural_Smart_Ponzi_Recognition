@@ -1,0 +1,6 @@
+solidity ^0.5.0 
+StringHelpers 
+b i 
+toString 
+i is less then 20
+ is equal to 

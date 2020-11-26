@@ -1,0 +1,20 @@
+solidity ^0.4.23 
+SafeMath BasicToken StandardToken MONETToken 
+SafeMath 
+c c c name symbol decimals _totalSupply _balances _allowances allowanceValue name symbol decimals 
+mul div sub add totalSupply balanceOf transfer transferFrom approve allowance increaseApproval decreaseApproval 
+StandardToken inherits from BasicToken MONETToken inherits from StandardToken 
+Transfer Approval 
+If a corresponds to 0
+ is equal to msg sender sub
+ is equal to _balances to add
+ is equal to _balances from sub
+ is equal to _balances to add
+ is equal to _allowances from msg sender sub
+ is equal to value
+ is equal to msg sender agent add
+If value is greater then allowanceValue
+ is equal to 0
+ is equal to allowanceValue sub
+_totalSupply is equal to 10 multiplied by  multiplied by 
+ is equal to _totalSupply

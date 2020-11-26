@@ -1,0 +1,23 @@
+solidity ^0.5.1 
+SimpleOracle 
+sensors_status last_sensor_id last_sensor_status x r s c 
+receiveResult 
+last_sensor_id is equal to 0
+last_sensor_id increments of c multiplied by 1000000
+x is equal to 
+r is equal to x divided by 16
+s is equal to x Invalid symbol 16
+c is equal to r multiplied by 10 plus s
+last_sensor_id increments of c multiplied by 10000
+x is equal to 
+r is equal to x divided by 16
+s is equal to x Invalid symbol 16
+c is equal to r multiplied by 10 plus s
+last_sensor_id increments of c multiplied by 100
+x is equal to 
+r is equal to x divided by 16
+s is equal to x Invalid symbol 16
+c is equal to r multiplied by 10 plus s
+last_sensor_id increments of c
+last_sensor_status is equal to 
+ is equal to last_sensor_status

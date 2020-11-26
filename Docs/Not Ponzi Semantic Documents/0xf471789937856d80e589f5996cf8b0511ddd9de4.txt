@@ -1,0 +1,93 @@
+solidity ^0.5.0 
+EllipticCurve 
+a b gx gy p n lowSmax t1 t2 r1 r2 q x y z0Inv LHS RHS t u v w t0 t1 u0 u1 u u2 u3 w t z0 z0 base2X base2Y base2Z i base2X base2Y base2Z z1 x1 x2 y1 y2 sInv P Px 
+inverseMod toProjectivePoint addAndReturnProjectivePoint toAffinePoint zeroProj zeroAffine isZeroCurve isOnCurve twiceProj addProj addProj2 add twice multiplyPowerBase2 multiplyScalar multipleGeneratorByScalar validateSignature 
+If u corresponds to 0 Invalid symbol  Invalid symbol 
+If u is greater then m
+u is equal to u Invalid symbol m
+While r2 is different from 0
+q is equal to r1 divided by r2
+ is equal to 
+If t1 is less then 0
+ is equal to addmod
+ is equal to mulmod
+ is equal to mulmod
+ is equal to add
+P is equal to toProjectivePoint
+z0Inv is equal to inverseMod
+x1 is equal to mulmod
+y1 is equal to mulmod
+If x0 corresponds to 0 Invalid symbol 
+If 0 corresponds to x Invalid symbol  Invalid symbol  Invalid symbol 
+If a is different from 0
+RHS is equal to addmod
+If b is different from 0
+RHS is equal to addmod
+
+u is equal to mulmod
+u is equal to mulmod
+v is equal to mulmod
+v is equal to mulmod
+v is equal to mulmod
+x0 is equal to mulmod
+t is equal to mulmod
+z0 is equal to mulmod
+z0 is equal to mulmod
+t is equal to addmod
+w is equal to mulmod
+x0 is equal to mulmod
+w is equal to addmod
+x0 is equal to addmod
+x0 is equal to mulmod
+y0 is equal to mulmod
+y0 is equal to mulmod
+y0 is equal to mulmod
+y1 is equal to addmod
+x1 is equal to mulmod
+z1 is equal to mulmod
+z1 is equal to mulmod
+
+t0 is equal to mulmod
+t1 is equal to mulmod
+u0 is equal to mulmod
+u1 is equal to mulmod
+If u0 corresponds to u1
+If t0 corresponds to t1
+ is equal to addProj2
+t is equal to addmod
+u is equal to addmod
+u2 is equal to mulmod
+w is equal to mulmod
+w is equal to mulmod
+u1 is equal to addmod
+u1 is equal to mulmod
+w is equal to addmod
+x2 is equal to mulmod
+u3 is equal to mulmod
+u0 is equal to mulmod
+u0 is equal to addmod
+t is equal to mulmod
+t0 is equal to mulmod
+y2 is equal to addmod
+z2 is equal to mulmod
+ is equal to addProj
+ is equal to twiceProj
+i is less then exp
+ is equal to twiceProj
+If scalar corresponds to 0
+x1 is equal to x0
+y1 is equal to y0
+If scalar Invalid symbol 2 corresponds to 0
+x1 is equal to y1 is equal to 0
+scalar is equal to scalar Invalid symbol 1
+While scalar is greater then 0
+ is equal to twiceProj
+If scalar Invalid symbol 2 corresponds to 1
+ is equal to addProj
+scalar is equal to scalar Invalid symbol 1
+If  corresponds to 0 Invalid symbol  Invalid symbol 
+If 
+ is equal to multiplyScalar
+ is equal to multiplyScalar
+If  corresponds to 0
+Px is equal to mulmod

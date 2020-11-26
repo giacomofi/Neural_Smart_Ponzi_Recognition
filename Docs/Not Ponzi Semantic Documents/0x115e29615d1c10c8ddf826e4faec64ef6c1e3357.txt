@@ -1,0 +1,28 @@
+solidity ^0.4.18 
+SafeMath ERC20Interface ApproveAndCallFallBack Owned CapitalCoin 
+SafeMath 
+owner newOwner symbol name decimals _totalSupply balances allowed 
+add sub mul div totalSupply balanceOf allowance transfer approve transferFrom receiveApproval Owned transferOwnership acceptOwnership CapitalCoin totalSupply balanceOf transfer approve transferFrom allowance approveAndCall  transferAnyERC20Token 
+CapitalCoin inherits from ERC20Interface CapitalCoin inherits from Owned 
+onlyOwner 
+Transfer Approval OwnershipTransferred 
+c is equal to a plus b
+c is equal to a minus b
+c is equal to a multiplied by b
+c is equal to a divided by b
+owner is equal to msg sender
+newOwner is equal to _newOwner
+owner is equal to newOwner
+newOwner is equal to 
+symbol is equal to CPTL
+name is equal to Capital Coin
+decimals is equal to 8
+_totalSupply is equal to 5000000000 multiplied by 10 Invalid symbol 
+ is equal to _totalSupply
+ is equal to msg sender sub
+ is equal to balances to add
+ is equal to tokens
+ is equal to balances from sub
+ is equal to allowed from msg sender sub
+ is equal to balances to add
+ is equal to tokens

@@ -1,0 +1,13 @@
+solidity ^0.4.26 
+SafeMath Token StandardToken WPT 
+c c c totalSupply balanceOf allowed name decimals symbol totalSupply 
+safeMul safeDiv safeSub safeAdd balanceOf transfer transferFrom approve allowance transfer transferFrom balanceOf approve allowance  
+StandardToken inherits from Token WPT inherits from StandardToken 
+Transfer Approval 
+ is equal to SafeMath safeSub
+ is equal to SafeMath safeAdd
+ is equal to SafeMath safeAdd
+ is equal to SafeMath safeSub
+ is equal to SafeMath safeSub
+ is equal to _value
+ is equal to totalSupply

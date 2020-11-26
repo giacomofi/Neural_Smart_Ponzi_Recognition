@@ -1,0 +1,16 @@
+WealthRedistributionProject 
+BenefactorArray 
+BenefactorArray has etherAddress
+BenefactorArray has amount
+benefactor balance totalBalance transactionAmount k total_inv 
+ enter 
+If msg value is different from 1 ether
+benefactor length increments of 1
+benefactor total_inv etherAddress is equal to msg sender
+benefactor total_inv amount is equal to msg value
+balance increments of msg value
+While k is less then total_inv
+transactionAmount is equal to msg value multiplied by benefactor k amount divided by totalBalance
+balance decreases of transactionAmount
+k increments of 1
+totalBalance increments of msg value

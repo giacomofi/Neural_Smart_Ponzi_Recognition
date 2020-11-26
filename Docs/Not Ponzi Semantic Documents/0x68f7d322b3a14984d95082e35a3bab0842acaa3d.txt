@@ -1,0 +1,15 @@
+solidity ^0.5.2 solidity ^0.5.2 solidity ^0.5.0 solidity ^0.5.0 
+Roles Ownable IWhitelist Blacklist 
+Roles 
+Role 
+Role has bearer
+_owner _blacklisted 
+add remove has owner isOwner renounceOwnership transferOwnership _transferOwnership isWhitelisted removeBlacklisted isWhitelisted 
+Blacklist inherits from IWhitelist Blacklist inherits from Ownable 
+onlyOwner 
+OwnershipTransferred BlacklistAdded BlacklistRemoved 
+ is equal to True
+ is equal to False
+_owner is equal to msg sender
+_owner is equal to 
+_owner is equal to newOwner

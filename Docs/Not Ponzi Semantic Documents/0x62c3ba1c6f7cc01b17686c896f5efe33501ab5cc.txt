@@ -1,0 +1,10 @@
+solidity ^0.5.2 solidity 0.5.7 solidity 0.5.7 
+SafeMath IOracle TwoAssetRatioOracle 
+SafeMath 
+c c c c baseOracleInstance quoteOracleInstance dataDescription scalingFactor baseOracleValue quoteOracleValue 
+mul div sub add mod read read 
+TwoAssetRatioOracle inherits from IOracle 
+If a corresponds to 0
+baseOracleInstance is equal to _baseOracleInstance
+quoteOracleInstance is equal to _quoteOracleInstance
+dataDescription is equal to _dataDescription

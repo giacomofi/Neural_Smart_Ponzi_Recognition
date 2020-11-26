@@ -1,0 +1,24 @@
+solidity ^0.5.10 
+IERC20 SpaceWave 
+_totalSupply _decimals _owner _paused _balanceOf _allowance f t t1 f t a t1 b t b1 t1 b t b1 t1 
+name symbol decimals totalSupply balanceOf transfer transferFrom approve allowance name symbol decimals totalSupply pause resume isPaused balanceOf allowance transfer approve transferFrom mint burn 
+SpaceWave inherits from IERC20 
+byOwner whenNotPaused 
+Transfer Approval 
+_paused is equal to True
+_paused is equal to False
+_totalSupply is equal to 1000000000000000000000000000
+_decimals is equal to 18
+_paused is equal to False
+ is equal to _totalSupply
+_owner is equal to msg sender
+ is equal to f minus value
+ is equal to t1
+ is equal to value
+ is equal to f minus value
+ is equal to t1
+ is equal to a minus value
+ is equal to b1
+_totalSupply is equal to t1
+ is equal to b1
+_totalSupply is equal to t1

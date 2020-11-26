@@ -1,0 +1,4 @@
+solidity ^0.4.6 
+SafeMathLibExt 
+c c c 
+times divides minus plus 

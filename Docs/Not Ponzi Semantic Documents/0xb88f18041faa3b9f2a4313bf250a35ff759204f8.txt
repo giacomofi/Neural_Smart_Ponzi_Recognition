@@ -1,0 +1,33 @@
+solidity >=0.4.21<0.6.0 
+MultiSigInterface MultiSigTools AddressArray SafeMath MerkleProof ERC20TokenBankInterface MerkleDrop 
+SafeMath 
+multisig_contract hash old i i index index computedHash i proofElement info token_bank total_dropped merkle_root paused claim_status leaf ret 
+update_and_check_reach_majority is_signer transfer_multisig exists index_of remove replace safeAdd safeSub safeMul safeDiv verify balance token issue pause unpause claim 
+MerkleDrop inherits from MultiSigTools 
+only_signer is_majority_sig 
+TransferMultiSig DropToken 
+multisig_contract is equal to MultiSigInterface
+multisig_contract is equal to MultiSigInterface
+i is less then self length
+If  corresponds to addr
+i is less then self length
+If  corresponds to addr
+ is equal to 
+ is equal to new_addr
+c is equal to a plus b
+c is equal to a minus b
+c is equal to a multiplied by b
+c is equal to a divided by b
+i is less then proof length
+If computedHash is less or equal to proofElement
+computedHash is equal to keccak256
+computedHash is equal to keccak256
+info is equal to _info
+token_bank is equal to ERC20TokenBankInterface
+total_dropped is equal to 0
+merkle_root is equal to _merkle_root
+paused is equal to False
+paused is equal to True
+paused is equal to False
+ is equal to True
+total_dropped is equal to total_dropped safeAdd

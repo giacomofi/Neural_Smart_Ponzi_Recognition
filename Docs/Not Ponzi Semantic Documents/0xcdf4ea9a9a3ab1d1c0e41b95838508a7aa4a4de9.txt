@@ -1,0 +1,16 @@
+solidity ^0.5.0 solidity ^0.5.0 solidity 0.5.12 solidity 0.5.12 solidity 0.5.12 solidity ^0.5.12 solidity 0.5.12 
+Context Ownable ISwapAndDeposit ISwapAndDepositFactory IAuthorization CloneFactory SwapAndDepositFactory 
+_owner targetBytes targetBytes libraryAddress authAddress uniswapAddress depositAddress proxyAddress 
+_msgSender _msgData owner isOwner renounceOwnership transferOwnership _transferOwnership init isDestroyed swapAndDeposit setAuthAddress setUniswapAddress setLibraryAddress deploy getKycAddress getDepositAddress hasDeposited isKYCConfirmed setKYCRegistry setDepositRegistry createClone isClone setAuthAddress setUniswapAddress setLibraryAddress deploy isCloned 
+Ownable inherits from Context SwapAndDepositFactory inherits from ISwapAndDepositFactory SwapAndDepositFactory inherits from CloneFactory SwapAndDepositFactory inherits from Ownable 
+onlyOwner 
+OwnershipTransferred SwapDeposit SwapContract NewSwapContract 
+_owner is equal to _msgSender
+_owner is equal to 
+_owner is equal to newOwner
+libraryAddress is equal to _libraryAddress
+authAddress is equal to _authAddress
+uniswapAddress is equal to _uniswapAddress
+authAddress is equal to _authAddress
+uniswapAddress is equal to _uniswapAddress
+libraryAddress is equal to _libraryAddress

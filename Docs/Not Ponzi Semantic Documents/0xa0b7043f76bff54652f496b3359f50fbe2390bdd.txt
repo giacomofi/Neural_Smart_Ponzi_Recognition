@@ -1,0 +1,41 @@
+solidity ^0.5.1 
+SafeMath ERC223Interface ERC223ReceivingContract Ownership Freezable StandardToken CNEXToken 
+SafeMath 
+c c c totalSupply owner oldOwner emergencyFreeze frozen name symbol decimals totalSupply currentSupply balances allowed _data length oldAllowance _data _data balBeforeTransfer receiver balAfterTransfer icoFunds consumerProtectionFund ecoSystemDevelopmentAndOperationFund teamAndFounderFund consumerProtectionFundAllocated ecoSystemDevelopmentAndOperationFundAllocated teamAndFounderFundAllocated tokenDeploymentTime _data 
+mul div sub add balanceOf transfer transfer tokenFallback transferOwnership freezeAccount emergencyFreezeAllAccounts transfer transfer isContract approve increaseApproval decreaseApproval transferFrom transferFrom burn balanceOf allowance transferAnyERC20Token _transfer223 allocateConsumerProtectionFund allocateEcoSystemDevelopmentAndOperationFund allocateTeamAndFounderFund _mint 
+Freezable inherits from Ownership StandardToken inherits from ERC223Interface StandardToken inherits from Freezable CNEXToken inherits from StandardToken 
+onlyOwner unfreezed noEmergencyFreeze 
+Transfer LogOwnershipTransferred LogFreezed LogEmergencyFreezed Approval 
+If a corresponds to 0
+owner is equal to msg sender
+owner is equal to _newOwner
+ is equal to _freeze
+emergencyFreeze is equal to _freeze
+name is equal to Cryptonity Exchange
+symbol is equal to CNEX
+decimals is equal to 8
+totalSupply is equal to 400000000 multiplied by 
+ is equal to _value
+ is equal to msg sender _spender add
+If _subtractedValue is greater then oldAllowance
+ is equal to 0
+ is equal to oldAllowance sub
+ is equal to allowed _from msg sender sub
+ is equal to allowed _from msg sender sub
+ is equal to msg sender sub
+totalSupply is equal to totalSupply sub
+currentSupply is equal to currentSupply sub
+ is equal to balances _from sub
+ is equal to balances _to add
+
+owner is equal to msg sender
+icoFunds is equal to 200000000 multiplied by 
+consumerProtectionFund is equal to 60000000 multiplied by 
+ecoSystemDevelopmentAndOperationFund is equal to 100000000 multiplied by 
+teamAndFounderFund is equal to 40000000 multiplied by 
+tokenDeploymentTime is equal to now
+consumerProtectionFundAllocated is equal to True
+ecoSystemDevelopmentAndOperationFundAllocated is equal to True
+teamAndFounderFundAllocated is equal to True
+ is equal to balances _to add
+currentSupply is equal to currentSupply add

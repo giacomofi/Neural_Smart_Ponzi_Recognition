@@ -1,0 +1,29 @@
+solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity 0.5.11 
+IERC20 SafeMath ERC20 Roles MinterRole ERC20Mintable ERC20Capped PauserRole Pausable ERC20Pausable SENSOToken 
+SafeMath Roles Roles 
+Role 
+Role has bearer
+c c c c _balances _allowances _totalSupply _minters _cap _pausers _paused symbol name tokenCapAmount closedSaleAmount tokensaleAmount totalFrozenTokens closedSaleWallet tokensaleWallet 
+totalSupply balanceOf transfer allowance approve transferFrom add sub mul div mod totalSupply balanceOf transfer allowance approve transferFrom increaseAllowance decreaseAllowance _transfer _mint _burn _approve _burnFrom add remove has isMinter addMinter renounceMinter _addMinter _removeMinter mint cap _mint isPauser addPauser renouncePauser _addPauser _removePauser paused pause unpause transfer transferFrom approve increaseAllowance decreaseAllowance mint _mint unfreezeTokens 
+ERC20 inherits from IERC20 ERC20Mintable inherits from ERC20 ERC20Mintable inherits from MinterRole ERC20Capped inherits from ERC20Mintable Pausable inherits from PauserRole ERC20Pausable inherits from ERC20 ERC20Pausable inherits from Pausable SENSOToken inherits from ERC20Capped SENSOToken inherits from ERC20Pausable 
+onlyMinter onlyPauser whenNotPaused whenPaused whenNotPaused 
+Transfer Approval MinterAdded MinterRemoved PauserAdded PauserRemoved Paused Unpaused 
+If a corresponds to 0
+ is equal to _balances sender sub
+ is equal to _balances recipient add
+_totalSupply is equal to _totalSupply add
+ is equal to _balances account add
+_totalSupply is equal to _totalSupply sub
+ is equal to _balances account sub
+ is equal to value
+ is equal to True
+ is equal to False
+_cap is equal to cap
+_paused is equal to False
+_paused is equal to True
+_paused is equal to False
+closedSaleWallet is equal to _closedSaleWallet
+tokensaleWallet is equal to _tokenSaleWallet
+If frozenValue is different from 0
+totalFrozenTokens is equal to totalFrozenTokens add
+totalFrozenTokens is equal to totalFrozenTokens sub

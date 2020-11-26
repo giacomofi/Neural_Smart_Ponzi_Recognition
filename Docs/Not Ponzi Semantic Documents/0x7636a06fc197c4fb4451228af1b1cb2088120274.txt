@@ -1,0 +1,5 @@
+solidity ^0.5.10 
+Trusti 
+data 
+getStore setStore 
+data is equal to _value

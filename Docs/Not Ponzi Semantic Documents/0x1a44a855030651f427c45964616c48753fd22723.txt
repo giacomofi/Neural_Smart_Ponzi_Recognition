@@ -1,0 +1,8 @@
+solidity 0.5.16 
+Coinosis 
+DIFFERENT_LENGTHS INSUFFICIENT_VALUE totalAmount i i 
+distribute 
+Paid 
+i is less then amounts length
+totalAmount increments of 
+i is less then recipients length

@@ -1,0 +1,34 @@
+solidity ^0.4.25 
+ERC20Interface OOOOOO GGGToken 
+owner symbol name decimals _totalSupply balances allowed amount c c c c 
+totalSupply balanceOf allowance transfer approve transferFrom transfer approve transferFrom burn allowance totalSupply balanceOf  WithdrawEth TransferERC20Token mul div sub add 
+GGGToken inherits from ERC20Interface GGGToken inherits from OOOOOO 
+restricted 
+Transfer Approval Burn 
+owner is equal to msg sender
+symbol is equal to GGG
+name is equal to Giant Platform
+decimals is equal to 8
+_totalSupply is equal to 2000000000000000000
+ is equal to _totalSupply
+If to corresponds to 0x0
+If _value is less or equal to 0
+If  is less then _value
+If  plus _value is less then 
+ is equal to sub
+ is equal to add
+If _value is less or equal to 0
+ is equal to _value
+If to corresponds to 0x0
+If _value is less or equal to 0
+If  is less then _value
+If  plus _value is less then 
+If _value is greater then 
+ is equal to sub
+ is equal to sub
+ is equal to add
+If  is less then _value
+If _value is less or equal to 0
+ is equal to sub
+_totalSupply is equal to sub
+If a corresponds to 0

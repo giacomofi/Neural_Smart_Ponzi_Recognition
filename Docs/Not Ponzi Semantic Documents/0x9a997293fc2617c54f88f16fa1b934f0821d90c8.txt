@@ -1,0 +1,15 @@
+solidity ^0.6.4 
+Oasisosc 
+Multihash OSC 
+Multihash has hashFunction
+Multihash has size
+Multihash has digest
+OSC has owner_addr
+OSC has ontology
+OSC has query
+OSC has previous_v
+osc 
+getOntology getSPARQLQuery getOwner getPreviousVersion destroy 
+owner_allowed 
+StorageEvent DestroyEvent 
+osc is equal to OSC

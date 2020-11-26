@@ -1,0 +1,24 @@
+Highlander 
+Contestant 
+Contestant has etherAddress
+contestant PreviousTime CurrentTime active Current_balance owner idx 
+Highlander  enter kill setOwner CT PT bal 
+onlyowner 
+owner is equal to msg sender
+If msg value is different from 5 ether
+contestant length increments of 1
+contestant idx etherAddress is equal to msg sender
+Current_balance is equal to this balance
+CurrentTime is equal to now
+If idx corresponds to 0
+PreviousTime is equal to now
+If CurrentTime minus PreviousTime is greater then 1 days
+PreviousTime is equal to CurrentTime
+PreviousTime is equal to CurrentTime
+Current_balance is equal to this balance
+If msg sender corresponds to owner Invalid symbol 
+active is equal to 0
+owner is equal to _owner
+CurrTime is equal to CurrentTime
+PrevTime is equal to PreviousTime
+WebBal is equal to Current_balance

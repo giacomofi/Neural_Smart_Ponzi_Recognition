@@ -1,0 +1,13 @@
+plusOnePonzi 
+Payout 
+Payout has addr
+Payout has yield
+VALUE payouts payoutIndex payoutTotal entryIndex 
+PlusOnePonzi  
+If msg value is less then VALUE
+payouts length increments of 1
+payouts entryIndex addr is equal to msg sender
+payouts entryIndex yield is equal to 10 ether
+While payouts payoutIndex yield is less then this balance
+payoutTotal increments of payouts payoutIndex yield
+payoutIndex increments of 1

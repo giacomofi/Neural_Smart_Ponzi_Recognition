@@ -1,0 +1,26 @@
+solidity ^0.4.25 
+Token StandardToken HOSTOKEN 
+balances allowed totalSupply name decimals symbol version unitsOneEthCanBuy totalEthInWei fundsWallet amount 
+totalSupply balanceOf transfer transferFrom approve allowance transfer transferFrom balanceOf approve allowance HOSTOKEN  approveAndCall 
+StandardToken inherits from Token HOSTOKEN inherits from StandardToken 
+Transfer Approval 
+If  is greater or equal to _value Invalid symbol 
+ decreases of _value
+ increments of _value
+If  is greater or equal to _value Invalid symbol  Invalid symbol 
+ increments of _value
+ decreases of _value
+ decreases of _value
+ is equal to _value
+ is equal to 9200000000000000000000000
+totalSupply is equal to 9200000000000000000000000
+name is equal to HOST TOKEN
+decimals is equal to 18
+symbol is equal to HTT
+unitsOneEthCanBuy is equal to 23809
+fundsWallet is equal to msg sender
+totalEthInWei is equal to totalEthInWei plus msg value
+ is equal to  minus amount
+ is equal to  plus amount
+ is equal to _value
+If 

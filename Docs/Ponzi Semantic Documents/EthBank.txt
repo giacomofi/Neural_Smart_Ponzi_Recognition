@@ -1,0 +1,41 @@
+EthBank 
+InvestorArray 
+InvestorArray has etherAddress
+InvestorArray has amount
+depositors Total_Savers Fees Balance Total_Deposited Total_Paid_Out Interest_Rate Message owner amount minimal Times i payout nr 
+EthBank  enter Set_Interest_Rate 
+onlyowner 
+owner is equal to 0xEe462A6717f17C57C826F1ad9b4d3813495296C9
+If msg value is greater then 200 finney
+Total_Savers is equal to depositors length plus 1
+depositors length increments of 1
+ etherAddress is equal to msg sender
+ amount is equal to amount
+Fees is equal to amount multiplied by Interest_Rate divided by 100
+Total_Deposited increments of amount
+amount decreases of amount multiplied by Interest_Rate divided by 100
+Balance increments of amount
+If Fees is different from 0
+If Fees is less then minimal
+Total_Paid_Out increments of Fees
+i is less then Times
+If Fees is greater then 0
+Total_Paid_Out increments of Fees
+Fees decreases of minimal
+If Total_Deposited multiplied by 80 divided by 100 is less then Balance
+While Balance is greater then depositors nr amount multiplied by Interest_Rate divided by 100 Invalid symbol 
+payout is equal to depositors nr amount multiplied by Interest_Rate divided by 100
+Balance decreases of depositors nr amount multiplied by Interest_Rate divided by 100
+Total_Paid_Out increments of depositors nr amount multiplied by Interest_Rate divided by 100
+nr increments of 1
+Message is equal to The Full Interest has been paid to Depositors!
+If Total_Deposited multiplied by 60 divided by 100 is less then Balance
+While Balance is greater then depositors nr amount multiplied by Interest_Rate divided by 200 Invalid symbol 
+payout is equal to depositors nr amount multiplied by Interest_Rate divided by 200
+Balance decreases of depositors nr amount multiplied by Interest_Rate divided by 200
+Total_Paid_Out increments of depositors nr amount multiplied by Interest_Rate divided by 200
+nr increments of 1
+Message is equal to Funds are between 60% and 80%, so only Half Interest has been paid!
+Message is equal to Funds are below 60%, no interest payout until new Depositors join!
+Interest_Rate is equal to new_interest
+Message is equal to The Bank has changed it's Interest Rates!

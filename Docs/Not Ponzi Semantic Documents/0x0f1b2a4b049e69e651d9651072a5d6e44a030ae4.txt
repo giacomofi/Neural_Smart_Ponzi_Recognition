@@ -1,0 +1,176 @@
+solidity 0.5.11 
+EasyPool 
+UserStruct PoolUserStruct 
+UserStruct has isExist
+UserStruct has id
+UserStruct has referrerID
+UserStruct has referredUsers
+UserStruct has levelExpired
+PoolUserStruct has isExist
+PoolUserStruct has id
+PoolUserStruct has payment_received
+ownerWallet currUserID pool1currUserID pool2currUserID pool3currUserID pool4currUserID pool5currUserID pool6currUserID pool7currUserID pool8currUserID pool9currUserID pool10currUserID pool11currUserID pool12currUserID pool1activeUserID pool2activeUserID pool3activeUserID pool4activeUserID pool5activeUserID pool6activeUserID pool7activeUserID pool8activeUserID pool9activeUserID pool10activeUserID pool11activeUserID pool12activeUserID unlimited_level_price users userList pool1users pool1userList pool2users pool2userList pool3users pool3userList pool4users pool4userList pool5users pool5userList pool6users pool6userList pool7users pool7userList pool8users pool8userList pool9users pool9userList pool10users pool10userList pool11users pool11userList pool12users pool12userList LEVEL_PRICE REGESTRATION_FESS pool1_price pool2_price pool3_price pool4_price pool5_price pool6_price pool7_price pool8_price pool9_price pool10_price pool11_price pool12_price requests userStruct pooluserStruct userStruct referer sent level_price_local userStruct pool1Currentuser sent userStruct pool2Currentuser sent userStruct pool3Currentuser sent userStruct pool4Currentuser sent userStruct pool5Currentuser sent userStruct pool6Currentuser sent userStruct pool7Currentuser sent userStruct pool8Currentuser sent userStruct pool9Currentuser sent userStruct pool10Currentuser sent userStruct pool11Currentuser sent userStruct pool12Currentuser sent 
+regUser payReferral buyPool1 buyPool2 buyPool3 buyPool4 buyPool5 buyPool6 buyPool7 buyPool8 buyPool9 buyPool10 buyPool11 buyPool12 getEthBalance sendBalance 
+regLevelEvent getMoneyForLevelEvent regPoolEntry getPoolPayment 
+ownerWallet is equal to msg sender
+ is equal to 0.03 ether
+userStruct is equal to UserStruct
+ is equal to userStruct
+ is equal to ownerWallet
+pooluserStruct is equal to PoolUserStruct
+pool1activeUserID is equal to pool1currUserID
+ is equal to pooluserStruct
+ is equal to msg sender
+pooluserStruct is equal to PoolUserStruct
+pool2activeUserID is equal to pool2currUserID
+ is equal to pooluserStruct
+ is equal to msg sender
+pooluserStruct is equal to PoolUserStruct
+pool3activeUserID is equal to pool3currUserID
+ is equal to pooluserStruct
+ is equal to msg sender
+pooluserStruct is equal to PoolUserStruct
+pool4activeUserID is equal to pool4currUserID
+ is equal to pooluserStruct
+ is equal to msg sender
+pooluserStruct is equal to PoolUserStruct
+pool5activeUserID is equal to pool5currUserID
+ is equal to pooluserStruct
+ is equal to msg sender
+pooluserStruct is equal to PoolUserStruct
+pool6activeUserID is equal to pool6currUserID
+ is equal to pooluserStruct
+ is equal to msg sender
+pooluserStruct is equal to PoolUserStruct
+pool7activeUserID is equal to pool7currUserID
+ is equal to pooluserStruct
+ is equal to msg sender
+pooluserStruct is equal to PoolUserStruct
+pool8activeUserID is equal to pool8currUserID
+ is equal to pooluserStruct
+ is equal to msg sender
+pooluserStruct is equal to PoolUserStruct
+pool9activeUserID is equal to pool9currUserID
+ is equal to pooluserStruct
+ is equal to msg sender
+pooluserStruct is equal to PoolUserStruct
+pool10activeUserID is equal to pool10currUserID
+ is equal to pooluserStruct
+ is equal to msg sender
+pooluserStruct is equal to PoolUserStruct
+pool11activeUserID is equal to pool11currUserID
+ is equal to pooluserStruct
+ is equal to msg sender
+pooluserStruct is equal to PoolUserStruct
+pool12activeUserID is equal to pool12currUserID
+ is equal to pooluserStruct
+ is equal to msg sender
+userStruct is equal to UserStruct
+ is equal to userStruct
+ is equal to msg sender
+users msg sender referrerID referredUsers is equal to users msg sender referrerID referredUsers plus 1
+referer is equal to 
+If _level is greater then 1
+level_price_local is equal to unlimited_level_price
+level_price_local is equal to 
+sent is equal to 
+
+If _level is less then 1 Invalid symbol 
+If not sent
+userStruct is equal to PoolUserStruct
+ is equal to userStruct
+ is equal to msg sender
+sent is equal to 
+
+pool1users pool1Currentuser payment_received increments of 1
+If pool1users pool1Currentuser payment_received is greater or equal to 2
+pool1activeUserID increments of 1
+userStruct is equal to PoolUserStruct
+ is equal to userStruct
+ is equal to msg sender
+sent is equal to 
+
+pool2users pool2Currentuser payment_received increments of 1
+If pool2users pool2Currentuser payment_received is greater or equal to 2
+pool2activeUserID increments of 1
+userStruct is equal to PoolUserStruct
+ is equal to userStruct
+ is equal to msg sender
+sent is equal to 
+
+pool3users pool3Currentuser payment_received increments of 1
+If pool3users pool3Currentuser payment_received is greater or equal to 2
+pool3activeUserID increments of 1
+userStruct is equal to PoolUserStruct
+ is equal to userStruct
+ is equal to msg sender
+sent is equal to 
+
+pool4users pool4Currentuser payment_received increments of 1
+If pool4users pool4Currentuser payment_received is greater or equal to 2
+pool4activeUserID increments of 1
+userStruct is equal to PoolUserStruct
+ is equal to userStruct
+ is equal to msg sender
+sent is equal to 
+
+pool5users pool5Currentuser payment_received increments of 1
+If pool5users pool5Currentuser payment_received is greater or equal to 2
+pool5activeUserID increments of 1
+userStruct is equal to PoolUserStruct
+ is equal to userStruct
+ is equal to msg sender
+sent is equal to 
+
+pool6users pool6Currentuser payment_received increments of 1
+If pool6users pool6Currentuser payment_received is greater or equal to 2
+pool6activeUserID increments of 1
+userStruct is equal to PoolUserStruct
+ is equal to userStruct
+ is equal to msg sender
+sent is equal to 
+
+pool7users pool7Currentuser payment_received increments of 1
+If pool7users pool7Currentuser payment_received is greater or equal to 2
+pool7activeUserID increments of 1
+userStruct is equal to PoolUserStruct
+ is equal to userStruct
+ is equal to msg sender
+sent is equal to 
+
+pool8users pool8Currentuser payment_received increments of 1
+If pool8users pool8Currentuser payment_received is greater or equal to 2
+pool8activeUserID increments of 1
+userStruct is equal to PoolUserStruct
+ is equal to userStruct
+ is equal to msg sender
+sent is equal to 
+
+pool9users pool9Currentuser payment_received increments of 1
+If pool9users pool9Currentuser payment_received is greater or equal to 3
+pool9activeUserID increments of 1
+userStruct is equal to PoolUserStruct
+ is equal to userStruct
+ is equal to msg sender
+sent is equal to 
+
+pool10users pool10Currentuser payment_received increments of 1
+If pool10users pool10Currentuser payment_received is greater or equal to 3
+pool10activeUserID increments of 1
+userStruct is equal to PoolUserStruct
+ is equal to userStruct
+ is equal to msg sender
+sent is equal to 
+
+pool11users pool11Currentuser payment_received increments of 1
+If pool11users pool11Currentuser payment_received is greater or equal to 3
+pool11activeUserID increments of 1
+userStruct is equal to PoolUserStruct
+ is equal to userStruct
+ is equal to msg sender
+sent is equal to 
+
+pool12users pool12Currentuser payment_received increments of 1
+If pool12users pool12Currentuser payment_received is greater or equal to 3
+pool12activeUserID increments of 1
+If 

@@ -1,0 +1,41 @@
+solidity ^0.5.2 
+Ownable Secondary IERC20 SafeMath ERC20 ERC20Burnable Roles MinterRole ERC20Mintable ERC20Frozenable ERC20Detailed Escrow PullPayment PaymentSplitter ConditionalEscrow RefundEscrow UMCBlocks 
+SafeMath Roles SafeMath SafeMath 
+Role 
+Role has bearer
+_owner _primary c c c c _balances _allowed _totalSupply _minters _frozenAccount _name _symbol _decimals _deposits amount payment _escrow _totalShares _totalReleased _shares _released _payees i totalReceived payment _state _beneficiary supply initialSupply 
+owner isOwner renounceOwnership transferOwnership _transferOwnership primary transferPrimary transfer approve transferFrom totalSupply balanceOf allowance mul div sub add mod totalSupply balanceOf allowance transfer approve transferFrom increaseAllowance decreaseAllowance _transfer _mint _burn _approve _burnFrom burn burnFrom add remove has isMinter addMinter renounceMinter _addMinter _removeMinter mint frozenAccount freezeAccount _transfer name symbol decimals depositsOf deposit withdraw withdrawPayments payments _asyncTransfer  totalShares totalReleased shares released payee release _addPayee withdrawalAllowed withdraw state beneficiary deposit close enableRefunds beneficiaryWithdraw withdrawalAllowed 
+ERC20 inherits from IERC20 ERC20Burnable inherits from ERC20 ERC20Mintable inherits from ERC20 ERC20Mintable inherits from MinterRole ERC20Frozenable inherits from ERC20Burnable ERC20Frozenable inherits from ERC20Mintable ERC20Frozenable inherits from Ownable ERC20Detailed inherits from IERC20 Escrow inherits from Secondary ConditionalEscrow inherits from Escrow RefundEscrow inherits from ConditionalEscrow UMCBlocks inherits from ERC20Frozenable UMCBlocks inherits from ERC20Detailed 
+onlyOwner onlyPrimary onlyMinter 
+OwnershipTransferred PrimaryTransferred Transfer Approval MinterAdded MinterRemoved FrozenFunds Deposited Withdrawn PayeeAdded PaymentReleased PaymentReceived RefundsClosed RefundsEnabled 
+_owner is equal to msg sender
+_owner is equal to 
+_owner is equal to newOwner
+_primary is equal to msg sender
+_primary is equal to recipient
+If a corresponds to 0
+ is equal to _balances from sub
+ is equal to _balances to add
+_totalSupply is equal to _totalSupply add
+ is equal to _balances account add
+_totalSupply is equal to _totalSupply sub
+ is equal to _balances account sub
+ is equal to value
+ is equal to True
+ is equal to False
+ is equal to freeze
+_name is equal to name
+_symbol is equal to symbol
+_decimals is equal to decimals
+ is equal to _deposits payee add
+ is equal to 0
+_escrow is equal to 
+i is less then payees length
+ is equal to _released account add
+_totalReleased is equal to _totalReleased add
+ is equal to shares_
+_totalShares is equal to _totalShares add
+_beneficiary is equal to beneficiary
+_state is equal to State Active
+_state is equal to State Closed
+_state is equal to State Refunding

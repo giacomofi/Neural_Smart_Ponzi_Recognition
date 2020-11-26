@@ -1,0 +1,28 @@
+solidity ^0.4.25 
+SafeMath ERC20Interface ApproveAndCallFallBack Owned AKTToken 
+owner newOwner symbol name decimals _totalSupply balances allowed i 
+safeAdd safeSub safeMul safeDiv totalSupply balanceOf allowance transfer approve transferFrom receiveApproval transferOwnership acceptOwnership totalSupply balanceOf transfer approve transferFrom allowance approveAndCall multiTransfer transferAnyERC20Token 
+AKTToken inherits from ERC20Interface AKTToken inherits from Owned AKTToken inherits from SafeMath 
+onlyOwner 
+Transfer Approval OwnershipTransferred 
+c is equal to a plus b
+c is equal to a minus b
+c is equal to a multiplied by b
+c is equal to a divided by b
+owner is equal to msg sender
+newOwner is equal to _newOwner
+owner is equal to newOwner
+newOwner is equal to 
+symbol is equal to AKT
+name is equal to AKT Token
+decimals is equal to 18
+_totalSupply is equal to 210000000 multiplied by 
+ is equal to _totalSupply
+ is equal to safeSub
+ is equal to safeAdd
+ is equal to tokens
+ is equal to safeSub
+ is equal to safeSub
+ is equal to safeAdd
+ is equal to tokens
+i is less then recipients length

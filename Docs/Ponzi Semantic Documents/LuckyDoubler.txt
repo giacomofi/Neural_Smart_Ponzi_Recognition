@@ -1,0 +1,47 @@
+LuckyDoubler 
+User Entry 
+User has id
+User has deposits
+User has payoutsReceived
+Entry has entryAddress
+Entry has deposit
+Entry has payout
+Entry has paid
+owner balance fee multiplier users entries unpaidEntries dValue index theEntry payout fees FACTOR factor lastBlockNumber hashVal 
+LuckyDoubler  init join rand changeOwner changeMultiplier changeFee multiplierFactor currentFee totalEntries userStats entryDetails 
+onlyowner 
+owner is equal to msg sender
+If msg value is less then 1 ether
+If msg value is greater then 1 ether
+dValue is equal to 1 ether
+If msg sender id corresponds to 
+msg sender id is equal to msg sender
+msg sender deposits is equal to 0
+msg sender payoutsReceived is equal to 0
+balance increments of  divided by 100
+If balance is greater then theEntry payout
+theEntry paid is equal to True
+balance decreases of payout
+If index is less then unpaidEntries length minus 1
+ is equal to 
+If fees is greater then 0
+owner is equal to newOwner
+If multi is less then 110 Invalid symbol 
+multiplier is equal to multi
+If fee is greater then 5
+fee is equal to newFee
+factor is equal to multiplier
+info is equal to The current multiplier applied to all deposits. Min 110%, max 150%.
+feePercentage is equal to fee
+info is equal to The fee percentage applied to all deposits. It can change to speed payouts (max 5%).
+count is equal to entries length
+info is equal to The number of deposits.
+If users user id is different from 
+deposits is equal to users user deposits
+payouts is equal to users user payoutsReceived
+info is equal to Users stats: total deposits, payouts received.
+If index is less then entries length
+user is equal to entries index entryAddress
+payout is equal to entries index payout divided by 1 finney
+paid is equal to entries index paid
+info is equal to Entry info: user address, expected payout in Finneys, payout status.

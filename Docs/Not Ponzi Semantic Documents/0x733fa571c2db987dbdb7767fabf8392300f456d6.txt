@@ -1,0 +1,16 @@
+solidity 0.5.16 
+IERC20 EthToDaiTradeHelperV4 
+_DAI _DDAI _DUSDC 
+transfer approve balanceOf allowance tradeEthForDai tradeDaiForEth tradeDDaiForDUSDC tradeDUSDCForDDai _revertOnFailure 
+daiReceived is equal to _DAI balanceOf
+ok is equal to 
+If _DAI allowance is different from 
+ethReceived is equal to 
+ is equal to 
+If _DDAI allowance is different from 
+dUSDCReceived is equal to _DUSDC balanceOf
+ok is equal to 
+If _DUSDC allowance is different from 
+dDaiReceived is equal to _DDAI balanceOf
+ok is equal to 
+If not ok

@@ -1,0 +1,78 @@
+solidity ^0.4.26 
+UniswapFactoryInterface UniswapExchangeInterface ERC20Interface Ownable Rebalance 
+exchangeTemplate tokenCount name symbol decimals _owner UINT256_MAX token token fx token i 
+createExchange getExchange getToken getTokenWithId initializeFactory tokenAddress factoryAddress addLiquidity removeLiquidity getEthToTokenInputPrice getEthToTokenOutputPrice getTokenToEthInputPrice getTokenToEthOutputPrice ethToTokenSwapInput ethToTokenTransferInput ethToTokenSwapOutput ethToTokenTransferOutput tokenToEthSwapInput tokenToEthTransferInput tokenToEthSwapOutput tokenToEthTransferOutput tokenToTokenSwapInput tokenToTokenTransferInput tokenToTokenSwapOutput tokenToTokenTransferOutput tokenToExchangeSwapInput tokenToExchangeTransferInput tokenToExchangeSwapOutput tokenToExchangeTransferOutput transfer transferFrom approve allowance balanceOf totalSupply setup totalSupply balanceOf allowance transfer approve transferFrom name symbol decimals owner isOwner renounceOwnership transferOwnership _transferOwnership approveThisContract swap 
+Rebalance inherits from Ownable 
+onlyOwner 
+Transfer Approval OwnershipTransferred 
+_owner is equal to msg sender
+_owner is equal to 
+_owner is equal to newOwner
+token is equal to ERC20Interface
+token is equal to ERC20Interface
+token is equal to ERC20Interface
+token is equal to ERC20Interface
+token is equal to ERC20Interface
+token is equal to ERC20Interface
+token is equal to ERC20Interface
+token is equal to ERC20Interface
+token is equal to ERC20Interface
+token is equal to ERC20Interface
+token is equal to ERC20Interface
+token is equal to ERC20Interface
+token is equal to ERC20Interface
+token is equal to ERC20Interface
+token is equal to ERC20Interface
+token is equal to ERC20Interface
+token is equal to ERC20Interface
+token is equal to ERC20Interface
+token is equal to ERC20Interface
+token is equal to ERC20Interface
+token is equal to ERC20Interface
+token is equal to ERC20Interface
+token is equal to ERC20Interface
+token is equal to ERC20Interface
+token is equal to ERC20Interface
+token is equal to ERC20Interface
+token is equal to ERC20Interface
+token is equal to ERC20Interface
+token is equal to ERC20Interface
+token is equal to ERC20Interface
+token is equal to ERC20Interface
+token is equal to ERC20Interface
+token is equal to ERC20Interface
+token is equal to ERC20Interface
+token is equal to ERC20Interface
+token is equal to ERC20Interface
+token is equal to ERC20Interface
+token is equal to ERC20Interface
+token is equal to ERC20Interface
+token is equal to ERC20Interface
+token is equal to ERC20Interface
+token is equal to ERC20Interface
+token is equal to ERC20Interface
+token is equal to ERC20Interface
+token is equal to ERC20Interface
+token is equal to ERC20Interface
+token is equal to ERC20Interface
+token is equal to ERC20Interface
+token is equal to ERC20Interface
+token is equal to ERC20Interface
+token is equal to ERC20Interface
+token is equal to ERC20Interface
+token is equal to ERC20Interface
+token is equal to ERC20Interface
+token is equal to ERC20Interface
+token is equal to ERC20Interface
+token is equal to ERC20Interface
+token is equal to ERC20Interface
+i is less then e2tLen
+fx is equal to UniswapExchangeInterface
+i is equal to 0
+i is less then t2tLen
+token is equal to ERC20Interface
+fx is equal to UniswapExchangeInterface
+i is equal to 0
+i is less then t2eLen
+token is equal to ERC20Interface
+fx is equal to UniswapExchangeInterface

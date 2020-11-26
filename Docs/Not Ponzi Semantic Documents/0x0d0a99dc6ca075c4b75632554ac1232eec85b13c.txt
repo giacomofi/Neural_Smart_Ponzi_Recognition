@@ -1,0 +1,16 @@
+solidity ^0.5.7 
+SafeMath ERC20Standard NewToken 
+SafeMath 
+c c c c totalSupply name decimals symbol version balances allowed 
+mul div sub add mod balanceOf transfer transferFrom approve allowance 
+NewToken inherits from ERC20Standard 
+onlyPayloadSize 
+Transfer Approval 
+If a corresponds to 0
+ is equal to _value
+totalSupply is equal to 10000000000000000000000000000
+name is equal to LiMengJie Coin
+decimals is equal to 18
+symbol is equal to LMJ
+version is equal to 1.0
+ is equal to totalSupply

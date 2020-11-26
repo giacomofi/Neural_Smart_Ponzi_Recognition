@@ -1,0 +1,55 @@
+solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity >=0.4.21<0.6.0 
+SafeMath IERC20 ERC20Detailed ERC20 Roles PauserRole Pausable ERC20Pausable Ownable ERC20Interface KGCMortage 
+SafeMath Roles SafeMath 
+Role LoanTrans 
+Role has bearer
+LoanTrans has id
+LoanTrans has status
+LoanTrans has mortageKgcValue
+LoanTrans has duration
+LoanTrans has wantValue
+LoanTrans has interest
+LoanTrans has loanStartedAt
+LoanTrans has mortager
+LoanTrans has lender
+c c c c _name _symbol _decimals _balances _allowances _totalSupply _pausers _paused _owner buffPeriod totalTrans loanTrans kgcInstance from transId trans trans mortagerAddr trans lenderAddr trans trans trans 
+add sub mul div mod totalSupply balanceOf transfer allowance approve transferFrom name symbol decimals totalSupply balanceOf transfer allowance approve transferFrom increaseAllowance decreaseAllowance _transfer _mint _burn _approve _burnFrom add remove has isPauser addPauser renouncePauser _addPauser _removePauser paused pause unpause transfer transferFrom approve increaseAllowance decreaseAllowance owner isOwner renounceOwnership transferOwnership _transferOwnership totalSupply balanceOf allowance transfer approve transferFrom createLoanApplication lendTo paybackTo forceGetMortage cancelApplication getTrans 
+ERC20Detailed inherits from IERC20 ERC20 inherits from IERC20 Pausable inherits from PauserRole ERC20Pausable inherits from ERC20 ERC20Pausable inherits from Pausable KGCMortage inherits from Ownable 
+onlyPauser whenNotPaused whenPaused onlyOwner validateTid 
+Transfer Approval PauserAdded PauserRemoved Paused Unpaused OwnershipTransferred Transfer Approval LoanCreated LoanCanceld LoanLended LoanPayed LoanForceGetMortaged 
+If a corresponds to 0
+_name is equal to name
+_symbol is equal to symbol
+_decimals is equal to decimals
+ is equal to _balances sender sub
+ is equal to _balances recipient add
+_totalSupply is equal to _totalSupply add
+ is equal to _balances account add
+_totalSupply is equal to _totalSupply sub
+ is equal to _balances account sub
+ is equal to value
+ is equal to True
+ is equal to False
+_paused is equal to False
+_paused is equal to True
+_paused is equal to False
+_owner is equal to msg sender
+_owner is equal to 
+_owner is equal to newOwner
+kgcInstance is equal to ERC20Interface
+totalTrans is equal to totalTrans add
+trans loanStartedAt is equal to now
+trans status is equal to LoanStatus STATUS_LENDED
+trans lender is equal to msg sender
+trans status is equal to LoanStatus STATUS_PAYBACKED
+trans status is equal to LoanStatus STATUS_MORTAGE_FORCE_TAKED
+trans status is equal to LoanStatus STATUS_CANCELD
+id is equal to trans id
+status is equal to trans status
+mortageKgcValue is equal to trans mortageKgcValue
+duration is equal to trans duration
+wantValue is equal to trans wantValue
+interest is equal to trans interest
+loanStartedAt is equal to trans loanStartedAt
+mortager is equal to trans mortager
+lender is equal to trans lender

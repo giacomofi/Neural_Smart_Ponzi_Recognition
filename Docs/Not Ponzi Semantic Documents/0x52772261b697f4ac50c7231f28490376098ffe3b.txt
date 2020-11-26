@@ -1,0 +1,8 @@
+solidity >=0.4.22<0.6.0 
+Hold 
+time owner 
+setTime getEthereum  
+onlyOwner checkTime 
+owner is equal to msg sender
+time is equal to now plus 5 minutes
+time is equal to _time

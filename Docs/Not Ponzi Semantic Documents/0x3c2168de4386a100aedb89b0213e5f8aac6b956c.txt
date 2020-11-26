@@ -1,0 +1,34 @@
+solidity 0.4.24 solidity 0.4.24 solidity 0.4.24 solidity 0.4.24 solidity 0.4.24 solidity 0.4.24 solidity 0.4.24 solidity 0.4.24 solidity 0.4.24 solidity 0.4.24 solidity 0.4.24 solidity ^0.4.24 solidity ^0.4.24 solidity 0.4.24 
+IBridgeValidators IForeignBridge EternalStorage Proxy UpgradeabilityStorage UpgradeabilityProxy UpgradeabilityOwnerStorage OwnedUpgradeabilityProxy EternalStorageProxy EternalOwnable BasicBridgeFactory IERC20 ERC20Detailed ForeignBridgeFactory 
+uintStorage stringStorage addressStorage bytesStorage boolStorage intStorage uintArrayStorage stringArrayStorage addressArrayStorage boolArrayStorage intArrayStorage bytes32ArrayStorage _impl _innerImpl sig thisAddress _version _implementation _upgradeabilityOwner defaultDecimals _name _symbol _decimals proxy bridgeValidators foreignBridge tokenDecimals foreignMaxPerTxVal homeDailyLimitVal homeMaxPerTxVal 
+initialize isValidator requiredSignatures owner initialize implementation setImplementation  version implementation setImplementation _upgradeTo upgradeabilityOwner setUpgradeabilityOwner proxyOwner transferProxyOwnership upgradeTo upgradeToAndCall owner transferOwnership setOwner getBridgeFactoryVersion bridgeValidatorsImplementation setBridgeValidatorsImplementation requiredSignatures setRequiredSignatures initialValidators setInitialValidators bridgeValidatorsOwner setBridgeValidatorsOwner bridgeValidatorsProxyOwner setBridgeValidatorsProxyOwner requiredBlockConfirmations setRequiredBlockConfirmations gasPrice setGasPrice homeDailyLimit setHomeDailyLimit homeMaxPerTx setHomeMaxPerTx foreignMaxPerTx setForeignMaxPerTx setInitialize isInitialized adjustToDefaultDecimals totalSupply balanceOf allowance transfer approve transferFrom name symbol decimals initialize deployForeignBridge registerForeignBridge foreignBridgeErcToErcImplementation setForeignBridgeErcToErcImplementation foreignBridgeOwner setForeignBridgeOwner foreignBridgeProxyOwner setForeignBridgeProxyOwner 
+UpgradeabilityProxy inherits from Proxy UpgradeabilityProxy inherits from UpgradeabilityStorage OwnedUpgradeabilityProxy inherits from UpgradeabilityOwnerStorage OwnedUpgradeabilityProxy inherits from UpgradeabilityProxy EternalStorageProxy inherits from OwnedUpgradeabilityProxy EternalStorageProxy inherits from EternalStorage EternalOwnable inherits from EternalStorage BasicBridgeFactory inherits from EternalStorage BasicBridgeFactory inherits from EternalOwnable ERC20Detailed inherits from IERC20 ForeignBridgeFactory inherits from BasicBridgeFactory 
+onlyProxyOwner onlyOwner 
+Upgraded ProxyOwnershipTransferred EternalOwnershipTransferred Transfer Approval ForeignBridgeDeployed 
+
+_innerImpl is equal to 
+sig is equal to 0xd784d426
+_implementation is equal to _newImplementation
+_version is equal to version
+_implementation is equal to implementation
+_upgradeabilityOwner is equal to newUpgradeabilityOwner
+ is equal to newOwner
+ is equal to _bridgeValidatorsImplementation
+ is equal to _requiredSignatures
+ is equal to _initialValidators
+ is equal to _bridgeValidatorsOwner
+ is equal to _bridgeValidatorsProxyOwner
+ is equal to _requiredBlockConfirmations
+ is equal to _gasPrice
+ is equal to _homeDailyLimit
+ is equal to _homeMaxPerTx
+ is equal to _foreignMaxPerTx
+ is equal to _status
+If defaultDecimals is greater then _decimals
+_name is equal to name
+_symbol is equal to symbol
+_decimals is equal to decimals
+proxy is equal to 
+ is equal to _foreignBridgeErcToErcImplementation
+ is equal to _foreignBridgeOwner
+ is equal to _foreignBridgeProxyOwner

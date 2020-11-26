@@ -1,0 +1,7 @@
+solidity 0.6.4 experimental ABIEncoderV2 
+ERC20 TokenAdapter BasePool PoolTogetherTokenAdapter 
+SAI_POOL underlyingTokens underlying 
+symbol decimals getMetadata getComponents token getMetadata getComponents getPoolName 
+PoolTogetherTokenAdapter inherits from TokenAdapter 
+ is equal to Component
+If token corresponds to SAI_POOL

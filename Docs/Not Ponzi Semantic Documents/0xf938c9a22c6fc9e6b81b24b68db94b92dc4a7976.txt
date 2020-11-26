@@ -1,0 +1,27 @@
+solidity ^0.4.24 
+SafeMath ERC20Interface ApproveAndCallFallBack Owned Frinkcoin 
+owner newOwner symbol name decimals _totalSupply balances allowed 
+safeAdd safeSub safeMul safeDiv totalSupply balanceOf allowance transfer approve transferFrom receiveApproval transferOwnership acceptOwnership totalSupply balanceOf transfer approve transferFrom allowance approveAndCall  transferAnyERC20Token 
+Frinkcoin inherits from ERC20Interface Frinkcoin inherits from Owned Frinkcoin inherits from SafeMath 
+onlyOwner 
+Transfer Approval OwnershipTransferred 
+c is equal to a plus b
+c is equal to a minus b
+c is equal to a multiplied by b
+c is equal to a divided by b
+owner is equal to msg sender
+newOwner is equal to _newOwner
+owner is equal to newOwner
+newOwner is equal to 
+symbol is equal to FRNK
+name is equal to Frinkcoin
+decimals is equal to 8
+_totalSupply is equal to 2100000000000000
+ is equal to _totalSupply
+ is equal to safeSub
+ is equal to safeAdd
+ is equal to tokens
+ is equal to safeSub
+ is equal to safeSub
+ is equal to safeAdd
+ is equal to tokens

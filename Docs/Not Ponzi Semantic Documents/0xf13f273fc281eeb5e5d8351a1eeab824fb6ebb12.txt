@@ -1,0 +1,11 @@
+solidity ^0.4.24 
+ERC20Token Stats NcovDeadPool 
+Bet 
+Bet has amount
+Bet has day
+Bet has infections
+statsc c tok bets betDay dayQ resinf myinf diffinf myamount 
+transferFrom transfer getDay abssub bet reward claim 
+ is equal to Bet
+ is equal to Bet
+If diffinf is less or equal to 5000 multiplied by 10 Invalid symbol 18

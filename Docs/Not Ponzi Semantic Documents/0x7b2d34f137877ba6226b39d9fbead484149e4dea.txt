@@ -1,0 +1,66 @@
+solidity ^0.4.24 solidity >=0.4.24<0.6.0 solidity ^0.4.24 solidity 0.4.24 solidity 0.4.24 solidity ^0.4.24 solidity ^0.4.24 solidity 0.4.24 solidity 0.4.24 
+SafeMath Initializable Ownable SafeMathInt UInt256Lib IERC20 ERC20Detailed UFragments IOracle UFragmentsPolicy 
+SafeMath SafeMathInt SafeMath SafeMathInt UInt256Lib 
+c c c c initialized initializing isTopLevelCall cs ______gap _owner ______gap MIN_INT256 MAX_INT256 c c c MAX_INT256 _name _symbol _decimals ______gap monetaryPolicy rebasePaused tokenPaused DECIMALS MAX_UINT256 INITIAL_FRAGMENTS_SUPPLY TOTAL_GONS MAX_SUPPLY _totalSupply _gonsPerFragment _gonBalances _allowedFragments gonValue gonValue oldValue uFrags cpiOracle marketOracle baseCpi deviationThreshold rebaseLag minRebaseTimeIntervalSec lastRebaseTimestampSec rebaseWindowOffsetSec rebaseWindowLengthSec epoch DECIMALS MAX_RATE MAX_SUPPLY cpi cpiValid targetRate exchangeRate rateValid supplyDelta supplyAfterRebase targetRateSigned absoluteDeviationThreshold 
+mul div sub add mod isConstructor initialize owner isOwner renounceOwnership transferOwnership _transferOwnership mul div sub add abs toInt256Safe totalSupply balanceOf allowance transfer approve transferFrom initialize name symbol decimals setMonetaryPolicy setRebasePaused setTokenPaused rebase initialize totalSupply balanceOf transfer allowance transferFrom approve increaseAllowance decreaseAllowance getData rebase setCpiOracle setMarketOracle setDeviationThreshold setRebaseLag setRebaseTimingParameters initialize inRebaseWindow computeSupplyDelta withinDeviationThreshold 
+Ownable inherits from Initializable ERC20Detailed inherits from Initializable ERC20Detailed inherits from IERC20 UFragments inherits from ERC20Detailed UFragments inherits from Ownable UFragmentsPolicy inherits from Ownable 
+initializer onlyOwner onlyMonetaryPolicy whenRebaseNotPaused whenTokenNotPaused validRecipient 
+OwnershipRenounced OwnershipTransferred Transfer Approval LogRebase LogRebasePaused LogTokenPaused LogMonetaryPolicyUpdated LogRebase 
+If a corresponds to 0
+_owner is equal to sender
+_owner is equal to 
+_owner is equal to newOwner
+_name is equal to name
+_symbol is equal to symbol
+_decimals is equal to decimals
+monetaryPolicy is equal to monetaryPolicy_
+rebasePaused is equal to paused
+tokenPaused is equal to paused
+If supplyDelta corresponds to 0
+If supplyDelta is less then 0
+_totalSupply is equal to _totalSupply sub
+_totalSupply is equal to _totalSupply add
+If _totalSupply is greater then MAX_SUPPLY
+_totalSupply is equal to MAX_SUPPLY
+_gonsPerFragment is equal to TOTAL_GONS div
+rebasePaused is equal to False
+tokenPaused is equal to False
+_totalSupply is equal to INITIAL_FRAGMENTS_SUPPLY
+ is equal to TOTAL_GONS
+_gonsPerFragment is equal to TOTAL_GONS div
+ is equal to msg sender sub
+ is equal to _gonBalances to add
+ is equal to _allowedFragments from msg sender sub
+ is equal to _gonBalances from sub
+ is equal to _gonBalances to add
+ is equal to value
+ is equal to msg sender spender add
+If subtractedValue is greater or equal to oldValue
+ is equal to 0
+ is equal to oldValue sub
+lastRebaseTimestampSec is equal to 
+epoch is equal to epoch add
+ is equal to cpiOracle getData
+ is equal to marketOracle getData
+If exchangeRate is greater then MAX_RATE
+exchangeRate is equal to MAX_RATE
+supplyDelta is equal to supplyDelta div
+If supplyDelta is greater then 0 Invalid symbol 
+supplyDelta is equal to 
+cpiOracle is equal to cpiOracle_
+marketOracle is equal to marketOracle_
+deviationThreshold is equal to deviationThreshold_
+rebaseLag is equal to rebaseLag_
+minRebaseTimeIntervalSec is equal to minRebaseTimeIntervalSec_
+rebaseWindowOffsetSec is equal to rebaseWindowOffsetSec_
+rebaseWindowLengthSec is equal to rebaseWindowLengthSec_
+deviationThreshold is equal to 5 multiplied by 10 Invalid symbol 
+rebaseLag is equal to 30
+minRebaseTimeIntervalSec is equal to 1 days
+rebaseWindowOffsetSec is equal to 72000
+rebaseWindowLengthSec is equal to 15 minutes
+lastRebaseTimestampSec is equal to 0
+epoch is equal to 0
+uFrags is equal to uFrags_
+baseCpi is equal to baseCpi_
+

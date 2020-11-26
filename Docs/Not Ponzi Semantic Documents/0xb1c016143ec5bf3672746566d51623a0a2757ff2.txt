@@ -1,0 +1,61 @@
+solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 
+IERC20 SafeMath ERC20 ERC20Detailed Roles MinterRole ERC20Mintable ERC20Burnable ERC20Capped SafeERC20 Ownable AsureToken ReentrancyGuard Crowdsale TimedCrowdsale WhitelistAdminRole WhitelistedRole WhitelistCrowdsale CappedCrowdsale AsureBonusesCrowdsale AsureCrowdsale TokenVesting AsureCrowdsaleDeployer 
+SafeMath Roles SafeMath SafeERC20 SafeMath SafeERC20 SafeMath Roles Roles SafeMath SafeMath SafeERC20 SafeMath SafeERC20 SafeMath 
+Role 
+Role has bearer
+c c c c _balances _allowed _totalSupply _name _symbol _decimals _minters _cap newAllowance newAllowance _owner erc20token balance _guardCounter localCounter _token _wallet _rate _weiRaised weiAmount tokens _openingTime _closingTime _whitelistAdmins _whitelisteds _cap _bonusRate _bonusTime _defaultRate currentRate PURCHASE_MINIMUM_AMOUNT_WEI i burnableToken _beneficiary _cliff _start _duration _revocable _released _revoked unreleased balance unreleased refund currentBalance totalBalance token presale mainsale decimals decimalFactor AVAILABLE_TOTAL_SUPPLY AVAILABLE_PRESALE_SUPPLY AVAILABLE_MAINSALE_SUPPLY AVAILABLE_FOUNDATION_SUPPLY AVAILABLE_BOUNTY_SUPPLY AVAILABLE_FAMILYFRIENDS_SUPPLY AVAILABLE_TEAM_SUPPLY AVAILABLE_ADVISOR_SUPPLY TOKEN_VESTING_DURATION_SECONDS i vesting i vesting 
+transfer approve transferFrom totalSupply balanceOf allowance mul div sub add mod totalSupply balanceOf allowance transfer approve transferFrom increaseAllowance decreaseAllowance _transfer _mint _burn _burnFrom name symbol decimals add remove has isMinter addMinter renounceMinter _addMinter _removeMinter mint burn burnFrom cap _mint safeTransfer safeTransferFrom safeApprove safeIncreaseAllowance safeDecreaseAllowance owner isOwner renounceOwnership transferOwnership _transferOwnership transfer mint emergencyTokenExtraction  token wallet rate weiRaised buyTokens _preValidatePurchase _postValidatePurchase _deliverTokens _processPurchase _updatePurchasingState _getTokenAmount _forwardFunds openingTime closingTime isOpen hasClosed _preValidatePurchase isWhitelistAdmin addWhitelistAdmin renounceWhitelistAdmin _addWhitelistAdmin _removeWhitelistAdmin isWhitelisted addWhitelisted removeWhitelisted renounceWhitelisted _addWhitelisted _removeWhitelisted _preValidatePurchase cap capReached _preValidatePurchase rate bonusRate bonusTime defaultRate updateRates getCurrentRate _getTokenAmount addWhitelistedAccounts burn transferToIEO _preValidatePurchase beneficiary cliff start duration revocable released revoked release revoke _releasableAmount _vestedAmount mint createPreSale createMainSale 
+ERC20 inherits from IERC20 ERC20Detailed inherits from IERC20 ERC20Mintable inherits from ERC20 ERC20Mintable inherits from MinterRole ERC20Burnable inherits from ERC20 ERC20Capped inherits from ERC20Mintable AsureToken inherits from ERC20 AsureToken inherits from ERC20Detailed AsureToken inherits from ERC20Mintable AsureToken inherits from ERC20Burnable AsureToken inherits from ERC20Capped AsureToken inherits from Ownable Crowdsale inherits from ReentrancyGuard TimedCrowdsale inherits from Crowdsale WhitelistedRole inherits from WhitelistAdminRole WhitelistCrowdsale inherits from WhitelistedRole WhitelistCrowdsale inherits from Crowdsale CappedCrowdsale inherits from Crowdsale AsureBonusesCrowdsale inherits from TimedCrowdsale AsureBonusesCrowdsale inherits from Ownable AsureCrowdsale inherits from Crowdsale AsureCrowdsale inherits from TimedCrowdsale AsureCrowdsale inherits from WhitelistCrowdsale AsureCrowdsale inherits from AsureBonusesCrowdsale TokenVesting inherits from Ownable AsureCrowdsaleDeployer inherits from Ownable 
+onlyMinter onlyOwner nonReentrant onlyWhileOpen onlyWhitelistAdmin onlyWhitelisted 
+Transfer Approval MinterAdded MinterRemoved OwnershipTransferred TokensPurchased WhitelistAdminAdded WhitelistAdminRemoved WhitelistedAdded WhitelistedRemoved RatesUpdated TokensReleased TokenVestingRevoked 
+If a corresponds to 0
+ is equal to value
+ is equal to _allowed from msg sender sub
+ is equal to msg sender spender add
+ is equal to msg sender spender sub
+ is equal to _balances from sub
+ is equal to _balances to add
+_totalSupply is equal to _totalSupply add
+ is equal to _balances account add
+_totalSupply is equal to _totalSupply sub
+ is equal to _balances account sub
+ is equal to _allowed account msg sender sub
+_name is equal to name
+_symbol is equal to symbol
+_decimals is equal to decimals
+ is equal to True
+ is equal to False
+_cap is equal to cap
+_owner is equal to msg sender
+_owner is equal to 
+_owner is equal to newOwner
+If balance corresponds to 0
+_guardCounter is equal to 1
+_guardCounter increments of 1
+_rate is equal to rate
+_wallet is equal to wallet
+_token is equal to token
+_weiRaised is equal to _weiRaised add
+_openingTime is equal to openingTime
+_closingTime is equal to closingTime
+_cap is equal to cap
+_bonusRate is equal to newBonusRate
+_bonusTime is equal to newBonusTime
+_defaultRate is equal to newDefaultRate
+If 
+If block timestamp is less or equal to _bonusTime
+If 
+i is less then accounts length
+_beneficiary is equal to beneficiary
+_revocable is equal to revocable
+_duration is equal to duration
+_cliff is equal to start add
+_start is equal to start
+ is equal to  add
+ is equal to True
+If block timestamp is less then _cliff
+token is equal to 
+i is less then teamAddr length
+i is less then advisorAddr length
+presale is equal to 
+mainsale is equal to 

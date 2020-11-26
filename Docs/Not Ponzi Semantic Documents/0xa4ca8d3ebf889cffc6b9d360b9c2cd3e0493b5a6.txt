@@ -1,0 +1,28 @@
+solidity ^0.5.2 
+ERC20Basic SafeMath BasicToken ERC20 StandardToken Ownable Pausable PausableToken HBTCToken 
+SafeMath 
+balances totalSupply_ allowed oldValue owner paused name symbol decimals INITIAL_SUPPLY 
+totalSupply balanceOf transfer mul div sub add totalSupply transfer balanceOf allowance transferFrom approve transferFrom approve allowance increaseApproval decreaseApproval renounceOwnership transferOwnership _transferOwnership pause unpause transfer transferFrom approve increaseApproval decreaseApproval 
+BasicToken inherits from ERC20Basic ERC20 inherits from ERC20Basic StandardToken inherits from ERC20 StandardToken inherits from BasicToken Pausable inherits from Ownable PausableToken inherits from StandardToken PausableToken inherits from Pausable HBTCToken inherits from PausableToken 
+onlyOwner whenNotPaused whenPaused 
+Transfer Approval OwnershipRenounced OwnershipTransferred Pause Unpause 
+If _a corresponds to 0
+c is equal to _a multiplied by _b
+c is equal to _a plus _b
+ is equal to msg sender sub
+ is equal to balances _to add
+ is equal to balances _from sub
+ is equal to balances _to add
+ is equal to allowed _from msg sender sub
+ is equal to _value
+ is equal to 
+If _subtractedValue is greater or equal to oldValue
+ is equal to 0
+ is equal to oldValue sub
+owner is equal to msg sender
+owner is equal to 
+owner is equal to _newOwner
+paused is equal to True
+paused is equal to False
+totalSupply_ is equal to INITIAL_SUPPLY
+ is equal to INITIAL_SUPPLY

@@ -1,0 +1,26 @@
+solidity 0.5.17 solidity 0.5.17 solidity 0.5.17 solidity 0.5.17 solidity 0.5.17 solidity 0.5.17 solidity 0.5.17 
+IVat ITokenJoin IFlip IFlap IFlop IERC20 ProxyActionsStorage 
+vat flap flop tokens decimals ilks tokenJoins flips 
+hope gem dai join exit tick tend dent deal tick tend deal tick dent deal totalSupply balanceOf transfer allowance approve transferFrom 
+Transfer Approval 
+vat is equal to IVat
+flap is equal to IFlap
+flop is equal to IFlop
+ is equal to IERC20
+ is equal to IERC20
+ is equal to IERC20
+ is equal to IERC20
+ is equal to IERC20
+ is equal to 18
+ is equal to 18
+ is equal to 6
+ is equal to ETH-A
+ is equal to BAT-A
+ is equal to USDC-A
+ is equal to ITokenJoin
+ is equal to ITokenJoin
+ is equal to ITokenJoin
+ is equal to ITokenJoin
+ is equal to IFlip
+ is equal to IFlip
+ is equal to IFlip

@@ -1,0 +1,24 @@
+solidity >0.4.99<0.6.0 
+Username 
+version username owner caseMap availableChrs symbols bAvailableChrs bSymbols i i bStr bLower i bStr continuousFlag i lowerUsername oldUserName 
+getUsername getOwner isSymbol isAlphaNumeric toLower validate update 
+Updated 
+i is less then bSymbols length
+If chr corresponds to 
+i is less then bAvailableChrs length
+If chr corresponds to 
+i is less then bStr length
+If  is greater then 65 Invalid symbol 
+ is equal to 
+ is equal to 
+If bStr length is less then 1 Invalid symbol 
+i is less then bStr length
+
+If i corresponds to 0 Invalid symbol  Invalid symbol continuousFlag
+continuousFlag is equal to True
+If  is different from  Invalid symbol 
+ is equal to 
+ is equal to msg sender
+ is equal to lowerUsername
+ is equal to 
+ is equal to _username

@@ -1,0 +1,7 @@
+solidity 0.5.16 
+IERC20 EthToDaiTradeHelperV2 
+_DAI 
+transfer balanceOf trade _revertOnFailure 
+daiReceived is equal to _DAI balanceOf
+ok is equal to 
+If not ok

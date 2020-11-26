@@ -1,0 +1,7 @@
+solidity ^0.5.0 
+SafeMath Decimals 
+SafeMath 
+c c c c basisValue a 
+add sub sub mul div div mod mod outOf basis 
+If a corresponds to 0
+If _a corresponds to 0

@@ -1,0 +1,35 @@
+x15 
+earnerarray 
+earnerarray has etherAddress
+earnerarray has amount
+crazyearners deposits_until_jackpot totalearners feerate profitrate jackpotrate alpha feeamount balance totaldeposited totalmoneyearned kappa calculator beta amount tot_pl payout nr 
+x15  enter 
+onlyowner 
+kappa is equal to msg sender
+If msg value is less then 30 ether
+totalearners is equal to tot_pl plus 1
+deposits_until_jackpot is equal to 20 minus 
+crazyearners length increments of 1
+crazyearners tot_pl etherAddress is equal to msg sender
+crazyearners tot_pl amount is equal to amount
+feeamount is equal to amount multiplied by alpha divided by 100
+balance increments of amount
+totaldeposited increments of amount
+If feeamount is different from 0
+If balance is greater then feeamount
+balance decreases of feeamount
+totalmoneyearned increments of feeamount
+If alpha is less then 100
+alpha increments of 30
+beta is equal to alpha plus crazyearners tot_pl amount
+calculator is equal to alpha plus beta divided by 2
+alpha is equal to 100
+While balance is greater then crazyearners nr amount multiplied by 500 divided by 100 Invalid symbol 
+If  Invalid symbol balance is greater then crazyearners nr amount multiplied by 1500 divided by 100
+payout is equal to crazyearners nr amount multiplied by 1500 divided by 100
+balance decreases of crazyearners nr amount multiplied by 1500 divided by 100
+totalmoneyearned increments of crazyearners nr amount multiplied by 1500 divided by 100
+payout is equal to crazyearners nr amount multiplied by 500 divided by 100
+balance decreases of crazyearners nr amount multiplied by 500 divided by 100
+totalmoneyearned increments of crazyearners nr amount multiplied by 500 divided by 100
+nr increments of 1

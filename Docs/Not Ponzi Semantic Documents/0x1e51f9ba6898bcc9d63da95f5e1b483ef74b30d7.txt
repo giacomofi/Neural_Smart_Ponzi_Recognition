@@ -1,0 +1,17 @@
+solidity ^0.5.2 
+Arx SafeMath 
+SafeMath 
+_balances _allowances _name _symbol _decimals _totalSupply c c c c 
+allowance balanceOf decimals name symbol totalSupply approve burn burnFrom decreaseAllowance increaseAllowance transfer transferFrom _approve _burn _burnFrom _mint _transfer add sub sub mul div div mod mod 
+Approval Transfer 
+_name is equal to arx
+_symbol is equal to arx
+_decimals is equal to 18
+ is equal to value
+ is equal to _balances account sub
+_totalSupply is equal to _totalSupply sub
+_totalSupply is equal to _totalSupply add
+ is equal to _balances account add
+ is equal to _balances sender sub
+ is equal to _balances recipient add
+If a corresponds to 0

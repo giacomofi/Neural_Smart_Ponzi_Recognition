@@ -1,0 +1,11 @@
+solidity ^0.5.1 
+bizcloud 
+name symbol decimals totalSupply balanceOf allowance 
+transfer _transfer approve transferFrom 
+Transfer Approval 
+totalSupply is equal to 1000000000 multiplied by 
+ is equal to totalSupply
+ is equal to  minus _value
+ is equal to  plus _value
+ is equal to _value
+ is equal to  minus _value

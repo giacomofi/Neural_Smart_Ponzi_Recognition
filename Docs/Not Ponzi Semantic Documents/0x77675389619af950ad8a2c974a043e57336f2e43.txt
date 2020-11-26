@@ -1,0 +1,22 @@
+solidity ^0.5.8 
+SafeMath Roles IssuerRole Ownable IERC20 IUnsafeERC20 SafeERC20 TokenBank 
+Roles SafeMath SafeMath SafeERC20 
+Role 
+Role has bearer
+c c c c _issuers _owner newAllowance newAllowance bindedToken deposited token i token i 
+mul div sub add mod add remove has isIssuer addIssuer renounceIssuer _addIssuer _removeIssuer owner isOwner renounceOwnership transferOwnership _transferOwnership totalSupply balanceOf allowance transfer approve transferFrom totalSupply balanceOf allowance transfer approve transferFrom safeTransfer safeTransferFrom safeApprove safeIncreaseAllowance safeDecreaseAllowance depositTo withdrawTo bulkIssueInterests 
+TokenBank inherits from IssuerRole TokenBank inherits from Ownable 
+onlyIssuer onlyOwner 
+IssuerAdded IssuerRemoved OwnershipTransferred Transfer Approval Deposited Withdrawn InterestIssued 
+If a corresponds to 0
+ is equal to True
+ is equal to False
+_owner is equal to msg sender
+_owner is equal to 
+_owner is equal to newOwner
+bindedToken is equal to IERC20
+ is equal to deposited receiver add
+ is equal to msg sender sub
+
+i is less then receivers length
+i is less then receivers length

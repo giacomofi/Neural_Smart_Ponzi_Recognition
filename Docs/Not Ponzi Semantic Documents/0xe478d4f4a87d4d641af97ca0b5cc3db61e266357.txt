@@ -1,0 +1,20 @@
+solidity 0.5.15 
+SafeMath IERC20 StandardToken Ownable Pausable PausableToken BurnableToken LUCKYToken 
+SafeMath 
+c c c c _balances _allowed _totalSupply _owner paused name symbol decimals INIT_TOTALSUPPLY _tokenOwner 
+mul div sub add transfer approve transferFrom totalSupply balanceOf allowance totalSupply balanceOf allowance transfer approve transferFrom increaseAllowance decreaseAllowance _transfer _approve _burn _burnFrom owner isOwner transferOwnership _transferOwnership pause unpause transfer transferFrom approve increaseAllowance decreaseAllowance burn burnFrom 
+StandardToken inherits from IERC20 Pausable inherits from Ownable PausableToken inherits from StandardToken PausableToken inherits from Pausable BurnableToken inherits from StandardToken BurnableToken inherits from Ownable LUCKYToken inherits from BurnableToken LUCKYToken inherits from PausableToken 
+onlyOwner whenNotPaused whenPaused 
+Transfer Approval OwnershipTransferred Pause Unpause 
+If a corresponds to 0
+ is equal to _balances from sub
+ is equal to _balances to add
+ is equal to value
+ is equal to _balances account sub
+_totalSupply is equal to _totalSupply sub
+_owner is equal to newOwner
+paused is equal to True
+paused is equal to False
+_totalSupply is equal to INIT_TOTALSUPPLY multiplied by 10 Invalid symbol 
+_owner is equal to _tokenOwner
+ is equal to _totalSupply

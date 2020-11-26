@@ -1,0 +1,64 @@
+solidity ^0.5.1 
+SafeMath Ownable Cmoable BaseToken BurnToken LockToken Proxyable CSSToken 
+SafeMath 
+LockMeta 
+LockMeta has amount
+LockMeta has endtime
+LockMeta has deleted
+c c c c owner stoped cmo name symbol decimals totalSupply initedSupply balanceOf allowance previousBalances burnSupply lockedAmount lockedDetail fronzed_released dynamic_released i _meta i _meta _total i i disabledProxyList 
+mul div sub add mod setStoped renounceOwnership transferOwnership _transferOwnership renounceCmoship transferCmoship _transferCmoship _transfer _approve transfer transferFrom approve _burn burn burnFrom _transfer lockRelease lock enableProxy disableProxy proxyBurnFrom proxyTransferFrom 
+Cmoable inherits from Ownable BaseToken inherits from Ownable BaseToken inherits from Cmoable BurnToken inherits from BaseToken LockToken inherits from BaseToken Proxyable inherits from BaseToken Proxyable inherits from BurnToken CSSToken inherits from BaseToken CSSToken inherits from BurnToken CSSToken inherits from LockToken CSSToken inherits from Proxyable 
+onlyOwner whenNotStoped onlyCmo onlyOwnerOrCmo 
+OwnershipTransferred Stoped CmoshipTransferred Transfer Approval Burn Locked Released 
+If a corresponds to 0
+stoped is equal to _needStoped
+owner is equal to 
+owner is equal to newOwner
+owner is equal to 
+cmo is equal to newCmo
+ is equal to balanceOf _from sub
+ is equal to balanceOf _to add
+ is equal to _value
+ is equal to allowance _from msg sender sub
+ is equal to balanceOf _from sub
+totalSupply is equal to totalSupply sub
+burnSupply is equal to burnSupply add
+ is equal to allowance _from msg sender sub
+If  is different from 0
+i is less then msg sender 0 length
+If  Invalid symbol _meta endtime is less or equal to now
+_meta deleted is equal to True
+fronzed_released is equal to fronzed_released add
+If  is different from 0
+i is less then msg sender 1 length
+If  Invalid symbol _meta endtime is less or equal to now
+_meta deleted is equal to True
+dynamic_released is equal to dynamic_released add
+If fronzed_released is greater then 0 Invalid symbol 
+ is equal to msg sender 0 sub
+ is equal to msg sender 1 sub
+ is equal to 
+If _type corresponds to 2
+If lockedDetail _who 1 length is greater then 0
+i is less then _amounts length
+_total is equal to _total add
+ is equal to _total
+ is equal to lockedAmount _who 0 add
+If _type corresponds to 1
+If lockedDetail _who 0 length is greater then 0
+i is less then _amounts length
+_total is equal to _total add
+ is equal to _total
+ is equal to lockedAmount _who 1 add
+If _type corresponds to 0
+ is equal to lockedAmount _who 2 sub
+ is equal to False
+ is equal to True
+totalSupply is equal to 2000000000000000000000000000
+initedSupply is equal to 2000000000000000000000000000
+name is equal to css
+symbol is equal to css
+decimals is equal to 18
+ is equal to 2000000000000000000000000000
+owner is equal to 0x108cF041aAb8A65Cdd0A78c1DC703B0dbb0a7659
+cmo is equal to 0x108cF041aAb8A65Cdd0A78c1DC703B0dbb0a7659

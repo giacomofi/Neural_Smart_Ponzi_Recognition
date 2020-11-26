@@ -1,0 +1,293 @@
+solidity ^0.4.23 solidity ^0.4.23 solidity ^0.4.23 solidity ^0.4.23 solidity ^0.4.23 solidity ^0.4.23 solidity ^0.4.21 solidity ^0.4.21 solidity ^0.4.21 solidity ^0.4.11 solidity ^0.4.23 solidity ^0.4.11 solidity ^0.4.24 solidity ^0.4.24 solidity ^0.4.11 solidity ^0.4.21 
+ERC20Interface Owned Manager Storage StorageInterface StorageContractAdapter StorageInterfaceContract EventsHistorySourceAdapter MultiEventsHistoryAdapter ChronoBankPlatformEmitter BaseByzantiumRouter StorageAdapter ChronoBankPlatformInterface ChronoBankPlatformBackendProvider ChronoBankPlatformRouterCore ChronoBankPlatformCore ChronoBankPlatformRouter SafeMath ProxyEventsEmitter ChronoBankPlatform 
+StorageInterface SafeMath 
+Crate AddressUInt8 Config UInt UInt8 Int Address Bool Bytes32 String Mapping StringMapping UIntBoolMapping UIntUIntMapping UIntBytes32Mapping UIntAddressMapping UIntEnumMapping AddressBoolMapping AddressUInt8Mapping AddressUIntMapping AddressBytes32Mapping AddressAddressMapping Bytes32UIntMapping Bytes32UInt8Mapping Bytes32BoolMapping Bytes32Bytes32Mapping Bytes32AddressMapping Bytes32UIntBoolMapping AddressAddressUInt8Mapping AddressAddressUIntMapping AddressUIntUIntMapping AddressUIntUInt8Mapping AddressBytes32Bytes32Mapping AddressBytes4BoolMapping AddressBytes4Bytes32Mapping UIntAddressUIntMapping UIntAddressAddressMapping UIntAddressBoolMapping UIntUIntAddressMapping UIntUIntBytes32Mapping UIntUIntUIntMapping Bytes32UIntUIntMapping AddressUIntUIntUIntMapping AddressUIntStructAddressUInt8Mapping AddressUIntUIntStructAddressUInt8Mapping AddressUIntUIntUIntStructAddressUInt8Mapping AddressUIntUIntUIntUIntStructAddressUInt8Mapping AddressUIntAddressUInt8Mapping AddressUIntUIntAddressUInt8Mapping AddressUIntUIntUIntAddressUInt8Mapping UIntAddressAddressBoolMapping UIntUIntUIntBytes32Mapping Bytes32UIntUIntUIntMapping Set AddressesSet CounterSet OrderedSet OrderedUIntSet OrderedAddressesSet Bytes32SetMapping AddressesSetMapping UIntSetMapping Bytes32OrderedSetMapping UIntOrderedSetMapping AddressOrderedSetMapping Iterator TransactionContext 
+Crate has uints
+Crate has addresses
+Crate has bools
+Crate has ints
+Crate has uint8s
+Crate has bytes32s
+Crate has addressUInt8s
+Crate has strings
+AddressUInt8 has _address
+AddressUInt8 has _uint8
+Config has store
+Config has crate
+UInt has id
+UInt8 has id
+Int has id
+Address has id
+Bool has id
+Bytes32 has id
+String has id
+Mapping has id
+StringMapping has id
+UIntBoolMapping has innerMapping
+UIntUIntMapping has innerMapping
+UIntBytes32Mapping has innerMapping
+UIntAddressMapping has innerMapping
+UIntEnumMapping has innerMapping
+AddressBoolMapping has innerMapping
+AddressUInt8Mapping has id
+AddressUIntMapping has innerMapping
+AddressBytes32Mapping has innerMapping
+AddressAddressMapping has innerMapping
+Bytes32UIntMapping has innerMapping
+Bytes32UInt8Mapping has innerMapping
+Bytes32BoolMapping has innerMapping
+Bytes32Bytes32Mapping has innerMapping
+Bytes32AddressMapping has innerMapping
+Bytes32UIntBoolMapping has innerMapping
+AddressAddressUInt8Mapping has innerMapping
+AddressAddressUIntMapping has innerMapping
+AddressUIntUIntMapping has innerMapping
+AddressUIntUInt8Mapping has innerMapping
+AddressBytes32Bytes32Mapping has innerMapping
+AddressBytes4BoolMapping has innerMapping
+AddressBytes4Bytes32Mapping has innerMapping
+UIntAddressUIntMapping has innerMapping
+UIntAddressAddressMapping has innerMapping
+UIntAddressBoolMapping has innerMapping
+UIntUIntAddressMapping has innerMapping
+UIntUIntBytes32Mapping has innerMapping
+UIntUIntUIntMapping has innerMapping
+Bytes32UIntUIntMapping has innerMapping
+AddressUIntUIntUIntMapping has innerMapping
+AddressUIntStructAddressUInt8Mapping has innerMapping
+AddressUIntUIntStructAddressUInt8Mapping has innerMapping
+AddressUIntUIntUIntStructAddressUInt8Mapping has innerMapping
+AddressUIntUIntUIntUIntStructAddressUInt8Mapping has innerMapping
+AddressUIntAddressUInt8Mapping has innerMapping
+AddressUIntUIntAddressUInt8Mapping has innerMapping
+AddressUIntUIntUIntAddressUInt8Mapping has innerMapping
+UIntAddressAddressBoolMapping has innerMapping
+UIntUIntUIntBytes32Mapping has innerMapping
+Bytes32UIntUIntUIntMapping has innerMapping
+Set has count
+Set has indexes
+Set has values
+AddressesSet has innerSet
+CounterSet has innerSet
+OrderedSet has count
+OrderedSet has first
+OrderedSet has last
+OrderedSet has nextValues
+OrderedSet has previousValues
+OrderedUIntSet has innerSet
+OrderedAddressesSet has innerSet
+Bytes32SetMapping has innerMapping
+AddressesSetMapping has innerMapping
+UIntSetMapping has innerMapping
+Bytes32OrderedSetMapping has innerMapping
+UIntOrderedSetMapping has innerMapping
+AddressOrderedSetMapping has innerMapping
+Iterator has limit
+Iterator has valuesLeft
+Iterator has currentValue
+Iterator has anchorKey
+TransactionContext has from
+TransactionContext has to
+TransactionContext has sender
+TransactionContext has fromHolderId
+TransactionContext has toHolderId
+TransactionContext has senderHolderId
+TransactionContext has balanceFrom
+TransactionContext has balanceTo
+TransactionContext has allowanceValue
+symbol contractOwner pendingContractOwner _contractOwner i token balance balance crates manager SET_IDENTIFIER ORDERED_SET_IDENTIFIER newCount index lastIndex lastValue index _destCount _toRemoveFromDest _idx _pointer _destValue _sourceCount valuesCount i result i result i store SET_IDENTIFIER ORDERED_SET_IDENTIFIER newCount index lastIndex lastValue index _destCount _toRemoveFromDest _idx _pointer _destValue _sourceCount valuesCount i result i result i localEventsHistory _eventsHistory _implementation store proxies platformBackend platformBackendProvider CHRONOBANK_PLATFORM_CRATE assetOwnerIdStorage assetTotalSupply assetName assetDescription assetIsReissuable assetBaseUnit assetPartowners assetWalletBalance assetWalletAllowance assetBlockNumber holdersCountStorage holdersAddressStorage holdersTrustStorage holderIndexStorage symbolsStorage proxiesStorage partownersStorage contractOwner CHRONOBANK_PLATFORM_CRATE c c c OK CHRONOBANK_PLATFORM_SCOPE CHRONOBANK_PLATFORM_PROXY_ALREADY_EXISTS CHRONOBANK_PLATFORM_CANNOT_APPLY_TO_ONESELF CHRONOBANK_PLATFORM_INVALID_VALUE CHRONOBANK_PLATFORM_INSUFFICIENT_BALANCE CHRONOBANK_PLATFORM_NOT_ENOUGH_ALLOWANCE CHRONOBANK_PLATFORM_ASSET_ALREADY_ISSUED CHRONOBANK_PLATFORM_CANNOT_ISSUE_FIXED_ASSET_WITH_INVALID_VALUE CHRONOBANK_PLATFORM_CANNOT_REISSUE_FIXED_ASSET CHRONOBANK_PLATFORM_SUPPLY_OVERFLOW CHRONOBANK_PLATFORM_NOT_ENOUGH_TOKENS CHRONOBANK_PLATFORM_INVALID_NEW_OWNER CHRONOBANK_PLATFORM_ALREADY_TRUSTED CHRONOBANK_PLATFORM_SHOULD_RECOVER_TO_NEW_ADDRESS CHRONOBANK_PLATFORM_ASSET_IS_NOT_ISSUED CHRONOBANK_PLATFORM_INVALID_INVOCATION version holderId managerId holderId holderId success txContext idx value txContext _proxy _holderId holderId creatorId txContext _totalSupply txContext txContext newOwnerId assetOwner oldOwner fromId _fromHolderId _fromRef _proxy txContext txContext 
+decimals totalSupply balanceOf transfer transferFrom approve allowance changeContractOwnership claimContractOwnership transferOwnership transferContractOwnership withdrawTokens withdrawEther transferEther isAllowed hasAccess setManager setUInt _setUInt getUInt setAddress _setAddress getAddress setBool _setBool getBool setInt _setInt getInt setUInt8 _setUInt8 getUInt8 setBytes32 _setBytes32 getBytes32 setAddressUInt8 _setAddressUInt8 getAddressUInt8 setString _setString getString sanityCheck init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set add add add add add add add add add add add add add add set set set remove remove remove remove remove remove remove remove remove remove remove remove remove remove copy copy copy get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get includes includes includes includes includes includes includes includes includes includes includes includes includes includes getIndex getIndex getIndex getIndex getIndex getIndex getIndex count count count count count count count count count count count count count count get get get get get get get get get get get get get get getNextValue getNextValue getNextValue getNextValue getPreviousValue getPreviousValue getPreviousValue getPreviousValue toBool toBytes32 toAddresses toUInt _setOrderedSetLink _deleteOrderedSetLink listIterator listIterator listIterator listIterator listIterator listIterator listIterator listIterator listIterator listIterator listIterator listIterator listIterator listIterator listIterator listIterator listIterator listIterator createIterator getNextWithIterator getNextWithIterator getNextWithIterator getNextWithIterator getNextWithIterator getNextWithIterator canGetNextWithIterator canGetNextWithIterator canGetNextWithIterator canGetNextWithIterator canGetNextWithIterator canGetNextWithIterator count sanityCheck init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init init set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set set add add add add add add add add add add add add add add set set set remove remove remove remove remove remove remove remove remove remove remove remove remove remove copy copy copy get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get get includes includes includes includes includes includes includes includes includes includes includes includes includes includes getIndex getIndex getIndex getIndex getIndex getIndex getIndex count count count count count count count count count count count count count count get get get get get get get get get get get get get get getNextValue getNextValue getNextValue getNextValue getPreviousValue getPreviousValue getPreviousValue getPreviousValue toBool toBytes32 toAddresses toUInt _setOrderedSetLink _deleteOrderedSetLink listIterator listIterator listIterator listIterator listIterator listIterator listIterator listIterator listIterator listIterator listIterator listIterator listIterator listIterator listIterator listIterator listIterator listIterator createIterator getNextWithIterator getNextWithIterator getNextWithIterator getNextWithIterator getNextWithIterator getNextWithIterator canGetNextWithIterator canGetNextWithIterator canGetNextWithIterator canGetNextWithIterator canGetNextWithIterator canGetNextWithIterator count _self getEventsHistory emitErrorCode _setEventsHistory _emitErrorCode emitTransfer emitIssue emitRevoke emitRevokeExternal emitOwnershipChange emitApprove emitRecovery  implementation symbols symbolsCount isCreated isOwner owner setProxy name totalSupply balanceOf allowance baseUnit description isReissuable blockNumber proxyTransferWithReference proxyTransferFromWithReference proxyApprove issueAsset issueAssetWithInitialReceiver reissueAsset reissueAssetToRecepient revokeAsset revokeAssetWithExternalReference hasAssetRights isDesignatedAssetManager changeOwnership updatePlatformBackend implementation mul div sub add emitTransfer emitApprove initStorage assets holdersCount holders symbols symbolsCount proxies partowners addPartOwner removePartOwner setupEventsHistory isCreated baseUnit name description isReissuable blockNumber owner isOwner hasAssetRights isDesignatedAssetManager totalSupply balanceOf _balanceOf _address addDesignatedAssetManager removeDesignatedAssetManager setProxy massTransfer _massTransferDirect _transferDirect _transfer _decrementWalletAllowance proxyTransferWithReference _proxyTransferEvent getHolderId _createHolderId _assetOwner stringToBytes32 issueAsset issueAssetWithInitialReceiver reissueAsset reissueAssetToRecepient _reissueAsset revokeAsset revokeAssetWithExternalReference _revokeAsset changeOwnership isTrusted trust distrust recover _approve proxyApprove proxyTransferFromWithReference allowance _allowance _emitter 
+Storage inherits from Owned StorageInterfaceContract inherits from StorageContractAdapter StorageInterfaceContract inherits from Storage MultiEventsHistoryAdapter inherits from EventsHistorySourceAdapter ChronoBankPlatformEmitter inherits from MultiEventsHistoryAdapter ChronoBankPlatformInterface inherits from ChronoBankPlatformEmitter ChronoBankPlatformBackendProvider inherits from Owned ChronoBankPlatformRouter inherits from BaseByzantiumRouter ChronoBankPlatformRouter inherits from ChronoBankPlatformRouterCore ChronoBankPlatformRouter inherits from ChronoBankPlatformEmitter ChronoBankPlatformRouter inherits from StorageAdapter ChronoBankPlatform inherits from ChronoBankPlatformRouterCore ChronoBankPlatform inherits from ChronoBankPlatformEmitter ChronoBankPlatform inherits from StorageInterfaceContract ChronoBankPlatform inherits from ChronoBankPlatformCore 
+onlyContractOwner onlyAllowed onlyOwner onlyDesignatedManager onlyOneOfContractOwners onlyProxy checkTrust onlyAfterBlock 
+Transfer Approval OwnershipTransferred ErrorCode Transfer Issue Revoke RevokeExternal OwnershipChange Approve Recovery 
+contractOwner is equal to msg sender
+If _to corresponds to 0x0
+pendingContractOwner is equal to _to
+If msg sender is different from pendingContractOwner
+contractOwner is equal to pendingContractOwner
+If newOwner corresponds to 0x0
+contractOwner is equal to newOwner
+i is less then tokens length
+If balance is greater then 0
+If balance is greater then 0
+If _value is greater then 
+manager is equal to _manager
+ is equal to _value
+ is equal to _value
+ is equal to _value
+ is equal to _value
+ is equal to _value
+ is equal to _value
+ is equal to AddressUInt8
+ is equal to _value
+If _currentId is different from 0 Invalid symbol 
+self store is equal to _store
+self crate is equal to _crate
+self id is equal to _id
+self id is equal to _id
+self id is equal to _id
+self id is equal to _id
+self id is equal to _id
+self id is equal to _id
+self id is equal to _id
+self id is equal to _id
+self id is equal to _id
+
+If _value corresponds to 0x0
+
+If count corresponds to 0x0
+If get is different from 0x0
+If 
+If 
+If index is less then lastIndex
+If 
+If _value corresponds to get
+If _value corresponds to get
+_idx is equal to 0
+_idx is less then _destCount
+If 
+ is equal to _destValue
+_idx is equal to 0
+_idx is less then _sourceCount
+_idx is equal to 0
+_idx is less then _pointer
+result is equal to get
+result is equal to 
+i is less then valuesCount
+ is equal to get
+i is less then self length
+ is equal to 
+i is less then self length
+ is equal to 
+If from is different from 0x0
+If from is different from 0x0
+If startValue corresponds to 0x0
+If 
+_nextValue is equal to iterator currentValue
+iterator currentValue is equal to getNextValue
+iterator valuesLeft decreases of 1
+If iterator valuesLeft corresponds to 0 Invalid symbol 
+If _currentId is different from 0 Invalid symbol 
+self crate is equal to _crate
+self id is equal to _id
+self id is equal to _id
+self id is equal to _id
+self id is equal to _id
+self id is equal to _id
+self id is equal to _id
+self id is equal to _id
+self id is equal to _id
+self id is equal to _id
+
+If _value corresponds to 0x0
+
+If count corresponds to 0x0
+If get is different from 0x0
+If 
+If 
+If index is less then lastIndex
+If 
+If _value corresponds to get
+If _value corresponds to get
+_idx is equal to 0
+_idx is less then _destCount
+If 
+ is equal to _destValue
+_idx is equal to 0
+_idx is less then _sourceCount
+_idx is equal to 0
+_idx is less then _pointer
+result is equal to get
+result is equal to 
+i is less then valuesCount
+ is equal to get
+i is less then self length
+ is equal to 
+i is less then self length
+ is equal to 
+If from is different from 0x0
+If from is different from 0x0
+If startValue corresponds to 0x0
+If 
+_nextValue is equal to iterator currentValue
+iterator currentValue is equal to getNextValue
+iterator valuesLeft decreases of 1
+If iterator valuesLeft corresponds to 0 Invalid symbol 
+localEventsHistory is equal to _eventsHistory
+platformBackend is equal to _updatedPlatformBackend
+contractOwner is equal to msg sender
+platformBackendProvider is equal to _platformBackendProvider
+_owner is equal to _assetOwner
+_totalSupply is equal to totalSupply
+_name is equal to name
+_description is equal to description
+_isReissuable is equal to isReissuable
+_baseUnit is equal to baseUnit
+_blockNumber is equal to blockNumber
+If proxies is different from 0x0
+txContext from is equal to msg sender
+txContext fromHolderId is equal to _createHolderId
+idx is less then addresses length Invalid symbol 
+If value corresponds to 0
+txContext balanceFrom is equal to _balanceOf
+If txContext balanceFrom is less then value
+If txContext from corresponds to 
+txContext toHolderId is equal to _createHolderId
+txContext balanceTo is equal to _balanceOf
+If txContext fromHolderId corresponds to txContext toHolderId
+If _value corresponds to 0
+txContext balanceFrom is equal to _balanceOf
+txContext balanceTo is equal to _balanceOf
+If txContext balanceFrom is less then _value
+txContext allowanceValue is equal to _allowance
+If txContext fromHolderId is different from txContext senderHolderId Invalid symbol 
+If txContext fromHolderId is different from txContext senderHolderId
+txContext sender is equal to _sender
+txContext to is equal to _to
+txContext from is equal to _sender
+txContext senderHolderId is equal to getHolderId
+txContext toHolderId is equal to _createHolderId
+txContext fromHolderId is equal to txContext senderHolderId
+If _proxy is different from 0x0
+If _holderId corresponds to 0
+_holderId is equal to holdersCount plus 1
+If _value corresponds to 0 Invalid symbol 
+
+txContext to is equal to _to
+If _value corresponds to 0
+If 
+If _totalSupply plus _value is less then _totalSupply
+txContext toHolderId is equal to _createHolderId
+txContext balanceTo is equal to _balanceOf
+txContext from is equal to msg sender
+txContext fromHolderId is equal to getHolderId
+_resultCode is equal to _revokeAsset
+If _resultCode is different from OK
+txContext from is equal to msg sender
+txContext fromHolderId is equal to getHolderId
+_resultCode is equal to _revokeAsset
+If _resultCode is different from OK
+If _value corresponds to 0
+txContext balanceFrom is equal to _balanceOf
+If txContext balanceFrom is less then _value
+txContext balanceFrom is equal to txContext balanceFrom sub
+If _newOwner corresponds to 0x0
+If assetOwner corresponds to newOwnerId
+If fromId corresponds to getHolderId
+
+If getHolderId is different from 0
+If 
+If txContext fromHolderId corresponds to txContext senderHolderId
+txContext allowanceValue is equal to _allowance
+If 
+If _proxy is different from 0x0
+txContext sender is equal to _spender
+txContext senderHolderId is equal to _createHolderId
+txContext from is equal to _sender
+txContext fromHolderId is equal to _createHolderId
+txContext sender is equal to _sender
+txContext to is equal to _to
+txContext from is equal to _from
+txContext toHolderId is equal to _createHolderId
+txContext fromHolderId is equal to getHolderId
+txContext senderHolderId is equal to 

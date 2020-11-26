@@ -1,0 +1,37 @@
+solidity ^0.5.10 
+IERC20 ERC20Detailed SafeMath ERC20 Roles MinterRole ERC20Mintable ERC20Capped ERC20Burnable Ownable TokenRecover OperatorRole BaseERC20Token CappedDelivery MintedCappedDelivery 
+SafeMath Roles Roles SafeMath 
+Role 
+Role has bearer
+_name _symbol _decimals c c c c _balances _allowances _totalSupply _minters _cap _owner _operators _mintingFinished _transferEnabled _token _cap _allowMultipleSend _distributedTokens _receivedTokens i account amount 
+totalSupply balanceOf transfer allowance approve transferFrom name symbol decimals add sub mul div mod totalSupply balanceOf transfer allowance approve transferFrom increaseAllowance decreaseAllowance _transfer _mint _burn _approve _burnFrom add remove has isMinter addMinter renounceMinter _addMinter _removeMinter mint cap _mint burn burnFrom owner isOwner renounceOwnership transferOwnership _transferOwnership recoverERC20 isOperator addOperator renounceOperator _addOperator _removeOperator mintingFinished transferEnabled mint transfer transferFrom finishMinting enableTransfer removeOperator removeMinter token cap allowMultipleSend distributedTokens receivedTokens remainingTokens multiSend _distributeTokens _distributeTokens 
+ERC20Detailed inherits from IERC20 ERC20 inherits from IERC20 ERC20Mintable inherits from ERC20 ERC20Mintable inherits from MinterRole ERC20Capped inherits from ERC20Mintable ERC20Burnable inherits from ERC20 TokenRecover inherits from Ownable BaseERC20Token inherits from ERC20Detailed BaseERC20Token inherits from ERC20Capped BaseERC20Token inherits from ERC20Burnable BaseERC20Token inherits from OperatorRole BaseERC20Token inherits from TokenRecover CappedDelivery inherits from TokenRecover MintedCappedDelivery inherits from CappedDelivery 
+onlyMinter onlyOwner onlyOperator canMint canTransfer 
+Transfer Approval MinterAdded MinterRemoved OwnershipTransferred OperatorAdded OperatorRemoved MintFinished TransferEnabled 
+_name is equal to name
+_symbol is equal to symbol
+_decimals is equal to decimals
+If a corresponds to 0
+ is equal to _balances sender sub
+ is equal to _balances recipient add
+_totalSupply is equal to _totalSupply add
+ is equal to _balances account add
+_totalSupply is equal to _totalSupply sub
+ is equal to _balances account sub
+ is equal to value
+ is equal to True
+ is equal to False
+_cap is equal to cap
+_owner is equal to msg sender
+_owner is equal to 
+_owner is equal to newOwner
+If initialSupply is greater then 0
+_mintingFinished is equal to True
+_transferEnabled is equal to True
+_token is equal to BaseERC20Token
+_cap is equal to cap
+_allowMultipleSend is equal to allowMultipleSend
+i is less then accounts length
+If _allowMultipleSend Invalid symbol  corresponds to 0
+ is equal to _receivedTokens account add
+_distributedTokens is equal to _distributedTokens add

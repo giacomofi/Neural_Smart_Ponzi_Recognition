@@ -1,0 +1,7 @@
+solidity >0.4.99<0.6.0 
+PostLike GetPostLike 
+postLikeCount liked postLikeContract results i 
+get 
+i is less then postIdxList length
+ is equal to postLikeContract postLikeCount
+ is equal to 

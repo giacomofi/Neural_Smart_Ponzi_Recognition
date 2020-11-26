@@ -1,0 +1,44 @@
+solidity ^0.4.25 
+SafeMath ForeignToken ERC20Basic ERC20 ILLUSION 
+SafeMath 
+totalSupply owner balances allowed Claimed name symbol decimals deadline round2 round1 totalSupply totalDistributed requestMinimum tokensPerEth target0drop progress0drop multisig distributionFinished teamFund i tokens bonus countbonus bonusCond1 bonusCond2 bonusCond3 investor valdrop t bal myAddress etherBalance wantAmount burner counter token amount 
+mul div sub add balanceOf transfer balanceOf transfer allowance transferFrom approve transferOwnership finishDistribution distr Distribute DistributeAirdrop DistributeAirdropMultiple updateTokensPerEth  getTokens balanceOf transfer transferFrom approve allowance getTokenBalance withdrawAll withdraw burn add withdrawForeignTokens 
+ERC20 inherits from ERC20Basic ILLUSION inherits from ERC20 
+canDistr onlyOwner onlyPayloadSize 
+Transfer Approval Transfer Approval Distr DistrFinished Airdrop TokensPerEthUpdated Burn Add 
+If a corresponds to 0
+c is equal to a multiplied by b
+c is equal to a plus b
+owner is equal to msg sender
+If newOwner is different from 
+owner is equal to newOwner
+distributionFinished is equal to True
+totalDistributed is equal to totalDistributed add
+ is equal to balances _to add
+ is equal to balances _participant add
+totalDistributed is equal to totalDistributed add
+If totalDistributed is greater or equal to totalSupply
+distributionFinished is equal to True
+i is less then _addresses length
+tokensPerEth is equal to _tokensPerEth
+tokens is equal to tokensPerEth mul divided by 1 ether
+If msg value is greater or equal to requestMinimum Invalid symbol  Invalid symbol  Invalid symbol 
+If msg value is greater or equal to bonusCond1 Invalid symbol 
+countbonus is equal to tokens multiplied by 10 divided by 100
+bonus is equal to tokens plus countbonus
+If tokens corresponds to 0
+If  corresponds to False Invalid symbol 
+ is equal to True
+If totalDistributed is greater or equal to totalSupply
+distributionFinished is equal to True
+ is equal to msg sender sub
+ is equal to balances _to add
+ is equal to balances _from sub
+ is equal to allowed _from msg sender sub
+ is equal to balances _to add
+If _value is different from 0 Invalid symbol 
+ is equal to _value
+ is equal to balances burner sub
+totalSupply is equal to totalSupply sub
+totalDistributed is equal to totalDistributed sub
+totalSupply is equal to counter

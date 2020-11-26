@@ -1,0 +1,45 @@
+solidity ^0.4.8 
+SafeMath ERC20Interface SPADLAND 
+c c c name symbol decimals totalSupply initialRate finalRate openingTime closingTime paused owner balanceOf freezeOf allowance 
+safeMul safeDiv safeSub safeAdd totalSupply balanceOf allowance transfer approve transferFrom transfer approve transferFrom burn mint freeze unfreeze withdrawEther totalSupply balanceOf allowance 
+SPADLAND inherits from SafeMath SPADLAND inherits from ERC20Interface 
+whenNotPaused whenPaused onlyOwner 
+Transfer Approval Transfer Burn Mint Freeze Unfreeze OwnershipTransferred 
+ is equal to initialSupply
+totalSupply is equal to initialSupply
+name is equal to tokenName
+symbol is equal to tokenSymbol
+decimals is equal to decimalUnits
+owner is equal to msg sender
+If _to corresponds to 0x0
+If _value is less or equal to 0
+If  is less then _value
+If  plus _value is less then 
+ is equal to SafeMath safeSub
+ is equal to SafeMath safeAdd
+If _value is less or equal to 0
+ is equal to _value
+If _to corresponds to 0x0
+If _value is less or equal to 0
+If  is less then _value
+If  plus _value is less then 
+If _value is greater then 
+ is equal to SafeMath safeSub
+ is equal to SafeMath safeAdd
+ is equal to SafeMath safeSub
+If  is less then _value
+If _value is less or equal to 0
+ is equal to SafeMath safeSub
+totalSupply is equal to SafeMath safeSub
+If _value is less or equal to 0
+ is equal to SafeMath safeAdd
+totalSupply is equal to SafeMath safeAdd
+If  is less then _value
+If _value is less or equal to 0
+ is equal to SafeMath safeSub
+ is equal to SafeMath safeAdd
+If  is less then _value
+If _value is less or equal to 0
+ is equal to SafeMath safeSub
+ is equal to SafeMath safeAdd
+If msg sender is different from owner

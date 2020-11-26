@@ -1,0 +1,45 @@
+solidity ^0.5.9 
+ERC20 OtcInterface WethInterface TradeEth2DAI 
+admin INVALID_ID COMMON_DECIMALS otc wethToken DAIToken dstAddress userTotalDestAmount prevId remainingAmount destAmount offerId i offerPayAmt offerBuyAmt offerId i srcToken dstToken offerBuyAmt offerPayAmt 
+totalSupply balanceOf transfer transferFrom approve allowance decimals getOffer getBestOffer getWorseOffer take deposit withdraw  tradeEthVsDAI getNextOffer takeOrders getNextBestOffer takeMatchingOffer getOrdersSellAmountInTokens 
+WethInterface inherits from ERC20 
+Approval TradeExecute 
+admin is equal to msg sender
+
+userTotalDestAmount is equal to takeOrders
+userTotalDestAmount is equal to takeOrders
+
+i is equal to numTraverseOrders
+i is greater then 0
+ is equal to getNextBestOffer
+i is equal to numTakeOrders
+i is greater then 0
+ is equal to getNextBestOffer
+destAmount is equal to takeMatchingOffer
+userTotalDestAmount increments of destAmount
+remainingAmount decreases of 
+If prevOfferId corresponds to INVALID_ID
+offerId is equal to otc getBestOffer
+offerId is equal to otc getWorseOffer
+ is equal to otc getOffer
+While payAmount is greater then offerBuyAmount
+offerId is equal to otc getWorseOffer
+If offerId corresponds to 0
+offerId is equal to 0
+offerPayAmount is equal to 0
+offerBuyAmount is equal to 0
+ is equal to otc getOffer
+ is equal to otc getOffer
+actualDestAmount is equal to srcAmount multiplied by offerPayAmt divided by offerBuyAmt
+offerPayAmtTokens is equal to 
+offerBuyAmtTokens is equal to 
+i is equal to 0
+i is less then firstOrderToCheck
+ is equal to getNextBestOffer
+If offerId corresponds to 0
+i is equal to 0
+i is less then numOrders
+ is equal to getNextBestOffer
+ is equal to offerBuyAmt divided by 10 Invalid symbol 18
+ is equal to offerPayAmt divided by 10 Invalid symbol 18
+If offerId corresponds to 0

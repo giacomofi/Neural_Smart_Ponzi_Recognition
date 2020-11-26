@@ -1,0 +1,69 @@
+solidity ^0.5.2 
+SafeMath Ownable IAdminTools IERC20 ERC20 IToken Token IFundingPanel IERC20Seed FundingPanel IFPDeployer FPDeployer 
+SafeMath SafeMath 
+contractsFeatures infoMember 
+contractsFeatures has permission
+contractsFeatures has tokenRateExchange
+infoMember has isInserted
+infoMember has disabled
+infoMember has memberURL
+infoMember has memberHash
+infoMember has burnedTokens
+infoMember has listPointer
+infoMember has memberUnlockedSeeds
+c c c c _owner _balances _allowances _totalSupply _name _symbol _decimals ATContract ATAddress STATUS_ALLOWED STATUS_DISALLOWED _paused contractsToImport holderBalanceToBe okToTransfer setDocURL setDocHash seedAddress seedToken token tokenAddress ATContract ATAddress exchRateDecimals exchangeRateOnTop exchangeRateSeed factoryDeployIndex seedMaxSupply totalSentSeed membersArray membersList amountInTokens holderBalanceToBe okToInvest memberPlace tmpStUp walletOnTop amount amountOnTop newTokenAmount holderBalanceToBe okToInvest fAddress c 
+add sub mul div mod owner isOwner renounceOwnership transferOwnership _transferOwnership setFFPAddresses setMinterAddress getMinterAddress getWalletOnTopAddress setWalletOnTopAddress addWLManagers removeWLManagers isWLManager addWLOperators removeWLOperators renounceWLManager isWLOperator renounceWLOperators addFundingManagers removeFundingManagers isFundingManager addFundingOperators removeFundingOperators renounceFundingManager isFundingOperator renounceFundingOperators addFundsUnlockerManagers removeFundsUnlockerManagers isFundsUnlockerManager addFundsUnlockerOperators removeFundsUnlockerOperators renounceFundsUnlockerManager isFundsUnlockerOperator renounceFundsUnlockerOperators isWhitelisted getWLThresholdBalance getMaxWLAmount getWLLength setNewThreshold changeMaxWLAmount addToWhitelist addToWhitelistMassive removeFromWhitelist totalSupply balanceOf transfer allowance approve transferFrom totalSupply balanceOf transfer allowance approve transferFrom increaseAllowance decreaseAllowance _transfer _mint _burn _approve _burnFrom name symbol decimals paused pause unpause isImportedContract getImportedContractRate setImportedContract checkTransferAllowed checkTransferFromAllowed checkMintAllowed checkBurnAllowed name symbol decimals paused pause unpause isImportedContract getImportedContractRate setImportedContract transfer transferFrom mint burn okToTransferTokens checkTransferAllowed checkTransferFromAllowed checkMintAllowed checkBurnAllowed getFactoryDeployIndex isMemberInserted addMemberToSet enableMember disableMemberByStaffRetire disableMemberByStaffForExit disableMemberByMember changeMemberData changeTokenExchangeRate changeTokenExchangeOnTopRate getOwnerData setOwnerData getMembersNumber getMemberAddressByIndex getMemberDataByAddress setNewSeedMaxSupply holderSendSeeds unlockFunds burnTokensForMember importOtherTokens name symbol decimals totalSupply balanceOf transfer approve transferFrom allowance getFactoryDeployIndex isMemberInserted addMemberToSet getMembersNumber enableMember disableMemberByStaffRetire disableMemberByStaffForExit disableMemberByMember changeMemberData changeTokenExchangeRate changeTokenExchangeOnTopRate getTokenExchangeAmount getTokenExchangeAmountOnTop getTokenAddress getOwnerData setOwnerData getMemberAddressByIndex getMemberDataByAddress setNewSeedMaxSupply holderSendSeeds unlockFunds burnTokensForMember importOtherTokens newFundingPanel setFactoryAddress getFactoryAddress setFactoryAddress getFactoryAddress newFundingPanel 
+ERC20 inherits from IERC20 Token inherits from IToken Token inherits from ERC20 Token inherits from Ownable FundingPanel inherits from Ownable FundingPanel inherits from IFundingPanel FPDeployer inherits from Ownable FPDeployer inherits from IFPDeployer 
+onlyOwner onlyMinterAddress whenNotPaused whenPaused onlyMemberEnabled whitelistedOnly holderEnabledInSeeds onlyFundingOperators onlyFundsUnlockerOperators onlyFactory 
+OwnershipTransferred Transfer Approval Paused Unpaused Transfer Approval MemberAdded MemberEnabled MemberDisabled MemberDisabledByMember MemberDataChanged TokenExchangeRateChanged TokenExchangeOnTopRateChanged TokenExchangeDecimalsChanged OwnerDataChanged NewSeedMaxSupplyChanged MintedToken FundsUnlocked TokensBurnedForMember MintedImportedToken FundingPanelDeployed 
+If a corresponds to 0
+_owner is equal to msg sender
+_owner is equal to 
+_owner is equal to newOwner
+ is equal to _balances sender sub
+ is equal to _balances recipient add
+_totalSupply is equal to _totalSupply add
+ is equal to _balances account add
+_totalSupply is equal to _totalSupply sub
+ is equal to _balances account sub
+ is equal to value
+_name is equal to name
+_symbol is equal to symbol
+_decimals is equal to 18
+ATAddress is equal to _ATAddress
+ATContract is equal to IAdminTools
+_paused is equal to False
+_paused is equal to True
+_paused is equal to False
+contractsToImport _contract permission is equal to True
+contractsToImport _contract tokenRateExchange is equal to _exchRate
+setDocURL is equal to _setDocURL
+setDocHash is equal to _setDocHash
+exchangeRateSeed is equal to _exchRateSeed
+exchangeRateOnTop is equal to _exchRateOnTop
+exchRateDecimals is equal to 18
+factoryDeployIndex is equal to _deployIndex
+seedMaxSupply is equal to _seedMaxSupply
+tokenAddress is equal to _tokenAddress
+ATAddress is equal to _ATAddress
+seedAddress is equal to _seedTokenAddress
+seedToken is equal to IERC20Seed
+token is equal to Token
+ATContract is equal to IAdminTools
+ is equal to tmpStUp
+membersArray _memberAddress disabled is equal to 0
+membersArray _memberAddress disabled is equal to 2
+membersArray _memberAddress disabled is equal to 1
+membersArray _memberAddress disabled is equal to 3
+membersArray _memberAddress memberURL is equal to newURL
+membersArray _memberAddress memberHash is equal to newHash
+exchangeRateSeed is equal to newExchRate
+exchangeRateOnTop is equal to newExchRate
+setDocURL is equal to _dataURL
+setDocHash is equal to _dataHash
+seedMaxSupply is equal to _newMaxSeedSupply
+totalSentSeed is equal to totalSentSeed add
+If amountOnTop is greater then 0
+membersArray memberWallet memberUnlockedSeeds is equal to membersArray memberWallet memberUnlockedSeeds add
+membersArray memberWallet burnedTokens is equal to membersArray memberWallet burnedTokens add
+fAddress is equal to _fAddress

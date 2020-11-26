@@ -1,0 +1,11 @@
+Ownable EthNote 
+_owner notes 
+owner isOwner renounceOwnership transferOwnership _transferOwnership setNote setNoteOwner getNote 
+EthNote inherits from Ownable 
+onlyOwner 
+OwnershipTransferred Note 
+_owner is equal to msg sender
+_owner is equal to 
+_owner is equal to newOwner
+ is equal to note
+ is equal to note

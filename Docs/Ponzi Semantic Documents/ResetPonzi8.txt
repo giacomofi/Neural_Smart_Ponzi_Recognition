@@ -1,0 +1,23 @@
+ResetPonzi 
+Person NiceGuy 
+Person has addr
+NiceGuy has addr2
+persons niceGuys payoutIdx currentNiceGuyIdx investor currentNiceGuy ngidx idx 
+ResetPonzi  enter 
+currentNiceGuy is equal to msg sender
+If msg value is different from 9 ether
+If investor is greater then 8
+niceGuys length increments of 1
+niceGuys ngidx addr2 is equal to msg sender
+If investor corresponds to 10
+currentNiceGuy is equal to niceGuys currentNiceGuyIdx addr2
+currentNiceGuyIdx increments of 1
+If investor is less then 9
+persons length increments of 1
+persons idx addr is equal to msg sender
+investor increments of 1
+If investor corresponds to 11
+investor is equal to 0
+If idx is different from 0
+While this balance is greater then 10 ether
+payoutIdx increments of 1

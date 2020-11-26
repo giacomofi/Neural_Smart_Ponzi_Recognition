@@ -1,0 +1,19 @@
+solidity >=0.4.21<0.6.0 
+TransferableToken TokenClaimer SafeMath ERC20TokenBankInterface ERC20Payment ERC20PaymentFactory 
+SafeMath 
+token balance payment_info bank account total_amount remain old addr 
+balanceOf transfer transferFrom _claimStdTokens safeAdd safeSub safeMul safeDiv balance token issue change_token_bank bank_balance bank_token claim_payment newPayment 
+only_owner 
+ClaimedTokens ClaimedPayment ChangedBank CreateERC20Payment 
+If _token corresponds to 
+c is equal to a plus b
+c is equal to a minus b
+c is equal to a multiplied by b
+c is equal to a divided by b
+payment_info is equal to _info
+bank is equal to ERC20TokenBankInterface
+account is equal to _account
+total_amount is equal to _amount
+remain is equal to _amount
+bank is equal to ERC20TokenBankInterface
+remain is equal to remain safeSub

@@ -1,0 +1,52 @@
+solidity ^0.4.24 
+ERC20Basic ERC20 DetailedERC20 Ownable SafeMath BasicToken ERC20Token BurnableToken TokenLock Berry 
+SafeMath SafeMath SafeMath SafeMath 
+TokenLockInfo TokenLockState 
+TokenLockInfo has amount
+TokenLockInfo has time
+TokenLockState has latestReleaseTime
+TokenLockState has tokenLocks
+name symbol note decimals owner admin c c c balances _totalSupply allowed oldValue INVALID_TOKEN_VALUES NOT_ENOUGH_TOKENS transferEnabled noTokenLocked lockingStates addresslock lockbalances i a t lockSum lockState lockState symbol name note decimals TOTAL_SUPPLY oldAdmin after_math 
+totalSupply balanceOf transfer allowance transferFrom approve transferOwnership setAdmin mul div sub add totalSupply transfer balanceOf approve allowance increaseApproval decreaseApproval burn addressburn mint unlockAllTokens enableTransfer getMinLockedAmount lockVolumeAddress addTokenLockDate addTokenLock addressLockTransfer setAdmin canTransferIfLocked LockTransferAddress transfer transferFrom  
+ERC20 inherits from ERC20Basic DetailedERC20 inherits from ERC20 BasicToken inherits from ERC20Basic ERC20Token inherits from BasicToken ERC20Token inherits from ERC20 BurnableToken inherits from BasicToken BurnableToken inherits from Ownable TokenLock inherits from Ownable Berry inherits from BurnableToken Berry inherits from DetailedERC20 Berry inherits from ERC20Token Berry inherits from TokenLock 
+onlyOwner onlyOwnerOrAdmin canTransfer onlyValidDestination 
+Transfer Approval OwnershipTransferred Burn Mint AddressBurn AddTokenLockDate AddTokenLock AddressLockTransfer Approval 
+name is equal to _name
+symbol is equal to _symbol
+note is equal to _note
+decimals is equal to _decimals
+owner is equal to msg sender
+owner is equal to newOwner
+admin is equal to newAdmin
+If a corresponds to 0 Invalid symbol 
+ is equal to msg sender sub
+ is equal to balances _to add
+ is equal to _value
+ is equal to msg sender _spender add
+If _subtractedValue is greater or equal to oldValue
+ is equal to 0
+ is equal to oldValue sub
+ is equal to msg sender sub
+_totalSupply is equal to _totalSupply sub
+ is equal to balances _of sub
+_totalSupply is equal to _totalSupply sub
+ is equal to msg sender add
+_totalSupply is equal to _totalSupply add
+noTokenLocked is equal to True
+transferEnabled is equal to _enable
+If lockState latestReleaseTime is less then now
+i is equal to 0
+i is less then lockState tokenLocks length
+a is equal to  i amount
+t is equal to  i time
+If t is greater then now
+lockSum is equal to lockSum add
+If _release_time is greater then lockState latestReleaseTime
+lockState latestReleaseTime is equal to _release_time
+ is equal to _value
+ is equal to _enable
+_totalSupply is equal to TOTAL_SUPPLY
+ is equal to _totalSupply
+ is equal to balances _from sub
+ is equal to balances _to add
+ is equal to allowed _from msg sender sub

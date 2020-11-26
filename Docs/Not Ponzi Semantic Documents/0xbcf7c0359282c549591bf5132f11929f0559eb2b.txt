@@ -1,0 +1,36 @@
+solidity ^0.5.8 solidity ^0.5.8 
+Ownable ECDSA RLPReader EquivocationInspector DepositLockerInterface ValidatorSlasher 
+RLPReader RLPReader 
+RLPItem 
+RLPItem has len
+RLPItem has memPtr
+owner r s v STRING_SHORT_START STRING_LONG_START LIST_SHORT_START LIST_LONG_START WORD_SIZE memPtr items memPtr dataLen i byte0 memPtr count currPtr endPtr byte0 byte0 result ptr result memPtr offset len result memPtr result memPtr offset len result destPtr mask STEP_DURATION hash hashOne hashTwo blockOne blockTwo stepOne stepTwo initialized depositContract validator 
+transferOwnership recover toEthSignedMessageHash toRlpItem rlpLen payloadLen toList isList numItems _itemLength _payloadOffset toRlpBytes toBoolean toAddress toUint toUintStrict toBytes copy getSignerAddress verifyEquivocationProof slash  init reportMaliciousValidator 
+ValidatorSlasher inherits from Ownable 
+onlyOwner 
+owner is equal to msg sender
+If newOwner is different from 
+owner is equal to newOwner
+If signature length is different from 65
+If v is less then 27
+v increments of 27
+If v is different from 27 Invalid symbol 
+result is equal to 
+i is less then items
+dataLen is equal to _itemLength
+ is equal to RLPItem
+memPtr is equal to memPtr plus dataLen
+If item len corresponds to 0
+If byte0 is less then LIST_SHORT_START
+If item len corresponds to 0
+While currPtr is less then endPtr
+currPtr is equal to currPtr plus _itemLength
+If byte0 is less then STRING_SHORT_START
+If byte0 is less then STRING_SHORT_START
+If result length corresponds to 0
+If len corresponds to 0
+len is greater or equal to WORD_SIZE
+src increments of WORD_SIZE
+dest increments of WORD_SIZE
+depositContract is equal to DepositLockerInterface
+initialized is equal to True

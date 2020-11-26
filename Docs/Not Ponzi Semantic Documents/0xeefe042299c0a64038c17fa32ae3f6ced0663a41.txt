@@ -1,0 +1,13 @@
+solidity ^0.6.1 
+SafeMath Context ERC20Interface StandardToken HiveNetToken 
+SafeMath SafeMath 
+c c c c _balances _allowances _totalSupply _name _symbol _decimals 
+add sub sub mul div div mod mod _msgSender _msgData totalSupply balanceOf transfer allowance approve transferFrom totalSupply balanceOf transfer allowance approve transferFrom increaseAllowance decreaseAllowance _transfer _approve _beforeTokenTransfer name symbol decimals 
+StandardToken inherits from Context StandardToken inherits from ERC20Interface HiveNetToken inherits from ERC20Interface HiveNetToken inherits from StandardToken 
+Transfer Approval 
+If a corresponds to 0
+ is equal to _balances _sender sub
+ is equal to _balances _recipient add
+ is equal to _amount
+_totalSupply is equal to 700000000000000000000000000
+ is equal to _totalSupply

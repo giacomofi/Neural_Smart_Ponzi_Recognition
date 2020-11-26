@@ -1,0 +1,13 @@
+solidity 0.5.16 
+Context Ownable Registry 
+_owner msgSender handlers DEPRECATED 
+_msgSender _msgData owner isOwner renounceOwnership transferOwnership _transferOwnership register unregister isValid getInfo 
+Ownable inherits from Context Registry inherits from Ownable 
+onlyOwner 
+OwnershipTransferred 
+_owner is equal to msgSender
+_owner is equal to 
+_owner is equal to newOwner
+ is equal to info
+ is equal to DEPRECATED
+If  corresponds to 0 Invalid symbol 

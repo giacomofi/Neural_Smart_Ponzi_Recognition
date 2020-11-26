@@ -1,0 +1,28 @@
+solidity ^0.4.19 
+owned tokenRecipient TokenERC20 SkeyerCoin 
+owner name symbol decimals totalSupply balanceOf allowance previousBalances spender sellPrice buyPrice frozenAccount amount 
+owned transferOwnership receiveApproval TokenERC20 _transfer transfer transferFrom approve approveAndCall burn burnFrom SkeyerCoin _transfer freezeAccount setPrices buy sell 
+SkeyerCoin inherits from owned SkeyerCoin inherits from TokenERC20 
+onlyOwner 
+Transfer Burn FrozenFunds 
+owner is equal to msg sender
+owner is equal to newOwner
+totalSupply is equal to initialSupply multiplied by 10 Invalid symbol 
+ is equal to totalSupply
+name is equal to tokenName
+symbol is equal to tokenSymbol
+ decreases of _value
+ increments of _value
+ decreases of _value
+ is equal to _value
+
+ decreases of _value
+totalSupply decreases of _value
+ decreases of _value
+ decreases of _value
+totalSupply decreases of _value
+ decreases of _value
+ increments of _value
+ is equal to freeze
+sellPrice is equal to newSellPrice
+buyPrice is equal to newBuyPrice

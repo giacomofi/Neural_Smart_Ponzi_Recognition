@@ -1,0 +1,17 @@
+solidity ^0.5.2 solidity ^0.5.2 solidity ^0.5.2 solidity ^0.5.2 solidity ^0.5.2 
+SafeMath Secondary Escrow ConditionalEscrow RefundEscrow 
+SafeMath 
+c c c c _primary _deposits amount payment _state _beneficiary 
+mul div sub add mod primary transferPrimary depositsOf deposit withdraw withdrawalAllowed withdraw state beneficiary deposit close enableRefunds beneficiaryWithdraw withdrawalAllowed 
+Escrow inherits from Secondary ConditionalEscrow inherits from Escrow RefundEscrow inherits from ConditionalEscrow 
+onlyPrimary 
+PrimaryTransferred Deposited Withdrawn RefundsClosed RefundsEnabled 
+If a corresponds to 0
+_primary is equal to msg sender
+_primary is equal to recipient
+ is equal to _deposits payee add
+ is equal to 0
+_beneficiary is equal to beneficiary
+_state is equal to State Active
+_state is equal to State Closed
+_state is equal to State Refunding

@@ -1,0 +1,187 @@
+solidity 0.4.24 
+Ownable SafeMath8 SafeMath16 SafeMath ERC165 SupportsInterfaceWithLookup ERC721Basic ERC721Enumerable ERC721Metadata ERC721 ERC721Receiver AddressUtils Azimuth ReadsAzimuth Polls Claims EclipticBase Ecliptic DelegatedSending 
+SafeMath SafeMath16 SafeMath8 SafeMath AddressUtils 
+Point Deed Poll Claim 
+Point has encryptionKey
+Point has authenticationKey
+Point has spawned
+Point has hasSponsor
+Point has active
+Point has escapeRequested
+Point has sponsor
+Point has escapeRequestedTo
+Point has cryptoSuiteVersion
+Point has keyRevisionNumber
+Point has continuityNumber
+Deed has owner
+Deed has managementProxy
+Deed has spawnProxy
+Deed has votingProxy
+Deed has transferProxy
+Poll has start
+Poll has voted
+Poll has yesVotes
+Poll has noVotes
+Poll has duration
+Poll has cooldown
+Claim has protocol
+Claim has claim
+Claim has dossier
+owner c c c c c c InterfaceId_ERC165 supportedInterfaces InterfaceId_ERC721 InterfaceId_ERC721Exists InterfaceId_ERC721Enumerable InterfaceId_ERC721Metadata ERC721_RECEIVED size points rights operators dnsDomains sponsoring sponsoringIndexes escapeRequests escapeRequestsIndexes pointsOwnedBy pointOwnerIndexes managerFor managerForIndexes spawningFor spawningForIndexes votingFor votingForIndexes transferringFor transferringForIndexes point point len point point point point point prefix point point request point point had prev i prevSponsoring last moved newSponsoring point was prev i prevRequests last moved newRequests owned deed deed deed deed prev i owner last moved deed prev i prevMfor last moved mfor deed prev i prevSfor last moved sfor deed prev i prevVfor last moved vfor deed prev i prevTfor last moved tfor azimuth pollDuration pollCooldown totalVoters upgradeProposals upgradePolls upgradeHasAchievedMajority documentProposals documentPolls documentHasAchievedMajority documentMajorities poll poll poll poll poll poll maxClaims claims cur empty i currClaims i protocolHash claimHash theirClaims i thisClaim theirClaims i thisClaim polls previousEcliptic erc721Received claims id retval id _tokenURIBytes prefix old size pointSize sponsorSize owner majority majority pools fromPool poolStars poolStarsRegistered inviters isInviter invited invitedBy pool prefix prefix pool 
+renounceOwnership transferOwnership _transferOwnership mul div sub add mul div sub add mul div sub add supportsInterface supportsInterface _registerInterface balanceOf ownerOf exists approve getApproved setApprovalForAll isApprovedForAll transferFrom safeTransferFrom safeTransferFrom totalSupply tokenOfOwnerByIndex tokenByIndex name symbol tokenURI onERC721Received isContract setDnsDomains isActive getKeys getKeyRevisionNumber hasBeenLinked isLive getContinuityNumber getSpawnCount getSpawned hasSponsor getSponsor isSponsor getSponsoringCount getSponsoring isEscaping getEscapeRequest isRequestingEscapeTo getEscapeRequestsCount getEscapeRequests activatePoint setKeys incrementContinuityNumber registerSpawned loseSponsor setEscapeRequest cancelEscape doEscape getPrefix getPointSize registerSponsor registerEscapeRequest getOwner isOwner getOwnedPointCount getOwnedPoints getOwnedPointAtIndex getManagementProxy isManagementProxy canManage getManagerForCount getManagerFor getSpawnProxy isSpawnProxy canSpawnAs getSpawningForCount getSpawningFor getVotingProxy isVotingProxy canVoteAs getVotingForCount getVotingFor getTransferProxy isTransferProxy canTransfer getTransferringForCount getTransferringFor isOperator setOwner setManagementProxy setSpawnProxy setVotingProxy setTransferProxy setOperator reconfigure incrementTotalVoters getUpgradeProposals getUpgradeProposalCount getDocumentProposals getDocumentProposalCount getDocumentMajorities hasVotedOnUpgradePoll hasVotedOnDocumentPoll startUpgradePoll startDocumentPoll startPoll castUpgradeVote castDocumentVote processVote updateUpgradePoll updateDocumentPoll checkPollMajority addClaim removeClaim clearClaims findClaim findEmptySlot onUpgrade upgrade balanceOf ownerOf exists safeTransferFrom safeTransferFrom transferFrom approve setApprovalForAll getApproved isApprovedForAll name symbol tokenURI configureKeys spawn doSpawn transferPoint escape cancelEscape adopt reject detach getSpawnLimit canEscapeTo setManagementProxy setSpawnProxy setVotingProxy setTransferProxy startUpgradePoll startDocumentPoll castUpgradeVote castDocumentVote updateUpgradePoll updateDocumentPoll createGalaxy setDnsDomains setPoolSize sendPoint canSend getPool canReceive getPoolStars getInviters getInvited 
+SupportsInterfaceWithLookup inherits from ERC165 ERC721Basic inherits from ERC165 ERC721Enumerable inherits from ERC721Basic ERC721Metadata inherits from ERC721Basic ERC721 inherits from ERC721Basic ERC721 inherits from ERC721Enumerable ERC721 inherits from ERC721Metadata Azimuth inherits from Ownable Polls inherits from Ownable Claims inherits from ReadsAzimuth EclipticBase inherits from Ownable EclipticBase inherits from ReadsAzimuth Ecliptic inherits from EclipticBase Ecliptic inherits from SupportsInterfaceWithLookup Ecliptic inherits from ERC721Metadata DelegatedSending inherits from ReadsAzimuth 
+onlyOwner activePointOwner activePointManager validPointId activePointVoter 
+OwnershipRenounced OwnershipTransferred Transfer Approval ApprovalForAll OwnerChanged Activated Spawned EscapeRequested EscapeCanceled EscapeAccepted LostSponsor ChangedKeys BrokeContinuity ChangedSpawnProxy ChangedTransferProxy ChangedManagementProxy ChangedVotingProxy ChangedDns UpgradePollStarted DocumentPollStarted UpgradeMajority DocumentMajority ClaimAdded ClaimRemoved Upgraded Transfer Approval ApprovalForAll Pool Sent 
+owner is equal to msg sender
+owner is equal to 
+owner is equal to _newOwner
+If _a corresponds to 0
+c is equal to _a multiplied by _b
+c is equal to _a plus _b
+ is equal to True
+ is equal to _primary
+ is equal to _secondary
+ is equal to _tertiary
+point active is equal to True
+If point encryptionKey corresponds to _encryptionKey Invalid symbol  Invalid symbol 
+point encryptionKey is equal to _encryptionKey
+point authenticationKey is equal to _authenticationKey
+point cryptoSuiteVersion is equal to _cryptoSuiteVersion
+If prefix corresponds to _point
+If 
+
+If 
+If _point is less then 0x10000
+If _point is less then 0x100
+If _point is less then 0x10000
+If  Invalid symbol 
+
+ is equal to moved
+ is equal to i plus 1
+prevSponsoring length is equal to last
+ is equal to 0
+
+ is equal to newSponsoring length
+point sponsor is equal to _sponsor
+point hasSponsor is equal to _hasSponsor
+If  Invalid symbol 
+
+ is equal to moved
+ is equal to i plus 1
+prevRequests length is equal to last
+ is equal to 0
+
+ is equal to newRequests length
+point escapeRequestedTo is equal to _sponsor
+point escapeRequested is equal to _isEscaping
+If prev corresponds to _owner
+If 0x0 is different from prev
+ is equal to moved
+ is equal to i plus 1
+owner length is equal to last
+ is equal to 0
+rights _point owner is equal to _owner
+ is equal to pointsOwnedBy _owner length
+If prev corresponds to _proxy
+If 0x0 is different from prev
+ is equal to moved
+ is equal to i plus 1
+prevMfor length is equal to last
+ is equal to 0
+If 0x0 is different from _proxy
+ is equal to mfor length
+deed managementProxy is equal to _proxy
+If prev corresponds to _proxy
+If 0x0 is different from prev
+ is equal to moved
+ is equal to i plus 1
+prevSfor length is equal to last
+ is equal to 0
+If 0x0 is different from _proxy
+ is equal to sfor length
+deed spawnProxy is equal to _proxy
+If prev corresponds to _proxy
+If 0x0 is different from prev
+ is equal to moved
+ is equal to i plus 1
+prevVfor length is equal to last
+ is equal to 0
+If 0x0 is different from _proxy
+ is equal to vfor length
+deed votingProxy is equal to _proxy
+If prev corresponds to _proxy
+If 0x0 is different from prev
+ is equal to moved
+ is equal to i plus 1
+prevTfor length is equal to last
+ is equal to 0
+If 0x0 is different from _proxy
+ is equal to tfor length
+deed transferProxy is equal to _proxy
+ is equal to _approved
+azimuth is equal to _azimuth
+pollDuration is equal to _pollDuration
+pollCooldown is equal to _pollCooldown
+totalVoters is equal to totalVoters add
+If 0 corresponds to poll start
+If 0 corresponds to poll start
+_poll start is equal to block timestamp
+_poll yesVotes is equal to 0
+_poll noVotes is equal to 0
+_poll duration is equal to pollDuration
+_poll cooldown is equal to pollCooldown
+ is equal to True
+
+_poll yesVotes is equal to _poll yesVotes add
+_poll noVotes is equal to _poll noVotes add
+majority is equal to checkPollMajority
+
+ is equal to True
+majority is equal to checkPollMajority
+
+ is equal to True
+If cur corresponds to 0
+ is equal to Claim
+ is equal to Claim
+i is less then maxClaims
+i is less then maxClaims
+If  Invalid symbol 
+i is less then maxClaims
+If  Invalid symbol 
+previousEcliptic is equal to _previous
+polls is equal to _polls
+claims is equal to _claims
+
+_tokenURI is equal to https://azimuth.network/erc721/0000000000.json
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+
+If msg sender corresponds to _target
+
+If 
+If 
+
+
+If size corresponds to Azimuth Size Galaxy
+If 
+
+
+If msg sender corresponds to _target
+ is equal to 0
+ is equal to _size
+If False corresponds to 
+ is equal to True
+If False corresponds to 
+ is equal to True
+ is equal to pool
+ is equal to _as
+pool is equal to 
+If 0 corresponds to pool

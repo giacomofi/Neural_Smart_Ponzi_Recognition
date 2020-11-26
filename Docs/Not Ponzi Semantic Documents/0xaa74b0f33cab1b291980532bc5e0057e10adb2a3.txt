@@ -1,0 +1,5 @@
+solidity 0.6.5 experimental ABIEncoderV2 
+ERC20 ProtocolAdapter CompoundAssetAdapter 
+override override 
+balanceOf adapterType tokenType getBalance getBalance 
+CompoundAssetAdapter inherits from ProtocolAdapter 

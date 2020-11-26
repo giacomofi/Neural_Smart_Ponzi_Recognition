@@ -1,0 +1,43 @@
+solidity >=0.4.25<6.0 
+Address SafeMath GGCoin 
+length c c c c name symbol decimals entryFee_ transferFee_ exitFee_ refferalFee_ tokenPriceInitial_ tokenPriceIncremental_ magnitude stakingRequirement tokenBalanceLedger_ referralBalance_ payoutsTo_ tokenSupply_ profitPerShare_ _dividends _customerAddress _tokens _customerAddress _tokens _customerAddress _dividends _customerAddress _tokens _ethereum _dividends _taxedEthereum _updatedPayouts _customerAddress _tokenFee _taxedTokens _dividends _customerAddress _customerAddress _ethereum _dividends _taxedEthereum _ethereum _dividends _taxedEthereum _dividends _taxedEthereum _amountOfTokens _ethereum _dividends _taxedEthereum _customerAddress _undividedDividends _referralBonus _dividends _taxedEthereum _amountOfTokens _fee _updatedPayouts _tokenPriceInitial _tokensReceived tokens_ _tokenSupply _etherReceived z 
+toAddress isNotContract mul div sub add mod buy  reinvest exit withdraw sell transfer totalEthereumBalance totalSupply myTokens myDividends balanceOf dividendsOf sellPrice buyPrice calculateTokensReceived calculateEthereumReceived purchaseTokens ethereumToTokens_ tokensToEthereum_ sqrt 
+onlyBagholders onlyStronghands 
+onTokenPurchase onTokenSell onReinvestment onWithdraw Transfer 
+If a corresponds to 0
+ increments of 
+_dividends increments of 
+ is equal to 0
+If _tokens is greater then 0
+ increments of 
+_dividends increments of 
+ is equal to 0
+tokenSupply_ is equal to SafeMath sub
+ is equal to SafeMath sub
+ decreases of _updatedPayouts
+If tokenSupply_ is greater then 0
+profitPerShare_ is equal to SafeMath add
+If myDividends is greater then 0
+tokenSupply_ is equal to SafeMath sub
+ is equal to SafeMath sub
+ is equal to SafeMath add
+ decreases of 
+ increments of 
+profitPerShare_ is equal to SafeMath add
+If tokenSupply_ corresponds to 0
+If tokenSupply_ corresponds to 0
+If _referredBy is different from 0x0000000000000000000000000000000000000000 Invalid symbol  Invalid symbol 
+ is equal to SafeMath add
+_dividends is equal to SafeMath add
+_fee is equal to _dividends multiplied by magnitude
+If tokenSupply_ is greater then 0
+tokenSupply_ is equal to SafeMath add
+profitPerShare_ increments of 
+_fee is equal to _fee minus 
+tokenSupply_ is equal to _amountOfTokens
+ is equal to SafeMath add
+ increments of _updatedPayouts
+y is equal to x
+While z is less then y
+y is equal to z
+z is equal to  divided by 2

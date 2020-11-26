@@ -1,0 +1,60 @@
+solidity ^0.5.2 experimental "ABIEncoderV2" solidity 0.5.7 solidity 0.5.7 solidity 0.5.7 solidity 0.5.7 solidity 0.5.7 solidity 0.5.7 solidity 0.5.7 solidity 0.5.7 solidity 0.5.7 solidity 0.5.7 
+SafeMath CommonMath IERC20 ERC20Wrapper ICore ExchangeWrapperLibraryV2 IExchangeWrapper LibBytes ExchangeWrapperLibrary KyberNetworkProxyInterface KyberNetworkWrapper 
+SafeMath LibBytes LibBytes SafeMath 
+ExchangeData ExchangeResults ExchangeData ExchangeResults KyberTrade 
+ExchangeData has caller
+ExchangeData has orderCount
+ExchangeResults has receiveTokens
+ExchangeResults has receiveTokenAmounts
+ExchangeData has caller
+ExchangeData has orderCount
+ExchangeResults has receiveTokens
+ExchangeResults has receiveTokenAmounts
+KyberTrade has destinationToken
+KyberTrade has sourceToken
+KyberTrade has sourceTokenQuantity
+KyberTrade has minimumConversionRate
+KyberTrade has maxDestinationQuantity
+c c c c SCALE_FACTOR MAX_UINT_256 result i previousResult remainder errPercentageTimes1000000 x result currentAllowance returnValue i remainderSendToken exchangeResults core kyberNetworkProxy setTransferProxy KYBER_TRADE_LENGTH rateCount expectedRates slippageRates i tradesCount sendTokens receiveTokens receiveTokensAmounts i trade destinationTokenQuantity trade tradeDataStart 
+mul div sub add mod scaleFactor maxUInt256 scale deScale safePower divCeil getPartialAmount ceilLog10 balanceOf allowance transfer transferFrom approve totalSupply balanceOf allowance transfer transferFrom approve ensureAllowance checkSuccess transferProxy vault exchangeIds validSets validModules validPriceLibraries issue issueTo issueInVault redeem redeemTo redeemInVault redeemAndWithdrawTo batchDeposit batchWithdraw deposit withdraw internalTransfer createSet depositModule withdrawModule batchDepositModule batchWithdrawModule issueModule redeemModule batchIncrementTokenOwnerModule batchDecrementTokenOwnerModule batchTransferBalanceModule transferModule batchTransferModule exchange contentAddress readBytes4 readBytes32 memCopy slice returnLeftoverSendTokens callExchange getExpectedRate trade conversionRate exchange tradeOnKyberReserve parseKyberTrade 
+If a corresponds to 0
+i is less then pow
+result is equal to previousResult mul
+If remainder corresponds to 0
+If _value corresponds to 1
+If x is greater or equal to 10 Invalid symbol 64
+x is divided by 10 Invalid symbol 64
+result increments of 64
+If x is greater or equal to 10 Invalid symbol 32
+x is divided by 10 Invalid symbol 32
+result increments of 32
+If x is greater or equal to 10 Invalid symbol 16
+x is divided by 10 Invalid symbol 16
+result increments of 16
+If x is greater or equal to 10 Invalid symbol 8
+x is divided by 10 Invalid symbol 8
+result increments of 8
+If x is greater or equal to 10 Invalid symbol 4
+x is divided by 10 Invalid symbol 4
+result increments of 4
+If x is greater or equal to 100
+x is divided by 100
+result increments of 2
+If x is greater or equal to 10
+result increments of 1
+If currentAllowance is less then _quantity
+index increments of 32
+If length is less then 32
+If source corresponds to dest
+If source is greater then dest
+result is equal to 
+i is less then _sendTokens length
+If remainderSendToken is greater then 0
+core is equal to _core
+kyberNetworkProxy is equal to _kyberNetworkProxy
+setTransferProxy is equal to _setTransferProxy
+i is less then rateCount
+ is equal to 
+i is less then tradesCount
+ is equal to trade sourceToken
+ is equal to tradeOnKyberReserve

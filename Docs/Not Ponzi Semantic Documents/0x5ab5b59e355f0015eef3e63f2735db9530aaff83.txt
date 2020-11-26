@@ -1,0 +1,18 @@
+solidity ^0.4.8 
+ERC20Interface AREToken 
+symbol name decimals _totalSupply owner balances allowed 
+totalSupply balanceOf transfer transferFrom approve allowance AREToken totalSupply balanceOf transfer transferFrom approve allowance 
+AREToken inherits from ERC20Interface 
+onlyOwner 
+Transfer Approval 
+owner is equal to msg sender
+ is equal to _totalSupply
+totalSupply is equal to _totalSupply
+If  is greater or equal to _amount Invalid symbol  Invalid symbol 
+ decreases of _amount
+ increments of _amount
+If  is greater or equal to _amount Invalid symbol  Invalid symbol  Invalid symbol 
+ decreases of _amount
+ decreases of _amount
+ increments of _amount
+ is equal to _amount

@@ -1,0 +1,30 @@
+solidity >=0.4.23 
+safeMath ERC20Interface ERC20 CouncilVesting 
+safeMath 
+c c c balances allowed totalSupply MELON_CONTRACT owner interrupted isVestingStarted totalVestingAmount vestingStartTime vestingPeriod beneficiary withdrawn timePassed vested withdrawable remainingVested totalToBeVested remainingUnvested 
+mul div sub add max64 min64 max256 min256 totalSupply balanceOf allowance transfer transferFrom approve transfer transferFrom balanceOf approve allowance calculateWithdrawable setVesting withdraw forceWithdrawalAndInterrupt 
+ERC20 inherits from ERC20Interface 
+not_interrupted only_owner only_beneficiary vesting_not_started vesting_started 
+Transfer Approval 
+If  is greater or equal to _value Invalid symbol 
+ decreases of _value
+ increments of _value
+If  is greater or equal to _value Invalid symbol  Invalid symbol 
+ increments of _value
+ decreases of _value
+ decreases of _value
+If _value is greater then 0
+ is equal to _value
+If timePassed is less then vestingPeriod
+withdrawable is equal to vested sub
+withdrawable is equal to totalVestingAmount sub
+MELON_CONTRACT is equal to ERC20
+owner is equal to ofOwner
+isVestingStarted is equal to True
+vestingStartTime is equal to block timestamp
+totalVestingAmount is equal to ofMelonQuantity
+vestingPeriod is equal to ofVestingPeriod
+beneficiary is equal to ofBeneficiary
+withdrawn is equal to withdrawn add
+interrupted is equal to True
+withdrawn is equal to totalVestingAmount

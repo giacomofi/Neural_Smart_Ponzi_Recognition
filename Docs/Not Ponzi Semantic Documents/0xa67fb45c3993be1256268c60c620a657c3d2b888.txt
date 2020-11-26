@@ -1,0 +1,26 @@
+solidity 0.4.24 
+SafeMath ERC20Basic Ownable ERC20 BasicToken StandardToken Pausable PausableToken BraveSoundToken 
+SafeMath 
+c c c c totalSupply owner balances allowed oldValue paused name symbol decimals INITIAL_SUPPLY 
+mul div sub add mod balanceOf transfer transferOwnership allowance transferFrom approve transfer balanceOf transferFrom approve allowance increaseApproval decreaseApproval pause unpause transfer transferFrom approve increaseApproval decreaseApproval 
+ERC20 inherits from ERC20Basic BasicToken inherits from ERC20Basic StandardToken inherits from ERC20 StandardToken inherits from BasicToken Pausable inherits from Ownable PausableToken inherits from StandardToken PausableToken inherits from Pausable BraveSoundToken inherits from PausableToken 
+onlyOwner whenNotPaused whenPaused 
+Transfer transferOwner Approval Pause Unpause 
+If a corresponds to 0
+owner is equal to msg sender
+If newOwner is different from 
+owner is equal to newOwner
+ is equal to msg sender sub
+ is equal to balances _to add
+ is equal to balances _from sub
+ is equal to balances _to add
+ is equal to allowed _from msg sender sub
+ is equal to _value
+ is equal to msg sender _spender add
+If _subtractedValue is greater then oldValue
+ is equal to 0
+ is equal to oldValue sub
+paused is equal to True
+paused is equal to False
+totalSupply is equal to INITIAL_SUPPLY
+ is equal to INITIAL_SUPPLY

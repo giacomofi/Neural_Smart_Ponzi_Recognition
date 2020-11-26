@@ -1,0 +1,22 @@
+FastRealisticPyramid 
+Person 
+Person has etherAddress
+Person has amount
+person payoutIdx collectedFees balance owner idx transactionAmount 
+FastRealisticPyramid  enter collectFees setOwner 
+onlyowner 
+owner is equal to msg sender
+If msg value is less then 1 divided by 100 ether Invalid symbol 
+person length increments of 1
+person idx etherAddress is equal to msg sender
+person idx amount is equal to msg value
+If idx is different from 0
+collectedFees increments of msg value divided by 10
+balance increments of msg value
+collectedFees increments of msg value
+If balance is greater then person payoutIdx amount multiplied by 7 divided by 5
+balance decreases of person payoutIdx amount multiplied by 7 divided by 5
+payoutIdx increments of 1
+If collectedFees corresponds to 0
+collectedFees is equal to 0
+owner is equal to _owner

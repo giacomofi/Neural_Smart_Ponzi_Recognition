@@ -1,0 +1,57 @@
+solidity ^0.4.26 
+FairDice 
+Bet 
+Bet has amount
+Bet has modulo
+Bet has rollUnder
+Bet has placeBlockNumber
+Bet has mask
+Bet has gambler
+HOUSE_EDGE_PERCENT HOUSE_EDGE_MINIMUM_AMOUNT MIN_JACKPOT_BET JACKPOT_MODULO JACKPOT_FEE MIN_BET MAX_AMOUNT MAX_MODULO MAX_MASK_MODULO MAX_BET_MASK BET_EXPIRATION_BLOCKS DUMMY_ADDRESS owner nextOwner maxProfit secretSigner jackpotSize lockedInBets bets croupier bet amount signatureHash rollUnder mask possibleWinAmount jackpotFee commit bet placeBlockNumber amount modulo rollUnder gambler entropy dice diceWinAmount _jackpotFee diceWin jackpotWin jackpotRng bet amount diceWinAmount jackpotFee houseEdge POPCNT_MULT POPCNT_MASK POPCNT_MODULO 
+approveNextOwner acceptNextOwner  setSecretSigner setCroupier setMaxProfit increaseJackpot withdrawFunds placeBet settleBet settleBetCommon refundBet getDiceWinAmount sendFunds kill 
+onlyOwner onlyCroupier 
+FailedPayment Payment JackpotPayment Commit 
+owner is equal to msg sender
+secretSigner is equal to DUMMY_ADDRESS
+croupier is equal to DUMMY_ADDRESS
+nextOwner is equal to _nextOwner
+owner is equal to nextOwner
+secretSigner is equal to newSecretSigner
+croupier is equal to newCroupier
+maxProfit is equal to _maxProfit
+jackpotSize increments of 
+If modulo is less or equal to MAX_MASK_MODULO
+rollUnder is equal to  Invalid symbol POPCNT_MODULO
+mask is equal to betMask
+rollUnder is equal to betMask
+ is equal to getDiceWinAmount
+lockedInBets increments of 
+jackpotSize increments of 
+bet amount is equal to amount
+bet modulo is equal to 
+bet rollUnder is equal to 
+bet placeBlockNumber is equal to 
+bet mask is equal to 
+bet gambler is equal to msg sender
+bet amount is equal to 0
+ is equal to getDiceWinAmount
+If modulo is less or equal to MAX_MASK_MODULO
+If  Invalid symbol bet mask is different from 0
+diceWin is equal to diceWinAmount
+If dice is less then rollUnder
+diceWin is equal to diceWinAmount
+lockedInBets decreases of 
+If amount is greater or equal to MIN_JACKPOT_BET
+If jackpotRng corresponds to 0
+jackpotWin is equal to jackpotSize
+jackpotSize is equal to 0
+If jackpotWin is greater then 0
+bet amount is equal to 0
+ is equal to getDiceWinAmount
+lockedInBets decreases of 
+jackpotSize decreases of 
+jackpotFee is equal to 
+If houseEdge is less then HOUSE_EDGE_MINIMUM_AMOUNT
+houseEdge is equal to HOUSE_EDGE_MINIMUM_AMOUNT
+winAmount is equal to  multiplied by modulo divided by rollUnder
+

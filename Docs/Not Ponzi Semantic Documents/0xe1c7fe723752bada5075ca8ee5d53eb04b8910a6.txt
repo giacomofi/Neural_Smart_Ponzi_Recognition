@@ -1,0 +1,7 @@
+solidity ^0.5.4 
+Proxy 
+implementation 
+ 
+Received 
+implementation is equal to _implementation
+If msg data length corresponds to 0 Invalid symbol 

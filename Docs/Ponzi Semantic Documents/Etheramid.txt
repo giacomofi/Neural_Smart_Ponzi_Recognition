@@ -1,0 +1,26 @@
+Etheramid 
+Participant 
+Participant has inviter
+Participant has itself
+Participant has totalPayout
+Tree Index Count top contribution rand ida amount next rest level toSend 
+Etheramid  getParticipantById getParticipantByAddress addParticipant getParticipantCount enter 
+top is equal to msg sender
+If id is greater or equal to Count
+inviter is equal to Tree ida inviter
+itself is equal to Tree ida itself
+totalPayout is equal to Tree ida totalPayout
+If Tree adr itself corresponds to 0x0
+inviter is equal to Tree adr inviter
+itself is equal to Tree adr itself
+totalPayout is equal to Tree adr totalPayout
+ is equal to itself
+ is equal to Participant
+Count increments of 1
+count is equal to Count
+If  Invalid symbol  Invalid symbol 
+While  Invalid symbol 
+Tree next totalPayout increments of toSend
+rest decreases of toSend
+next is equal to Tree next inviter
+Tree next totalPayout increments of rest

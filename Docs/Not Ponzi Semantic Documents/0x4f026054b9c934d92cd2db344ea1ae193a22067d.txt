@@ -1,0 +1,18 @@
+solidity ^0.5.0 solidity ^0.5.0 solidity >=0.4.24<0.7.0 solidity ^0.5.0 
+IERC20 SafeMath Initializable IuniswapFactory_ERC20toUniPoolZapV1 IuniswapExchange_ERC20toUniPoolZapV1 Ownable ERC20toUniPoolZapV2_General 
+SafeMath 
+c c c c initialized initializing isTopLevelCall self cs ______gap owner stopped UniSwapFactoryAddress userBalance investmentQTY EthOnConversion nonConvertiblePortion UniSwapExchangeContractAddress convertiblePortion UniSwapExchangeContractAddress_incomingToken nonConvertiblePortion_beforeConversion convertiblePortion max_tokens_ans LiquidityTokens residual ETHfromResidual contractBalance eth_reserve token_reserve token_amount qty 
+totalSupply balanceOf transfer allowance approve transferFrom add sub sub mul div div mod mod isConstructor getExchange getEthToTokenInputPrice ethToTokenSwapInput balanceOf transfer tokenToEthSwapInput tokenToEthTransferInput tokenToTokenSwapInput addLiquidity isOwner transferOwnership _transferOwnership LetsInvest invest2UniPool addLiquidity getMaxTokens inCaseTokengetsStuck toggleContractActive withdraw  
+ERC20toUniPoolZapV2_General inherits from Initializable ERC20toUniPoolZapV2_General inherits from Ownable 
+initializer onlyOwner stopInEmergency 
+Transfer Approval details residualETH 
+If a corresponds to 0
+owner is equal to newOwner
+If _IncomingTokenContractAddress corresponds to _UniPoolsUnderlyingTokenAddress
+nonConvertiblePortion is equal to SafeMath div
+UniSwapExchangeContractAddress is equal to IuniswapExchange_ERC20toUniPoolZapV1
+EthOnConversion is equal to UniSwapExchangeContractAddress tokenToEthSwapInput
+nonConvertiblePortion is equal to UniSwapExchangeContractAddress_incomingToken tokenToTokenSwapInput
+EthOnConversion is equal to UniSwapExchangeContractAddress_incomingToken tokenToEthSwapInput
+UniSwapExchangeContractAddress is equal to IuniswapExchange_ERC20toUniPoolZapV1
+stopped is equal to 

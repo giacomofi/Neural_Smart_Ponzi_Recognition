@@ -1,0 +1,26 @@
+solidity 0.4.20 
+SafeMath ERC223 ContractReceiver ERC223I ERC20 ERC20Wrapper 
+SafeMath SafeMath 
+c c c totalSupply balances name symbol decimals totalSupply empty length reciever rentrancy_lock originalToken _balances _allowances _name _symbol 
+mul div sub add balanceOf name symbol decimals totalSupply transfer transfer tokenFallback name symbol decimals totalSupply transfer transfer isContract transferToAddress transferToContract balanceOf totalSupply balanceOf allowance approve transfer transferFrom ERC20Wrapper totalSupply decimals balanceOf allowance name symbol  approve transfer transferFrom increaseAllowance decreaseAllowance tokenFallback burn burnFrom _transfer _approve _mint _burn 
+ERC223I inherits from ERC223 ERC20Wrapper inherits from ContractReceiver ERC20Wrapper inherits from ERC20 
+nonReentrant 
+Transfer ERC223Transfer Transfer Approval Burn Mint 
+
+
+If balanceOf is less then _value
+ is equal to 
+ is equal to 
+If balanceOf is less then _value
+ is equal to 
+ is equal to 
+rentrancy_lock is equal to True
+rentrancy_lock is equal to False
+originalToken is equal to ERC223
+_name is equal to name
+_symbol is equal to symbol
+ is equal to _balances sender sub
+ is equal to _balances recipient add
+ is equal to amount
+ is equal to _balances account add
+ is equal to _balances account sub

@@ -1,0 +1,26 @@
+solidity ^0.4.24 
+SafeMath ERC20 StandardToken 
+SafeMath 
+name symbol decimals totalSupply owner balances allowed oldValue 
+mul div sub add totalSupply balanceOf allowance transfer approve transferFrom totalSupply balanceOf allowance transfer approve transferFrom increaseApproval decreaseApproval 
+StandardToken inherits from ERC20 
+Transfer Approval 
+If _a corresponds to 0
+c is equal to _a multiplied by _b
+c is equal to _a plus _b
+ is equal to _initialSupply
+totalSupply is equal to _initialSupply
+name is equal to _tokenName
+symbol is equal to _tokenSymbol
+decimals is equal to _decimalUnits
+owner is equal to msg sender
+ is equal to msg sender sub
+ is equal to balances _to add
+ is equal to _value
+ is equal to balances _from sub
+ is equal to balances _to add
+ is equal to allowed _from msg sender sub
+ is equal to 
+If _subtractedValue is greater or equal to oldValue
+ is equal to 0
+ is equal to oldValue sub

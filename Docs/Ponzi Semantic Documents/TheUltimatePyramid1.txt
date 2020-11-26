@@ -1,0 +1,24 @@
+theultimatepyramid 
+Person 
+Person has etherAddress
+Person has amount
+persons payoutIdx collectedFees balance owner amount idx transactionAmount 
+theultimatepyramid  enter setOwner 
+onlyowner 
+owner is equal to msg sender
+If msg value is less then 80 divided by 100 ether
+If msg value is greater then 40 ether
+amount is equal to 40 ether
+amount is equal to msg value
+persons length increments of 1
+persons idx etherAddress is equal to msg sender
+persons idx amount is equal to amount
+If idx is different from 0
+collectedFees increments of 0
+collectedFees is equal to 0
+balance increments of amount
+balance increments of amount
+While balance is greater then persons payoutIdx amount divided by 100 multiplied by 180
+balance decreases of transactionAmount
+payoutIdx increments of 1
+owner is equal to _owner

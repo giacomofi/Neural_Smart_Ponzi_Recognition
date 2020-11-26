@@ -1,0 +1,30 @@
+Managed OfficialWebsite SmartRevshare 
+Investor 
+Investor has addr
+Investor has value
+Investor has lastDay
+Investor has leftPayDays
+currentManager officialWebsite investors payoutIdx currentManager balance payoutValue currDay idx 
+Managed setOfficialWebsite SmartRevshare found  invest payout getDay calculateROI 
+OfficialWebsite inherits from Managed SmartRevshare inherits from OfficialWebsite 
+onlyManager manager 
+Invest Payout 
+currentManager is equal to msg sender
+officialWebsite is equal to url
+currentManager is equal to msg sender
+balance increments of msg value
+balance increments of msg value
+If msg value is less then 100 finney
+balance increments of msg value multiplied by 99 divided by 100
+idx is less then investors length
+payoutValue is equal to investors idx value divided by 100
+If balance is less then payoutValue
+If investors idx lastDay is greater or equal to currDay
+If investors idx leftPayDays is less or equal to 0
+payoutIdx is equal to idx
+investors idx lastDay is equal to currDay
+investors idx leftPayDays decreases of 1
+balance decreases of payoutValue
+If msg value is less or equal to 1 ether
+If msg value is less or equal to 10 ether
+If msg value is less or equal to 100 ether

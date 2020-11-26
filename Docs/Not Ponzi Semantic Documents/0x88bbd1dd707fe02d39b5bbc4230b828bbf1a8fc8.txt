@@ -1,0 +1,20 @@
+Token StandardToken HumanStandardToken 
+balances allowed totalSupply name decimals symbol version 
+totalSupply balanceOf transfer transferFrom approve allowance transfer transferFrom balanceOf approve allowance  HumanStandardToken approveAndCall 
+StandardToken inherits from Token HumanStandardToken inherits from StandardToken 
+Transfer Approval 
+If  is greater or equal to _value Invalid symbol 
+ decreases of _value
+ increments of _value
+If  is greater or equal to _value Invalid symbol  Invalid symbol 
+ increments of _value
+ decreases of _value
+ decreases of _value
+ is equal to _value
+ is equal to _initialAmount
+totalSupply is equal to _initialAmount
+name is equal to _tokenName
+decimals is equal to _decimalUnits
+symbol is equal to _tokenSymbol
+ is equal to _value
+If 

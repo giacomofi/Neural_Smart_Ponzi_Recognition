@@ -1,0 +1,50 @@
+solidity ^0.4.18 
+Ownable ERC20Basic SafeMath BasicToken ERC20 StandardToken InbestToken InbestDistribution InbestTokenBuybackProcessor 
+SafeMath SafeMath 
+Allocation 
+Allocation has allocationType
+Allocation has endCliff
+Allocation has endVesting
+Allocation has totalAllocated
+Allocation has amountClaimed
+owner c c c balances totalSupply_ allowed oldValue name symbol decimals INITIAL_SUPPLY IBST admins DECIMALFACTOR CLIFF VESTING INITIAL_SUPPLY AVAILABLE_TOTAL_SUPPLY AVAILABLE_PRESALE_SUPPLY AVAILABLE_COMPANY_SUPPLY grandTotalClaimed startTime companyWallet allocations tokensToAllocate newAmountClaimed tokensToTransfer token inbestDistribution inbestToken admins arrayLength i investorAddress ibstBalance 
+Ownable transferOwnership totalSupply balanceOf transfer mul div sub add totalSupply transfer balanceOf allowance transferFrom approve transferFrom approve allowance increaseApproval decreaseApproval InbestToken InbestDistribution setAllocation transferTokens manualContribution companyRemainingAllocation grandTotalAllocated setAdmin refundTokens InbestTokenBuybackProcessor distributeTokensToDestinationWallet distributeToAddressAndSendToDestination inbestDistributionTransferTokens getBalance tokenTransferFrom tokenTransfer approve setAdmin 
+BasicToken inherits from ERC20Basic ERC20 inherits from ERC20Basic StandardToken inherits from ERC20 StandardToken inherits from BasicToken InbestToken inherits from StandardToken InbestDistribution inherits from Ownable InbestTokenBuybackProcessor inherits from Ownable 
+onlyOwner onlyOwnerOrAdmin onlyOwnerOrAdmin 
+OwnershipTransferred Transfer Approval LogNewAllocation LogIBSTClaimed SetAdmin RefundTokens TokensRecoveredFromInvestor SetAdmin 
+owner is equal to msg sender
+owner is equal to newOwner
+If a corresponds to 0
+ is equal to msg sender sub
+ is equal to balances _to add
+ is equal to balances _from sub
+ is equal to balances _to add
+ is equal to allowed _from msg sender sub
+ is equal to _value
+ is equal to msg sender _spender add
+If _subtractedValue is greater then oldValue
+ is equal to 0
+ is equal to oldValue sub
+totalSupply_ is equal to INITIAL_SUPPLY
+ is equal to INITIAL_SUPPLY
+startTime is equal to _startTime
+companyWallet is equal to _companyWallet
+IBST is equal to 
+AVAILABLE_COMPANY_SUPPLY is equal to 0
+ is equal to Allocation
+AVAILABLE_TOTAL_SUPPLY is equal to AVAILABLE_TOTAL_SUPPLY sub
+AVAILABLE_PRESALE_SUPPLY is equal to AVAILABLE_PRESALE_SUPPLY sub
+ is equal to Allocation
+AVAILABLE_TOTAL_SUPPLY is equal to AVAILABLE_TOTAL_SUPPLY sub
+If allocations _recipient endVesting is greater then now
+newAmountClaimed is equal to 
+newAmountClaimed is equal to allocations _recipient totalAllocated
+allocations _recipient amountClaimed is equal to newAmountClaimed
+grandTotalClaimed is equal to grandTotalClaimed add
+allocations companyWallet amountClaimed is equal to allocations companyWallet amountClaimed add
+grandTotalClaimed is equal to grandTotalClaimed add
+ is equal to _allowed
+inbestDistribution is equal to _inbestDistribution
+inbestToken is equal to _inbestToken
+i is less then arrayLength
+ is equal to _allowed

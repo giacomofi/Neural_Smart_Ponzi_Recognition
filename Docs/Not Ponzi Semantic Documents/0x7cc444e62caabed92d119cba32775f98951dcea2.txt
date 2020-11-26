@@ -1,0 +1,18 @@
+solidity ^0.6.0 
+ERC20Interface SafeMath SpamToken 
+SafeMath 
+c c name symbol decimals _totalSupply _balances _allowed 
+totalSupply balanceOf transfer transferFrom approve allowance add sub totalSupply balanceOf transfer transferFrom approve allowance 
+SpamToken inherits from ERC20Interface 
+Transfer Approval 
+name is equal to SpamToken
+symbol is equal to SPM
+decimals is equal to 18
+_totalSupply is equal to 10000000000000000000000000000
+ is equal to _totalSupply
+ is equal to msg sender sub
+ is equal to _balances _to add
+ is equal to _balances _from sub
+ is equal to _balances _to add
+ is equal to _allowed _from msg sender sub
+ is equal to _value

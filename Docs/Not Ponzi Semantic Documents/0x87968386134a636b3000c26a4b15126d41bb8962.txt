@@ -1,0 +1,7 @@
+solidity 0.6.5 experimental ABIEncoderV2 
+ERC20 TokenAdapter CToken CompoundTokenAdapter 
+ETH CETH CSAI underlyingTokens 
+name symbol decimals getMetadata getComponents exchangeRateStored underlying getMetadata getComponents getUnderlying 
+CompoundTokenAdapter inherits from TokenAdapter 
+If token corresponds to CSAI
+ is equal to Component

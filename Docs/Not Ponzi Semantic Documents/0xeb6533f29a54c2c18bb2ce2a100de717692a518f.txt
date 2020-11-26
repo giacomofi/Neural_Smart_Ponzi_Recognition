@@ -1,0 +1,7 @@
+solidity ^0.4.24 
+DBInterface Events 
+database 
+setContractManager setAddress setUint setString setBytes setBytes32 setBool setInt deleteAddress deleteUint deleteString deleteBytes deleteBytes32 deleteBool deleteInt uintStorage stringStorage addressStorage bytesStorage bytes32Storage boolStorage intStorage message transaction registration contractChange asset escrow order exchange operator consensus 
+onlyApprovedContract 
+LogEvent LogTransaction LogAddress LogContractChange LogAsset LogEscrow LogOrder LogExchange LogOperator LogConsensus 
+database is equal to DBInterface

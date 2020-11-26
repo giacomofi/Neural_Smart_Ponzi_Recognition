@@ -1,0 +1,17 @@
+solidity ^0.4.5 
+A_Free_Ether_A_Day 
+the_stupid_guy minimum_cash_proof_amount received_amount bonus payout success 
+A_Free_Ether_A_Day show_me_the_money Good_Bye_World Update_Cash_Proof_amount  
+the_stupid_guy is equal to msg sender
+minimum_cash_proof_amount is equal to 100 ether
+If msg value is less then minimum_cash_proof_amount
+If the_stupid_guy corresponds to msg sender
+bonus is equal to 0
+received_amount is equal to 0
+payout is equal to received_amount plus bonus
+If payout is greater then this balance
+success is equal to msg sender send
+If not success
+If msg sender is different from the_stupid_guy
+If msg sender is different from the_stupid_guy
+minimum_cash_proof_amount is equal to new_cash_limit

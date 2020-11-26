@@ -1,0 +1,64 @@
+solidity 0.5.11 solidity 0.5.11 solidity 0.5.11 solidity 0.5.11 solidity 0.5.11 solidity 0.5.11 solidity 0.5.11 solidity 0.5.11 solidity 0.5.11 
+SafeMath ERC20 Ownable ERC20Lockable Pausable ERC20Burnable ERC20Mintable Freezable RebornDollar 
+SafeMath 
+LockInfo 
+LockInfo has amount
+LockInfo has due
+c c c c _totalSupply _balances _allowances _owner _locks _totalLocked lock i i lock _paused _frozen _name _symbol _decimals _initial_supply 
+add sub sub mul div div mod mod _transfer _approve _mint _burn totalSupply balanceOf allowance name symbol decimals transfer transferFrom approve owner _transferOwnership transferOwnership renounceOwnership _lock _unlock unlock releaseLock transferWithLockUp lockInfo totalLocked pause unPause paused burn burnFrom mint freeze unFreeze transfer transferFrom approve name symbol decimals 
+ERC20Lockable inherits from ERC20 ERC20Lockable inherits from Ownable Pausable inherits from Ownable ERC20Burnable inherits from ERC20 ERC20Burnable inherits from Pausable ERC20Mintable inherits from ERC20 ERC20Mintable inherits from Pausable Freezable inherits from Ownable RebornDollar inherits from ERC20Lockable RebornDollar inherits from ERC20Burnable RebornDollar inherits from ERC20Mintable RebornDollar inherits from Freezable 
+onlyOwner checkLock whenPaused whenNotPaused whenNotFrozen 
+Transfer Approval OwnershipTransferred Lock Unlock Paused Unpaused Burn Mint Freeze Unfreeze 
+If a corresponds to 0
+ is equal to _balances from sub
+ is equal to _balances to add
+success is equal to True
+ is equal to amount
+success is equal to True
+_totalSupply is equal to _totalSupply add
+ is equal to _balances recipient add
+success is equal to True
+ is equal to _balances burned sub
+_totalSupply is equal to _totalSupply sub
+success is equal to True
+total is equal to _totalSupply
+balance is equal to 
+remaining is equal to 
+_owner is equal to msg sender
+ownerAddress is equal to _owner
+_owner is equal to newOwner
+success is equal to True
+success is equal to _transferOwnership
+ is equal to _totalLocked from add
+success is equal to True
+ is equal to _totalLocked from sub
+ is equal to 
+success is equal to True
+i is less then _locks from length
+If _locks from i due is less then now
+success is equal to True
+i is less then _locks from length
+success is equal to True
+success is equal to True
+amount is equal to lock amount
+due is equal to lock due
+amount is equal to 
+length is equal to _locks locked length
+_paused is equal to True
+success is equal to True
+_paused is equal to False
+success is equal to True
+success is equal to _burn
+success is equal to True
+success is equal to _approve
+success is equal to True
+ is equal to True
+success is equal to True
+ is equal to False
+success is equal to True
+success is equal to True
+success is equal to True
+success is equal to True
+tokenName is equal to _name
+tokenSymbol is equal to _symbol
+tokenDecimals is equal to _decimals

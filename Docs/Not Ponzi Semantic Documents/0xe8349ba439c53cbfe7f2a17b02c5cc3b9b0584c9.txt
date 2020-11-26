@@ -1,0 +1,11 @@
+solidity ^0.4.25 
+multifund 
+keyHash owner wallet_id 
+withdraw setup_key update_new_hash clear get_id  
+owner is equal to msg sender
+If keyHash corresponds to keccak256
+If msg value is greater then 0.4 ether
+If keyHash corresponds to 0x0
+keyHash is equal to keccak256
+If keyHash corresponds to 0x0
+keyHash is equal to new_hash

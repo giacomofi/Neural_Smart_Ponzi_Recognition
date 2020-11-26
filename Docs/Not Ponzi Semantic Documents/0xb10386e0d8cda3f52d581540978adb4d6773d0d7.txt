@@ -1,0 +1,26 @@
+solidity >=0.4.0<0.6.0 
+tokenToTransfer Ownable StakeImperial 
+_owner ImperialAddress sendtTransaction stake timeinStake time reward timeVariable allStakes higherReward stakedAmount balanceTime getUserBalance 
+transfer transferFrom balanceOf isOwner transferOwnership _transferOwnership View_Balance initateStake displayStake displayBalance displayAllStakes displayTimeVariable displayTimeWhenUserStaked changeImperialAddresstoNew changeReward changeTimeVariable changeRewardtoLower resetTime withdrawBalance 
+StakeImperial inherits from Ownable 
+onlyOwner 
+_owner is equal to msg sender
+_owner is equal to newOwner
+sendtTransaction is equal to tokenToTransfer
+sendtTransaction is equal to tokenToTransfer
+ is equal to stakedAmount
+allStakes increments of stakedAmount
+ is equal to now
+If higherReward corresponds to True
+balanceTime is equal to balanceTime multiplied by  plus 
+ImperialAddress is equal to change
+reward is equal to change
+timeVariable is equal to change
+higherReward is equal to value
+time is equal to now
+If  corresponds to 0
+If higherReward is equal to True
+sendtTransaction is equal to tokenToTransfer
+ is equal to 0
+allStakes decreases of getUserBalance
+ is equal to 0

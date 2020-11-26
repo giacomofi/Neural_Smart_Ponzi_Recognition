@@ -1,0 +1,13 @@
+solidity ^0.4.2 
+ZeerooToken 
+name symbol standard totalSupply balanceOf allowance 
+ZeerooToken transfer approve transferFrom 
+Transfer Approval 
+ is equal to _initialSupply
+totalSupply is equal to _initialSupply
+ decreases of _value
+ increments of _value
+ is equal to _value
+ decreases of _value
+ increments of _value
+ decreases of _value

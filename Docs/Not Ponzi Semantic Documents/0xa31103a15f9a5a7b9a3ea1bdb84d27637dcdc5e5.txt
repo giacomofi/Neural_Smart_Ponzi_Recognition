@@ -1,0 +1,77 @@
+solidity ^0.5.11 
+SynthetixInterface SynthInterface ExchRatesInterface marginTrade 
+sUSD sETH IM_BUFFER_OVER_MM e18 SECONDS_IN_YEAR exchRateAddress synthetixContractAddress lender trader APR maxDurationSecs maxLoanAmt approvedSynths lenderSynthBalances lenderEthBalance loanStartTS mm wasLiquidated synthToAddress loanBalance lastLoanSettleTS sUSDFound i i _svPre _newLoanBalance i _bal usdAmt usdAmt result _loanBalance _amt totalRemainaingUSD _usdAssigned _weiAssigned i _synth sv lv cv f f rates value i _bal interest sv lv cv n d balUSD c 
+exchange synths currencyKey transfer balanceOf transferFrom rateForCurrency ratesForCurrencies  setMaxLoanAmount depositFunds trade liquidate traderWithdrawEth lenderWithdrawEth traderWithdrawSynth lenderWithdrawSynth traderRepayLoan loanExpired_Close isLiquidationable isInitialMarginSatisfied getRate getRates traderTotSynthValueUSD synthBalanceTrader loanBalUSD collValueUSD traderEthBalance isLoanExpired levTimes100 calcInterest _determineAssignableAmt mul sub _synthValueUSD 
+lender is equal to _lenderAddress
+trader is equal to _traderAddress
+APR is equal to _APR
+maxDurationSecs is equal to _maxDurationSecs
+maxLoanAmt is equal to _maxLoanAmt
+mm is equal to _mm
+i is less then _approvedSynths length
+If  corresponds to sUSD
+sUSDFound is equal to True
+approvedSynths is equal to _approvedSynths
+i is less then approvedSynths length
+ is equal to 
+maxLoanAmt is equal to _maxLoanAmt
+loanBalance is equal to _newLoanBalance
+lastLoanSettleTS is equal to now
+If loanStartTS corresponds to 0
+loanStartTS is equal to now
+
+lenderEthBalance is equal to 
+i is less then approvedSynths length
+ is equal to _bal
+wasLiquidated is equal to True
+
+lenderEthBalance is equal to lenderEthBalance minus amt
+
+
+ is equal to  minus amt
+If amount is greater then _loanBalance
+_amt is equal to _loanBalance
+_amt is equal to amount
+loanBalance is equal to _loanBalance minus _amt
+lastLoanSettleTS is equal to now
+ is equal to  plus _amt
+If loanBalance corresponds to 0
+maxLoanAmt is equal to 0
+maxLoanAmt is equal to 0
+ is equal to _determineAssignableAmt
+If _weiAssigned is greater then 0
+totalRemainaingUSD is equal to sub
+ is equal to  plus _weiAssigned
+If totalRemainaingUSD corresponds to 0
+loanBalance is equal to 0
+lastLoanSettleTS is equal to now
+i is less then approvedSynths length
+If  is different from sUSD
+ is equal to _determineAssignableAmt
+If _weiAssigned is greater then 0
+totalRemainaingUSD is equal to sub
+ is equal to  plus _weiAssigned
+If totalRemainaingUSD corresponds to 0
+loanBalance is equal to 0
+lastLoanSettleTS is equal to now
+ is equal to _determineAssignableAmt
+If _weiAssigned is greater then 0
+totalRemainaingUSD is equal to sub
+lenderEthBalance is equal to lenderEthBalance plus _weiAssigned
+If totalRemainaingUSD corresponds to 0
+loanBalance is equal to 0
+lastLoanSettleTS is equal to now
+loanBalance is equal to totalRemainaingUSD
+lastLoanSettleTS is equal to now
+
+If  is greater then mul divided by e18
+If  is greater or equal to mul divided by e18
+i is less then approvedSynths length
+value is equal to value plus _synthValueUSD
+n is equal to mul
+n is equal to mul
+If balWei corresponds to 0
+If maxAssignUSD is greater or equal to balUSD
+If a corresponds to 0
+c is equal to a multiplied by b
+If b is greater then a

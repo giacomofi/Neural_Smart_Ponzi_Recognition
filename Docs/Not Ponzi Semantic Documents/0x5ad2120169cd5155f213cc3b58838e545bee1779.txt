@@ -1,0 +1,66 @@
+solidity ^0.5.0 
+DSAuthority DSAuthEvents DSAuth DSNote DSProxy DSProxyCache ERC20 CTokenInterface CEtherInterface ConstantAddressesExchange ExchangeInterface SaverExchangeInterface TokenInterface ExchangeHelper Discount CompoundLogger ComptrollerInterface CompoundSaverProxy 
+CustomServiceFee 
+CustomServiceFee has active
+CustomServiceFee has amount
+authority owner foo bar cache cache hash hash MAKER_DAI_ADDRESS KYBER_ETH_ADDRESS MKR_ADDRESS WETH_ADDRESS WALLET_ID LOGGER_ADDRESS DISCOUNT_ADDRESS GAS_TOKEN_INTERFACE_ADDRESS SAVER_EXCHANGE_ADDRESS MANAGER_ADDRESS VAT_ADDRESS SPOTTER_ADDRESS PROXY_ACTIONS JUG_ADDRESS DAI_JOIN_ADDRESS ETH_JOIN_ADDRESS MIGRATION_ACTIONS_PROXY SAI_ADDRESS DAI_ADDRESS SCD_MCD_MIGRATION ERC20_PROXY_0X NEW_IDAI_ADDRESS wrapper price tokens success orderAddresses tRet success tokensLeft tokensReturned owner serviceFees MAX_SERVICE_FEE SERVICE_FEE ETH_ADDRESS CETH_ADDRESS COMPTROLLER COMPOUND_LOGGER user collAmount collToken borrowToken swapAmount user borrowAmount collToken borrowToken swapAmount wholeDebt fee markets proxy 
+canCall setOwner setAuthority isAuthorized  execute execute setCache read write totalSupply balanceOf transfer transferFrom approve allowance decimals allocateTo mint mint redeem redeemUnderlying borrow repayBorrow repayBorrow repayBorrowBehalf repayBorrowBehalf liquidateBorrow liquidateBorrow exchangeRateCurrent supplyRatePerBlock borrowRatePerBlock totalReserves reserveFactorMantissa borrowBalanceCurrent totalBorrowsCurrent getCash balanceOfUnderlying underlying mint repayBorrow swapEtherToToken swapTokenToEther swapTokenToToken getExpectedRate getBestPrice allowance balanceOf approve transfer transferFrom deposit withdraw swap takeOrder wethToKyberEth isCustomFeeSet getCustomServiceFee setServiceFee disableServiceFee LogRepay LogBoost enterMarkets exitMarket getAssetsIn getAccountLiquidity repay boost repayDebt getFee enterMarket approveCToken getUnderlyingAddr getUserAddress 
+DSAuth inherits from DSAuthEvents DSProxy inherits from DSAuth DSProxy inherits from DSNote CTokenInterface inherits from ERC20 ExchangeHelper inherits from ConstantAddressesExchange CompoundSaverProxy inherits from ExchangeHelper 
+auth note 
+LogSetAuthority LogSetOwner LogNote Approval Repay Boost 
+owner is equal to msg sender
+owner is equal to owner_
+authority is equal to authority_
+If src corresponds to 
+target is equal to cache read
+If target corresponds to 
+target is equal to cache write
+response is equal to execute
+cache is equal to DSProxyCache
+ is equal to target
+ is equal to 
+_src is equal to wethToKyberEth
+_dest is equal to wethToKyberEth
+If  corresponds to 4
+If  is different from KYBER_ETH_ADDRESS
+ is equal to takeOrder
+If  corresponds to 0
+ is equal to 
+If  is greater or equal to price
+If  is different from KYBER_ETH_ADDRESS
+ is equal to takeOrder
+If  is greater then 0
+If  is different from 
+ is equal to 
+If  corresponds to KYBER_ETH_ADDRESS
+ is equal to 
+ increments of tRet
+If  corresponds to KYBER_ETH_ADDRESS
+ increments of 
+ increments of 
+ is equal to 
+
+If  corresponds to KYBER_ETH_ADDRESS
+tokensLeft is equal to 
+tokensLeft is equal to 
+If  corresponds to KYBER_ETH_ADDRESS
+tokensReturned is equal to 
+tokensReturned is equal to 
+owner is equal to msg sender
+ is equal to CustomServiceFee
+ is equal to CustomServiceFee
+swapAmount decreases of getFee
+borrowAmount decreases of getFee
+If collToken is different from ETH_ADDRESS
+If _amount is greater then wholeDebt
+_amount is equal to wholeDebt
+If _borrowToken corresponds to ETH_ADDRESS
+
+fee is equal to 
+feeAmount is equal to 
+If feeAmount is greater then 
+feeAmount is equal to _amount divided by 5
+ is equal to _cTokenAddrColl
+ is equal to _cTokenAddrBorrow
+If _tokenAddr is different from ETH_ADDRESS
+If _cTokenAddress corresponds to CETH_ADDRESS

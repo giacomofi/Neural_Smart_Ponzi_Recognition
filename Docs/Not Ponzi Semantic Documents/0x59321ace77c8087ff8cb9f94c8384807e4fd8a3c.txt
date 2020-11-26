@@ -1,0 +1,13 @@
+solidity ^0.5.1 
+ERC20Basic SafeMath 
+SafeMath 
+name symbol decimals balances allowed totalSupply_ c 
+totalSupply balanceOf transfer approve allowance transferFrom sub add 
+Approval Transfer 
+ is equal to totalSupply_
+ is equal to msg sender sub
+ is equal to balances receiver add
+ is equal to numTokens
+ is equal to balances owner sub
+ is equal to allowed owner msg sender sub
+ is equal to balances buyer add

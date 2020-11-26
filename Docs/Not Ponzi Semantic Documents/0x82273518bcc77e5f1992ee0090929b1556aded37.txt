@@ -1,0 +1,129 @@
+solidity ^0.5.4 
+ENS strings IENSManager ENSResolver ENSReverseRegistrar Owned Managed ArgentENSManager 
+strings 
+slice 
+slice has _len
+slice has _ptr
+mask ptr ret ret retptr ptr end b shortest selfptr otherptr idx a b mask diff l b word length divisor b i equal equal selfptr equal selfptr equal ptr idx mask needledata end ptrdata hash testHash ptr mask needledata ptrdata hash testHash ptr ptr ptr ptr ptr ret retptr length i ret retptr i owner managers rootName rootNode ensRegistry ensResolver ADDR_REVERSE_NODE labelNode node currentOwner parts name reverseRegistrar reverseNode node currentOwner 
+setRecord setSubnodeRecord setSubnodeOwner setResolver setOwner setTTL setApprovalForAll owner resolver ttl recordExists isApprovedForAll memcpy toSlice len toSliceB32 copy toString len empty compare equals nextRune nextRune ord keccak startsWith beyond endsWith until findPtr rfindPtr find rfind split split rsplit rsplit count contains concat join changeRootnodeOwner register isAvailable getENSReverseRegistrar ensResolver addr setAddr name setName claim claimWithResolver setName node changeOwner addManager revokeManager changeRootnodeOwner changeENSResolver register getENSReverseRegistrar isAvailable _getENSReverseRegistrar 
+Managed inherits from Owned ArgentENSManager inherits from IENSManager ArgentENSManager inherits from Owned ArgentENSManager inherits from Managed 
+onlyOwner onlyManager 
+NewOwner Transfer NewResolver NewTTL ApprovalForAll RootnodeOwnerChange ENSResolverChanged Registered Unregistered AddrChanged NameChanged OwnerChanged ManagerAdded ManagerRevoked 
+len is greater or equal to 32
+dest increments of 32
+src increments of 32
+If self corresponds to 0
+If  Invalid symbol 0xffffffffffffffffffffffffffffffff corresponds to 0
+ret increments of 16
+self is equal to 
+If  Invalid symbol 0xffffffffffffffff corresponds to 0
+ret increments of 8
+self is equal to 
+If  Invalid symbol 0xffffffff corresponds to 0
+ret increments of 4
+self is equal to 
+If  Invalid symbol 0xffff corresponds to 0
+ret increments of 2
+self is equal to 
+If  Invalid symbol 0xff corresponds to 0
+ret increments of 1
+ret _len is equal to len
+l is equal to 0
+ptr is less then end
+If b is less then 0x80
+ptr increments of 1
+If other _len is less then self _len
+shortest is equal to other _len
+idx is less then shortest
+If a is different from b
+If shortest is less then 32
+mask is equal to 
+If diff is different from 0
+selfptr increments of 32
+otherptr increments of 32
+rune _ptr is equal to self _ptr
+If self _len corresponds to 0
+rune _len is equal to 0
+If b is less then 0x80
+l is equal to 1
+If l is greater then self _len
+rune _len is equal to self _len
+self _ptr increments of self _len
+self _len is equal to 0
+self _ptr increments of l
+self _len decreases of l
+rune _len is equal to l
+If self _len corresponds to 0
+If b is less then 0x80
+ret is equal to b
+length is equal to 1
+If length is greater then self _len
+i is less then length
+divisor is equal to divisor divided by 256
+b is equal to  Invalid symbol 0xFF
+If b Invalid symbol 0xC0 is different from 0x80
+ret is equal to  Invalid symbol 
+If self _len is less then needle _len
+If self _ptr corresponds to needle _ptr
+If self _len is less then needle _len
+If self _ptr is different from needle _ptr
+
+self _len decreases of needle _len
+self _ptr increments of needle _len
+If self _len is less then needle _len
+If selfptr corresponds to needle _ptr
+If self _len is less then needle _len
+If selfptr is different from needle _ptr
+
+self _len decreases of needle _len
+If needlelen is less or equal to selflen
+If needlelen is less or equal to 32
+While ptrdata is different from needledata
+If ptr is greater or equal to end
+idx is equal to 0
+idx is less or equal to selflen minus needlelen
+If hash corresponds to testHash
+ptr increments of 1
+If needlelen is less or equal to selflen
+If needlelen is less or equal to 32
+ptr is equal to selfptr plus selflen minus needlelen
+While ptrdata is different from needledata
+If ptr is less or equal to selfptr
+ptr is equal to selfptr plus 
+While ptr is greater or equal to selfptr
+If hash corresponds to testHash
+ptr decreases of 1
+self _len decreases of ptr minus self _ptr
+self _ptr is equal to ptr
+self _len is equal to ptr minus self _ptr
+token _ptr is equal to self _ptr
+token _len is equal to ptr minus self _ptr
+If ptr corresponds to self _ptr plus self _len
+self _len is equal to 0
+self _len decreases of token _len plus needle _len
+self _ptr is equal to ptr plus needle _len
+token _ptr is equal to ptr
+token _len is equal to self _len minus 
+If ptr corresponds to self _ptr
+self _len is equal to 0
+self _len decreases of token _len plus needle _len
+While ptr is less or equal to self _ptr plus self _len
+ptr is equal to findPtr plus needle _len
+If parts length corresponds to 0
+i is less then parts length
+i is less then parts length
+retptr increments of parts i _len
+If i is less then parts length minus 1
+retptr increments of self _len
+owner is equal to msg sender
+owner is equal to _newOwner
+If  corresponds to False
+ is equal to True
+rootName is equal to _rootName
+rootNode is equal to _rootNode
+ensRegistry is equal to ENS
+ensResolver is equal to ENSResolver
+ensResolver is equal to ENSResolver
+ is equal to _label toSlice
+ is equal to rootName toSlice
+If currentOwner corresponds to 

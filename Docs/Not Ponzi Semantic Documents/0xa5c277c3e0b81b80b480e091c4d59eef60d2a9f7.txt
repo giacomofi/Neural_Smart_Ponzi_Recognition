@@ -1,0 +1,33 @@
+solidity ^0.5.10 
+SafeMath ERC20Interface ApproveAndCallFallBack Owned GoaToken 
+SafeMath 
+owner newOwner symbol name decimals MAX_SUPPLY ETH_PER_TOKEN totalSupply mintSupply contractActive balanceOf allowance _token _newSupply _ethCost _token _token _sumA _sumB _intSupply _current _sum 
+add sub mul div transfer approve transferFrom receiveApproval transferOwnership acceptOwnership transfer approve transferFrom approveAndCall mint burn burnFrom stopEmission computeSum computeCost transferAnyERC20Token 
+GoaToken inherits from ERC20Interface GoaToken inherits from Owned 
+onlyOwner 
+Transfer Approval OwnershipTransferred Minted Burned 
+c is equal to a plus b
+c is equal to a minus b
+c is equal to a multiplied by b
+c is equal to a divided by b
+owner is equal to msg sender
+newOwner is equal to _newOwner
+owner is equal to newOwner
+newOwner is equal to 
+contractActive is equal to True
+ is equal to msg sender sub
+ is equal to balanceOf to add
+ is equal to tokens
+ is equal to balanceOf from sub
+ is equal to allowance from msg sender sub
+ is equal to balanceOf to add
+ is equal to tokens
+totalSupply is equal to totalSupply add
+mintSupply is equal to _newSupply
+ is equal to msg sender add
+totalSupply is equal to totalSupply sub
+ is equal to msg sender sub
+ is equal to allowance _from msg sender sub
+ is equal to balanceOf _from sub
+totalSupply is equal to totalSupply sub
+contractActive is equal to False

@@ -1,0 +1,20 @@
+solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 
+SafeMath Context Ownable IUnderlyingTokenValuator StringHelpers IUsdAggregator UnderlyingTokenValuatorImplV2 
+StringHelpers SafeMath 
+c c c c _owner b i dai usdc weth ethUsdAggregator USD_AGGREGATOR_BASE oldAggregator 
+add sub sub mul div div mod mod _msgSender _msgData owner isOwner renounceOwnership transferOwnership _transferOwnership getTokenValue toString currentAnswer setEthUsdAggregator getTokenValue 
+Ownable inherits from Context UnderlyingTokenValuatorImplV2 inherits from IUnderlyingTokenValuator UnderlyingTokenValuatorImplV2 inherits from Ownable 
+onlyOwner 
+OwnershipTransferred EthUsdAggregatorChanged 
+If a corresponds to 0
+_owner is equal to _msgSender
+_owner is equal to 
+_owner is equal to newOwner
+i is less then 20
+ is equal to 
+dai is equal to _dai
+usdc is equal to _usdc
+weth is equal to _weth
+ethUsdAggregator is equal to IUsdAggregator
+ethUsdAggregator is equal to IUsdAggregator
+If token corresponds to weth

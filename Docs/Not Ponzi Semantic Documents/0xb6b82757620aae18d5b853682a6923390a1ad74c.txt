@@ -1,0 +1,31 @@
+solidity 0.5.14 
+Context Roles LexDAORole SafeMath IERC20 IChai DaiSavingsEscrow 
+Roles SafeMath 
+Role Escrow 
+Role has bearer
+Escrow has client
+Escrow has provider
+Escrow has payment
+Escrow has wrap
+Escrow has termination
+Escrow has index
+Escrow has details
+Escrow has disputed
+Escrow has released
+_lexDAOs c c c c daiAddress dai chaiAddress chai vault proposedManager manager version dse emoji escrow index balance escr escr lexFee receivedDai interest escr receivedDai interest escr receivedDai interest 
+_msgSender _msgData add remove has isLexDAO addLexDAO renounceLexDAO _addLexDAO _removeLexDAO add sub sub mul div div mod mod totalSupply balanceOf transfer allowance approve transferFrom transfer move transferFrom approve balanceOf permit dai dai join exit draw register dispute resolve release withdraw proposeManager transferManager 
+LexDAORole inherits from Context DaiSavingsEscrow inherits from LexDAORole 
+onlyLexDAO 
+LexDAOAdded LexDAORemoved Transfer Approval Registered Released Disputed Resolved ManagerProposed ManagerTransferred 
+ is equal to True
+ is equal to False
+If a corresponds to 0
+manager is equal to msg sender
+dse is equal to dse add
+ is equal to Escrow
+escr disputed is equal to True
+escr released is equal to True
+escr released is equal to True
+escr released is equal to True
+proposedManager is equal to _proposedManager
+manager is equal to msg sender

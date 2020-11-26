@@ -1,0 +1,12 @@
+solidity >=0.5.7 
+PurusToken 
+balanceOf name symbol decimals totalSupply allowance 
+transfer approve transferFrom 
+Transfer Approval 
+ is equal to totalSupply
+ decreases of value
+ increments of value
+ is equal to value
+ decreases of value
+ increments of value
+ decreases of value

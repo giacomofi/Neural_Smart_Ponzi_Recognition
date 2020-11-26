@@ -1,0 +1,194 @@
+solidity ^0.5.0 
+tokenTransfer UtilFZC Context Ownable Roles WhitelistAdminRole FZC SafeMath 
+Roles SafeMath 
+Role User GameInfo UserGlobal Invest 
+Role has bearer
+User has id
+User has userAddress
+User has inviteCode
+User has referrer
+User has staticLevel
+User has dynamicLevel
+User has allInvest
+User has freezeAmount
+User has unlockAmount
+User has allStaticAmount
+User has allDynamicAmount
+User has hisStaticAmount
+User has hisDynamicAmount
+User has inviteAmount
+User has reInvestCount
+User has lastReInvestTime
+User has invests
+User has staticFlag
+GameInfo has luckPort
+GameInfo has specialUsers
+UserGlobal has id
+UserGlobal has userAddress
+UserGlobal has inviteCode
+UserGlobal has referrer
+Invest has userAddress
+Invest has investAmount
+Invest has investTime
+Invest has times
+ethWei _owner _whitelistAdmins name ethWei tokencontract tokencontractt deva devb devc devd devf coefficient startTime investCount rInvestCount investMoney rInvestMoney rInfo uid rid period userRoundMapping userMapping addressMapping indexMapping addr codeLength userGlobal referrerAddr user referrerAddr invest isEnough sendMoney user reInvestAmount leastAmount isEnough sendMoney invest user sendMoney isEnough resultMoney user scale allStatic i invest startDay staticGaps unlockDay i userAddr user scale tmpReferrer i tmpUserAddr calUser fireSc recommendSc moneyResult tmpDynamicAmount user sendMoney isEnough resultMoney user userInfo user allUnlock i invest unlockDay userGlobal c c c c 
+transfer transferFrom balanceOf getLevel getLineLevel getScByLevel getFireScByLevel getRecommendScaleByLevelAndTim compareStr _msgSender _msgData owner isOwner renounceOwnership transferOwnership _transferOwnership add remove has isWhitelistAdmin addWhitelistAdmin removeWhitelistAdmin renounceWhitelistAdmin _addWhitelistAdmin _removeWhitelistAdmin  activeGame setCoefficient gameStart investIn reInvestIn withdrawProfit withdrwProfit isEnoughBalance sendMoneyToUser calStaticProfit calStaticProfitInner calDynamicProfit registerUserInfo calUserDynamicProfit redeem endRound isUsed getUserAddressByCode getGameInfo getUserInfo getSpecialUser getLatestUnlockAmount registerUser mul div sub add mod 
+Ownable inherits from Context WhitelistAdminRole inherits from Context WhitelistAdminRole inherits from Ownable FZC inherits from UtilFZC FZC inherits from WhitelistAdminRole 
+onlyOwner onlyWhitelistAdmin isHuman 
+OwnershipTransferred WhitelistAdminAdded WhitelistAdminRemoved LogInvestIn LogWithdrawProfit LogRedeem 
+If value is greater or equal to 1 multiplied by ethWei Invalid symbol 
+If value is greater or equal to 3 multiplied by ethWei Invalid symbol 
+If value is greater or equal to 5 multiplied by ethWei Invalid symbol 
+If value is greater or equal to 1 multiplied by ethWei Invalid symbol 
+If value is greater or equal to 3 multiplied by ethWei Invalid symbol 
+If value is greater or equal to 5 multiplied by ethWei
+If level corresponds to 1
+If level corresponds to 2
+If level corresponds to 3
+If level corresponds to 1
+If level corresponds to 2
+If level corresponds to 3
+If level corresponds to 1 Invalid symbol 
+If level corresponds to 2 Invalid symbol 
+If level corresponds to 2 Invalid symbol 
+If level corresponds to 3
+If times corresponds to 1
+If times corresponds to 2
+If times corresponds to 3
+If times corresponds to 4
+If times is greater or equal to 5 Invalid symbol 
+If times is greater or equal to 11
+If keccak256 corresponds to keccak256
+_owner is equal to _msgSender
+_owner is equal to 
+_owner is equal to newOwner
+ is equal to True
+ is equal to False
+startTime is equal to time
+coefficient is equal to coeff
+value is equal to value multiplied by ethWei
+If userGlobal id corresponds to 0
+If  is different from 0
+user allInvest is equal to user allInvest add
+user freezeAmount is equal to user freezeAmount add
+user staticLevel is equal to getLevel
+user dynamicLevel is equal to getLineLevel
+user id is equal to userGlobal id
+user userAddress is equal to msg sender
+user freezeAmount is equal to value
+user staticLevel is equal to getLevel
+user allInvest is equal to value
+user dynamicLevel is equal to getLineLevel
+user inviteCode is equal to userGlobal inviteCode
+user referrer is equal to userGlobal referrer
+If 
+If  is different from 0 Invalid symbol 
+ is equal to isEnoughBalance
+If sendMoney is greater then 0
+rInfo rid luckPort is equal to 0
+investCount is equal to investCount add
+investMoney is equal to investMoney add
+ is equal to rInvestCount rid add
+ is equal to rInvestMoney rid add
+rInfo rid luckPort is equal to rInfo rid luckPort add
+If user freezeAmount is greater then 200 multiplied by ethWei
+user freezeAmount is equal to 200 multiplied by ethWei
+If user freezeAmount add is greater then 200 multiplied by ethWei
+reInvestAmount is equal to 
+If reInvestAmount corresponds to 0
+ is equal to isEnoughBalance
+user unlockAmount is equal to user unlockAmount sub
+user allInvest is equal to user allInvest add
+user freezeAmount is equal to user freezeAmount add
+user staticLevel is equal to getLevel
+user dynamicLevel is equal to getLineLevel
+If  is greater then 800 minutes
+user reInvestCount is equal to user reInvestCount add
+user lastReInvestTime is equal to now
+If user reInvestCount corresponds to 12
+If  is different from 0 Invalid symbol 
+ is equal to isEnoughBalance
+If sendMoney is greater then 0
+rInfo rid luckPort is equal to 0
+investCount is equal to investCount add
+investMoney is equal to investMoney add
+ is equal to rInvestCount rid add
+ is equal to rInvestMoney rid add
+rInfo rid luckPort is equal to rInfo rid luckPort add
+ is equal to isEnoughBalance
+If resultMoney is greater then 0
+user allStaticAmount is equal to 0
+user allDynamicAmount is equal to 0
+If sendMoney is less or equal to 
+If user id corresponds to 0
+i is less then user invests length
+If staticGaps is greater then 80
+staticGaps is equal to 80
+If staticGaps is greater then invest times
+allStatic increments of 
+invest times is equal to staticGaps
+If unlockDay is greater or equal to 80
+user staticFlag is equal to user staticFlag add
+user freezeAmount is equal to user freezeAmount sub
+user unlockAmount is equal to user unlockAmount add
+user staticLevel is equal to getLevel
+allStatic is equal to 
+user allStaticAmount is equal to user allStaticAmount add
+user hisStaticAmount is equal to user hisStaticAmount add
+i is less or equal to end
+If user freezeAmount is greater or equal to 1 multiplied by ethWei
+i is less or equal to 30
+
+If money is less or equal to calUser freezeAmount add
+moneyResult is equal to money
+moneyResult is equal to calUser freezeAmount add
+If recommendSc is different from 0
+tmpDynamicAmount is equal to 
+tmpDynamicAmount is equal to 
+calUser allDynamicAmount is equal to calUser allDynamicAmount add
+calUser hisDynamicAmount is equal to calUser hisDynamicAmount add
+tmpReferrer is equal to calUser referrer
+ is equal to isEnoughBalance
+If resultMoney is greater then 0
+user unlockAmount is equal to 0
+user staticLevel is equal to getLevel
+user dynamicLevel is equal to getLineLevel
+If user reInvestCount is less then 12
+user reInvestCount is equal to 0
+startTime is equal to 
+coefficient is equal to 10
+If roundId corresponds to 0
+roundId is equal to rid
+ is equal to userInfo id
+ is equal to userInfo staticLevel
+ is equal to userInfo dynamicLevel
+ is equal to userInfo allInvest
+ is equal to userInfo freezeAmount
+ is equal to userInfo unlockAmount
+ is equal to userInfo allStaticAmount
+ is equal to userInfo allDynamicAmount
+ is equal to userInfo hisStaticAmount
+ is equal to userInfo hisDynamicAmount
+ is equal to userInfo inviteAmount
+ is equal to userInfo reInvestCount
+ is equal to userInfo staticFlag
+ is equal to userInfo invests length
+If  is different from 0
+ is equal to  i investAmount
+ is equal to  i investTime
+ is equal to  i times
+ is equal to 0
+ is equal to 0
+ is equal to 0
+inviteCode is equal to userMapping user inviteCode
+referrer is equal to userMapping user referrer
+i is less then user invests length
+If unlockDay is greater or equal to 80
+allUnlock is equal to allUnlock add
+userGlobal id is equal to uid
+userGlobal userAddress is equal to user
+userGlobal inviteCode is equal to inviteCode
+userGlobal referrer is equal to referrer
+ is equal to user
+ is equal to user
+If a corresponds to 0

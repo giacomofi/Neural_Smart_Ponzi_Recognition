@@ -1,0 +1,5 @@
+solidity 0.6.5 experimental ABIEncoderV2 
+ProtocolAdapter Staking ZrxAdapter 
+override override STAKING 
+adapterType tokenType getBalance getTotalStake getBalance 
+ZrxAdapter inherits from ProtocolAdapter 

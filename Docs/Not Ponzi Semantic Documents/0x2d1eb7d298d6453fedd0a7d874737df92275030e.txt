@@ -1,0 +1,55 @@
+solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.11 solidity ^0.5.11 solidity ^0.5.11 
+SafeMath IERC20 ERC20 Roles PauserRole Pausable ERC20Pausable ERC20Detailed Ownable TransferFee ERC20TransferFee ClaimERC20 USPi 
+SafeMath Roles SafeMath 
+Role 
+Role has bearer
+c c c c _balances _allowances _totalSupply _pausers _paused _name _symbol _decimals _owner VARIABLE_FEE_DENOMINATOR _zeroFeeAddress _feeCollector _flatFee _variableFee _minVariableFee _maxVariableFee fee fee allowance 
+add sub mul div mod totalSupply balanceOf transfer allowance approve transferFrom totalSupply balanceOf transfer allowance approve transferFrom increaseAllowance decreaseAllowance _transfer _mint _burn _approve _burnFrom add remove has isPauser addPauser renouncePauser _addPauser _removePauser paused pause unpause transfer transferFrom approve increaseAllowance decreaseAllowance name symbol decimals owner isOwner renounceOwnership transferOwnership _transferOwnership calculateFee setFeeCollector _setZeroFee setZeroFee _unsetZeroFee unsetZeroFee getFeeParameters setFeeParameters transfer transferFrom claimERC20 claimETH 
+ERC20 inherits from IERC20 Pausable inherits from PauserRole ERC20Pausable inherits from ERC20 ERC20Pausable inherits from Pausable ERC20Detailed inherits from IERC20 TransferFee inherits from Ownable ERC20TransferFee inherits from Ownable ERC20TransferFee inherits from TransferFee ERC20TransferFee inherits from ERC20 ERC20TransferFee inherits from ERC20Pausable ClaimERC20 inherits from Ownable USPi inherits from ERC20Pausable USPi inherits from ERC20Detailed USPi inherits from ERC20TransferFee USPi inherits from ClaimERC20 
+onlyPauser whenNotPaused whenPaused onlyOwner 
+Transfer Approval PauserAdded PauserRemoved Paused Unpaused OwnershipTransferred ChangedFee 
+If a corresponds to 0
+ is equal to _balances sender sub
+ is equal to _balances recipient add
+_totalSupply is equal to _totalSupply add
+ is equal to _balances account add
+_totalSupply is equal to _totalSupply sub
+ is equal to _balances account sub
+ is equal to value
+ is equal to True
+ is equal to False
+_paused is equal to False
+_paused is equal to True
+_paused is equal to False
+_name is equal to name
+_symbol is equal to symbol
+_decimals is equal to decimals
+_owner is equal to msg sender
+_owner is equal to 
+_owner is equal to newOwner
+_flatFee is equal to 0
+_variableFee is equal to 100
+_minVariableFee is equal to 0
+_maxVariableFee is equal to 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff minus _flatFee
+_feeCollector is equal to owner
+ is equal to True
+ is equal to True
+
+
+fee is equal to amount mul divided by VARIABLE_FEE_DENOMINATOR
+If fee is less then _minVariableFee
+fee is equal to _minVariableFee
+If fee is greater then _maxVariableFee
+fee is equal to _maxVariableFee
+fee is equal to fee add
+_feeCollector is equal to newFeeCollector
+ is equal to True
+ is equal to False
+flatFee is equal to _flatFee
+minVariableFee is equal to _minVariableFee
+maxVariableFee is equal to _maxVariableFee
+variableFee is equal to _variableFee
+_flatFee is equal to flatFee
+_minVariableFee is equal to minVariableFee
+_maxVariableFee is equal to maxVariableFee
+_variableFee is equal to variableFee

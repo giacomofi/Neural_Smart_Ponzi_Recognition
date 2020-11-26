@@ -1,0 +1,53 @@
+solidity ^0.5.0 
+SafeMath Roles Ownable PauserRole Pausable IERC20 ERC20 ERC20Pausable ERC20Detailed FPT 
+Roles SafeMath 
+Role LockInfo 
+Role has bearer
+LockInfo has _releaseTime
+LockInfo has _amount
+c c c c owner newOwner _pausers _paused _balances _allowed _totalSupply _name _symbol _decimals implementation timelockList frozenAccount totalBalance i lockinfo releaseAmount idx 
+mul div sub add mod add remove has isOwner transferOwnership acceptOwnership isPauser addPauser removePauser renouncePauser _addPauser _removePauser paused pause unpause transfer approve transferFrom totalSupply balanceOf allowance totalSupply balanceOf allowance transfer approve transferFrom increaseAllowance decreaseAllowance _transfer _mint _burn _burnFrom transfer transferFrom name symbol decimals balanceOf transfer transferFrom freezeAccount unfreezeAccount transferWithLock unlock _lock _unlock _autoUnlock 
+PauserRole inherits from Ownable Pausable inherits from PauserRole ERC20 inherits from IERC20 ERC20Pausable inherits from ERC20 ERC20Pausable inherits from Pausable ERC20Detailed inherits from IERC20 FPT inherits from ERC20Detailed FPT inherits from ERC20Pausable 
+onlyOwner onlyNewOwner onlyPauser whenNotPaused whenPaused notFrozen 
+OwnershipTransferred PauserAdded PauserRemoved Paused Unpaused Transfer Approval Freeze Unfreeze Lock Unlock 
+If a corresponds to 0
+ is equal to True
+ is equal to False
+owner is equal to msg sender
+newOwner is equal to 
+If account corresponds to owner
+newOwner is equal to _newOwner
+owner is equal to newOwner
+newOwner is equal to 
+_paused is equal to False
+_paused is equal to True
+_paused is equal to False
+ is equal to value
+ is equal to _allowed from msg sender sub
+ is equal to msg sender spender add
+ is equal to msg sender spender sub
+ is equal to _balances from sub
+ is equal to _balances to add
+_totalSupply is equal to _totalSupply add
+ is equal to _balances account add
+_totalSupply is equal to _totalSupply sub
+ is equal to _balances account sub
+ is equal to _allowed account msg sender sub
+_name is equal to name
+_symbol is equal to symbol
+_decimals is equal to decimals
+If timelockList owner length is greater then 0
+i is less then timelockList owner length
+totalBalance is equal to totalBalance add
+If msg sender length is greater then 0
+If timelockList from length is greater then 0
+ is equal to True
+ is equal to False
+ is equal to _balances holder sub
+ is equal to 
+timelockList holder length decreases of 1
+ is equal to _balances holder add
+idx is less then timelockList holder length
+If timelockList holder idx _releaseTime is less or equal to now
+
+idx decreases of 1

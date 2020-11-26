@@ -1,0 +1,17 @@
+solidity ^0.4.16 
+tokenRecipient ZXL 
+name symbol decimals totalSupply owner balanceOf allowance previousBalances spender 
+receiveApproval ZXL _transfer transfer transferFrom approve approveAndCall burn burnFrom 
+Transfer Burn 
+ is equal to totalSupply
+owner is equal to msg sender
+ decreases of _value
+ increments of _value
+ decreases of _value
+ is equal to _value
+
+ decreases of _value
+totalSupply decreases of _value
+ decreases of _value
+ decreases of _value
+totalSupply decreases of _value

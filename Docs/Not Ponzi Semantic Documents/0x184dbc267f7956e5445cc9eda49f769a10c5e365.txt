@@ -1,0 +1,31 @@
+solidity ^0.4.16 
+tokenRecipient owned TokenERC20 MyAdvancedToken 
+owner name symbol decimals totalSupply balanceOf allowance previousBalances spender sellPrice buyPrice frozenAccount amount 
+receiveApproval owned transferOwnership TokenERC20 _transfer transfer transferFrom approve approveAndCall burn burnFrom MyAdvancedToken _transfer mintToken freezeAccount setPrices buy sell 
+MyAdvancedToken inherits from owned MyAdvancedToken inherits from TokenERC20 
+onlyOwner 
+Transfer Burn FrozenFunds 
+owner is equal to msg sender
+If newOwner is different from 
+owner is equal to newOwner
+totalSupply is equal to initialSupply multiplied by 10 Invalid symbol 
+ is equal to totalSupply
+name is equal to tokenName
+symbol is equal to tokenSymbol
+ decreases of _value
+ increments of _value
+ decreases of _value
+ is equal to _value
+
+ decreases of _value
+totalSupply decreases of _value
+ decreases of _value
+ decreases of _value
+totalSupply decreases of _value
+ decreases of _value
+ increments of _value
+ increments of mintedAmount
+totalSupply increments of mintedAmount
+ is equal to freeze
+sellPrice is equal to newSellPrice
+buyPrice is equal to newBuyPrice

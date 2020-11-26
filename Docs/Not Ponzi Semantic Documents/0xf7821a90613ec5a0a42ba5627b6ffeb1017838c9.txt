@@ -1,0 +1,40 @@
+solidity ^0.5.8 
+IToken IManagedToken ITokenObserver TokenObserver ITokenRetriever TokenRetriever IObservable IOwnership Ownership ITransferableOwnership TransferableOwnership IMultiOwned IAuthenticator DcorpDissolvementProposal 
+Balance 
+Balance has drps
+Balance has drpu
+Balance has index
+tokenInstance tokenBalance owner stage CLAIMING_DURATION WITHDRAW_DURATION DISSOLVEMENT_AMOUNT allocated allocatedIndex authenticator drpsToken drpuToken prevProxy prevProxyRecordedBalance dissolvementFund claimTotalWeight claimTotalEther claimDeadline withdrawDeadline amountToTransfer sum balance b weight amountToTransfer b 
+totalSupply balanceOf transfer transferFrom approve allowance isLocked lock unlock issue burn notifyTokensReceived notifyTokensReceived onTokensReceived retrieveTokens retrieveTokens isObserver getObserverCount getObserverAtIndex registerObserver unregisterObserver isOwner getOwner isOwner getOwner transferOwnership transferOwnership isOwner getOwnerCount getOwnerAt addOwner removeOwner authenticate isDeploying isDeployed isExecuted  deploy getTotalSupply hasBalance balanceOf execute withdraw onTokensReceived retrieveEther retrieveTokens _convertDrpsWeight 
+IManagedToken inherits from IToken TokenObserver inherits from ITokenObserver TokenRetriever inherits from ITokenRetriever Ownership inherits from IOwnership TransferableOwnership inherits from ITransferableOwnership TransferableOwnership inherits from Ownership DcorpDissolvementProposal inherits from TokenObserver DcorpDissolvementProposal inherits from TransferableOwnership DcorpDissolvementProposal inherits from TokenRetriever 
+only_owner only_authenticated only_at_stage only_accepted_token not_accepted_token only_token_holder only_during_claiming_period only_after_claiming_period only_during_withdraw_period only_after_withdraw_period 
+If tokenBalance is greater then 0
+owner is equal to msg sender
+owner is equal to _newOwner
+authenticator is equal to IAuthenticator
+drpsToken is equal to IToken
+drpuToken is equal to IToken
+prevProxy is equal to _prevProxy
+prevProxyRecordedBalance is equal to _prevProxy balance
+dissolvementFund is equal to _dissolvementFund
+stage is equal to Stages Deploying
+stage is equal to Stages Deployed
+claimDeadline is equal to now plus CLAIMING_DURATION
+If amountToTransfer is greater then 
+amountToTransfer is equal to 
+sum increments of drpsToken totalSupply
+sum increments of drpuToken totalSupply
+If  corresponds to _token
+balance is equal to allocated _owner drps
+stage is equal to Stages Executed
+withdrawDeadline is equal to now plus WITHDRAW_DURATION
+claimTotalEther is equal to 
+b drpu is equal to 0
+b drps is equal to 0
+If 
+ is equal to Balance
+If _token corresponds to 
+b drps increments of _value
+claimTotalWeight increments of _convertDrpsWeight
+b drpu increments of _value
+claimTotalWeight increments of _value

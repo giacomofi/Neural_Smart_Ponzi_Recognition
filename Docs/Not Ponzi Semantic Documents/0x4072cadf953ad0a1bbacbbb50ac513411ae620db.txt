@@ -1,0 +1,16 @@
+solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity >=0.5.16 solidity >=0.5.16 
+Context Ownable IERC20 IRealitio Arbitrator 
+_owner msgSender realitio arbitration_bounties disputeFee customDisputeFees metadata arbitrationFee paid 
+_msgSender _msgData owner isOwner renounceOwnership transferOwnership _transferOwnership totalSupply balanceOf transfer allowance approve transferFrom setQuestionFee notifyOfArbitrationRequest submitAnswerByArbitrator isFinalized withdraw realitycheck setRealitio setDisputeFee setCustomDisputeFee getDisputeFee setQuestionFee submitAnswerByArbitrator requestArbitration withdraw withdrawERC20  callWithdraw setMetaData 
+Ownable inherits from Context Arbitrator inherits from Ownable 
+onlyOwner 
+OwnershipTransferred Transfer Approval LogRequestArbitration LogSetRealitio LogSetQuestionFee LogSetDisputeFee LogSetCustomDisputeFee 
+_owner is equal to msgSender
+_owner is equal to 
+_owner is equal to newOwner
+realitio is equal to IRealitio
+disputeFee is equal to fee
+ is equal to fee
+ increments of msg value
+If paid is greater or equal to arbitrationFee
+metadata is equal to _metadata

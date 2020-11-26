@@ -1,0 +1,22 @@
+solidity ^0.4.22 
+RANATOKEN 
+name symbol decimals adminWallet balanceOf allowance totalSupply stopped supplyNumber powNumber TOKEN_SUPPLY_TOTAL valueFounder owner 
+transfer transferFrom approve stop start setName setSymbol burn 
+isOwner isRunning validAddress 
+Transfer Approval 
+owner is equal to msg sender
+adminWallet is equal to owner
+totalSupply is equal to valueFounder
+ is equal to valueFounder
+ decreases of _value
+ increments of _value
+ increments of _value
+ decreases of _value
+ decreases of _value
+ is equal to _value
+stopped is equal to True
+stopped is equal to False
+name is equal to _name
+symbol is equal to _symbol
+ decreases of _value
+ increments of _value

@@ -1,0 +1,18 @@
+BigRisk 
+Person 
+Person has etherAddress
+Person has amount
+persons payoutIdx collectedFees balance owner amount idx transactionAmount 
+BigRisk  enter setOwner 
+onlyowner 
+owner is equal to msg sender
+amount is equal to msg value
+If amount Invalid symbol 100 ether is different from 0
+persons length increments of 1
+persons idx etherAddress is equal to msg sender
+persons idx amount is equal to amount
+balance increments of amount
+While balance is greater or equal to persons payoutIdx amount multiplied by 2
+balance decreases of transactionAmount
+payoutIdx increments of 1
+owner is equal to _owner

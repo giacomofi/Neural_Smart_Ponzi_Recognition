@@ -1,0 +1,18 @@
+solidity ^0.5.0 
+SafeMath IERC20 WTA 
+SafeMath 
+c c c c _balances _allowances _totalSupply _name _symbol _decimals 
+add sub sub mul div div mod mod totalSupply balanceOf transfer allowance approve transferFrom totalSupply name symbol decimals burn burnFrom balanceOf transfer allowance approve transferFrom increaseAllowance decreaseAllowance _transfer _burn _approve _burnFrom 
+WTA inherits from IERC20 
+Transfer Approval 
+If a corresponds to 0
+_name is equal to name
+_symbol is equal to symbol
+_decimals is equal to decimals
+_totalSupply is equal to 2979000000 multiplied by 10 Invalid symbol 
+ is equal to _totalSupply
+ is equal to _balances sender sub
+ is equal to _balances recipient add
+ is equal to _balances account sub
+_totalSupply is equal to _totalSupply sub
+ is equal to value

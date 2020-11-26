@@ -1,0 +1,33 @@
+solidity ^0.4.24 
+SafeMath ERC20 DividendInterface KyberInterface MinterInterface CrowdsaleReserveInterface Events DB CrowdsaleERC20 
+SafeMath 
+c c database events minter reserve kyber fundingToken fundingRemaining collected amount fundingToken platformAssetsWallet receiver platformFundsWallet amount platformFee manager assetToken tokenAddress refundValue paymentBalanceBefore fundingBalanceBefore change investment thisToken contractBalance 
+mul div sub add getFractionalAmount decimals totalSupply balanceOf allowance transfer approve transferFrom issueDividends totalSupply getERC20 getExpectedRate trade cloneToken mintAssetTokens changeTokenController issueETH receiveETH refundETHAsset issueERC20 requestERC20 approveERC20 refundERC20Asset transaction addressStorage uintStorage setUint deleteUint setBool boolStorage buyAssetOrderERC20 payoutERC20 cancel refund collectPayment convertTokens recoverTokens destroy  
+onlyOwner whenNotPaused validAsset beforeDeadline betweenDeadlines afterDeadline finalized notFinalized notPaid 
+Transfer Approval Convert EtherReceived 
+If a corresponds to 0
+database is equal to DB
+events is equal to Events
+minter is equal to MinterInterface
+reserve is equal to CrowdsaleReserveInterface
+kyber is equal to KyberInterface
+If _paymentToken corresponds to 
+If _paymentToken corresponds to 
+collected is equal to collectPayment
+collected is equal to convertTokens
+If collected is less then fundingRemaining
+amount is equal to 
+amount is equal to 
+If collected is greater then fundingRemaining
+If amount is greater then max
+If  corresponds to 
+paymentBalanceBefore is equal to 
+fundingBalanceBefore is equal to _fundingToken balanceOf
+change is equal to _amount sub
+investment is equal to 
+If change is greater then 0
+paymentBalanceBefore is equal to _paymentToken balanceOf
+fundingBalanceBefore is equal to _fundingToken balanceOf
+change is equal to _amount sub
+investment is equal to 
+If change is greater then 0

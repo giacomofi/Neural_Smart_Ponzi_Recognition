@@ -1,0 +1,47 @@
+solidity ^0.4.16 
+Token AladTTS 
+totalSupply name symbol rate consume totalConsume bigJackpot smallJackpot consumeRule owner i e e jackpot pricce i pricce i trash balances allowed 
+balanceOf trashOf transfer inTrash transferFrom approve allowance  AladTTS balanceOf trashOf getRate getConsume getTotalConsume getBigJackpot getSmallJackpot getBalance sendAll sendTransfer getEth checkConsume tickets ticketConsume setJackpot smallCheckOut bigCheckOut inTrash transfer transferFrom approve allowance 
+AladTTS inherits from Token 
+onlyOwner 
+Transfer InTrash Approval transferLogs 
+owner is equal to msg sender
+totalSupply is equal to _initialAmount
+ is equal to totalSupply
+name is equal to _tokenName
+symbol is equal to _tokenName
+rate is equal to _rate
+consume is equal to _rate divided by 10
+totalConsume is equal to 0
+consumeRule is equal to 0
+bigJackpot is equal to 0
+smallJackpot is equal to 0
+i is less then _users length
+If  is greater or equal to _price
+If _price is greater then 0
+If  is greater or equal to _price
+rate is equal to rate divided by 2
+consume is equal to consume divided by 2
+consumeRule is equal to consumeRule minus 1000000
+e is equal to e multiplied by rate
+ decreases of e
+ increments of e
+ decreases of e
+ increments of e
+totalConsume increments of e
+consumeRule increments of e
+bigJackpot increments of jackpot multiplied by 7 divided by 10
+smallJackpot increments of jackpot multiplied by 3 divided by 10
+i is less then _users length
+smallJackpot is equal to 0
+i is less then _users length
+bigJackpot is equal to 0
+ decreases of _value
+ increments of _value
+totalConsume increments of _value
+ decreases of _value
+ increments of _value
+ increments of _value
+ decreases of _value
+ decreases of _value
+ is equal to _value

@@ -1,0 +1,20 @@
+solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 
+IERC20 SafeMath SafeERC20 Ownable TokenVesting 
+SafeMath SafeMath SafeERC20 
+c c c c newAllowance newAllowance _owner _beneficiary _cliff _start _duration _revocable _released _revoked unreleased balance unreleased refund currentBalance totalBalance 
+transfer approve transferFrom totalSupply balanceOf allowance mul div sub add mod safeTransfer safeTransferFrom safeApprove safeIncreaseAllowance safeDecreaseAllowance owner isOwner renounceOwnership transferOwnership _transferOwnership beneficiary cliff start duration revocable released revoked release revoke _releasableAmount _vestedAmount 
+TokenVesting inherits from Ownable 
+onlyOwner 
+Transfer Approval OwnershipTransferred TokensReleased TokenVestingRevoked 
+If a corresponds to 0
+_owner is equal to msg sender
+_owner is equal to 
+_owner is equal to newOwner
+_beneficiary is equal to beneficiary
+_revocable is equal to revocable
+_duration is equal to duration
+_cliff is equal to start add
+_start is equal to start
+ is equal to  add
+ is equal to True
+If block timestamp is less then _cliff

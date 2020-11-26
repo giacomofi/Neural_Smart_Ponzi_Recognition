@@ -1,0 +1,20 @@
+solidity ^0.5.8 
+SafeMath Owned IERC20 ERC20 RaffleTicket 
+SafeMath 
+c c c c owner _balances _allowances _totalSupply decimals minters len i 
+add sub mul div mod setOwner totalSupply balanceOf transfer allowance approve transferFrom totalSupply balanceOf transfer allowance approve transferFrom increaseAllowance decreaseAllowance _transfer _mint _burn _approve _burnFrom mint changeMinterApproval 
+ERC20 inherits from IERC20 RaffleTicket inherits from Owned RaffleTicket inherits from ERC20 
+onlyOwner onlyMinter 
+OwnerChanged Transfer Approval MinterApprovalChanged 
+If a corresponds to 0
+owner is equal to msg sender
+owner is equal to _owner
+ is equal to _balances sender sub
+ is equal to _balances recipient add
+_totalSupply is equal to _totalSupply add
+ is equal to _balances account add
+_totalSupply is equal to _totalSupply sub
+ is equal to _balances account sub
+ is equal to value
+i is less then len
+ is equal to approved

@@ -1,0 +1,60 @@
+solidity ^0.5.0 
+Context Roles PauserRole Pausable Killable Ownable IGroup AddressValidator UsingValidator AddressConfig UsingConfig SafeMath EternalStorage UsingStorage VoteTimesStorage VoteTimes Metrics MetricsGroup MetricsFactory 
+Roles SafeMath SafeMath 
+Role 
+Role has bearer
+_pausers _paused _owner _owner msgSender errorMessage _validator token allocator allocatorStorage withdraw withdrawStorage marketFactory marketGroup propertyFactory propertyGroup metricsGroup metricsFactory policy policyFactory policySet policyGroup lockup lockupStorage voteTimes voteTimesStorage voteCounter voteCounterStorage _config c c c c currentOwner uIntStorage stringStorage addressStorage bytesStorage boolStorage intStorage _storage tmp voteTimes voteTimesByProperty voteTimes voteTimes voteTimesByProperty market property totalCount totalCount metrics metricsGroup metricsAddress metricsGroup metrics 
+_msgSender _msgData add remove has isPauser addPauser renouncePauser _addPauser _removePauser paused pause unpause kill owner isOwner renounceOwnership transferOwnership _transferOwnership isGroup addGroup getGroupKey validateIllegalAddress validateGroup validateGroups validateAddress validateAddresses addressValidator setAllocator setAllocatorStorage setWithdraw setWithdrawStorage setMarketFactory setMarketGroup setPropertyFactory setPropertyGroup setMetricsFactory setMetricsGroup setPolicyFactory setPolicyGroup setPolicySet setPolicy setToken setLockup setLockupStorage setVoteTimes setVoteTimesStorage setVoteCounter setVoteCounterStorage config configAddress add sub sub mul div div mod mod changeOwner getUint getString getAddress getBytes getBool getInt setUint setString setAddress setBytes setBool setInt deleteUint deleteString deleteAddress deleteBytes deleteBool deleteInt eternalStorage getStorageAddress createStorage setStorage changeOwner getVoteTimes setVoteTimes getVoteTimesKey getVoteTimesByProperty setVoteTimesByProperty getVoteTimesByPropertyKey addVoteTime addVoteTimesByProperty resetVoteTimesByProperty getAbstentionTimes getStorage addGroup removeGroup isGroup totalIssuedMetrics getTotalCountKey create destroy 
+PauserRole inherits from Context Pausable inherits from Context Pausable inherits from PauserRole Ownable inherits from Context AddressConfig inherits from Ownable AddressConfig inherits from UsingValidator AddressConfig inherits from Killable UsingStorage inherits from Ownable UsingStorage inherits from Pausable VoteTimesStorage inherits from UsingStorage VoteTimesStorage inherits from UsingConfig VoteTimesStorage inherits from UsingValidator VoteTimesStorage inherits from Killable VoteTimes inherits from UsingConfig VoteTimes inherits from UsingValidator VoteTimes inherits from Killable MetricsGroup inherits from UsingConfig MetricsGroup inherits from UsingStorage MetricsGroup inherits from UsingValidator MetricsGroup inherits from IGroup MetricsFactory inherits from Pausable MetricsFactory inherits from UsingConfig MetricsFactory inherits from UsingValidator 
+onlyPauser whenNotPaused whenPaused onlyOwner onlyCurrentOwner hasStorage 
+PauserAdded PauserRemoved Paused Unpaused OwnershipTransferred Create Destroy 
+ is equal to True
+ is equal to False
+_paused is equal to False
+_paused is equal to True
+_paused is equal to False
+_owner is equal to msg sender
+_owner is equal to msgSender
+_owner is equal to 
+_owner is equal to newOwner
+
+If _addr corresponds to _target1
+_validator is equal to 
+allocator is equal to _addr
+allocatorStorage is equal to _addr
+withdraw is equal to _addr
+withdrawStorage is equal to _addr
+marketFactory is equal to _addr
+marketGroup is equal to _addr
+propertyFactory is equal to _addr
+propertyGroup is equal to _addr
+metricsFactory is equal to _addr
+metricsGroup is equal to _addr
+policyFactory is equal to _addr
+policyGroup is equal to _addr
+policySet is equal to _addr
+policy is equal to _addr
+token is equal to _addr
+lockup is equal to _addr
+lockupStorage is equal to _addr
+voteTimes is equal to _addr
+voteTimesStorage is equal to _addr
+voteCounter is equal to _addr
+voteCounterStorage is equal to _addr
+_config is equal to AddressConfig
+If a corresponds to 0
+currentOwner is equal to _newOwner
+ is equal to _value
+ is equal to _value
+ is equal to _value
+ is equal to _value
+ is equal to _value
+ is equal to _value
+_storage is equal to 
+_storage is equal to _storageAddress
+voteTimes is equal to voteTimes add
+voteTimesByProperty is equal to voteTimesByProperty add
+market is equal to _market
+property is equal to _property
+totalCount is equal to totalCount add
+totalCount is equal to totalCount sub

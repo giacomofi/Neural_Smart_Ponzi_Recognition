@@ -1,0 +1,63 @@
+solidity ^0.5.12 
+Vat 
+Ilk Urn 
+Ilk has Art
+Ilk has rate
+Ilk has spot
+Ilk has line
+Ilk has dust
+Urn has ink
+Urn has art
+wards can ilks urns gem dai sin debt vice Line live urn ilk dtab tab u v i utab vtab urn ilk dtab u ilk rad 
+rely deny hope nope wish add sub mul add sub mul init file file cage slip flux move either both frob fork grab heal suck fold 
+auth note 
+LogNote 
+ is equal to 1
+ is equal to 0
+ is equal to 1
+ is equal to 0
+ is equal to 1
+live is equal to 1
+z is equal to x plus 
+z is equal to x minus 
+z is equal to  multiplied by y
+ilks ilk rate is equal to 10 Invalid symbol 27
+If what corresponds to Line
+Line is equal to data
+If what corresponds to spot
+ilks ilk spot is equal to data
+live is equal to 0
+ is equal to add
+ is equal to sub
+ is equal to add
+ is equal to sub
+ is equal to add
+urn ink is equal to add
+urn art is equal to add
+ilk Art is equal to add
+debt is equal to add
+ is equal to sub
+ is equal to add
+ is equal to urn
+ is equal to ilk
+u ink is equal to sub
+u art is equal to sub
+v ink is equal to add
+v art is equal to add
+urn ink is equal to add
+urn art is equal to add
+ilk Art is equal to add
+ is equal to sub
+ is equal to sub
+vice is equal to sub
+ is equal to sub
+ is equal to sub
+vice is equal to sub
+debt is equal to sub
+ is equal to add
+ is equal to add
+vice is equal to add
+debt is equal to add
+ilk rate is equal to add
+ is equal to add
+debt is equal to add

@@ -1,0 +1,5 @@
+solidity 0.6.4 experimental ABIEncoderV2 
+ProtocolAdapter LendingPoolAddressesProvider LendingPool AaveDebtAdapter 
+PROVIDER pool 
+adapterType tokenType getBalance getLendingPool getUserReserveData adapterType tokenType getBalance 
+AaveDebtAdapter inherits from ProtocolAdapter 

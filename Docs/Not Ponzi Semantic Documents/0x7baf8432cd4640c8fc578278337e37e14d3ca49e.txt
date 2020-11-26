@@ -1,0 +1,13 @@
+KYCInterface Roles RBAC BasicKYC 
+Roles 
+Role 
+Role has bearer
+roles ROLE_ADMIN hashes attributes ROLE_SIGNER ROLE_SETTER hash 
+getAttribute add remove check has RBAC checkRole hasRole adminAddRole adminRemoveRole addRole removeRole writeAttributes setAttributes getAttribute setMyAttributes 
+BasicKYC inherits from RBAC BasicKYC inherits from KYCInterface 
+onlyRole onlyAdmin 
+AttributesSet RoleAdded RoleRemoved 
+ is equal to True
+ is equal to False
+ is equal to newAttributes
+ is equal to True

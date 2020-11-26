@@ -1,0 +1,7 @@
+solidity 0.6.5 experimental ABIEncoderV2 
+ERC20 TokenAdapter Pot MKRAdapter ChaiTokenAdapter 
+VAT POT JUG MANAGER DAI BAT WETH ONE pot underlyingTokens 
+name symbol decimals getMetadata getComponents pie dsr rho chi mkrRpow mkrRmul mkrMul mkrAdd getMetadata getComponents 
+ChaiTokenAdapter inherits from TokenAdapter ChaiTokenAdapter inherits from MKRAdapter 
+z is equal to mkrMul divided by ONE
+ is equal to Component

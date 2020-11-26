@@ -1,0 +1,5 @@
+solidity ^0.6.0 
+ListInterface InstaEvent 
+instaList _ID 
+accountID emitEvent 
+LogEvent 

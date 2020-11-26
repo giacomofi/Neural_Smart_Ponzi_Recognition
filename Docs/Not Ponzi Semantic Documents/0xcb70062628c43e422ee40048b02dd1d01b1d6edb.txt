@@ -1,0 +1,68 @@
+solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity 0.5.12 solidity 0.5.12 solidity 0.5.12 solidity 0.5.12 solidity 0.5.12 solidity 0.5.12 
+IERC20 ERC20Detailed SafeMath IDAIProxy ILoanContract ISwapAndDeposit ISwapAndDepositFactory IERC20Wrapper ERC20Wrapper LoanContract 
+SafeMath 
+Position 
+Position has bidAmount
+Position has withdrawn
+_name _symbol _decimals c c c c returnValue swapFactory proxyContractAddress tokenAddress originator administrator minAmount maxAmount auctionEndTimestamp auctionStartTimestamp auctionLength lastFundedTimestamp termEndTimestamp termLength auctionBalance loanWithdrawnAmount borrowerDebt minInterestRate maxInterestRate operatorFee operatorBalance MONTH_SECONDS ONE_HUNDRED lenderPosition currentState proxy loanWithdrawn minimumReached interest allFees amount amount swapAddress 
+totalSupply balanceOf transfer allowance approve transferFrom name symbol decimals add sub sub mul div div mod mod fund repay onFundingReceived withdrawRepayment withdrawRepaymentAndDeposit withdrawLoan onRepaymentReceived getInterestRate calculateValueWithInterest getMaxAmount getAuctionBalance getTokenAddress init isDestroyed swapAndDeposit setAuthAddress setUniswapAddress setLibraryAddress deploy totalSupply balanceOf allowance transfer transferFrom approve symbol balanceOf allowance transfer transferFrom approve isIssuedToken checkSuccess getMaxAmount getAuctionBalance getLenderBidAmount getLenderWithdrawn getTokenAddress onFundingReceived unlockFundsWithdrawal withdrawFees withdrawFundsUnlocked withdrawRefund withdrawRepayment withdrawRepaymentAndDeposit withdrawLoan onRepaymentReceived isAuctionExpired isDefaulted updateStateMachine calculateValueWithInterest getInterestRate setState setSuccessfulAuction 
+ERC20Detailed inherits from IERC20 LoanContract inherits from ILoanContract 
+onlyFrozen onlyAdmin onlyCreated onlyActive onlyRepaid onlyFailedToFund onlyProxy onlyOriginator 
+Transfer Approval SwapDeposit SwapContract LoanCreated MinimumFundingReached FullyFunded Funded LoanRepaid RepaymentWithdrawn RefundWithdrawn FullyRefunded FailedToFund LoanFundsWithdrawn LoanDefaulted AuctionSuccessful FundsUnlockedWithdrawn FullyFundsUnlockedWithdrawn LoanFundsUnlocked OperatorWithdrawn 
+_name is equal to name
+_symbol is equal to symbol
+_decimals is equal to decimals
+If a corresponds to 0
+
+
+
+tokenAddress is equal to _tokenAddress
+proxyContractAddress is equal to _proxyAddress
+proxy is equal to IDAIProxy
+originator is equal to _originator
+administrator is equal to _administrator
+swapFactory is equal to _swapFactory
+minInterestRate is equal to _minInterestRate
+maxInterestRate is equal to _maxInterestRate
+minAmount is equal to _minAmount
+maxAmount is equal to _maxAmount
+auctionLength is equal to _auctionLength
+auctionStartTimestamp is equal to block timestamp
+auctionEndTimestamp is equal to auctionStartTimestamp plus auctionLength
+termLength is equal to _termLength
+loanWithdrawnAmount is equal to 0
+operatorFee is equal to _operatorFee
+
+If auctionBalance is less then minAmount
+lenderPosition lender bidAmount is equal to lenderPosition lender bidAmount add
+auctionBalance is equal to auctionBalance add
+lastFundedTimestamp is equal to block timestamp
+If auctionBalance is greater or equal to minAmount Invalid symbol 
+minimumReached is equal to True
+If auctionBalance corresponds to maxAmount
+operatorBalance is equal to 0
+msg sender withdrawn is equal to True
+loanWithdrawnAmount is equal to loanWithdrawnAmount add
+If loanWithdrawnAmount corresponds to auctionBalance add
+msg sender withdrawn is equal to True
+loanWithdrawnAmount is equal to loanWithdrawnAmount add
+If loanWithdrawnAmount corresponds to auctionBalance
+msg sender withdrawn is equal to True
+loanWithdrawnAmount is equal to loanWithdrawnAmount add
+If loanWithdrawnAmount corresponds to borrowerDebt
+msg sender withdrawn is equal to True
+loanWithdrawnAmount is equal to loanWithdrawnAmount add
+If loanWithdrawnAmount corresponds to borrowerDebt
+loanWithdrawn is equal to True
+If block timestamp is less or equal to auctionEndTimestamp Invalid symbol 
+If isAuctionExpired Invalid symbol currentState corresponds to LoanState CREATED
+If not minimumReached
+If isDefaulted Invalid symbol currentState corresponds to LoanState ACTIVE
+If currentState corresponds to LoanState CREATED
+currentState is equal to state
+borrowerDebt is equal to calculateValueWithInterest
+operatorBalance is equal to 
+auctionBalance is equal to auctionBalance minus operatorBalance
+If block timestamp is less then auctionEndTimestamp
+termEndTimestamp is equal to block timestamp add
+termEndTimestamp is equal to auctionEndTimestamp add

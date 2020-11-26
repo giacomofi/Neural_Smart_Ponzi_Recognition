@@ -1,0 +1,29 @@
+Managed OfficialWebsite SmartRevshare 
+Investor 
+Investor has addr
+Investor has value
+Investor has lastDay
+Investor has leftPayDays
+currentManager officialWebsite investors payoutIdx currentManager balanc payoutValue currDay idx 
+Managed  setOfficialWebsite  SmartRevshare found  invest payout testingContract getDay calculateROI 
+OfficialWebsite inherits from Managed SmartRevshare inherits from OfficialWebsite 
+onlyManager manager 
+Invest Payout 
+currentManager is equal to msg sender
+officialWebsite is equal to url
+currentManager is equal to msg sender
+balanc increments of msg value
+balanc increments of msg value
+If msg value is less then 1 finney Invalid symbol 
+idx is less then investors length
+payoutValue is equal to investors idx value divided by 100
+If balanc is less then payoutValue
+If investors idx lastDay is greater or equal to currDay
+If investors idx leftPayDays is less or equal to 0
+payoutIdx is equal to idx
+investors idx lastDay is equal to currDay
+investors idx leftPayDays decreases of 1
+balanc decreases of payoutValue
+If msg value corresponds to 1 finney
+If msg value corresponds to 2 finney
+If msg value corresponds to 3 finney

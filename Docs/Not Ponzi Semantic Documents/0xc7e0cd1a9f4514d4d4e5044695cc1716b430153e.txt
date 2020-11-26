@@ -1,0 +1,46 @@
+solidity ^0.4.23 
+IERC223Token IERC223Receiver IOwned ICalled ICaller IERC20Token IDummyToken ISmartToken ITokenOperator IsContract Owned Constant IFund IProject IData I$martFund SafeMath Sqrt DataCaller GetBU SetBU Disable IReserve IFormula I$martFundImpl Enabled DisableDapp GetBA SetBA GetBAU SetBAU GetBBU SetBBU GetBBS SetBBS GetBUU SetBUU GetBUA SetBUA GetBUS SetBUS GetBAUU SetBAUU GetBBAU SetBBAU GetBBAAU SetBBAAU Destructor $martFund IRecommend I$FM2_Operator IEtherToken 
+length owner newOwner _$FM_ _$FM2_ _$FI_ _$FO_ _$FD_ _$FD2_ _$F_ _$F2R_ _$FR_ _ETHER_ _Eventer_ _$FOD_ _totalSupply_ _balanceOf_ _lastTime_ _factorDrawLots_ _eraDrawLots_ _weightIssue_ _privatePlacing_ _priceInit_ _softCap_ _ratioGiftMax_ _weightOfReserve_ _weightOfTarget_ _decelerationRatioDividend_ _ratioDividend_ _investmentSF_ _investmentEth_ _profitSF_ _profitEth_ _returnSF_ _returnEth_ _emaDailyYieldSF_ _emaDailyYield_ _timeLastMiningSF_ _timeLastMining_ _factorMining_ _projectStatus_ _projectAddr_ _projectID_ _proposeID_ _disproposeID_ _projects_ _projectsVoting_ _thresholdPropose_ _divisorAbsent_ _timePropose_ _votes_ _factorDividend_ _projectIdCount_ _projectInfo_ _recommenders_ _recommendations_ _rewardRecommend_ _halfRewardBalanceOfRecommender_ _agents_ _factorInvitationOfAgent_ _factorPerformanceOfAgent_ _performanceOfAgent_ _lastPerformanceOfAgent_ _invitationOfAgent_ _unlockedOfAgent_ _agentIssuable_ _agentThreshold_ _rewardAgent_ _$FP_ _invitation_ _agent_ _channel_ _channels_ _rewardChannel_ _rate0DrawLotsOrder_ _thresholdAccelDequeueOrder_ _periodQuotaOrder_ _project$f_ _projectEth_ _etherAmount_ _Recommend_ _Price_ _RecommendPerformance_ _RecommendReward_ PROJECT_STATUS_VOTING PROJECT_STATUS_FAIL PROJECT_STATUS_PASS PROJECT_STATUS_INVESTED PROJECT_STATUS_DISVOTING PROJECT_STATUS_DISINVESTING PROJECT_STATUS_DISINVESTED VOTE_YES VOTE_NO VOTE_CANCEL z z z data disabled MAX_PRECISION MAX_WEIGHT DEQUEUE_DEFAULT DEQUEUE_ORDER DEQUEUE_INGOT DEQUEUE_DOUBLE DEQUEUE_DOUBLE_REVERSELY DEQUEUE_NONE reserve formula impl ema timeSpan totalSupply_ reserve_ id $fd projectID status proposeID disproposeID projectID proposeID disproposeID $fd status id projectID ema addrMSM2O ratioDividend dividend supplyOld supplyNew weightOld weightNew reserve_ project supply reserve_ weightOld weightNew 
+name symbol decimals totalSupply balanceOf transfer transfer transfer tokenFallback owner transferOwnership acceptOwnership callers appendCaller removeCaller calledUpdate name symbol decimals totalSupply balanceOf allowance transfer transferFrom approve operator disableTransfers issue destroy dummy emitEventTransfer updateChanges updateChangesByBrother token_name token_symbol token_decimals token_totalSupply token_balanceOf token_allowance token_transfer token_transfer token_transfer token_transferFrom token_approve fallback token_fallback isContract transferOwnership acceptOwnership returnProfit returnDisinvestment invest disinvest bu ba bau bbu bbs buu bua bus bas bauu bbau bbaau setBU setBA setBAU setBBU setBBS setBUU setBUA setBUS setBAUU setBBAU setBBAAU checkQuotaPropose propose dispropose getVotes vote forging purchase cancelOrder lock4Dividend unlock4Circulate transferMS transferMSI transferMSM apply4Redeem cancelRedeem redeem safeAdd safeSub safeMul safeDiv ceilDiv sqrt calledUpdate getBU setBU disable balanceOfColdWallet balanceOfShares balanceOfOrder balanceOfMineral balanceOfProject balanceOfQueue headOfQueue tailOfQueue setColdWallet saveToColdWallet restoreFromColdWallet depositShares depositOrder depositMineral depositProject order2Shares mineral2Shares shares2Project project2Shares project2Mineral withdrawShares withdrawSharesTo withdrawOrder withdrawOrderTo withdrawMineral withdrawMineralTo withdrawProject withdrawProjectTo  reserve totalSupply balanceOf price calcTimedQuota calcEma calcFactorMining calcOrderTo$fAmount calculatePurchaseReturn calculateRedeemReturn power power2 ln data reserve formula dequeueOrder dequeueIngot dequeueAlternately dequeueDouble dequeue getVotes impl_vote impl_forging impl_purchase impl_cancelOrder impl_lock4Dividend impl_unlock4Circulate impl_quotaApply4Redeem impl_apply4Redeem impl_cancelRedeem impl_redeem disableDapp getBA setBA getBAU setBAU getBBU setBBU getBBS setBBS getBUU setBUU getBUA setBUA getBUS setBUS getBAUU setBAUU getBBAU setBBAU getBBAAU setBBAAU destruct calledUpdate updateEmaDailyYieldSF checkQuotaPropose propose dispropose getVotes vote voteYes voteNo voteCancle updateProject returnProfit returnDisinvestment forging purchase cancelOrder lock4Dividend unlock4Circulate transferMS transferMSI transferMSM apply4Redeem cancelRedeem redeem dequeueOrder dequeueIngot nop tokenFallback  bindRecommenderImpl updateRatioDividend dequeueIngot dividend destroy 
+ICalled inherits from IOwned IDummyToken inherits from IERC20Token IDummyToken inherits from IERC223Token IDummyToken inherits from IERC223Receiver IDummyToken inherits from ICaller IDummyToken inherits from IOwned ITokenOperator inherits from ISmartToken ITokenOperator inherits from ICalled ITokenOperator inherits from ICaller Owned inherits from IOwned IProject inherits from ICaller IData inherits from ICalled I$martFund inherits from IFund I$martFund inherits from IOwned I$martFund inherits from ICaller DataCaller inherits from Owned DataCaller inherits from ICaller GetBU inherits from DataCaller SetBU inherits from DataCaller Disable inherits from Owned IReserve inherits from ICalled IFormula inherits from IOwned IFormula inherits from ICaller I$martFundImpl inherits from ICalled I$martFundImpl inherits from ICaller Enabled inherits from Disable Enabled inherits from GetBU DisableDapp inherits from SetBU GetBA inherits from DataCaller SetBA inherits from DataCaller GetBAU inherits from DataCaller SetBAU inherits from DataCaller GetBBU inherits from DataCaller SetBBU inherits from DataCaller GetBBS inherits from DataCaller SetBBS inherits from DataCaller GetBUU inherits from DataCaller SetBUU inherits from DataCaller GetBUA inherits from DataCaller SetBUA inherits from DataCaller GetBUS inherits from DataCaller SetBUS inherits from DataCaller GetBAUU inherits from DataCaller SetBAUU inherits from DataCaller GetBBAU inherits from DataCaller SetBBAU inherits from DataCaller GetBBAAU inherits from DataCaller SetBBAAU inherits from DataCaller Destructor inherits from Owned $martFund inherits from Constant $martFund inherits from I$martFund $martFund inherits from IERC223Receiver $martFund inherits from SafeMath $martFund inherits from Sqrt $martFund inherits from DataCaller $martFund inherits from Enabled $martFund inherits from DisableDapp $martFund inherits from GetBA $martFund inherits from GetBAU $martFund inherits from SetBAU $martFund inherits from GetBUA $martFund inherits from SetBUA $martFund inherits from GetBUU $martFund inherits from SetBUU $martFund inherits from GetBBU $martFund inherits from SetBBU $martFund inherits from GetBBAU $martFund inherits from GetBUS $martFund inherits from SetBUS $martFund inherits from GetBAUU $martFund inherits from Destructor 
+ownerOnly enabled enabled2 
+Transfer OwnerUpdate AppendCaller RemoveCaller CalledUpdate Transfer Approval Propose Dispropose UpdateProject ReturnProfit Weight ReturnDisinvestment Transfer DequeueOrder DequeueIngot 
+owner is equal to msg sender
+newOwner is equal to _newOwner
+owner is equal to newOwner
+newOwner is equal to 
+y is equal to x
+While z is less then y
+y is equal to z
+z is equal to  divided by 2
+data is equal to IData
+If data corresponds to _oldCalled
+data is equal to IData
+disabled is equal to _disable
+reserve is equal to _reserve
+formula is equal to _formula
+impl is equal to _impl
+If data corresponds to _oldCalled
+data is equal to IData
+ema is equal to formula calcEma
+If _sf multiplied by 1 ether is greater then  Invalid symbol 
+id is different from 0x0
+_sf increments of getBUU
+_eth increments of getBUU
+If  is different from 
+If _projectID corresponds to _proposeID
+projectID is equal to 
+projectID is equal to 
+proposeID is equal to 
+disproposeID is equal to 
+If _sf is greater then 0
+If _eth is greater then 0
+If _sf is greater then 0
+If _eth is greater then 0
+weightOld is equal to getBU
+weightNew is equal to weightOld multiplied by  divided by reserve_
+If _recommendation is different from 0
+If msg value is greater then 0
+dealt is equal to impl dequeueOrder
+dealt is equal to impl dequeueIngot
+If msg sender corresponds to getBA

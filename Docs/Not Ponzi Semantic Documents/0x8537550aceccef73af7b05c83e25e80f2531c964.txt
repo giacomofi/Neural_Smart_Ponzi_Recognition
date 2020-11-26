@@ -1,0 +1,5 @@
+solidity 0.6.5 experimental ABIEncoderV2 
+ProtocolAdapter Proxy Synthetix SynthetixDebtAdapter 
+SNX override override synthetix 
+adapterType tokenType getBalance target debtBalanceOf getBalance 
+SynthetixDebtAdapter inherits from ProtocolAdapter 

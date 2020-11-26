@@ -1,0 +1,43 @@
+solidity ^0.5.16 
+SafeMath Ownable Authorizable ERC20Basic ERC20 BasicToken ERC223TokenCompatible StandardToken HumanStandardToken Startable StartToken BurnToken Changable Token 
+SafeMath SafeMath 
+owner newOwner authorized name symbol decimals totalSupply balances length allowed oldValue started initialSupply 
+mul div sub add transferOwnership acceptOwnership setAuthorized balanceOf transfer allowance transferFrom approve transferFunction transfer balanceOf transfer transfer isContract transferFrom approve allowance increaseApproval decreaseApproval approveAndCall approveAndCustomCall start transfer transfer transfer transferFrom approve increaseApproval decreaseApproval burnFunction burn burnFrom changeName changeSymbol 
+Authorizable inherits from Ownable ERC20 inherits from ERC20Basic BasicToken inherits from ERC20Basic ERC223TokenCompatible inherits from BasicToken StandardToken inherits from ERC20 StandardToken inherits from BasicToken HumanStandardToken inherits from StandardToken Startable inherits from Ownable Startable inherits from Authorizable StartToken inherits from Startable StartToken inherits from ERC223TokenCompatible StartToken inherits from StandardToken BurnToken inherits from StandardToken Changable inherits from Ownable Changable inherits from ERC20Basic Token inherits from ERC20Basic Token inherits from ERC223TokenCompatible Token inherits from StandardToken Token inherits from HumanStandardToken Token inherits from StartToken Token inherits from BurnToken Token inherits from Changable 
+onlyOwner onlyAuthorized whenStarted 
+OwnershipTransferred AuthorizationSet Transfer Approval Transfer Start Burn 
+If a corresponds to 0
+c is equal to a multiplied by b
+c is equal to a plus b
+owner is equal to msg sender
+newOwner is equal to 
+newOwner is equal to _newOwner
+owner is equal to msg sender
+newOwner is equal to 
+ is equal to True
+ is equal to authorization
+ is equal to balances _sender sub
+ is equal to balances _to add
+ is equal to msg sender sub
+ is equal to balances _to add
+
+ is equal to balances _from sub
+ is equal to balances _to add
+ is equal to allowed _from msg sender sub
+ is equal to _value
+ is equal to msg sender _spender add
+If _subtractedValue is greater then oldValue
+ is equal to 0
+ is equal to oldValue sub
+started is equal to True
+initialSupply is equal to _totalSupply
+ is equal to balances _burner sub
+totalSupply is equal to totalSupply sub
+ is equal to allowed _from msg sender sub
+name is equal to _newName
+symbol is equal to _newSymbol
+name is equal to _name
+symbol is equal to _symbol
+decimals is equal to _decimals
+totalSupply is equal to _totalSupply
+ is equal to totalSupply

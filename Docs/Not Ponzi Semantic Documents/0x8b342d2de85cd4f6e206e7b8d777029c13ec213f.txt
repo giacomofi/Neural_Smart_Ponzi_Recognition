@@ -1,0 +1,26 @@
+solidity 0.5.7 
+SafeMath Ownable IERC20 ERC20 Pausable Gana 
+SafeMath 
+c c c c _owner _balances _allowed _totalSupply _paused name symbol decimals blacklist _initialBalance token thisAddress tokenBalance owner 
+mul div sub add mod owner isOwner renounceOwnership transferOwnership _transferOwnership transfer approve transferFrom totalSupply balanceOf allowance totalSupply balanceOf allowance transfer approve transferFrom increaseAllowance decreaseAllowance _transfer _mint _burn paused pause unpause _transfer mint burn isBlacklist registerBlacklist unregisterBlacklist claimTokens 
+ERC20 inherits from IERC20 Pausable inherits from Ownable Gana inherits from ERC20 Gana inherits from Ownable Gana inherits from Pausable 
+onlyOwner whenNotPaused whenPaused 
+OwnershipTransferred Transfer Approval Paused Unpaused ClaimedTokens RegisterBlacklist UnregisterBlacklist 
+If a corresponds to 0
+_owner is equal to msg sender
+_owner is equal to 
+_owner is equal to newOwner
+ is equal to value
+ is equal to _allowed from msg sender sub
+ is equal to msg sender spender add
+ is equal to msg sender spender sub
+ is equal to _balances from sub
+ is equal to _balances to add
+_totalSupply is equal to _totalSupply add
+ is equal to _balances account add
+_totalSupply is equal to _totalSupply sub
+ is equal to _balances account sub
+_paused is equal to True
+_paused is equal to False
+ is equal to True
+ is equal to False

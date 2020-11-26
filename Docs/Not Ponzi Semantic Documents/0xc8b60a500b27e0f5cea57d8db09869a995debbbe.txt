@@ -1,0 +1,5 @@
+solidity ^0.6.0 
+IDaiBackstopSyndicateV Syndicate 
+backstopSyndicate 
+enterAuction enter 
+backstopSyndicate is equal to IDaiBackstopSyndicateV

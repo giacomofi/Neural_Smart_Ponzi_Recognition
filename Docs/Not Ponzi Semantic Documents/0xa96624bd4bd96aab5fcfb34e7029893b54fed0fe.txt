@@ -1,0 +1,31 @@
+solidity ^0.5.8 
+Math SafeMath Ownable IERC20 IUnsafeERC20 SafeERC20 TokenSale 
+SafeMath SafeMath SafeERC20 
+ExToken 
+ExToken has safe
+ExToken has accepted
+ExToken has rate
+c c c c _owner newAllowance newAllowance saleToken fundCollector tokenWallet whitelist _exTokens bonusThreshold tierOneBonusTime tierOneBonusRate tierTwoBonusTime tierTwoBonusRate _tokens _value 
+max min average mul div sub add mod owner isOwner renounceOwnership transferOwnership _transferOwnership totalSupply balanceOf allowance transfer approve transferFrom totalSupply balanceOf allowance transfer approve transferFrom safeTransfer safeTransferFrom safeApprove safeIncreaseAllowance safeDecreaseAllowance setFundCollector _setFundCollector setSaleToken _setSaleToken setTokenWallet _setTokenWallet setBonusConditions _setBonusConditions setWhitelist remainingTokens setExToken safe accepted rate exchangeableAmounts buyTokens _forwardFunds _getTokenAmount _applyBonus _processPurchase 
+TokenSale inherits from Ownable 
+onlyOwner 
+OwnershipTransferred Transfer Approval USDTSet FundCollectorSet SaleTokenSet TokenWalletSet BonusConditionsSet WhitelistSet ExTokenSet TokensPurchased 
+If a corresponds to 0
+_owner is equal to msg sender
+_owner is equal to 
+_owner is equal to newOwner
+fundCollector is equal to _fundCollector
+saleToken is equal to IERC20
+tokenWallet is equal to _tokenWallet
+bonusThreshold is equal to _bonusThreshold
+tierOneBonusTime is equal to _tierOneBonusTime
+tierOneBonusRate is equal to _tierOneBonusRate
+tierTwoBonusTime is equal to _tierTwoBonusTime
+tierTwoBonusRate is equal to _tierTwoBonusRate
+ is equal to _allowed
+_exTokens _exToken safe is equal to _safe
+_exTokens _exToken accepted is equal to _accepted
+_exTokens _exToken rate is equal to _rate
+
+If _amount is less then bonusThreshold
+If block timestamp is less or equal to tierOneBonusTime

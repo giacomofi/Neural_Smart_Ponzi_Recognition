@@ -1,0 +1,24 @@
+solidity ^0.4.24 
+SafeMath DBInterface Events KyberInterface MinterInterface CrowdsaleGeneratorERC20_ERC20 CrowdsaleGeneratorERC20 
+SafeMath 
+c c database database events kyber minter assetAddress minEscrow totalTokens percent amount assetManagerEscrowID platformTokenAddress paymentToken 
+mul div sub add getFractionalAmount setContractManager setAddress setUint setString setBytes setBytes32 setBool setInt deleteAddress deleteUint deleteString deleteBytes deleteBytes32 deleteBool deleteInt uintStorage stringStorage addressStorage bytesStorage bytes32Storage boolStorage intStorage message transaction registration contractChange asset escrow order exchange operator consensus getExpectedRate trade cloneToken mintAssetTokens changeTokenController balanceOf approve transfer transferFrom createAssetOrderERC20 updateIPFS destroy setCrowdsaleValues setAssetValues calculateEscrowERC20 lockEscrowERC20 
+onlyApprovedContract onlyOwner checkRequirements 
+LogEvent LogTransaction LogAddress LogContractChange LogAsset LogEscrow LogOrder LogExchange LogOperator LogConsensus 
+If a corresponds to 0
+database is equal to DBInterface
+database is equal to DBInterface
+events is equal to Events
+kyber is equal to KyberInterface
+minter is equal to MinterInterface
+If _paymentToken corresponds to 
+If 
+percent is equal to percent mul
+If 
+percent is equal to percent add
+If _paymentTokenAddress corresponds to _fundingTokenAddress
+If _paymentTokenAddress is different from platformTokenAddress
+If _paymentTokenAddress corresponds to 
+amount is equal to 
+amount is equal to kyber trade
+amount is equal to _amount

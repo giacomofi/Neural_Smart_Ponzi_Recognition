@@ -1,0 +1,14 @@
+solidity ^0.5.4 
+Registry 
+minter core oracleAggregator syntheticAggregator opiumAddress tokenSpender wethAddress initializer 
+setMinter setCore setOracleAggregator setSyntheticAggregator setOpiumAddress setTokenSpender setWethAddress changeOpiumAddress getCore getMinter getOracleAggregator getSyntheticAggregator getOpiumAddress getTokenSpender getWethAddress 
+onlyInitializer 
+initializer is equal to msg sender
+minter is equal to _minter
+core is equal to _core
+oracleAggregator is equal to _oracleAggregator
+syntheticAggregator is equal to _syntheticAggregator
+opiumAddress is equal to _opiumAddress
+tokenSpender is equal to _tokenSpender
+wethAddress is equal to _wethAddress
+opiumAddress is equal to _opiumAddress

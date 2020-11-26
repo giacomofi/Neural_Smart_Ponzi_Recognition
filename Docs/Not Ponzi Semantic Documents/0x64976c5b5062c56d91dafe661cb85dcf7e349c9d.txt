@@ -1,0 +1,10 @@
+solidity 0.5.12 
+DSPauseAbstract PotAbstract JugAbstract VatAbstract SpellAction DssSpell 
+description MCD_VAT MCD_JUG MCD_POT SIXTEEN_PCT_RATE RAD MILLION USDC_FEE ETH_LINE GLOBAL_AMOUNT pause action tag eta sig expiration done MILLION _tag _action 
+delay plot exec drip file file file drip file file execute description schedule cast 
+sig is equal to abi encodeWithSignature
+action is equal to 
+tag is equal to _tag
+expiration is equal to now plus 30 days
+eta is equal to now plus 
+done is equal to True

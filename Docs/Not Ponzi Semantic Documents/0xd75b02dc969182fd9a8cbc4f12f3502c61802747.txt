@@ -1,0 +1,24 @@
+solidity ^0.5.13 
+Owned EtherBoxLevels 
+owner newOwner mlm pack users paid i bonus 
+changeOwner acceptOwnership setBonus setPack setSponsor sponsor join  
+EtherBoxLevels inherits from Owned 
+onlyOwner 
+newOwner is equal to _newOwner
+If msg sender corresponds to newOwner
+owner is equal to newOwner
+mlm is equal to 
+pack is equal to 70000000000000000
+owner is equal to msg sender
+ is equal to owner
+ is equal to _bonus
+pack is equal to _pack
+ is equal to _sponsor
+If  corresponds to 
+ref is equal to owner
+ is equal to ref
+i is less then mlm length
+If ref corresponds to owner
+If bonus is greater then 0
+paid increments of bonus
+ref is equal to 

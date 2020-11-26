@@ -1,0 +1,6 @@
+solidity ^0.5.10 
+StorageUnit 
+owner store 
+write read 
+owner is equal to msg sender
+ is equal to _value

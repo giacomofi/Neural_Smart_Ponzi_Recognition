@@ -1,0 +1,50 @@
+EthVenturesFinal 
+InvestorArray 
+InvestorArray has etherAddress
+InvestorArray has amount
+investors total_investors fees balance totaldeposited totalpaidout totaldividends Message_To_Investors owner PRE_payout PRE_amount PRE_i amount alreadyinvestor alreadyinvestor_id i 
+EthVenturesFinal  Enter NewOwner Emergency EmergencyBalanceReset NewMessage NewManualInvestor ManualDeposit 
+manager 
+owner is equal to msg sender
+If msg value is less then 2 ether
+totalpaidout increments of PRE_amount divided by 100
+PRE_amount decreases of PRE_amount divided by 100
+If investors length is different from 0 Invalid symbol 
+PRE_i is less then investors length
+PRE_payout is equal to PRE_amount multiplied by investors PRE_i amount divided by totaldeposited
+totalpaidout increments of PRE_payout
+totaldividends increments of PRE_payout
+Message_To_Investors is equal to Dividends have been paid out!
+fees is equal to amount divided by 100
+totaldeposited increments of amount
+amount decreases of amount divided by 100
+balance increments of amount
+i is less then investors length
+If msg sender corresponds to investors i etherAddress
+alreadyinvestor is equal to True
+alreadyinvestor_id is equal to i
+If alreadyinvestor corresponds to False
+total_investors is equal to investors length plus 1
+investors length increments of 1
+ etherAddress is equal to msg sender
+ amount is equal to amount
+Message_To_Investors is equal to New Investor has joined us!
+investors alreadyinvestor_id amount increments of amount
+If fees is different from 0
+totalpaidout increments of fees
+owner is equal to new_owner
+Message_To_Investors is equal to The contract has a new manager!
+If balance is different from 0
+balance is equal to 0
+Message_To_Investors is equal to Emergency Withdraw has been issued!
+balance is equal to new_balance
+Message_To_Investors is equal to The Balance has been edited by the Manager!
+Message_To_Investors is equal to new_sms
+total_investors is equal to investors length plus 1
+investors length increments of 1
+ etherAddress is equal to new_investor
+ amount is equal to new_amount
+Message_To_Investors is equal to New manual Investor has been added by the Manager!
+totaldeposited increments of msg value
+balance increments of msg value
+Message_To_Investors is equal to Manual Deposit received from the Manager

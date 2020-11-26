@@ -1,0 +1,17 @@
+solidity ^0.5.4 
+SafeMath ReserveEternalStorage 
+SafeMath 
+c c c c owner escapeHatch balance allowed frozenTime 
+mul div sub add mod transferOwnership transferEscapeHatch addBalance subBalance setBalance setAllowed setFrozenTime 
+onlyOwner 
+OwnershipTransferred EscapeHatchTransferred 
+If a corresponds to 0
+owner is equal to msg sender
+escapeHatch is equal to escapeHatchAddress
+owner is equal to newOwner
+escapeHatch is equal to newEscapeHatch
+ is equal to balance key add
+ is equal to balance key sub
+ is equal to value
+ is equal to value
+ is equal to time

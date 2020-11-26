@@ -1,0 +1,27 @@
+solidity ^0.6.3 
+BrightID 
+Context 
+Context has isActive
+Context has owners
+Context has nodes
+Context has accounts
+Context has cIdToUid
+Context has ethToUid
+id contexts DUPLICATE_ETHEREUM_ADDRESS DUPLICATE_CONTEXT_ID ONLY_CONTEXT_OWNER UNAUTHORIZED_NODE CONTEXT_NOT_FOUND NODE_NOT_FOUND ALREADY_EXISTS BAD_SIGNATURE NO_CONTEXT_ID i uid message signerAddress uid i uid lastIndex 
+isContext isNodeInContext getUid register isUniqueHuman sponsor addContext addContextOwner removeContextOwner isContextOwner addNodeToContext removeNodeFromContext 
+onlyContextOwner 
+ContextAdded ContextOwnerAdded ContextOwnerRemoved NodeAddedToContext NodeRemovedFromContext AddressLinked SponsorshipRequested 
+id is equal to 0
+i is less then cIds length minus 1
+If uid is different from 0
+ is equal to uid
+i is less then cIds length minus 1
+ is equal to uid
+If uid is different from 0
+If  corresponds to ethAddress
+contexts context isActive is equal to True
+ is equal to True
+ is equal to True
+ is equal to False
+ is equal to True
+ is equal to False

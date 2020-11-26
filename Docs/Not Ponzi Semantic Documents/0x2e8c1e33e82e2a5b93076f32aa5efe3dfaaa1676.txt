@@ -1,0 +1,9 @@
+solidity >0.4.99<0.6.0 
+PostLike 
+postLikeCount liked 
+Like Unlike 
+Liked Unliked 
+ is equal to True
+ increments of 1
+ is equal to False
+ decreases of 1

@@ -1,0 +1,3 @@
+solidity ^0.6.0 
+McdAddress 
+name manager dai daiJoin vat jug cat gov adm vow spot pot esm pause guard mcdFlap mcdFlop mcdDeploy mcdEnd osm_mom momFlip proxyActions proxyActionsEnd proxyActionsDsr getCdps saiTub weth bat usdc sai ethAJoin ethAFlip batAJoin batAFlip usdcAJoin usdcAFlip ethAPip batAPip usdcAPip saiJoin saiFlip saiPip migration 

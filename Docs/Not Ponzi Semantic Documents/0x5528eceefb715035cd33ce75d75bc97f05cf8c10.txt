@@ -1,0 +1,46 @@
+solidity 0.5.11 
+DharmaReserveManagerV3Interface ERC20Interface DTokenInterface TradeHelperInterface SafeMath TwoStepOwnable DharmaReserveManagerV3Staging 
+SafeMath 
+RoleStatus 
+RoleStatus has account
+RoleStatus has paused
+c _owner _newPotentialOwner _roles _limit _primaryRecipient _USDC _DAI _DDAI _TRADE_HELPER _CREATE2_HEADER _WALLET_CREATION_CODE_HEADER _WALLET_CREATION_CODE_FOOTER exchangeRate daiEquivalent primaryRecipient ok storedRoleStatus storedRoleStatus storedRoleStatus initCodeHash target nonce 
+finalizeDaiDeposit finalizeDharmaDaiDeposit mint redeem tradeDDaiForUSDC tradeUSDCForDDai withdrawUSDC withdrawDai withdrawDharmaDai withdrawUSDCToPrimaryRecipient withdraw call setLimit setPrimaryRecipient setRole removeRole pause unpause isPaused isRole isDharmaSmartWallet getDepositManager getAdjuster getWithdrawalManager getPauser getReserves getLimit getPrimaryRecipient balanceOf approve transfer mint redeem redeemUnderlying balanceOf balanceOfUnderlying transfer approve exchangeRateCurrent tradeUSDCForDDai tradeDDaiForUSDC getExpectedDai getExpectedUSDC mul div transferOwnership cancelOwnershipTransfer acceptOwnership owner isOwner finalizeDaiDeposit finalizeDharmaDaiDeposit mint redeem tradeUSDCForDDai tradeDDaiForUSDC withdrawUSDCToPrimaryRecipient withdrawUSDC withdrawDai withdrawDharmaDai withdraw call setLimit setPrimaryRecipient pause unpause setRole removeRole isPaused isRole isDharmaSmartWallet getDepositManager getAdjuster getWithdrawalManager getPauser getReserves getLimit getPrimaryRecipient _setRole _isRole _isPaused _isSmartWallet 
+DharmaReserveManagerV3Staging inherits from DharmaReserveManagerV3Interface DharmaReserveManagerV3Staging inherits from TwoStepOwnable 
+onlyOwner onlyOwnerOr 
+RoleModified RolePaused RoleUnpaused OwnershipTransferred 
+If a corresponds to 0
+_owner is equal to tx origin
+_newPotentialOwner is equal to newOwner
+_owner is equal to msg sender
+_limit is equal to 1e21
+dDaiMinted is equal to _DDAI mint
+daiReceived is equal to _DDAI redeem
+dDaiMinted is equal to _TRADE_HELPER tradeUSDCForDDai
+usdcReceived is equal to _TRADE_HELPER tradeDDaiForUSDC
+success is equal to token transfer
+ is equal to 
+_limit is equal to daiAmount
+_primaryRecipient is equal to recipient
+storedRoleStatus paused is equal to True
+storedRoleStatus paused is equal to False
+paused is equal to _isPaused
+hasRole is equal to _isRole
+dharmaSmartWallet is equal to _isSmartWallet
+depositManager is equal to  account
+adjuster is equal to  account
+withdrawalManager is equal to  account
+pauser is equal to  account
+dai is equal to _DAI balanceOf
+dDai is equal to _DDAI balanceOf
+dDaiUnderlying is equal to _DDAI balanceOfUnderlying
+daiAmount is equal to _limit
+dDaiAmount is equal to 
+recipient is equal to _primaryRecipient
+If account is different from storedRoleStatus account
+storedRoleStatus account is equal to account
+hasRole is equal to msg sender corresponds to  account
+paused is equal to  paused
+nonce is less then 10
+target is equal to 
+If target corresponds to smartWallet

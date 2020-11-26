@@ -1,0 +1,31 @@
+solidity ^0.4.26 
+SafeMath ERC20 StandardToken Ownable Pausable Freezable PausableToken TimeLockable DKHAN 
+SafeMath SafeMath SafeMath 
+c c c c totalSupply balances allowed owner paused frozenAccount SECOND_IN_DAY lockedBaseQuantity name symbol decimals totalSupply 
+mul div sub add mod totalSupply balanceOf transfer transferFrom allowance approve totalSupply balanceOf transfer transferFrom burn burnFrom approve allowance transferOwnership pause unpause freeze unfreeze transfer transferFrom burn burnFrom approve setTimeLockAccount lockedNow _getLockedRate balanceAvailable lockedInfo lockAndTransfer transfer transferFrom burn burnFrom 
+StandardToken inherits from ERC20 Pausable inherits from Ownable Freezable inherits from Ownable PausableToken inherits from StandardToken PausableToken inherits from Pausable PausableToken inherits from Freezable TimeLockable inherits from Ownable DKHAN inherits from PausableToken DKHAN inherits from TimeLockable 
+validDestination onlyOwner whenNotPaused whenPaused isNotFrozen isFrozen canTransper 
+Transfer Approval OwnershipTransferred Pause Unpause Freeze Unfreeze LockAccount 
+If a corresponds to 0
+ is equal to msg sender sub
+ is equal to balances _to add
+ is equal to balances _from sub
+ is equal to balances _to add
+ is equal to msg sender sub
+totalSupply is equal to totalSupply sub
+ is equal to balances _from sub
+totalSupply is equal to totalSupply sub
+ is equal to _value
+owner is equal to msg sender
+owner is equal to _newOwner
+paused is equal to True
+paused is equal to False
+ is equal to True
+ is equal to False
+ is equal to lockedBaseQuantity _target add
+If  corresponds to 0
+If _timeNow is greater or equal to 1615334400
+totalSupply is equal to initialSupply multiplied by 10 Invalid symbol 
+ is equal to totalSupply
+name is equal to tokenName
+symbol is equal to tokenSymbol

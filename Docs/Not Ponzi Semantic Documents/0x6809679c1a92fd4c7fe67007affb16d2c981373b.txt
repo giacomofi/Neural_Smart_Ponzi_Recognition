@@ -1,0 +1,4 @@
+solidity 0.6.4 experimental ABIEncoderV2 
+ERC20 ProtocolAdapter ChaiAdapter 
+balanceOf adapterType tokenType getBalance adapterType tokenType getBalance 
+ChaiAdapter inherits from ProtocolAdapter 

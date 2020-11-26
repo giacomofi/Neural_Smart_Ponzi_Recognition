@@ -1,0 +1,10 @@
+solidity 0.5.1 
+HumanityDAO FundingVote 
+yes no dao voted 
+isHuman voteYes voteNo 
+onlyHuman notVoted 
+dao is equal to HumanityDAO
+yes is equal to yes plus 1
+ is equal to True
+no is equal to no plus 1
+ is equal to True

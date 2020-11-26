@@ -1,0 +1,21 @@
+solidity ^0.4.2 
+owned OeroToken 
+owner name symbol standard decimals totalSupply balanceOf allowance 
+transferOwnership transfer approve transferFrom mintToken burn 
+OeroToken inherits from owned 
+onlyOwner 
+Transfer Approval 
+owner is equal to msg sender
+owner is equal to newOwner
+ is equal to 100000000
+totalSupply is equal to 100000000
+ decreases of _value
+ increments of _value
+ is equal to _value
+ decreases of _value
+ increments of _value
+ decreases of _value
+ increments of _value
+totalSupply increments of _value
+ decreases of _value
+totalSupply decreases of _value

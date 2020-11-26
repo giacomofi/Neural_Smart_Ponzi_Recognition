@@ -1,0 +1,39 @@
+solidity ^0.4.5 
+Better_Bank_With_Interest 
+balances term_deposit_end_block thebank minimum_deposit_amount deposit_fee contract_alive_until_this_block count_customer_deposits interest 
+Better_Bank_With_Interest deposit withdraw set_minimum_payment set_deposit_fee get_available_interest_amount get_term_deposit_end_date get_balance extend_life_of_contract close_bank  
+thebank is equal to msg sender
+minimum_deposit_amount is equal to 250 ether
+deposit_fee is equal to 5 ether
+contract_alive_until_this_block is equal to 3000000
+count_customer_deposits is equal to 0
+ is equal to 0
+If msg value is less then minimum_deposit_amount
+If  corresponds to 0
+deposit_fee is equal to 0 ether
+If msg sender corresponds to thebank
+ increments of msg value
+count_customer_deposits increments of 1
+ increments of msg value minus deposit_fee
+ increments of deposit_fee
+ is equal to block number plus 30850
+If withdraw_amount is less then 10 ether
+If withdraw_amount is greater then 
+If block number is less then 
+If msg sender corresponds to thebank
+interest is equal to 0 ether
+If interest is greater then 
+interest is equal to 
+ decreases of interest
+ decreases of withdraw_amount
+If 
+If 
+If msg sender corresponds to thebank
+minimum_deposit_amount is equal to new_limit
+If msg sender corresponds to thebank
+deposit_fee is equal to new_fee
+If msg sender is different from thebank Invalid symbol 
+contract_alive_until_this_block is equal to newblock
+ is equal to contract_alive_until_this_block
+If contract_alive_until_this_block is less then block number Invalid symbol 
+ increments of msg value

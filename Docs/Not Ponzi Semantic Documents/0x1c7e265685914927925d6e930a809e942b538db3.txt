@@ -1,0 +1,22 @@
+solidity 0.4.26 
+SafeMath ERC20 BountyBoard 
+SafeMath 
+c c c c totalSupply bounty bountyID bountyPrice bountyToken bountyMaker bountyHunter arbiter arbiterFee state token tokenBalance token tokenBalance token 
+add sub mul div mod balanceOf transfer allowance transferFrom approve postBounty withdrawBounty assignBounty confirmReceipt initiateDispute resolveDispute 
+onlyBountyMaker onlyBountyMakerOrBountyHunter onlyArbiter inState 
+Approval Transfer bountyPosted bountyClaimed bountyWithdrawn Disputed Resolved 
+If a corresponds to 0
+bountyMaker is equal to _bountyMaker
+state is equal to State Posted
+bounty is equal to _bounty
+bountyPrice is equal to _bountyPrice
+bountyToken is equal to _bountyToken
+arbiter is equal to _arbiter
+arbiterFee is equal to _arbiterFee
+bountyID is equal to now
+state is equal to State Blank
+state is equal to State Claimed
+bountyHunter is equal to _bountyHunter
+state is equal to State Blank
+state is equal to State Disputed
+state is equal to State Blank

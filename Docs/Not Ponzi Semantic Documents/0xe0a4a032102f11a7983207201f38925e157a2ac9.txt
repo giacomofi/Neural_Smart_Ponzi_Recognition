@@ -1,0 +1,64 @@
+solidity ^0.4.24 
+SafeMath ArrayTools IQDAO Ownable WhitelistMigratable SafeStorage ReleaseLockToken TimeLockedTokenStorage 
+SafeMath 
+LockSlot 
+LockSlot has tokens
+LockSlot has periods
+LockSlot has paidTokens
+LockSlot has finalized
+fullAmount i owner governanceContracts lockTokenStorage lockSlotIdList holdersList totalSlot maximumDurationToFreeze lostTime totalLockedTokens token_ fullAmount newId i withdrawableTokens tokensForWithdraw tokensForWithdraw nextDate i tokensForWithdraw paidTokens i y 
+mul div sub add _combineArray balanceOf approveForOtherContracts transfer transferFrom renounceOwnership transferOwnership _transferOwnership addAddressToGovernanceContract removeAddressFromGovernanceContract createLockSlot getAddressToId getAllLockSlotIdsToAddress _createLockSlot release getWithdrawableTokens withdrawLostToken getDateAndReleaseToCounter getNextDateWithdraw _finalizeLock _validateWithdraw _getAvailableTokens getAvailableTokens getHoldersQuantity getSlotsQuantity getTotalLockedTokens getLock 
+WhitelistMigratable inherits from Ownable SafeStorage inherits from WhitelistMigratable SafeStorage inherits from ArrayTools ReleaseLockToken inherits from SafeStorage TimeLockedTokenStorage inherits from ReleaseLockToken 
+onlyOwner onlyGovernanceContracts 
+OwnershipRenounced OwnershipTransferred GovernanceContractAdded GovernanceContractRemoved LockSlotCreated TokensWithdrawed 
+If _a corresponds to 0
+c is equal to _a multiplied by _b
+c is equal to _a plus _b
+i is less then _array length
+fullAmount increments of 
+owner is equal to msg sender
+owner is equal to 
+owner is equal to _newOwner
+If 
+ is equal to True
+success is equal to True
+
+ is equal to False
+success is equal to True
+ is equal to _createLockSlot
+totalLockedTokens is equal to totalLockedTokens add
+If lockSlotIdList _holder length corresponds to 0
+ increments of now
+If _lockPeriods length is greater then 1
+i is less then _lockPeriods length
+ increments of 
+_lockSlot is equal to LockSlot
+msg sender _lockSlotId paidTokens is equal to msg sender _lockSlotId paidTokens add
+If _combineArray corresponds to msg sender _lockSlotId paidTokens
+withdrawableTokens is equal to withdrawableTokens add
+totalLockedTokens is equal to totalLockedTokens sub
+withdrawableTokens is equal to withdrawableTokens add
+totalLockedTokens is equal to totalLockedTokens sub
+getAddressToId _lockSlotId paidTokens is equal to _combineArray
+_nextRelease is equal to 
+_nextDate is equal to 
+If now is greater then 
+nextDate is equal to 0
+i is less then getAddressToId _lockSlotId periods length
+If now is less then 
+nextDate is equal to 
+lockTokenStorage _who _id finalized is equal to True
+i is greater or equal to 0
+If now is greater or equal to 
+y is less then i plus 1
+tokensForWithdraw increments of 
+tokensForWithdraw decreases of paidTokens
+token_ is equal to IQDAO
+lostTime is equal to 7862400
+maximumDurationToFreeze is equal to 94694400
+If now is less then 
+_amountTokens is equal to _combineArray
+_periods is equal to getAddressToId _lockSlotId periods
+_tokens is equal to getAddressToId _lockSlotId tokens
+_paidTokens is equal to getAddressToId _lockSlotId paidTokens
+_finalize is equal to getAddressToId _lockSlotId finalized

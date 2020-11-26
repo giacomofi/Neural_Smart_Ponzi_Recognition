@@ -1,0 +1,287 @@
+solidity ^0.5.5 
+strings IERC165 IERC721 IERC721Metadata Context IERC721Enumerable IERC721Receiver SafeMath Address Counters ERC165 ERC721 ERC721Enumerable Ownable NoMintERC721 NoMintERC721Enumerable OveridableERC721Metadata GunToken ApproveAndCallFallBack ERC20Basic ERC20 BurnableToken StandardBurnableToken BZNFeed SimpleBZNFeed IDSValue BytesLib GunPreOrder GunFactory 
+SafeMath SafeMath Address Counters SafeMath Address Counters strings BytesLib SafeMath strings 
+slice Counter Batch 
+slice has _len
+slice has _ptr
+Counter has _value
+Batch has owner
+Batch has size
+Batch has category
+Batch has startId
+Batch has startTokenId
+mask ptr ret ret retptr ptr end b shortest selfptr otherptr idx a b mask diff l b word length divisor b i equal equal selfptr equal selfptr equal ptr idx mask needledata end ptrdata hash testHash ptr mask needledata ptrdata hash testHash ptr ptr ptr ptr ptr ret retptr length i ret retptr i c c c c codehash accountHash _INTERFACE_ID_ERC165 _supportedInterfaces _ERC721_RECEIVED _tokenOwner _tokenApprovals _ownedTokensCount _operatorApprovals _INTERFACE_ID_ERC721 owner owner owner owner retval _ownedTokens _ownedTokensIndex _allTokens _allTokensIndex _INTERFACE_ID_ERC721_ENUMERABLE lastTokenIndex tokenIndex lastTokenId lastTokenIndex tokenIndex lastTokenId _owner msgSender _ERC721_RECEIVED _tokenOwner _tokenApprovals _ownedTokensCount _operatorApprovals _INTERFACE_ID_ERC721 owner owner owner owner retval _ownedTokens _ownedTokensIndex _allTokens _allTokensIndex _INTERFACE_ID_ERC721_ENUMERABLE lastTokenIndex tokenIndex lastTokenId lastTokenIndex tokenIndex lastTokenId _name _symbol _tokenURIs _INTERFACE_ID_ERC721_METADATA factory maxAllocation lastAllocation allBatches unactivatedBalance isActivated outOfBatch batchesOwned ownedBatchIndex totalGunsMintedByCategory _totalSupply i a endId dif a result pos end i subAmount result pos i a end j result pos i a end j fallbackOwned i index a index a end end i index a index index a index a categoryId j len bstr k category _categoryId id _base _metadata category _categoryId id _base _metadata globalIndex lastBatchIndex batchIndex lastBatch lastGlobalIndex globalIndex a previousOwner end unActivated i conversion tempBytes tempBytes tempAddress tempUint tempUint tempUint tempUint tempUint tempUint tempUint tempBytes32 success success COMMISSION_PERCENT categoryExists categoryOpen categoryKilled commissionRate categoryReserveAmount OPENSEA categoryPercentIncrease categoryPercentBase categoryPrice requiredEtherPercent requiredEtherPercentBase allowCreateCategory token factory bzn ethFeed bznFeed gamePool usdPrice totalPrice price prices requiredEther multiply balance _owner temp aaa priceForEtherInUsdWei percent base currentPrice nextPrice totalPrice i referal category quanity _from PREMIUM_CATEGORY MIDGRADE_CATEGORY REGULAR_CATEGORY ONE_MONTH mintedGuns preOrderAddress token gunsMintedByCategory totalGunsMintedByCategory firstMonthLimit secondMonthLimit thirdMonthLimit startTime currentMonthEnd monthOneEnd monthTwoEnd j len bstr k preOrder currentTime limit monthEnd limit currentTime limit preOrder ct 
+memcpy toSlice len toSliceB32 copy toString len empty compare equals nextRune nextRune ord keccak startsWith beyond endsWith until findPtr rfindPtr find rfind split split rsplit rsplit count contains concat join supportsInterface balanceOf ownerOf safeTransferFrom transferFrom approve getApproved setApprovalForAll isApprovedForAll safeTransferFrom name symbol tokenURI _msgSender _msgData totalSupply tokenOfOwnerByIndex tokenByIndex onERC721Received add sub sub mul div div mod mod isContract toPayable current increment decrement supportsInterface _registerInterface balanceOf ownerOf approve getApproved setApprovalForAll isApprovedForAll transferFrom safeTransferFrom safeTransferFrom _safeTransferFrom _exists _isApprovedOrOwner _safeMint _safeMint _mint _burn _burn _transferFrom _checkOnERC721Received _clearApproval tokenOfOwnerByIndex totalSupply tokenByIndex _transferFrom _mint _burn _tokensOfOwner _addTokenToOwnerEnumeration _addTokenToAllTokensEnumeration _removeTokenFromOwnerEnumeration _removeTokenFromAllTokensEnumeration owner isOwner renounceOwnership transferOwnership _transferOwnership balanceOf ownerOf approve getApproved setApprovalForAll isApprovedForAll transferFrom safeTransferFrom safeTransferFrom _safeTransferFrom _exists _isApprovedOrOwner _addTokenTo _burn _burn _transferFrom _checkOnERC721Received _clearApproval tokenOfOwnerByIndex totalSupply tokenByIndex _transferFrom _addTokenTo _burn _tokensOfOwner _addTokenToOwnerEnumeration _addTokenToAllTokensEnumeration _removeTokenFromOwnerEnumeration _removeTokenFromAllTokensEnumeration name symbol tokenURI _setTokenURI _burn categoryTypeToId fallbackCount fallbackIndex migrate migrateSingle recoverBatch2 migrateBatch recoverBatch1 tokenOfOwnerByIndex getBatchCount updateGunFactory getTokensInBatch tokenByIndex allTokens tokenOfOwner balanceOf ownerOf exists totalSupply claimAllocation transferFrom activate getBatchIndex categoryForToken categoryIdForToken uintToString tokenURI addTokenTo ceil _removeBatchFromOwner _addBatchToOwner batchTransfer receiveApproval totalSupply balanceOf transfer allowance transferFrom approve burn burnFrom convert updateConversion convert peek read poke void concat concatStorage slice toAddress toUint8 toUint16 toUint32 toUint64 toUint96 toUint128 toUint toBytes32 equal equalStorage createCategory disableCreateCategories setCommission setPercentIncrease setEtherPercent killCategory setShopState setPrice withdraw setBZNFeedContract buyWithBZN buyWithEther convert priceFor sold receiveApproval uintToString mintFor hasReachedLimit reachedLimit currentLimit setCategoryLimit attachPreOrder attachToken 
+IERC721 inherits from IERC165 IERC721Metadata inherits from IERC721 IERC721Enumerable inherits from IERC721 ERC165 inherits from IERC165 ERC721 inherits from Context ERC721 inherits from ERC165 ERC721 inherits from IERC721 ERC721Enumerable inherits from Context ERC721Enumerable inherits from ERC165 ERC721Enumerable inherits from ERC721 ERC721Enumerable inherits from IERC721Enumerable Ownable inherits from Context NoMintERC721 inherits from Context NoMintERC721 inherits from ERC165 NoMintERC721 inherits from IERC721 NoMintERC721Enumerable inherits from Context NoMintERC721Enumerable inherits from ERC165 NoMintERC721Enumerable inherits from NoMintERC721 NoMintERC721Enumerable inherits from IERC721Enumerable OveridableERC721Metadata inherits from Context OveridableERC721Metadata inherits from ERC165 OveridableERC721Metadata inherits from NoMintERC721 OveridableERC721Metadata inherits from IERC721Metadata GunToken inherits from NoMintERC721 GunToken inherits from NoMintERC721Enumerable GunToken inherits from OveridableERC721Metadata GunToken inherits from Ownable ERC20 inherits from ERC20Basic BurnableToken inherits from ERC20 StandardBurnableToken inherits from BurnableToken SimpleBZNFeed inherits from BZNFeed SimpleBZNFeed inherits from Ownable GunPreOrder inherits from Ownable GunPreOrder inherits from ApproveAndCallFallBack GunFactory inherits from Ownable 
+onlyOwner onlyFactory ensureShopOpen payInETH payInBZN onlyPreOrder isInitialized 
+Transfer Approval ApprovalForAll OwnershipTransferred BatchTransfer Transfer Approval Burn consumerBulkBuy GunsBought Withdrawal 
+len is greater or equal to 32
+dest increments of 32
+src increments of 32
+If self corresponds to 0
+If  Invalid symbol 0xffffffffffffffffffffffffffffffff corresponds to 0
+ret increments of 16
+self is equal to 
+If  Invalid symbol 0xffffffffffffffff corresponds to 0
+ret increments of 8
+self is equal to 
+If  Invalid symbol 0xffffffff corresponds to 0
+ret increments of 4
+self is equal to 
+If  Invalid symbol 0xffff corresponds to 0
+ret increments of 2
+self is equal to 
+If  Invalid symbol 0xff corresponds to 0
+ret increments of 1
+ret _len is equal to len
+l is equal to 0
+ptr is less then end
+If b is less then 0x80
+ptr increments of 1
+If other _len is less then self _len
+shortest is equal to other _len
+idx is less then shortest
+If a is different from b
+If shortest is less then 32
+mask is equal to 
+If diff is different from 0
+selfptr increments of 32
+otherptr increments of 32
+rune _ptr is equal to self _ptr
+If self _len corresponds to 0
+rune _len is equal to 0
+If b is less then 0x80
+l is equal to 1
+If l is greater then self _len
+rune _len is equal to self _len
+self _ptr increments of self _len
+self _len is equal to 0
+self _ptr increments of l
+self _len decreases of l
+rune _len is equal to l
+If self _len corresponds to 0
+If b is less then 0x80
+ret is equal to b
+length is equal to 1
+If length is greater then self _len
+i is less then length
+divisor is equal to divisor divided by 256
+b is equal to  Invalid symbol 0xFF
+If b Invalid symbol 0xC0 is different from 0x80
+ret is equal to  Invalid symbol 
+If self _len is less then needle _len
+If self _ptr corresponds to needle _ptr
+If self _len is less then needle _len
+If self _ptr is different from needle _ptr
+
+self _len decreases of needle _len
+self _ptr increments of needle _len
+If self _len is less then needle _len
+If selfptr corresponds to needle _ptr
+If self _len is less then needle _len
+If selfptr is different from needle _ptr
+
+self _len decreases of needle _len
+If needlelen is less or equal to selflen
+If needlelen is less or equal to 32
+While ptrdata is different from needledata
+If ptr is greater or equal to end
+idx is equal to 0
+idx is less or equal to selflen minus needlelen
+If hash corresponds to testHash
+ptr increments of 1
+If needlelen is less or equal to selflen
+If needlelen is less or equal to 32
+ptr is equal to selfptr plus selflen minus needlelen
+While ptrdata is different from needledata
+If ptr is less or equal to selfptr
+ptr is equal to selfptr plus 
+While ptr is greater or equal to selfptr
+If hash corresponds to testHash
+ptr decreases of 1
+self _len decreases of ptr minus self _ptr
+self _ptr is equal to ptr
+self _len is equal to ptr minus self _ptr
+token _ptr is equal to self _ptr
+token _len is equal to ptr minus self _ptr
+If ptr corresponds to self _ptr plus self _len
+self _len is equal to 0
+self _len decreases of token _len plus needle _len
+self _ptr is equal to ptr plus needle _len
+token _ptr is equal to ptr
+token _len is equal to self _len minus 
+If ptr corresponds to self _ptr
+self _len is equal to 0
+self _len decreases of token _len plus needle _len
+While ptr is less or equal to self _ptr plus self _len
+ptr is equal to findPtr plus needle _len
+If parts length corresponds to 0
+i is less then parts length
+i is less then parts length
+retptr increments of parts i _len
+If i is less then parts length minus 1
+retptr increments of self _len
+If a corresponds to 0
+counter _value increments of 1
+counter _value is equal to counter _value sub
+ is equal to True
+ is equal to to
+ is equal to approved
+ is equal to to
+ is equal to 
+ is equal to to
+If 
+If  is different from 
+ is equal to 
+ is equal to 0
+ is equal to _ownedTokens to length
+ is equal to _allTokens length
+If tokenIndex is different from lastTokenIndex
+ is equal to lastTokenId
+ is equal to tokenIndex
+ is equal to lastTokenId
+ is equal to tokenIndex
+ is equal to 0
+_owner is equal to msgSender
+_owner is equal to 
+_owner is equal to newOwner
+ is equal to to
+ is equal to approved
+ is equal to to
+ is equal to 
+ is equal to to
+If 
+If  is different from 
+ is equal to 
+ is equal to 0
+ is equal to _ownedTokens to length
+ is equal to _allTokens length
+If tokenIndex is different from lastTokenIndex
+ is equal to lastTokenId
+ is equal to tokenIndex
+ is equal to lastTokenId
+ is equal to tokenIndex
+ is equal to 0
+_name is equal to name
+_symbol is equal to symbol
+ is equal to uri
+If  is different from 0
+factory is equal to factoryAddress
+i is less then allBatches length
+If a category is different from category
+If categoryId is greater or equal to a startId Invalid symbol 
+i is less then end
+If  Invalid symbol super ownerOf is different from owner
+ is equal to i
+i is less then allBatches length
+j is less then end
+ is equal to j
+i is less then batchesOwned owner length
+j is less then end
+If  Invalid symbol super ownerOf is different from owner
+ is equal to j
+i is less then fallbackOwned length
+ is equal to 
+
+
+If index is less then allBatches length
+i is less then end
+lastAllocation increments of maxAllocation
+ increments of size
+ increments of size
+_totalSupply increments of size
+If 
+ is equal to True
+If v corresponds to 0
+While j is different from 0
+j is divided by 10
+While v is different from 0
+ is equal to 
+v is divided by 10
+
+If batchIndex is different from lastBatchIndex
+ is equal to lastBatch
+ is equal to batchIndex
+ is equal to batchesOwned to length
+a owner is equal to to
+i is less then end
+
+If ownerOf is different from previousOwner
+ increments of unActivated
+ decreases of unActivated
+conversion is equal to conversionRate
+ is equal to priceFor
+ is equal to usdPrice
+ is equal to priceFor
+ is equal to 
+ is equal to convert
+token is equal to GunToken
+factory is equal to GunFactory
+ethFeed is equal to IDSValue
+bzn is equal to StandardBurnableToken
+gamePool is equal to gp
+ is equal to 100035
+ is equal to 100000
+ is equal to 100025
+ is equal to 100000
+ is equal to 100015
+ is equal to 100000
+ is equal to 10
+ is equal to True
+allowCreateCategory is equal to False
+percent is equal to percent minus COMMISSION_PERCENT
+ is equal to percent
+ is equal to increase
+ is equal to base
+ is equal to percent
+ is equal to base
+ is equal to False
+ is equal to True
+ is equal to open
+
+multiply is equal to 1
+ is equal to price multiplied by multiply
+bznFeed is equal to BZNFeed
+
+ is equal to ethFeed peek
+i is less then quanity
+nextPrice is equal to  divided by base
+currentPrice is equal to nextPrice
+totalPrice increments of nextPrice
+ is equal to abi decode
+ is equal to 5000
+ is equal to 20000
+ is equal to 30000
+ is equal to 2500
+ is equal to 10000
+ is equal to 15000
+ is equal to 600
+ is equal to 3000
+ is equal to 6000
+startTime is equal to block timestamp
+monthOneEnd is equal to startTime plus ONE_MONTH
+monthTwoEnd is equal to startTime plus ONE_MONTH plus ONE_MONTH
+ is equal to monthOneEnd
+ is equal to monthOneEnd
+ is equal to monthOneEnd
+If v corresponds to 0
+While j is different from 0
+j is divided by 10
+While v is different from 0
+ is equal to 
+v is divided by 10
+ is equal to  plus 1
+ is equal to  plus 1
+If currentTime is greater or equal to monthEnd
+ is equal to 0
+While currentTime is greater or equal to monthEnd
+monthEnd is equal to monthEnd plus ONE_MONTH
+limit is equal to currentLimit
+ is equal to monthEnd
+If currentTime is less then monthOneEnd
+limit is equal to 
+ is equal to firstLimit
+ is equal to secondLimit
+ is equal to thirdLimit
+preOrderAddress is equal to 
+token is equal to ct

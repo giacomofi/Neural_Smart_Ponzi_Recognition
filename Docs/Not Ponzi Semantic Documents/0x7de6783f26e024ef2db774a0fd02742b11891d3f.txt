@@ -1,0 +1,36 @@
+solidity ^0.5.11 solidity ^0.5.11 solidity ^0.5.11 solidity ^0.5.11 solidity ^0.5.11 solidity ^0.5.11 solidity ^0.5.11 solidity ^0.5.11 solidity ^0.5.11 solidity ^0.5.11 solidity ^0.5.11 
+IERC20 IMint IBurn Ownable SafeMath Freezer Pauser Locker Minter Xank Airdropper 
+SafeMath SafeMath 
+_owner c c c c freezing pausing lockup balance minting name symbol decimals totalSupply balances approved _xank i i 
+transfer transferFrom approve balanceOf allowance mint finishMint burn owner isOwner renounceOwnership transferOwnership _transferOwnership add sub sub mul div div mod mod freeze unFreeze pause resume lock decreaseLockup deleteLockup finishMint transfer transferWithLockup transferFrom mint burn approve balanceOf allowance airdropNoLock airdropWithLock 
+Freezer inherits from Ownable Pauser inherits from Ownable Locker inherits from Ownable Minter inherits from Ownable Xank inherits from IERC20 Xank inherits from IMint Xank inherits from IBurn Xank inherits from Ownable Xank inherits from Freezer Xank inherits from Pauser Xank inherits from Locker Xank inherits from Minter Airdropper inherits from Ownable 
+onlyOwner isFreezed isPause isLockup isMinting 
+Transfer Approval OwnershipTransferred Freezed Unfreezed Pause Resume LockedUp Finished 
+_owner is equal to msg sender
+_owner is equal to 
+_owner is equal to newOwner
+If a corresponds to 0
+ is equal to True
+pausing is equal to True
+pausing is equal to False
+ is equal to lockup target add
+ is equal to lockup target sub
+minting is equal to True
+minting is equal to False
+totalSupply is equal to totalSupply mul
+ is equal to totalSupply
+ is equal to msg sender sub
+ is equal to balances to add
+ is equal to msg sender sub
+ is equal to balances to add
+ is equal to balances from sub
+ is equal to balances to add
+ is equal to approved from msg sender sub
+totalSupply is equal to totalSupply add
+ is equal to msg sender add
+ is equal to msg sender sub
+totalSupply is equal to totalSupply sub
+ is equal to value
+_xank is equal to Xank
+i is less then recipient length
+i is less then recipient length

@@ -1,0 +1,14 @@
+solidity ^0.5.10 
+SafeMath ERC20Interface LockMyBSOV 
+SafeMath 
+tokenContract PRECISION timeUntilUnlocked maxWithdrawalAmount timeBetweenWithdrawals unfreezeDate balance lastWithdrawal _adjustedValue 
+add sub mul div totalSupply balanceOf allowance transfer approve transferFrom withdraw getBalance getLastWithdrawal getTimeLeft receiveApproval 
+Transfer Approval TokensFrozen TokensUnfrozen 
+c is equal to a plus b
+c is equal to a minus b
+c is equal to a multiplied by b
+c is equal to a divided by b
+unfreezeDate is equal to now plus timeUntilUnlocked
+ decreases of _amount
+ is equal to now
+ increments of _adjustedValue

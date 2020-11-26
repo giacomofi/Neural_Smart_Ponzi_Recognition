@@ -1,0 +1,7 @@
+solidity 0.5.16 
+IDai ISyndicate DaiBackstopSyndicateEnlisterV3 
+_DAI_DOMAIN_SEPARATOR _DAI_PERMIT_TYPEHASH _DAI _SYNDICATE r s v 
+permit approve transferFrom nonces enlist transfer approveAndEnlist getDigest 
+nonce is equal to _DAI nonces
+expiry is equal to block timestamp plus 1800
+digest is equal to keccak256

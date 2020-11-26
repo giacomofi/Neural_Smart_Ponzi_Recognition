@@ -1,0 +1,24 @@
+solidity ^0.5.8 
+ERC20Basic SafeMath Ownable BasicToken ERC20 StandardToken NBToken 
+SafeMath SafeMath 
+c c c owner balances totalSupply_ MAX_UINT allowed oldValue name symbol decimals initialSupply 
+totalSupply balanceOf transfer mul div sub add transferOwnership _transferOwnership totalSupply transfer balanceOf allowance transferFrom approve transferFrom approve allowance increaseApproval decreaseApproval  
+BasicToken inherits from ERC20Basic BasicToken inherits from Ownable ERC20 inherits from ERC20Basic StandardToken inherits from ERC20 StandardToken inherits from BasicToken NBToken inherits from StandardToken 
+onlyOwner 
+Transfer MintCoin OwnershipTransferred Approval 
+If a corresponds to 0
+owner is equal to msg sender
+owner is equal to _newOwner
+ is equal to msg sender sub
+ is equal to balances _to add
+ is equal to balances _from sub
+ is equal to balances _to add
+If  is less then MAX_UINT
+ is equal to allowed _from msg sender sub
+ is equal to _value
+ is equal to msg sender _spender add
+If _subtractedValue is greater then oldValue
+ is equal to 0
+ is equal to oldValue sub
+totalSupply_ is equal to initialSupply multiplied by 10 Invalid symbol 
+ is equal to totalSupply_

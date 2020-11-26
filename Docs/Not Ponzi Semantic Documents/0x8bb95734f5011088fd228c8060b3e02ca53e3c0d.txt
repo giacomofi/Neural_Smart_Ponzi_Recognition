@@ -1,0 +1,26 @@
+solidity ^0.5.6 
+SafeMath Ownable Pausable StandardToken PausableToken FreezeToken Token 
+SafeMath 
+c c c c owner adminList paused balances allowed totalSupply_ frozenAccount name symbol decimals 
+mul div sub add addAdmin removeAdmin transferOwnership _transferOwnership pause unpause totalSupply balanceOf allowance transfer approve transferFrom transfer transferFrom approve burn frozenCheck freezeAccount transfer transferFrom 
+Pausable inherits from Ownable PausableToken inherits from StandardToken PausableToken inherits from Pausable FreezeToken inherits from PausableToken Token inherits from FreezeToken 
+onlyOwner onlyAdmin whenNotPaused whenPaused 
+OwnershipTransferred Pause Unpause Transfer Approval Burn FrozenAccount 
+If a corresponds to 0
+owner is equal to msg sender
+ is equal to True
+ is equal to False
+owner is equal to _newOwner
+paused is equal to True
+paused is equal to False
+ is equal to msg sender sub
+ is equal to balances _to add
+ is equal to _value
+ is equal to balances _from sub
+ is equal to balances _to add
+ is equal to allowed _from msg sender sub
+ is equal to msg sender sub
+totalSupply_ is equal to totalSupply_ sub
+ is equal to frozen
+totalSupply_ is equal to 10000000000 multiplied by 10 Invalid symbol 
+ is equal to totalSupply_

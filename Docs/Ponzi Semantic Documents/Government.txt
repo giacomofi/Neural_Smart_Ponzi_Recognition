@@ -1,0 +1,29 @@
+Government 
+lastCreditorPayedOut lastTimeOfNewCredit profitFromCrash creditorAddresses creditorAmounts corruptElite buddies TWELVE_HOURS round amount i i 
+Government lendGovernmentMoney  totalDebt totalPayedOut investInTheSystem inheritToNextGeneration getCreditorAddresses getCreditorAmounts 
+profitFromCrash is equal to msg value
+corruptElite is equal to msg sender
+lastTimeOfNewCredit is equal to block timestamp
+If lastTimeOfNewCredit plus TWELVE_HOURS is less then block timestamp
+lastCreditorPayedOut is equal to 0
+lastTimeOfNewCredit is equal to block timestamp
+profitFromCrash is equal to 0
+creditorAddresses is equal to 
+creditorAmounts is equal to 
+round increments of 1
+If amount is greater or equal to 10 Invalid symbol 18
+lastTimeOfNewCredit is equal to block timestamp
+If profitFromCrash is less then 10000 multiplied by 10 Invalid symbol 18
+profitFromCrash increments of amount multiplied by 5 divided by 100
+If  is greater or equal to amount
+ increments of amount multiplied by 110 divided by 100
+If  is less or equal to  minus profitFromCrash
+ decreases of 
+lastCreditorPayedOut increments of 1
+i is less then creditorAmounts length
+debt increments of 
+i is less then lastCreditorPayedOut
+payout increments of 
+profitFromCrash increments of msg value
+If msg sender corresponds to corruptElite
+corruptElite is equal to nextGeneration

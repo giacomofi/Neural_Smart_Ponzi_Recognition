@@ -1,0 +1,52 @@
+solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 
+IERC165 IERC721 IERC721Receiver SafeMath Address ERC165 ERC721 IERC721Enumerable ERC721Enumerable IERC721Metadata ERC721Metadata ERC721Full Ownable Strings OwnableDelegateProxy ProxyRegistry TradeableERC721Token Hope 
+SafeMath Address Strings 
+c c c c size _INTERFACE_ID_ERC165 _supportedInterfaces _ERC721_RECEIVED _tokenOwner _tokenApprovals _ownedTokensCount _operatorApprovals _INTERFACE_ID_ERC721 owner owner owner owner retval _ownedTokens _ownedTokensIndex _allTokens _allTokensIndex _INTERFACE_ID_ERC721_ENUMERABLE lastTokenIndex tokenIndex lastTokenId lastTokenIndex tokenIndex lastTokenId _name _symbol _tokenURIs _INTERFACE_ID_ERC721_METADATA _owner _ba _bb _bc _bd _be abcde babcde k i i i i i j len bstr k proxies proxyRegistryAddress _currentTokenId newTokenId proxyRegistry i 
+supportsInterface balanceOf ownerOf approve getApproved setApprovalForAll isApprovedForAll transferFrom safeTransferFrom safeTransferFrom onERC721Received mul div sub add mod isContract supportsInterface _registerInterface balanceOf ownerOf approve getApproved setApprovalForAll isApprovedForAll transferFrom safeTransferFrom safeTransferFrom _exists _isApprovedOrOwner _mint _burn _burn _transferFrom _checkOnERC721Received _clearApproval totalSupply tokenOfOwnerByIndex tokenByIndex tokenOfOwnerByIndex totalSupply tokenByIndex _transferFrom _mint _burn _tokensOfOwner _addTokenToOwnerEnumeration _addTokenToAllTokensEnumeration _removeTokenFromOwnerEnumeration _removeTokenFromAllTokensEnumeration name symbol tokenURI name symbol tokenURI _setTokenURI _burn owner isOwner renounceOwnership transferOwnership _transferOwnership strConcat strConcat strConcat strConcat uint2str mintTo _getNextTokenId _incrementTokenId baseTokenURI tokenURI isApprovedForAll baseTokenURI bulkMint 
+IERC721 inherits from IERC165 ERC165 inherits from IERC165 ERC721 inherits from ERC165 ERC721 inherits from IERC721 IERC721Enumerable inherits from IERC721 ERC721Enumerable inherits from ERC165 ERC721Enumerable inherits from ERC721 ERC721Enumerable inherits from IERC721Enumerable IERC721Metadata inherits from IERC721 ERC721Metadata inherits from ERC165 ERC721Metadata inherits from ERC721 ERC721Metadata inherits from IERC721Metadata ERC721Full inherits from ERC721 ERC721Full inherits from ERC721Enumerable ERC721Full inherits from ERC721Metadata TradeableERC721Token inherits from ERC721Full TradeableERC721Token inherits from Ownable Hope inherits from TradeableERC721Token 
+onlyOwner 
+Transfer Approval ApprovalForAll OwnershipTransferred 
+If a corresponds to 0
+ is equal to True
+ is equal to to
+ is equal to approved
+ is equal to to
+ is equal to _ownedTokensCount to add
+ is equal to _ownedTokensCount owner sub
+ is equal to 
+ is equal to _ownedTokensCount from sub
+ is equal to _ownedTokensCount to add
+ is equal to to
+If 
+If  is different from 
+ is equal to 
+ is equal to 0
+ is equal to _ownedTokens to length
+ is equal to _allTokens length
+If tokenIndex is different from lastTokenIndex
+ is equal to lastTokenId
+ is equal to tokenIndex
+ is equal to lastTokenId
+ is equal to tokenIndex
+ is equal to 0
+_name is equal to name
+_symbol is equal to symbol
+ is equal to uri
+If  is different from 0
+_owner is equal to msg sender
+_owner is equal to 
+_owner is equal to newOwner
+i is less then _ba length
+i is less then _bb length
+i is less then _bc length
+i is less then _bd length
+i is less then _be length
+If _i corresponds to 0
+While j is different from 0
+j is divided by 10
+While _i is different from 0
+ is equal to 
+_i is divided by 10
+proxyRegistryAddress is equal to _proxyRegistryAddress
+If  corresponds to operator
+i is less then number

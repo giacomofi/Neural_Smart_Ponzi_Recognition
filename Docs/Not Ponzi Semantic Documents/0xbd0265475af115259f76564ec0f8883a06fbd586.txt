@@ -1,0 +1,16 @@
+solidity ^0.5.1 
+SafeMath Aunic ITokenRecipient 
+MAX_UINT256 balances name symbol decimals totalSupply length receiver 
+safeAdd safeSub safeMul isContract transfer burn balanceOf tokenFallback 
+Aunic inherits from SafeMath 
+Transfer Burn 
+If x is greater then MAX_UINT256 minus y
+If x is less then y
+If y corresponds to 0
+If x is greater then MAX_UINT256 divided by y
+ is equal to totalSupply
+ is equal to safeSub
+ is equal to safeAdd
+
+ is equal to safeSub
+totalSupply is equal to safeSub

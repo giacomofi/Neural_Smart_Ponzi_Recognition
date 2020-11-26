@@ -1,0 +1,31 @@
+solidity ^0.6.0 
+ERC20 SafeMath Ownable StandardToken BurnableToken MintableToken USDSToken 
+SafeMath 
+c c c c owner balances allowed _totalSupply oldValue mintingFinished name symbol decimals 
+totalSupply balanceOf allowance transfer approve transferFrom mul div sub add renounceOwnership transferOwnership totalSupply balanceOf allowance transfer transferFrom approve increaseApproval decreaseApproval _burn burn burnFrom _mint mint finishMinting 
+StandardToken inherits from ERC20 BurnableToken inherits from StandardToken BurnableToken inherits from Ownable MintableToken inherits from StandardToken MintableToken inherits from Ownable USDSToken inherits from BurnableToken USDSToken inherits from MintableToken 
+onlyOwner canMint 
+Transfer Approval OwnershipRenounced OwnershipTransferred Burn Mint MintFinished 
+owner is equal to msg sender
+owner is equal to 
+owner is equal to _newOwner
+ is equal to msg sender sub
+ is equal to balances _to add
+ is equal to balances _from sub
+ is equal to balances _to add
+ is equal to allowed _from msg sender sub
+ is equal to _value
+ is equal to 
+If _subtractedValue is greater or equal to oldValue
+ is equal to 0
+ is equal to oldValue sub
+ is equal to balances _who sub
+_totalSupply is equal to _totalSupply sub
+ is equal to allowed _from msg sender sub
+_totalSupply is equal to _totalSupply add
+ is equal to balances _to add
+mintingFinished is equal to True
+name is equal to _name
+symbol is equal to _symbol
+decimals is equal to _decimals
+owner is equal to _owner

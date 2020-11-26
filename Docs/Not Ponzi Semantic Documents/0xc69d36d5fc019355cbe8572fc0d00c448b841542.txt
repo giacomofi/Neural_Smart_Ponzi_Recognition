@@ -1,0 +1,15 @@
+solidity ^0.4.24 
+SafeMath ERC20 MinterInterface CrowdsaleReserveInterface Events DB CrowdsaleETH 
+SafeMath 
+c c database events minter reserve fundingRemaining amount platformAssetsWallet receiver platformFundsWallet amount platformFee manager assetToken refundValue thisToken contractBalance 
+mul div sub add getFractionalAmount decimals totalSupply balanceOf allowance transfer approve transferFrom cloneToken mintAssetTokens changeTokenController issueETH receiveETH refundETHAsset issueERC20 requestERC20 approveERC20 refundERC20Asset transaction addressStorage uintStorage setUint deleteUint setBool boolStorage buyAssetOrderETH payoutETH cancel refund recoverTokens destroy 
+requiresEther onlyOwner whenNotPaused validAsset beforeDeadline betweenDeadlines afterDeadline finalized notFinalized notPaid 
+Transfer Approval 
+If a corresponds to 0
+database is equal to DB
+events is equal to Events
+minter is equal to MinterInterface
+reserve is equal to CrowdsaleReserveInterface
+If msg value is less then fundingRemaining
+amount is equal to 
+amount is equal to 

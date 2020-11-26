@@ -1,0 +1,36 @@
+solidity 0.5.16 experimental ABIEncoderV2 
+SwapperFactory Swapper ERC20 TotlePrimary TotlePrimaryUtils 
+Order Trade Swap SwapCollection 
+Order has exchangeHandler
+Order has encodedPayload
+Trade has sourceToken
+Trade has destinationToken
+Trade has amount
+Trade has isSourceAmount
+Trade has orders
+Swap has trades
+Swap has minimumExchangeRate
+Swap has minimumDestinationAmount
+Swap has sourceAmount
+Swap has tradeToTakeFeeFrom
+Swap has takeFeeFromSource
+Swap has redirectAddress
+Swap has required
+SwapCollection has swaps
+SwapCollection has partnerContract
+SwapCollection has expirationBlock
+SwapCollection has id
+SwapCollection has maxGasPrice
+SwapCollection has v
+SwapCollection has r
+SwapCollection has s
+admin swapperLibrary swapper tokenTransferProxy swapper salt bytecode cloneAddress targetBytes bytecode size data balance 
+performSwap claimBalance createClone getCloneBytecode isContract computeCloneSalt computeAddress swap approve getBalance claimBalance destroy  totalSupply balanceOf allowance transfer approve transferFrom decimals performSwapCollection 
+onlyAdmin 
+SwapPerformed Transfer Approval 
+admin is equal to msg sender
+swapperLibrary is equal to _swapperLibrary
+If srcToken is different from 
+If 
+If balance corresponds to 0
+If token corresponds to 

@@ -1,0 +1,15 @@
+solidity 0.5.17 solidity 0.5.17 solidity 0.5.17 solidity 0.5.17 solidity 0.5.17 solidity 0.5.17 solidity 0.5.17 solidity 0.5.17 solidity 0.5.17 solidity 0.5.17 
+IVat IETHJoin ITokenJoin IFlip IFlap IFlop IERC20 IProxyActionsStorage IWETH ProxyActions 
+proxyManager store owner version vat daiJoin flap flop claimed flip decimals beforeBalance afterBalance flip flip claimed beforeBalance afterBalance claimed beforeBalance afterBalance token tokenJoin tokenJoin 
+hope gem dai join exit join exit tick tend dent deal tick tend deal tick dent deal totalSupply balanceOf transfer allowance approve transferFrom vat flap flop tokens decimals ilks tokenJoins flips balanceOf deposit withdraw approve transfer transferFrom setup flipClaimAndExit flipClaim flipClaimInternal flipReduceLot flipBidDai flapClaimAndExit flapClaim flapClaimInternal flapBidMkr flopClaimAndExit flopClaim flopClaimInternal flopReduceMkr join joinInternal exit exitInternal 
+onlyOwner 
+Transfer Approval 
+version is equal to 1
+If pull is greater then 0
+If pull is greater then 0
+If pull is greater then 0
+If pull is greater then 0
+If what corresponds to 
+If what is different from 
+If what corresponds to 
+If what corresponds to 

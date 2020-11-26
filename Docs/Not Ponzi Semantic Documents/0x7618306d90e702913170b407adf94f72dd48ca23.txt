@@ -1,0 +1,21 @@
+solidity ^0.5.17 
+ERC20Interface SafeMath BazT 
+name symbol decimals _totalSupply balances allowed 
+totalSupply balanceOf allowance transfer approve transferFrom safeAdd safeSub safeMul safeDiv totalSupply balanceOf allowance approve transfer transferFrom 
+BazT inherits from ERC20Interface BazT inherits from SafeMath 
+Transfer Approval 
+c is equal to a plus b
+c is equal to a minus b
+c is equal to a multiplied by b
+c is equal to a divided by b
+name is equal to BazT
+symbol is equal to BAZT
+decimals is equal to 18
+_totalSupply is equal to 2500000
+ is equal to _totalSupply
+ is equal to tokens
+ is equal to safeSub
+ is equal to safeAdd
+ is equal to safeSub
+ is equal to safeSub
+ is equal to safeAdd

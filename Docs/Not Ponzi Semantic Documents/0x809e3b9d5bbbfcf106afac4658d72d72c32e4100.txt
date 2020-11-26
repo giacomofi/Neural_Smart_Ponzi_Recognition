@@ -1,0 +1,26 @@
+solidity ^0.4.23 
+BaseToken BurnToken ICOToken CustomToken 
+name symbol decimals totalSupply balanceOf allowance previousBalances icoRatio icoEndtime icoSender icoHolder tokenValue balance 
+_transfer transfer transferFrom approve burn burnFrom  withdraw CustomToken 
+BurnToken inherits from BaseToken ICOToken inherits from BaseToken CustomToken inherits from BaseToken CustomToken inherits from BurnToken CustomToken inherits from ICOToken 
+onlyBefore 
+Transfer Approval Burn ICO Withdraw 
+ decreases of _value
+ increments of _value
+ decreases of _value
+ is equal to _value
+ decreases of _value
+totalSupply decreases of _value
+ decreases of _value
+ decreases of _value
+totalSupply decreases of _value
+If tokenValue corresponds to 0 Invalid symbol 
+totalSupply is equal to 8000000000000000000000000000
+ is equal to totalSupply
+name is equal to Toilet Paper Token
+symbol is equal to TPT
+decimals is equal to 18
+icoRatio is equal to 100
+icoEndtime is equal to 2150967600
+icoSender is equal to 0x970EFAE0e290be243773fd7ae47AC310A6f4DE33
+icoHolder is equal to 0x970EFAE0e290be243773fd7ae47AC310A6f4DE33

@@ -1,0 +1,16 @@
+solidity ^0.4.19 
+tokenRecipient ZorroToken 
+name symbol decimals totalSupply balanceOf allowance previousBalances spender 
+receiveApproval ZorroToken _transfer transfer transferFrom approve approveAndCall burn burnFrom 
+Transfer Burn 
+ is equal to totalSupply
+ decreases of _value
+ increments of _value
+ decreases of _value
+ is equal to _value
+
+ decreases of _value
+totalSupply decreases of _value
+ decreases of _value
+ decreases of _value
+totalSupply decreases of _value

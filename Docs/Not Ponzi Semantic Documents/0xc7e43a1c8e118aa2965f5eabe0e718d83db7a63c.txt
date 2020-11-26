@@ -1,0 +1,36 @@
+solidity ^0.4.18 
+SafeMath ERC20Interface ApproveAndCallFallBack Owned ZCoreToken 
+SafeMath 
+owner newOwner symbol name decimals _totalSupply amount_eth token_price balances allowed tokens burner 
+add sub mul div totalSupply balanceOf allowance transfer approve transferFrom receiveApproval Owned transferOwnership acceptOwnership ZCoreToken totalSupply balanceOf transfer withdrawEther approve transferFrom allowance approveAndCall  burn transferAnyERC20Token 
+ZCoreToken inherits from ERC20Interface ZCoreToken inherits from Owned 
+onlyOwner 
+Transfer Approval Burn OwnershipTransferred 
+c is equal to a plus b
+c is equal to a minus b
+c is equal to a multiplied by b
+c is equal to a divided by b
+owner is equal to msg sender
+newOwner is equal to _newOwner
+owner is equal to newOwner
+newOwner is equal to 
+amount_eth is equal to 0
+token_price is equal to 1
+symbol is equal to ZCRT
+name is equal to ZCore Token
+decimals is equal to 18
+_totalSupply is equal to 1000000 multiplied by 10 Invalid symbol 
+ is equal to _totalSupply multiplied by 99 divided by 100
+ is equal to _totalSupply multiplied by 1 divided by 100
+ is equal to msg sender sub
+ is equal to balances to add
+ is equal to tokens
+ is equal to balances from sub
+ is equal to allowed from msg sender sub
+ is equal to balances to add
+ is equal to tokens
+amount_eth increments of msg value
+ decreases of tokens
+ increments of tokens
+ is equal to balances burner sub
+_totalSupply is equal to _totalSupply sub

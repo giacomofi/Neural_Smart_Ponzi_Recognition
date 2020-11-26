@@ -1,0 +1,25 @@
+PiggyBank 
+InvestorArray 
+InvestorArray has etherAddress
+InvestorArray has amount
+investors k fees balance owner amount total_inv transactionAmount 
+PiggyBank  enter setOwner 
+onlyowner 
+owner is equal to msg sender
+If msg value is less then 50 finney
+investors length increments of 1
+investors total_inv etherAddress is equal to msg sender
+investors total_inv amount is equal to amount
+fees increments of amount divided by 33
+balance increments of amount
+If fees is different from 0
+If balance is greater then fees
+balance decreases of fees
+While balance is greater then investors k amount multiplied by 3 divided by 100 Invalid symbol 
+If k Invalid symbol 25 corresponds to 0 Invalid symbol 
+transactionAmount is equal to investors k amount multiplied by 9 divided by 100
+balance decreases of investors k amount multiplied by 9 divided by 100
+transactionAmount is equal to investors k amount multiplied by 3 divided by 100
+balance decreases of investors k amount multiplied by 3 divided by 100
+k increments of 1
+owner is equal to new_owner

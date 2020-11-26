@@ -1,0 +1,17 @@
+solidity ^0.4.21 
+simpleToken 
+totalSupply_ name symbol decimals initialSupply balances allowed oldValue 
+totalSupply balanceOf allowance transfer approve transferFrom increaseApproval decreaseApproval simpleToken 
+Transfer Approval 
+ is equal to  minus _value
+ is equal to  plus _value
+ is equal to _value
+ is equal to  minus _value
+ is equal to  plus _value
+ is equal to  minus _value
+ is equal to  plus _addedValue
+If _subtractedValue is greater then oldValue
+ is equal to 0
+ is equal to oldValue minus _subtractedValue
+totalSupply_ is equal to initialSupply
+ is equal to initialSupply

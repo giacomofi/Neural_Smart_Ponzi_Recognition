@@ -1,0 +1,26 @@
+solidity ^0.5.7 
+Ownable SafeMath ERC20Basic ERC20 BasicToken CAZPLUSToken 
+SafeMath 
+_owner c c balances totalSupply_ allowed name decimals symbol amount_tokenSale amount_developmentTeam amount_marketing amount_reserves amount_community 
+owner isOwner transferOwnership _transferOwnership mul div sub add totalSupply balanceOf transfer allowance transferFrom approve totalSupply _transfer transfer balanceOf transferFrom approve allowance  
+ERC20 inherits from ERC20Basic BasicToken inherits from ERC20Basic CAZPLUSToken inherits from ERC20 CAZPLUSToken inherits from BasicToken CAZPLUSToken inherits from Ownable 
+onlyOwner 
+OwnershipTransferred Transfer Approval 
+_owner is equal to msg sender
+_owner is equal to newOwner
+If a corresponds to 0
+ is equal to balances _from sub
+ is equal to balances _to add
+decimals is equal to 18
+name is equal to CAZPLUS
+symbol is equal to PLUS
+totalSupply_ is equal to 9999999999 multiplied by 10 Invalid symbol 
+ is equal to amount_tokenSale
+ is equal to amount_developmentTeam
+ is equal to amount_marketing
+ is equal to amount_reserves
+ is equal to amount_community
+ is equal to balances _from sub
+ is equal to balances _to add
+ is equal to allowed _from msg sender sub
+ is equal to _value

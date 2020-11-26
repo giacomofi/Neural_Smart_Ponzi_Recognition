@@ -1,0 +1,46 @@
+solidity ^0.5.9 experimental ABIEncoderV2 solidity ^0.5.9 solidity ^0.5.9 
+IERC20 IERC1155 LibBytes IERC1271Wallet LibEIP712 SignatureValidator Address IERC1155TokenReceiver IERC165 SafeMath ERC1155 ERC1155Meta 
+LibBytes LibBytes SafeMath Address LibBytes 
+GasReceipt 
+GasReceipt has gasLimit
+GasReceipt has baseGas
+GasReceipt has gasPrice
+GasReceipt has feeRecipient
+GasReceipt has feeTokenData
+DOMAIN_SEPARATOR_TYPEHASH EIP712_DOMAIN_HASH ERC1271_MAGICVALUE signatureTypeRaw signatureType v r s recovered codehash accountHash c c c c ERC1155_RECEIVED_VALUE ERC1155_BATCH_RECEIVED_VALUE balances operators retval nTransfer i retval batchBalances i INTERFACE_SIGNATURE_ERC165 INTERFACE_SIGNATURE_ERC1155 nonces startGas transferData gasReceipt signedData retval startGas transferData gasReceipt signedData retval startGas signedData gasReceipt META_TX_TYPEHASH META_BATCH_TX_TYPEHASH META_APPROVAL_TYPEHASH nonce sig hash fullData feeTokenTypeRaw feeTokenType tokenAddress feeRecipient gasUsed tokenID fee 
+transfer approve transferFrom totalSupply balanceOf allowance safeTransferFrom safeBatchTransferFrom balanceOf balanceOfBatch setApprovalForAll isApprovedForAll popLastByte readBytes32 isValidSignature isValidSignature hashEIP712Message isValidSignature isContract onERC1155Received onERC1155BatchReceived supportsInterface supportsInterface mul div sub add mod safeTransferFrom safeBatchTransferFrom _safeTransferFrom _callonERC1155Received _safeBatchTransferFrom _callonERC1155BatchReceived setApprovalForAll isApprovedForAll balanceOf balanceOfBatch supportsInterface metaSafeTransferFrom metaSafeBatchTransferFrom metaSetApprovalForAll _signatureValidation getNonce _transferGasFee 
+SignatureValidator inherits from LibEIP712 ERC1155 inherits from IERC165 ERC1155Meta inherits from ERC1155 ERC1155Meta inherits from SignatureValidator 
+Transfer Approval TransferSingle TransferBatch ApprovalForAll URI TransferSingle TransferBatch ApprovalForAll URI 
+result is equal to 
+index increments of 32
+EIP712_DOMAIN_HASH is equal to keccak256
+If signatureType corresponds to SignatureType Illegal
+If a corresponds to 0
+ is equal to balances _from _id sub
+ is equal to balances _to _id add
+
+i is less then nTransfer
+ is equal to balances _from _ids i sub
+ is equal to balances _to _ids i add
+
+ is equal to _approved
+i is less then _owners length
+ is equal to 
+If _interfaceID corresponds to INTERFACE_SIGNATURE_ERC165 Invalid symbol 
+
+ is equal to abi decode
+
+
+ is equal to abi decode
+
+ is equal to _approved
+
+ is equal to abi decode
+ is equal to nonce plus 1
+gasUsed is equal to 
+fee is equal to 
+feeRecipient is equal to 
+If feeTokenType corresponds to FeeTokenType ERC1155
+ is equal to abi decode
+If tokenAddress corresponds to 
+tokenAddress is equal to abi decode

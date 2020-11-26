@@ -1,0 +1,21 @@
+solidity ^0.5.8 
+Ownable DepositLockerInterface DepositLocker 
+owner initialized deposited slasher depositorsProxy releaseTimestamp canWithdraw numberOfDepositors valuePerDepositor depositAmount 
+transferOwnership slash  init registerDepositor deposit withdraw slash 
+DepositLocker inherits from DepositLockerInterface DepositLocker inherits from Ownable 
+onlyOwner isInitialised isDeposited isNotDeposited onlyDepositorsProxy 
+DepositorRegistered Deposit Withdraw Slash 
+owner is equal to msg sender
+If newOwner is different from 
+owner is equal to newOwner
+releaseTimestamp is equal to _releaseTimestamp
+slasher is equal to _slasher
+depositorsProxy is equal to _depositorsProxy
+initialized is equal to True
+owner is equal to 
+ is equal to True
+numberOfDepositors increments of 1
+valuePerDepositor is equal to _valuePerDepositor
+deposited is equal to True
+ is equal to False
+ is equal to False

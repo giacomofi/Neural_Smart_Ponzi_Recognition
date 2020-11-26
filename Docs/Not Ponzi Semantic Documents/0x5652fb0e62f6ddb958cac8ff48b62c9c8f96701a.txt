@@ -1,0 +1,61 @@
+solidity 0.5.14 
+SafeMath SafeMathUint SafeMathInt Context Roles MinterRole Ownable Restrictable Administratable Whitelistable IERC20 ERC20 ERC20Detailed ERC20Mintable ERC1404 IFundsDistributionToken FundsDistributionToken LAOtoken LAOtokenFactory 
+Roles SafeMath SafeMath SafeMathUint SafeMathInt SafeMathUint SafeMathInt SafeMath 
+Role 
+Role has bearer
+c c c c b c c _minters _owner _restrictionsEnabled administrators i previousWhitelist i previousWhitelist NO_WHITELIST addressWhitelists outboundWhitelistsEnabled oldEnabledValue senderWhiteList receiverWhiteList _balances _allowances _totalSupply _name _symbol _decimals pointsMultiplier pointsPerShare pointsCorrection withdrawnFunds _withdrawableDividend _magCorrection SUCCESS_CODE FAILURE_NON_WHITELIST SUCCESS_MESSAGE FAILURE_NON_WHITELIST_MESSAGE UNKNOWN_ERROR stamp fundsToken fundsTokenBalance i restrictionCode withdrawableFunds prevFundsTokenBalance newFunds stamp etherFee LT manager tokens 
+add sub sub mul div div mod mod toInt256Safe mul div sub add toUint256Safe _msgSender _msgData add remove has isMinter addMinter renounceMinter _addMinter _removeMinter owner isOwner renounceOwnership transferOwnership _transferOwnership isRestrictionEnabled disableRestrictions isAdministrator addAdmin removeAdmin addToWhitelist removeFromWhitelist updateOutboundWhitelistEnabled checkWhitelistAllowed totalSupply balanceOf transfer allowance approve transferFrom totalSupply balanceOf transfer allowance approve transferFrom increaseAllowance decreaseAllowance _transfer _mint _burn _approve _burnFrom name symbol decimals mint detectTransferRestriction messageForTransferRestriction withdrawableFundsOf withdrawFunds _distributeFunds _prepareWithdraw withdrawableFundsOf withdrawnFundsOf accumulativeFundsOf _transfer _mint _burn detectTransferRestriction messageForTransferRestriction transfer transferFrom withdrawFunds _updateFundsTokenBalance updateFundsReceived newLAOtoken getTokenCount newManagerFee transferManager 
+Ownable inherits from Context Restrictable inherits from Ownable Administratable inherits from Ownable Whitelistable inherits from Administratable ERC20 inherits from Context ERC20 inherits from IERC20 ERC20Detailed inherits from IERC20 ERC20Mintable inherits from MinterRole ERC20Mintable inherits from ERC20 ERC1404 inherits from IERC20 FundsDistributionToken inherits from ERC20Detailed FundsDistributionToken inherits from ERC20Mintable FundsDistributionToken inherits from IFundsDistributionToken LAOtoken inherits from Restrictable LAOtoken inherits from Whitelistable LAOtoken inherits from ERC1404 LAOtoken inherits from FundsDistributionToken 
+onlyMinter onlyOwner onlyAdministrator onlyFundsToken notRestricted 
+MinterAdded MinterRemoved OwnershipTransferred RestrictionsDisabled AdminAdded AdminRemoved AddressAddedToWhitelist AddressRemovedFromWhitelist OutboundWhitelistUpdated Transfer Approval FundsDistributed FundsWithdrawn Deployed 
+If a corresponds to 0
+ is equal to True
+ is equal to False
+_owner is equal to 
+_owner is equal to newOwner
+_restrictionsEnabled is equal to False
+ is equal to True
+ is equal to False
+i is less then addressToAdd length
+ is equal to whitelist
+If previousWhitelist is different from NO_WHITELIST
+i is less then addressToRemove length
+ is equal to NO_WHITELIST
+ is equal to newEnabledValue
+If senderWhiteList corresponds to NO_WHITELIST Invalid symbol 
+ is equal to _balances sender sub
+ is equal to _balances recipient add
+_totalSupply is equal to _totalSupply add
+ is equal to _balances account add
+ is equal to _balances account sub
+_totalSupply is equal to _totalSupply sub
+ is equal to amount
+_name is equal to name
+_symbol is equal to symbol
+_decimals is equal to decimals
+If value is greater then 0
+pointsPerShare is equal to pointsPerShare add
+ is equal to msg sender add
+ is equal to pointsCorrection from add
+ is equal to pointsCorrection to sub
+ is equal to pointsCorrection account sub
+ is equal to pointsCorrection account add
+i is less then ownership length
+stamp is equal to _stamp
+fundsToken is equal to _fundsToken
+ is equal to True
+If 
+If from corresponds to owner
+If 
+If restrictionCode corresponds to SUCCESS_CODE
+If restrictionCode corresponds to FAILURE_NON_WHITELIST
+success is equal to super transfer
+success is equal to super transferFrom
+fundsTokenBalance is equal to fundsToken balanceOf
+If newFunds is greater then 0
+stamp is equal to _stamp
+etherFee is equal to _etherFee
+manager is equal to _manager
+LT is equal to 
+etherFee is equal to weiAmount
+manager is equal to newManager

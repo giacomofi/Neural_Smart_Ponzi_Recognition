@@ -1,0 +1,110 @@
+solidity ^0.5.4 
+Account Owned LogicManager AccountStorage SafeMath BaseLogic AccountBaseLogic AccountLogic 
+pending pendingTime KeyItem BackupAccount DelayItem Proposal 
+pending has value
+pending has dueTime
+pendingTime has curPendingTime
+pendingTime has nextPendingTime
+pendingTime has dueTime
+KeyItem has pubKey
+KeyItem has status
+BackupAccount has backup
+BackupAccount has effectiveDate
+BackupAccount has expiryDate
+DelayItem has hash
+DelayItem has dueTime
+Proposal has hash
+Proposal has approval
+implementation manager enabled i logic success logic owner authorized authorizedLogics pendingLogics pt logicCount i logic p p len lastLogic i operationKeyCount keyData backupData delayData proposalData item item item item b b b b b item item item p p p i index _key item bkps i j index _backup c c c c c SIGN_HASH_PREFIX keyNonce accountStorage msgHash prefixedHash recoveredAddr r s v DELAY_CHANGE_ADMIN_KEY DELAY_CHANGE_OPERATION_KEY DELAY_UNFREEZE_KEY DELAY_CHANGE_BACKUP DELAY_CHANGE_ADMIN_KEY_BY_BACKUP MAX_DEFINED_BACKUP_INDEX CHANGE_ADMIN_KEY CHANGE_ADMIN_KEY_BY_BACKUP CHANGE_ADMIN_KEY_WITHOUT_DELAY CHANGE_ALL_OPERATION_KEYS UNFREEZE proposedActionId functionHash hash backupCount approvedCount approved i backup effectiveDate expiryDate k threshold isBackup i backup effectiveDate expiryDate i backup effectiveDate expiryDate DAPP_KEY_INDEX ADD_OPERATION_KEY PROPOSE_AS_BACKUP APPROVE_PROPOSAL ERC1271_ISVALIDSIGNATURE_BYTES ERC1271_ISVALIDSIGNATURE_BYTES32 account keyIndex signingKey signHash pk hash hash due pk hash hash due index pk keyCount pk i hash hash due pk i i hash hash due i index index b i index effectiveDate index expiryDate proposedActionId functionHash functionHash proposedActionId hash msgHash signingKey prefixedHash index methodId 
+init invoke enableStaticCall changeManager  changeOwner submitUpdatePendingTime triggerUpdatePendingTime isAuthorized getAuthorizedLogics submitUpdate cancelUpdate triggerUpdateLogic updateLogic removeLogic getOperationKeyCount increaseKeyCount getKeyData setKeyData getKeyStatus setKeyStatus getBackupAddress getBackupEffectiveDate getBackupExpiryDate setBackup setBackupExpiryDate clearBackupData getDelayDataHash getDelayDataDueTime setDelayData clearDelayData getProposalDataHash getProposalDataApproval setProposalData clearProposalData initAccount mul div sub add mod ceil initAccount getKeyNonce getSignHash verifySig recover getSignerAddress getMethodId checkKeyStatus checkAndUpdateNonce executeProposal checkApproval checkRelation isEffectiveBackup clearRelatedProposalAfterAdminKeyChanged initAccount enter changeAdminKey triggerChangeAdminKey changeAdminKeyByBackup triggerChangeAdminKeyByBackup addOperationKey changeAllOperationKeys triggerChangeAllOperationKeys freeze unfreeze triggerUnfreeze removeBackup findBackup cancelDelay cancelAddBackup cancelRemoveBackup proposeAsBackup approveProposal cancelProposal isValidSignature isValidSignature getKeyIndex 
+LogicManager inherits from Owned AccountBaseLogic inherits from BaseLogic AccountLogic inherits from AccountBaseLogic 
+allowAuthorizedLogicContractsCallsOnly onlyOwner allowAccountCallsOnly allowAuthorizedLogicContractsCallsOnly allowSelfCallsOnly allowAccountCallsOnly 
+EnabledStaticCall Invoked Received AccountInit ManagerChanged OwnerChanged UpdateLogicSubmitted UpdateLogicCancelled UpdateLogicDone LogicInitialised ProposalExecuted AccountLogicEntered AccountLogicInitialised ChangeAdminKeyTriggered ChangeAdminKeyByBackupTriggered ChangeAllOperationKeysTriggered UnfreezeTriggered ChangeAdminKey ChangeAdminKeyByBackup AddOperationKey ChangeAllOperationKeys Freeze Unfreeze RemoveBackup CancelDelay CancelAddBackup CancelRemoveBackup ProposeAsBackup ApproveProposal CancelProposal 
+manager is equal to _manager
+i is less then _logics length
+ is equal to 
+ is equal to _module
+manager is equal to _newMgr
+If msg data length is greater then 0
+If logic corresponds to 
+owner is equal to msg sender
+owner is equal to _newOwner
+i is less then _initialLogics length
+ is equal to True
+logicCount increments of 1
+authorizedLogics is equal to _initialLogics
+pt curPendingTime is equal to _pendingTime
+pt nextPendingTime is equal to _pendingTime
+pt dueTime is equal to now
+pt nextPendingTime is equal to _pendingTime
+pt dueTime is equal to pt curPendingTime plus now
+pt curPendingTime is equal to pt nextPendingTime
+p value is equal to _value
+p dueTime is equal to now plus pt curPendingTime
+If  is different from _value
+
+logicCount increments of 1
+ is equal to True
+logicCount decreases of 1
+If _logic is different from lastLogic
+i is less then len
+If _logic corresponds to 
+ is equal to lastLogic
+ is equal to  plus 1
+item pubKey is equal to _key
+item status is equal to _status
+b backup is equal to _backup
+b effectiveDate is equal to _effective
+b expiryDate is equal to _expiry
+b expiryDate is equal to _expiry
+item hash is equal to _hash
+item dueTime is equal to _dueTime
+If p hash is greater then 0
+If p hash corresponds to _hash
+i is less then p approval length
+p hash is equal to _hash
+p approval length is equal to 0
+p hash is equal to _hash
+ is equal to _keys length minus 1
+index is less then _keys length
+item pubKey is equal to _key
+item status is equal to 0
+If _backups length is greater then 1
+i is less then _backups length
+j is less then i
+index is less then _backups length
+ is equal to BackupAccount
+If a corresponds to 0
+If a Invalid symbol b corresponds to 0
+accountStorage is equal to _accountStorage
+If signature length is different from 65
+If  is greater then 0x7FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5D576E7357A4501DDFE92F46681B20A0
+If v is different from 27 Invalid symbol 
+If _index is greater then 0
+ is equal to _nonce
+i is less or equal to MAX_DEFINED_BACKUP_INDEX
+If backup is different from  Invalid symbol isEffectiveBackup
+backupCount increments of 1
+k is less then approved length
+If backup corresponds to 
+approvedCount increments of 1
+i is less or equal to MAX_DEFINED_BACKUP_INDEX
+If _backup corresponds to backup Invalid symbol isEffectiveBackup
+isBackup is equal to True
+i is less or equal to MAX_DEFINED_BACKUP_INDEX
+If backup is different from  Invalid symbol isEffectiveBackup
+i is less then keyCount
+pk is equal to 
+i is less then accountStorage getOperationKeyCount
+pk is equal to 
+i is less or equal to accountStorage getOperationKeyCount
+If accountStorage getKeyStatus corresponds to 0
+i is less or equal to accountStorage getOperationKeyCount
+If accountStorage getKeyStatus corresponds to 1
+If _backup corresponds to 
+i is less or equal to MAX_DEFINED_BACKUP_INDEX
+b is equal to accountStorage getBackupAddress
+If b corresponds to _backup
+index is equal to i
+If methodId corresponds to ADD_OPERATION_KEY
+index is equal to 2

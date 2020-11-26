@@ -1,0 +1,27 @@
+solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.11 solidity ^0.5.11 
+IERC20 ERC20 ERC20Detailed Ownable Roles SafeMath BlockBerry ART 
+SafeMath SafeMath Roles 
+Role 
+Role has bearer
+_balances _allowances _totalSupply _name _symbol _decimals _owner c c c c _cap _frozenAccounts 
+totalSupply balanceOf transfer allowance approve transferFrom totalSupply balanceOf transfer allowance approve transferFrom increaseAllowance decreaseAllowance _transfer _mint _burn _approve _burnFrom name symbol decimals owner isOwner renounceOwnership transferOwnership _transferOwnership add remove has add sub mul div mod cap mint burn transfer transferFrom isFrozen freeze unfreeze 
+ERC20 inherits from IERC20 ERC20Detailed inherits from IERC20 BlockBerry inherits from ERC20 BlockBerry inherits from ERC20Detailed BlockBerry inherits from Ownable ART inherits from BlockBerry 
+onlyOwner notFrozen 
+Transfer Approval OwnershipTransferred Freeze Unfreeze 
+ is equal to _balances sender sub
+ is equal to _balances recipient add
+_totalSupply is equal to _totalSupply add
+ is equal to _balances account add
+_totalSupply is equal to _totalSupply sub
+ is equal to _balances account sub
+ is equal to value
+_name is equal to name
+_symbol is equal to symbol
+_decimals is equal to decimals
+_owner is equal to msg sender
+_owner is equal to 
+_owner is equal to newOwner
+ is equal to True
+ is equal to False
+If a corresponds to 0
+_cap is equal to cap

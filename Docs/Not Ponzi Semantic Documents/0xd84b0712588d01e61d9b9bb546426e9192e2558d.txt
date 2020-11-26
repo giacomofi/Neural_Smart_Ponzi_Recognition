@@ -1,0 +1,68 @@
+solidity ^0.4.23 
+ERC20Basic SafeMath BasicToken ERC20 StandardToken Ownable MintableToken FreezableToken BurnableToken Pausable FreezableMintableToken Consts MainToken 
+SafeMath 
+balances totalSupply_ allowed oldValue owner mintingFinished chains freezings freezingBalance release i currentKey headKey head currentKey next amount release balance key parentKey next nextKey parent paused currentKey TOKEN_DECIMALS TOKEN_DECIMALS_UINT8 TOKEN_DECIMAL_MULTIPLIER TOKEN_NAME TOKEN_SYMBOL PAUSED TARGET_USER CONTINUE_MINTING initialized addresses amounts freezes i 
+totalSupply balanceOf transfer mul div sub add totalSupply transfer balanceOf allowance transferFrom approve transferFrom approve allowance increaseApproval decreaseApproval renounceOwnership transferOwnership _transferOwnership mint finishMinting balanceOf actualBalanceOf freezingBalanceOf freezingCount getFreezing freezeTo releaseOnce releaseAll toKey freeze burn _burn pause unpause mintAndFreeze name symbol decimals transferFrom transfer init 
+BasicToken inherits from ERC20Basic ERC20 inherits from ERC20Basic StandardToken inherits from ERC20 StandardToken inherits from BasicToken MintableToken inherits from StandardToken MintableToken inherits from Ownable FreezableToken inherits from StandardToken BurnableToken inherits from BasicToken Pausable inherits from Ownable FreezableMintableToken inherits from FreezableToken FreezableMintableToken inherits from MintableToken MainToken inherits from Consts MainToken inherits from FreezableMintableToken MainToken inherits from BurnableToken MainToken inherits from Pausable 
+onlyOwner canMint hasMintPermission whenNotPaused whenPaused 
+Transfer Approval OwnershipRenounced OwnershipTransferred Mint MintFinished Freezed Released Burn Pause Unpause Initialized 
+If a corresponds to 0
+c is equal to a multiplied by b
+c is equal to a plus b
+ is equal to msg sender sub
+ is equal to balances _to add
+ is equal to balances _from sub
+ is equal to balances _to add
+ is equal to allowed _from msg sender sub
+ is equal to _value
+ is equal to 
+If _subtractedValue is greater then oldValue
+ is equal to 0
+ is equal to oldValue sub
+owner is equal to msg sender
+owner is equal to 
+owner is equal to _newOwner
+totalSupply_ is equal to totalSupply_ add
+ is equal to balances _to add
+mintingFinished is equal to True
+While release is different from 0
+release is equal to 
+i is less then _index plus 1
+_release is equal to 
+If _release corresponds to 0
+_balance is equal to 
+ is equal to msg sender sub
+ is equal to freezings currentKey add
+ is equal to freezingBalance _to add
+ is equal to msg sender add
+ is equal to msg sender sub
+If next corresponds to 0
+ is equal to next
+ is equal to getFreezing
+While release is different from 0 Invalid symbol 
+tokens increments of balance
+ is equal to getFreezing
+result is equal to 0x5749534800000000000000000000000000000000000000000000000000000000
+If next corresponds to 0
+ is equal to _until
+While next is different from 0 Invalid symbol 
+parent is equal to next
+parentKey is equal to nextKey
+next is equal to 
+nextKey is equal to toKey
+If _until corresponds to next
+If next is different from 0
+ is equal to next
+ is equal to _until
+ is equal to balances _who sub
+totalSupply_ is equal to totalSupply_ sub
+paused is equal to True
+paused is equal to False
+totalSupply_ is equal to totalSupply_ add
+ is equal to freezings currentKey add
+ is equal to freezingBalance _to add
+initialized is equal to True
+
+i is less then addresses length
+If  corresponds to 0
+If not CONTINUE_MINTING

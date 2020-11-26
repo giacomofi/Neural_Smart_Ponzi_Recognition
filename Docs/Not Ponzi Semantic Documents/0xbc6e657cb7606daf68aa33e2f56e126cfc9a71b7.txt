@@ -1,0 +1,24 @@
+solidity ^0.4.18 
+ERC20Basic ERC20 SafeMath BasicToken StandardToken Ownable MintableToken CoinSpas157 
+SafeMath 
+totalSupply c c c balances allowed oldValue owner mintingFinished saleAgent name symbol decimals 
+balanceOf transfer allowance transferFrom approve mul div sub add transfer balanceOf transferFrom approve allowance increaseApproval decreaseApproval  Ownable transferOwnership setSaleAgent mint finishMinting 
+ERC20 inherits from ERC20Basic BasicToken inherits from ERC20Basic StandardToken inherits from ERC20 StandardToken inherits from BasicToken MintableToken inherits from StandardToken MintableToken inherits from Ownable CoinSpas157 inherits from MintableToken 
+onlyOwner 
+Transfer Approval OwnershipTransferred Mint MintFinished 
+ is equal to msg sender sub
+ is equal to balances _to add
+ is equal to balances _from sub
+ is equal to balances _to add
+ is equal to allowed _from msg sender sub
+ is equal to _value
+ is equal to msg sender _spender add
+If _subtractedValue is greater then oldValue
+ is equal to 0
+ is equal to oldValue sub
+owner is equal to msg sender
+owner is equal to newOwner
+saleAgent is equal to newSaleAgnet
+totalSupply is equal to totalSupply add
+ is equal to balances _to add
+mintingFinished is equal to True

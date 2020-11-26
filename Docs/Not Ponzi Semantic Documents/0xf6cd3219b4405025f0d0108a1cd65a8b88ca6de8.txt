@@ -1,0 +1,18 @@
+solidity 0.5.11 
+ITokenRecipient SafeMath BestOneToken 
+MAX_UINT256 balances allowance name symbol decimals totalSupply length receiver 
+tokenFallback safeAdd safeSub isContract transfer approve transferFrom burn balanceOf 
+BestOneToken inherits from SafeMath 
+Transfer Burn 
+If x is greater then MAX_UINT256 minus y
+If x is less then y
+ is equal to totalSupply
+ is equal to safeSub
+ is equal to safeAdd
+
+ is equal to value
+ is equal to safeSub
+ is equal to safeAdd
+ is equal to safeSub
+ is equal to safeSub
+totalSupply is equal to safeSub

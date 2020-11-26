@@ -1,0 +1,55 @@
+solidity ^0.3.5 
+DepositHolder 
+Entry 
+Entry has next
+Entry has deposit
+Entry has expires
+GUARANTEE_PERIOD owner auditor entries oldestHash newestHash paidOut totalPaidOut depositCount required expires i recovered ptr count i entry 
+DepositHolder setOwner setAuditor deposit extend withdraw recover nextWithdrawal check disburse destroy 
+owner_only auditor_only 
+Claim 
+owner is equal to msg sender
+auditor is equal to owner
+owner is equal to newOwner
+auditor is equal to newAuditor
+If msg value is less then required
+If oldestHash corresponds to 0
+oldestHash is equal to 
+newestHash is equal to 
+entries newestHash next is equal to 
+i is less then values length minus 1
+If entries values i expires is different from 0
+ is equal to Entry
+newestHash is equal to 
+If entries newestHash expires is different from 0
+ is equal to Entry
+depositCount increments of values length
+If 
+i is less then max Invalid symbol  Invalid symbol 
+recovered increments of entries ptr deposit
+ptr is equal to entries ptr next
+count increments of 1
+oldestHash is equal to ptr
+If oldestHash corresponds to 0
+newestHash is equal to 0
+If paidOut is greater then 0
+If recovered is greater then paidOut
+recovered decreases of paidOut
+paidOut is equal to 0
+paidOut decreases of recovered
+recovered is equal to 0
+depositCount decreases of count
+If hash corresponds to 0
+hash is equal to oldestHash
+next is equal to hash
+when is equal to entries hash expires
+While next is different from 0 Invalid symbol 
+count increments of 1
+value increments of entries next deposit
+next is equal to entries next next
+expires is equal to entry expires
+deposit is equal to entry deposit
+paidOut increments of amount
+totalPaidOut increments of amount
+If 
+If depositCount is greater then 0

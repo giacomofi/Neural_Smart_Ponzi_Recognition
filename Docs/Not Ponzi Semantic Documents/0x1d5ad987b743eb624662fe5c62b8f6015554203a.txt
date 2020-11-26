@@ -1,0 +1,16 @@
+solidity ^0.5.0 experimental ABIEncoderV2 
+ReentrancyGuard Context Ownable SafeMath Address yToken IIEarnManager yTokenProxy 
+Address SafeMath 
+_guardCounter localCounter _owner c c c c codehash accountHash _yToken 
+_msgSender _msgData owner isOwner renounceOwnership transferOwnership _transferOwnership add sub sub mul div div mod mod isContract toPayable sendValue transferOwnership set_new_APR set_new_FULCRUM set_new_COMPOUND set_new_DTOKEN set_new_AAVE set_new_APOOL set_new_ATOKEN recommend balance balanceDydxAvailable balanceDydx balanceCompound balanceCompoundInToken balanceFulcrumAvailable balanceFulcrumInToken balanceFulcrum balanceAaveAvailable balanceAave withdrawSomeCompound withdrawSomeFulcrum withdrawAave withdrawDydx supplyDydx supplyAave supplyFulcrum supplyCompound recommend withdrawAave withdrawCompound withdrawDydx set_new_yToken transferYTokenOwnership 
+Ownable inherits from Context yTokenProxy inherits from ReentrancyGuard yTokenProxy inherits from Ownable 
+nonReentrant onlyOwner 
+OwnershipTransferred 
+_guardCounter is equal to 1
+_guardCounter increments of 1
+_owner is equal to _msgSender
+_owner is equal to 
+_owner is equal to newOwner
+If a corresponds to 0
+_yToken is equal to yToken
+_yToken is equal to _new_yToken

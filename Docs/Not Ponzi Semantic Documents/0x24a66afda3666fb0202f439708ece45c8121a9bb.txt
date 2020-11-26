@@ -1,0 +1,12 @@
+solidity ^0.5.0 
+Roles WhitelistAdminRole WhitelistedRole RequestHashStorage 
+Roles Roles 
+Role 
+Role has bearer
+_whitelistAdmins _whitelisteds 
+add remove has isWhitelistAdmin addWhitelistAdmin renounceWhitelistAdmin _addWhitelistAdmin _removeWhitelistAdmin isWhitelisted addWhitelisted removeWhitelisted renounceWhitelisted _addWhitelisted _removeWhitelisted declareNewHash  
+WhitelistedRole inherits from WhitelistAdminRole RequestHashStorage inherits from WhitelistedRole 
+onlyWhitelistAdmin onlyWhitelisted 
+WhitelistAdminAdded WhitelistAdminRemoved WhitelistedAdded WhitelistedRemoved NewHash 
+ is equal to True
+ is equal to False

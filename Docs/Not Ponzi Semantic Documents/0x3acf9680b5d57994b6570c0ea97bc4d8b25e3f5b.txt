@@ -1,0 +1,19 @@
+solidity 0.5.7 
+SafeMath Ownable IERC20 ERC20 ERC20Burnable ERC20Mintable tokenRecipient BK 
+SafeMath 
+c c c c _owner _balances _allowed _totalSupply name symbol decimals initialSupply spender 
+mul div sub add mod owner isOwner renounceOwnership transferOwnership _transferOwnership transfer approve transferFrom totalSupply balanceOf allowance totalSupply balanceOf allowance transfer approve transferFrom increaseAllowance decreaseAllowance _transfer _mint _burn _approve _burnFrom burn burnFrom mint receiveApproval approveAndCall 
+ERC20 inherits from IERC20 ERC20 inherits from Ownable ERC20Burnable inherits from ERC20 ERC20Mintable inherits from ERC20 BK inherits from ERC20Mintable BK inherits from ERC20Burnable 
+onlyOwner 
+OwnershipTransferred Transfer Approval 
+If a corresponds to 0
+_owner is equal to 
+_owner is equal to newOwner
+ is equal to  minus value
+ is equal to  plus value
+_totalSupply is equal to _totalSupply plus value
+ is equal to  plus value
+_totalSupply is equal to _totalSupply minus value
+ is equal to  minus value
+ is equal to value
+

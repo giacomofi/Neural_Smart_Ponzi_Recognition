@@ -1,0 +1,7 @@
+solidity 0.5.12 
+IERC20Wrapper ERC20Wrapper 
+returnValue 
+totalSupply balanceOf allowance transfer transferFrom approve symbol balanceOf allowance transfer transferFrom approve isIssuedToken checkSuccess 
+
+
+

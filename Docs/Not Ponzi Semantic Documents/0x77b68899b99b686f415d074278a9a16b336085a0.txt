@@ -1,0 +1,25 @@
+solidity >0.4.13>=0.4.23 
+DSAuthority DSAuthEvents DSAuth DSMath DSNote DSThing DSValue 
+authority owner WAD RAY foo bar wad has val wut haz 
+canCall setOwner setAuthority isAuthorized add sub mul min max imin imax wmul rmul wdiv rdiv rpow S peek read poke void 
+DSAuth inherits from DSAuthEvents DSThing inherits from DSAuth DSThing inherits from DSNote DSThing inherits from DSMath DSValue inherits from DSThing 
+auth note 
+LogSetAuthority LogSetOwner LogNote 
+owner is equal to msg sender
+owner is equal to owner_
+authority is equal to authority_
+If src corresponds to 
+z is equal to add divided by WAD
+z is equal to add divided by RAY
+z is equal to add divided by y
+z is equal to add divided by y
+z is equal to 
+n is divided by 2
+n is different from 0
+x is equal to rmul
+If n Invalid symbol 2 is different from 0
+z is equal to rmul
+ is equal to peek
+val is equal to wut
+has is equal to True
+has is equal to False

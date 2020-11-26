@@ -1,0 +1,27 @@
+solidity ^0.4.23 
+CreatoryNetwork XCR CreatoryToken 
+balances allowed totalSupply name decimals symbol version unitsBuy totalEthInWei fundsWallet amount i 
+totalSupply balanceOf transfer transferFrom approve allowance transfer transferFrom balanceOf approve allowance CreatoryToken  approveAndCall MultiTransfer 
+XCR inherits from CreatoryNetwork CreatoryToken inherits from XCR 
+Transfer Approval 
+If  is greater or equal to _value Invalid symbol 
+ decreases of _value
+ increments of _value
+If  is greater or equal to _value Invalid symbol  Invalid symbol 
+ increments of _value
+ decreases of _value
+ decreases of _value
+ is equal to _value
+ is equal to 12000000000000000000000000000
+totalSupply is equal to 12000000000000000000000000000
+name is equal to Creatory Network
+decimals is equal to 18
+symbol is equal to XCR
+unitsBuy is equal to 200000
+fundsWallet is equal to msg sender
+totalEthInWei is equal to totalEthInWei plus msg value
+ is equal to  minus amount
+ is equal to  plus amount
+ is equal to _value
+If 
+i is less then addrs length

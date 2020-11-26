@@ -1,0 +1,21 @@
+solidity 0.5.12 
+VatLike PotLike JoinLike GemLike Chai 
+vat pot daiJoin daiToken name symbol version decimals totalSupply balanceOf allowance nonces RAY DOMAIN_SEPARATOR PERMIT_TYPEHASH chi digest can chi chi pie chi chi 
+hope chi rho drip join exit join exit transferFrom approve add sub mul rmul rdiv rdivup transfer move transferFrom approve permit dai join exit draw 
+Approval Transfer 
+z is equal to mul divided by RAY
+z is equal to mul divided by y
+z is equal to add divided by y
+If src is different from msg sender Invalid symbol 
+ is equal to sub
+ is equal to sub
+ is equal to add
+ is equal to wad
+ is equal to can
+wad is equal to rmul
+ is equal to add
+totalSupply is equal to add
+If src is different from msg sender Invalid symbol 
+ is equal to sub
+ is equal to sub
+totalSupply is equal to sub

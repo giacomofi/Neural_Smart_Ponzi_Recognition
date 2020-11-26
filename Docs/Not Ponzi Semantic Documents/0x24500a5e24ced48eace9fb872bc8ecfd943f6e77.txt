@@ -1,0 +1,26 @@
+solidity 0.5.10 solidity 0.5.10 solidity 0.5.10 solidity 0.5.10 
+IERC20 SafeMath PayableOwnable SinglePullPayment 
+SafeMath 
+PullPayment 
+PullPayment has paymentDetails
+PullPayment has paymentAmount
+PullPayment has customerAddress
+PullPayment has receiverAddress
+PullPayment has uniqueReferenceID
+c c c c _owner OVERFLOW_LIMITER_NUMBER EMPTY_BYTES32 token executors pullPayments paymentDetails 
+transfer approve transferFrom totalSupply balanceOf allowance mul div sub add mod owner isOwner renounceOwnership transferOwnership _transferOwnership  addExecutor removeExecutor registerPullPayment isValidRegistration 
+SinglePullPayment inherits from PayableOwnable 
+onlyOwner isExecutor executorExists executorDoesNotExists isValidAddress isValidNumber isValidByte32 pullPaymentDoesNotExists 
+Transfer Approval OwnershipTransferred LogExecutorAdded LogExecutorRemoved LogPullPaymentExecuted 
+If a corresponds to 0
+_owner is equal to msg sender
+_owner is equal to 
+_owner is equal to newOwner
+token is equal to IERC20
+ is equal to True
+ is equal to False
+pullPayments paymentDetails 0 paymentDetails is equal to _paymentDetails
+pullPayments paymentDetails 0 paymentAmount is equal to _paymentAmount
+pullPayments paymentDetails 0 customerAddress is equal to 
+pullPayments paymentDetails 0 receiverAddress is equal to 
+pullPayments paymentDetails 0 uniqueReferenceID is equal to _uniqueReferenceID

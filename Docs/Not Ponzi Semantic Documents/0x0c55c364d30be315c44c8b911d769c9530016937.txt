@@ -1,0 +1,21 @@
+solidity ^0.5.7 solidity ^0.5.7 
+SafeMath ERC20Standard Spas157Coin 
+SafeMath 
+c c c c totalSupply name decimals symbol version balances allowed 
+mul div sub add mod balanceOf transfer transferFrom approve allowance 
+Spas157Coin inherits from ERC20Standard 
+onlyPayloadSize 
+Transfer Approval 
+If a corresponds to 0
+ is equal to msg sender sub
+ is equal to balances _recipient add
+ is equal to balances _to add
+ is equal to balances _from sub
+ is equal to allowed _from msg sender sub
+ is equal to _value
+totalSupply is equal to 157000000
+name is equal to Spas 157 Coin
+decimals is equal to 0
+symbol is equal to SPAS157
+version is equal to 1.0
+ is equal to totalSupply

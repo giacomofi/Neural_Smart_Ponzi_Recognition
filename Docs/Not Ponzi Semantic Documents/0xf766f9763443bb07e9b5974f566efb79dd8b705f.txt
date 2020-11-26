@@ -1,0 +1,16 @@
+solidity ^0.5.10 
+BlocklogyCertificate 
+Certificate 
+Certificate has userID
+Certificate has name
+Certificate has course
+Certificate has belt
+Certificate has percentile
+superAdmin certificateDatabase isAdmin 
+addAdmin removeAdmin viewLatestCertificateNumber getTotalCertificateCount issueCertificate 
+onlyAdmin onlySuperAdmin 
+CertificateGenerated 
+superAdmin is equal to msg sender
+ is equal to True
+ is equal to True
+ is equal to False

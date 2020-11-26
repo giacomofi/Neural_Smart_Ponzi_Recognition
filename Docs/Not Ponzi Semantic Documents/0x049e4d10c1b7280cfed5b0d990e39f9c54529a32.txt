@@ -1,0 +1,10 @@
+solidity 0.5.12 
+DSPauseAbstract VatAbstract CatAbstract JugAbstract FlipAbstract SpotAbstract FlipperMomAbstract FlipFabAbstract SpellAction DssSpell 
+MCD_VAT MCD_CAT MCD_JUG MCD_SPOT MCD_END FLIPPER_MOM FLIP_FAB MCD_JOIN_USDC_A PIP_USDC THOUSAND MILLION WAD RAY RAD TWENTY_PCT_RATE ilk MCD_FLIP_USDC_A pause action tag eta sig expiration done _tag _action 
+delay plot exec rely init file file file file file init file file file rely file file file file poke deny newFlip execute schedule cast 
+action is equal to 
+sig is equal to abi encodeWithSignature
+tag is equal to _tag
+expiration is equal to now plus 30 days
+eta is equal to now plus pause delay
+done is equal to True

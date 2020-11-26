@@ -1,0 +1,25 @@
+solidity 0.5.16 
+SafeMath Owned ERC20Interface KEPENG 
+SafeMath 
+c d owner newOwner symbol name decimals _totalSupply extras balances allowed 
+add sub mul div ceil transferOwnership acceptOwnership returnOwner totalSupply balanceOf allowance transfer approve transferFrom  totalSupply balanceOf transfer transferFrom deleteTokens approve allowance 
+KEPENG inherits from ERC20Interface KEPENG inherits from Owned 
+onlyOwner 
+OwnershipTransferred Transfer Approval 
+c is equal to a plus b
+c is equal to a minus b
+c is equal to a multiplied by b
+c is equal to a divided by b
+newOwner is equal to _newOwner
+owner is equal to newOwner
+newOwner is equal to 
+owner is equal to 
+ is equal to _totalSupply
+ is equal to msg sender sub
+ is equal to balances to add
+ is equal to balances from sub
+ is equal to balances to add
+ is equal to allowed from msg sender sub
+ is equal to msg sender sub
+_totalSupply is equal to _totalSupply sub
+ is equal to tokens

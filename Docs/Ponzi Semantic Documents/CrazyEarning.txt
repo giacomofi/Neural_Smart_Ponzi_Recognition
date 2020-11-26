@@ -1,0 +1,33 @@
+CrazyEarning 
+earnerarray 
+earnerarray has etherAddress
+earnerarray has amount
+crazyearners deposits_until_jackpot totalearners feerate profitrate jackpotrate alpha feeamount balance totaldeposited totalmoneyearned owner amount tot_pl payout nr 
+CrazyEarning  enter 
+onlyowner 
+owner is equal to msg sender
+If msg value is less then 400 finney
+totalearners is equal to tot_pl plus 1
+deposits_until_jackpot is equal to 20 minus 
+crazyearners length increments of 1
+crazyearners tot_pl etherAddress is equal to msg sender
+crazyearners tot_pl amount is equal to amount
+feeamount is equal to amount multiplied by alpha divided by 100
+balance increments of amount
+totaldeposited increments of amount
+If feeamount is different from 0
+If balance is greater then feeamount
+balance decreases of feeamount
+totalmoneyearned increments of feeamount
+If alpha is less then 100
+alpha increments of 30
+alpha is equal to 100
+While balance is greater then crazyearners nr amount multiplied by 200 divided by 100 Invalid symbol 
+If nr Invalid symbol 10 corresponds to 0 Invalid symbol 
+payout is equal to crazyearners nr amount multiplied by 700 divided by 100
+balance decreases of crazyearners nr amount multiplied by 700 divided by 100
+totalmoneyearned increments of crazyearners nr amount multiplied by 700 divided by 100
+payout is equal to crazyearners nr amount multiplied by 200 divided by 100
+balance decreases of crazyearners nr amount multiplied by 200 divided by 100
+totalmoneyearned increments of crazyearners nr amount multiplied by 200 divided by 100
+nr increments of 1

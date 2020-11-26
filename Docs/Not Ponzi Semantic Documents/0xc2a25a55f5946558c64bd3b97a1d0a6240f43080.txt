@@ -1,0 +1,17 @@
+solidity ^0.5.0 solidity 0.5.11 
+Ownable Partner 
+_owner _referralId _feeWallet _fee _paraswapShare _partnerShare 
+owner isOwner renounceOwnership transferOwnership _transferOwnership getReferralId getFeeWallet getFee getPartnerShare getParaswapShare changeFeeWallet changeFee 
+Partner inherits from Ownable 
+onlyOwner 
+OwnershipTransferred FeeWalletChanged FeeChanged 
+_owner is equal to msg sender
+_owner is equal to 
+_owner is equal to newOwner
+_referralId is equal to referralId
+_feeWallet is equal to feeWallet
+_fee is equal to fee
+_paraswapShare is equal to paraswapShare
+_partnerShare is equal to partnerShare
+_feeWallet is equal to feeWallet
+_fee is equal to newFee

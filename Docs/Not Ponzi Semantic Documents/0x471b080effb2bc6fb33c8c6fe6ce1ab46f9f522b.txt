@@ -1,0 +1,23 @@
+solidity ^0.5.0 experimental ABIEncoderV2 
+HashTimeLock 
+LockContract 
+LockContract has inputAmount
+LockContract has outputAmount
+LockContract has expiration
+LockContract has status
+LockContract has hashLock
+LockContract has sender
+LockContract has receiver
+LockContract has outputNetwork
+LockContract has outputAddress
+contracts INVALID ACTIVE REFUNDED WITHDRAWN EXPIRED sender inputAmount id c c result index tempContract 
+newContract withdraw refund getStatus getSingleStatus 
+Withdraw Refund NewContract 
+ is equal to LockContract
+c status is equal to WITHDRAWN
+c status is equal to REFUNDED
+index is less then ids length
+ is equal to getSingleStatus
+If tempContract status corresponds to ACTIVE Invalid symbol 
+result is equal to EXPIRED
+result is equal to tempContract status

@@ -1,0 +1,19 @@
+solidity ^0.4.24 solidity ^0.4.24 solidity ^0.4.24 solidity 0.4.24 solidity 0.4.24 
+SafeMath ERC20Basic ERC20 MarketDepositsInterface MarketDeposits 
+SafeMath 
+token poolOwners approvals deposits dataSender 
+mul div sub add totalSupply balanceOf transfer allowance transferFrom approve approve spend withdraw onTokenTransfer approve disapprove spend withdraw _bytesToAddress 
+ERC20 inherits from ERC20Basic MarketDeposits inherits from MarketDepositsInterface 
+Transfer Approval Deposit Spend Withdraw Approval Disapproval 
+If _a corresponds to 0
+c is equal to _a multiplied by _b
+c is equal to _a plus _b
+token is equal to _token
+poolOwners is equal to _poolOwners
+ is equal to deposits dataSender add
+ is equal to msg sender _spender add
+ is equal to msg sender _spender sub
+ is equal to approvals _depositor msg sender sub
+ is equal to deposits _depositor sub
+If _to corresponds to 
+ is equal to msg sender sub

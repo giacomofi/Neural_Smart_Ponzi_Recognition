@@ -1,0 +1,27 @@
+solidity ^0.4.24 
+ERC20 SafeMath Ownable Pausable Blacklist StandardToken BANK 
+SafeMath 
+c c c c owner paused _blacklist balances allowed totalSupply_ oldValue name symbol decimals initial_supply 
+totalSupply balanceOf allowance transfer approve transferFrom mul div sub add transferOwnership _transferOwnership pause unpause blacklist addBlacklist removeBlacklist totalSupply balanceOf allowance transfer transferFrom approve increaseApproval decreaseApproval  
+Pausable inherits from Ownable Blacklist inherits from Pausable StandardToken inherits from ERC20 StandardToken inherits from Blacklist BANK inherits from StandardToken 
+onlyOwner whenNotPaused whenPaused whiteAddress 
+Transfer Approval OwnershipTransferred Pause Unpause 
+If _a corresponds to 0
+owner is equal to msg sender
+owner is equal to _newOwner
+paused is equal to True
+paused is equal to False
+ is equal to True
+ is equal to False
+ is equal to msg sender sub
+ is equal to balances _to add
+ is equal to balances _from sub
+ is equal to balances _to add
+ is equal to allowed _from msg sender sub
+ is equal to _value
+ is equal to 
+If _subtractedValue is greater or equal to oldValue
+ is equal to 0
+ is equal to oldValue sub
+totalSupply_ is equal to initial_supply multiplied by 
+ is equal to totalSupply_

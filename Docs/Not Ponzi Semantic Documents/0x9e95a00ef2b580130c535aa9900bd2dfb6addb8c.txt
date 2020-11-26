@@ -1,0 +1,10 @@
+solidity ^0.6.0 
+InstaMemory 
+mbytes muint maddr 
+setBytes getBytes setUint getUint setAddr getAddr 
+ is equal to _byte
+_byte is equal to 
+ is equal to _num
+_num is equal to 
+ is equal to _addr
+_addr is equal to 

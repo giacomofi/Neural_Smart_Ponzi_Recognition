@@ -1,0 +1,15 @@
+solidity ^0.4.24 solidity ^0.4.24 solidity ^0.4.24 solidity ^0.4.24 
+ERC20Basic ERC20 Ownable ManagerLock 
+owner token beneficiary locked balance balance 
+totalSupply balanceOf transfer allowance transferFrom approve renounceOwnership transferOwnership _transferOwnership release partialRelease unLock lock 
+ERC20 inherits from ERC20Basic ManagerLock inherits from Ownable 
+onlyOwner notLocked 
+Transfer Approval OwnershipRenounced OwnershipTransferred Release Unlock Lock 
+owner is equal to msg sender
+owner is equal to 
+owner is equal to _newOwner
+token is equal to _token
+beneficiary is equal to _beneficiary
+owner is equal to _owner
+locked is equal to False
+locked is equal to True

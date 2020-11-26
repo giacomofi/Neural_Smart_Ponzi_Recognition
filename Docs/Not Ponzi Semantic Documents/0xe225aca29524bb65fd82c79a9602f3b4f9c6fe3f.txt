@@ -1,0 +1,33 @@
+solidity ^0.4.4 
+SafeMath ERC20 Ownable StandardToken Tratok 
+SafeMath 
+c totalSupply owner i i balances allowed frozenAccounts totalSupply name decimals symbol version 
+sub add totalSupply balanceOf transfer transferFrom approve allowance Ownable transferOwnership owner transfer transferFrom balanceOf approve allowance airDropTratok distributeTratok lockAccountFromSendingTratok unlockAccountFromSendingTratok confiscate  Tratok approveAndCall 
+StandardToken inherits from ERC20 StandardToken inherits from Ownable Tratok inherits from StandardToken 
+onlyOwner 
+Transfer Approval FrozenAccount UnfrozenAccount 
+owner is equal to msg sender
+If newOwner is different from 
+owner is equal to newOwner
+If  is greater or equal to _value Invalid symbol 
+ is equal to msg sender sub
+ is equal to balances _to add
+If  is greater or equal to _value Invalid symbol  Invalid symbol 
+ is equal to balances _to add
+ is equal to balances _from sub
+ is equal to allowed _from msg sender sub
+ is equal to _value
+While i is less then _destinations length
+i increments of 1
+While i is less then _destinations length
+i increments of 1
+ is equal to True
+ is equal to balances _to add
+ is equal to balances _from sub
+ is equal to 10000000000000000
+totalSupply is equal to 10000000000000000
+name is equal to Tratok
+decimals is equal to 5
+symbol is equal to TRAT
+ is equal to _value
+If 

@@ -1,0 +1,51 @@
+solidity ^0.4.22 
+SafeMath Ownable Pausable ERC20 TokenRecipient KAKITOKEN 
+SafeMath 
+LockupInfo 
+LockupInfo has releaseTime
+LockupInfo has unlockAmountPerMonth
+LockupInfo has lockupBalance
+c c c owner newOwner paused MONTH name symbol decimals initialSupply totalSupply_ balances locks allowed lockupInfo spender releaseAmount burner size releaseAmount 
+mul div sub add transferOwnership acceptOwnership pause unpause totalSupply balanceOf allowance transfer transferFrom approve receiveApproval totalSupply transfer balanceOf transferFrom approve approveAndCall allowance lock unlock getNowTime showLockState distribute distributeWithLockup claimToken burn isContract autoUnlock releaseTimeLock 
+Pausable inherits from Ownable KAKITOKEN inherits from ERC20 KAKITOKEN inherits from Ownable KAKITOKEN inherits from Pausable 
+onlyOwner onlyNewOwner whenNotPaused whenPaused 
+OwnershipTransferred Pause Unpause Approval Transfer Unlock Lock Burn 
+If a corresponds to 0
+owner is equal to msg sender
+newOwner is equal to 
+newOwner is equal to _newOwner
+owner is equal to newOwner
+paused is equal to True
+paused is equal to False
+name is equal to KAKI
+symbol is equal to KAKI
+decimals is equal to 18
+initialSupply is equal to 2000000000
+totalSupply_ is equal to initialSupply multiplied by 10 Invalid symbol 
+ is equal to totalSupply_
+
+ is equal to msg sender sub
+ is equal to balances _to add
+
+ is equal to balances _from sub
+ is equal to balances _to add
+ is equal to allowed _from msg sender sub
+ is equal to _value
+
+ is equal to balances _holder sub
+ is equal to LockupInfo
+ is equal to True
+ is equal to False
+ is equal to balances _holder add
+ is equal to balances owner sub
+ is equal to balances _to add
+ is equal to balances burner sub
+totalSupply_ is equal to totalSupply_ sub
+If lockupInfo _holder releaseTime is less or equal to now
+If lockupInfo _holder lockupBalance is less or equal to lockupInfo _holder unlockAmountPerMonth
+releaseAmount is equal to lockupInfo _holder lockupBalance
+ is equal to False
+releaseAmount is equal to lockupInfo _holder unlockAmountPerMonth
+lockupInfo _holder releaseTime is equal to lockupInfo _holder releaseTime add
+lockupInfo _holder lockupBalance is equal to lockupInfo _holder lockupBalance sub
+ is equal to balances _holder add

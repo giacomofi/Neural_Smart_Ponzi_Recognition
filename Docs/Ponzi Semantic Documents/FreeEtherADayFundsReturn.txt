@@ -1,0 +1,9 @@
+solidity ^0.4.6 
+Free_Ether_A_Day_Funds_Return 
+owner poorguy success 
+Free_Ether_A_Day_Funds_Return return_funds  kill 
+owner is equal to msg sender
+If msg sender is different from poorguy
+If msg value corresponds to 100 ether
+If not success
+If msg sender corresponds to owner

@@ -1,0 +1,46 @@
+solidity 0.5.10 
+SafeMath Ownable IERC20 USDT StandardToken MintableToken CappedToken BurnableToken Withdrawable Pausable Manageable RewardTokenInUSDT Token 
+SafeMath 
+Payment 
+Payment has time
+Payment has amount
+c c _owner _balances _allowed _totalSupply _name _symbol _decimals i mintingFinished _cap _paused managers i index i usdt_token repayments rewards sum i amount i 
+mul div sub add mod owner isOwner renounceOwnership transferOwnership _transferOwnership transfer approve transferFrom totalSupply balanceOf allowance transfer balanceOf name symbol decimals totalSupply balanceOf allowance transfer multiTransfer approve transferFrom increaseAllowance decreaseAllowance _transfer _mint _burn _approve _burnFrom finishMinting mint cap _mint burn burnFrom withdrawEther withdrawTokensTransfer withdrawTokensTransferFrom withdrawTokensApprove paused pause unpause countManagers getManagers isManager addManager removeManager repayment setUSDTToken _reward reward transfer transferFrom availableRewards 
+StandardToken inherits from IERC20 MintableToken inherits from StandardToken MintableToken inherits from Ownable CappedToken inherits from MintableToken BurnableToken inherits from StandardToken Withdrawable inherits from Ownable Pausable inherits from Ownable Manageable inherits from Ownable RewardTokenInUSDT inherits from StandardToken RewardTokenInUSDT inherits from Ownable Token inherits from RewardTokenInUSDT Token inherits from CappedToken Token inherits from BurnableToken Token inherits from Withdrawable 
+onlyOwner canMint whenNotPaused whenPaused onlyManager 
+OwnershipTransferred Transfer Approval Transfer MintFinished WithdrawEther Paused Unpaused ManagerAdded ManagerRemoved Repayment Reward 
+If a corresponds to 0
+_owner is equal to msg sender
+_owner is equal to 
+_owner is equal to newOwner
+_name is equal to name
+_symbol is equal to symbol
+_decimals is equal to decimals
+i is less then to length
+ is equal to _balances from sub
+ is equal to _balances to add
+_totalSupply is equal to _totalSupply add
+ is equal to _balances account add
+_totalSupply is equal to _totalSupply sub
+ is equal to _balances account sub
+ is equal to value
+mintingFinished is equal to True
+_cap is equal to cap
+_paused is equal to False
+_paused is equal to True
+_paused is equal to False
+i is less then managers length
+If  corresponds to _manager
+i is less then managers length
+If  corresponds to _manager
+index is equal to i
+If index is greater or equal to managers length
+index is less then managers length minus 1
+ is equal to 
+usdt_token is equal to _usdt_token
+If rewards _to length is less then repayments length
+i is less then repayments length
+sum increments of amount
+If sum is greater then 0
+i is less then repayments length
+sum increments of 

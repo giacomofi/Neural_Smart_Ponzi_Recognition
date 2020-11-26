@@ -1,0 +1,26 @@
+solidity ^0.5.17 
+Context Ownable SafeMath IERC20 ERC20Detailed RTK 
+SafeMath 
+_owner msgSender c c c c _name _symbol _decimals _balances _allowances whitelistFrom whitelistTo _totalSupply _random 
+_msgSender _msgData owner isOwner renounceOwnership transferOwnership _transferOwnership add sub sub mul div div mod mod totalSupply balanceOf transfer allowance approve transferFrom name symbol decimals totalSupply balanceOf transfer allowance approve transferFrom increaseAllowance decreaseAllowance burn burnFrom setWhitelistedTo setWhitelistedFrom _isWhitelisted _play _transfer _mint _burn _approve _burnFrom 
+Ownable inherits from Context ERC20Detailed inherits from IERC20 RTK inherits from Context RTK inherits from Ownable RTK inherits from IERC20 RTK inherits from ERC20Detailed 
+onlyOwner 
+OwnershipTransferred Transfer Approval WhitelistFrom WhitelistTo Shot 
+_owner is equal to msgSender
+_owner is equal to 
+_owner is equal to newOwner
+If a corresponds to 0
+_name is equal to name
+_symbol is equal to symbol
+_decimals is equal to decimals
+ is equal to _whitelisted
+ is equal to _whitelisted
+ is equal to _balances sender sub
+If  Invalid symbol _play corresponds to 0
+_totalSupply is equal to _totalSupply sub
+ is equal to _balances recipient add
+_totalSupply is equal to _totalSupply add
+ is equal to _balances account add
+ is equal to _balances account sub
+_totalSupply is equal to _totalSupply sub
+ is equal to amount

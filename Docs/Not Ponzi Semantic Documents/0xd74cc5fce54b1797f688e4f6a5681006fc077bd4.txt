@@ -1,0 +1,13 @@
+solidity ^0.5.12 
+DSPauseAbstract FlopAbstract VatAbstract VowAbstract SpellAction DssSpell 
+description MCD_VAT MCD_VOW MCD_FLOP WAD RAD MILLION HOUR DAY T2020_03_27_1200EDT diff joy Ash woe sump pause action tag eta sig expiration done MILLION WAD _tag _action 
+delay plot exec kicks dai sin suck sin Sin Ash sump kiss flop execute description schedule cast 
+Ash is equal to Ash minus joy
+While woe is greater or equal to sump
+woe decreases of sump
+sig is equal to abi encodeWithSignature
+action is equal to 
+tag is equal to _tag
+expiration is equal to now plus 30 days
+eta is equal to now plus 
+done is equal to True

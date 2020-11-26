@@ -1,0 +1,31 @@
+solidity ^0.4.18 
+Ownable Pausable SafeMath ERC20 DetailedERC20 CHATS 
+SafeMath 
+owner paused c c c totalSupply name symbol decimals balances allowed lockedBalances unlocktime crowdsaleContract oldValue 
+Ownable transferOwnership pause unpause mul div sub add balanceOf transfer allowance transferFrom approve DetailedERC20 CHATS setCrowdsaleContract transfer transferToLockedBalance balanceOf transferFrom approve allowance increaseApproval decreaseApproval 
+Pausable inherits from Ownable DetailedERC20 inherits from ERC20 CHATS inherits from Pausable CHATS inherits from DetailedERC20 
+onlyOwner whenNotPaused whenPaused timeLock 
+OwnershipTransferred Pause Unpause Transfer Approval 
+owner is equal to msg sender
+owner is equal to newOwner
+paused is equal to True
+paused is equal to False
+If a corresponds to 0
+name is equal to _name
+symbol is equal to _symbol
+decimals is equal to _decimals
+totalSupply is equal to 10000000000 multiplied by 10 Invalid symbol 
+ is equal to totalSupply
+crowdsaleContract is equal to crowdsale
+ is equal to msg sender sub
+ is equal to balances _to add
+
+ is equal to lockedBalances _to add
+ is equal to balances _from sub
+ is equal to balances _to add
+ is equal to allowed _from msg sender sub
+ is equal to _value
+ is equal to msg sender _spender add
+If _subtractedValue is greater then oldValue
+ is equal to 0
+ is equal to oldValue sub

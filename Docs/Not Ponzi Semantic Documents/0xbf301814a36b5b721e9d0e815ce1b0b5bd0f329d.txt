@@ -1,0 +1,10 @@
+solidity ^0.4.24 
+ERC20Basic ERC20 SafeERC20 TokenTimelock ContracoinTokenTimelock 
+SafeERC20 
+token beneficiary releaseTime amount 
+totalSupply balanceOf transfer allowance transferFrom approve safeTransfer safeTransferFrom safeApprove release 
+ERC20 inherits from ERC20Basic ContracoinTokenTimelock inherits from TokenTimelock 
+Transfer Approval 
+token is equal to _token
+beneficiary is equal to _beneficiary
+releaseTime is equal to _releaseTime

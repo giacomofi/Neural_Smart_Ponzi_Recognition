@@ -1,0 +1,22 @@
+solidity ^0.5.13 
+ERC20 Ownable KauriStaking 
+Staked 
+Staked has time
+Staked has duration
+Staked has amount
+totalSupply owner token stakedTokens staked toWithdaw staked 
+balanceOf transfer allowance transferFrom approve renounceOwnership transferOwnership _transferOwnership stakeTokens stakeTokensFor withdrawTokens isLocked stakedDetails 
+KauriStaking inherits from Ownable 
+onlyOwner 
+Approval Transfer OwnershipRenounced OwnershipTransferred TokensStaked TokensUnstaked 
+owner is equal to msg sender
+owner is equal to 
+owner is equal to _newOwner
+token is equal to _token
+ is equal to Staked
+ is equal to Staked
+If toWithdaw is greater then staked amount
+toWithdaw is equal to staked amount
+If staked amount corresponds to toWithdaw
+ is equal to Staked
+ is equal to Staked

@@ -1,0 +1,22 @@
+solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity 0.5.12 solidity 0.5.12 solidity 0.5.12 solidity 0.5.12 solidity 0.5.12 
+IERC20 ERC20Detailed Context Ownable IAuthorization ILoanContract IDAIProxy IERC20Wrapper ERC20Wrapper DAIProxy 
+_name _symbol _decimals _owner returnValue auth administrator hasToDeposit newFundingAmount loanContract tokenAddress auctionBalance maxAmount loanContract tokenAddress balance 
+totalSupply balanceOf transfer allowance approve transferFrom name symbol decimals _msgSender _msgData owner isOwner renounceOwnership transferOwnership _transferOwnership getKycAddress getDepositAddress hasDeposited isKYCConfirmed setKYCRegistry setDepositRegistry onFundingReceived withdrawRepayment withdrawRepaymentAndDeposit withdrawLoan onRepaymentReceived getInterestRate calculateValueWithInterest getMaxAmount getAuctionBalance getTokenAddress fund repay totalSupply balanceOf allowance transfer transferFrom approve symbol balanceOf allowance transfer transferFrom approve isIssuedToken checkSuccess setDepositRequeriment setAdministrator setAuthAddress fund repay transfer 
+ERC20Detailed inherits from IERC20 Ownable inherits from Context DAIProxy inherits from IDAIProxy DAIProxy inherits from Ownable 
+onlyOwner onlyKYCCanFund onlyHasDepositCanFund onlyAdmin 
+Transfer Approval OwnershipTransferred AuthAddressUpdated AdministratorUpdated HasToDeposit 
+_name is equal to name
+_symbol is equal to symbol
+_decimals is equal to decimals
+_owner is equal to _msgSender
+_owner is equal to 
+_owner is equal to newOwner
+
+
+
+auth is equal to IAuthorization
+hasToDeposit is equal to value
+administrator is equal to admin
+auth is equal to IAuthorization
+If auctionBalance plus fundingAmount is greater then maxAmount
+newFundingAmount is equal to maxAmount minus auctionBalance

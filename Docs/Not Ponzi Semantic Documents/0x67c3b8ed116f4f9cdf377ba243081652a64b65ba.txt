@@ -1,0 +1,6 @@
+solidity 0.6.4 experimental ABIEncoderV2 
+ERC20 TokenAdapter IdleToken IdleTokenAdapter 
+underlyingTokens 
+name symbol decimals getMetadata getComponents token tokenPrice getMetadata getComponents 
+IdleTokenAdapter inherits from TokenAdapter 
+ is equal to Component

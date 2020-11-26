@@ -1,0 +1,20 @@
+FastRealisticPyramid 
+Person 
+Person has etherAddress
+Person has amount
+person payoutIdx collectedFees balance owner idx transactionAmount 
+FastRealisticPyramid  enter setOwner 
+onlyowner 
+owner is equal to msg sender
+person length increments of 1
+person idx etherAddress is equal to msg sender
+person idx amount is equal to msg value
+If idx is different from 0
+collectedFees is equal to msg value divided by 10
+collectedFees is equal to 0
+balance is equal to balance plus 
+balance is equal to msg value
+If balance is greater then person payoutIdx amount multiplied by 7 divided by 5
+balance decreases of person payoutIdx amount multiplied by 7 divided by 5
+payoutIdx increments of 1
+owner is equal to _owner

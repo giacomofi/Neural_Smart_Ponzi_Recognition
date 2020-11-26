@@ -1,0 +1,31 @@
+Doubler 
+Participant 
+Participant has etherAddress
+Participant has PayAmount
+participants payoutIdx collectedFees balance timeout owner idx NeedAmount NeedAmount 
+Doubler  enter NextPayout collectFees collectBalance setOwner 
+onlyowner 
+collectedFees increments of msg value
+owner is equal to msg sender
+If msg value is greater or equal to 100 finney Invalid symbol 
+collectedFees increments of msg value divided by 20
+balance increments of msg value minus msg value divided by 20
+participants length increments of 1
+participants idx etherAddress is equal to msg sender
+participants idx PayAmount is equal to 2 multiplied by 
+If balance is greater or equal to NeedAmount
+balance decreases of NeedAmount
+payoutIdx increments of 1
+collectedFees increments of msg value
+balance increments of msg value
+If balance is greater or equal to NeedAmount
+balance decreases of NeedAmount
+payoutIdx increments of 1
+collectedFees increments of msg value
+If collectedFees corresponds to 0
+collectedFees is equal to 0
+balance increments of msg value
+If balance corresponds to 0 Invalid symbol 
+balance is equal to 0
+collectedFees increments of msg value
+owner is equal to _owner

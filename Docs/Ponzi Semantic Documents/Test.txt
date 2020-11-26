@@ -1,0 +1,19 @@
+test 
+Person 
+Person has etherAddress
+Person has amount
+persons payoutIdx collectedFees balance owner amount idx transactionAmount 
+test  enter kill setOwner 
+onlyowner 
+owner is equal to msg sender
+If msg value Invalid symbol 2 is different from 0
+amount is equal to msg value
+persons length increments of 1
+persons idx etherAddress is equal to msg sender
+persons idx amount is equal to amount
+balance increments of amount
+While balance is greater then persons payoutIdx amount multiplied by 2
+balance decreases of transactionAmount
+payoutIdx increments of 1
+If msg sender corresponds to owner
+owner is equal to _owner

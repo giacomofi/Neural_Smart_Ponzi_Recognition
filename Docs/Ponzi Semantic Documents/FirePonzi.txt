@@ -1,0 +1,19 @@
+FirePonzi 
+Player 
+Player has etherAddress
+Player has deposit
+persons payoutCursor_Id_ balance owner payoutCursor_Id deposited_value new_id MultipliedPayout 
+quick  enter setOwner 
+onlyowner 
+owner is equal to msg sender
+If msg value is less then 100 finney
+If msg value is greater then 2 ether
+deposited_value is equal to 2 ether
+deposited_value is equal to msg value
+persons length increments of 1
+persons new_id etherAddress is equal to msg sender
+persons new_id deposit is equal to deposited_value
+balance increments of deposited_value
+While balance is greater then persons payoutCursor_Id_ deposit divided by 100 multiplied by 115
+balance decreases of MultipliedPayout
+owner is equal to _owner

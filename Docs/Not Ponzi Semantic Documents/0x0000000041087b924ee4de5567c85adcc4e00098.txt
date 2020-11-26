@@ -1,0 +1,5 @@
+solidity 0.5.16 
+IDai ISyndicate DaiBackstopSyndicateEnlisterV1 
+_DAI_DOMAIN_SEPARATOR _DAI_PERMIT_TYPEHASH _DAI _SYNDICATE r s v 
+permit transferFrom enlist transfer approveAndEnlist getDigest 
+digest is equal to keccak256

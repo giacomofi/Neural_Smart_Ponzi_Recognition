@@ -1,0 +1,27 @@
+solidity ^0.4.24 
+SafeMath ERC20Interface ApproveAndCallFallBack Owned SEADigitalStableToken 
+owner newOwner symbol name decimals _totalSupply balances allowed 
+safeAdd safeSub safeMul safeDiv totalSupply balanceOf allowance transfer approve transferFrom receiveApproval transferOwnership acceptOwnership totalSupply balanceOf transfer approve transferFrom allowance approveAndCall  transferAnyERC20Token 
+SEADigitalStableToken inherits from ERC20Interface SEADigitalStableToken inherits from Owned SEADigitalStableToken inherits from SafeMath 
+onlyOwner 
+Transfer Approval OwnershipTransferred 
+c is equal to a plus b
+c is equal to a minus b
+c is equal to a multiplied by b
+c is equal to a divided by b
+owner is equal to msg sender
+newOwner is equal to _newOwner
+owner is equal to newOwner
+newOwner is equal to 
+symbol is equal to SEDT
+name is equal to SEA Digital Stable Token
+decimals is equal to 4
+_totalSupply is equal to 5000000000 multiplied by 10000
+ is equal to _totalSupply
+ is equal to safeSub
+ is equal to safeAdd
+ is equal to tokens
+ is equal to safeSub
+ is equal to safeSub
+ is equal to safeAdd
+ is equal to tokens

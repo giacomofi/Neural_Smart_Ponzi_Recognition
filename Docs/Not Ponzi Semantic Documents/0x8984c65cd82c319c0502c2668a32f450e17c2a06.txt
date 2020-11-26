@@ -1,0 +1,5 @@
+solidity 0.6.4 experimental ABIEncoderV2 
+ProtocolAdapter Proxy Synthetix SynthetixAssetAdapter 
+synthetix 
+adapterType tokenType getBalance target balanceOf transferableSynthetix adapterType tokenType getBalance 
+SynthetixAssetAdapter inherits from ProtocolAdapter 

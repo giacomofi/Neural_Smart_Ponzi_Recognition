@@ -1,0 +1,71 @@
+solidity ^0.5.0 
+Pairing Verifier 
+Pairing 
+G1Point G2Point VerifyingKey Proof 
+G1Point has X
+G1Point has Y
+G2Point has X
+G2Point has Y
+VerifyingKey has alfa1
+VerifyingKey has beta2
+VerifyingKey has gamma2
+VerifyingKey has delta2
+VerifyingKey has IC
+Proof has A
+Proof has B
+Proof has C
+q input success input success elements inputSize input i out success p1 p2 p1 p2 p1 p2 snark_scalar_field vk vk_x i proof inputValues i 
+P1 P2 negate addition scalar_mul pairing pairingProd2 pairingProd3 pairingProd4 verifyingKey verify verifyProof 
+If p X corresponds to 0 Invalid symbol 
+ is equal to p1 X
+ is equal to p1 Y
+ is equal to p2 X
+ is equal to p2 Y
+ is equal to p X
+ is equal to p Y
+ is equal to s
+i is less then elements
+ is equal to p1 i X
+ is equal to p1 i Y
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to a1
+ is equal to b1
+ is equal to a2
+ is equal to b2
+ is equal to a1
+ is equal to b1
+ is equal to c1
+ is equal to a2
+ is equal to b2
+ is equal to c2
+ is equal to a1
+ is equal to b1
+ is equal to c1
+ is equal to d1
+ is equal to a2
+ is equal to b2
+ is equal to c2
+ is equal to d2
+vk alfa1 is equal to Pairing G1Point
+vk beta2 is equal to Pairing G2Point
+vk gamma2 is equal to Pairing G2Point
+vk delta2 is equal to Pairing G2Point
+vk IC is equal to 
+ is equal to Pairing G1Point
+ is equal to Pairing G1Point
+ is equal to Pairing G1Point
+ is equal to Pairing G1Point
+ is equal to Pairing G1Point
+i is less then input length
+vk_x is equal to Pairing addition
+vk_x is equal to Pairing addition
+If 
+proof A is equal to Pairing G1Point
+proof B is equal to Pairing G2Point
+proof C is equal to Pairing G1Point
+i is less then input length
+ is equal to 
+If verify corresponds to 0

@@ -1,0 +1,24 @@
+solidity ^0.5.10 
+InstaLottos 
+manager betamount playercount lowerbound upperbound contractactive contractpause rnd winner cb tmp 
+getcontractactive getcontractpause getbetamount getplayercount getupperbound getmanager getcontractbalance setbetamount setupperbound setcontractpause setmanager playlottery settlewin random destroyContract  
+onlyManager 
+Playlottery 
+manager is equal to msg sender
+contractactive is equal to True
+contractpause is equal to False
+betamount is equal to 0.005 ether
+playercount is equal to 0
+lowerbound is equal to 1
+upperbound is equal to 100
+betamount is equal to btamt
+upperbound is equal to upbound
+If pas corresponds to False
+contractactive is equal to True
+contractpause is equal to pas
+manager is equal to newmngr
+If playnum corresponds to rnd
+If contractpause corresponds to True
+contractactive is equal to False
+If cb is less or equal to 
+playercount is equal to 0

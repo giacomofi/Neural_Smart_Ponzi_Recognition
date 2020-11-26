@@ -1,0 +1,16 @@
+solidity 0.5.2 
+IERC20 SafeMath LockDrop LockETH 
+SafeMath 
+c c c c _stakingEnd _weightsSum _kongERC20Address _weights _lockingEnds totalTime weight lockETH weight kongClaim _endOfLockUp _contractOwner 
+allowance approve balanceOf totalSupply transfer transferFrom add sub sub mul div div mod mod stakeETH claimKong unlockETH 
+Approval Transfer Staked Claimed 
+If a corresponds to 0
+_kongERC20Address is equal to kongERC20Address
+_stakingEnd is equal to block timestamp plus 30 days
+_weightsSum is equal to _weightsSum add
+ is equal to weight
+ is equal to _stakingEnd plus stakingPeriod multiplied by 1 days
+ is equal to 0
+_weightsSum is equal to _weightsSum sub
+_endOfLockUp is equal to endOfLockUp
+_contractOwner is equal to contractOwner

@@ -1,0 +1,15 @@
+solidity 0.5.10 experimental ABIEncoderV2 
+ResolverContenthashSignerENS 
+Signature Record 
+Signature has v
+Signature has r
+Signature has s
+Record has version
+Record has contenthash
+contractVersion CONTENTHASH_INTERFACE_ID signer records prefix prefixedHash 
+contenthash supportsInterface setContenthashBySignature verify 
+ContenthashChanged 
+signer is equal to signerAddr
+If version is greater then records node version
+records node contenthash is equal to hash
+records node version is equal to version

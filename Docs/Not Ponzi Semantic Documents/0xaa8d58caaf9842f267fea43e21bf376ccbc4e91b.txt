@@ -1,0 +1,56 @@
+solidity ^0.4.24 
+SafeMath Ownable BasicERC20 BasicCrowdsale CrowdsaleCompatible EditableToken ThirdPartyTransferableToken ERC20Token 
+SafeMath SafeMath SafeMath SafeMath 
+confidenceInfo 
+confidenceInfo has nonce
+confidenceInfo has operation
+c c c owner standard name symbol decimals totalSupply isTokenTransferable balanceOf allowance token ownerWallet startTime endTime totalEtherRaised minDepositAmount maxDepositAmount softCapEther hardCapEther deposits tokens amount crowdsale _confidence_transfers hash src 
+mul div sub add transferOwnership transfer approve transferFrom  getSettings tokensLeft changeMinDepositAmount changeMaxDepositAmount getRate getTokenAmount checkCorrectPurchase isCrowdsaleFinished buy getRefundAmount refund unfreezeTokens initializeCrowdsale editTokenProperties nonceOf transferByThirdParty  
+BasicCrowdsale inherits from Ownable CrowdsaleCompatible inherits from BasicERC20 CrowdsaleCompatible inherits from Ownable EditableToken inherits from BasicERC20 EditableToken inherits from Ownable ThirdPartyTransferableToken inherits from BasicERC20 ERC20Token inherits from CrowdsaleCompatible ERC20Token inherits from EditableToken ERC20Token inherits from ThirdPartyTransferableToken 
+onlyOwner 
+OwnershipTransferred Transfer 
+If a corresponds to 0
+owner is equal to msg sender
+owner is equal to newOwner
+If  plus _value is less then 
+ decreases of _value
+ increments of _value
+ is equal to _value
+If  is less then _value
+If  plus _value is less then 
+If _value is greater then 
+ decreases of _value
+ increments of _value
+ decreases of _value
+_startTime is equal to startTime
+_endTime is equal to endTime
+_rate is equal to getRate
+_totalEtherRaised is equal to totalEtherRaised
+_minDepositAmount is equal to minDepositAmount
+_maxDepositAmount is equal to maxDepositAmount
+_tokensLeft is equal to tokensLeft
+minDepositAmount is equal to _minDepositAmount
+maxDepositAmount is equal to _maxDepositAmount
+totalEtherRaised is equal to totalEtherRaised add
+If totalEtherRaised is greater or equal to softCapEther
+ is equal to deposits userAddress add
+If totalEtherRaised is greater or equal to softCapEther
+ is equal to 0
+isTokenTransferable is equal to True
+ is equal to tokensAmount
+crowdsale is equal to BasicCrowdsale
+isTokenTransferable is equal to False
+name is equal to _name
+symbol is equal to _symbol
+If extraSupplay is greater then 0
+ is equal to balanceOf owner add
+totalSupply is equal to totalSupply add
+ is equal to balanceOf src sub
+ is equal to balanceOf where add
+_confidence_transfers src nonce increments of 1
+ is equal to True
+ is equal to  multiplied by 10 Invalid symbol 18
+totalSupply is equal to 157000000 multiplied by 10 Invalid symbol 18
+name is equal to SPAS 157 Coin
+symbol is equal to SPAS157
+decimals is equal to 18

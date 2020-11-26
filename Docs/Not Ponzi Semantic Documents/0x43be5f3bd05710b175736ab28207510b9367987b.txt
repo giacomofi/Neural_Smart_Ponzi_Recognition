@@ -1,0 +1,21 @@
+solidity ^0.4.16 
+Token StandardToken GemToken 
+balances allowed totalSupply name decimals symbol version 
+totalSupply balanceOf transfer transferFrom approve allowance transfer transferFrom balanceOf approve allowance  GemToken approveAndCall 
+StandardToken inherits from Token GemToken inherits from StandardToken 
+Transfer Approval 
+If  is greater or equal to _value Invalid symbol 
+ decreases of _value
+ increments of _value
+If  is greater or equal to _value Invalid symbol  Invalid symbol 
+ increments of _value
+ decreases of _value
+ decreases of _value
+ is equal to _value
+ is equal to 1000000000000000
+totalSupply is equal to 1000000000000000
+name is equal to GemToken
+decimals is equal to 5
+symbol is equal to GEM
+ is equal to _value
+If 

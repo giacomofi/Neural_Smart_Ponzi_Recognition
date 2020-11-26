@@ -1,0 +1,17 @@
+solidity ^0.4.24 
+SafeMath DBInterface Events EscrowReserveInterface AssetManagerEscrow_ERC20 AssetManagerEscrow_DivToken AssetManagerEscrow 
+SafeMath 
+c c database database events reserve assetManagerEscrowID platformToken totalEscrow escrowRedeemed unlockAmount token roiPercent roiCheckpoints quarterEscrow currentAssetManager assetManagerEscrowID escrowRedeemed escrowAmount oldAssetManagerEscrowID oldEscrowRemaining assetManagerEscrowID platformToken 
+mul div sub add getFractionalAmount setContractManager setAddress setUint setString setBytes setBytes32 setBool setInt deleteAddress deleteUint deleteString deleteBytes deleteBytes32 deleteBool deleteInt uintStorage stringStorage addressStorage bytesStorage bytes32Storage boolStorage intStorage message transaction registration contractChange asset escrow order exchange operator consensus issueERC20 requestERC20 approveERC20 burnERC20 transfer transferFrom burn burnFrom balanceOf totalSupply assetIncome balanceOf lockEscrow unlockEscrow changeAssetManager returnEscrow voteToBurn destroy processEscrow removeAssetManager removeEscrowData lockEscrowInternal 
+onlyApprovedContract onlyOwner 
+LogEvent LogTransaction LogAddress LogContractChange LogAsset LogEscrow LogOrder LogExchange LogOperator LogConsensus NotFinalized ROICheckpoint 
+If a corresponds to 0
+database is equal to DBInterface
+database is equal to DBInterface
+events is equal to Events
+reserve is equal to EscrowReserveInterface
+If 
+If roiCheckpoints is less or equal to 4
+unlockAmount is equal to 
+If not _withhold
+If oldEscrowRemaining is greater then 0

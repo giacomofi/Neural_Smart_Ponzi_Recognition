@@ -1,0 +1,18 @@
+solidity ^0.5.2 
+SafeMath IERC20 ERC20 ERC20Detailed IMO 
+SafeMath 
+c c c c _balances _allowed _totalSupply _name _symbol _decimals _name _symbol _decimals initialSupply 
+mul div sub add mod transfer approve transferFrom totalSupply balanceOf allowance totalSupply balanceOf allowance transfer approve transferFrom increaseAllowance decreaseAllowance _transfer _mint _burn _approve _burnFrom name symbol decimals 
+ERC20 inherits from IERC20 ERC20Detailed inherits from IERC20 IMO inherits from ERC20 IMO inherits from ERC20Detailed 
+Transfer Approval 
+If a corresponds to 0
+ is equal to _balances from sub
+ is equal to _balances to add
+_totalSupply is equal to _totalSupply add
+ is equal to _balances account add
+_totalSupply is equal to _totalSupply sub
+ is equal to _balances account sub
+ is equal to value
+_name is equal to name
+_symbol is equal to symbol
+_decimals is equal to decimals

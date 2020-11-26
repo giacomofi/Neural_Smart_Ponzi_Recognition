@@ -1,0 +1,9 @@
+solidity ^0.5.3 
+TokenERC20 multiSend 
+balanceOf baseAddr bcontract distributedAmount i 
+transferFrom  sendOutToken 
+cannotAirdrop 
+i is less then addrs length
+If  corresponds to 
+If bcontract balanceOf is greater then 0 Invalid symbol 
+distributedAmount increments of 100

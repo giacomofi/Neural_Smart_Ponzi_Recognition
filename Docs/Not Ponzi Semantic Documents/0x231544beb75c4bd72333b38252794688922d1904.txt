@@ -1,0 +1,59 @@
+solidity ^0.5.2 
+SafeMath Context Ownable Administratable Whitelistable Restrictable IERC20 ERC20 ERC1404 SafeMathUint SafeMathInt IFundsDistributionToken ERC20Detailed Roles MinterRole ERC20Mintable FundsDistributionToken SimpleRestrictedFDT SimpleRestrictedFDTFactory SecurityTokenFactoryMaker 
+SafeMath Roles SafeMath SafeMathUint SafeMathInt SafeMathUint SafeMathInt 
+Role 
+Role has bearer
+c c c c _owner administrators i previousWhitelist i previousWhitelist NO_WHITELIST addressWhitelists outboundWhitelistsEnabled oldEnabledValue senderWhiteList receiverWhiteList _restrictionsEnabled _balances _allowances _totalSupply b c c _name _symbol _decimals _minters pointsMultiplier pointsPerShare pointsCorrection withdrawnFunds _withdrawableDividend _magCorrection SUCCESS_CODE FAILURE_NON_WHITELIST SUCCESS_MESSAGE FAILURE_NON_WHITELIST_MESSAGE UNKNOWN_ERROR fundsToken fundsTokenBalance i restrictionCode withdrawableFunds prevFundsTokenBalance newFunds stamp gated deployer SRFDT tokens factory factories 
+add sub sub mul div div mod mod _msgSender _msgData owner isOwner renounceOwnership transferOwnership _transferOwnership isAdministrator addAdmin removeAdmin addToWhitelist removeFromWhitelist updateOutboundWhitelistEnabled checkWhitelistAllowed isRestrictionEnabled disableRestrictions totalSupply balanceOf transfer allowance approve transferFrom totalSupply balanceOf transfer allowance approve transferFrom increaseAllowance decreaseAllowance _transfer _mint _burn _approve _burnFrom detectTransferRestriction messageForTransferRestriction toInt256Safe mul div sub add toUint256Safe withdrawableFundsOf withdrawFunds name symbol decimals add remove has isMinter addMinter renounceMinter _addMinter _removeMinter mint _distributeFunds _prepareWithdraw withdrawableFundsOf withdrawnFundsOf accumulativeFundsOf _transfer _mint _burn detectTransferRestriction messageForTransferRestriction transfer transferFrom withdrawFunds _updateFundsTokenBalance updateFundsReceived newSRFDT getTokenCount newSecurityTokenFactory tipLEXDAO getFactoryCount 
+Ownable inherits from Context Administratable inherits from Ownable Whitelistable inherits from Administratable Restrictable inherits from Ownable ERC20 inherits from Context ERC20 inherits from IERC20 ERC1404 inherits from IERC20 ERC20Detailed inherits from IERC20 ERC20Mintable inherits from ERC20 ERC20Mintable inherits from MinterRole FundsDistributionToken inherits from IFundsDistributionToken FundsDistributionToken inherits from ERC20Detailed FundsDistributionToken inherits from ERC20Mintable SimpleRestrictedFDT inherits from FundsDistributionToken SimpleRestrictedFDT inherits from ERC1404 SimpleRestrictedFDT inherits from Whitelistable SimpleRestrictedFDT inherits from Restrictable 
+onlyOwner onlyAdministrator onlyMinter onlyFundsToken notRestricted 
+OwnershipTransferred AdminAdded AdminRemoved AddressAddedToWhitelist AddressRemovedFromWhitelist OutboundWhitelistUpdated RestrictionsDisabled Transfer Approval FundsDistributed FundsWithdrawn MinterAdded MinterRemoved Deployed Deployed 
+If a corresponds to 0
+_owner is equal to 
+_owner is equal to newOwner
+ is equal to True
+ is equal to False
+i is less then addressToAdd length
+ is equal to whitelist
+If previousWhitelist is different from NO_WHITELIST
+i is less then addressToRemove length
+ is equal to NO_WHITELIST
+ is equal to newEnabledValue
+If senderWhiteList corresponds to NO_WHITELIST Invalid symbol 
+_restrictionsEnabled is equal to False
+ is equal to _balances sender sub
+ is equal to _balances recipient add
+_totalSupply is equal to _totalSupply add
+ is equal to _balances account add
+ is equal to _balances account sub
+_totalSupply is equal to _totalSupply sub
+ is equal to amount
+_name is equal to name
+_symbol is equal to symbol
+_decimals is equal to decimals
+ is equal to True
+ is equal to False
+If value is greater then 0
+pointsPerShare is equal to pointsPerShare add
+ is equal to msg sender add
+ is equal to pointsCorrection from add
+ is equal to pointsCorrection to sub
+ is equal to pointsCorrection account sub
+ is equal to pointsCorrection account add
+i is less then initialOwner length
+fundsToken is equal to _fundsToken
+If 
+If from corresponds to owner
+If 
+If restrictionCode corresponds to SUCCESS_CODE
+If restrictionCode corresponds to FAILURE_NON_WHITELIST
+success is equal to super transfer
+success is equal to super transferFrom
+fundsTokenBalance is equal to fundsToken balanceOf
+If newFunds is greater then 0
+stamp is equal to _stamp
+gated is equal to _gated
+deployer is equal to _deployer
+If gated corresponds to True
+SRFDT is equal to 
+factory is equal to 

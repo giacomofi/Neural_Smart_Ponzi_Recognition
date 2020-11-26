@@ -1,0 +1,14 @@
+solidity >=0.4.24<0.7.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 
+Initializable Context SafeMath PaymentSplitter 
+SafeMath 
+initialized initializing isTopLevelCall self cs ______gap c c c c _totalShares _totalReleased _shares _released _payees i totalReceived payment ______gap 
+isConstructor _msgSender _msgData add sub sub mul div div mod mod initialize  totalShares totalReleased shares released payee release _addPayee 
+Context inherits from Initializable PaymentSplitter inherits from Initializable PaymentSplitter inherits from Context 
+initializer 
+PayeeAdded PaymentReleased PaymentReceived 
+If a corresponds to 0
+i is less then payees length
+ is equal to _released account add
+_totalReleased is equal to _totalReleased add
+ is equal to shares_
+_totalShares is equal to _totalShares add

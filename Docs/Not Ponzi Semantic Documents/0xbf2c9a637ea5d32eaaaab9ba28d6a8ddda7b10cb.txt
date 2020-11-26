@@ -1,0 +1,42 @@
+solidity >=0.4.21<0.6.0 
+MultiSigInterface MultiSigTools TrustListInterface TrustListTools TransferableToken TokenClaimer SafeMath IERC20Auction IERC20AuctionFactory IERC20AuctionOpProxy ERC20TokenBankInterface ERC20PeriodAuction ERC20PeriodAuctionFactory 
+multisig_contract hash old list token balance auction_proxy minimum_object_amount minimum_bid_price obj_price_unit auction_period auction_paused auction_factory current_auction trusted_auctions old old old old old old old _current_auction auction 
+update_and_check_reach_majority is_signer transfer_multisig is_trusted balanceOf transfer transferFrom _claimStdTokens safeAdd safeSub safeMul safeDiv is_expired is_finished auction_expiration createERC20Auction add_auction apply_bid revoke_bid apply_auction object_token object_total_amount balance token issue unpause_auction pause_auction change_auction_proxy change_minimum_object_amount change_min_bid_price change_auction_obj_price_unit change_auction_period change_auction_factory change_current_auction new_auction createERC20PeriodAuction 
+ERC20PeriodAuction inherits from MultiSigTools 
+only_signer is_majority_sig is_trusted 
+TransferMultiSig ClaimedTokens ChangeAuctionProxy ChangeMinObjAmount ChangeMinBidPrice ChangeAuctionObjPriceUnit ChangeAuctionPeriod ChangeAuctionFactory ChangeCurrentAuction NewAuction NewERC20PeriodAuction 
+multisig_contract is equal to MultiSigInterface
+multisig_contract is equal to MultiSigInterface
+list is equal to TrustListInterface
+If _token corresponds to 
+c is equal to a plus b
+c is equal to a minus b
+c is equal to a multiplied by b
+c is equal to a divided by b
+minimum_object_amount is equal to _min_obj_amount
+minimum_bid_price is equal to _min_bid_price
+obj_price_unit is equal to _obj_price_unit
+auction_period is equal to _auction_period
+auction_factory is equal to IERC20AuctionFactory
+auction_paused is equal to False
+auction_paused is equal to False
+auction_paused is equal to True
+If  is different from 
+auction_proxy is equal to IERC20AuctionOpProxy
+If  is different from 
+minimum_object_amount is equal to new_amount
+If  is different from 
+minimum_bid_price is equal to new_price
+If  is different from 
+obj_price_unit is equal to new_unit
+If  is different from 
+auction_period is equal to new_period
+If  is different from 
+auction_factory is equal to IERC20AuctionFactory
+If  is different from 
+current_auction is equal to IERC20Auction
+ is equal to True
+If  is different from 
+If 
+ is equal to True
+current_auction is equal to IERC20Auction

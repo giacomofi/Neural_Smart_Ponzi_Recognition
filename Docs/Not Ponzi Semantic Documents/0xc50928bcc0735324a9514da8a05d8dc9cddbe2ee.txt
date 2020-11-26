@@ -1,0 +1,5 @@
+solidity 0.5.16 solidity ^0.5.0 solidity ^0.5.0 
+ICEther HandlerBase HCEther 
+tokens compound 
+mint redeem redeemUnderlying borrow repayBorrow repayBorrowBehalf transfer transferFrom approve allowance balanceOf balanceOfUnderlying getAccountSnapshot borrowRatePerBlock supplyRatePerBlock totalBorrowsCurrent borrowBalanceCurrent borrowBalanceStored exchangeRateCurrent exchangeRateStored getCash accrueInterest seize name symbol decimals admin pendingAdmin reserveFactorMantissa accrualBlockNumber borrowIndex totalBorrows totalReserves totalSupply _updateToken getCEther mint 
+HCEther inherits from HandlerBase 

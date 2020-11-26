@@ -1,0 +1,31 @@
+solidity ^0.5.8 
+SafeMath Owned GroupOwned Child ERC20Interface CC_ICO 
+SafeMath 
+owner newOwner groups root token name symbol sellcap qEC decimals coin amCC coin newBal coin bal newBal wd 
+add sub mul div transferOwnership acceptOwnership groupmod CGroupMod setRoot setToken balanceOf transfer setqEC setSellCap  wdCRCK wdEther 
+GroupOwned inherits from Owned Child inherits from Owned Child inherits from GroupOwned CC_ICO inherits from Owned CC_ICO inherits from GroupOwned CC_ICO inherits from Child 
+onlyOwner onlySuperior onlyGroup 
+OwnershipTransferred GroupTransferred SellCapSet 
+c is equal to a plus b
+c is equal to a minus b
+c is equal to a multiplied by b
+c is equal to a divided by b
+owner is equal to msg sender
+newOwner is equal to _newOwner
+owner is equal to newOwner
+newOwner is equal to 
+ is equal to priority
+
+root is equal to newroot
+token is equal to newToken
+name is equal to *** CrackCoin Token Sale #1 ***
+symbol is equal to CRK ICO #1
+qEC is equal to 100
+decimals is equal to 18
+qEC is equal to _qec
+sellcap is equal to amount
+If amCC is greater then coin balanceOf Invalid symbol 
+If sellcap is greater then newBal
+sellcap is equal to newBal
+If sellcap is greater then newBal
+sellcap is equal to newBal

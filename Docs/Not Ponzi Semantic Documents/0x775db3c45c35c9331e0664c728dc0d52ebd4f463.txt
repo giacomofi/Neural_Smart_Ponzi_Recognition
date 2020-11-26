@@ -1,0 +1,15 @@
+solidity ^0.5.10 
+Trusti 
+Asset tracking 
+Asset has name
+Asset has datahash
+Asset has manufacturer
+Asset has initialized
+tracking has location
+tracking has uuid
+locations assetStore 
+createAsset transferAsset getAssetDetails getAssetLocation 
+AssetCreate AssetTransfer 
+ is equal to Asset
+ is equal to tracking
+ is equal to tracking

@@ -1,0 +1,6 @@
+solidity 0.6.4 experimental ABIEncoderV2 
+ProtocolAdapter MKRAdapter Pot DSRAdapter 
+VAT POT JUG MANAGER DAI BAT WETH ONE pot chi 
+adapterType tokenType getBalance mkrRpow mkrRmul mkrMul mkrAdd pie dsr rho chi adapterType tokenType getBalance 
+DSRAdapter inherits from ProtocolAdapter DSRAdapter inherits from MKRAdapter 
+z is equal to mkrMul divided by ONE

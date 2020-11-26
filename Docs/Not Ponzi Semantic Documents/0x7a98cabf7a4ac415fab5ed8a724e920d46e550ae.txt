@@ -1,0 +1,14 @@
+solidity 0.4.26 
+owned ProofOfExistence 
+owner hashOf price name pause 
+owned changeOwner ProofOfExistence getCurrentPrice createProof checkProof changePrice withdraw setPause 
+ProofOfExistence inherits from owned 
+onlyOwner isNotPaused isNotExist Payed 
+owner is equal to msg sender
+owner is equal to _newOwner
+ is equal to block timestamp
+price is equal to _price
+pause is equal to False
+ is equal to block timestamp
+price is equal to _price
+pause is equal to _pause

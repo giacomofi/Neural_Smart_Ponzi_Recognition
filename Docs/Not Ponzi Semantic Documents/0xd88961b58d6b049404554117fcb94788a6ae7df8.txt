@@ -1,0 +1,104 @@
+solidity >=0.4.24 
+erc20 againstTokenRegister 
+order done market voted token 
+order has orderId
+order has orderOwner
+order has rate
+order has amount
+order has sell
+order has date
+done has orderId
+done has fillOwner
+done has fillAmount
+done has fillDate
+done has rate
+market has exists
+market has tokenPair
+market has ordersCount
+market has donesCount
+market has orders
+market has dones
+market has moved
+voted has like
+voted has dislike
+token has tokenBase
+token has name
+token has symbol
+token has decimals
+token has likesCount
+token has dislikesCount
+token has marketsCount
+token has marketIndex
+token has markets
+token has voteStatus
+name symbol comment owner admin indexCount registerFee ratePlaces openMarketFee minQtdDiv minQtd index tokens exists pass refToken tokenMaker tokenTaker amount 
+name symbol decimals transfer transferFrom balanceOf allowance  getTokenByAddr getTokenByIndex getLikesByAddr getVoteStatus getLikesByIndex getPairByAddr getPairByIndex getOrders getDones changeOwner changeAdmin registerToken createMarket createOrder tokenLike tokenDislike changeRegisterFee changeMinQtdDiv changeOpenMarketFee cancelOrder fillOrder 
+orderPlaced orderDone orderCanceled orderRemovedLowBalance 
+owner is equal to 
+admin is equal to 
+If msg sender corresponds to owner
+owner is equal to _newOwner
+If msg sender corresponds to owner
+admin is equal to _newAdmin
+If 
+indexCount is equal to indexCount plus 1
+ is equal to _token
+tokens _token tokenBase is equal to _token
+tokens _token name is equal to refToken name
+tokens _token symbol is equal to refToken symbol
+tokens _token decimals is equal to refToken decimals
+tokens _token likesCount is equal to 0
+tokens _token dislikesCount is equal to 0
+tokens _token marketsCount is equal to 0
+ is equal to True
+If  is greater then 0
+tokens _token marketsCount is equal to tokens _token marketsCount plus 1
+ is equal to _tokenPair
+ _tokenPair tokenPair is equal to _tokenPair
+ _tokenPair ordersCount is equal to 0
+ _tokenPair donesCount is equal to 0
+ _tokenPair exists is equal to True
+ _tokenPair ordersCount is equal to  _tokenPair ordersCount plus 1
+ _tokenPair ordersCount orderId is equal to  _tokenPair ordersCount
+ _tokenPair ordersCount orderOwner is equal to msg sender
+ _tokenPair ordersCount rate is equal to _rate
+ _tokenPair ordersCount amount is equal to _amount
+ _tokenPair ordersCount sell is equal to _sell
+ _tokenPair ordersCount date is equal to now
+ is equal to 0
+If 
+tokens _token likesCount is equal to tokens _token likesCount plus 1
+msg sender like is equal to True
+
+tokens _token dislikesCount is equal to tokens _token dislikesCount minus 1
+msg sender dislike is equal to False
+tokens _token likesCount is equal to tokens _token likesCount minus 1
+msg sender like is equal to False
+If 
+tokens _token dislikesCount is equal to tokens _token dislikesCount plus 1
+msg sender dislike is equal to True
+
+tokens _token likesCount is equal to tokens _token likesCount minus 1
+msg sender like is equal to False
+tokens _token dislikesCount is equal to tokens _token dislikesCount minus 1
+msg sender dislike is equal to False
+registerFee is equal to _registerFee
+minQtdDiv is equal to _minQtdDiv
+minQtd is equal to  divided by 
+openMarketFee is equal to _openMarketFee
+ is equal to 
+ _orderId orderId is equal to _orderId
+ is equal to _orderId
+ _tokenPair ordersCount is equal to  _tokenPair ordersCount minus 1
+ _orderID amount is equal to  _orderID amount minus amount
+ _tokenPair donesCount is equal to  _tokenPair donesCount plus 1
+ _tokenPair donesCount orderId is equal to _orderID
+ _tokenPair donesCount fillOwner is equal to msg sender
+ _tokenPair donesCount fillAmount is equal to _amountFill
+ _tokenPair donesCount fillDate is equal to now
+ _tokenPair donesCount rate is equal to _rate
+If  _orderID amount is less then minQtd
+ is equal to 
+ _orderID orderId is equal to _orderID
+ is equal to _orderID
+ _tokenPair ordersCount is equal to  _tokenPair ordersCount minus 1

@@ -1,0 +1,29 @@
+solidity ^0.4.23 solidity ^0.4.21 solidity ^0.4.21 solidity ^0.4.21 solidity ^0.4.11 solidity ^0.4.21 solidity ^0.4.21 
+ERC20 EventsHistorySourceAdapter MultiEventsHistoryAdapter ChronoBankPlatformEmitter ChronoBankPlatform ChronoBankAsset ChronoBankAssetProxy 
+symbol localEventsHistory _eventsHistory proxies OK chronoBankPlatform smbl name symbol latestVersion pendingVersion pendingVersionTimestamp UPGRADE_FREEZE_TIME userOptOutVersion 
+decimals totalSupply balanceOf transfer transferFrom approve allowance _self getEventsHistory emitErrorCode _setEventsHistory _emitErrorCode emitTransfer emitIssue emitRevoke emitRevokeExternal emitOwnershipChange emitApprove emitRecovery symbols symbolsCount isCreated isOwner owner setProxy name totalSupply balanceOf allowance baseUnit description isReissuable blockNumber proxyTransferWithReference proxyTransferFromWithReference proxyApprove issueAsset issueAssetWithInitialReceiver reissueAsset reissueAssetToRecepient revokeAsset revokeAssetWithExternalReference hasAssetRights isDesignatedAssetManager changeOwnership __transferWithReference __transferFromWithReference __approve __process init stringToBytes32 _getAsset totalSupply balanceOf allowance decimals transfer transferWithReference _transferWithReference __transferWithReference transferFrom __transferFromWithReference approve __approve emitTransfer emitApprove  getVersionFor getLatestVersion getPendingVersion getPendingVersionTimestamp proposeUpgrade purgeUpgrade commitUpgrade optOut optIn 
+MultiEventsHistoryAdapter inherits from EventsHistorySourceAdapter ChronoBankPlatformEmitter inherits from MultiEventsHistoryAdapter ChronoBankPlatform inherits from ChronoBankPlatformEmitter ChronoBankAssetProxy inherits from ERC20 
+onlyChronoBankPlatform onlyAssetOwner onlyAccess 
+Transfer Approval ErrorCode Transfer Issue Revoke RevokeExternal OwnershipChange Approve Recovery UpgradeProposal 
+localEventsHistory is equal to _eventsHistory
+If  is different from 0x0
+chronoBankPlatform is equal to _chronoBankPlatform
+symbol is equal to _symbol
+smbl is equal to stringToBytes32
+name is equal to _name
+If _to is different from 0x0
+If _to is different from 0x0
+If _to is different from 0x0
+If _spender is different from 0x0
+If pendingVersion is different from 0x0
+If _newVersion corresponds to 0x0
+If latestVersion corresponds to 0x0
+latestVersion is equal to _newVersion
+pendingVersion is equal to _newVersion
+pendingVersionTimestamp is equal to now
+If pendingVersion corresponds to 0x0
+If pendingVersion corresponds to 0x0
+If pendingVersionTimestamp plus UPGRADE_FREEZE_TIME is greater then now
+latestVersion is equal to pendingVersion
+If  is different from 0x0
+ is equal to latestVersion

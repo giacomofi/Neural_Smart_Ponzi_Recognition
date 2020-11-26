@@ -1,0 +1,36 @@
+solidity ^0.4.24 
+ERC20 Ownable SafeMath BNXToken 
+SafeMath 
+_owner c c c c j length bstr k name symbol decimals _balances _allowed _totalSupply hardcap _enableActions oldValue 
+totalSupply balanceOf transfer allowance transferFrom approve owner isOwner transferOwnership _transferOwnership mul div sub add mod uint2str totalSupply balanceOf transfer transferFrom approve allowance increaseApproval decreaseApproval toggleActions burn mint refundTokens withdrawEther  
+BNXToken inherits from ERC20 BNXToken inherits from Ownable 
+onlyOwner onlyPayloadSize 
+Approval Transfer OwnershipTransferred 
+_owner is equal to msg sender
+_owner is equal to newOwner
+If a corresponds to 0
+If i corresponds to 0
+While j is different from 0
+j is divided by 10
+While i is different from 0
+ is equal to 
+i is divided by 10
+_totalSupply is equal to hardcap
+ is equal to _totalSupply
+ is equal to msg sender sub
+ is equal to _balances _to add
+ is equal to _balances _from sub
+ is equal to _balances _to add
+ is equal to _allowed _from msg sender sub
+ is equal to _value
+ is equal to msg sender _spender add
+If _subtractedValue is greater then oldValue
+ is equal to 0
+ is equal to oldValue sub
+
+_enableActions is equal to False
+_enableActions is equal to True
+_totalSupply is equal to _totalSupply sub
+ is equal to _balances _account sub
+_totalSupply is equal to _totalSupply add
+ is equal to _balances _account add

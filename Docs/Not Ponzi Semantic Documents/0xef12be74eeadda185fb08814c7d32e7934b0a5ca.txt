@@ -1,0 +1,43 @@
+solidity 0.5.16 
+SelfDestructingSender Game SafeMath 
+SafeMath 
+DEPOSIT_INCREMENT_PERCENT BIG_REWARD_PERCENT SMALL_REWARD_PERCENT MAX_TIME NEVER INITIAL_INCENTIVE _designers endTime escrow currentGameNumber currentDepositNumber topDepositors requiredDeposit _startBlocks _gameStarted value r i maxAmountToPutInEscrow addressToPay amountToPay payoutProof addressToPay amountToPay payoutProof c c c c 
+ _forceTransfer _gameState donate firstPlay play reset currentRequiredDeposit gameState startBlocks mul div sub add mod 
+currentGame exactDeposit 
+Action 
+endTime is equal to NEVER
+currentGameNumber is equal to 1
+currentDepositNumber is equal to 1
+ is equal to INITIAL_INCENTIVE
+i is less or equal to 200
+value increments of value multiplied by r divided by 100
+ is equal to value divided by 1e14 multiplied by 1e14
+If not _gameStarted
+If escrow is less then INITIAL_INCENTIVE
+If now is greater or equal to endTime
+If msg value is greater then maxAmountToPutInEscrow
+escrow is equal to escrow add
+escrow is equal to escrow add
+ is equal to msg sender
+endTime is equal to now add
+escrow is equal to escrow add
+_gameStarted is equal to True
+If addressToPay is different from 
+payoutProof is equal to _forceTransfer
+ is equal to 
+ is equal to msg sender
+endTime is equal to now add
+escrow is equal to 
+escrow is equal to escrow sub
+If escrow is greater then 0
+endTime is equal to NEVER
+escrow is equal to 0
+currentDepositNumber is equal to 1
+_gameStarted is equal to False
+ is equal to 
+ is equal to 
+If  is greater then INITIAL_INCENTIVE
+escrow is equal to INITIAL_INCENTIVE
+escrow is equal to 
+If index is greater or equal to _startBlocks length
+If a corresponds to 0

@@ -1,0 +1,39 @@
+solidity 0.5.2 
+IERC20 ERC20 ERC20Burnable ERC20Detailed SafeMath KongERC20 LockDrop LockETH 
+SafeMath SafeMath 
+_balances _allowances _totalSupply _name _symbol _decimals c c c c ONE_YEAR ONE_MONTH MINTING_REWARD _owner _totalMinted _launchTimestamp _lastLockDropAddress _lastLockDropTimestamp _minters lockDropSize lockDrop y mintingLimit _stakingEnd _weightsSum _kongERC20Address _weights _lockingEnds totalTime weight lockETH weight kongClaim _endOfLockUp _contractOwner 
+allowance approve balanceOf totalSupply transfer transferFrom totalSupply balanceOf transfer allowance approve transferFrom increaseAllowance decreaseAllowance _transfer _mint _burn _approve _burnFrom burn burnFrom name symbol decimals add sub sub mul div div mod mod addMinter beginLockDrop getMintingLimit mint stakeETH claimKong unlockETH 
+ERC20 inherits from IERC20 ERC20Burnable inherits from ERC20 ERC20Detailed inherits from IERC20 KongERC20 inherits from ERC20 KongERC20 inherits from ERC20Burnable KongERC20 inherits from ERC20Detailed 
+Approval Transfer LockDropCreation MinterAddition Staked Claimed 
+ is equal to _balances sender sub
+ is equal to _balances recipient add
+_totalSupply is equal to _totalSupply add
+ is equal to _balances account add
+ is equal to _balances account sub
+_totalSupply is equal to _totalSupply sub
+ is equal to value
+_name is equal to name
+_symbol is equal to symbol
+_decimals is equal to decimals
+If a corresponds to 0
+_owner is equal to 0xAB35D3476251C6b614dC2eb36380D7AF1232D822
+_launchTimestamp is equal to block timestamp
+ is equal to True
+_lastLockDropTimestamp is equal to block timestamp
+_lastLockDropAddress is equal to 
+If y is greater then 0
+mintingLimit increments of 2 Invalid symbol 24 multiplied by 
+If y is greater then 1
+mintingLimit increments of 2 Invalid symbol 23 multiplied by 
+If y is greater then 2
+mintingLimit increments of 2 Invalid symbol 22 multiplied by 
+_totalMinted increments of mintedAmount
+_kongERC20Address is equal to kongERC20Address
+_stakingEnd is equal to block timestamp plus 30 days
+_weightsSum is equal to _weightsSum add
+ is equal to weight
+ is equal to _stakingEnd plus stakingPeriod multiplied by 1 days
+ is equal to 0
+_weightsSum is equal to _weightsSum sub
+_endOfLockUp is equal to endOfLockUp
+_contractOwner is equal to contractOwner

@@ -1,0 +1,16 @@
+solidity ^0.5.17 
+SafeMath ERC20Basic ERC20 BasicToken StandardToken Distribute 
+SafeMath SafeMath 
+c c c totalSupply balances allowed token i remainingValue i 
+mul div sub add max64 min64 max256 min256 transfer allowance transferFrom approve transfer transferFrom approve allowance tokenSendMultiple ethSendMultiple distributeToken distributeEther 
+ERC20 inherits from ERC20Basic BasicToken inherits from ERC20Basic StandardToken inherits from BasicToken StandardToken inherits from ERC20 
+Transfer Approval 
+ is equal to msg sender sub
+ is equal to balances _to add
+ is equal to balances _to add
+ is equal to balances _from sub
+ is equal to allowed _from msg sender sub
+ is equal to _value
+i is less then _to length
+i is less then _to length
+remainingValue is equal to remainingValue sub

@@ -1,0 +1,29 @@
+solidity 0.4.26 
+IOwned Owned Utils IERC20Token INonStandardERC20 ITokenHolder TokenHolder ISmartToken SafeMath ERC20Token SmartToken 
+SafeMath SafeMath 
+owner newOwner z z c name symbol decimals totalSupply balanceOf allowance version transfersEnabled 
+owner transferOwnership acceptOwnership transferOwnership acceptOwnership name symbol decimals totalSupply balanceOf allowance transfer transferFrom approve name symbol decimals totalSupply balanceOf allowance transfer transferFrom approve withdrawTokens withdrawTokens disableTransfers issue destroy add sub mul div transfer transferFrom approve disableTransfers issue destroy transfer transferFrom 
+Owned inherits from IOwned ITokenHolder inherits from IOwned TokenHolder inherits from ITokenHolder TokenHolder inherits from Owned TokenHolder inherits from Utils ISmartToken inherits from IOwned ISmartToken inherits from IERC20Token ERC20Token inherits from IERC20Token ERC20Token inherits from Utils SmartToken inherits from ISmartToken SmartToken inherits from Owned SmartToken inherits from ERC20Token SmartToken inherits from TokenHolder 
+ownerOnly greaterThanZero validAddress notThis transfersAllowed 
+OwnerUpdate Transfer Approval NewSmartToken Issuance Destruction 
+owner is equal to msg sender
+newOwner is equal to _newOwner
+owner is equal to newOwner
+newOwner is equal to 
+If _x corresponds to 0
+name is equal to _name
+symbol is equal to _symbol
+decimals is equal to _decimals
+totalSupply is equal to _totalSupply
+ is equal to _totalSupply
+ is equal to msg sender sub
+ is equal to balanceOf _to add
+ is equal to allowance _from msg sender sub
+ is equal to balanceOf _from sub
+ is equal to balanceOf _to add
+ is equal to _value
+transfersEnabled is equal to 
+totalSupply is equal to totalSupply add
+ is equal to balanceOf _to add
+ is equal to balanceOf _from sub
+totalSupply is equal to totalSupply sub

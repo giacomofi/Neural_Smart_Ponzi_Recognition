@@ -1,0 +1,34 @@
+solidity ^0.4.23 
+SafeMath ERC20Basic ERC20 Ownable BasicToken BurnableToken StandardToken StandardBurnableToken DetailedERC20 Pausable PausableToken BaseERC20Token BoyCoin 
+SafeMath 
+owner balances totalSupply_ allowed oldValue name symbol decimals paused 
+mul div sub add totalSupply balanceOf transfer allowance transferFrom approve renounceOwnership transferOwnership _transferOwnership totalSupply transfer balanceOf burn _burn transferFrom approve allowance increaseApproval decreaseApproval burnFrom pause unpause transfer transferFrom approve increaseApproval decreaseApproval _burn 
+ERC20 inherits from ERC20Basic BasicToken inherits from ERC20Basic BurnableToken inherits from BasicToken StandardToken inherits from ERC20 StandardToken inherits from BasicToken StandardBurnableToken inherits from BurnableToken StandardBurnableToken inherits from StandardToken DetailedERC20 inherits from ERC20 Pausable inherits from Ownable PausableToken inherits from StandardToken PausableToken inherits from Pausable BaseERC20Token inherits from StandardBurnableToken BaseERC20Token inherits from PausableToken BaseERC20Token inherits from DetailedERC20 BoyCoin inherits from BaseERC20Token 
+onlyOwner whenNotPaused whenPaused 
+Transfer Approval OwnershipRenounced OwnershipTransferred Burn Pause Unpause 
+If a corresponds to 0
+c is equal to a multiplied by b
+c is equal to a plus b
+owner is equal to msg sender
+owner is equal to 
+owner is equal to _newOwner
+ is equal to msg sender sub
+ is equal to balances _to add
+ is equal to balances _who sub
+totalSupply_ is equal to totalSupply_ sub
+ is equal to balances _from sub
+ is equal to balances _to add
+ is equal to allowed _from msg sender sub
+ is equal to _value
+ is equal to 
+If _subtractedValue is greater then oldValue
+ is equal to 0
+ is equal to oldValue sub
+ is equal to allowed _from msg sender sub
+name is equal to _name
+symbol is equal to _symbol
+decimals is equal to _decimals
+paused is equal to True
+paused is equal to False
+totalSupply_ is equal to _initialAmount
+ is equal to totalSupply_

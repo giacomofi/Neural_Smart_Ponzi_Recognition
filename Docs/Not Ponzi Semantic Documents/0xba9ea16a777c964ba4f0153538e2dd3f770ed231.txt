@@ -1,0 +1,65 @@
+solidity ^0.4.25 solidity ^0.4.25 solidity ^0.4.25 solidity ^0.4.25 solidity ^0.4.25 solidity ^0.4.25 solidity ^0.4.25 solidity 0.4.25 solidity 0.4.25 
+ERC20Basic SafeMath BasicToken ERC20 StandardToken Ownable MintableToken ERC884 DwarfGem 
+SafeMath 
+balances totalSupply_ allowed oldValue owner mintingFinished ZERO_BYTES ZERO_ADDRESS name symbol decimals verified cancellations holderIndices restrictedStock restrictedStockSendTime shareholders oldHash holderIndex restrict restrictTime all restrict candidate restrict balance holderIndex lastIndex lastHolder 
+totalSupply balanceOf transfer mul div sub add totalSupply transfer balanceOf allowance transferFrom approve transferFrom approve allowance increaseApproval decreaseApproval Ownable transferOwnership mint finishMinting addVerified removeVerified updateVerified cancelAndReissue transfer transferFrom isVerified isHolder hasHash holderCount holderAt isSuperseded getCurrentFor mint holderCount holderAt addVerified removeVerified updateVerified cancelAndReissue transfer transferRestrictedStock updateRestrictedStockSendTime availableBalanceOf restrictedStockOf restrictedStockSendTimeOf transferFrom isVerified isHolder hasHash isSuperseded getCurrentFor findCurrentFor updateShareholders pruneRestrictStock pruneShareholders 
+BasicToken inherits from ERC20Basic ERC20 inherits from ERC20Basic StandardToken inherits from ERC20 StandardToken inherits from BasicToken MintableToken inherits from StandardToken MintableToken inherits from Ownable ERC884 inherits from ERC20 DwarfGem inherits from ERC884 DwarfGem inherits from MintableToken 
+onlyOwner canMint isVerifiedAddress isShareholder isNotShareholder isNotCancelled 
+Transfer Approval OwnershipTransferred Mint MintFinished VerifiedAddressAdded VerifiedAddressRemoved VerifiedAddressUpdated VerifiedAddressSuperseded TransferRestrictedStock UpdateRestrictedStockSendTime 
+If a corresponds to 0
+c is equal to a multiplied by b
+c is equal to a plus b
+ is equal to msg sender sub
+ is equal to balances _to add
+ is equal to balances _from sub
+ is equal to balances _to add
+ is equal to allowed _from msg sender sub
+ is equal to _value
+ is equal to msg sender _spender add
+If _subtractedValue is greater then oldValue
+ is equal to 0
+ is equal to oldValue sub
+owner is equal to msg sender
+owner is equal to newOwner
+totalSupply_ is equal to totalSupply_ add
+ is equal to balances _to add
+mintingFinished is equal to True
+name is equal to _name
+symbol is equal to _symbol
+ is equal to hash
+If  is different from ZERO_BYTES
+ is equal to ZERO_BYTES
+If oldHash is different from hash
+ is equal to hash
+ is equal to ZERO_BYTES
+ is equal to replacement
+ is equal to replacement
+ is equal to 
+ is equal to 0
+ is equal to 
+ is equal to 0
+ is equal to restrict
+ is equal to restrictTime
+ is equal to 0
+ is equal to 0
+ increments of value
+If  corresponds to 0
+ is equal to time
+ is equal to time
+If now is less then 
+restrict is equal to 
+If addr corresponds to ZERO_ADDRESS
+If candidate corresponds to ZERO_ADDRESS
+If  corresponds to 0
+ is equal to shareholders push
+If restrict is different from 0
+If now is greater then 
+If value is greater then restrict
+ is equal to 0
+ is equal to 0
+ is equal to restrict minus value
+If balance is greater then 0
+ is equal to lastHolder
+ is equal to 
+ is equal to 0
+ is equal to 0

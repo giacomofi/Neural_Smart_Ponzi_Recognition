@@ -1,0 +1,79 @@
+solidity 0.5.9 
+SafeMath Ownable ApproveAndCallFallBack LIBRAToken DividendManager 
+SafeMath 
+Checkpoint Dividend NotClaimed 
+Checkpoint has fromBlock
+Checkpoint has value
+Dividend has blockNumber
+Dividend has timestamp
+Dividend has amount
+Dividend has claimedAmount
+Dividend has totalSupply
+Dividend has recycled
+Dividend has claimed
+NotClaimed has listIndex
+NotClaimed has exists
+c c c owner name decimals symbol creationBlock transfersEnabled balances allowed totalSupplyHistory totalSupplyHolders holders minHolderAmount _amount previousBalanceFrom previousBalanceTo curTotalSupplyHolders oldValue curTotalSupply previousBalanceFrom curTotalSupplyHolders min max mid newCheckPoint oldCheckPoint token balance token RECYCLE_TIME minHolderAmount dividends dividendsClaimed notClaimed notClaimedList currentSupply i dividendIndex blockNumber dividend balance claim i dividend currentSupply remainingAmount dividendIndex blockNumber lastIdx claimToken balance 
+mul div sub add transferOwnership receiveApproval  transfer transferFrom doTransfer balanceOf approve increaseApproval decreaseApproval allowance approveAndCall totalSupply currentTotalSupplyHolders balanceOfAt totalSupplyAt totalSupplyHoldersAt isHolder destroyTokens enableTransfers getValueAt updateValueAtNow min claimTokens setMinHolderAmount depositDividend claimDividend claimDividendAll recycleDividend getNow dividendsCount registerNotClaimed unregisterNotClaimed claimTokens 
+LIBRAToken inherits from Ownable DividendManager inherits from Ownable 
+onlyOwner whenTransfersEnabled validDividendIndex 
+OwnershipTransferred ClaimedTokens Transfer Approval DividendDeposited DividendClaimed DividendRecycled 
+If a corresponds to 0
+owner is equal to msg sender
+owner is equal to _newOwner
+name is equal to Libra Network
+symbol is equal to LIBRA
+decimals is equal to 18
+creationBlock is equal to block number
+transfersEnabled is equal to True
+ is equal to True
+ decreases of _amount
+If _amount corresponds to 0
+
+If previousBalanceFrom minus _amount is less then minHolderAmount
+curTotalSupplyHolders is equal to curTotalSupplyHolders minus previousBalanceFrom
+curTotalSupplyHolders is equal to curTotalSupplyHolders minus _amount
+If previousBalanceTo plus _amount is greater or equal to minHolderAmount
+
+If 
+ is equal to True
+ is equal to _amount
+ is equal to  plus _addedAmount
+If _subtractedAmount is greater or equal to oldValue
+ is equal to 0
+ is equal to oldValue minus _subtractedAmount
+If  Invalid symbol 
+If  Invalid symbol 
+If  Invalid symbol 
+
+If previousBalanceFrom minus _amount is less then minHolderAmount
+transfersEnabled is equal to _transfersEnabled
+If checkpoints length corresponds to 0
+If _block is greater or equal to  fromBlock
+If _block is less then checkpoints 0 fromBlock
+While max is greater then min
+If checkpoints mid fromBlock is less or equal to _block
+min is equal to mid
+max is equal to mid minus 1
+If  Invalid symbol 
+newCheckPoint fromBlock is equal to 
+newCheckPoint value is equal to 
+oldCheckPoint value is equal to 
+If _token corresponds to 
+minHolderAmount is equal to _minHolderAmount
+token is equal to LIBRAToken
+i is equal to 0
+i is less then notClaimedList length
+
+currentSupply is equal to currentSupply sub
+ is equal to True
+dividend claimedAmount is equal to SafeMath add
+If claim is greater then 0
+i is less then dividends length
+If  Invalid symbol 
+ is equal to SafeMath add
+dividends _dividendIndex recycled is equal to True
+If 
+ is equal to NotClaimed
+notClaimed notClaimedList lastIdx listIndex is equal to notClaimed _notClaimed listIndex
+ is equal to 

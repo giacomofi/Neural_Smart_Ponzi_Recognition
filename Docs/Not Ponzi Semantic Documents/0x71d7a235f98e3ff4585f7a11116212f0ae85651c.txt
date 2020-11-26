@@ -1,0 +1,42 @@
+solidity 0.5.14 
+SafeMath SafeMathUint SafeMathInt Context Roles lexDAORole IERC20 ERC20 ERC20Detailed IFundsDistributionToken FundsDistributionToken ClaimToken ClaimTokenFactory 
+Roles SafeMath SafeMath SafeMathUint SafeMathInt SafeMathUint SafeMathInt 
+Role 
+Role has bearer
+c c c c b c c _lexDAOs _balances _allowances _totalSupply _name _symbol _decimals pointsMultiplier pointsPerShare pointsCorrection withdrawnFunds _withdrawableDividend _magCorrection stamp fundsToken lexDAO fundsTokenBalance withdrawableFunds prevFundsTokenBalance newFunds version stamp gated deployer _lexDAO CT tokens 
+add sub sub mul div div mod mod toInt256Safe mul div sub add toUint256Safe _msgSender _msgData add remove has islexDAO addlexDAO renouncelexDAO _addlexDAO _removelexDAO totalSupply balanceOf transfer allowance approve transferFrom totalSupply balanceOf transfer allowance approve transferFrom increaseAllowance decreaseAllowance _transfer _mint _burn _approve _burnFrom name symbol decimals withdrawableFundsOf withdrawFunds _distributeFunds _prepareWithdraw withdrawableFundsOf withdrawnFundsOf accumulativeFundsOf _transfer _mint _burn withdrawFunds _updateFundsTokenBalance updateFundsReceived lexDAOmint lexDAOburn newClaimToken tipLexDAO getTokenCount updateDAO 
+lexDAORole inherits from Context ERC20 inherits from Context ERC20 inherits from IERC20 ERC20Detailed inherits from IERC20 FundsDistributionToken inherits from ERC20 FundsDistributionToken inherits from ERC20Detailed FundsDistributionToken inherits from IFundsDistributionToken ClaimToken inherits from lexDAORole ClaimToken inherits from FundsDistributionToken 
+onlylexDAO onlyFundsToken 
+lexDAOAdded lexDAORemoved Transfer Approval FundsDistributed FundsWithdrawn Deployed lexDAOupdated 
+If a corresponds to 0
+ is equal to True
+ is equal to False
+ is equal to _balances sender sub
+ is equal to _balances recipient add
+_totalSupply is equal to _totalSupply add
+ is equal to _balances account add
+ is equal to _balances account sub
+_totalSupply is equal to _totalSupply sub
+ is equal to amount
+_name is equal to name
+_symbol is equal to symbol
+_decimals is equal to decimals
+If value is greater then 0
+pointsPerShare is equal to pointsPerShare add
+ is equal to msg sender add
+ is equal to pointsCorrection from add
+ is equal to pointsCorrection to sub
+ is equal to pointsCorrection account sub
+ is equal to pointsCorrection account add
+stamp is equal to _stamp
+fundsToken is equal to _fundsToken
+lexDAO is equal to _lexDAO
+fundsTokenBalance is equal to fundsToken balanceOf
+If newFunds is greater then 0
+stamp is equal to _stamp
+gated is equal to _gated
+deployer is equal to _deployer
+_lexDAO is equal to lexDAO
+If gated corresponds to True
+CT is equal to 
+_lexDAO is equal to newDAO

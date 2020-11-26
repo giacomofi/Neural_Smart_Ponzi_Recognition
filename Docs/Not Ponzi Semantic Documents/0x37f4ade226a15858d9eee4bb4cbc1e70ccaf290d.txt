@@ -1,0 +1,37 @@
+solidity ^0.4.21 
+SafeMath AltcoinToken ERC20Basic ERC20 XGP 
+SafeMath 
+totalSupply owner balances allowed name symbol decimals totalSupply totalDistributed tokensPerEth minContribution distributionFinished devTokens i tokens investor t bal myAddress etherBalance burner token amount 
+mul div sub add balanceOf transfer balanceOf transfer allowance transferFrom approve XGP transferOwnership finishDistribution distr doAirdrop adminClaimAirdrop adminClaimAirdropMultiple updateTokensPerEth  getTokens balanceOf transfer transferFrom approve allowance getTokenBalance withdraw burn withdrawAltcoinTokens 
+ERC20 inherits from ERC20Basic XGP inherits from ERC20 
+canDistr onlyOwner onlyPayloadSize 
+Transfer Approval Transfer Approval Distr DistrFinished Airdrop TokensPerEthUpdated Burn 
+If a corresponds to 0
+c is equal to a multiplied by b
+c is equal to a plus b
+owner is equal to msg sender
+If newOwner is different from 
+owner is equal to newOwner
+distributionFinished is equal to True
+totalDistributed is equal to totalDistributed add
+ is equal to balances _to add
+ is equal to balances _participant add
+totalDistributed is equal to totalDistributed add
+If totalDistributed is greater or equal to totalSupply
+distributionFinished is equal to True
+i is less then _addresses length
+tokensPerEth is equal to _tokensPerEth
+tokens is equal to tokensPerEth mul divided by 1 ether
+If tokens is greater then 0
+If totalDistributed is greater or equal to totalSupply
+distributionFinished is equal to True
+ is equal to msg sender sub
+ is equal to balances _to add
+ is equal to balances _from sub
+ is equal to allowed _from msg sender sub
+ is equal to balances _to add
+If _value is different from 0 Invalid symbol 
+ is equal to _value
+ is equal to balances burner sub
+totalSupply is equal to totalSupply sub
+totalDistributed is equal to totalDistributed sub

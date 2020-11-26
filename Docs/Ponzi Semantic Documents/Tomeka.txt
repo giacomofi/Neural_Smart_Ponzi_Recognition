@@ -1,0 +1,45 @@
+Tomeka 
+Participant 
+Participant has etherAddress
+Participant has payout
+balance collectedFees feePercent pyramidMultiplier payoutOrder creator participants _fee payoutToSend feesToCollect 
+Tomeka  init addPayout collectAllFees collectFeesInEther collectPercentOfFees changeOwner changeMultiplier changeFeePercentage currentMultiplier currentFeePercentage currentPyramidBalanceApproximately nextPayoutWhenPyramidBalanceTotalsApproximately feesSeperateFromBalanceApproximately totalParticipants numberOfParticipantsWaitingForPayout participantDetails 
+onlyowner 
+creator is equal to msg sender
+If msg value is less then 1 ether
+collectedFees increments of msg value
+If msg value is greater or equal to 50 ether
+_fee is divided by 2
+If participants length corresponds to 10
+pyramidMultiplier is equal to 200
+balance increments of  divided by 100
+collectedFees increments of  divided by 100
+While balance is greater then participants payoutOrder payout
+balance decreases of participants payoutOrder payout
+payoutOrder increments of 1
+If collectedFees corresponds to 0
+collectedFees is equal to 0
+_amt is multiplied by 1 ether
+If _amt is greater then collectedFees
+If collectedFees corresponds to 0
+collectedFees decreases of _amt
+If collectedFees corresponds to 0 Invalid symbol 
+collectedFees decreases of feesToCollect
+creator is equal to _owner
+If _mult is greater then 300 Invalid symbol 
+pyramidMultiplier is equal to _mult
+If _fee is greater then 10
+feePercent is equal to _fee
+multiplier is equal to pyramidMultiplier
+info is equal to This multiplier applies to you as soon as transaction is received, may be lowered to hasten payouts or increased if payouts are fast enough. Due to no float or decimals, multiplier is x100 for a fractional multiplier e.g. 250 is actually a 2.5x multiplier. Capped at 3x max and 1.2x min.
+fee is equal to feePercent
+info is equal to Shown in % form. Fee is halved(50%) for amounts equal or greater than 50 ethers. (Fee may change, but is capped to a maximum of 10%)
+pyramidBalance is equal to balance divided by 1 ether
+info is equal to All balance values are measured in Ethers, note that due to no decimal placing, these values show up as integers only, within the contract itself you will get the exact decimal value you are supposed to
+balancePayout is equal to participants payoutOrder payout divided by 1 ether
+fees is equal to collectedFees divided by 1 ether
+count is equal to participants length
+count is equal to participants length minus payoutOrder
+If orderInPyramid is less or equal to participants length
+Address is equal to participants orderInPyramid etherAddress
+Payout is equal to participants orderInPyramid payout divided by 1 ether

@@ -1,0 +1,38 @@
+ERC20Basic ERC20 BasicToken StandardToken Ownable SafeMath ETHToken 
+SafeMath 
+totalSupply balances allowed _allowance oldValue owner c c c version name symbol decimals lockedBalance timeRelease INITIAL_SUPPLY DEVELOPER_RESERVED preRelease amount burner 
+balanceOf transfer allowance transferFrom approve transfer balanceOf transferFrom approve allowance increaseApproval decreaseApproval Ownable transferOwnership mul div sub add ETHToken lockedOf unlockTimeOf transferAndLock unlock burn isSoleout mintBIX 
+ERC20 inherits from ERC20Basic BasicToken inherits from ERC20Basic StandardToken inherits from ERC20 StandardToken inherits from BasicToken ETHToken inherits from StandardToken ETHToken inherits from Ownable 
+onlyOwner canMint 
+Transfer Approval OwnershipTransferred Burn Lock UnLock 
+ is equal to msg sender sub
+ is equal to balances _to add
+ is equal to balances _from sub
+ is equal to balances _to add
+ is equal to _allowance sub
+ is equal to _value
+ is equal to msg sender _spender add
+If _subtractedValue is greater then oldValue
+ is equal to 0
+ is equal to oldValue sub
+owner is equal to msg sender
+owner is equal to newOwner
+ is equal to DEVELOPER_RESERVED
+totalSupply is equal to DEVELOPER_RESERVED
+ is equal to msg sender sub
+If preRelease is less or equal to now Invalid symbol 
+ is equal to balances _to add
+ is equal to 0
+ is equal to lockedBalance _to add
+ is equal to 
+ is equal to msg sender add
+ is equal to 0
+ is equal to 0
+ is equal to balances burner sub
+totalSupply is equal to totalSupply sub
+totalSupply is equal to totalSupply add
+ is equal to balances _to add
+If _lockAmount is greater then 0
+totalSupply is equal to totalSupply add
+ is equal to lockedBalance _to add
+ is equal to 

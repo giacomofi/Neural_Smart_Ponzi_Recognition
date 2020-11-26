@@ -1,0 +1,26 @@
+solidity ^0.5.1 
+IERC20 ERC20 SafeMath Roles ERC20Detailed PauserRole Pausable ERC20Pausable MinterRole ERC20Mintable ABCToken 
+SafeMath Roles Roles 
+Role 
+Role has bearer
+_balances _allowances _totalSupply c c c c _name _symbol _decimals _pausers _paused _minters 
+totalSupply balanceOf transfer allowance approve transferFrom totalSupply balanceOf transfer allowance approve transferFrom increaseAllowance decreaseAllowance _transfer _mint _burn _approve _burnFrom add sub mul div mod add remove has name symbol decimals isPauser addPauser renouncePauser _addPauser _removePauser paused pause unpause transfer transferFrom approve increaseAllowance decreaseAllowance isMinter addMinter renounceMinter _addMinter _removeMinter mint 
+ERC20 inherits from IERC20 ERC20Detailed inherits from IERC20 Pausable inherits from PauserRole ERC20Pausable inherits from ERC20 ERC20Pausable inherits from Pausable ERC20Mintable inherits from ERC20 ERC20Mintable inherits from MinterRole ABCToken inherits from ERC20 ABCToken inherits from ERC20Detailed ABCToken inherits from ERC20Pausable ABCToken inherits from ERC20Mintable 
+onlyPauser whenNotPaused whenPaused onlyMinter 
+Transfer Approval PauserAdded PauserRemoved Paused Unpaused MinterAdded MinterRemoved 
+ is equal to _balances sender sub
+ is equal to _balances recipient add
+_totalSupply is equal to _totalSupply add
+ is equal to _balances account add
+_totalSupply is equal to _totalSupply sub
+ is equal to _balances account sub
+ is equal to value
+If a corresponds to 0
+ is equal to True
+ is equal to False
+_name is equal to name
+_symbol is equal to symbol
+_decimals is equal to decimals
+_paused is equal to False
+_paused is equal to True
+_paused is equal to False

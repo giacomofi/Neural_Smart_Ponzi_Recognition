@@ -1,0 +1,109 @@
+solidity ^0.4.24 
+IERC20 SafeMath ERC20Detailed MULTIFOMO 
+SafeMath 
+c c c c d _Tokendecimals _Tokenname _Tokensymbol _FOMOTokenBalances _allowed _totalSupply name symbol referralRate totalBondValue dayBlockFactor contractETH bondOwner bondPrice basePrice bondPreviousPrice ownerAccounts totalBondDivs totalBondDivsETH bondDeadline jackpotPaid bondBlockNumber ownerAccountsETH bondPriceIncrement totalDivsProduced maxBonds bondDeadlineInc initialPrice fomoPot nextAvailableBond allowReferral allowAutoNewBond devDivRate ownerDivRate fomoPotRate contractBalance dev tokenSupply_ boolContractActive tokenName tokenSymbol tokenDecimals tokenPrice FOMOFund _value _sender tokensToBuy _baseDividends _ownerDividends _potDividends _referralDividends _previousOwner _newOwner extendAmount devFee jackpotFee _distAmountLocal tokensToTransfer i i tokensToTransfer counter _totalVal 
+totalSupply balanceOf allowance transfer approve transferFrom mul div sub add ceil name symbol decimals totalSupply myTokens balanceOf allowance  buy ownerExtend distributeJackpot setName setSymbol setInitialPrice setMaxbonds setBondDeadline setBondPrice addNewbond setAllowReferral setAutoNewbond setRates transfer multiTransfer multiSend approve transferFrom increaseAllowance decreaseAllowance burn _burn burnFrom distributeFund getBondPrice getBondOwner gettotalBondDivs getTotalDivsProduced totalEthereumBalance getTotalBondValue 
+ERC20Detailed inherits from IERC20 MULTIFOMO inherits from ERC20Detailed 
+onlyOwner onlyActive 
+Transfer Approval Jackpot onBondBuy onWithdrawETH onWithdrawTokens transferBondEvent 
+If a corresponds to 0
+_Tokendecimals is equal to decimals
+_Tokenname is equal to name
+_Tokensymbol is equal to symbol
+dev is equal to msg sender
+nextAvailableBond is equal to 7
+ is equal to dev
+ is equal to 1 ether
+ is equal to 
+ is equal to 0
+ is equal to True
+ is equal to SafeMath add
+ is equal to dev
+ is equal to 0.5 ether
+ is equal to 
+ is equal to 0
+ is equal to True
+ is equal to SafeMath add
+ is equal to dev
+ is equal to 0.3 ether
+ is equal to 
+ is equal to 0
+ is equal to True
+ is equal to SafeMath add
+ is equal to dev
+ is equal to 0.2 ether
+ is equal to 
+ is equal to 0
+ is equal to True
+ is equal to SafeMath add
+ is equal to dev
+ is equal to 0.1 ether
+ is equal to 
+ is equal to 0
+ is equal to True
+ is equal to SafeMath add
+ is equal to dev
+ is equal to 0.05 ether
+ is equal to 
+ is equal to 0
+ is equal to True
+ is equal to SafeMath add
+If block number is greater then 
+ is equal to 
+ is equal to 0
+ is equal to SafeMath add
+FOMOFund is equal to SafeMath add
+_totalSupply is equal to _totalSupply plus tokensToBuy multiplied by 2
+totalDivsProduced is equal to SafeMath add
+ is equal to SafeMath add
+_ownerDividends is equal to SafeMath add
+If allowReferral Invalid symbol  Invalid symbol 
+_potDividends is equal to SafeMath sub
+ is equal to _newOwner
+fomoPot is equal to SafeMath add
+ is equal to SafeMath add
+ is equal to _value
+ is equal to SafeMath div
+ is equal to  plus msg value
+ is equal to SafeMath add
+fomoPot is equal to fomoPot plus jackpotFee
+ is equal to SafeMath add
+name is equal to _name
+symbol is equal to _symbol
+initialPrice is equal to _price
+maxBonds is equal to _bond
+bondDeadlineInc is equal to _value
+ is equal to 0
+ is equal to _price
+ is equal to _price
+ is equal to dev
+ is equal to 0
+ is equal to 0
+ is equal to SafeMath add
+nextAvailableBond is equal to nextAvailableBond plus 1
+allowReferral is equal to _allowReferral
+allowAutoNewBond is equal to _autoNewBond
+devDivRate is equal to _newDevRate
+ownerDivRate is equal to _newOwnerRate
+fomoPotRate is equal to _newPotRate
+ is equal to msg sender sub
+ is equal to _FOMOTokenBalances to add
+i is less then receivers length
+i is less then receivers length
+ is equal to _FOMOTokenBalances receivers i add
+FOMOFund is equal to FOMOFund sub
+ is equal to value
+ is equal to _FOMOTokenBalances from sub
+ is equal to _FOMOTokenBalances to add
+ is equal to _allowed from msg sender sub
+ is equal to 
+ is equal to 
+_totalSupply is equal to _totalSupply sub
+ is equal to _FOMOTokenBalances account sub
+ is equal to _allowed account msg sender sub
+FOMOFund is equal to FOMOFund sub
+ is equal to _FOMOTokenBalances _to add
+While counter is less then nextAvailableBond
+_totalVal is equal to SafeMath add
+counter is equal to counter plus 1
+totalBondValue is equal to _totalVal

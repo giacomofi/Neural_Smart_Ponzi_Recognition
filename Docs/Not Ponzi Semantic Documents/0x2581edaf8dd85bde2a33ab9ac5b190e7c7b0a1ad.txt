@@ -1,0 +1,8 @@
+solidity >0.4.99<0.6.0 
+Username 
+username owner oldUserName 
+Update 
+Updated 
+ is equal to msg sender
+ is equal to 
+ is equal to _username

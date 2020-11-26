@@ -1,0 +1,20 @@
+solidity 0.4.13 
+Token RegularToken UnboundedRegularToken DOCBToken 
+balances allowed totalSupply MAX_UINT allowance totalSupply decimals name symbol 
+totalSupply balanceOf transfer transferFrom approve allowance transfer transferFrom balanceOf approve allowance transferFrom DOCBToken 
+RegularToken inherits from Token UnboundedRegularToken inherits from RegularToken DOCBToken inherits from UnboundedRegularToken 
+Transfer Approval 
+If  is greater or equal to _value Invalid symbol 
+ decreases of _value
+ increments of _value
+If  is greater or equal to _value Invalid symbol  Invalid symbol 
+ increments of _value
+ decreases of _value
+ decreases of _value
+ is equal to _value
+If  is greater or equal to _value Invalid symbol  Invalid symbol 
+ increments of _value
+ decreases of _value
+If allowance is less then MAX_UINT
+ decreases of _value
+ is equal to totalSupply

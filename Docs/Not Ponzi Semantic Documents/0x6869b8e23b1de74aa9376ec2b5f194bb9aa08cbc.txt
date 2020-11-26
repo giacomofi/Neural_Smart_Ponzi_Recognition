@@ -1,0 +1,60 @@
+solidity ^0.4.23 
+OpenAndWinEtherPotGame 
+owner latestBlockNumber cumulativeHash bets winners ownerShare winnerShare splitAllowed gameRunCounter incremental minEntriesRequiredPerGame playerCount potSize autoDistributeWinning autoWithdrawWinner isRunning minEntryInWei _wei successDrawWinnerFlag _wei successDrawWinnerFlag boolSuccessFlag _finalHash _randomInt _winner amountWon ownerAmt winnerAmt _finalHash _randomInt _winner amountWon ownerAmt winnerAmt amount potAmount 
+ placeBet drawAutoWinner drawWinner withdraw _onlyAdmin_GetGameInformation _onlyAdmin_ToggleGame _onlyAdmin_SetMinEntriesRequiredPerGame _onlyAdmin_setMinBetAmountInWei getBet getNumberOfBets minEntriesRequiredPerGame _onlyAdmin_Destroy 
+onlyOwner 
+betPlaced betStarted betAccepted betNotPlaced startWinnerDraw amountWonByOwner amountWonByWinner startWithDraw successWithDraw rollbackWithDraw showParticipants showBetNumber calledConstructor successDrawWinner notReadyDrawWinner 
+owner is equal to msg sender
+latestBlockNumber is equal to block number
+cumulativeHash is equal to 
+If isRunning corresponds to True
+cumulativeHash is equal to keccak256
+latestBlockNumber is equal to block number
+potSize is equal to potSize plus msg value
+If autoWithdrawWinner corresponds to True
+If bets length is greater or equal to minEntriesRequiredPerGame
+gameRunCounter is equal to gameRunCounter plus incremental
+If isRunning corresponds to True
+cumulativeHash is equal to keccak256
+latestBlockNumber is equal to block number
+potSize is equal to potSize plus msg value
+If autoWithdrawWinner corresponds to True
+If bets length is greater or equal to minEntriesRequiredPerGame
+gameRunCounter is equal to gameRunCounter plus incremental
+latestBlockNumber is equal to block number
+If splitAllowed corresponds to True
+ is equal to winnerAmt
+If autoDistributeWinning corresponds to True
+ is equal to 0
+
+ is equal to winnerAmt
+ is equal to amountWon
+If autoDistributeWinning corresponds to True
+ is equal to 0
+
+ is equal to amountWon
+cumulativeHash is equal to 
+potSize is equal to 0
+boolSuccessFlag is equal to True
+latestBlockNumber is equal to block number
+If splitAllowed corresponds to True
+ is equal to winnerAmt
+If autoDistributeWinning corresponds to True
+ is equal to 0
+
+ is equal to winnerAmt
+ is equal to amountWon
+If autoDistributeWinning corresponds to True
+ is equal to 0
+
+ is equal to amountWon
+cumulativeHash is equal to 
+potSize is equal to 0
+ is equal to 0
+
+ is equal to amount
+If isRunning corresponds to False
+isRunning is equal to True
+isRunning is equal to False
+minEntriesRequiredPerGame is equal to entries
+minEntryInWei is equal to amount

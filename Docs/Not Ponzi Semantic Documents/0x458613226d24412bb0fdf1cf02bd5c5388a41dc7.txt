@@ -1,0 +1,38 @@
+solidity 0.5.14 
+Context Roles LexDAORole SafeMath IERC20 ICHAI ICERC20 LexGrow 
+Roles SafeMath 
+Role Escrow 
+Role has bearer
+Escrow has client
+Escrow has provider
+Escrow has deposit
+Escrow has wrap
+Escrow has termination
+Escrow has index
+Escrow has details
+Escrow has dsr
+Escrow has disputed
+Escrow has released
+_lexDAOs c c c c daiAddress dai chaiAddress chai usdcAddress usdc cUSDCAddress cUSDC vault manager version escrowFee lxg emoji escrow index balance exchangeRateMantissa supplyRateMantissa balance mintResult index escr escr escr escr 
+_msgSender _msgData add remove has isLexDAO addLexDAO renounceLexDAO _addLexDAO _removeLexDAO add sub sub mul div div mod mod totalSupply balanceOf transfer allowance approve transferFrom balanceOf transfer dai dai join balanceOf transfer mint exchangeRateCurrent supplyRatePerBlock registerDAI registerUSDC release withdraw dispute resolve newEscrowFee transferManager 
+LexDAORole inherits from Context LexGrow inherits from LexDAORole 
+onlyLexDAO 
+LexDAOAdded LexDAORemoved Transfer Approval Log Registered Released Disputed Resolved ManagerTransferred 
+ is equal to True
+ is equal to False
+If a corresponds to 0
+manager is equal to msg sender
+escrowFee is equal to 0
+lxg is equal to lxg add
+ is equal to Escrow
+lxg is equal to lxg add
+ is equal to Escrow
+If escr dsr corresponds to True
+escr released is equal to True
+If escr dsr corresponds to True
+escr released is equal to True
+escr disputed is equal to True
+If escr dsr corresponds to True
+escr released is equal to True
+escrowFee is equal to weiAmount
+manager is equal to newManager

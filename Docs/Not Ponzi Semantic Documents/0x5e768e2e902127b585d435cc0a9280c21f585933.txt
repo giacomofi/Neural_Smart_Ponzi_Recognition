@@ -1,0 +1,18 @@
+solidity 0.5.7 
+SafeMath Ownable IERC20 Airdrop 
+SafeMath 
+c c c c _owner _tokenAddress token i verificationValue i token i token thisAddress tokenBalance owner 
+mul div sub add mod owner isOwner renounceOwnership transferOwnership _transferOwnership transfer approve transferFrom totalSupply balanceOf allowance tokenAddress setTokenAddress airdrop airdropAfterVerification claimTokens 
+Airdrop inherits from Ownable 
+onlyOwner 
+OwnershipTransferred Transfer Approval TokenAddressChanged ClaimedTokens 
+If a corresponds to 0
+_owner is equal to msg sender
+_owner is equal to 
+_owner is equal to newOwner
+_tokenAddress is equal to tokenAddress
+_tokenAddress is equal to newTokenAddress
+i is less then _addrs length
+i is less then _values length
+verificationValue is equal to verificationValue add
+i is less then _addrs length

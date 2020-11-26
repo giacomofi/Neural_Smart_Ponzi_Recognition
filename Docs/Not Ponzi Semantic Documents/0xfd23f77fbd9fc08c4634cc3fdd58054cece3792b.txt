@@ -1,0 +1,5 @@
+solidity 0.6.5 experimental ABIEncoderV2 
+ProtocolAdapter Proxy Synthetix SynthetixAssetAdapter 
+override override synthetix 
+adapterType tokenType getBalance target collateral getBalance 
+SynthetixAssetAdapter inherits from ProtocolAdapter 

@@ -1,0 +1,34 @@
+FivePercent 
+Participant 
+Participant has etherAddress
+Participant has amount
+participants payoutIdx balance factor amount idx transactionAmount 
+ init Infos participantDetails 
+If msg value is less then 10 finney
+If msg value is greater then 10 ether
+amount is equal to 10 ether
+amount is equal to msg value
+participants length increments of 1
+participants idx etherAddress is equal to msg sender
+participants idx amount is equal to amount
+balance increments of amount
+While balance is greater then factor multiplied by participants payoutIdx amount divided by 100
+balance decreases of transactionAmount
+payoutIdx increments of 1
+BalanceInFinney is equal to balance divided by 1 finney
+PayOutIndex is equal to payoutIdx
+Participants is equal to participants length
+NextPayout is equal to factor multiplied by participants payoutIdx amount divided by 1 finney
+NextPayout is equal to NextPayout divided by 100
+info is equal to All amounts in Finney (1 Ether = 1000 Finney)
+PaidOut is equal to N.A.
+Address is equal to 0
+PayinInFinney is equal to 0
+PayoutInFinney is equal to 0
+If nr is less then participants length
+Address is equal to participants nr etherAddress
+PayinInFinney is equal to participants nr amount divided by 1 finney
+PayoutInFinney is equal to factor multiplied by PayinInFinney divided by 100
+PaidOut is equal to no
+If nr is less then payoutIdx
+PaidOut is equal to yes

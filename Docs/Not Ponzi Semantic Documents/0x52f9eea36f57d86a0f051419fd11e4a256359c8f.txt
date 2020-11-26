@@ -1,0 +1,10 @@
+solidity 0.5.16 experimental ABIEncoderV2 
+IERC20 IRegistry Proxy 
+tokens HANDLER_REGISTRY slot slot i token amount amount 
+totalSupply balanceOf transfer allowance approve transferFrom isValid  _getRegistry _isValid batchExec _exec _preProcess _postProcess 
+isTokenEmpty 
+Transfer Approval 
+i is less then tos length
+While tokens length is greater then 0
+If amount is greater then 0
+If amount is greater then 0

@@ -1,0 +1,13 @@
+ZeroPonzi 
+Payout 
+Payout has addr
+Payout has yield
+MIN_VALUE MAX_VALUE RET_MUL RET_DIV payouts payoutIndex payoutTotal entryIndex 
+ZeroPonzi  
+If  Invalid symbol 
+payouts length increments of 1
+payouts entryIndex addr is equal to msg sender
+payouts entryIndex yield is equal to  divided by RET_DIV
+While payouts payoutIndex yield is less then this balance
+payoutTotal increments of payouts payoutIndex yield
+payoutIndex increments of 1

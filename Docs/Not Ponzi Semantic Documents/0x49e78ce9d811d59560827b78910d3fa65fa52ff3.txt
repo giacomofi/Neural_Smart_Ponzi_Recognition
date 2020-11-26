@@ -1,0 +1,27 @@
+solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity 0.5.12 solidity 0.5.12 solidity 0.5.12 solidity 0.5.12 solidity 0.5.12 solidity 0.5.12 solidity 0.5.12 
+SafeMath IERC20 ERC20Detailed Context Ownable IAuthorization ILoanContract IDAIProxy IUniswapSwapper IUniswapSwapperFactory IERC20Wrapper ERC20Wrapper DAIProxy 
+SafeMath 
+c c c c _name _symbol _decimals _owner returnValue auth administrator swapperFactoryAddress hasToDeposit swapEnabled outputTokenAddress newFundingAmount outputTokenAddress newFundingAmount swapperAddress swapperAddress newFundingAmount newFundingAmount auctionBalance maxAmount loanContract tokenAddress balance 
+add sub sub mul div div mod mod totalSupply balanceOf transfer allowance approve transferFrom name symbol decimals _msgSender _msgData owner isOwner renounceOwnership transferOwnership _transferOwnership getKycAddress getDepositAddress hasDeposited isKYCConfirmed setKYCRegistry setDepositRegistry onFundingReceived withdrawRepayment withdrawRepaymentAndDeposit withdrawLoan onRepaymentReceived getInterestRate calculateValueWithInterest getMaxAmount getAuctionBalance getTokenAddress fund repay init isDestroyed swap swapEth setUniswapAddress setLibraryAddress deploy totalSupply balanceOf allowance transfer transferFrom approve symbol balanceOf allowance transfer transferFrom approve isIssuedToken checkSuccess setDepositRequeriment setUniswapSwapper toggleUniswap setAdministrator setAuthAddress swapTokenAndFund swapEthAndFund _swapToken _swapEth fund _calculateFunds repay transfer 
+ERC20Detailed inherits from IERC20 Ownable inherits from Context DAIProxy inherits from IDAIProxy DAIProxy inherits from Ownable 
+onlyOwner onlyKYCCanFund uniswapIsEnabled onlyHasDepositCanFund onlyAdmin 
+Transfer Approval OwnershipTransferred Swap SwapContract AuthAddressUpdated AdministratorUpdated HasToDeposit 
+If a corresponds to 0
+_name is equal to name
+_symbol is equal to symbol
+_decimals is equal to decimals
+_owner is equal to _msgSender
+_owner is equal to 
+_owner is equal to newOwner
+
+
+
+auth is equal to IAuthorization
+swapperFactoryAddress is equal to _swapperFactoryAddress
+hasToDeposit is equal to value
+swapperFactoryAddress is equal to value
+swapEnabled is equal to value
+administrator is equal to admin
+auth is equal to IAuthorization
+If auctionBalance add is greater then maxAmount
+newFundingAmount is equal to maxAmount sub

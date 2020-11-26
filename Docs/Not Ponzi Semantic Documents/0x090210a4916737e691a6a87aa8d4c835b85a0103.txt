@@ -1,0 +1,20 @@
+solidity ^0.5.7 
+SafeMath IERC20 Ownable HtcToken 
+SafeMath 
+c _owner _token balance _name _symbol _decimals _cap _totalSupply _minter _balances _allowed 
+add sub mul div mod name symbol decimals totalSupply balanceOf transfer transferFrom approve allowance owner transferOwnership rescueTokens  name symbol decimals cap totalSupply balanceOf allowance transfer approve increaseAllowance decreaseAllowance transferFrom _transfer _approve isMinter setMinterState mint _mint 
+HtcToken inherits from Ownable HtcToken inherits from IERC20 
+onlyOwner onlyMinter 
+Transfer Approval OwnershipTransferred Mint MinterChanged Donate 
+c is equal to a plus b
+If a corresponds to 0
+c is equal to a multiplied by b
+_owner is equal to msg sender
+_owner is equal to newOwner
+ is equal to True
+ is equal to _balances from sub
+ is equal to _balances to add
+ is equal to value
+ is equal to state
+_totalSupply is equal to _totalSupply add
+ is equal to _balances account add

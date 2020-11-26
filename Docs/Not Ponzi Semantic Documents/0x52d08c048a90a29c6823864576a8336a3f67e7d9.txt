@@ -1,0 +1,36 @@
+solidity ^0.4.11 
+RMBTT 
+name symbol decimals _totalSupply balances allowed baseStartTime founder _freeAmount _freeAmount 
+totalSupply balanceOf approve allowance RMBTT setStartTime distribute transfer freeAmount changeFounder transferFrom mintToken burn burnFrom 
+onlyOwner 
+AllocateFounderTokens Transfer Approval Burn 
+ is equal to _value
+founder is equal to msg sender
+If msg sender is different from founder
+baseStartTime is equal to _startTime
+If msg sender is different from founder
+If _amount is greater then _totalSupply
+ increments of _amount
+If msg sender is different from founder
+If now is less then baseStartTime
+If  is greater or equal to _value Invalid symbol 
+If _freeAmount is less then _value
+ decreases of _value
+ increments of _value
+If user corresponds to founder
+If now is less then baseStartTime
+If msg sender is different from founder
+founder is equal to newFounder
+If msg sender is different from founder
+If  is greater or equal to _value Invalid symbol  Invalid symbol 
+If _freeAmount is less then _value
+ increments of _value
+ decreases of _value
+ decreases of _value
+ increments of mintedAmount
+_totalSupply increments of mintedAmount
+ decreases of _value
+_totalSupply decreases of _value
+ decreases of _value
+ decreases of _value
+_totalSupply decreases of _value

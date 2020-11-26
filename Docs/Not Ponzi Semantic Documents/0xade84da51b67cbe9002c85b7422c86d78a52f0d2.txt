@@ -1,0 +1,29 @@
+solidity 0.4.24 
+SafeMath Owned Pausable tokenRecipient OMAToken 
+SafeMath 
+owner paused symbol name decimals totalSupply balanceOf allowance frozenAccount frozenAmount amount spender 
+mul div sub add transferOwnership pause unpause receiveApproval _transfer transfer transferFrom approve approveAndCall burn freezeAccount freezeAmount unfreezeAmount 
+Pausable inherits from Owned OMAToken inherits from Pausable 
+onlyOwner whenNotPaused whenPaused 
+Pause Unpause Transfer Approval Burn FrozenFunds FrozenAmt UnfrozenAmt 
+If a corresponds to 0
+c is equal to a multiplied by b
+c is equal to a plus b
+owner is equal to msg sender
+owner is equal to newOwner
+paused is equal to True
+paused is equal to False
+totalSupply is equal to initialSupply multiplied by 10 Invalid symbol 
+ is equal to totalSupply
+name is equal to tokenName
+symbol is equal to tokenSymbol
+ is equal to amount
+ is equal to balanceOf _to add
+ is equal to allowance _from msg sender sub
+ is equal to _value
+
+ is equal to msg sender sub
+totalSupply is equal to totalSupply sub
+ is equal to freeze
+ is equal to _value
+ is equal to 0

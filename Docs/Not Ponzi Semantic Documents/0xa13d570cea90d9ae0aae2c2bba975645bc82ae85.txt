@@ -1,0 +1,37 @@
+solidity ^0.4.18 
+Ownable ERC20Basic SafeMath Pausable Whitelist BasicToken ERC20 StandardToken RIZIN 
+SafeMath SafeMath 
+owner totalSupply c c c isPaused whitelistToggle whitelistedAccounts balances allowed oldValue name symbol decimals burners totalBurned 
+Ownable transferOwnership balanceOf transfer mul div sub add pause unpause addWhitelist removeWhitelist toggle untoggle isWhiteListed transfer balanceOf allowance transferFrom approve transferFrom approve allowance increaseApproval decreaseApproval RIZIN addBurner burn 
+Pausable inherits from Ownable Whitelist inherits from Ownable BasicToken inherits from ERC20Basic BasicToken inherits from Pausable BasicToken inherits from Whitelist ERC20 inherits from ERC20Basic StandardToken inherits from ERC20 StandardToken inherits from BasicToken RIZIN inherits from StandardToken 
+onlyOwner whenPaused whenNotPaused onlyWhitelisted 
+OwnershipTransferred Transfer Pause Unpause Whitelisted UnWhitelisted ToggleWhitelist UntoggleWhitelist Approval Burned AssignedBurner 
+owner is equal to msg sender
+owner is equal to newOwner
+If a corresponds to 0
+isPaused is equal to True
+isPaused is equal to False
+ is equal to True
+ is equal to False
+whitelistToggle is equal to True
+whitelistToggle is equal to False
+ is equal to msg sender sub
+ is equal to balances _to add
+ is equal to balances _from sub
+ is equal to balances _to add
+ is equal to allowed _from msg sender sub
+ is equal to _value
+ is equal to msg sender _spender add
+If _subtractedValue is greater then oldValue
+ is equal to 0
+ is equal to oldValue sub
+name is equal to RIZIN
+symbol is equal to RZN
+decimals is equal to 2
+totalSupply is equal to 1000000000000
+totalBurned is equal to 0
+ is equal to 1000000000000
+ is equal to True
+ is equal to msg sender sub
+totalSupply is equal to totalSupply sub
+totalBurned is equal to totalBurned add

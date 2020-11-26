@@ -1,0 +1,20 @@
+solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.10 
+Context Ownable HintoTips 
+Tip 
+Tip has publisher
+Tip has tipCode
+Tip has tipMetaSha256Hash
+Tip has recipients
+Tip has isValid
+_owner publishers tipsCount tips tip 
+_msgSender _msgData owner isOwner renounceOwnership transferOwnership _transferOwnership approvePublisher disapprovePublisher publishTip invalidateTip getTipsCount getTip 
+Ownable inherits from Context HintoTips inherits from Ownable 
+onlyOwner isPublisher tipExists 
+OwnershipTransferred ApprovePublisher PublisherDisapproved TipPublished TipVoided 
+_owner is equal to _msgSender
+_owner is equal to 
+_owner is equal to newOwner
+ is equal to True
+ is equal to False
+ is equal to tip
+tips _tipId isValid is equal to False

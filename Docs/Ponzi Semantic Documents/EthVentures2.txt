@@ -1,0 +1,39 @@
+EthVentures 
+InvestorArray 
+InvestorArray has etherAddress
+InvestorArray has amount
+InvestorArray has percentage_ownership
+investors total_investors fees balance totaldeposited totalpaidout totaldividends Message_To_Investors owner PRE_inv_length PRE_payout PRE_amount PRE_i amount inv_length alreadyinvestor alreadyinvestor_id i 
+EthVentures  Enter NewOwner Emergency NewMessage 
+manager 
+owner is equal to msg sender
+If msg value is less then 5 ether
+totalpaidout increments of PRE_amount divided by 100
+PRE_amount is equal to PRE_amount minus PRE_amount divided by 100
+If PRE_inv_length is different from 0 Invalid symbol 
+PRE_i is less then PRE_inv_length
+PRE_payout is equal to PRE_amount multiplied by investors PRE_i percentage_ownership divided by 10000000000
+totalpaidout increments of PRE_payout
+totaldividends increments of PRE_payout
+fees is equal to amount divided by 100
+balance increments of amount
+totaldeposited increments of amount
+i is less then inv_length
+If msg sender corresponds to investors i etherAddress
+alreadyinvestor is equal to True
+alreadyinvestor_id is equal to i
+If alreadyinvestor corresponds to False
+total_investors is equal to inv_length plus 1
+investors length increments of 1
+investors inv_length etherAddress is equal to msg sender
+investors inv_length amount is equal to amount
+investors inv_length percentage_ownership is equal to investors inv_length amount divided by totaldeposited multiplied by 10000000000
+investors alreadyinvestor_id amount increments of amount
+investors alreadyinvestor_id percentage_ownership is equal to investors alreadyinvestor_id amount divided by totaldeposited multiplied by 10000000000
+If fees is different from 0
+If balance is greater then fees
+balance decreases of fees
+totalpaidout increments of fees
+owner is equal to new_owner
+If balance is different from 0
+Message_To_Investors is equal to new_sms

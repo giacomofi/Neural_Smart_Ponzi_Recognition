@@ -1,0 +1,42 @@
+solidity >=0.4.21<0.6.0 
+SafeMath MultiSigInterface MultiSigTools AddressArray TransferableToken TokenClaimer TokenInterface PeriodMint 
+SafeMath AddressArray 
+multisig_contract hash old i i index index token balance token_contract last_block_num period_block_num period_share total_alloc_share share_amounts shareholders admin interval periods total_allocation total_shares i t 
+safeAdd safeSub safeMul safeDiv update_and_check_reach_majority is_signer transfer_multisig exists index_of remove replace balanceOf transfer transferFrom _claimStdTokens destroyTokens generateTokens issue delegate_admin cancel_delegate_admin shareholder_exists _internal_add_shareholder admin_add_shareholder add_shareholder _internal_config_shareholder config_shareholder admin_config_shareholder _internal_remove_shareholder remove_shareholder admin_remove_shareholder get_total_allocation get_share status set_issue_period_param get_shareholders_count get_shareholder_amount_with_index 
+TokenInterface inherits from TransferableToken PeriodMint inherits from MultiSigTools 
+only_signer is_majority_sig only_admin 
+TransferMultiSig ClaimedTokens 
+c is equal to a plus b
+c is equal to a minus b
+c is equal to a multiplied by b
+c is equal to a divided by b
+multisig_contract is equal to MultiSigInterface
+multisig_contract is equal to MultiSigInterface
+i is less then self length
+If  corresponds to addr
+i is less then self length
+If  corresponds to addr
+ is equal to 
+ is equal to new_addr
+If _token corresponds to 
+token_contract is equal to TokenInterface
+last_block_num is equal to _start_block
+period_block_num is equal to _period
+period_share is equal to _period_share
+total_alloc_share is equal to 0
+admin is equal to 
+If periods corresponds to 0
+last_block_num is equal to last_block_num safeAdd
+i is less then shareholders length
+If  corresponds to 0
+admin is equal to _admin
+admin is equal to 
+ is equal to amount
+total_alloc_share is equal to total_alloc_share safeAdd
+total_alloc_share is equal to total_alloc_share safeSub
+total_alloc_share is equal to total_alloc_share safeAdd
+ is equal to amount
+total_alloc_share is equal to total_alloc_share safeSub
+ is equal to 0
+period_block_num is equal to block_num
+period_share is equal to share

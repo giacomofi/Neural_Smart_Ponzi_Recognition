@@ -1,0 +1,37 @@
+solidity >=0.4.21<0.6.0 
+MultiSigInterface MultiSigTools TrustListInterface TrustListTools TransferableToken TokenClaimer SafeMath IERC20Auction IERC20AuctionFactory IERC20DepositPool IERC20AuctionOpProxy ERC20TokenBankInterface ERC20Auction 
+multisig_contract hash old list token balance auction_proxy minimum_object_amount minimum_bid_price obj_price_unit auction_start_block auction_end_block current_buyer current_bid_price current_bid_amount is_auction_settled auction_creator 
+update_and_check_reach_majority is_signer transfer_multisig is_trusted balanceOf transfer transferFrom _claimStdTokens safeAdd safeSub safeMul safeDiv is_expired is_finished auction_expiration createERC20Auction deposit transfer withdraw lock unlock outside_transfer internal_transfer add_auction apply_bid revoke_bid apply_auction object_token object_total_amount balance token issue auction_info hammer_info object_token object_total_amount bid is_expired is_finished auction_expiration claimStdTokens 
+ERC20Auction inherits from IERC20Auction ERC20Auction inherits from MultiSigTools ERC20Auction inherits from TokenClaimer 
+only_signer is_majority_sig is_trusted 
+TransferMultiSig ClaimedTokens Transfer OutsideTransfer InternalTransfer DepositERC20 WithdrawERC20 LockERC20 UnlockERC20 Bid 
+multisig_contract is equal to MultiSigInterface
+multisig_contract is equal to MultiSigInterface
+list is equal to TrustListInterface
+If _token corresponds to 
+c is equal to a plus b
+c is equal to a minus b
+c is equal to a multiplied by b
+c is equal to a divided by b
+auction_proxy is equal to IERC20AuctionOpProxy
+minimum_object_amount is equal to _min_obj_amount
+minimum_bid_price is equal to _min_bid_price
+obj_price_unit is equal to _obj_price_unit
+auction_start_block is equal to _start_block
+auction_end_block is equal to _end_block
+auction_creator is equal to _creator
+current_buyer is equal to 
+current_bid_price is equal to 0
+current_bid_amount is equal to 0
+is_auction_settled is equal to False
+buyer is equal to current_buyer
+price is equal to current_bid_price
+amount is equal to current_bid_amount
+If price corresponds to current_bid_price
+If current_buyer is different from 
+current_buyer is equal to msg sender
+current_bid_price is equal to price
+current_bid_amount is equal to amount
+If current_buyer corresponds to 
+is_auction_settled is equal to True
+is_auction_settled is equal to True

@@ -1,0 +1,30 @@
+solidity ^0.5.0 
+SafeMath Ownable Roles MinterRole IERC20 ERC20 ERC20Mintable ERC20Capped ERC20Detailed PauserRole Pausable ERC20Pausable Pngcoin 
+Roles SafeMath Roles 
+Role 
+Role has bearer
+c c c c _owner _minters _balances _allowances _totalSupply _cap _name _symbol _decimals _pausers _paused _name _symbol _decimals _initialSupply _cap 
+add sub mul div mod owner isOwner renounceOwnership transferOwnership _transferOwnership add remove has isMinter addMinter renounceMinter _addMinter _removeMinter totalSupply balanceOf transfer allowance approve transferFrom totalSupply balanceOf transfer allowance approve transferFrom increaseAllowance decreaseAllowance _transfer _mint _burn _approve _burnFrom mint cap _mint name symbol decimals isPauser addPauser renouncePauser _addPauser _removePauser paused pause unpause transfer transferFrom approve increaseAllowance decreaseAllowance transfer transferFrom approve checkpoint 
+ERC20 inherits from IERC20 ERC20Mintable inherits from ERC20 ERC20Mintable inherits from MinterRole ERC20Capped inherits from ERC20Mintable ERC20Detailed inherits from IERC20 Pausable inherits from PauserRole ERC20Pausable inherits from ERC20 ERC20Pausable inherits from Pausable Pngcoin inherits from ERC20Capped Pngcoin inherits from ERC20Detailed Pngcoin inherits from Pausable Pngcoin inherits from Ownable 
+onlyOwner onlyMinter onlyPauser whenNotPaused whenPaused 
+OwnershipTransferred MinterAdded MinterRemoved Transfer Approval PauserAdded PauserRemoved Paused Unpaused Checkpoint 
+If a corresponds to 0
+_owner is equal to msg sender
+_owner is equal to 
+_owner is equal to newOwner
+ is equal to True
+ is equal to False
+ is equal to _balances sender sub
+ is equal to _balances recipient add
+_totalSupply is equal to _totalSupply add
+ is equal to _balances account add
+_totalSupply is equal to _totalSupply sub
+ is equal to _balances account sub
+ is equal to value
+_cap is equal to cap
+_name is equal to name
+_symbol is equal to symbol
+_decimals is equal to decimals
+_paused is equal to False
+_paused is equal to True
+_paused is equal to False

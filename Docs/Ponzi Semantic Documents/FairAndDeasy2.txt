@@ -1,0 +1,20 @@
+solidity ^0.4.5 
+fairandeasy 
+Person 
+Person has etherAddress
+Person has amount
+persons payoutIdx balance owner amount idx transactionAmount 
+fairandeasy  enter setOwner 
+onlyowner 
+owner is equal to msg sender
+If msg value is less then 1 divided by 100 ether
+If msg value is greater then 50 ether
+amount is equal to 50 ether
+amount is equal to msg value
+persons length increments of 1
+persons idx etherAddress is equal to msg sender
+persons idx amount is equal to amount
+While balance is greater then persons payoutIdx amount divided by 100 multiplied by 150
+balance decreases of transactionAmount
+payoutIdx increments of 1
+owner is equal to _owner

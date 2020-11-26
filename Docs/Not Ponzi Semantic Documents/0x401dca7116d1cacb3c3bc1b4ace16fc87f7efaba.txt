@@ -1,0 +1,91 @@
+solidity 0.5.7 experimental ABIEncoderV2 
+SafeMath Ownable Require Math Types Account Actions SoloMargin OnlySolo TypedSignature SignedOperationProxy 
+SafeMath Math SafeMath 
+AssetAmount Par Wei Info ActionArgs Authorization OperationQueryInput 
+AssetAmount has sign
+AssetAmount has denomination
+AssetAmount has ref
+AssetAmount has value
+Par has sign
+Par has value
+Wei has sign
+Wei has value
+Info has owner
+Info has number
+ActionArgs has actionType
+ActionArgs has accountId
+ActionArgs has amount
+ActionArgs has primaryMarketId
+ActionArgs has secondaryMarketId
+ActionArgs has otherAddress
+ActionArgs has otherAccountId
+ActionArgs has data
+Authorization has numActions
+Authorization has expiration
+Authorization has salt
+Authorization has sender
+Authorization has signature
+OperationQueryInput has operationHash
+OperationQueryInput has operationSigner
+c c c c _owner ASCII_ZERO ASCII_RELATIVE_ZERO ASCII_LOWER_EX COLON COMMA LPAREN RPAREN FOUR_BIT_MASK result i length j length bstr i z result i shift z result i shift FILE result result result FILE FILE SOLO_MARGIN FILE PREPEND_DEC PREPEND_HEX NUM_SIGNATURE_BYTES r s v rawSigType sigType signedHash FILE EIP191_HEADER EIP712_DOMAIN_NAME EIP712_DOMAIN_VERSION EIP712_DOMAIN_STRING EIP712_OPERATION_STRING EIP712_ACTION_STRING EIP712_ASSET_AMOUNT_STRING EIP712_DOMAIN_SEPARATOR_SCHEMA_HASH EIP712_OPERATION_HASH EIP712_ACTION_HASH EIP712_ASSET_AMOUNT_HASH EIP712_DOMAIN_HASH g_isOperational g_invalidated actionStartIdx authIdx auth signer actionEndIdx actionIdx action numOperations output i operation operationHash signer valid actionsEncoding structHash actionsBytes i action otherAccount 
+mul div sub add mod owner isOwner renounceOwnership transferOwnership _transferOwnership that that that that that that that that stringifyTruncated stringify stringify stringify char getPartial getPartialRoundUp to128 to96 to32 min max getMarketLayout getAccountLayout operate getIsLocalOperator recover shutDown startUp cancel operate getOperationsAreInvalid getSigner validateAccountOwner getOperationHash getActionsEncoding getActionHash getAssetAmountHash 
+SignedOperationProxy inherits from OnlySolo SignedOperationProxy inherits from Ownable 
+onlyOwner onlySolo 
+OwnershipTransferred ContractStatusSet LogOperationExecuted LogOperationCanceled 
+If a corresponds to 0
+_owner is equal to msg sender
+_owner is equal to 
+_owner is equal to newOwner
+If not must
+If not must
+If not must
+If not must
+If not must
+If not must
+If not must
+If not must
+i is greater then 0
+If  is different from 0
+If input corresponds to 0
+While j is different from 0
+j is divided by 10
+j is equal to input
+i is greater then 0
+ is equal to 
+j is divided by 10
+ is equal to 
+ is equal to 
+i is less then 20
+ is equal to char
+z is equal to z Invalid symbol 4
+ is equal to char
+z is equal to z Invalid symbol 4
+ is equal to 
+ is equal to 
+i is less then 32
+ is equal to char
+z is equal to z Invalid symbol 4
+ is equal to char
+z is equal to z Invalid symbol 4
+If input is less then 10
+If target corresponds to 0 Invalid symbol 
+If actionType corresponds to Actions ActionType Deposit Invalid symbol  Invalid symbol 
+If actionType corresponds to Actions ActionType Transfer Invalid symbol 
+SOLO_MARGIN is equal to SoloMargin
+If sigType corresponds to SignatureType NoPrepend
+signedHash is equal to hash
+g_isOperational is equal to True
+EIP712_DOMAIN_HASH is equal to keccak256
+g_isOperational is equal to False
+g_isOperational is equal to True
+ is equal to True
+authIdx is less then auths length
+actionIdx is less then actionEndIdx
+If action actionType corresponds to Actions ActionType Transfer
+actionStartIdx is equal to actionEndIdx
+i is less then numOperations
+ is equal to 
+If auth signature length corresponds to 0
+ is equal to True
+i is less then auth numActions
+ is equal to getActionHash

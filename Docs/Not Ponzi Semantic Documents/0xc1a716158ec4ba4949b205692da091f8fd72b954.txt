@@ -1,0 +1,17 @@
+solidity ^0.5.0 solidity ^0.5.0 solidity 0.5.12 solidity 0.5.12 solidity 0.5.12 solidity 0.5.12 
+Context Ownable IDepositRegistry IKYCRegistry IAuthorization Authorization 
+Deposit 
+Deposit has deposited
+Deposit has unlockedForWithdrawal
+_owner kycAddress depositAddress 
+_msgSender _msgData owner isOwner renounceOwnership transferOwnership _transferOwnership setReferralTracker setERC20Token setKYC setAdministrator migrate finishMigration depositFor depositForWithReferral delegateDeposit withdraw unlockAddressForWithdrawal hasDeposited isUnlocked getERC20Token getDepositRegistryByUser isConfirmed setAdministrator removeAddressFromKYC addAddressToKYC getKycAddress getDepositAddress hasDeposited isKYCConfirmed setKYCRegistry setDepositRegistry getKycAddress getDepositAddress hasDeposited isKYCConfirmed setKYCRegistry setDepositRegistry 
+Ownable inherits from Context Authorization inherits from IAuthorization Authorization inherits from Ownable 
+onlyOwner 
+OwnershipTransferred UserDepositCompleted UserWithdrawnCompleted AddressUnlockedForWithdrawal MigrationFinished RemovedFromKYC AddedToKYC 
+_owner is equal to _msgSender
+_owner is equal to 
+_owner is equal to newOwner
+kycAddress is equal to _kycAddress
+depositAddress is equal to _depositAddress
+kycAddress is equal to _kycAddress
+depositAddress is equal to _depositAddress

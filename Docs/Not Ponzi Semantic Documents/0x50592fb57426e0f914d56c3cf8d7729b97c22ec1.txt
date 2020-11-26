@@ -1,0 +1,21 @@
+solidity ^0.6.1 
+ERC20Interface SafeMath ThaiBahtDigital 
+name symbol decimals _totalSupply balances allowed 
+totalSupply balanceOf allowance approve transfer transferFrom safeAdd safeSub safeMul safeDiv totalSupply balanceOf allowance approve transfer transferFrom 
+ThaiBahtDigital inherits from ERC20Interface ThaiBahtDigital inherits from SafeMath 
+Transfer Approval 
+c is equal to a plus b
+c is equal to a minus b
+c is equal to a multiplied by b
+c is equal to a divided by b
+name is equal to Thai Baht Digital
+symbol is equal to TBD
+decimals is equal to 2
+_totalSupply is equal to 30000000000
+ is equal to _totalSupply
+ is equal to tokens
+ is equal to safeSub
+ is equal to safeAdd
+ is equal to safeSub
+ is equal to safeSub
+ is equal to safeAdd

@@ -1,0 +1,47 @@
+solidity ^0.4.24 
+IERC165 IERC721 IERC721Receiver SafeMath Address ERC165 ERC721 IERC721Enumerable ERC721Enumerable IERC721Metadata ERC721Metadata ERC721Full ERC721Burnable ERC721Holder Ownable KumexToken 
+SafeMath Address 
+Card Paper 
+Card has name
+Card has level
+Paper has ipfsHash
+Paper has publisher
+c c c c size _InterfaceId_ERC165 _supportedInterfaces _ERC721_RECEIVED _tokenOwner _tokenApprovals _ownedTokensCount _operatorApprovals _InterfaceId_ERC721 owner owner owner owner retval _ownedTokens _ownedTokensIndex _allTokens _allTokensIndex _InterfaceId_ERC721Enumerable length tokenIndex lastTokenIndex lastToken tokenIndex lastTokenIndex lastToken _name _symbol _tokenURIs InterfaceId_ERC721Metadata _owner _decimals _totalSupply maxId creator balances allowed cards owner papers ipfsHashToTokenId paperFee _paper tokenId i _paper tokenId 
+supportsInterface balanceOf ownerOf approve getApproved setApprovalForAll isApprovedForAll transferFrom safeTransferFrom safeTransferFrom onERC721Received mul div sub add mod isContract supportsInterface _registerInterface balanceOf ownerOf approve getApproved setApprovalForAll isApprovedForAll transferFrom safeTransferFrom safeTransferFrom _exists _isApprovedOrOwner _mint _burn _clearApproval _addTokenTo _removeTokenFrom _checkAndCallSafeTransfer totalSupply tokenOfOwnerByIndex tokenByIndex tokenOfOwnerByIndex totalSupply tokenByIndex _addTokenTo _removeTokenFrom _mint _burn name symbol tokenURI name symbol tokenURI _setTokenURI _burn burn onERC721Received owner isOwner renounceOwnership transferOwnership _transferOwnership decimals totalSupply mintPaper mintPaperMass setPaperFee getPaperFee getBalanceContract withdraw 
+IERC721 inherits from IERC165 ERC165 inherits from IERC165 ERC721 inherits from ERC165 ERC721 inherits from IERC721 IERC721Enumerable inherits from IERC721 ERC721Enumerable inherits from ERC165 ERC721Enumerable inherits from ERC721 ERC721Enumerable inherits from IERC721Enumerable IERC721Metadata inherits from IERC721 ERC721Metadata inherits from ERC165 ERC721Metadata inherits from ERC721 ERC721Metadata inherits from IERC721Metadata ERC721Full inherits from ERC721 ERC721Full inherits from ERC721Enumerable ERC721Full inherits from ERC721Metadata ERC721Burnable inherits from ERC721 ERC721Holder inherits from IERC721Receiver KumexToken inherits from ERC721Full KumexToken inherits from ERC721Burnable KumexToken inherits from ERC721Holder KumexToken inherits from Ownable 
+onlyOwner 
+Transfer Approval ApprovalForAll OwnershipRenounced OwnershipTransferred 
+If a corresponds to 0
+ is equal to True
+ is equal to to
+ is equal to approved
+If  is different from 
+ is equal to 
+ is equal to to
+ is equal to _ownedTokensCount to add
+ is equal to _ownedTokensCount from sub
+ is equal to 
+If 
+ is equal to length
+ is equal to lastToken
+ is equal to 0
+ is equal to tokenIndex
+ is equal to _allTokens length
+ is equal to lastToken
+ is equal to 0
+ is equal to 0
+ is equal to tokenIndex
+_name is equal to name
+_symbol is equal to symbol
+ is equal to uri
+If  is different from 0
+_owner is equal to msg sender
+_owner is equal to 
+_owner is equal to newOwner
+_decimals is equal to 0
+_totalSupply is equal to 100000000000
+ is equal to 100000000000
+ is equal to tokenId
+i is less then amount
+ is equal to tokenId
+paperFee is equal to _fee

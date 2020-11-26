@@ -1,0 +1,35 @@
+solidity ^0.5.10 
+IMigrationContract SafeMath Token StandardToken QPCToken 
+z z z totalSupply previousBalances balances allowed name symbol decimals version ethFundDeposit newContractAddr isFunding fundingStartBlock fundingStopBlock currentSupply tokenRaised tokenMigrated tokenExchangeRate value value tokens newContract tokens tokens 
+migrate safeAdd safeSubtract safeMult balanceOf transfer transferFrom approve allowance transfer transferFrom balanceOf approve allowance formatDecimals setTokenExchangeRate increaseSupply decreaseSupply startFunding stopFunding setMigrateContract changeOwner migrate transferETH allocateToken  
+StandardToken inherits from Token QPCToken inherits from StandardToken QPCToken inherits from SafeMath 
+isOwner 
+Transfer Approval AllocateToken IssueToken IncreaseSupply DecreaseSupply Migrate 
+ decreases of _value
+ increments of _value
+ increments of _value
+ decreases of _value
+ decreases of _value
+ is equal to _value
+ethFundDeposit is equal to _ethFundDeposit
+isFunding is equal to False
+fundingStartBlock is equal to 0
+fundingStopBlock is equal to 0
+currentSupply is equal to formatDecimals
+totalSupply is equal to formatDecimals
+ is equal to totalSupply
+tokenExchangeRate is equal to _tokenExchangeRate
+currentSupply is equal to safeAdd
+currentSupply is equal to safeSubtract
+fundingStartBlock is equal to _fundingStartBlock
+fundingStopBlock is equal to _fundingStopBlock
+isFunding is equal to True
+isFunding is equal to False
+newContractAddr is equal to _newContractAddr
+ethFundDeposit is equal to _newFundDeposit
+ is equal to 0
+tokenMigrated is equal to safeAdd
+tokenRaised is equal to safeAdd
+ increments of tokens
+tokenRaised is equal to safeAdd
+ increments of tokens

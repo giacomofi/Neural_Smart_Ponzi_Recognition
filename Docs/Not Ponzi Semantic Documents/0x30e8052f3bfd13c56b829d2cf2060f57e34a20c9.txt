@@ -1,0 +1,30 @@
+solidity 0.5.17 solidity 0.5.17 solidity 0.5.17 solidity 0.5.17 solidity 0.5.17 solidity 0.5.17 solidity 0.5.17 solidity 0.5.17 solidity 0.5.17 solidity 0.5.17 solidity 0.5.17 solidity 0.5.17 
+IProxyManager IProxyActions IVat IETHJoin ITokenJoin IFlip IFlap IFlop IERC20 IProxyActionsStorage Proxy ProxyManager 
+manager store owner target owner proxyActions proxyActionsStorage timelockDuration currentTimelock pendingTimelockDuration pendingProxyActions pendingProxyActionsStorage proxies newProxy 
+proxyActions proxyActionsStorage setup hope gem dai join exit join exit tick tend dent deal tick tend deal tick dent deal totalSupply balanceOf transfer allowance approve transferFrom vat flap flop tokens decimals ilks tokenJoins flips  submitTimelockValues implementTimelockValues deploy 
+onlyOwner 
+Transfer Approval ValuesSubmittedForTimelock NewTimelockDuration NewProxyActions NewProxyActionsStorage 
+manager is equal to IProxyManager
+store is equal to IProxyActionsStorage
+owner is equal to _owner
+If msg data length is different from 0
+store is equal to IProxyActionsStorage
+owner is equal to msg sender
+proxyActions is equal to _proxyActions
+proxyActionsStorage is equal to _proxyActionsStorage
+timelockDuration is equal to 3 days
+pendingTimelockDuration is equal to _pendingTimelockDuration
+pendingProxyActions is equal to _pendingProxyActions
+pendingProxyActionsStorage is equal to _pendingProxyActionsStorage
+currentTimelock is equal to now plus timelockDuration
+If pendingTimelockDuration is different from 0
+timelockDuration is equal to pendingTimelockDuration
+pendingTimelockDuration is equal to 0
+If pendingProxyActions is different from 
+proxyActions is equal to pendingProxyActions
+pendingProxyActions is equal to 
+If pendingProxyActionsStorage is different from 
+proxyActionsStorage is equal to pendingProxyActionsStorage
+pendingProxyActionsStorage is equal to 
+currentTimelock is equal to 0
+ is equal to newProxy

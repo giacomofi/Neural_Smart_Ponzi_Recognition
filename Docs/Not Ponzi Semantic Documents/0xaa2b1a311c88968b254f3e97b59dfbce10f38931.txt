@@ -1,0 +1,37 @@
+solidity ^0.4.25 
+SafeMath Ownable Token COLLATERAL StandardToken DebitableToken RepaymentToken FlowerP 
+SafeMath SafeMath 
+c c c owner dc collateral_contract decimals balances allowed totalSupply debitingFinished rate deci _amount_1 _amount_2 _amountx debitor rate deci _unitx _value1 name symbol INITIAL_SUPPLY Image_root Note_root Document_root DigestCode_root TxHash_root ContractSource CodeVersion SecretKey_Pre Name_New TxHash_Pre DigestCode_New Image_New Note_New DebitRate 
+mul div sub add transferOwnership totalSupply balanceOf transfer transferFrom approve allowance decimals CreditRate credit repayment transfer transferFrom balanceOf approve allowance debit finishDebit repayment connectContract getCreditRate getIssuer getName getDigestCodeRoot getTxHashRoot getImageRoot getNoteRoot getCodeVersion getContractSource getSecretKeyPre getNameNew getTxHashPre getDigestCodeNew getImageNew getNoteNew updateDebitRate setNewBlock approveAndCall 
+StandardToken inherits from Token DebitableToken inherits from StandardToken DebitableToken inherits from Ownable RepaymentToken inherits from StandardToken RepaymentToken inherits from Ownable FlowerP inherits from DebitableToken FlowerP inherits from RepaymentToken 
+onlyOwner canDebit hasDebitPermission hasRepayPermission 
+OwnershipTransferred Transfer Approval setNewBlockEvent Debit Deposit DebitFinished Repayment Withdraw 
+owner is equal to msg sender
+owner is equal to newOwner
+If  is greater or equal to _value Invalid symbol 
+ decreases of _value
+ increments of _value
+If  is greater or equal to _value Invalid symbol  Invalid symbol 
+ increments of _value
+ decreases of _value
+ decreases of _value
+ is equal to _value
+dc is equal to COLLATERAL
+totalSupply is equal to totalSupply add
+ is equal to balances _to add
+debitingFinished is equal to True
+dc is equal to COLLATERAL
+ is equal to balances debitor sub
+totalSupply is equal to totalSupply sub
+totalSupply is equal to INITIAL_SUPPLY
+ is equal to INITIAL_SUPPLY
+collateral_contract is equal to _collateral_address
+dc is equal to COLLATERAL
+DebitRate is equal to _rate
+SecretKey_Pre is equal to _SecretKey_Pre
+Name_New is equal to _Name_New
+TxHash_Pre is equal to _TxHash_Pre
+DigestCode_New is equal to _DigestCode_New
+Image_New is equal to _Image_New
+Note_New is equal to _Note_New
+ is equal to _value

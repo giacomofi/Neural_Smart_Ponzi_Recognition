@@ -1,0 +1,8 @@
+solidity ^0.6.0 
+TokenInterface InstaBalanceResolver 
+tokensBal i token 
+balanceOf getBalances 
+i is less then tknAddress length
+If  corresponds to 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE
+ is equal to owner balance
+ is equal to token balanceOf

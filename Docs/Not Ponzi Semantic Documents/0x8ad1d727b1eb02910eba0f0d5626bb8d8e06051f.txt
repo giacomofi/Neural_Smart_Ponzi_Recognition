@@ -1,0 +1,4 @@
+solidity 0.6.4 experimental ABIEncoderV2 
+ProtocolAdapter BasePool PoolTogetherAdapter 
+adapterType tokenType getBalance totalBalanceOf adapterType tokenType getBalance 
+PoolTogetherAdapter inherits from ProtocolAdapter 

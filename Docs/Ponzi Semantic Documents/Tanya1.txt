@@ -1,0 +1,19 @@
+Tanya 
+Participant 
+Participant has etherAddress
+Participant has amount
+participants payoutIdx collectedFees balance owner fee idx txAmount 
+Tanya  enter collectFees setOwner 
+onlyowner 
+owner is equal to msg sender
+collectedFees increments of fee
+participants idx etherAddress is equal to msg sender
+participants idx amount is equal to msg value
+balance increments of msg value minus fee
+If balance is greater or equal to txAmount
+If 
+balance decreases of txAmount
+If collectedFees corresponds to 0
+If 
+collectedFees is equal to 0
+owner is equal to _owner

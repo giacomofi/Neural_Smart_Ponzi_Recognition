@@ -1,0 +1,21 @@
+solidity ^0.5.0 solidity ^0.5.0 
+SafeMath Address CommonConstants ERC1155TokenReceiver ERC165 IERC1155 ERC1155 
+SafeMath Address 
+size ERC1155_ACCEPTED ERC1155_BATCH_ACCEPTED balances operatorApproval INTERFACE_SIGNATURE_ERC165 INTERFACE_SIGNATURE_ERC1155 i id value balances_ i 
+mul div sub add isContract onERC1155Received onERC1155BatchReceived supportsInterface safeTransferFrom safeBatchTransferFrom balanceOf balanceOfBatch setApprovalForAll isApprovedForAll supportsInterface safeTransferFrom safeBatchTransferFrom balanceOf balanceOfBatch setApprovalForAll isApprovedForAll _doSafeTransferAcceptanceCheck _doSafeBatchTransferAcceptanceCheck 
+ERC1155 inherits from IERC1155 ERC1155 inherits from ERC165 ERC1155 inherits from CommonConstants 
+TransferSingle TransferBatch ApprovalForAll URI 
+If a corresponds to 0
+c is equal to a multiplied by b
+c is equal to a plus b
+If _interfaceId corresponds to INTERFACE_SIGNATURE_ERC165 Invalid symbol 
+ is equal to balances _id _from sub
+ is equal to _value add
+
+i is less then _ids length
+ is equal to balances id _from sub
+ is equal to value add
+
+i is less then _owners length
+ is equal to 
+ is equal to _approved

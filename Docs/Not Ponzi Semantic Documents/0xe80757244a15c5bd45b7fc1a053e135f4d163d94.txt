@@ -1,0 +1,101 @@
+solidity ^0.5.2 
+Initializable SafeMath Adminable Bridge IERC20 ERC20 IERC165 ERC165 TransferrableToken PriorityQueue IERC1948 Vault PoaOperator 
+SafeMath SafeMath SafeMath PriorityQueue 
+Period Token Slot 
+Period has height
+Period has timestamp
+Period has parentBlockNumber
+Period has parentBlockHash
+Token has addr
+Token has heapList
+Token has currentSize
+Slot has eventCounter
+Slot has owner
+Slot has stake
+Slot has signer
+Slot has tendermint
+Slot has activationEpoch
+Slot has newOwner
+Slot has newStake
+Slot has newSigner
+Slot has newTendermint
+initialized initializing wasInitializing cs ______gap c c c c ADMIN_SLOT slot slot GENESIS tipHash genesisBlockNumber parentBlockInterval lastParentBlock operator periods genesisPeriod newPeriod _balances _allowed _totalSupply _INTERFACE_ID_ERC165 _supportedInterfaces retVal j newVal j newVal mc NFT_FIRST_COLOR NST_FIRST_COLOR bridge erc20TokenCount nftTokenCount nstTokenCount tokens tokenColors color arr ______gap vault bridge epochLength lastCompleteEpoch lastEpochBlockHeight slots slot slot i slot hashRoot consensusRoot newHeight 
+isConstructor mul div sub add mod admin implementation _admin initialize setOperator getParentBlockInterval setParentBlockInterval submitPeriod transfer approve transferFrom totalSupply balanceOf allowance totalSupply balanceOf allowance transfer approve transferFrom increaseAllowance decreaseAllowance _transfer _mint _burn _burnFrom supportsInterface supportsInterface _registerInterface transferFrom approve insert minChild getMin delMin percUp percDown readData writeData initialize getTokenAddr registerToken initialize setEpochLength setSlot activate countSigs neededSigs _submitPeriod submitPeriodWithCas submitPeriod 
+Adminable inherits from Initializable Bridge inherits from Adminable ERC20 inherits from IERC20 ERC165 inherits from IERC165 TransferrableToken inherits from ERC165 Vault inherits from Adminable PoaOperator inherits from Adminable 
+initializer ifAdmin onlyOperator 
+NewHeight NewOperator Transfer Approval DataUpdated NewToken Epoch EpochLength ValidatorJoin ValidatorLogout ValidatorLeave ValidatorUpdate Submission 
+initializing is equal to True
+initialized is equal to True
+initializing is equal to wasInitializing
+If a corresponds to 0
+tipHash is equal to GENESIS
+ is equal to genesisPeriod
+genesisBlockNumber is equal to block number
+parentBlockInterval is equal to _parentBlockInterval
+operator is equal to msg sender
+operator is equal to _operator
+parentBlockInterval is equal to _parentBlockInterval
+newHeight is equal to periods _prevHash height plus 1
+If newHeight is greater then periods tipHash height
+tipHash is equal to _root
+lastParentBlock is equal to block number
+ is equal to newPeriod
+ is equal to value
+ is equal to _allowed from msg sender sub
+ is equal to msg sender spender add
+ is equal to msg sender spender sub
+ is equal to _balances from sub
+ is equal to _balances to add
+_totalSupply is equal to _totalSupply add
+ is equal to _balances account add
+_totalSupply is equal to _totalSupply sub
+ is equal to _balances account sub
+ is equal to _allowed account msg sender sub
+ is equal to True
+self currentSize is equal to self currentSize add
+If  is greater then self currentSize
+If  is less then 
+ is equal to 
+self currentSize is equal to self currentSize sub
+self heapList length is equal to self heapList length sub
+While newVal is less then 
+ is equal to 
+i is equal to i div
+If i is different from j
+ is equal to newVal
+While mc is less or equal to self currentSize Invalid symbol 
+ is equal to 
+i is equal to mc
+mc is equal to minChild
+If i is different from j
+ is equal to newVal
+bridge is equal to _bridge
+If _type corresponds to 0
+color is equal to erc20TokenCount
+erc20TokenCount increments of 1
+ is equal to True
+ is equal to PriorityQueue Token
+vault is equal to _vault
+bridge is equal to _bridge
+epochLength is equal to _epochLength
+epochLength is equal to _epochLength
+If slot signer corresponds to 
+slot owner is equal to _signerAddr
+slot signer is equal to _signerAddr
+slot tendermint is equal to _tenderAddr
+slot activationEpoch is equal to 0
+If _signerAddr corresponds to  Invalid symbol 
+slot activationEpoch is equal to 
+If slot signer is different from 
+slot owner is equal to slot newOwner
+slot signer is equal to slot newSigner
+slot tendermint is equal to slot newTendermint
+slot activationEpoch is equal to 0
+slot newSigner is equal to 
+slot newTendermint is equal to 0x0
+If slot signer is different from 
+i is greater or equal to 256 minus _epochLength
+count increments of  Invalid symbol 0x01
+If slot activationEpoch is greater then 0
+If newHeight is greater or equal to lastEpochBlockHeight plus epochLength
+lastEpochBlockHeight is equal to newHeight

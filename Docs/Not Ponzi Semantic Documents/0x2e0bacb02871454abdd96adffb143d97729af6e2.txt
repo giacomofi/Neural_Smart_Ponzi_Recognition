@@ -1,0 +1,48 @@
+solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity >=0.4.21<0.6.0 
+SafeMath IERC20 ERC20Detailed ERC20 Roles PauserRole Pausable ERC20Pausable Ownable ERC20Interface KGCStake 
+SafeMath Roles SafeMath 
+Role StakeTrans 
+Role has bearer
+StakeTrans has id
+StakeTrans has status
+StakeTrans has amount
+StakeTrans has from
+StakeTrans has stakedAt
+StakeTrans has stakeDuration
+StakeTrans has data
+c c c c _name _symbol _decimals _balances _allowances _totalSupply _pausers _paused _owner kgcInstance totalTrans kgcbalances stakeTrans from current transId trans _trans current _trans 
+add sub mul div mod totalSupply balanceOf transfer allowance approve transferFrom name symbol decimals totalSupply balanceOf transfer allowance approve transferFrom increaseAllowance decreaseAllowance _transfer _mint _burn _approve _burnFrom add remove has isPauser addPauser renouncePauser _addPauser _removePauser paused pause unpause transfer transferFrom approve increaseAllowance decreaseAllowance owner isOwner renounceOwnership transferOwnership _transferOwnership totalSupply balanceOf allowance transfer approve transferFrom balance stakekgc withdrawShare getTrans 
+ERC20Detailed inherits from IERC20 ERC20 inherits from IERC20 Pausable inherits from PauserRole ERC20Pausable inherits from ERC20 ERC20Pausable inherits from Pausable KGCStake inherits from Ownable 
+onlyPauser whenNotPaused whenPaused onlyOwner 
+Transfer Approval PauserAdded PauserRemoved Paused Unpaused OwnershipTransferred Transfer Approval KGCStaked KGCWithdrawed 
+If a corresponds to 0
+_name is equal to name
+_symbol is equal to symbol
+_decimals is equal to decimals
+ is equal to _balances sender sub
+ is equal to _balances recipient add
+_totalSupply is equal to _totalSupply add
+ is equal to _balances account add
+_totalSupply is equal to _totalSupply sub
+ is equal to _balances account sub
+ is equal to value
+ is equal to True
+ is equal to False
+_paused is equal to False
+_paused is equal to True
+_paused is equal to False
+_owner is equal to msg sender
+_owner is equal to 
+_owner is equal to newOwner
+kgcInstance is equal to ERC20Interface
+ is equal to current add
+totalTrans is equal to totalTrans add
+_trans status is equal to StakeTransStatus STATUS_WITHDRAWED
+ is equal to current sub
+id is equal to _trans id
+status is equal to _trans status
+amount is equal to _trans amount
+from is equal to _trans from
+stakeDuration is equal to _trans stakeDuration
+stakedAt is equal to _trans stakedAt
+data is equal to _trans data

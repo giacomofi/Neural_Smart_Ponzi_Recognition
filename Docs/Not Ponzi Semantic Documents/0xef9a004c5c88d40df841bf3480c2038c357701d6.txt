@@ -1,0 +1,33 @@
+solidity ^0.5.0 
+SafeMath ERC20Interface ApproveAndCallFallBack Owned Treelion 
+SafeMath 
+owner newOwner symbol name decimals _totalSupply balances allowed frozenAccount 
+add sub mul div totalSupply balanceOf allowance transfer approve transferFrom receiveApproval transferOwnership acceptOwnership totalSupply balanceOf transfer approve transferFrom allowance approveAndCall  transferAnyERC20Token burn burnFrom freezeAccount 
+Treelion inherits from ERC20Interface Treelion inherits from Owned 
+onlyOwner 
+Transfer Approval Burn FrozenFunds OwnershipTransferred 
+c is equal to a plus b
+c is equal to a minus b
+c is equal to a multiplied by b
+c is equal to a divided by b
+owner is equal to msg sender
+newOwner is equal to _newOwner
+owner is equal to newOwner
+newOwner is equal to 
+symbol is equal to TRN
+name is equal to Treelion
+decimals is equal to 18
+_totalSupply is equal to 1000000000 multiplied by 10 Invalid symbol 
+ is equal to _totalSupply
+ is equal to msg sender sub
+ is equal to balances to add
+ is equal to tokens
+ is equal to balances from sub
+ is equal to allowed from msg sender sub
+ is equal to balances to add
+ is equal to tokens
+ decreases of value
+_totalSupply decreases of value
+ decreases of value
+_totalSupply decreases of value
+ is equal to freeze

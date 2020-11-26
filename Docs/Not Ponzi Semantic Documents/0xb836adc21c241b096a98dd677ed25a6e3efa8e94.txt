@@ -1,0 +1,85 @@
+solidity 0.4.24 
+Buffer CBOR Chainlink ENSInterface LinkTokenInterface ChainlinkRequestInterface PointerInterface ENSResolver SafeMath ChainlinkClient AggregatorInterface SignedSafeMath Ownable Aggregator 
+Buffer CBOR Chainlink SafeMath SignedSafeMath 
+buffer Request Answer 
+buffer has buf
+buffer has capacity
+Request has id
+Request has callbackAddress
+Request has callbackFunctionId
+Request has nonce
+Request has buf
+Answer has minimumResponses
+Answer has maxResponses
+Answer has responses
+buf oldbuf dest src mask mask mask MAJOR_TYPE_INT MAJOR_TYPE_NEGATIVE_INT MAJOR_TYPE_BYTES MAJOR_TYPE_STRING MAJOR_TYPE_ARRAY MAJOR_TYPE_MAP MAJOR_TYPE_CONTENT_FREE defaultBufferSize i LINK AMOUNT_OVERRIDE SENDER_OVERRIDE ARGS_VERSION ENS_TOKEN_SUBNAME ENS_ORACLE_SUBNAME LINK_TOKEN_POINTER ens ensNode link oracle requests pendingRequests req requested linkSubnode resolver oracleSubnode resolver c owner currentAnswerValue updatedTimestampValue latestCompletedAnswer paymentAmount minimumResponses jobIds oracles answerCounter authorizedRequesters requestAnswers answers currentAnswers updatedTimestamps MAX_ORACLE_COUNT request requestId oraclePayment i answerId linkToken answerId linkToken responseLength middleIndex currentAnswerTemp median1 median2 a k aLen a1 a2 a1Len a2Len pivot i 
+init fromBytes resize max truncate write append append writeUint8 appendUint8 write writeBytes20 appendBytes20 appendBytes32 writeInt appendInt encodeType encodeIndefiniteLengthType encodeUInt encodeInt encodeBytes encodeString startArray startMap endSequence initialize setBuffer add addBytes addInt addUint addStringArray setSubnodeOwner setResolver setOwner setTTL owner resolver ttl allowance approve balanceOf decimals decreaseApproval increaseApproval name symbol totalSupply transfer transferAndCall transferFrom oracleRequest cancelOracleRequest getAddress addr mul div sub add buildChainlinkRequest sendChainlinkRequest sendChainlinkRequestTo cancelChainlinkRequest setChainlinkOracle setChainlinkToken setPublicChainlinkToken chainlinkTokenAddress chainlinkOracleAddress addChainlinkExternalRequest useChainlinkWithENS updateChainlinkOracleWithENS encodeRequest validateChainlinkCallback latestAnswer latestTimestamp latestRound getAnswer getTimestamp add renounceOwnership transferOwnership _transferOwnership requestRateUpdate chainlinkCallback updateRequestDetails transferLINK setAuthorization cancelRequest destroy updateLatestAnswer latestAnswer latestTimestamp getAnswer getTimestamp latestRound quickselect swap deleteAnswer 
+Aggregator inherits from AggregatorInterface Aggregator inherits from ChainlinkClient Aggregator inherits from Ownable 
+recordChainlinkFulfillment notPendingRequest onlyOwner ensureMinResponsesReceived ensureAllResponsesReceived ensureOnlyLatestAnswer validateAnswerRequirements ensureAuthorizedRequester 
+NewOwner Transfer NewResolver NewTTL ChainlinkRequested ChainlinkFulfilled ChainlinkCancelled AnswerUpdated NewRound OwnershipRenounced OwnershipTransferred ResponseReceived 
+If capacity Invalid symbol 32 is different from 0
+capacity increments of 32 minus 
+buf capacity is equal to capacity
+buf buf is equal to b
+buf capacity is equal to b length
+If a is greater then b
+If off plus len is greater then buf capacity
+len is greater or equal to 32
+dest increments of 32
+src increments of 32
+If off is greater or equal to buf capacity
+If len plus off is greater then buf capacity
+data is equal to data Invalid symbol 
+If len plus off is greater then buf capacity
+If value is less or equal to 23
+If value is greater or equal to 0
+self id is equal to _id
+self callbackAddress is equal to _callbackAddress
+self callbackFunctionId is equal to _callbackFunction
+i is less then _values length
+If _a corresponds to 0
+c is equal to _a multiplied by _b
+c is equal to _a plus _b
+requestId is equal to keccak256
+_req nonce is equal to requests
+ is equal to _oracle
+requests increments of 1
+oracle is equal to ChainlinkRequestInterface
+link is equal to LinkTokenInterface
+ is equal to _oracle
+ens is equal to ENSInterface
+ensNode is equal to _node
+owner is equal to msg sender
+owner is equal to 
+owner is equal to _newOwner
+i is less then oracles length
+request is equal to buildChainlinkRequest
+requestId is equal to sendChainlinkRequestTo
+ is equal to answerCounter
+answers answerCounter minimumResponses is equal to minimumResponses
+answers answerCounter maxResponses is equal to 
+answerCounter is equal to answerCounter add
+paymentAmount is equal to _paymentAmount
+minimumResponses is equal to _minimumResponses
+jobIds is equal to _jobIds
+oracles is equal to _oracles
+ is equal to _allowed
+If responseLength Invalid symbol 2 corresponds to 0
+currentAnswerTemp is equal to median1 add divided by 2
+currentAnswerTemp is equal to quickselect
+currentAnswerValue is equal to currentAnswerTemp
+latestCompletedAnswer is equal to _answerId
+updatedTimestampValue is equal to now
+ is equal to now
+ is equal to currentAnswerTemp
+
+pivot is equal to 
+a1Len is equal to 0
+a2Len is equal to 0
+i is equal to 0
+i is less then aLen
+If  is less then pivot
+ is equal to 
+If k is less or equal to a1Len
+aLen is equal to a1Len
+ is equal to swap

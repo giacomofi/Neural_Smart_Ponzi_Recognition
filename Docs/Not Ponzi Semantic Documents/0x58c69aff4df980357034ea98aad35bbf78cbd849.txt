@@ -1,0 +1,19 @@
+solidity ^0.4.24 solidity ^0.4.24 solidity 0.4.24 solidity 0.4.24 solidity 0.4.24 solidity 0.4.24 
+Ownable SafeMath ChainlinkRequestInterface OracleInterface LinkTokenInterface Oracle 
+SafeMath 
+owner EXPIRY_TIME MINIMUM_CONSUMER_GAS_LIMIT ONE_FOR_CONSISTENT_GAS_COST SELECTOR_LENGTH EXPECTED_REQUEST_WORDS MINIMUM_REQUEST_LENGTH LinkToken commitments authorizedNodes withdrawableTokens requestId expiration paramsHash paramsHash funcSelector 
+renounceOwnership transferOwnership _transferOwnership mul div sub add oracleRequest cancelOracleRequest fulfillOracleRequest getAuthorizationStatus setFulfillmentPermission withdraw withdrawable allowance approve balanceOf decimals decreaseApproval increaseApproval name symbol totalSupply transfer transferAndCall transferFrom onTokenTransfer oracleRequest fulfillOracleRequest getAuthorizationStatus setFulfillmentPermission withdraw withdrawable cancelOracleRequest 
+Oracle inherits from ChainlinkRequestInterface Oracle inherits from OracleInterface Oracle inherits from Ownable 
+onlyOwner hasAvailableFunds isValidRequest onlyAuthorizedNode onlyLINK permittedFunctionsForLINK checkCallbackAddress validRequestLength 
+OwnershipRenounced OwnershipTransferred OracleRequest CancelOracleRequest 
+owner is equal to msg sender
+owner is equal to 
+owner is equal to _newOwner
+If _a corresponds to 0
+c is equal to _a multiplied by _b
+c is equal to _a plus _b
+LinkToken is equal to LinkTokenInterface
+ is equal to keccak256
+withdrawableTokens is equal to withdrawableTokens add
+ is equal to _allowed
+withdrawableTokens is equal to withdrawableTokens sub

@@ -1,0 +1,30 @@
+solidity ^0.5.2 solidity ^0.5.2 solidity 0.5.7 solidity 0.5.7 solidity 0.5.7 solidity 0.5.7 solidity 0.5.7 solidity 0.5.7 solidity 0.5.7 solidity 0.5.7 
+ReentrancyGuard SafeMath ICore RebalancingLibrary IRebalancingSetToken ISetToken IVault ITransferProxy ModuleCoreState RebalanceAuctionModule 
+SafeMath 
+AuctionPriceParameters BiddingParameters 
+AuctionPriceParameters has auctionStartTime
+AuctionPriceParameters has auctionTimeToPivot
+AuctionPriceParameters has auctionStartPrice
+AuctionPriceParameters has auctionPivotPrice
+BiddingParameters has minimumBid
+BiddingParameters has remainingCurrentSets
+BiddingParameters has combinedCurrentUnits
+BiddingParameters has combinedNextSetUnits
+BiddingParameters has combinedTokenArray
+_guardCounter localCounter c c c c core vault coreInstance vaultInstance executionQuantity tokenArray inflowUnitArray outflowUnitArray executionQuantity tokenArray inflowUnitArray outflowUnitArray rebalancingSetToken withdrawComponents setTotalSupply callerBalance transferArrayLength componentTransferAmount i tokenCollateralAmount biddingParameters minimumBid remainingCurrentSets executionQuantity 
+mul div sub add mod transferProxy vault exchangeIds validSets validModules validPriceLibraries issue issueTo issueInVault redeem redeemTo redeemInVault redeemAndWithdrawTo batchDeposit batchWithdraw deposit withdraw internalTransfer createSet depositModule withdrawModule batchDepositModule batchWithdrawModule issueModule redeemModule batchIncrementTokenOwnerModule batchDecrementTokenOwnerModule batchTransferBalanceModule transferModule batchTransferModule totalSupply lastRebalanceTimestamp rebalanceInterval rebalanceState balanceOf propose naturalUnit currentSet unitShares burn placeBid getCombinedTokenArrayLength getCombinedTokenArray getFailedAuctionWithdrawComponents getBiddingParameters naturalUnit getComponents getUnits tokenIsComponent mint burn transfer withdrawTo incrementTokenOwner decrementTokenOwner transferBalance batchWithdrawTo batchIncrementTokenOwner batchDecrementTokenOwner batchTransferBalance getOwnerBalance transfer batchTransfer bid bidAndWithdraw redeemFromFailedRebalance calculateExecutionQuantity 
+RebalanceAuctionModule inherits from ModuleCoreState RebalanceAuctionModule inherits from ReentrancyGuard 
+nonReentrant 
+BidPlaced 
+_guardCounter is equal to 1
+_guardCounter increments of 1
+If a corresponds to 0
+core is equal to _core
+coreInstance is equal to ICore
+vault is equal to _vault
+vaultInstance is equal to IVault
+ is equal to 
+ is equal to 
+i is less then transferArrayLength
+ is equal to 
+If _allowPartialFill Invalid symbol _quantity is greater then remainingCurrentSets

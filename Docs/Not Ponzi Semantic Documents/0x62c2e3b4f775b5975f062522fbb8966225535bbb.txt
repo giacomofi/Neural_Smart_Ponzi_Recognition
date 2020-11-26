@@ -1,0 +1,14 @@
+solidity >=0.4.22<0.6.0 
+tokenRecipient DATA1TokenERC20 
+name symbol decimals totalSupply balanceOf allowance previousBalances spender 
+receiveApproval _transfer transfer transferFrom approve approveAndCall 
+Transfer Approval 
+totalSupply is equal to initialSupply multiplied by 10 Invalid symbol 
+ is equal to totalSupply
+name is equal to tokenName
+symbol is equal to tokenSymbol
+ decreases of _value
+ increments of _value
+ decreases of _value
+ is equal to _value
+

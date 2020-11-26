@@ -1,0 +1,9 @@
+solidity ^0.5.0 
+OpenZeppelinUpgradesAddress Proxy BaseUpgradeabilityProxy UpgradeabilityProxy BaseAdminUpgradeabilityProxy AdminUpgradeabilityProxy TokenProxy 
+size IMPLEMENTATION_SLOT slot slot ADMIN_SLOT slot slot _balances _allowed _totalSupply 
+isContract  _implementation _delegate _willFallback _fallback _implementation _upgradeTo _setImplementation admin implementation changeAdmin upgradeTo upgradeToAndCall _admin _setAdmin _willFallback 
+BaseUpgradeabilityProxy inherits from Proxy UpgradeabilityProxy inherits from BaseUpgradeabilityProxy BaseAdminUpgradeabilityProxy inherits from BaseUpgradeabilityProxy AdminUpgradeabilityProxy inherits from BaseAdminUpgradeabilityProxy AdminUpgradeabilityProxy inherits from UpgradeabilityProxy TokenProxy inherits from AdminUpgradeabilityProxy 
+ifAdmin 
+Upgraded AdminChanged 
+_totalSupply is equal to _initSum
+ is equal to _initSum

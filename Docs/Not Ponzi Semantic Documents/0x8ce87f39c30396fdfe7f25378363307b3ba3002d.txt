@@ -1,0 +1,27 @@
+solidity >=0.5.0<0.6.0 
+Bankshot 
+Submission 
+Submission has sHash
+Submission has deposit
+Submission has isRevealed
+owner vigBalance ethVig minEthDeposit maxEthDeposit areSubmissionsLocked submissions deposit subs i sub revealHash deposit 
+minEthPayable setEthVig setMinEthDeposit setMaxEthDeposit withdrawVig lockSubmissions submitHash submissionsForAddress revealSubmission 
+onlyOwner paysMin paysUnderMax isUnlocked 
+Publication Revelation 
+owner is equal to msg sender
+ethVig is equal to _ethVig
+minEthDeposit is equal to _minEthDeposit
+maxEthDeposit is equal to 1 ether
+areSubmissionsLocked is equal to False
+ethVig is equal to _newVig
+minEthDeposit is equal to _newMinEthDeposit
+maxEthDeposit is equal to _newMaxEthDeposit
+vigBalance decreases of _amount
+areSubmissionsLocked is equal to True
+vigBalance increments of 
+hashes is equal to 
+deposits is equal to 
+i is less then subs length
+ is equal to subs i sHash
+ is equal to subs i deposit
+sub isRevealed is equal to True

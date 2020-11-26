@@ -1,0 +1,64 @@
+solidity ^0.5.10 
+SafeMath256 Roles IERC20 IAllocation Ownable Pausable NewVoken 
+SafeMath256 Roles 
+Role 
+Role has bearer
+c c c _owner _newOwner _token balance balance _paused _name _symbol _decimals _cap _totalSupply _safeMode _whitelistingMode _whitelistCounter _whitelistTrigger _whitelistRefund _whitelistRewards _whitelistRewardsArr _globals _proxies _minters _balances _allowances _allocations _addressAllocations _referee _referrals __reserved __len i __available __amount __amount i __distributedAmount __burnAmount __cursor i __receiver 
+add sub sub mul div div mod mod add remove has name symbol decimals totalSupply balanceOf transfer transferFrom approve allowance reservedOf owner isOwner _transferOwnership transferOwnership acceptOwnership rescueTokens withdrawEther paused setPaused  name symbol decimals cap totalSupply balanceOf reservedOf availableOf _getAvailableAmount allocations transfer transferFrom burn burnFrom mint mintWithAllocation approve allowance increaseAllowance decreaseAllowance _transfer _mint _mintWithAllocation _burn _approve rename setSymbol whitelisted whitelistCounter whitelistingMode whitelistReferee whitelistReferrals whitelistReferralsCount pushWhitelist _whitelist _distributeVokenForWhitelist setWhitelistingMode safeMode setSafeMode isGlobal addGlobal removeGlobal isProxy addProxy removeProxy isMinter addMinter removeMinter 
+Pausable inherits from Ownable NewVoken inherits from Ownable NewVoken inherits from Pausable NewVoken inherits from IERC20 
+onlyOwner whenNotPaused onlyProxy onlyMinter 
+Transfer Approval OwnershipTransferred OwnershipAccepted Paused Unpaused Donate Burn ProxyAdded ProxyRemoved GlobalAdded GlobalRemoved MinterAdded MinterRemoved Mint MintWithAllocation WhitelistSignUpEnabled WhitelistSignUpDisabled WhitelistSignUp 
+If a corresponds to 0
+ is equal to True
+ is equal to False
+_owner is equal to msg sender
+currentOwner is equal to _owner
+newOwner is equal to _newOwner
+_newOwner is equal to newOwner
+_owner is equal to msg sender
+_newOwner is equal to 
+_paused is equal to False
+_paused is equal to value
+
+_cap is equal to 35000000000000000
+_whitelistingMode is equal to True
+_safeMode is equal to True
+ is equal to msg sender
+_whitelistCounter is equal to 1
+If msg value is greater then 0
+If __len is greater then 0
+i is less then __len
+__reserved is equal to __reserved add
+If amount is less or equal to __available
+contracts is equal to 
+If amount corresponds to _whitelistTrigger Invalid symbol _whitelistingMode Invalid symbol whitelisted Invalid symbol 
+If recipient corresponds to  Invalid symbol 
+If _safeMode Invalid symbol  Invalid symbol 
+ is equal to _balances sender sub
+ is equal to _balances recipient add
+_totalSupply is equal to _totalSupply add
+ is equal to _balances account add
+_totalSupply is equal to _totalSupply add
+ is equal to _balances account add
+If 
+ is equal to True
+ is equal to _balances account sub
+_totalSupply is equal to _totalSupply sub
+_cap is equal to _cap sub
+ is equal to value
+_name is equal to value
+_symbol is equal to value
+i is less then accounts length
+If  is different from  Invalid symbol  Invalid symbol whitelisted
+ is equal to refereeAccount
+_whitelistCounter is equal to _whitelistCounter add
+i is less then _whitelistRewardsArr length
+If __receiver is different from 
+If __receiver is different from __cursor Invalid symbol 
+__distributedAmount is equal to __distributedAmount add
+__cursor is equal to 
+__burnAmount is equal to _whitelistRewards sub
+If __burnAmount is greater then 0
+_whitelistingMode is equal to value
+
+_safeMode is equal to value

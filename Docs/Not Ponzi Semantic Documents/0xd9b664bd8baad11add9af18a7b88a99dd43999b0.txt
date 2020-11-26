@@ -1,0 +1,5 @@
+solidity ^0.4.13 
+Proxy 
+masterCopy 
+ implementation proxyType 
+masterCopy is equal to _masterCopy

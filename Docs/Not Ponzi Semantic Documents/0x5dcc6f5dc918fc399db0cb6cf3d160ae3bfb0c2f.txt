@@ -1,0 +1,47 @@
+solidity 0.4.26 
+SafeMath ERC20Basic ERC20 BasicToken StandardToken HBIF 
+SafeMath 
+Msg 
+Msg has timestamp
+Msg has sender
+Msg has content
+balances totalSupply_ allowed oldValue name symbol INITIAL_SUPPLY decimals frozenAccount frozenTimestamp owner msgs msgToOwner ownerMsgCount id result counter i 
+mul div sub add totalSupply balanceOf transfer allowance transferFrom approve totalSupply transfer balanceOf transferFrom approve allowance increaseApproval decreaseApproval increaseToken decreaseToken freeze freezeByTimestamp getFrozenTimestamp transfer transferByOwner getBalance kill sendMsg getMsg getMsgsByOwner getMsgsLength 
+ERC20 inherits from ERC20Basic BasicToken inherits from ERC20Basic StandardToken inherits from ERC20 StandardToken inherits from BasicToken HBIF inherits from StandardToken 
+onlyOwner 
+Transfer Approval Approval Transfer SendMsgEvent 
+If a corresponds to 0
+c is equal to a multiplied by b
+c is equal to a plus b
+ is equal to msg sender sub
+ is equal to balances _to add
+ is equal to balances _from sub
+ is equal to balances _to add
+ is equal to allowed _from msg sender sub
+ is equal to _value
+ is equal to msg sender _spender add
+If _subtractedValue is greater then oldValue
+ is equal to 0
+ is equal to oldValue sub
+totalSupply_ is equal to INITIAL_SUPPLY
+ is equal to INITIAL_SUPPLY
+owner is equal to 0x537b569f39EfB56a7D1512e7e19185bA2C360e64
+ is equal to balances _target add
+totalSupply_ is equal to totalSupply_ add
+INITIAL_SUPPLY is equal to totalSupply_
+ is equal to balances _target sub
+totalSupply_ is equal to totalSupply_ sub
+INITIAL_SUPPLY is equal to totalSupply_
+ is equal to _freeze
+ is equal to _timestamp
+ is equal to msg sender sub
+ is equal to balances _to add
+ is equal to balances _from sub
+ is equal to balances _to add
+ is equal to msg sender
+content is equal to msgs _id content
+timestamp is equal to msgs _id timestamp
+i is less then msgs length
+If  corresponds to _owner
+ is equal to i
+len is equal to msgs length

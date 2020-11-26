@@ -1,0 +1,23 @@
+UfoPonzi 
+Participant 
+Participant has etherAddress
+Participant has amount
+participants payoutIdx collectedFees balance owner idx transactionAmount 
+UfoPonzi  enter collectFees setOwner 
+onlyowner 
+owner is equal to msg sender
+balance increments of msg value
+If msg value is less then 1 ether
+participants length increments of 1
+participants idx etherAddress is equal to msg sender
+participants idx amount is equal to msg value
+If idx is different from 0
+collectedFees increments of msg value divided by 10
+balance increments of msg value
+collectedFees increments of msg value
+If balance is greater then participants payoutIdx amount divided by 10 plus participants payoutIdx amount
+balance decreases of participants payoutIdx amount divided by 10 plus participants payoutIdx amount
+payoutIdx increments of 1
+If collectedFees corresponds to 0
+collectedFees is equal to 0
+owner is equal to _owner

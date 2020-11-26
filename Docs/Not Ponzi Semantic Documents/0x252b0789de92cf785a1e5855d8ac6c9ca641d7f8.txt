@@ -1,0 +1,115 @@
+solidity 0.5.8 
+DateTimeAPI Ownable DateTime EJackpot 
+_DateTime ReferralStat Probability 
+_DateTime has year
+_DateTime has month
+_DateTime has day
+_DateTime has hour
+_DateTime has minute
+_DateTime has second
+_DateTime has weekday
+ReferralStat has profit
+ReferralStat has count
+Probability has from
+Probability has to
+owner DAY_IN_SECONDS YEAR_IN_SECONDS LEAP_YEAR_IN_SECONDS HOUR_IN_SECONDS MINUTE_IN_SECONDS ORIGIN_YEAR secondsAccountedFor buf i secondsInMonth secondsAccountedFor year numLeapYears i monthDayCounts usersCount openedCases totalWins probabilities betsPrizes cases casesArr caseWins caseOpenings users userCasesCount referrals usedReferrals referralStats multiplier dateTimeAPI i d casesIndex sum casesVal i maxPrize prize casinoProfit referrerProfit chance prizes prize i year month day hour timestamp 
+getYear getMonth getDay getHour toTimestamp transferOwnership isLeapYear leapYearsBefore getDaysInMonth parseTimestamp getYear getMonth getDay getHour getMinute getSecond getWeekday toTimestamp toTimestamp toTimestamp toTimestamp showCoefs play determinePrize increaseDailyStat withdraw random 
+EJackpot inherits from Ownable 
+onlyOwner notContract 
+OwnershipTransferred CaseOpened 
+owner is equal to msg sender
+owner is equal to newOwner
+If year Invalid symbol 4 is different from 0
+If year Invalid symbol 100 is different from 0
+If year Invalid symbol 400 is different from 0
+year decreases of 1
+If month corresponds to 1 Invalid symbol  Invalid symbol  Invalid symbol  Invalid symbol  Invalid symbol  Invalid symbol 
+dt year is equal to getYear
+buf is equal to leapYearsBefore minus leapYearsBefore
+secondsAccountedFor increments of LEAP_YEAR_IN_SECONDS multiplied by buf
+secondsAccountedFor increments of YEAR_IN_SECONDS multiplied by 
+i is equal to 1
+i is less or equal to 12
+secondsInMonth is equal to DAY_IN_SECONDS multiplied by getDaysInMonth
+If secondsInMonth plus secondsAccountedFor is greater then timestamp
+dt month is equal to i
+secondsAccountedFor increments of secondsInMonth
+i is equal to 1
+i is less or equal to getDaysInMonth
+If DAY_IN_SECONDS plus secondsAccountedFor is greater then timestamp
+dt day is equal to i
+secondsAccountedFor increments of DAY_IN_SECONDS
+dt hour is equal to getHour
+dt minute is equal to getMinute
+dt second is equal to getSecond
+dt weekday is equal to getWeekday
+year is equal to 
+numLeapYears is equal to leapYearsBefore minus leapYearsBefore
+secondsAccountedFor increments of LEAP_YEAR_IN_SECONDS multiplied by numLeapYears
+secondsAccountedFor increments of YEAR_IN_SECONDS multiplied by 
+While secondsAccountedFor is greater then timestamp
+
+secondsAccountedFor decreases of LEAP_YEAR_IN_SECONDS
+secondsAccountedFor decreases of YEAR_IN_SECONDS
+year decreases of 1
+i is equal to ORIGIN_YEAR
+i is less then year
+
+timestamp increments of LEAP_YEAR_IN_SECONDS
+timestamp increments of YEAR_IN_SECONDS
+ is equal to 31
+
+ is equal to 29
+ is equal to 28
+ is equal to 31
+ is equal to 30
+ is equal to 31
+ is equal to 30
+ is equal to 31
+ is equal to 31
+ is equal to 30
+ is equal to 31
+ is equal to 30
+ is equal to 31
+i is equal to 1
+i is less then month
+timestamp increments of DAY_IN_SECONDS multiplied by 
+timestamp increments of DAY_IN_SECONDS multiplied by 
+timestamp increments of HOUR_IN_SECONDS multiplied by 
+timestamp increments of MINUTE_IN_SECONDS multiplied by 
+timestamp increments of second
+dateTimeAPI is equal to DateTimeAPI
+i is less then 1
+ is equal to Probability
+ is equal to Probability
+ is equal to Probability
+ is equal to Probability
+ is equal to Probability
+ is equal to Probability
+ is equal to Probability
+ is equal to Probability
+ is equal to Probability
+ is equal to Probability
+ is equal to Probability
+ is equal to 
+casesIndex is less then casesArr length
+i is less then probabilities length
+sum increments of multiplier multiplied by  multiplied by 
+ is equal to 
+If msg sender corresponds to owner
+If 
+ is equal to True
+ increments of prize
+totalWins increments of prize
+If referrer corresponds to  Invalid symbol 
+If referrer is different from 
+If  is different from  Invalid symbol 
+referralStats msg sender count decreases of 1
+ is equal to referrer
+If 
+ is equal to True
+If casinoProfit is less or equal to 0
+referralStats msg sender profit increments of referrerProfit
+i is less then 11
+If chance is greater or equal to probabilities i from Invalid symbol 
+prize is equal to  multiplied by multiplier

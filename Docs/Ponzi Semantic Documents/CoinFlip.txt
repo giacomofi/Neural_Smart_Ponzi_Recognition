@@ -1,0 +1,30 @@
+Coinflip 
+gamblerarray 
+gamblerarray has etherAddress
+gamblerarray has amount
+gamblerlist Total_Players FeeRate Bankroll Total_Deposits Total_Payouts Outcome MinDeposit owner Fees amount payout list_length minimal Times i 
+Coinflip  enter 
+owner is equal to 0xEe462A6717f17C57C826F1ad9b4d3813495296C9
+If msg value is greater then 10 finney
+Total_Players is equal to list_length plus 1
+gamblerlist length increments of 1
+gamblerlist list_length etherAddress is equal to msg sender
+gamblerlist list_length amount is equal to amount
+Total_Deposits increments of amount
+Fees is equal to amount multiplied by FeeRate divided by 100
+amount decreases of amount multiplied by FeeRate divided by 100
+Bankroll increments of amount
+If Fees is different from 0
+If Fees is less then minimal
+Total_Payouts increments of Fees
+i is less then Times
+If Fees is greater then 0
+Total_Payouts increments of Fees
+Fees decreases of minimal
+If msg value is greater or equal to MinDeposit Invalid symbol 
+If  Invalid symbol 2 corresponds to 0
+Total_Payouts increments of Bankroll
+Bankroll is equal to 0
+Outcome is equal to HEADS
+Outcome is equal to TAILS
+Outcome is equal to Error, the coin wasn't flipped, try again!

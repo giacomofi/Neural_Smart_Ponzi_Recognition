@@ -1,0 +1,27 @@
+timegame 
+Person 
+Person has etherAddress
+Person has amount
+persons payoutIdx collectedFees balance TWELEVE_HOURS regeneration owner amount idx transactionAmount 
+timegame  enter setOwner 
+onlyowner 
+owner is equal to msg sender
+regeneration is equal to block timestamp
+If regeneration plus TWELEVE_HOURS is less then block timestamp
+If msg value is less then 1 ether
+If msg value is greater then 50 ether
+amount is equal to 50 ether
+amount is equal to msg value
+persons length increments of 1
+persons idx etherAddress is equal to msg sender
+persons idx amount is equal to amount
+regeneration is equal to block timestamp
+If idx is different from 0
+collectedFees increments of amount divided by 10
+collectedFees is equal to 0
+balance increments of amount minus amount divided by 10
+balance increments of amount
+While balance is greater then persons payoutIdx amount divided by 100 multiplied by 200
+balance decreases of transactionAmount
+payoutIdx increments of 1
+owner is equal to _owner

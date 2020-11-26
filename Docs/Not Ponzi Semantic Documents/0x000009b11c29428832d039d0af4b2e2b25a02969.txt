@@ -1,0 +1,29 @@
+solidity ^0.5.10 
+IERC20 Roles AdministratorRole SafeMath ERC20 ERC20Detailed ERC20Burnable Ownable MarbleCoin 
+Roles SafeMath 
+Role 
+Role has bearer
+_administrators c c c c _balances _allowances _totalSupply _name _symbol _decimals _owner _supplycapped MBC _paused 
+totalSupply balanceOf transfer allowance approve transferFrom add remove has isAdministrator addAdministrator renounceAdministrator _addAdministrator _removeAdministrator add sub mul div mod totalSupply balanceOf transfer allowance approve transferFrom increaseAllowance decreaseAllowance _transfer _mint _burn _approve _burnFrom name symbol decimals burn burnFrom owner isOwner renounceOwnership transferOwnership _transferOwnership addAdministrator removeAdministrator renounceOwnership paused pause unpause transfer transferMBC transferFrom transferMBCFrom mint freezeMint isSupplyCapped 
+ERC20 inherits from IERC20 ERC20Detailed inherits from IERC20 ERC20Burnable inherits from ERC20 MarbleCoin inherits from ERC20 MarbleCoin inherits from Ownable MarbleCoin inherits from AdministratorRole MarbleCoin inherits from ERC20Detailed MarbleCoin inherits from ERC20Burnable 
+onlyAdministrator onlyOwner onlyAdministratorOrOwner whenNotPaused whenPaused 
+Transfer Approval AdministratorAdded AdministratorRemoved OwnershipTransferred 
+ is equal to True
+ is equal to False
+If a corresponds to 0
+ is equal to _balances sender sub
+ is equal to _balances recipient add
+_totalSupply is equal to _totalSupply add
+ is equal to _balances account add
+_totalSupply is equal to _totalSupply sub
+ is equal to _balances account sub
+ is equal to value
+_name is equal to name
+_symbol is equal to symbol
+_decimals is equal to decimals
+_owner is equal to msg sender
+_owner is equal to 
+_owner is equal to newOwner
+_paused is equal to True
+_paused is equal to False
+_supplycapped is equal to True

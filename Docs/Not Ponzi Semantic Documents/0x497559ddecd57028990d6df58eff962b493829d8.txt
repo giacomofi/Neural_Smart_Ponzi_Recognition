@@ -1,0 +1,75 @@
+solidity >=0.6.4 
+Context Owned IERC20 brrrrrrr SafeMath NameFilter 
+SafeMath NameFilter 
+bailoutRulesStruct 
+bailoutRulesStruct has amount
+bailoutRulesStruct has minBalance
+bailoutRulesStruct has kind
+bailoutRulesStruct has cost
+owner newOwner _balances _allowances lastBailout _totalSupply name symbol decimals bailoutEnd individualBailoutAmount individualBailoutMaxBalance bailoutRules mostRecent lastUpdated rate brr timeDiff timeDiff amount supplyNew supplyNew fname thisToken _owner c c c c _temp _length i _ret 
+_msgSender _msgData transferOwnership acceptOwnership totalSupply balanceOf transfer allowance approve transferFrom testView adjustSupply individualBailout bigBailout setBailoutRule setBailoutEnd setIndividualBailout newFedData approveOtherContract adminwithdrawal clearETH totalSupply balanceOf transfer allowance approve transferFrom increaseAllowance decreaseAllowance _transfer _mint _burn _approve _beforeTokenTransfer add sub sub mul div div mod mod nameFilter 
+brrrrrrr inherits from IERC20 brrrrrrr inherits from Context brrrrrrr inherits from Owned 
+onlyOwner 
+OwnershipTransferred Transfer Approval Transfer Approval iBailout bBailout 
+owner is equal to msg sender
+newOwner is equal to _newOwner
+owner is equal to newOwner
+newOwner is equal to 
+symbol is equal to BRSD
+name is equal to BRRRRRRR
+decimals is equal to 2
+mostRecent is equal to 604451600000000
+lastUpdated is equal to 1586304000
+rate is equal to 65018849
+brr is equal to True
+bailoutEnd is equal to 1590969600
+individualBailoutAmount is equal to 120000
+individualBailoutMaxBalance is equal to 10 Invalid symbol 18
+bailoutRules 0 amount is equal to 50 multiplied by 10 Invalid symbol 3 multiplied by 
+bailoutRules 0 minBalance is equal to 0
+bailoutRules 0 kind is equal to Individual Plus
+bailoutRules 0 cost is equal to 10 Invalid symbol 15
+bailoutRules 1 amount is equal to 750 multiplied by 10 Invalid symbol 3 multiplied by 
+bailoutRules 1 minBalance is equal to 0
+bailoutRules 1 kind is equal to Small Business
+bailoutRules 1 cost is equal to 10 Invalid symbol 16
+bailoutRules 2 amount is equal to 10 multiplied by 10 Invalid symbol 6 multiplied by 
+bailoutRules 2 minBalance is equal to 10 Invalid symbol 18
+bailoutRules 2 kind is equal to Medium Business
+bailoutRules 2 cost is equal to 10 Invalid symbol 17
+bailoutRules 3 amount is equal to 200 multiplied by 10 Invalid symbol 6 multiplied by 
+bailoutRules 3 minBalance is equal to 10 multiplied by 10 Invalid symbol 18
+bailoutRules 3 kind is equal to Big Business
+bailoutRules 3 cost is equal to 10 Invalid symbol 18
+bailoutRules 4 amount is equal to 100 multiplied by 10 Invalid symbol 9 multiplied by 
+bailoutRules 4 minBalance is equal to 250 multiplied by 10 Invalid symbol 18
+bailoutRules 4 kind is equal to Big Bank
+bailoutRules 4 cost is equal to 25 multiplied by 10 Invalid symbol 18
+
+If _totalSupply is less then supplyNew
+If mostRecent is greater then amount
+If _totalSupply is greater then supplyNew
+If  is greater or equal to amount
+ is equal to now
+bailoutRules index amount is equal to amount
+bailoutRules index minBalance is equal to minBalance
+bailoutRules index kind is equal to kind
+bailoutRules index cost is equal to cost
+bailoutEnd is equal to endtime
+individualBailoutAmount is equal to amount
+individualBailoutMaxBalance is equal to max
+mostRecent is equal to _mostRecent
+lastUpdated is equal to _lastUpdated
+rate is equal to _rate
+brr is equal to _brr
+If _totalSupply is greater or equal to _mostRecent
+If  is greater or equal to _totalSupply sub
+ is equal to _balances sender sub
+ is equal to _balances recipient add
+_totalSupply is equal to _totalSupply add
+ is equal to _balances account add
+ is equal to _balances account sub
+_totalSupply is equal to _totalSupply sub
+ is equal to amount
+If a corresponds to 0
+i is less then _length

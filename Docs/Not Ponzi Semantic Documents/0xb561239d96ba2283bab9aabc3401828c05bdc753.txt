@@ -1,0 +1,181 @@
+solidity ^0.4.25 
+Token DMEX_Base Exchange 
+FuturesAsset FuturesContract FuturesOrderPair FuturesTradeValues FuturesClosePositionValues 
+FuturesAsset has name
+FuturesAsset has baseToken
+FuturesAsset has priceUrl
+FuturesAsset has pricePath
+FuturesAsset has disabled
+FuturesContract has asset
+FuturesContract has expirationBlock
+FuturesContract has closingPrice
+FuturesContract has closed
+FuturesContract has broken
+FuturesContract has floorPrice
+FuturesContract has capPrice
+FuturesContract has multiplier
+FuturesContract has fundingRate
+FuturesOrderPair has makerNonce
+FuturesOrderPair has takerNonce
+FuturesOrderPair has takerGasFee
+FuturesOrderPair has takerIsBuying
+FuturesOrderPair has maker
+FuturesOrderPair has taker
+FuturesOrderPair has makerOrderHash
+FuturesOrderPair has takerOrderHash
+FuturesOrderPair has makerAmount
+FuturesOrderPair has takerAmount
+FuturesOrderPair has makerPrice
+FuturesOrderPair has takerPrice
+FuturesOrderPair has futuresContract
+FuturesOrderPair has baseToken
+FuturesOrderPair has floorPrice
+FuturesOrderPair has capPrice
+FuturesOrderPair has makerPositionHash
+FuturesOrderPair has makerInversePositionHash
+FuturesOrderPair has takerPositionHash
+FuturesOrderPair has takerInversePositionHash
+FuturesTradeValues has qty
+FuturesTradeValues has makerProfit
+FuturesTradeValues has makerLoss
+FuturesTradeValues has takerProfit
+FuturesTradeValues has takerLoss
+FuturesTradeValues has makerBalance
+FuturesTradeValues has takerBalance
+FuturesTradeValues has makerReserve
+FuturesTradeValues has takerReserve
+FuturesClosePositionValues has reserve
+FuturesClosePositionValues has balance
+FuturesClosePositionValues has floorPrice
+FuturesClosePositionValues has capPrice
+FuturesClosePositionValues has closingPrice
+FuturesClosePositionValues has futuresContract
+FuturesClosePositionValues has expirationBlock
+FuturesClosePositionValues has entryBlock
+FuturesClosePositionValues has collateral
+FuturesClosePositionValues has reservedFunding
+FuturesClosePositionValues has payableFunding
+standard name symbol totalSupply decimals allowTransactions balanceOf allowance c c owner admins lastActiveTransaction orderFills feeAccount exchangeContract DmexOracleContract makerFee takerFee futuresAsset futuresContract futuresAssets futuresContracts positions t balances tv multiplier multiplier multiplier multiplier fundingCost collateral fundingRate multiplier fundingCost multiplier expirationBlock tradeFee collateral fundingCost i pam character character size price side entryBlock pos totalValue positionHash pos cont baseToken reservedFunding collateral positionHash profit loss baseToken v fee i 
+transfer approveAndCall approve transferFrom getReserve setReserve availableBalanceOf balanceOf setBalance getAffiliate getInactivityReleasePeriod getMakerTakerBalances getEtmTokenAddress subBalanceAddReserve addBalanceSubReserve subBalanceSubReserve assert safeMul safeSub safeAdd setOwner getOwner createFuturesAsset createFuturesContract getContractExpiration getContractClosed getContractPriceUrl getContractPricePath Exchange setFees setAdmin  validateUint48 validateUint64 validateUint128 futuresTrade calculateProfit calculateTradeValue calculateLoss calculateCollateral calculateFundingCost calculateFee checkEnoughBalance batchFuturesTrade updateBalances recordNewPosition retrievePosition updatePositionSize positionExists forceReleaseReserve addBalance subBalance subBalanceAddReserve addBalanceSubReserve subBalanceSubReserve addReserve subReserve getMakerTakerBalances getMakerTakerPositions closeFuturesPosition closeFuturesPositionInternal closeFuturesContract closeFuturesPositionForUser batchSettlePositions min 
+onlyOwner onlyOracle onlyAdmin 
+SetOwner FuturesTrade FuturesPositionClosed FuturesContractClosed FuturesForcedRelease FuturesAssetCreated FuturesContractCreated FeeChange LogError LogErrorLight LogUint LogBool LogAddress 
+If not assertion
+owner is equal to newOwner
+
+ is equal to FuturesAsset
+If futuresContracts futuresContract expirationBlock is greater then 0
+ is equal to FuturesContract
+owner is equal to msg sender
+feeAccount is equal to feeAccount_
+makerFee is equal to makerFee_
+takerFee is equal to takerFee_
+exchangeContract is equal to exchangeContract_
+DmexOracleContract is equal to DmexOracleContract_
+makerFee is equal to makerFee_
+takerFee is equal to takerFee_
+ is equal to isAdmin
+If val is different from 
+If val is different from 
+If val is different from 
+If  Invalid symbol  Invalid symbol  Invalid symbol 
+If block number is greater then t futuresContract expirationBlock Invalid symbol  Invalid symbol 
+If ecrecover is different from t maker
+If ecrecover is different from t taker
+If  Invalid symbol 
+If t futuresContract floorPrice is greater or equal to t makerPrice Invalid symbol 
+tv qty is equal to min
+If positionExists Invalid symbol positionExists
+tv qty is equal to min
+If tv qty corresponds to 0
+If safeMul is greater then calculateTradeValue
+If not takerIsBuying
+If  Invalid symbol 
+If 
+
+If 
+If t makerPrice is less then 
+tv makerProfit is equal to calculateProfit
+tv makerLoss is equal to calculateLoss
+If  Invalid symbol 
+If 
+
+If 
+If t makerPrice is greater then 
+tv takerProfit is equal to calculateProfit
+tv takerLoss is equal to calculateLoss
+If  Invalid symbol 
+If 
+
+If 
+If t makerPrice is greater then 
+tv makerProfit is equal to calculateProfit
+tv makerLoss is equal to calculateLoss
+If  Invalid symbol 
+If 
+
+If 
+If t makerPrice is less then 
+tv takerProfit is equal to calculateProfit
+tv takerLoss is equal to calculateLoss
+ is equal to safeAdd
+ is equal to safeAdd
+
+
+
+collateral is equal to safeMul divided by 1e8 divided by 1e18
+collateral is equal to safeMul divided by 1e8 divided by 1e18
+If safeAdd is greater then availableBalance
+i is less then tradeAddresses length
+If  Invalid symbol 
+
+ is equal to calculateCollateral
+ is equal to calculateCollateral
+ is equal to calculateFundingCost
+If  corresponds to 0
+ is equal to calculateCollateral
+ is equal to calculateCollateral
+ is equal to calculateFundingCost
+ is equal to safeMul
+If  is greater then 0
+If safeAdd is less or equal to safeMul
+If  Invalid symbol 
+character Invalid symbol price Invalid symbol 128
+character Invalid symbol side Invalid symbol 192
+character Invalid symbol block Invalid symbol 208
+ is equal to character
+If size is greater then 
+If  corresponds to 0
+If futuresContracts futuresContract expirationBlock corresponds to 0
+If futuresContracts futuresContract expirationBlock is greater then block number
+If safeAdd is greater then block number
+If  corresponds to 0
+futuresContracts futuresContract broken is equal to True
+
+collateral is equal to calculateCollateral
+collateral is equal to calculateCollateral
+If futuresContracts futuresContract closed corresponds to False Invalid symbol 
+If  corresponds to 0
+If  corresponds to 0
+If safeMul is greater then calculateTradeValue
+If side corresponds to True
+v collateral is equal to calculateCollateral
+v reservedFunding is equal to calculateFundingCost
+v payableFunding is equal to calculateFundingCost
+If v closingPrice is greater then 
+profit is equal to calculateProfit
+If profit is greater then safeAdd
+loss is equal to calculateLoss
+v collateral is equal to calculateCollateral
+v reservedFunding is equal to calculateFundingCost
+v payableFunding is equal to calculateFundingCost
+If v closingPrice is less then 
+profit is equal to calculateProfit
+If profit is greater then safeAdd
+loss is equal to calculateLoss
+If futuresContracts futuresContract expirationBlock corresponds to 0
+If futuresContracts futuresContract closed corresponds to True
+If futuresContracts futuresContract expirationBlock is greater then block number Invalid symbol  Invalid symbol 
+If price is less or equal to futuresContracts futuresContract floorPrice
+futuresContracts futuresContract closingPrice is equal to futuresContracts futuresContract floorPrice
+futuresContracts futuresContract closed is equal to True
+i is less then futuresContracts length

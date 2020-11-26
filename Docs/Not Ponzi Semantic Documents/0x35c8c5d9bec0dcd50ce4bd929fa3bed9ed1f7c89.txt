@@ -1,0 +1,33 @@
+solidity ^0.5.2 
+Ownable SafeMath IERC20Seed IAdminTools IATDeployer ITDeployer IFPDeployer Factory 
+SafeMath 
+_owner c c c c deployerList deployerLength ATContractsList TContractsList FPContractsList deployers ATContracts TContracts FPContracts seedContract seedAddress deployerAT ATDAddress deployerT TDAddress deployerFP FPDAddress internalDEXAddress factoryDeployBlock sender newAT newT newFP ATBrandNew dexMaxAmnt onTopMaxAmnt customOwnable 
+owner isOwner renounceOwnership transferOwnership _transferOwnership add sub mul div mod name symbol decimals totalSupply balanceOf transfer approve transferFrom allowance setFFPAddresses setMinterAddress getMinterAddress getWalletOnTopAddress setWalletOnTopAddress addWLManagers removeWLManagers isWLManager addWLOperators removeWLOperators renounceWLManager isWLOperator renounceWLOperators addFundingManagers removeFundingManagers isFundingManager addFundingOperators removeFundingOperators renounceFundingManager isFundingOperator renounceFundingOperators addFundsUnlockerManagers removeFundsUnlockerManagers isFundsUnlockerManager addFundsUnlockerOperators removeFundsUnlockerOperators renounceFundsUnlockerManager isFundsUnlockerOperator renounceFundsUnlockerOperators isWhitelisted getWLThresholdBalance getMaxWLAmount getWLLength setNewThreshold changeMaxWLAmount addToWhitelist addToWhitelistMassive removeFromWhitelist newAdminTools setFactoryAddress getFactoryAddress newToken setFactoryAddress getFactoryAddress newFundingPanel setFactoryAddress getFactoryAddress changeATFactoryAddress changeTDeployerAddress changeFPDeployerAddress setInternalDEXAddress deployPanelContracts getTotalDeployer getTotalATContracts getTotalTContracts getTotalFPContracts isFactoryDeployer isFactoryATGenerated isFactoryTGenerated isFactoryFPGenerated getContractsByIndex getFPAddressByIndex getFactoryContext 
+Factory inherits from Ownable 
+onlyOwner 
+OwnershipTransferred Transfer Approval NewPanelCreated ATFactoryAddressChanged TFactoryAddressChanged FPFactoryAddressChanged InternalDEXAddressChanged 
+_owner is equal to msg sender
+_owner is equal to 
+_owner is equal to newOwner
+If a corresponds to 0
+seedAddress is equal to _seedAddress
+seedContract is equal to IERC20Seed
+ATDAddress is equal to _ATDAddress
+deployerAT is equal to IATDeployer
+TDAddress is equal to _TDAddress
+deployerT is equal to ITDeployer
+FPDAddress is equal to _FPDAddress
+deployerFP is equal to IFPDeployer
+factoryDeployBlock is equal to block number
+ATDAddress is equal to _newATD
+deployerAT is equal to IATDeployer
+TDAddress is equal to _newTD
+deployerT is equal to ITDeployer
+FPDAddress is equal to _newFPD
+deployerFP is equal to IFPDeployer
+internalDEXAddress is equal to _dexAddress
+ is equal to True
+deployerLength is equal to deployerList length
+ is equal to True
+ is equal to True
+ is equal to True

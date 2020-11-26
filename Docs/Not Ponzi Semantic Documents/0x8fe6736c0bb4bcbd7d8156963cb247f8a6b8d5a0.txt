@@ -1,0 +1,34 @@
+solidity ^0.5.8 
+SafeMath ERC20Interface ApproveAndCallFallBack Owned CRK 
+SafeMath 
+owner newOwner symbol name decimals _totalSupply balances allowed 
+add sub mul div totalSupply balanceOf allowance transfer approve transferFrom receiveApproval transferOwnership acceptOwnership totalSupply balanceOf transfer approve transferFrom allowance approveAndCall  transferAny CMint CBurn mint burn 
+CRK inherits from ERC20Interface CRK inherits from Owned 
+onlyOwner 
+Transfer Approval OwnershipTransferred 
+c is equal to a plus b
+c is equal to a minus b
+c is equal to a multiplied by b
+c is equal to a divided by b
+owner is equal to msg sender
+newOwner is equal to _newOwner
+owner is equal to newOwner
+newOwner is equal to 
+symbol is equal to CRK
+name is equal to CrackCoin
+decimals is equal to 18
+_totalSupply is equal to 10000000 multiplied by 10 Invalid symbol 
+ is equal to _totalSupply
+ is equal to msg sender sub
+ is equal to balances to add
+ is equal to tokens
+ is equal to balances from sub
+ is equal to allowed from msg sender sub
+ is equal to balances to add
+ is equal to tokens
+ is equal to balances account add
+_totalSupply is equal to _totalSupply add
+ is equal to balances account sub
+_totalSupply is equal to _totalSupply sub
+
+

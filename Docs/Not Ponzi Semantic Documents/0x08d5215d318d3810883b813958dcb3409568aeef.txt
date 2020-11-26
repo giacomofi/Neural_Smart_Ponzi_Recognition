@@ -1,0 +1,21 @@
+solidity ^0.4.25 
+Piggy_bank Log 
+Holder Message 
+Holder has unlockTime
+Holder has balance
+Message has Sender
+Message has Data
+Message has Val
+Message has Time
+acc acc Acc LogFile MinSum History LastMsg 
+Put Collect  Piggy_bank AddMessage 
+acc balance increments of msg value
+acc unlockTime is equal to 
+If acc balance is greater or equal to MinSum Invalid symbol  Invalid symbol 
+
+acc balance decreases of _am
+LogFile is equal to Log
+LastMsg Sender is equal to _adr
+LastMsg Time is equal to now
+LastMsg Val is equal to _val
+LastMsg Data is equal to _data

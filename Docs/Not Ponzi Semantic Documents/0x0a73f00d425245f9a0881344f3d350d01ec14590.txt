@@ -1,0 +1,40 @@
+solidity ^0.5.10 
+Oracle 
+Asset 
+Asset has name
+Asset has lastPriceUpdateTime
+Asset has lastSettlePriceTime
+Asset has currentDay
+Asset has isFinalDay
+assets prices lastWeekPrices admins readers DAILY_PRICE_TIME_MIN WEEKLY_PRICE_TIME_MIN EDIT_PRICE_TIME_MAX asset _prices asset asset asset newPrices 
+addAdmin addAsset editPrice addReader getCurrentPrices getCurrentPrice getLastUpdateTime getLastSettleTime getPriceDay isFinalDay isSettleDay removeAdmin setIntraweekPrice setSettlePrice 
+onlyAdmin 
+AssetAdded PriceUpdated SettlePrice PriceCorrected 
+ is equal to True
+ is equal to True
+asset name is equal to _name
+asset currentDay is equal to 0
+asset lastPriceUpdateTime is equal to now
+asset lastSettlePriceTime is equal to now minus 5 days
+ is equal to _startPrice
+ is equal to newPrice
+ is equal to True
+currentPrices is equal to 
+price is equal to 
+timestamp is equal to assets id lastPriceUpdateTime
+timestamp is equal to assets id lastSettlePriceTime
+
+currentday is equal to 7
+currentday is equal to assets id currentDay plus 1
+ is equal to False
+asset currentDay is equal to asset currentDay plus 1
+asset lastPriceUpdateTime is equal to now
+ is equal to price
+asset isFinalDay is equal to finalDayStatus
+ is equal to 
+asset currentDay is equal to 0
+ is equal to price
+ is equal to newPrices
+asset lastPriceUpdateTime is equal to now
+asset lastSettlePriceTime is equal to now
+asset isFinalDay is equal to False

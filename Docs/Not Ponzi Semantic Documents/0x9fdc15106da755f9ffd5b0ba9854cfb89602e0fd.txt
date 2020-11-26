@@ -1,0 +1,9 @@
+solidity 0.5.15 
+SaiTapInterface TokenInterface CageFree 
+tap sai weth 
+sai cash approve transferFrom withdraw balanceOf freeCash  
+FreeCash 
+tap is equal to _tap
+sai is equal to 
+weth is equal to _weth
+cashoutBalance is equal to 

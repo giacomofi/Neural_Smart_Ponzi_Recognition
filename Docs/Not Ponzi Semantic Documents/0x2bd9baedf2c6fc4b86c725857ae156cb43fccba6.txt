@@ -1,0 +1,41 @@
+solidity ^0.5.0 
+SafeMath BurnableToken Engine 
+SafeMath 
+c c c c NEC_DECIMALS necAddress frozenEther liquidEther lastThaw thawingDelay totalEtherConsumed totalNecBurned thisAuctionTotalEther necPerEth lastSuccessfulSale auctionCounter startingPercentage numberSteps ethToSend nextWindow nextPriceMultiplier 
+add sub mul div mod burnAndRetrieve transferFrom payFeesInEther thaw getPriceWindow percentageMultiplier enginePrice ethPayoutForNecAmount sellAndBurnNec necToken getNextPriceChange getNextAuction getCurrentAuction 
+Thaw Burn FeesPaid AuctionClose 
+If a corresponds to 0
+lastThaw is equal to 0
+thawingDelay is equal to _delay
+necAddress is equal to _token
+necPerEth is equal to 
+totalEtherConsumed is equal to totalEtherConsumed add
+frozenEther is equal to frozenEther add
+lastThaw is equal to block timestamp
+If lastSuccessfulSale is greater then 0
+necPerEth is equal to lastSuccessfulSale
+necPerEth is equal to necPerEth div
+liquidEther is equal to liquidEther add
+thisAuctionTotalEther is equal to liquidEther
+frozenEther is equal to 0
+lastSuccessfulSale is equal to 0
+window is equal to 
+If block timestamp is greater or equal to lastThaw add
+If liquidEther is greater then 0.1 ether
+lastSuccessfulSale is equal to enginePrice
+liquidEther is equal to liquidEther sub
+totalNecBurned is equal to totalNecBurned add
+nextChangeTimeSeconds is equal to lastThaw plus 
+newPriceMultiplier is equal to 
+nextStartTimeSeconds is equal to lastThaw plus thawingDelay
+predictedEthAvailable is equal to frozenEther
+If lastSuccessfulSale is greater then 0
+predictedStartingPrice is equal to lastSuccessfulSale multiplied by 2
+predictedStartingPrice is equal to necPerEth div
+auctionNumber is equal to auctionCounter
+startTimeSeconds is equal to lastThaw
+currentPrice is equal to enginePrice
+ is equal to getNextPriceChange
+nextPrice is equal to 
+initialEthAvailable is equal to thisAuctionTotalEther
+remainingEthAvailable is equal to liquidEther

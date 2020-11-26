@@ -1,0 +1,11 @@
+solidity ^0.5.16 
+Proxy RW OwnedProxy 
+RW 
+impl implementationPosition proxyOwnerPosition proxyNewOwnerPosition 
+implementation  read write implementation proxyOwner proxyNewOwner transferProxyOwnership acceptProxyOwnership upgradeTo upgradeToAndCall 
+OwnedProxy inherits from Proxy 
+onlyProxyOwner 
+ProxyOwnershipTransferred Upgraded 
+impl is equal to implementationPosition read
+owner is equal to proxyOwnerPosition read
+newOwner is equal to proxyNewOwnerPosition read

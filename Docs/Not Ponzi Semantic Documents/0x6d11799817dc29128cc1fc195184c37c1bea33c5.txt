@@ -1,0 +1,22 @@
+solidity ^0.5.1 
+SafeMath EUROSTABLECOINConstants owned ERC20Basic ERC20 tokenRecipient EUROSTABLECOIN 
+c c c TOKEN_DECIMALS TOKEN_DECIMALS_UINT8 TOKEN_DECIMAL_MULTIPLIER name symbol standard Owner owner totalSupply frozenAccount balanceOf totalSupply allowance spender 
+mul div sub add transferOwnership transfer transferFrom approve receiveApproval _transfer mintToken freezeAccount transfer transferFrom approve approveAndCall burn burnFrom 
+ERC20 inherits from ERC20Basic EUROSTABLECOIN inherits from owned EUROSTABLECOIN inherits from ERC20 EUROSTABLECOIN inherits from EUROSTABLECOINConstants EUROSTABLECOIN inherits from SafeMath 
+onlyOwner 
+Transfer Approval FrozenFunds Transfer Approval Burn 
+owner is equal to msg sender
+owner is equal to newOwner
+ decreases of _value
+ increments of _value
+ increments of mintedAmount
+totalSupply increments of mintedAmount
+ is equal to freeze
+ decreases of _value
+ is equal to _value
+
+ decreases of _value
+totalSupply decreases of _value
+ decreases of _value
+ decreases of _value
+totalSupply decreases of _value

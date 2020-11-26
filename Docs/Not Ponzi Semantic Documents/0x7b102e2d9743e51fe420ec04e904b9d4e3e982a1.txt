@@ -1,0 +1,21 @@
+ERC20Basic SafeMath BasicToken ERC20 StandardToken BurnableToken PmsToken 
+SafeMath 
+totalSupply c c c balances allowed oldValue burner name symbol decimals INITIAL_SUPPLY 
+balanceOf transfer mul div sub add transfer balanceOf allowance transferFrom approve transferFrom approve allowance increaseApproval decreaseApproval burn PmsToken 
+BasicToken inherits from ERC20Basic ERC20 inherits from ERC20Basic StandardToken inherits from ERC20 StandardToken inherits from BasicToken BurnableToken inherits from BasicToken PmsToken inherits from StandardToken PmsToken inherits from BurnableToken 
+Transfer Approval Burn 
+If a corresponds to 0
+ is equal to msg sender sub
+ is equal to balances _to add
+ is equal to balances _from sub
+ is equal to balances _to add
+ is equal to allowed _from msg sender sub
+ is equal to _value
+ is equal to msg sender _spender add
+If _subtractedValue is greater then oldValue
+ is equal to 0
+ is equal to oldValue sub
+ is equal to balances burner sub
+totalSupply is equal to totalSupply sub
+totalSupply is equal to INITIAL_SUPPLY
+ is equal to INITIAL_SUPPLY

@@ -1,0 +1,55 @@
+RobinHoodPonzi 
+Participant 
+Participant has etherAddress
+Participant has payin
+Participant has payout
+participants payoutIdx collectedFees balance fee factor owner amount idx transactionAmount 
+RobinHoodPonzi  enter Infos participantDetails 
+onlyowner 
+owner is equal to msg sender
+If msg value is less then 1 finney
+If msg value is greater then 1000 ether
+amount is equal to 1000 ether
+amount is equal to msg value
+participants length increments of 1
+participants idx etherAddress is equal to msg sender
+participants idx payin is equal to amount
+If amount is greater or equal to 1 finney
+factor is equal to 300
+If amount is greater or equal to 10 finney
+factor is equal to 200
+If amount is greater or equal to 100 finney
+factor is equal to 180
+If amount is greater or equal to 1 ether
+factor is equal to 150
+If amount is greater or equal to 10 ether
+factor is equal to 125
+If amount is greater or equal to 100 ether
+factor is equal to 110
+If amount is greater or equal to 500 ether
+factor is equal to 105
+participants idx payout is equal to amount multiplied by factor divided by 100
+collectedFees increments of amount multiplied by fee divided by 100
+balance increments of amount minus amount multiplied by fee divided by 100
+While balance is greater then participants payoutIdx payout
+balance decreases of transactionAmount
+payoutIdx increments of 1
+If collectedFees is greater then 1 ether
+collectedFees is equal to 0
+Owner is equal to owner
+BalanceInFinney is equal to balance divided by 1 finney
+PayOutIndex is equal to payoutIdx
+Participants is equal to participants length
+NextPayout is equal to participants payoutIdx payout divided by 1 finney
+info is equal to All amounts in Finney (1 Ether = 1000 Finney)
+PaidOut is equal to N.A.
+Address is equal to 0
+PayinInFinney is equal to 0
+PayoutInFinney is equal to 0
+If nr is less then participants length
+Address is equal to participants nr etherAddress
+PayinInFinney is equal to participants nr payin divided by 1 finney
+PayoutInFinney is equal to participants nr payout divided by 1 finney
+PaidOut is equal to no
+If nr is less then payoutIdx
+PaidOut is equal to yes

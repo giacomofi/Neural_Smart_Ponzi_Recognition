@@ -1,0 +1,10 @@
+solidity ^0.5.8 
+Ownable iColabRegistry 
+_owner 
+owner isOwner renounceOwnership transferOwnership _transferOwnership registerFile 
+iColabRegistry inherits from Ownable 
+onlyOwner 
+OwnershipTransferred FileRegistered 
+_owner is equal to msg sender
+_owner is equal to 
+_owner is equal to newOwner

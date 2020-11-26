@@ -1,0 +1,8 @@
+solidity ^0.4.24 
+EscrowReserveInterface BurnableERC20 Events DB EscrowReserve 
+database events erc20 
+issueERC20 requestERC20 approveERC20 burnERC20 allowance burnFrom burn totalSupply balanceOf transfer approve transferFrom transaction addressStorage uintStorage setUint deleteUint setBool boolStorage issueERC20 requestERC20 approveERC20 burnERC20 
+EscrowReserve inherits from EscrowReserveInterface 
+Transfer Approval LogBurn 
+database is equal to DB
+events is equal to Events

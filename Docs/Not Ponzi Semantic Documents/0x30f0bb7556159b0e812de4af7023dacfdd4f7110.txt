@@ -1,0 +1,5 @@
+solidity 0.6.5 experimental ABIEncoderV2 
+ProtocolAdapter LendingPoolAddressesProvider LendingPool AaveDebtAdapter 
+PROVIDER override override pool 
+adapterType tokenType getBalance getLendingPool getUserReserveData getBalance 
+AaveDebtAdapter inherits from ProtocolAdapter 

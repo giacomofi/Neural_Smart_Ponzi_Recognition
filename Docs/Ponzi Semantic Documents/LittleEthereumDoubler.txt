@@ -1,0 +1,28 @@
+LittleEthereumDoubler 
+User 
+User has addr
+User has paidOut
+User has payoutLeft
+users index feeAddress a 
+NewFeeAddress LittleEthereumDoubler  Start DepositLimit Fees NewDeposit Payout UserDatabase 
+execute 
+If msg value is different from 0
+feeAddress is equal to newFeeAddress
+feeAddress is equal to tx origin
+a is equal to DepositLimit
+x is equal to a
+If x is less then 100 finney
+If x is greater then 50 ether
+x is equal to 50 ether
+ addr is equal to tx origin
+ payoutLeft is equal to a multiplied by 2
+While this balance is different from 0
+If users index payoutLeft is greater then this balance
+users index payoutLeft decreases of this balance
+users index paidOut increments of this balance
+users index paidOut increments of users index payoutLeft
+Address is equal to users id addr
+PaidOut is equal to users id paidOut divided by 100 finney
+PayoutLeft is equal to users id payoutLeft divided by 100 finney
+Payout is equal to  divided by 100 finney
+info is equal to values are shown in a denomination of 100 finneys ( 100 finney = 0.1 ether = minimum input)

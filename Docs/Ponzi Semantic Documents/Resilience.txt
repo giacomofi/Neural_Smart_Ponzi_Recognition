@@ -1,0 +1,47 @@
+solidity ^0.4.6 
+CloseIfBug RES SwarmRedistribution Resilience 
+dividendPathway 
+dividendPathway has from
+dividendPathway has amount
+dividendPathway has timeStamp
+JohanNygren bugDiscovered name symbol decimals totalSupply balanceOf dividendPathways isHuman totalBasicIncome taxRate exchangeRate humans inHumans taxCollected sentAmount i timeStamp node share i i 
+CloseIfBug closeCampaign RES buy sell SwarmRedistribution transfer iterateThroughSwarm doSwarm removeDividendPathway Resilience setBeneficiary 
+RES inherits from CloseIfBug SwarmRedistribution inherits from CloseIfBug SwarmRedistribution inherits from RES Resilience inherits from CloseIfBug Resilience inherits from RES Resilience inherits from SwarmRedistribution 
+onlyJohan isOpen 
+Transfer Bought Sold Swarm 
+bugDiscovered is equal to False
+bugDiscovered is equal to True
+name is equal to RES
+symbol is equal to RES
+decimals is equal to 18
+ increments of msg value
+totalSupply increments of msg value
+If  is less then _value
+ decreases of _value
+If 
+totalSupply decreases of _value
+taxRate is equal to 20
+exchangeRate is equal to 0
+If _to corresponds to msg sender
+If  is less then _value
+If  plus _value is less then 
+If humans length is greater then 0
+sentAmount is equal to _value
+sentAmount is equal to _value minus taxCollected
+ decreases of sentAmount
+ increments of _value minus taxCollected
+i is less then dividendPathways _node length
+If timeStamp is less or equal to _timeStamp
+If  corresponds to True Invalid symbol 
+ is equal to True
+If dividendPathways _node i amount minus _taxCollected is greater then 0
+dividendPathways _node i amount decreases of _taxCollected
+i is less then humans length
+ increments of share
+ increments of share
+ is equal to False
+i is less then dividendPathways node length minus 1
+ is equal to 
+If JohanNygren is different from 0
+JohanNygren is equal to msg sender
+ is equal to True

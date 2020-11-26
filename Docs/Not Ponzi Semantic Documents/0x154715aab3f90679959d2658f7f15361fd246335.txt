@@ -1,0 +1,22 @@
+solidity ^0.4.18 
+SafeMath ERC20Interface ApproveAndCallFallBack ALS 
+symbol name decimals _totalSupply balances allowed 
+safeAdd safeSub safeMul safeDiv totalSupply balanceOf allowance transfer approve transferFrom receiveApproval ALS totalSupply balanceOf transfer approve transferFrom allowance approveAndCall  
+ALS inherits from ERC20Interface ALS inherits from SafeMath 
+Transfer Approval 
+c is equal to a plus b
+c is equal to a minus b
+c is equal to a multiplied by b
+c is equal to a divided by b
+symbol is equal to ALS
+name is equal to Altruis Coin
+decimals is equal to 18
+_totalSupply is equal to 3000000000000000000000000000
+ is equal to _totalSupply
+ is equal to safeSub
+ is equal to safeAdd
+ is equal to tokens
+ is equal to safeSub
+ is equal to safeSub
+ is equal to safeAdd
+ is equal to tokens

@@ -1,0 +1,36 @@
+solidity ^0.6.0 
+IndexInterface DSMath Controllers LinkedList InstaConnectors 
+List 
+List has prev
+List has next
+instaIndex chief connectors staticConnectors count first last list staticCount staticList i i 
+master add sub enableChief disableChief addToList removeFromList enable disable enableStatic isConnector isStaticConnector 
+Controllers inherits from DSMath LinkedList inherits from Controllers InstaConnectors inherits from LinkedList 
+isChief 
+LogAddController LogRemoveController LogEnable LogDisable LogEnableStatic 
+ is equal to True
+If last is different from 
+list _connector prev is equal to last
+list last next is equal to _connector
+If first corresponds to 
+first is equal to _connector
+last is equal to _connector
+count is equal to add
+If list _connector prev is different from 
+list _connector prev next is equal to list _connector next
+first is equal to list _connector next
+If list _connector next is different from 
+list _connector next prev is equal to list _connector prev
+last is equal to list _connector prev
+count is equal to sub
+ is equal to True
+ is equal to _connector
+ is equal to True
+isOk is equal to True
+i is less then _connectors length
+If 
+isOk is equal to False
+isOk is equal to True
+i is less then _connectors length
+If 
+isOk is equal to False

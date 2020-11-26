@@ -1,0 +1,30 @@
+solidity 0.5.14 
+OperatingAgreement 
+Signature 
+Signature has signatory
+Signature has number
+Signature has version
+Signature has terms
+Signature has details
+Signature has filed
+proposedLexDAO lexDAO filingFee sigFee version emoji terms signature sigs sig number sig 
+fileCo signTerms upgradeSignature amendTerms newFilingFee newSigFee proposeLexDAO transferLexDAO 
+onlyLexDAO 
+Amended Filed Signed Upgraded LexDAOProposed LexDAOTransferred 
+lexDAO is equal to _lexDAO
+filingFee is equal to _filingFee
+sigFee is equal to _sigFee
+version is equal to 1
+terms is equal to _terms
+sig filed is equal to True
+signature is equal to signature plus 1
+ is equal to Signature
+sig version is equal to version
+sig terms is equal to terms
+sig details is equal to details
+version is equal to version plus 1
+terms is equal to _terms
+filingFee is equal to weiAmount
+sigFee is equal to weiAmount
+proposedLexDAO is equal to _proposedLexDAO
+lexDAO is equal to msg sender

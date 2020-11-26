@@ -1,0 +1,62 @@
+solidity ^0.4.6 
+RES SwarmRedistribution 
+dividendPathway Node 
+dividendPathway has from
+dividendPathway has amount
+dividendPathway has timeStamp
+Node has node
+Node has parent
+Node has index
+name symbol decimals totalSupply balanceOf JohanNygren campaignOpen dividendPathways totalBasicIncome taxRate swarmTree inSwarmTree JohanInSwarm taxCollected sentAmount i timeStamp node share i node parent index isJohan JohanWasInSwarm i 
+RES SwarmRedistribution changeJohanNygrensAddress closeCampaign buy buyViaJohan sell transfer swarmRedistribution iterateThroughSwarm doSwarm removeDividendPathway 
+SwarmRedistribution inherits from RES 
+onlyJohan isOpen 
+Transfer Bought Sold BoughtViaJohan Swarm 
+name is equal to RES
+symbol is equal to RES
+decimals is equal to 18
+taxRate is equal to 20
+JohanNygren is equal to 0x948176CB42B65d835Ee4324914B104B66fB93B52
+campaignOpen is equal to True
+JohanNygren is equal to _newAddress
+campaignOpen is equal to False
+ is equal to msg value
+totalSupply increments of msg value
+ is equal to msg value
+totalSupply increments of msg value
+If  is less then _value
+ decreases of _value
+If 
+totalSupply decreases of _value
+If _to corresponds to msg sender
+If  is less then _value
+If  plus _value is less then 
+If swarmRedistribution corresponds to True
+sentAmount is equal to _value
+sentAmount is equal to _value minus taxCollected
+ decreases of sentAmount
+ increments of _value minus taxCollected
+If swarmTree length is different from 0
+If dividendPathways _node length is different from 0
+i is less then dividendPathways _node length
+If  corresponds to False
+If timeStamp is less or equal to _timeStamp
+If dividendPathways _node i from corresponds to JohanNygren
+JohanInSwarm is equal to True
+ is equal to True
+
+share is equal to _taxCollected
+share is equal to 0
+i is less then swarmTree length
+If node corresponds to JohanNygren
+isJohan is equal to True
+
+ increments of share
+ increments of share
+If dividendPathways parent index amount minus _taxCollected is greater then 0
+dividendPathways parent index amount decreases of _taxCollected
+ is equal to False
+
+If not JohanWasInSwarm
+i is less then dividendPathways node length minus 1
+ is equal to 

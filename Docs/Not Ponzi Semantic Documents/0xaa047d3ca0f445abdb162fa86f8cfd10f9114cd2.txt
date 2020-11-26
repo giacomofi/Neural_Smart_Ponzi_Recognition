@@ -1,0 +1,22 @@
+solidity 0.5.7 
+IERC20 SafeMath ERC20 VVCToken 
+SafeMath 
+c c c c _balances _allowed _totalSupply name symbol decimals 
+transfer approve transferFrom totalSupply balanceOf allowance mul div sub add mod totalSupply balanceOf allowance transfer approve transferFrom increaseAllowance decreaseAllowance _transfer _mint _burn _burnFrom 
+ERC20 inherits from IERC20 VVCToken inherits from ERC20 
+Transfer Approval 
+If a corresponds to 0
+ is equal to value
+ is equal to _allowed from msg sender sub
+ is equal to msg sender spender add
+ is equal to msg sender spender sub
+ is equal to _balances from sub
+ is equal to _balances to add
+_totalSupply is equal to _totalSupply add
+ is equal to _balances account add
+_totalSupply is equal to _totalSupply sub
+ is equal to _balances account sub
+ is equal to _allowed account msg sender sub
+name is equal to _name
+symbol is equal to _symbol
+decimals is equal to _decimals

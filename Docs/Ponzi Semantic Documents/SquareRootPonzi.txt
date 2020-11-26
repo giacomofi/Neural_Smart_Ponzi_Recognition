@@ -1,0 +1,19 @@
+squareRootPonzi 
+MasterCalculators 
+MasterCalculators has ethereumAddress
+MasterCalculators has name
+MasterCalculators has squareRoot
+masterCalculator calculatedTo index to z 
+ CalculateSqrt sqrt 
+If msg value corresponds to 1 finney
+If this balance is greater then 2 finney
+masterCalculator index ethereumAddress is equal to msg sender
+masterCalculator index name is equal to masterly calculated: 
+calculatedTo increments of 100 ether
+masterCalculator index squareRoot is equal to CalculateSqrt
+If masterCalculator length is greater then 3
+y is equal to x
+While z is less then y
+y is equal to z
+z is equal to  divided by 2
+If x is greater then masterCalculator length plus 1

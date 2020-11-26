@@ -1,0 +1,98 @@
+solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity 0.5.10 solidity 0.5.10 solidity 0.5.10 solidity 0.5.10 solidity ^0.5.0 solidity ^0.5.0 solidity 0.5.10 solidity 0.5.10 
+Context IERC20 SafeMath ERC20 CompoundOracleInterface UniswapExchangeInterface UniswapFactoryInterface OptionsUtils OptionsExchange ERC20Detailed Ownable OptionsContract oToken 
+SafeMath SafeMath 
+Number Vault 
+Number has value
+Number has exponent
+Vault has collateral
+Vault has oTokensIssued
+Vault has underlying
+Vault has owned
+c c c c _balances _allowances _totalSupply name symbol decimals exchangeTemplate tokenCount UNISWAP_FACTORY COMPOUND_ORACLE exchange LARGE_BLOCK_SIZE LARGE_APPROVAL_NUMBER UNISWAP_FACTORY oToken payoutToken payoutTokensReceived oToken paymentToken oTokenExchange ethReceived payoutExchange oTokenExchange ethToPay paymentTokenExchange exchange exchange paymentTokensToTransfer exchange ethToTransfer exchange _name _symbol _decimals _owner optionsExchange vaults vaultOwners liquidationIncentive transactionFee liquidationFactor minCollateralizationRatio strikePrice oTokenExchangeRate windowSize totalFee expiry collateralExp underlyingExp collateral underlying strike COMPOUND_ORACLE name symbol decimals owners index i fees underlyingPerOTokenExp i vaultOwner vault vault underlyingToTransfer vault newOTokensBalance vault vault vault newCollateralBalance vault collateralToTransfer underlyingToTransfer vault maxCollateralLiquidatable one liqIncentive vault amtCollateral amtIncentive amtCollateralToPay maxCollateralLiquidatable stillUnsafe vault vault vault amtUnderlyingToPay amtCollateralToPay amtFee totalCollateralToPay vault collateralToEthPrice strikeToEthPrice leftSideVal leftSideExp rightSideVal rightSideExp exp stillSafe collateralToEthPrice strikeToEthPrice denomVal denomExp numeratorVal numeratorExp exp numOptions collateralToEthPrice strikeToEthPrice amtCollateralToPayInEthNum amtCollateralToPayExp amtCollateralToPay exp exp 
+_msgSender _msgData totalSupply balanceOf transfer allowance approve transferFrom add sub sub mul div div mod mod totalSupply balanceOf transfer allowance approve transferFrom increaseAllowance decreaseAllowance _transfer _mint _burn _approve _burnFrom getPrice getUnderlyingPrice tokenAddress factoryAddress addLiquidity removeLiquidity getEthToTokenInputPrice getEthToTokenOutputPrice getTokenToEthInputPrice getTokenToEthOutputPrice ethToTokenSwapInput ethToTokenTransferInput ethToTokenSwapOutput ethToTokenTransferOutput tokenToEthSwapInput tokenToEthTransferInput tokenToEthSwapOutput tokenToEthTransferOutput tokenToTokenSwapInput tokenToTokenTransferInput tokenToTokenSwapOutput tokenToTokenTransferOutput tokenToExchangeSwapInput tokenToExchangeTransferInput tokenToExchangeSwapOutput tokenToExchangeTransferOutput transfer transferFrom approve allowance balanceOf totalSupply setup createExchange getExchange getToken getTokenWithId initializeFactory getExchange isETH sellOTokens buyOTokens premiumReceived premiumToPay uniswapSellOToken uniswapBuyOToken getExchange isETH  name symbol decimals owner isOwner renounceOwnership transferOwnership _transferOwnership getVaultOwners updateParameters setDetails transferFee hasVault openVault addETHCollateral addERC20Collateral underlyingRequiredToExercise isExerciseWindow hasExpired exercise removeUnderlying issueOTokens getVault isETH burnOTokens removeCollateral redeemVaultBalance maxOTokensLiquidatable liquidate isUnsafe isWithinExponentRange getCollateral getOTokensIssued _exercise _addCollateral isSafe maxOTokensIssuable calculateOTokens calculateCollateralToPay transferCollateral transferUnderlying getPrice createETHCollateralOption addETHCollateralOption createAndSellETHCollateralOption addAndSellETHCollateralOption createERC20CollateralOption addERC20CollateralOption createAndSellERC20CollateralOption addAndSellERC20CollateralOption 
+ERC20 inherits from Context ERC20 inherits from IERC20 ERC20Detailed inherits from IERC20 Ownable inherits from Context OptionsContract inherits from Ownable OptionsContract inherits from ERC20 oToken inherits from OptionsContract 
+onlyOwner notExpired 
+Transfer Approval SellOTokens BuyOTokens OwnershipTransferred VaultOpened ETHCollateralAdded ERC20CollateralAdded IssuedOTokens Liquidate Exercise RedeemVaultBalance BurnOTokens RemoveCollateral UpdateParameters TransferFee RemoveUnderlying 
+If a corresponds to 0
+ is equal to _balances sender sub
+ is equal to _balances recipient add
+_totalSupply is equal to _totalSupply add
+ is equal to _balances account add
+ is equal to _balances account sub
+_totalSupply is equal to _totalSupply sub
+ is equal to amount
+UNISWAP_FACTORY is equal to UniswapFactoryInterface
+COMPOUND_ORACLE is equal to CompoundOracleInterface
+If  corresponds to 
+UNISWAP_FACTORY is equal to UniswapFactoryInterface
+If 
+If 
+
+If 
+If  corresponds to 
+_name is equal to name
+_symbol is equal to symbol
+_decimals is equal to decimals
+_owner is equal to _msgSender
+_owner is equal to 
+_owner is equal to newOwner
+collateral is equal to _collateral
+collateralExp is equal to _collExp
+underlying is equal to _underlying
+underlyingExp is equal to _underlyingExp
+oTokenExchangeRate is equal to Number
+strikePrice is equal to Number
+strike is equal to _strike
+expiry is equal to _expiry
+COMPOUND_ORACLE is equal to CompoundOracleInterface
+optionsExchange is equal to _optionsExchange
+windowSize is equal to _windowSize
+i is less then vaultOwners length
+
+ is equal to 
+liquidationIncentive value is equal to _liquidationIncentive
+liquidationFactor value is equal to _liquidationFactor
+transactionFee value is equal to _transactionFee
+minCollateralizationRatio value is equal to _minCollateralizationRatio
+name is equal to _name
+symbol is equal to _symbol
+decimals is equal to 
+totalFee is equal to 0
+ is equal to Vault
+i is less then vaultsToExerciseFrom length
+If oTokensToExercise corresponds to 0
+vault underlying is equal to 0
+vault oTokensIssued is equal to newOTokensBalance
+vault oTokensIssued is equal to vault oTokensIssued sub
+vault collateral is equal to newCollateralBalance
+vault collateral is equal to 0
+vault oTokensIssued is equal to 0
+vault underlying is equal to 0
+
+If liquidationFactor exponent is greater then 0
+maxCollateralLiquidatable is equal to maxCollateralLiquidatable mul
+maxCollateralLiquidatable is equal to maxCollateralLiquidatable div
+vault collateral is equal to vault collateral sub
+vault oTokensIssued is equal to vault oTokensIssued sub
+vault underlying is equal to vault underlying add
+totalFee is equal to totalFee add
+vault collateral is equal to vault collateral sub
+vault oTokensIssued is equal to vault oTokensIssued sub
+
+vault collateral is equal to vault collateral add
+If rightSideExp is less then leftSideExp
+exp is equal to 
+stillSafe is equal to leftSideVal mul is less or equal to rightSideVal
+exp is equal to 
+stillSafe is equal to leftSideVal is less or equal to rightSideVal mul
+If numeratorExp is less then denomExp
+exp is equal to 
+numOptions is equal to numeratorVal div
+exp is equal to 
+numOptions is equal to 
+If amtCollateralToPayExp is greater then 0
+amtCollateralToPay is equal to 
+amtCollateralToPay is equal to 
+
+
+If  corresponds to 

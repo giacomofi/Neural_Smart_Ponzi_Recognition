@@ -1,0 +1,19 @@
+solidity ^0.4.24 
+Database 
+uintStorage stringStorage addressStorage bytesStorage bytes32Storage boolStorage intStorage i 
+enableContractManagement setAddress setUint setString setBytes setBytes32 setBool setInt deleteAddress deleteUint deleteString deleteBytes deleteBytes32 deleteBool deleteInt 
+onlyApprovedContract 
+LogInitialized 
+i is less then _owners length
+ is equal to True
+
+ is equal to True
+ is equal to _contractManager
+ is equal to True
+ is equal to _value
+ is equal to _value
+ is equal to _value
+ is equal to _value
+ is equal to _value
+ is equal to _value
+ is equal to _value

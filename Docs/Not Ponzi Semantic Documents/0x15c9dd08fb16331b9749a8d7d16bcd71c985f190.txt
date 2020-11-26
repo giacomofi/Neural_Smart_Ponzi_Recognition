@@ -1,0 +1,43 @@
+solidity ^0.5.8 
+SafeMath Ownable BaseToken Roles MinterRole ERC20Mintable CC 
+SafeMath Roles SafeMath 
+Lock Role 
+Lock has amount
+Lock has expiresAt
+Role has bearer
+c c c c stopped _owner _admin proposedOwner _allowed E18 decimals totalSupply balances approvals lockup lockedAddresses lockedBalance locks length i lockedBalance balance length _minters name symbol version 
+mul div sub add mod owner isOwner isAllowed allow removeAllowed isStopped stop start proposeOwner claimOwnership _stop _start balanceOf lockedBalanceOf allowance isLocked transfer transferFrom transferWithLock addtokenLock lockAddress approve unlock unlockAll burn _mint _transfer _lock destruction add remove has isMinter addMinter renounceMinter _addMinter _removeMinter mint 
+BaseToken inherits from Ownable ERC20Mintable inherits from BaseToken ERC20Mintable inherits from MinterRole CC inherits from BaseToken CC inherits from ERC20Mintable 
+onlyOwner onlyAllowed onlyWhenNotStopped transferParamsValidation canTransfer onlyMinter 
+Stopped Started OwnershipTransferred Allowed RemoveAllowed Transfer Approval Locked UnlockedAll UnlockedIndex Burn MinterAdded MinterRemoved 
+If a corresponds to 0
+stopped is equal to False
+_owner is equal to msg sender
+ is equal to True
+ is equal to False
+If isOwner Invalid symbol isAllowed
+proposedOwner is equal to _proposedOwner
+_owner is equal to proposedOwner
+proposedOwner is equal to 
+stopped is equal to True
+stopped is equal to False
+ is equal to totalSupply
+If lockup _who length is greater then 0
+i is less then length
+If now is less then locks i expiresAt
+lockedBalance is equal to lockedBalance add
+If lockedBalance is less or equal to 0
+ is equal to approvals _from msg sender sub
+ is equal to _locked
+ is equal to _value
+ is equal to 
+ is equal to msg sender sub
+totalSupply is equal to totalSupply sub
+totalSupply is equal to totalSupply add
+ is equal to balances account add
+ is equal to balances _from sub
+ is equal to balances _to add
+ is equal to True
+ is equal to False
+totalSupply is equal to 800000000 multiplied by E18
+ is equal to totalSupply

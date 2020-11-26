@@ -1,0 +1,29 @@
+solidity =0.5.12 
+LibNote VatLike Pot 
+wards pie Pie dsr chi vat vow rho live ONE chi_ 
+move suck rely deny rpow rmul add sub mul file file cage drip join exit 
+Pot inherits from LibNote 
+note auth 
+LogNote 
+ is equal to 1
+ is equal to 0
+ is equal to 1
+vat is equal to VatLike
+dsr is equal to ONE
+chi is equal to ONE
+rho is equal to now
+live is equal to 1
+z is equal to mul divided by ONE
+If what corresponds to dsr
+dsr is equal to data
+If what corresponds to vow
+vow is equal to addr
+live is equal to 0
+dsr is equal to ONE
+tmp is equal to rmul
+chi is equal to tmp
+rho is equal to now
+ is equal to add
+Pie is equal to add
+ is equal to sub
+Pie is equal to sub

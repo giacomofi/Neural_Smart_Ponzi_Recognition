@@ -1,0 +1,21 @@
+solidity ^0.6.1 
+ERC20Interface SafeMath VWVPower 
+name symbol decimals _totalSupply balances allowed 
+totalSupply balanceOf allowance approve transfer transferFrom safeAdd safeSub safeMul safeDiv totalSupply balanceOf allowance approve transfer transferFrom 
+VWVPower inherits from ERC20Interface VWVPower inherits from SafeMath 
+Transfer Approval 
+c is equal to a plus b
+c is equal to a minus b
+c is equal to a multiplied by b
+c is equal to a divided by b
+name is equal to VWV Power
+symbol is equal to VWV
+decimals is equal to 2
+_totalSupply is equal to 1000000000000
+ is equal to _totalSupply
+ is equal to tokens
+ is equal to safeSub
+ is equal to safeAdd
+ is equal to safeSub
+ is equal to safeSub
+ is equal to safeAdd

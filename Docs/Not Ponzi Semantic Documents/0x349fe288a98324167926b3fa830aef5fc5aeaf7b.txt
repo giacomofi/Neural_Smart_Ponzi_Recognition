@@ -1,0 +1,27 @@
+solidity 0.4.25 
+Ownable Claimable Adminable IWalletsTradingDataSource IContractAddressLocator ContractAddressLocatorHolder SafeMath WalletsTradingDataSource 
+SafeMath 
+AdminInfo 
+AdminInfo has valid
+AdminInfo has index
+owner pendingOwner adminArray adminTable adminInfo adminInfo lastAdmin _IAuthorizationDataSource_ _ISGNConversionManager_ _IModelDataSource_ _IPaymentHandler_ _IPaymentManager_ _IPaymentQueue_ _IReconciliationAdjuster_ _IIntervalIterator_ _IMintHandler_ _IMintListener_ _IMintManager_ _IPriceBandCalculator_ _IModelCalculator_ _IRedButton_ _IReserveManager_ _ISagaExchanger_ _IMonetaryModel_ _IMonetaryModelState_ _ISGAAuthorizationManager_ _ISGAToken_ _ISGATokenManager_ _ISGNAuthorizationManager_ _ISGNToken_ _ISGNTokenManager_ _IMintingPointTimersManager_ _ITradingClasses_ _IWalletsTradingLimiterValueConverter_ _BuyWalletsTradingDataSource_ _SellWalletsTradingDataSource_ _WalletsTradingLimiter_SGNTokenManager_ _BuyWalletsTradingLimiter_SGATokenManager_ _SellWalletsTradingLimiter_SGATokenManager_ _IETHConverter_ _ITransactionLimiter_ _ITransactionManager_ _IRateApprover_ contractAddressLocator c c c c VERSION values authorizedExecutorsIdentifier value i 
+renounceOwnership transferOwnership _transferOwnership transferOwnership claimOwnership accept reject getAdminArray getAdminCount updateWallet getContractAddress isContractAddressRelates getContractAddressLocator getContractAddress isSenderAddressRelates mul div sub add mod setAuthorizedExecutorsIdentifier updateWallet resetWallets 
+Claimable inherits from Ownable Adminable inherits from Claimable WalletsTradingDataSource inherits from IWalletsTradingDataSource WalletsTradingDataSource inherits from ContractAddressLocatorHolder WalletsTradingDataSource inherits from Adminable 
+onlyOwner onlyPendingOwner onlyAdmin only onlyAuthorizedExecutors 
+OwnershipRenounced OwnershipTransferred AdminAccepted AdminRejected TradingWalletUpdated 
+owner is equal to msg sender
+owner is equal to 
+owner is equal to _newOwner
+pendingOwner is equal to newOwner
+owner is equal to pendingOwner
+pendingOwner is equal to 
+adminInfo valid is equal to True
+adminInfo index is equal to adminArray length
+adminTable lastAdmin index is equal to adminInfo index
+ is equal to lastAdmin
+adminArray length decreases of 1
+contractAddressLocator is equal to _contractAddressLocator
+If a corresponds to 0
+authorizedExecutorsIdentifier is equal to _authorizedExecutorsIdentifier
+ is equal to value
+i is less then _wallets length

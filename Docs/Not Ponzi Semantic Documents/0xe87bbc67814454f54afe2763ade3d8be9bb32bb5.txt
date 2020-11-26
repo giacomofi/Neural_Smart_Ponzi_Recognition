@@ -1,0 +1,11 @@
+solidity ^0.5.9 
+ReverseRegistrar AbstractENS ParkingResolver 
+INTERFACE_META_ID ADDR_INTERFACE_ID TEXT_INTERFACE_ID CONTENTHASH_INTERFACE_ID NODE_RR _ens _owner _addr _text _contenthash 
+claim owner owner setOwner addr setAddr text setText contenthash setContenthash supportsInterface 
+_owner is equal to addr
+_addr is equal to addr
+_ens is equal to AbstractENS
+_owner is equal to owner
+_addr is equal to addr
+ is equal to value
+_contenthash is equal to contenthash

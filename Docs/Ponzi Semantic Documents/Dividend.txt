@@ -1,0 +1,38 @@
+Dividend 
+Contributor 
+Contributor has addr
+Contributor has contribution
+Contributor has profit
+contributors unprocessedProfits totalContributors totalContributions totalProfit totalSUM deployer profitAddr profit profitAmount contriTotal proi contri recontri recoi cProfit 
+Dividend  Enter PayOut TestContract SetProfitAddr 
+execute 
+deployer is equal to msg sender
+profitAddr is equal to deployer
+If msg sender corresponds to profitAddr
+unprocessedProfits is equal to msg value
+If unprocessedProfits is different from 0
+totalProfit increments of profitAmount
+If contributors length is different from 0 Invalid symbol 
+proi is less then contributors length
+contriTotal is equal to contributors proi contribution plus contributors proi profit
+profit is equal to profitAmount multiplied by contriTotal divided by totalSUM
+contributors proi profit increments of profit
+totalSUM increments of profitAmount
+totalContributions increments of contri
+totalSUM increments of contri
+recoi is less then contributors length
+If msg sender corresponds to contributors recoi addr
+contributors recoi contribution increments of contri
+recontri is equal to True
+If recontri corresponds to False
+totalContributors is equal to contributors length plus 1
+contributors length increments of 1
+ addr is equal to msg sender
+ contribution is equal to contri
+ profit is equal to 0
+If msg sender corresponds to contributors ContibutorNumber addr
+If cProfit is different from 0
+contributors ContibutorNumber profit is equal to 0
+totalProfit decreases of cProfit
+totalSUM decreases of cProfit
+profitAddr is equal to _newAddr

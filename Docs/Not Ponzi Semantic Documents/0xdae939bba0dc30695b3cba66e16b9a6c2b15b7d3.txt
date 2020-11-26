@@ -1,0 +1,9 @@
+solidity ^0.4.24 
+DBInterface Events ContractManager 
+database database events currentState newState contractToDelete oldAddress currentState newState currentState 
+setContractManager setAddress setUint setString setBytes setBytes32 setBool setInt deleteAddress deleteUint deleteString deleteBytes deleteBytes32 deleteBool deleteInt uintStorage stringStorage addressStorage bytesStorage bytes32Storage boolStorage intStorage message transaction registration contractChange asset escrow order exchange operator consensus addContract removeContract updateContract setContractStatePreferences 
+onlyApprovedContract isUpgradeable anyOwner contractExists isTrue 
+LogEvent LogTransaction LogAddress LogContractChange LogAsset LogEscrow LogOrder LogExchange LogOperator LogConsensus LogContractAdded LogContractRemoved LogContractUpdated LogNewContractLocation LogContractStatePreferenceChanged 
+database is equal to DBInterface
+database is equal to DBInterface
+events is equal to Events

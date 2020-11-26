@@ -1,0 +1,18 @@
+solidity ^0.5.2 
+IERC20 SafeMath HALE 
+SafeMath 
+c c c c _name _symbol _decimals _balances _allowed _totalSupply 
+transfer approve transferFrom totalSupply balanceOf allowance mul div sub add mod name symbol decimals totalSupply balanceOf allowance transfer burn burnFrom approve transferFrom increaseAllowance decreaseAllowance _transfer _burn _approve _burnFrom 
+HALE inherits from IERC20 
+Transfer Approval 
+If a corresponds to 0
+ is equal to initialSupply
+_totalSupply is equal to initialSupply
+_name is equal to tokenName
+_symbol is equal to tokenSymbol
+_decimals is equal to decimalUnits
+ is equal to _balances from sub
+ is equal to _balances to add
+_totalSupply is equal to _totalSupply sub
+ is equal to _balances account sub
+ is equal to value

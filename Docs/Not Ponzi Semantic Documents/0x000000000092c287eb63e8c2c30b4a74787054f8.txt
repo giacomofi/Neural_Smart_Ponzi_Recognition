@@ -1,0 +1,8 @@
+solidity ^0.5.8 solidity ^0.5.8 solidity ^0.5.8 solidity ^0.5.8 solidity ^0.5.8 solidity ^0.5.8 solidity ^0.5.8 
+Proxy AddressUtils BaseUpgradeabilityProxy UpgradeabilityProxy BaseAdminUpgradeabilityProxy AdminUpgradeabilityProxy TokenFactoryProxy 
+size IMPLEMENTATION_SLOT slot slot ADMIN_SLOT slot slot 
+ _implementation _delegate _willFallback _fallback isContract _implementation _upgradeTo _setImplementation admin implementation changeAdmin upgradeTo upgradeToAndCall _admin _setAdmin _willFallback 
+BaseUpgradeabilityProxy inherits from Proxy UpgradeabilityProxy inherits from BaseUpgradeabilityProxy BaseAdminUpgradeabilityProxy inherits from BaseUpgradeabilityProxy AdminUpgradeabilityProxy inherits from BaseAdminUpgradeabilityProxy AdminUpgradeabilityProxy inherits from UpgradeabilityProxy TokenFactoryProxy inherits from AdminUpgradeabilityProxy 
+ifAdmin 
+Upgraded AdminChanged 
+If _data length is greater then 0

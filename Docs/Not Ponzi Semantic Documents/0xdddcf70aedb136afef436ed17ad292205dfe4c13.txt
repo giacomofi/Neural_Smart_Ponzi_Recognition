@@ -1,0 +1,36 @@
+solidity ^0.4.19 
+SafeMath CryptoHearthStone 
+SafeMath 
+Card 
+Card has attribute
+Card has price
+Card has delegate
+Card has isSale
+c c c cards ownershipCardCount DEFAULT_START_PRICE FIRST_PRICE_LIMIT SECOND_PRICE_LIMIT THIRD_PRICE_LIMIT FIRST_COMMISSION_LEVEL SECOND_COMMISSION_LEVEL THIRD_COMMISSION_LEVEL FOURTH_COMMISSION_LEVEL owner admins i _card _card cardCount totalTeams resultIndex pos oldOwner newOwner sellingPrice payment excessPayment oldOwner oldOwner 
+mul div sub add CryptoHearthStone addAdmin removeAdmin withdrawAll withdrawAmount initCards createCard getCard getMyCards purchase sell CancelSell _calculatePaymentToOwner cardOwnerOf _addressNotNull _transfer 
+onlyOwner onlyAdmins 
+Transfer CardSold userSell CancelCardSell 
+If a corresponds to 0
+owner is equal to msg sender
+ is equal to True
+ is equal to True
+i is less then 10
+isWoner is equal to False
+If _card delegate corresponds to msg sender
+isWoner is equal to True
+userCards is equal to 
+If _owner corresponds to owner
+If cardCount is greater then 0
+pos is less then totalTeams
+If cardOwnerOf corresponds to _owner
+ is equal to pos
+If oldOwner is different from 
+cards _cardId price is equal to _price
+cards _cardId isSale is equal to True
+cards _cardId isSale is equal to False
+If _sellingPrice is less then FIRST_PRICE_LIMIT
+payment is equal to 
+cardOwner is equal to cards _cardId delegate
+cards _cardId delegate is equal to _to
+cards _cardId isSale is equal to False
+If _from is different from 

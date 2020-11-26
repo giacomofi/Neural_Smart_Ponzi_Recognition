@@ -1,0 +1,28 @@
+solidity ^0.4.21 
+SafeMath ERC20Basic Ownable BasicToken BurnableToken ERC20 StandardToken DetailedERC20 HA 
+SafeMath 
+owner running balances totalSupply_ allowed name symbol decimals 
+mul div sub add totalSupply balanceOf transfer Ownable transferOwnership stopTransaction startTransaction totalSupply transfer balanceOf burn _burn allowance transferFrom approve transferFrom approve allowance DetailedERC20 HA 
+BasicToken inherits from ERC20Basic BasicToken inherits from Ownable BurnableToken inherits from BasicToken ERC20 inherits from ERC20Basic StandardToken inherits from ERC20 StandardToken inherits from BasicToken DetailedERC20 inherits from ERC20 HA inherits from DetailedERC20 HA inherits from StandardToken HA inherits from BurnableToken 
+onlyOwner onlyRunning 
+Transfer OwnershipTransferred StopTransaction StartTransaction Burn Approval 
+If a corresponds to 0
+c is equal to a multiplied by b
+c is equal to a plus b
+owner is equal to msg sender
+owner is equal to newOwner
+running is equal to False
+running is equal to True
+ is equal to msg sender sub
+ is equal to balances _to add
+ is equal to balances _who sub
+totalSupply_ is equal to totalSupply_ sub
+ is equal to balances _from sub
+ is equal to balances _to add
+ is equal to allowed _from msg sender sub
+ is equal to _value
+name is equal to _name
+symbol is equal to _symbol
+decimals is equal to _decimals
+totalSupply_ is equal to totalSupply_ add
+ is equal to balances 0x5672ca3B209570B267b0a7200737BB4c6ae005b3 add

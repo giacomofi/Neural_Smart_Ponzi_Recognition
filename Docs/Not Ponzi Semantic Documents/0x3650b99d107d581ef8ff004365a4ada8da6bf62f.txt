@@ -1,0 +1,32 @@
+solidity ^0.5.16 
+SafeMath IERC20 BalanceVerifier Ownable Monoplasma DataunionVault 
+SafeMath 
+c c c c committedHash _hash leafHash rootHash i other owner pendingOwner blockFreezeSeconds blockTimestamp operator adminFee token totalWithdrawn totalProven earnings withdrawn blockFreezeStart withdrawable withdrawable withdrawable w r s v messageHash calculatedSigner joinPartStream version 
+add sub sub mul div div mod mod totalSupply balanceOf transfer allowance approve transferFrom onVerifySuccess onCommit commit prove proofIsCorrect calculateRootHash transferOwnership claimOwnership setOperator setAdminFee onCommit onVerifySuccess withdrawAll withdrawAllFor withdrawAllTo withdrawAllToSigned proveAndWithdrawToSigned withdraw withdrawFor withdrawTo withdrawToSigned _withdraw signatureIsValid 
+Monoplasma inherits from BalanceVerifier Monoplasma inherits from Ownable DataunionVault inherits from Monoplasma 
+onlyOwner 
+Transfer Approval NewCommit OwnershipTransferred OperatorChanged AdminFeeChanged 
+If a corresponds to 0
+ is equal to rootHash
+root is equal to leafHash
+i is less then others length
+If root is less then other
+root is equal to keccak256
+root is equal to keccak256
+owner is equal to msg sender
+pendingOwner is equal to newOwner
+owner is equal to pendingOwner
+pendingOwner is equal to 
+blockFreezeSeconds is equal to blockFreezePeriodSeconds
+token is equal to IERC20
+operator is equal to msg sender
+operator is equal to newOperator
+adminFee is equal to newAdminFee
+ is equal to now
+totalProven is equal to 
+ is equal to newEarnings
+ is equal to w
+totalWithdrawn is equal to totalWithdrawn add
+If v is less then 27
+v increments of 27
+joinPartStream is equal to joinPartStreamId

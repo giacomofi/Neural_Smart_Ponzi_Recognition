@@ -1,0 +1,17 @@
+solidity ^0.4.0 
+XPeerChain 
+name symbol decimals totalSupply owner isStop balanceOf 
+transfer stopContract 
+Transfer 
+If _supply corresponds to 0
+_supply is equal to 1000000
+totalSupply is equal to _supply
+ is equal to _supply
+name is equal to _name
+symbol is equal to _symbol
+decimals is equal to _decimals
+owner is equal to msg sender
+isStop is equal to False
+ decreases of _value
+ increments of _value
+isStop is equal to stop

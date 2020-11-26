@@ -1,0 +1,54 @@
+SafeMath ERC20Basic ERC20 BasicToken StandardToken Remichain 
+SafeMath 
+c c c totalSupply transfersEnabled totalSupply transfersEnabled balances allowed oldValue name symbol decimals INITIAL_SUPPLY weiRaised tokenAllocated owner saleToken wallet weiAmount tokens addTokens amountOfTokens balance 
+mul div sub add max64 min64 max256 min256 balanceOf transfer balanceOf transfer transferFrom approve allowance transfer balanceOf transferFrom approve allowance increaseApproval decreaseApproval Remichain  buyTokens validPurchaseTokens getTotalAmountOfTokens mint changeOwner startSale stopSale enableTransfers claimTokens 
+BasicToken inherits from ERC20Basic StandardToken inherits from ERC20 StandardToken inherits from BasicToken Remichain inherits from StandardToken 
+onlyPayloadSize onlyOwner 
+Transfer Transfer Approval OwnerChanged TokenPurchase TokenLimitReached Transfer 
+ is equal to msg sender sub
+ is equal to balances _to add
+ is equal to balances _from sub
+ is equal to balances _to add
+ is equal to allowed _from msg sender sub
+ is equal to _value
+ is equal to msg sender _spender add
+If _subtractedValue is greater then oldValue
+ is equal to 0
+ is equal to oldValue sub
+totalSupply is equal to INITIAL_SUPPLY
+owner is equal to msg sender
+ is equal to INITIAL_SUPPLY
+tokenAllocated is equal to 0
+transfersEnabled is equal to True
+If tokens corresponds to 0
+weiRaised is equal to weiRaised add
+tokenAllocated is equal to tokenAllocated add
+If addTokens is greater then 
+If _weiAmount corresponds to 0
+amountOfTokens is equal to 0 multiplied by 
+If _weiAmount corresponds to 0.1 ether
+amountOfTokens is equal to 2000 multiplied by 
+If _weiAmount corresponds to 0.2 ether
+amountOfTokens is equal to 4000 multiplied by 
+If _weiAmount corresponds to 0.3 ether
+amountOfTokens is equal to 6000 multiplied by 
+If _weiAmount corresponds to 0.4 ether
+amountOfTokens is equal to 8000 multiplied by 
+If _weiAmount corresponds to 0.5 ether
+amountOfTokens is equal to 10000 multiplied by 
+If _weiAmount corresponds to 0.6 ether
+amountOfTokens is equal to 12000 multiplied by 
+If _weiAmount corresponds to 0.7 ether
+amountOfTokens is equal to 14000 multiplied by 
+If _weiAmount corresponds to 0.8 ether
+amountOfTokens is equal to 16000 multiplied by 
+If _weiAmount corresponds to 0.9 ether
+amountOfTokens is equal to 18000 multiplied by 
+If _weiAmount corresponds to 1 ether
+amountOfTokens is equal to 36000 multiplied by 
+ is equal to balances _to add
+ is equal to balances _owner sub
+owner is equal to _newOwner
+saleToken is equal to True
+saleToken is equal to False
+transfersEnabled is equal to _transfersEnabled

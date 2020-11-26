@@ -1,0 +1,17 @@
+solidity ^0.5.0 
+Context Ownable IERC1820Registry ISmartexUID SmartexUID 
+User 
+User has id
+User has exists
+User has registered
+_owner msgSender users ERC1820_REGISTRY SMARTEX_UID_INTERFACE_HASH _currentID _wallets implementer 
+_msgSender _msgData owner isOwner renounceOwnership transferOwnership _transferOwnership setManager getManager setInterfaceImplementer getInterfaceImplementer interfaceHash updateERC165Cache implementsERC165Interface implementsERC165InterfaceNoCache addUser userExists getIDByAddress getAddressByID currentID userExists getIDByAddress getAddressByID addUser 
+Ownable inherits from Context SmartexUID inherits from ISmartexUID SmartexUID inherits from Ownable 
+onlyOwner 
+OwnershipTransferred InterfaceImplementerSet ManagerChanged NewUser 
+_owner is equal to msgSender
+_owner is equal to 
+_owner is equal to newOwner
+
+ is equal to User
+ is equal to addr

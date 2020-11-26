@@ -1,0 +1,51 @@
+solidity ^0.5.10 
+SafeMath Roles COORole PauserRole Pausable Ownable ReentrancyGuard KittyBountiesAdmin ERC20 KittyCore KittyBounties 
+Roles Roles SafeMath 
+Role Bounty 
+Role has bearer
+Bounty has geneMask
+Bounty has genes
+Bounty has earliestAcceptableIdInclusive
+Bounty has latestAcceptableIdInclusive
+Bounty has bountyPricePerCat
+Bounty has totalValueIncludingFees
+Bounty has unsuccessfulBountyFeeInWCKWei
+Bounty has minBlockBountyValidUntil
+Bounty has quantity
+Bounty has generation
+Bounty has highestCooldownIndexAccepted
+Bounty has bidder
+c c c c _COOs _pausers _paused _owner _guardCounter localCounter successfulBountyFeeInBasisPoints unsuccessfulBountyFeeInWCKWei kittyCoreAddress kittyCore wrappedKittiesAddress kittyIndexToApproved bountyId bountyIdToBounty numCatsRemainingForBountyId totalValueIncludingFeesPerCat bountyPricePerCat minBlockBountyValidUntil bounty ownerOfCatBeingUsedToFulfillBounty bounty cooldownIndex generation genes totalValueIncludingFeesPerCat successfulBountyFeeInWCKWei halfOfFees bounty totalValueIncludingFeesPerCat totalValueRemainingForBountyId amountToReturnToBountyCreator amountToTakeAsFees halfOfFees bounty totalValueIncludingFeesPerCat totalValueRemainingForBountyId 
+mul div sub add mod add remove has isCOO addCOO renounceCOO _addCOO _removeCOO isPauser addPauser renouncePauser _addPauser _removePauser paused pause unpause owner isOwner renounceOwnership transferOwnership _transferOwnership setSuccessfulBountyFeeInBasisPoints setUnsuccessfulBountyFeeInWCKWei removePauser removeCOO  transfer transferFrom getKitty ownerOf transferFrom createBountyAndLockFunds fulfillBountyAndClaimFunds withdrawUnsuccessfulBounty withdrawBountyWithNoFeesTakenIfContractIsFrozen _computeBountyPrice  
+Pausable inherits from PauserRole KittyBountiesAdmin inherits from Ownable KittyBountiesAdmin inherits from Pausable KittyBountiesAdmin inherits from ReentrancyGuard KittyBountiesAdmin inherits from COORole KittyBounties inherits from KittyBountiesAdmin 
+onlyCOO onlyPauser whenNotPaused whenPaused onlyOwner nonReentrant 
+COOAdded COORemoved PauserAdded PauserRemoved Paused Unpaused OwnershipTransferred SuccessfulBountyFeeInBasisPointsUpdated UnsuccessfulBountyFeeInWCKWeiUpdated CreateBountyAndLockFunds FulfillBountyAndClaimFunds WithdrawBounty 
+If a corresponds to 0
+ is equal to True
+ is equal to False
+_paused is equal to False
+_paused is equal to True
+_paused is equal to False
+_owner is equal to msg sender
+_owner is equal to 
+_owner is equal to newOwner
+_guardCounter is equal to 1
+_guardCounter increments of 1
+kittyCore is equal to KittyCore
+successfulBountyFeeInBasisPoints is equal to _newSuccessfulBountyFeeInBasisPoints
+unsuccessfulBountyFeeInWCKWei is equal to _newUnsuccessfulBountyFeeInWCKWei
+ is equal to bounty
+ is equal to _quantity
+bountyId is equal to bountyId add
+ is equal to kittyCore getKitty
+ is equal to numCatsRemainingForBountyId _bountyId sub
+If _referrer is different from 
+ is equal to 0
+If totalValueRemainingForBountyId is less then bounty unsuccessfulBountyFeeInWCKWei
+amountToTakeAsFees is equal to totalValueRemainingForBountyId
+amountToReturnToBountyCreator is equal to 0
+amountToTakeAsFees is equal to bounty unsuccessfulBountyFeeInWCKWei
+amountToReturnToBountyCreator is equal to totalValueRemainingForBountyId sub
+If _referrer is different from 
+If amountToReturnToBountyCreator is greater then 0
+ is equal to 0

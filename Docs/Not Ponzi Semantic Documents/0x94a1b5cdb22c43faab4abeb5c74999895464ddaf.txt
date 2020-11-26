@@ -1,0 +1,42 @@
+solidity ^0.5.8 solidity ^0.5.8 
+MiMC MerkleTreeWithHistory IVerifier Mixer 
+levels ROOT_HISTORY_SIZE _roots current_root _filled_subtrees _zeros next_index i k R C current_index current_level_hash left right i i transferValue isDepositsEnabled operator nullifierHashes commitments verifier root nullifierHash receiver fee 
+MiMCSponge hashLeftRight _insert isKnownRoot getLastRoot roots filled_subtrees zeros verifyProof deposit withdraw toggleDeposits changeOperator isSpent 
+Mixer inherits from MerkleTreeWithHistory 
+Deposit Withdraw 
+levels is equal to tree_levels
+i is less then levels
+_roots is equal to 
+ is equal to hashLeftRight
+R is equal to addmod
+ is equal to MiMC MiMCSponge
+R is equal to addmod
+ is equal to MiMC MiMCSponge
+mimc_hash is equal to R
+next_index increments of 1
+i is less then levels
+If current_index Invalid symbol 2 corresponds to 0
+left is equal to current_level_hash
+right is equal to 
+ is equal to current_level_hash
+left is equal to 
+right is equal to current_level_hash
+current_level_hash is equal to hashLeftRight
+current_index is divided by 2
+current_root is equal to  Invalid symbol ROOT_HISTORY_SIZE
+ is equal to current_level_hash
+If root corresponds to 0
+i is equal to current_root
+i is less then 2 Invalid symbol 256 minus 1
+If root corresponds to 
+i is equal to ROOT_HISTORY_SIZE minus 1
+i is greater then current_root
+If root corresponds to 
+verifier is equal to IVerifier
+transferValue is equal to _transferValue
+operator is equal to _operator
+ is equal to True
+ is equal to True
+If fee is greater then 0
+isDepositsEnabled is equal to 
+operator is equal to _newAccount

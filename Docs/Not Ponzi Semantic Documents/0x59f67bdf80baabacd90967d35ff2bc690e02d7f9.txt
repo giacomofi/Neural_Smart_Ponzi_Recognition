@@ -1,0 +1,26 @@
+solidity ^0.4.24 
+SafeMath DBInterface Events PullPayment StandardDistribution FixedDistribution MinterInterface AssetGenerator 
+SafeMath SafeMath SafeMath 
+c c database supply balances tokenURI scalingFactor assetIncome valuePerToken claimableIncome previousValuePerToken valuePerTokenDifference _totalSupply i database events minter assetInstance assetAddress i 
+mul div sub add getFractionalAmount setContractManager setAddress setUint setString setBytes setBytes32 setBool setInt deleteAddress deleteUint deleteString deleteBytes deleteBytes32 deleteBool deleteInt uintStorage stringStorage addressStorage bytesStorage bytes32Storage boolStorage intStorage message transaction registration contractChange asset escrow order exchange operator consensus withdraw withdraw issueDividends  getTokenValue getUnclaimedAmount totalSupply balanceOf cloneToken mintAssetTokens changeTokenController createAsset createTradeableAsset destroy 
+FixedDistribution inherits from StandardDistribution 
+onlyApprovedContract updateclaimableIncome onlyOwner 
+LogEvent LogTransaction LogAddress LogContractChange LogAsset LogEscrow LogOrder LogExchange LogOperator LogConsensus LogIncomeReceived LogIncomeCollected 
+If a corresponds to 0
+database is equal to DBInterface
+_amount is equal to msg sender div
+valuePerToken is equal to valuePerToken add
+assetIncome is equal to assetIncome add
+valuePerToken is equal to valuePerToken add
+assetIncome is equal to assetIncome add
+ is equal to claimableIncome _user add
+ is equal to valuePerToken
+tokenURI is equal to _tokenURI
+i is less then _tokenHolders length
+_totalSupply is equal to _totalSupply add
+ is equal to balances _tokenHolders i add
+supply is equal to _totalSupply
+database is equal to DBInterface
+events is equal to Events
+minter is equal to MinterInterface
+i is less then _tokenHolders length

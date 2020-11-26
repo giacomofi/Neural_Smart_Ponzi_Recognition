@@ -1,0 +1,10 @@
+solidity >=0.4.0 
+PLACE 
+fund block_number pole length i 
+doPaint get_Pole_ 
+ is equal to block number
+ is equal to color
+If length is greater then 1048576 minus cursor
+length is equal to 1048576 minus cursor
+_pole is equal to 
+i is less then length

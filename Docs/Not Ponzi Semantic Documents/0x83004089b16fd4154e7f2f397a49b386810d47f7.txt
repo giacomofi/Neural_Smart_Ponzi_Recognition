@@ -1,0 +1,30 @@
+solidity ^0.4.18 
+SafeMath ERC20Basic BasicToken BurnableToken Ownable Pausable ERC20 StandardToken MintableToken CappedToken DetailedERC20 StopSexism 
+SafeMath 
+c c c totalSupply balances locks allowed burner owner paused allowed oldValue mintingFinished cap name symbol decimals 
+mul div sub add balanceOf transfer transfer balanceOf burn Ownable pause unpause allowance transferFrom approve transferFrom approve allowance increaseApproval decreaseApproval mint CappedToken mint DetailedERC20 StopSexism 
+BasicToken inherits from ERC20Basic BurnableToken inherits from BasicToken Pausable inherits from Ownable ERC20 inherits from ERC20Basic StandardToken inherits from ERC20 StandardToken inherits from BasicToken MintableToken inherits from StandardToken MintableToken inherits from Ownable CappedToken inherits from MintableToken DetailedERC20 inherits from ERC20 StopSexism inherits from DetailedERC20 StopSexism inherits from StandardToken StopSexism inherits from BurnableToken StopSexism inherits from CappedToken StopSexism inherits from Pausable 
+onlyOwner whenNotPaused whenPaused canMint 
+Transfer Burn Pause Unpause Approval Mint MintFinished 
+If a corresponds to 0
+ is equal to msg sender sub
+ is equal to balances _to add
+ is equal to balances burner sub
+totalSupply is equal to totalSupply sub
+owner is equal to msg sender
+paused is equal to True
+paused is equal to False
+ is equal to balances _from sub
+ is equal to balances _to add
+ is equal to allowed _from msg sender sub
+ is equal to _value
+ is equal to msg sender _spender add
+If _subtractedValue is greater then oldValue
+ is equal to 0
+ is equal to oldValue sub
+totalSupply is equal to totalSupply add
+ is equal to balances _to add
+cap is equal to _cap
+name is equal to _name
+symbol is equal to _symbol
+decimals is equal to _decimals

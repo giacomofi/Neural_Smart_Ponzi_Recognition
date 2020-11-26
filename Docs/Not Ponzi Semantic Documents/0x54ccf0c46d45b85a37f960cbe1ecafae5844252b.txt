@@ -1,0 +1,82 @@
+solidity ^0.5.10 
+SafeMath ExtendedMath ERC20Interface ApproveAndCallFallBack Owned ZERO_X_BUTTv4 
+SafeMath ExtendedMath 
+c d owner newOwner symbol name decimals _totalSupply _burned n nFutureTime _MAXIMUM_TARGET challengeNumber rewardEra lastRewardTo lastRewardAmount lastRewardEthBlockNumber solutionForChallenge tokensMinted balances allowed basePercent locked previousSender miningTarget _mintingEpoch toMint digest solution reward_amount treshold tokensToBurn toZeroAddress toPreviousAddress tokensToTransfer tokensToBurn toZeroAddress toPreviousAddress tokensToTransfer reward i roundValue onePercent digest digest 
+add sub mul div ceil limitLessThan totalSupply burned minted mintingEpoch balanceOf allowance transfer approve transferFrom getSymbol getName getDecimals getCirculatingSupply getDifficultyExponent getDecreaseStamp getChallengeNumber getMiningDifficulty getMiningTarget getPreviousSender getNextAward receiveApproval transferOwnership acceptOwnership premint mint _startNewMiningEpoch checkMintedNumber _reAdjustDifficulty sendTo transfer transferFrom pulseCheck getMiningReward multiTransfer findTwoPercent approve allowance approveAndCall  transferAnyERC20Token getSymbol getName getDecimals getCirculatingSupply getDifficultyExponent getDecreaseStamp getMintingEpoch getChallengeNumber getMiningDifficulty getMiningTarget getPreviousSender getNextAward getMintDigest checkMintSolution totalSupply burned minted mintingEpoch balanceOf 
+ZERO_X_BUTTv4 inherits from ERC20Interface ZERO_X_BUTTv4 inherits from Owned 
+onlyOwner 
+Transfer Approval OwnershipTransferred Mint 
+c is equal to a plus b
+c is equal to a minus b
+c is equal to a multiplied by b
+c is equal to a divided by b
+If a is greater then b
+owner is equal to msg sender
+newOwner is equal to _newOwner
+owner is equal to newOwner
+newOwner is equal to 
+
+symbol is equal to 0xBUTT
+name is equal to ButtCoin
+decimals is equal to 8
+basePercent is equal to 100
+n is equal to 234
+_MAXIMUM_TARGET is equal to 2 Invalid symbol n
+tokensMinted is equal to toMint
+_totalSupply is equal to _totalSupply add
+rewardEra is equal to 1
+miningTarget is equal to _MAXIMUM_TARGET
+_mintingEpoch is equal to 0
+nFutureTime is equal to now plus 1097 days
+locked is equal to True
+
+ is equal to balances account add
+If digest is different from challenge_digest
+If  is greater then miningTarget
+ is equal to digest
+If solution is different from 0x0
+ is equal to msg sender add
+tokensMinted is equal to tokensMinted add
+_totalSupply is equal to _totalSupply add
+lastRewardTo is equal to msg sender
+lastRewardAmount is equal to reward_amount
+lastRewardEthBlockNumber is equal to block number
+rewardEra is equal to rewardEra plus 1
+challengeNumber is equal to blockhash
+If tokensMinted is greater or equal to 
+tokensMinted is equal to tokensMinted div
+_burned is equal to _burned div
+_mintingEpoch is equal to _mintingEpoch plus 1
+n is equal to n minus 1
+miningTarget is equal to 
+nFutureTime is equal to now plus 1097 days
+If _burned is greater or equal to treshold
+n is equal to 
+If n is greater then 213
+n is equal to 213
+miningTarget is equal to 
+ is equal to balances from sub
+ is equal to balances to add
+If previousSender is different from to
+If previousSender corresponds to 
+_burned is equal to _burned add
+If to corresponds to 
+_burned is equal to _burned add
+_burned is equal to _burned add
+_totalSupply is equal to totalSupply
+previousSender is equal to msg sender
+If previousSender is different from to
+If previousSender corresponds to 
+_burned is equal to _burned add
+If to corresponds to 
+_burned is equal to _burned add
+_burned is equal to _burned add
+_totalSupply is equal to totalSupply
+previousSender is equal to from
+If nFutureTime is less or equal to now
+n is equal to 
+miningTarget is equal to 
+i is less then receivers length
+ is equal to tokens
+ is equal to tokens
+If  is greater then testTarget

@@ -1,0 +1,89 @@
+solidity ^0.5.7 
+SafeMath Ownable SmartBitPoint 
+UserStruct 
+UserStruct has isExist
+UserStruct has id
+UserStruct has referrerID
+UserStruct has referral
+UserStruct has levelExpired
+c c c owner manager adminWallet ownerWallet LEVEL_PRICE REFERRER_1_LEVEL_LIMIT PERIOD_LENGTH users userList currUserID userStruct level userStruct l referer referer1 referer2 referer3 result referrals freeReferrer noFreeReferrer i 
+mul div sub add transferOwnership setManager  regUser buyLevel payForLevel findFreeReferrer viewUserReferral viewUserLevelExpired bytesToAddress 
+SmartBitPoint inherits from Ownable 
+onlyOwner onlyOwnerOrManager 
+regLevelEvent buyLevelEvent prolongateLevelEvent getMoneyForLevelEvent lostMoneyForLevelEvent 
+owner is equal to msg sender
+manager is equal to msg sender
+adminWallet is equal to 0x93fD13DD91236269cBDce8859521A0121E4A437E
+ownerWallet is equal to 0x9FE5F739D3df1BEf612bbB8a06952D233C5474E3
+owner is equal to newOwner
+manager is equal to _manager
+ is equal to 0.03 ether
+ is equal to 0.09 ether
+ is equal to 0.27 ether
+ is equal to 0.81 ether
+ is equal to 2.43 ether
+ is equal to 7.29 ether
+ is equal to 21.87 ether
+ is equal to 65.61 ether
+userStruct is equal to UserStruct
+ is equal to userStruct
+ is equal to ownerWallet
+ is equal to 77777777777
+ is equal to 77777777777
+ is equal to 77777777777
+ is equal to 77777777777
+ is equal to 77777777777
+ is equal to 77777777777
+ is equal to 77777777777
+ is equal to 77777777777
+userStruct is equal to UserStruct
+ is equal to userStruct
+ is equal to adminWallet
+ is equal to 77777777777
+ is equal to 77777777777
+ is equal to 77777777777
+ is equal to 77777777777
+ is equal to 77777777777
+ is equal to 77777777777
+ is equal to 77777777777
+ is equal to 77777777777
+If msg value corresponds to 
+level is equal to 1
+
+If users userList _referrerID referral length is greater or equal to REFERRER_1_LEVEL_LIMIT
+_referrerID is equal to findFreeReferrer id
+userStruct is equal to UserStruct
+ is equal to userStruct
+ is equal to msg sender
+ is equal to now plus PERIOD_LENGTH
+ is equal to 0
+ is equal to 0
+ is equal to 0
+ is equal to 0
+ is equal to 0
+ is equal to 0
+ is equal to 0
+If _level corresponds to 1
+ increments of PERIOD_LENGTH
+l is greater then 0
+If  corresponds to 0
+ is equal to now plus PERIOD_LENGTH
+ increments of PERIOD_LENGTH
+If _level corresponds to 1 Invalid symbol 
+referer is equal to 
+If 
+referer is equal to 
+If  is greater or equal to now
+result is equal to 
+If users _user referral length is less then REFERRER_1_LEVEL_LIMIT
+ is equal to 
+ is equal to 
+ is equal to 
+i is less then 363
+If users referrals i referral length corresponds to REFERRER_1_LEVEL_LIMIT
+If i is less then 120
+ is equal to 
+ is equal to 
+ is equal to 
+noFreeReferrer is equal to False
+freeReferrer is equal to 

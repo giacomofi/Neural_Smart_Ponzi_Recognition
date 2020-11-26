@@ -1,0 +1,27 @@
+solidity ^0.4.24 
+SafeMath ERC20Interface ApproveAndCallFallBack Owned BMToken 
+owner newOwner symbol name decimals _totalSupply balances allowed 
+safeAdd safeSub safeMul safeDiv totalSupply balanceOf allowance transfer approve transferFrom receiveApproval transferOwnership acceptOwnership totalSupply balanceOf transfer approve transferFrom allowance approveAndCall  transferAnyERC20Token 
+BMToken inherits from ERC20Interface BMToken inherits from Owned BMToken inherits from SafeMath 
+onlyOwner 
+Transfer Approval OwnershipTransferred 
+c is equal to a plus b
+c is equal to a minus b
+c is equal to a multiplied by b
+c is equal to a divided by b
+owner is equal to msg sender
+newOwner is equal to _newOwner
+owner is equal to newOwner
+newOwner is equal to 
+symbol is equal to BMT
+name is equal to BM Token
+decimals is equal to 18
+_totalSupply is equal to 21000000000000000000000000
+ is equal to _totalSupply
+ is equal to safeSub
+ is equal to safeAdd
+ is equal to tokens
+ is equal to safeSub
+ is equal to safeSub
+ is equal to safeAdd
+ is equal to tokens

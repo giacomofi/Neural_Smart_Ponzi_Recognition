@@ -1,0 +1,13 @@
+solidity ^0.4.25 
+play_IQuiz 
+question responseHash admin i 
+Try Start Stop New  
+isAdmin 
+If responseHash corresponds to keccak256 Invalid symbol 
+If responseHash corresponds to 0x0
+responseHash is equal to keccak256
+question is equal to _question
+question is equal to _question
+responseHash is equal to _responseHash
+i is less then admins length
+ is equal to True

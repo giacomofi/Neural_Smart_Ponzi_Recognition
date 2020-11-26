@@ -1,0 +1,29 @@
+solidity ^0.5.2 
+SafeMath Initializable Adminable Bridge 
+SafeMath 
+Period 
+Period has height
+Period has timestamp
+Period has parentBlockNumber
+Period has parentBlockHash
+c c c c initialized initializing wasInitializing cs ______gap ADMIN_SLOT slot slot GENESIS tipHash genesisBlockNumber parentBlockInterval lastParentBlock operator periods genesisPeriod newPeriod 
+mul div sub add mod isConstructor admin implementation _admin initialize setOperator getParentBlockInterval setParentBlockInterval submitPeriod 
+Adminable inherits from Initializable Bridge inherits from Adminable 
+initializer ifAdmin onlyOperator 
+NewHeight NewOperator 
+If a corresponds to 0
+initializing is equal to True
+initialized is equal to True
+initializing is equal to wasInitializing
+tipHash is equal to GENESIS
+ is equal to genesisPeriod
+genesisBlockNumber is equal to block number
+parentBlockInterval is equal to _parentBlockInterval
+operator is equal to msg sender
+operator is equal to _operator
+parentBlockInterval is equal to _parentBlockInterval
+newHeight is equal to periods _prevHash height plus 1
+If newHeight is greater then periods tipHash height
+tipHash is equal to _root
+lastParentBlock is equal to block number
+ is equal to newPeriod

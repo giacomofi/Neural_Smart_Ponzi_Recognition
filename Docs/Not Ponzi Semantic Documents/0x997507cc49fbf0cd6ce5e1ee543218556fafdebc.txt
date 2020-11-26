@@ -1,0 +1,25 @@
+solidity ^0.6.0 
+Context IERC20 SafeMath Owned BiteniumToken 
+SafeMath 
+c c c c owner newOwner symbol name decimals _totalSupply _balances _allowances decreasedAllowance 
+_msgSender _msgData totalSupply balanceOf transfer allowance approve transferFrom add sub sub mul div div mod mod transferOwnership acceptOwnership totalSupply balanceOf transfer allowance approve transferFrom increaseAllowance decreaseAllowance _transfer _mint _burn _approve _beforeTokenTransfer burn burnFrom 
+BiteniumToken inherits from Context BiteniumToken inherits from IERC20 BiteniumToken inherits from Owned 
+onlyOwner 
+Transfer Approval OwnershipTransferred 
+If a corresponds to 0
+owner is equal to msg sender
+newOwner is equal to _newOwner
+owner is equal to newOwner
+newOwner is equal to 
+name is equal to Bitenium Token
+symbol is equal to BT
+decimals is equal to 18
+_totalSupply is equal to 500000000 multiplied by 10 Invalid symbol 
+ is equal to _totalSupply
+ is equal to _balances sender sub
+ is equal to _balances recipient add
+_totalSupply is equal to _totalSupply add
+ is equal to _balances account add
+ is equal to _balances account sub
+_totalSupply is equal to _totalSupply sub
+ is equal to amount

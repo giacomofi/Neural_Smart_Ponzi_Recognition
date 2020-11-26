@@ -1,0 +1,44 @@
+solidity 0.5.10 experimental ABIEncoderV2 
+Types ISwap IERC20 IERC165 IERC721 Swap 
+Party Order Signature 
+Party has wallet
+Party has token
+Party has param
+Party has kind
+Order has nonce
+Order has expiry
+Order has maker
+Order has taker
+Order has affiliate
+Signature has signer
+Signature has v
+Signature has r
+Signature has s
+Signature has version
+EIP191_HEADER DOMAIN_TYPEHASH ORDER_TYPEHASH PARTY_TYPEHASH DOMAIN_NAME DOMAIN_VERSION domainSeparator OPEN TAKEN CANCELED ERC20_INTERFACE_ID ERC721_INTERFACE_ID delegateApprovals makerOrderStatus makerMinimumNonce finalTakerWallet finalTakerWallet i 
+hashOrder hashDomain delegateApprovals makerOrderStatus makerMinimumNonce swap swapSimple cancel invalidate authorize revoke totalSupply balanceOf transfer allowance approve transferFrom supportsInterface balanceOf ownerOf safeTransferFrom transferFrom approve getApproved setApprovalForAll isApprovedForAll safeTransferFrom swap swapSimple cancel invalidate authorize revoke isAuthorized isValid transferToken 
+IERC721 inherits from IERC165 Swap inherits from ISwap 
+Swap Cancel Invalidate Authorize Revoke Transfer Approval Transfer Approval ApprovalForAll 
+domainSeparator is equal to Types hashDomain
+ is equal to TAKEN
+If _order taker wallet corresponds to 
+finalTakerWallet is equal to msg sender
+If msg sender is different from _order taker wallet
+finalTakerWallet is equal to _order taker wallet
+If _signature v corresponds to 0
+If _order affiliate wallet is different from 
+ is equal to TAKEN
+If _takerWallet corresponds to 
+finalTakerWallet is equal to msg sender
+If msg sender is different from _takerWallet
+finalTakerWallet is equal to _takerWallet
+If _v corresponds to 0
+i is less then _nonces length
+If  corresponds to OPEN
+ is equal to CANCELED
+ is equal to _minimumNonce
+ is equal to _expiry
+If _approver corresponds to _delegate
+If _signature version corresponds to 
+If _signature version corresponds to 
+If _kind corresponds to ERC721_INTERFACE_ID

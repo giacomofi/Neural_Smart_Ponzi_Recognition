@@ -1,0 +1,14 @@
+solidity ^0.4.11 
+PonziScheme 
+round lastDepositor lastDepositorAmount startingAmount nextAmount 
+PonziScheme  checkAmount increaseRound 
+round is equal to 1
+startingAmount is equal to _startingAmount
+nextAmount is equal to _startingAmount
+If round corresponds to 1
+If msg value is different from startingAmount
+lastDepositorAmount is equal to msg value
+lastDepositor is equal to msg sender
+nextAmount is equal to msg value multiplied by 2
+If amount is different from lastDepositorAmount multiplied by 2
+round is equal to round plus 1

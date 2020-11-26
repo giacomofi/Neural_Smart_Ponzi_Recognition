@@ -1,0 +1,21 @@
+solidity ^0.4.15 
+DepositGame 
+_balances FirstTimeBonus admin TotalAmount MaxNumber randomTN amount randomNumber pendingWithdrawal 
+DepositGame deposit GetBonusWithdraw withdraw random  destroy 
+admin is equal to msg sender
+TotalAmount is equal to msg value
+ increments of msg value
+TotalAmount increments of msg value
+ is equal to False
+If  is different from True
+ increments of 10
+ is equal to True
+amount is equal to 
+randomNumber is equal to random minus 10
+pendingWithdrawal is equal to amount multiplied by  divided by 100
+If pendingWithdrawal is different from 0
+ decreases of pendingWithdrawal
+TotalAmount decreases of pendingWithdrawal
+TotalAmount increments of msg value
+If TotalAmount is different from 0
+TotalAmount is equal to 0

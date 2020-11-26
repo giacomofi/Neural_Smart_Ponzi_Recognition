@@ -1,0 +1,36 @@
+solidity ^0.5.2 
+IERC20 SafeMath IFactory SeedDex 
+SafeMath 
+c c c c seedToken factoryAddress ethAddress depositingTokenFlag tokens orders orderFills hash hash m amt hash available hash hash m 
+transfer approve transferFrom totalSupply balanceOf allowance okToTransferTokens mul div sub add mod changeATFactoryAddress changeTDeployerAddress changeFPDeployerAddress changeDeployFees changeFeesCollector deployPanelContracts getTotalDeployFees isFactoryDeployer isFactoryATGenerated isFactoryTGenerated isFactoryFPGenerated getTotalDeployer getTotalATContracts getTotalTContracts getTotalFPContracts getContractsByIndex getDeployerAddressByIndex getATAddressByIndex getTAddressByIndex getFPAddressByIndex withdraw  deposit withdraw depositToken withdrawToken balanceOf order trade tradeBalances testTrade canBeTransferred availableVolume amountFilled cancelOrder isValidPair isEthSeedPair isSeedPair 
+Transfer Approval Order Cancel Trade Deposit Withdraw 
+If a corresponds to 0
+seedToken is equal to _seedToken
+factoryAddress is equal to _factoryAddress
+depositingTokenFlag is equal to False
+ is equal to tokens ethAddress msg sender add
+ is equal to tokens ethAddress msg sender sub
+depositingTokenFlag is equal to True
+depositingTokenFlag is equal to False
+ is equal to tokens token msg sender add
+ is equal to tokens token msg sender sub
+ is equal to True
+ is equal to orderFills user hash add
+ is equal to tokens tokenGet msg sender sub
+ is equal to tokens tokenGet user add
+ is equal to tokens tokenGive user sub
+ is equal to tokens tokenGive msg sender add
+If  is less then amount
+If availableVolume is less then amount
+If 
+If  Invalid symbol block number is less or equal to expires
+ is equal to amountGet sub
+ is equal to tokens tokenGive user mul divided by amountGive
+If  is less then 
+ is equal to amountGet
+
+If tokenGet corresponds to ethAddress Invalid symbol 
+If tokenGet corresponds to seedToken Invalid symbol 
+If tokenGet corresponds to tokenGive
+If tokenGet corresponds to seedToken
+If tokenGive corresponds to seedToken

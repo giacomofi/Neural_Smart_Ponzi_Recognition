@@ -1,0 +1,24 @@
+LibNote Dai 
+wards name symbol version decimals totalSupply balanceOf allowance nonces DOMAIN_SEPARATOR PERMIT_TYPEHASH digest wad 
+rely deny add sub transfer transferFrom mint burn approve push pull move permit allocateTo 
+Dai inherits from LibNote 
+note auth 
+LogNote Approval Transfer 
+ is equal to 1
+ is equal to 0
+ is equal to 1
+DOMAIN_SEPARATOR is equal to keccak256
+If src is different from msg sender Invalid symbol 
+ is equal to sub
+ is equal to sub
+ is equal to add
+ is equal to add
+totalSupply is equal to add
+If usr is different from msg sender Invalid symbol 
+ is equal to sub
+ is equal to sub
+totalSupply is equal to sub
+ is equal to wad
+ is equal to wad
+ is equal to add
+totalSupply is equal to add

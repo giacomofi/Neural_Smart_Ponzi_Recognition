@@ -1,0 +1,31 @@
+solidity ^0.5.2 
+Ownable IERC20 Proxy Address UpgradeabilityProxy AdminUpgradeabilityProxy AdminableProxy MinGov 
+Proposal 
+Proposal has subject
+Proposal has created
+Proposal has canceled
+Proposal has msgData
+_owner size IMPLEMENTATION_SLOT rv slot slot ADMIN_SLOT rv slot slot rv proposalTime first size proposals prop token i prop rv sig subject msgData 
+owner isOwner renounceOwnership transferOwnership _transferOwnership transfer approve transferFrom totalSupply balanceOf allowance  _implementation _delegate _willFallback _fallback isContract _implementation _upgradeTo _setImplementation admin implementation changeAdmin upgradeTo upgradeToAndCall _admin _setAdmin _willFallback applyProposal propose cancel withdrawTax finalize setSlot getSig registerToken 
+UpgradeabilityProxy inherits from Proxy AdminUpgradeabilityProxy inherits from UpgradeabilityProxy AdminableProxy inherits from AdminUpgradeabilityProxy MinGov inherits from Ownable 
+onlyOwner ifAdmin 
+OwnershipTransferred Transfer Approval Upgraded AdminChanged NewProposal Execution 
+_owner is equal to msg sender
+_owner is equal to 
+_owner is equal to newOwner
+If _data length is greater then 0
+ is equal to _implementation delegatecall
+ is equal to newImplementation delegatecall
+ is equal to 
+proposalTime is equal to _proposalTime
+first is equal to 1
+size is equal to 0
+ is equal to Proposal
+prop canceled is equal to True
+i is less then first plus size
+If prop created plus proposalTime is less or equal to now
+If 
+If sig corresponds to 0x8f283970 Invalid symbol  Invalid symbol 
+ is equal to prop subject call
+rv is equal to 
+

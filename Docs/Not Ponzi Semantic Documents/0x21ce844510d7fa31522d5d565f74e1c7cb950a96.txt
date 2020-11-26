@@ -1,0 +1,14 @@
+solidity 0.5.10 solidity 0.5.10 
+SafeMath Lab 
+SafeMath 
+c c c c balances user assetId user assetId user assetId user assetId i user assetId 
+add sub mul div mod getBalance incrementBalance batchIncrementBalance loopIncrementBalance clearBalance noop 
+If a corresponds to 0
+ increments of amount
+ increments of amount
+ increments of amount multiplied by 2
+ increments of amount multiplied by 3
+ increments of amount multiplied by 4
+ increments of amount multiplied by 5
+i is less then 5
+ increments of amount multiplied by i

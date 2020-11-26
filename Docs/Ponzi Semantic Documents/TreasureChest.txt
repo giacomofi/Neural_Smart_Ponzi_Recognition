@@ -1,0 +1,31 @@
+TreasureChest 
+InvestorArray 
+InvestorArray has etherAddress
+InvestorArray has amount
+investors investors_needed_until_jackpot totalplayers fees balance totaldeposited totalpaidout owner amount tot_pl payout nr 
+TreasureChest  enter setOwner 
+onlyowner 
+owner is equal to msg sender
+If msg value is less then 50 finney
+totalplayers is equal to tot_pl plus 1
+investors_needed_until_jackpot is equal to 30 minus 
+investors length increments of 1
+investors tot_pl etherAddress is equal to msg sender
+investors tot_pl amount is equal to amount
+fees is equal to amount divided by 15
+balance increments of amount
+totaldeposited increments of amount
+If fees is different from 0
+If balance is greater then fees
+balance decreases of fees
+totalpaidout increments of fees
+While balance is greater then investors nr amount multiplied by 6 divided by 100 Invalid symbol 
+If nr Invalid symbol 30 corresponds to 0 Invalid symbol 
+payout is equal to investors nr amount multiplied by 18 divided by 100
+balance decreases of investors nr amount multiplied by 18 divided by 100
+totalpaidout increments of investors nr amount multiplied by 18 divided by 100
+payout is equal to investors nr amount multiplied by 6 divided by 100
+balance decreases of investors nr amount multiplied by 6 divided by 100
+totalpaidout increments of investors nr amount multiplied by 6 divided by 100
+nr increments of 1
+owner is equal to new_owner

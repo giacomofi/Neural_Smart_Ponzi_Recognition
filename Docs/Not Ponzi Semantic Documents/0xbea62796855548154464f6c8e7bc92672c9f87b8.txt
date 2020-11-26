@@ -1,0 +1,21 @@
+solidity 0.5.16 
+ShareToken SafeMath 
+SafeMath 
+Dividend 
+Dividend has checkpoint
+Dividend has dividendBalance
+_name _symbol _decimals _totalSupply _speaker _totalEthWithdrawals _balances _allowances _dividends incomeSinceLastUpdate b s c c c c 
+ _earnedSinceCheckpoint _updateDividend _transfer _approve _withdrawDividends transfer approve transferFrom increaseAllowance decreaseAllowance withdrawDividends announce pay name symbol decimals totalSupply totalEthWithdrawals balanceOf allowance dividendBalanceOf totalIncome stringToBytes bytesToString mul div sub add mod 
+Transfer Approval DividendWithdrawal Announce 
+ is equal to _totalSupply div
+ is equal to _totalSupply div
+ is equal to _totalSupply div
+ is equal to _totalSupply div
+_dividends account dividendBalance is equal to _dividends account dividendBalance add
+_dividends account checkpoint is equal to totalIncome
+ is equal to _balances sender sub
+ is equal to _balances recipient add
+ is equal to value
+_dividends account dividendBalance is equal to _dividends account dividendBalance sub
+_totalEthWithdrawals is equal to _totalEthWithdrawals add
+If a corresponds to 0

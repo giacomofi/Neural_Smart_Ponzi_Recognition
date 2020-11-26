@@ -1,0 +1,5 @@
+solidity 0.5.10 
+ExchangeRegistry ExchangeView 
+registry i 
+getExchange getDecimals 
+i is less then _tokenAddresses length

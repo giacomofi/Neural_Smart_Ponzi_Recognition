@@ -1,0 +1,46 @@
+theRun 
+Player 
+Player has addr
+Player has payout
+Player has paid
+Balance Payout_id Last_Payout WinningPot Min_multiplier fees feeFrac PotFrac admin players deposit total_multiplier roll salt x y seed h 
+theRun  init Participate random ChangeOwnership WatchBalance WatchBalanceInEther CollectAllFees GetAndReduceFeesByFraction NextPayout WatchFees WatchWinningPot WatchLastPayout Total_of_Players PlayerInfo PayoutQueueSize 
+onlyowner 
+admin is equal to msg sender
+If msg value is less then 500 finney
+If msg value is greater then 20 ether
+deposit is equal to 20 ether
+If Balance is less then 1 ether Invalid symbol 
+total_multiplier increments of 100
+If  corresponds to 0 Invalid symbol 
+total_multiplier increments of 100
+WinningPot increments of  divided by 1000
+fees increments of  divided by 1000
+Balance increments of  divided by 1000
+If  Invalid symbol 
+If roll Invalid symbol 10 corresponds to 0
+WinningPot is equal to 0
+While Balance is greater then players Payout_id payout
+Last_Payout is equal to players Payout_id payout
+Balance decreases of players Payout_id payout
+players Payout_id paid is equal to True
+Payout_id increments of 1
+admin is equal to _owner
+TotalBalance is equal to Balance divided by 1 wei
+TotalBalanceInEther is equal to Balance divided by 1 ether
+If fees corresponds to 0
+feeFrac decreases of 1
+fees is equal to 0
+If fees corresponds to 0
+feeFrac decreases of 1
+fees decreases of fees divided by 1000 multiplied by p
+NextPayout is equal to players Payout_id payout divided by 1 wei
+CollectedFees is equal to fees divided by 1 wei
+WinningPot is equal to WinningPot divided by 1 wei
+payout is equal to Last_Payout
+NumberOfPlayers is equal to players length
+If id is less or equal to players length
+Address is equal to players id addr
+Payout is equal to players id payout divided by 1 wei
+UserPaid is equal to players id paid
+QueueSize is equal to players length minus Payout_id

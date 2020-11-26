@@ -1,0 +1,12 @@
+solidity 0.4.25 
+IERC20 Auth SafeMath DABANKING_SWAP 
+SafeMath 
+admin c c c c daaBounty daBanking rate dabAmount 
+transfer approve transferFrom balanceOf allowance transferOwnership mul div sub add mod swap setRate updateAdmin 
+DABANKING_SWAP inherits from Auth 
+onlyAdmin 
+Transfer Approval OwnershipTransferred TokenSwapped 
+admin is equal to _admin
+admin is equal to _newOwner
+If a corresponds to 0
+rate is equal to _rate

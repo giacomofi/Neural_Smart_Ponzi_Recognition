@@ -1,0 +1,50 @@
+solidity ^0.6.0 
+AccountInterface DSMath Variables Configure InstaList 
+UserLink UserList AccountLink AccountList 
+UserLink has first
+UserLink has last
+UserLink has count
+UserList has prev
+UserList has next
+AccountLink has first
+AccountLink has last
+AccountLink has count
+AccountList has prev
+AccountList has next
+instaIndex accounts accountID accountAddr userLink userList accountLink accountList _prev _next _prev _next 
+isAuth add sub addAccount removeAccount addUser removeUser addAuth removeAuth init 
+Variables inherits from DSMath Configure inherits from Variables InstaList inherits from Configure 
+If userLink _owner last is different from 0
+userList _owner _account prev is equal to userLink _owner last
+userList _owner userLink _owner last next is equal to _account
+If userLink _owner first corresponds to 0
+userLink _owner first is equal to _account
+userLink _owner last is equal to _account
+userLink _owner count is equal to add
+If _prev is different from 0
+userList _owner _prev next is equal to _next
+If _next is different from 0
+userList _owner _next prev is equal to _prev
+If _prev corresponds to 0
+userLink _owner first is equal to _next
+If _next corresponds to 0
+userLink _owner last is equal to _prev
+userLink _owner count is equal to sub
+If accountLink _account last is different from 
+accountList _account _owner prev is equal to accountLink _account last
+accountList _account accountLink _account last next is equal to _owner
+If accountLink _account first corresponds to 
+accountLink _account first is equal to _owner
+accountLink _account last is equal to _owner
+accountLink _account count is equal to add
+If _prev is different from 
+accountList _account _prev next is equal to _next
+If _next is different from 
+accountList _account _next prev is equal to _prev
+If _prev corresponds to 
+accountLink _account first is equal to _next
+If _next corresponds to 
+accountLink _account last is equal to _prev
+accountLink _account count is equal to sub
+ is equal to accounts
+ is equal to _account

@@ -1,0 +1,10 @@
+solidity ^0.6.0 experimental ABIEncoderV2 
+ArtoryRecordStamper 
+_owner i i i 
+stamp stamp_array stamp_record stamp_record_array stamp_partner_record stamp_partner_record_array broadcast_message 
+onlyOwner 
+Stamped StampedRecord StampedPartnerRecord Message 
+_owner is equal to msg sender
+i is less then dataHashes length
+i is less then dataHashes length
+i is less then dataHashes length

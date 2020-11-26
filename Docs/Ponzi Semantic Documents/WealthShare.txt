@@ -1,0 +1,32 @@
+WealthShare 
+InvestorArray 
+InvestorArray has etherAddress
+InvestorArray has amount
+depositors Total_Savers Fees Balance Total_Deposited Total_Paid_Out Message owner amount minimal Times i payout nr 
+WealthShare  enter 
+onlyowner 
+owner is equal to 0xEe462A6717f17C57C826F1ad9b4d3813495296C9
+If msg value is greater then 200 finney
+Total_Savers is equal to depositors length plus 1
+depositors length increments of 1
+ etherAddress is equal to msg sender
+ amount is equal to amount
+Balance increments of amount
+Total_Deposited increments of amount
+Fees is equal to Balance multiplied by 1 divided by 100
+Balance decreases of Fees
+If Fees is different from 0
+If Fees is less then minimal
+Total_Paid_Out increments of Fees
+i is less then Times
+If Fees is greater then 0
+Total_Paid_Out increments of Fees
+Fees decreases of minimal
+If Total_Deposited multiplied by 50 divided by 100 is less then Balance
+While Balance is greater then 0 Invalid symbol 
+payout is equal to Balance divided by 
+Balance decreases of Balance divided by 
+Total_Paid_Out increments of Balance divided by 
+nr increments of 1
+Message is equal to The Wealth has been paid to Depositors!
+Message is equal to The Balance has to be at least 50% full to be able to pay out!

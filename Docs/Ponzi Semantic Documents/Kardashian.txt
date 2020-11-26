@@ -1,0 +1,25 @@
+Kardashian 
+Participant 
+Participant has etherAddress
+Participant has amount
+participants payoutIdx collectedFees balance owner amount idx transactionAmount 
+Kardashian  enter collectFees setOwner 
+onlyowner 
+owner is equal to msg sender
+If msg value is less then 10 finney
+If msg value is greater then 100 ether
+amount is equal to 100 ether
+amount is equal to msg value
+participants length increments of 1
+participants idx etherAddress is equal to msg sender
+participants idx amount is equal to amount
+If idx is different from 0
+collectedFees increments of amount divided by 20
+balance increments of amount minus amount divided by 20
+collectedFees increments of amount
+While balance is greater then participants payoutIdx amount divided by 100 multiplied by 190
+balance decreases of transactionAmount
+payoutIdx increments of 1
+If collectedFees corresponds to 0
+collectedFees is equal to 0
+owner is equal to _owner

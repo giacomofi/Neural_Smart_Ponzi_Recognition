@@ -1,0 +1,109 @@
+GreedPit 
+User Entry 
+User has id
+User has addr
+User has nickname
+User has rescueCount
+User has rescueTokens
+Entry has entryAddress
+Entry has deposit
+Entry has payout
+Entry has tokens
+owner balance uniqueUsers usersProfits rescues collectedFees jumpFee baseMultiplier maxMultiplier payoutOrder rescueRecord timeOfLastDeposit hero users entries dValue tokensToUse tokensUsed randMultiplier currentEntries finalMultiplier saviour entryPayout entryDeposit profit saviourShare isHero payout FACTOR factor lastBlockNumber hashVal 
+GreedPit  init jumpIn rand addNewUser collectFees changeOwner changeBaseMultiplier changeMaxMultiplier changeFee setNickname currentBalance heroOfThePit userName totalRescues multipliers pitFee nextPayoutGoal unclaimedFees totalEntries totalUsers awaitingPayout entryDetails userId userTokens userRescues userProfits recycle 
+onlyowner 
+Jump Rescue NewHero 
+owner is equal to msg sender
+If msg value is less then 100 finney
+If msg value is greater then 5
+timeOfLastDeposit is equal to now
+If msg value is greater then 50 ether
+If this balance is greater or equal to balance plus collectedFees plus msg value
+dValue is equal to 50 ether
+dValue is equal to msg value
+randMultiplier is equal to 
+randMultiplier is equal to 
+randMultiplier is equal to 
+While tokensToUse is greater then 0 Invalid symbol 
+If finalMultiplier is greater then maxMultiplier
+finalMultiplier is equal to maxMultiplier
+If msg value is less then 50 ether
+If msg value is less then 50 ether
+msg sender rescueTokens decreases of tokensUsed
+balance increments of  divided by 100
+collectedFees increments of  divided by 100
+While balance is greater then entries payoutOrder payout
+saviour is equal to False
+If msg sender addr is different from entries payoutOrder entryAddress
+If entryDeposit is greater or equal to 1 ether
+msg sender rescueTokens increments of 
+msg sender rescueTokens increments of 
+saviour is equal to True
+isHero is equal to entries payoutOrder entryAddress corresponds to hero
+If saviour Invalid symbol  Invalid symbol  Invalid symbol  Invalid symbol 
+If dValue is less then 10 ether
+saviourShare is equal to 3 plus rand
+saviourShare is multiplied by profit divided by 100
+balance decreases of entryPayout
+usersProfits increments of entryPayout
+If saviour Invalid symbol msg sender rescueCount is greater then rescueRecord
+rescueRecord is equal to msg sender rescueCount
+hero is equal to msg sender
+If users Address addr corresponds to 
+users Address id is equal to 
+users Address addr is equal to Address
+users Address nickname is equal to UnnamedPlayer
+users Address rescueCount is equal to 0
+users Address rescueTokens is equal to 0
+If collectedFees corresponds to 0
+collectedFees is equal to 0
+owner is equal to newOwner
+If multi is less then 110 Invalid symbol 
+baseMultiplier is equal to multi
+If multi is less then 200 Invalid symbol 
+maxMultiplier is equal to multi
+If fee is less then 0 Invalid symbol 
+jumpFee is equal to fee
+If  is greater or equal to 2 Invalid symbol 
+msg sender nickname is equal to name
+pitBalance is equal to balance divided by 1 finney
+info is equal to The balance of the pit in Finneys (contract balance minus fees).
+theHero is equal to hero
+nickname is equal to users theHero nickname
+peopleSaved is equal to rescueRecord
+info is equal to The current rescue record holder. All hail!
+nickname is equal to users Address nickname
+rescueCount is equal to rescues
+info is equal to The number of times that people have been rescued from the pit (aka the number of times people made a profit).
+BaseMultiplier is equal to baseMultiplier
+MaxMultiplier is equal to maxMultiplier
+info is equal to The multipliers applied to all deposits: the final multiplier is a random number between the multpliers shown divided by 100. By default x1.1~x1.5 (up to x2 if rescue tokens are used, granting +0.1 per token). It determines the amount of money you will get when rescued (a saviour share might be deducted).
+feePercentage is equal to jumpFee
+info is equal to The fee percentage applied to all deposits. It can change to speed payouts (max 10%).
+finneys is equal to  divided by 1 finney
+info is equal to The amount of Finneys (Ethers * 1000) that need to be deposited for the next payout to be executed.
+ethers is equal to collectedFees divided by 1 ether
+info is equal to The amount of Ethers obtained through fees that have not yet been collected by the owner.
+count is equal to entries length
+info is equal to The number of times that people have jumped into the pit.
+users is equal to uniqueUsers
+info is equal to The number of unique users that have joined the pit.
+count is equal to entries length minus payoutOrder
+info is equal to The number of people waiting to be saved.
+If index is less or equal to entries length
+user is equal to entries index entryAddress
+nickName is equal to entries index entryAddress nickname
+deposit is equal to entries index deposit divided by 1 finney
+payout is equal to entries index payout divided by 1 finney
+tokensUsed is equal to entries index tokens
+info is equal to Entry info: user address, name, expected payout in Finneys (approximate), rescue tokens used.
+id is equal to users user id
+info is equal to The id of the user, represents the order in which he first joined the pit.
+tokens is equal to 
+info is equal to The number of Rescue Tokens the user has. Tokens are awarded when your deposits save people, and used automatically on your next deposit. They provide a 0.1 multiplier increase per token. (+0.5 max)
+rescueCount is equal to 
+info is equal to The number of times the user has rescued someone from the pit.
+profits is equal to usersProfits divided by 1 finney
+info is equal to The combined earnings of all users in Finney.
+If now is greater or equal to timeOfLastDeposit plus 10 weeks
+If balance is greater then 0

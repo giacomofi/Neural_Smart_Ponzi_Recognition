@@ -1,0 +1,24 @@
+solidity ^0.5.2 
+ERC20Interface IERC20 SafeMath Ownable ERC20 ERC20Detailed Roles MinterRole ERC20Mintable iBlockchainBankAndTrustToken 
+SafeMath Roles 
+Role 
+Role has bearer
+c c c c owner _balances _allowed _totalSupply _name _symbol _decimals _minters version 
+totalSharesIssued balanceOf allowance transfer approve transferFrom transfer approve transferFrom totalSupply balanceOf allowance mul div sub add mod totalSupply balanceOf allowance transfer approve transferFrom increaseAllowance decreaseAllowance _transfer _mint _burn _approve _burnFrom transferOtherERC20Assets name symbol decimals add remove has isMinter addMinter renounceMinter _addMinter _removeMinter mint 
+ERC20 inherits from IERC20 ERC20 inherits from Ownable ERC20Detailed inherits from IERC20 ERC20Mintable inherits from ERC20 ERC20Mintable inherits from MinterRole iBlockchainBankAndTrustToken inherits from ERC20 iBlockchainBankAndTrustToken inherits from ERC20Detailed iBlockchainBankAndTrustToken inherits from ERC20Mintable 
+onlyOwner onlyMinter 
+Transfer Approval Transfer Approval MinterAdded MinterRemoved 
+If a corresponds to 0
+owner is equal to msg sender
+ is equal to _balances from sub
+ is equal to _balances to add
+_totalSupply is equal to _totalSupply add
+ is equal to _balances account add
+_totalSupply is equal to _totalSupply sub
+ is equal to _balances account sub
+ is equal to value
+_name is equal to name
+_symbol is equal to symbol
+_decimals is equal to decimals
+ is equal to True
+ is equal to False

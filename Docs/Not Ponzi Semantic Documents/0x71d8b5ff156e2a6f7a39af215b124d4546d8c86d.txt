@@ -1,0 +1,9 @@
+solidity ^0.5.10 
+Trusti 
+Asset 
+Asset has assetHash
+Asset has siteName
+Asset has assetSignee
+validIdstoSite siteToAssets assetHashToAssets _asset 
+userAddAssets searchAsset 
+LogAssetAdded LogNewOraclizeQuery 

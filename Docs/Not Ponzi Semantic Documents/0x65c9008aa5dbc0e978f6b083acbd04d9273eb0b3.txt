@@ -1,0 +1,5 @@
+solidity ^0.5.15 
+VatLike VowLike FlopStarter 
+vow vat Sin sin Ash rad 
+dai sin vat Sin Ash heal flop flop 
+vat is equal to vow vat

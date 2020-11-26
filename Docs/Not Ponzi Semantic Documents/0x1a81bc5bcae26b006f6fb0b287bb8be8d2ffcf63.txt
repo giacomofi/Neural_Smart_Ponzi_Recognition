@@ -1,0 +1,45 @@
+solidity ^0.5.8 
+Ownable DepositLockerInterface DepositLocker ValidatorAuction 
+owner initialized deposited slasher depositorsProxy releaseTimestamp canWithdraw numberOfDepositors valuePerDepositor depositAmount auctionDurationInDays startPrice minimalNumberOfParticipants maximalNumberOfParticipants auctionState depositLocker whitelist bids bidders startTime closeTime lowestSlotPrice slotPrice i secondsSinceStart msSinceStart relativeAuctionTime decayDivisor decay price valueToWithdraw valueToWithdraw size sender 
+transferOwnership slash  init registerDepositor deposit withdraw slash  bid startAuction depositBids closeAuction addToWhitelist withdraw currentPrice priceAtElapsedTime withdrawAfterAuctionEnded withdrawAfterAuctionFailed transitionToDepositPending transitionToAuctionFailed isSenderContract 
+DepositLocker inherits from DepositLockerInterface DepositLocker inherits from Ownable ValidatorAuction inherits from Ownable 
+onlyOwner isInitialised isDeposited isNotDeposited onlyDepositorsProxy stateIs 
+DepositorRegistered Deposit Withdraw Slash BidSubmitted AddressWhitelisted AuctionDeployed AuctionStarted AuctionDepositPending AuctionEnded AuctionFailed 
+owner is equal to msg sender
+If newOwner is different from 
+owner is equal to newOwner
+releaseTimestamp is equal to _releaseTimestamp
+slasher is equal to _slasher
+depositorsProxy is equal to _depositorsProxy
+initialized is equal to True
+owner is equal to 
+ is equal to True
+numberOfDepositors increments of 1
+valuePerDepositor is equal to _valuePerDepositor
+deposited is equal to True
+ is equal to False
+ is equal to False
+startPrice is equal to _startPriceInWei
+auctionDurationInDays is equal to _auctionDurationInDays
+maximalNumberOfParticipants is equal to _maximalNumberOfParticipants
+minimalNumberOfParticipants is equal to _minimalNumberOfParticipants
+depositLocker is equal to _depositLocker
+lowestSlotPrice is equal to 
+auctionState is equal to AuctionState Deployed
+ is equal to msg value
+If slotPrice is less then lowestSlotPrice
+lowestSlotPrice is equal to slotPrice
+If bidders length corresponds to maximalNumberOfParticipants
+auctionState is equal to AuctionState Started
+startTime is equal to now
+auctionState is equal to AuctionState Ended
+If bidders length is greater or equal to minimalNumberOfParticipants
+i is less then addressesToWhitelist length
+ is equal to True
+If auctionState corresponds to AuctionState Ended
+ is equal to lowestSlotPrice
+ is equal to 0
+auctionState is equal to AuctionState DepositPending
+closeTime is equal to now
+auctionState is equal to AuctionState Failed
+closeTime is equal to now

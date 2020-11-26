@@ -1,0 +1,27 @@
+solidity 0.4.18 
+SafeMath Ownable ERC20 Pausable Freezable StandardToken GAWToken 
+SafeMath 
+c c c owner totalSupply pause frozenAccount balances allowed _allowance name symbol decimals TOTAL_SUPPLY WALLET_GAW addressLocked addressLockupDate remaining totalLockAmt lockupDate lockedAmt diff partition 
+mul div sub add Ownable transferOwnership balanceOf transfer allowance transferFrom approve pause unpause freeze unfreeze transfer transferFrom balanceOf approve allowance GAWToken getLockedAmount setLockup transfer transferFrom  withdrawEther withdrawSelfToken close 
+Pausable inherits from Ownable Freezable inherits from Ownable StandardToken inherits from ERC20 StandardToken inherits from Pausable StandardToken inherits from Freezable GAWToken inherits from StandardToken 
+onlyOwner whenNotPaused whenPaused canTransfer 
+OwnershipTransferred Transfer Approval Paused Unpaused Frozen UpdatedLockingState 
+owner is equal to msg sender
+owner is equal to newOwner
+pause is equal to True
+pause is equal to False
+ is equal to True
+ is equal to False
+ is equal to msg sender sub
+ is equal to balances _to add
+ is equal to balances _from sub
+ is equal to balances _to add
+ is equal to _allowance sub
+ is equal to _value
+ is equal to TOTAL_SUPPLY
+totalSupply is equal to TOTAL_SUPPLY
+If diff is greater or equal to partition
+ is equal to _value
+ is equal to _lockupDate
+If  is greater then 0
+If balanceOf is greater then 0

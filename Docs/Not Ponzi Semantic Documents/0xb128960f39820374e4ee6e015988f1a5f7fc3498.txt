@@ -1,0 +1,16 @@
+solidity ^0.5.10 
+ValueProvider DMap3 
+allocator locked values owners offered 
+getValue setAllocator allocate lock offer accept setValue getValue 
+DMap3 inherits from ValueProvider 
+ValueUpdate ValueUpdate ValueLocked OwnerUpdate 
+allocator is equal to msg sender
+allocator is equal to newAllocator
+ is equal to owner
+ is equal to True
+ is equal to 
+ is equal to 
+ is equal to to
+ is equal to msg sender
+ is equal to 
+ is equal to value

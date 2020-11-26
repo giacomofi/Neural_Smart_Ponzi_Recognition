@@ -1,0 +1,35 @@
+solidity ^0.5.16 
+SafeMath Ownable AutoRedDotDistrict KittyCore KittySires 
+SafeMath 
+c c c c _owner auctionCreationReward kittyIsWhitelisted numberOfWhitelistedKitties startingSiringPriceForKitty globalEndingSiringPrice globalAuctionDuration kittyCoreAddress kittySiresAddress contractBalance contractBalance fundsToLeaveToIncentivizeFutureCallers earnings 
+mul div sub add mod owner isOwner renounceOwnership transferOwnership _transferOwnership createAuction ownerChangeStartingSiringPrice ownerChangeGlobalEndingSiringPrice ownerChangeGlobalAuctionDuration ownerChangeAuctionCreationReward ownerCancelSiringAuction ownerWithdrawKitty ownerWhitelistKitty ownerWithdrawAllEarnings emergencyWithdraw  transfer createSiringAuction cancelAuction 
+AutoRedDotDistrict inherits from Ownable 
+onlyOwner 
+OwnershipTransferred 
+If a corresponds to 0
+_owner is equal to msg sender
+_owner is equal to 
+_owner is equal to newOwner
+If contractBalance is greater or equal to auctionCreationReward
+ is equal to _newStartingSiringPrice
+globalEndingSiringPrice is equal to _newGlobalEndingSiringPrice
+globalAuctionDuration is equal to _newGlobalAuctionDuration
+auctionCreationReward is equal to _newAuctionCreationReward
+ is equal to _whitelist
+
+numberOfWhitelistedKitties is equal to numberOfWhitelistedKitties add
+numberOfWhitelistedKitties is equal to numberOfWhitelistedKitties sub
+If contractBalance is greater then fundsToLeaveToIncentivizeFutureCallers
+ is equal to 200000000000000000
+ is equal to 200000000000000000
+ is equal to 200000000000000000
+ is equal to 200000000000000000
+ is equal to 200000000000000000
+ is equal to 200000000000000000
+ is equal to True
+ is equal to True
+ is equal to True
+ is equal to True
+ is equal to True
+ is equal to True
+numberOfWhitelistedKitties is equal to 6

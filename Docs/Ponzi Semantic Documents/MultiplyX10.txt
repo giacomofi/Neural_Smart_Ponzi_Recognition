@@ -1,0 +1,19 @@
+MultiplyX10 
+InvestorArray 
+InvestorArray has EtherAddress
+InvestorArray has Amount
+depositors Total_Investors Balance Total_Deposited Total_Paid_Out Multiplier Message Amount payment index 
+ enter 
+If msg value is greater then 2 ether
+Total_Investors is equal to depositors length plus 1
+depositors length increments of 1
+ EtherAddress is equal to msg sender
+ Amount is equal to Amount
+Balance increments of Amount
+Total_Deposited increments of Amount
+While Balance is greater then  Invalid symbol 
+If depositors index Amount is different from 0
+payment is equal to depositors index Amount multiplied by Multiplier
+Balance decreases of depositors index Amount multiplied by Multiplier
+Total_Paid_Out increments of depositors index Amount multiplied by Multiplier
+depositors index Amount is equal to 0

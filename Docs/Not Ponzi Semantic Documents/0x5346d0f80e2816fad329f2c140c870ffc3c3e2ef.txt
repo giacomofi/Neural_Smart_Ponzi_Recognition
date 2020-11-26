@@ -1,0 +1,14 @@
+solidity ^0.5.8 
+DSAuthority DSAuthEvents DSAuth Resolver EtherRouter 
+authority owner pointers resolver destination 
+canCall setOwner setAuthority isAuthorized register lookup stringToSig  setResolver 
+DSAuth inherits from DSAuthEvents Resolver inherits from DSAuth EtherRouter inherits from DSAuth 
+auth 
+LogSetAuthority LogSetOwner 
+owner is equal to msg sender
+owner is equal to owner_
+authority is equal to authority_
+If src corresponds to 
+ is equal to destination
+If msg sig corresponds to 0
+resolver is equal to Resolver

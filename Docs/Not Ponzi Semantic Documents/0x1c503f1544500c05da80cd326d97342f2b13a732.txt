@@ -1,0 +1,21 @@
+solidity ^0.6.0 experimental ABIEncoderV2 
+AccountInterface ListInterface AddressIndex CloneFactory InstaIndex 
+master list connectors check account versionCount targetBytes targetBytes 
+version enable cast init changeMaster changeCheck addNewAccount createClone isClone buildWithCast build setBasics 
+CloneFactory inherits from AddressIndex InstaIndex inherits from CloneFactory 
+isMaster 
+LogNewMaster LogNewCheck LogNewAccount AccountCreated 
+master is equal to _newMaster
+ is equal to _newCheck
+ is equal to _newAccount
+If _connectors is different from 
+ is equal to _connectors
+If _check is different from 
+ is equal to _check
+_account is equal to build
+If _targets length is greater then 0
+_account is equal to createClone
+master is equal to _master
+list is equal to _list
+ is equal to _account
+ is equal to _connectors

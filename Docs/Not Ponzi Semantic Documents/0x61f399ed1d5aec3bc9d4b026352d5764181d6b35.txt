@@ -1,0 +1,10 @@
+solidity 0.5.10 
+ERC20Interface Redirector 
+decimals owner recipient 
+totalSupply balanceOf allowance transfer approve transferFrom changeOwner changeRecipient pumpNative pumpTokens getNativeBalance getTokenBalance  tokenFallback 
+onlyOwner 
+Transfer Approval 
+owner is equal to newOwner
+recipient is equal to newRecipient
+owner is equal to _owner
+recipient is equal to _recipient

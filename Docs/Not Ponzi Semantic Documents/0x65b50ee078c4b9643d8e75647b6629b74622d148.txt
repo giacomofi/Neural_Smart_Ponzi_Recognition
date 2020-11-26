@@ -1,0 +1,23 @@
+solidity ^0.4.25 
+SafeMath ERC20Basic BasicToken ERC20 StandardToken Ownable Pausable PausableToken MOTC 
+SafeMath 
+c c c totalSupply balances allowed owner paused name decimals symbol version 
+mul div sub add balanceOf transfer transfer balanceOf allowance transferFrom approve transferFrom approve allowance Ownable transferOwnership pause unpause transfer transferFrom approve  MOTC 
+BasicToken inherits from ERC20Basic ERC20 inherits from ERC20Basic StandardToken inherits from ERC20 StandardToken inherits from BasicToken Pausable inherits from Ownable PausableToken inherits from StandardToken PausableToken inherits from Pausable MOTC inherits from PausableToken 
+onlyOwner whenNotPaused whenPaused 
+Transfer Approval OwnershipTransferred Pause Unpause 
+ is equal to msg sender sub
+ is equal to balances _to add
+ is equal to balances _from sub
+ is equal to balances _to add
+ is equal to allowed _from msg sender sub
+ is equal to _value
+owner is equal to msg sender
+owner is equal to newOwner
+paused is equal to True
+paused is equal to False
+ is equal to _totalSupply
+totalSupply is equal to _totalSupply
+name is equal to _name
+symbol is equal to _symbol
+decimals is equal to _decimals

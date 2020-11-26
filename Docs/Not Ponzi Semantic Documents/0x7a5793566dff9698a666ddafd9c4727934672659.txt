@@ -1,0 +1,37 @@
+solidity 0.4.25 
+SafeMath Owned CommunityBankCoin 
+SafeMath 
+c c owner totalSupply decimals name symbol tokenIsFrozen tokenMintingEnabled contractLaunched stakingStatus allowance balances bal sellPrice buyPrice 
+mul div sub add transferOwnership launchContract transfer tokenBurner tokenMinter tokenFactory transferCheck totalSupply balanceOf allowance withdrawAll setPrices buy sell 
+CommunityBankCoin inherits from Owned 
+onlyOwner 
+Transfer Approve LaunchContract FreezeTransfers UnFreezeTransfers MintTokens TokenMintingDisabled TokenMintingEnabled 
+If a corresponds to 0
+owner is equal to msg sender
+If msg sender is different from owner
+owner is equal to _newOwner
+name is equal to Community Bank Coin
+symbol is equal to CBC
+decimals is equal to 6
+totalSupply is equal to 100000000000000
+ is equal to totalSupply
+tokenIsFrozen is equal to False
+tokenMintingEnabled is equal to False
+contractLaunched is equal to False
+tokenIsFrozen is equal to False
+tokenMintingEnabled is equal to True
+contractLaunched is equal to True
+ is equal to msg sender sub
+ is equal to balances _receiver add
+totalSupply is equal to totalSupply sub
+ is equal to msg sender sub
+totalSupply is equal to totalSupply add
+ is equal to msg sender add
+sellPrice is equal to newSellPrice
+buyPrice is equal to newBuyPrice
+amount is equal to SafeMath div
+ is equal to SafeMath add
+ is equal to SafeMath sub
+ is equal to SafeMath add
+ is equal to SafeMath sub
+revenue is equal to SafeMath mul

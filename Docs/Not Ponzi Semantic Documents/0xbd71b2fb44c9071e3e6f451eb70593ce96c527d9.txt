@@ -1,0 +1,46 @@
+solidity ^0.5.0 
+TokenInterface PipInterface PepInterface VoxInterface TubInterface ERC20 ExchangeInterface DSMath SaverLogger SaverProxy 
+WAD RAY WETH_ADDRESS DAI_ADDRESS MKR_ADDRESS VOX_ADDRESS PETH_ADDRESS TUB_ADDRESS ETHER_ADDRESS KYBER_WRAPPER LOGGER_ADDRESS UNISWAP_WRAPPER ETH2DAI_WRAPPER WALLET_ID SERVICE_FEE exchangeWrapper ethDaiPrice tub startingRatio daiAmount cdpWholeDebt mkrAmount ethFee change exchangeWrapper daiEthPrice tub maxAmount startingCollateral ethAmount mkrPrice ok feeInDai ethAmount ink ink expectedRateKyber expectedRateUniswap expectedRateEth2Dai 
+allowance balanceOf approve transfer transferFrom deposit withdraw read peek par open join exit lock free draw wipe give shut bite cups gem gov skr sai vox ask mat chi ink tab rap per pip pep tag drip lad bid totalSupply balanceOf transfer transferFrom approve allowance decimals allocateTo swapEtherToToken swapTokenToEther getExpectedRate add sub mul min max imin imax wmul rmul wdiv rdiv rpow LogRepay LogBoost repay boost maxFreeCollateral maxFreeDai stabilityFeeInMkr swapDaiAndLockEth approveTub getRatio withdrawEth takeFee getBestPrice estimatedDaiPrice estimatedEthPrice estimatedMkrPrice getDebt 
+SaverProxy inherits from DSMath 
+LogNewCup Approval Repay Boost 
+z is equal to add divided by WAD
+z is equal to add divided by RAY
+z is equal to add divided by y
+z is equal to add divided by y
+z is equal to 
+n is divided by 2
+n is different from 0
+x is equal to rmul
+If n Invalid symbol 2 is different from 0
+z is equal to rmul
+ is equal to getBestPrice
+If _amount is greater then maxFreeCollateral
+_amount is equal to maxFreeCollateral
+If daiAmount is greater then cdpWholeDebt
+mkrAmount is equal to stabilityFeeInMkr
+ is equal to 
+_amount is equal to sub
+ is equal to 
+daiAmount is equal to sub
+If daiAmount is greater then cdpWholeDebt
+ is equal to getBestPrice
+If _amount is greater then maxAmount
+_amount is equal to maxAmount
+_amount is equal to sub
+ is equal to 
+If  is less then 
+feeAmount is equal to _amount divided by SERVICE_FEE
+ is equal to 
+ is equal to 
+ is equal to 
+If _exchangeType corresponds to 1
+If _exchangeType corresponds to 2
+If _exchangeType corresponds to 3
+If expectedRateEth2Dai is greater or equal to expectedRateKyber Invalid symbol 
+If expectedRateKyber is greater or equal to expectedRateUniswap Invalid symbol 
+If expectedRateUniswap is greater or equal to expectedRateKyber Invalid symbol 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to _tub cups

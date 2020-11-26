@@ -1,0 +1,85 @@
+solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 
+ERC20 DSGuard DSGuardFactory FlashLoanLogger DSNote DSAuthority DSAuthEvents DSAuth DSProxy DSProxyCache DSMath Discount ComptrollerInterface CTokenInterface CEtherInterface CompoundOracle CompoundSaverHelper CompoundLogger ConstantAddressesExchangeKovan ConstantAddressesExchangeMainnet ConstantAddressesExchange SaverExchangeInterface TokenInterface ExchangeInterface ExchangeHelper CompoundSaverProxy ILendingPool CompoundFlashLoanTaker 
+CustomServiceFee 
+CustomServiceFee has active
+CustomServiceFee has amount
+foo bar authority owner cache cache hash hash WAD RAY owner serviceFees MAX_SERVICE_FEE WALLET_ID DISCOUNT_ADDRESS SERVICE_FEE ETH_ADDRESS CETH_ADDRESS COMPTROLLER COMPOUND_LOGGER COMPOUND_ORACLE wholeDebt fee markets proxy usersBalance ethPrice liquidityInToken ethPrice liquidityInToken MAKER_DAI_ADDRESS KYBER_ETH_ADDRESS MKR_ADDRESS WETH_ADDRESS WALLET_ID LOGGER_ADDRESS DISCOUNT_ADDRESS GAS_TOKEN_INTERFACE_ADDRESS SAVER_EXCHANGE_ADDRESS MANAGER_ADDRESS VAT_ADDRESS SPOTTER_ADDRESS PROXY_ACTIONS JUG_ADDRESS DAI_JOIN_ADDRESS ETH_JOIN_ADDRESS MIGRATION_ACTIONS_PROXY SAI_ADDRESS DAI_ADDRESS SCD_MCD_MIGRATION ERC20_PROXY_0X NEW_IDAI_ADDRESS MAKER_DAI_ADDRESS KYBER_ETH_ADDRESS MKR_ADDRESS WETH_ADDRESS WALLET_ID LOGGER_ADDRESS DISCOUNT_ADDRESS GAS_TOKEN_INTERFACE_ADDRESS SAVER_EXCHANGE_ADDRESS MANAGER_ADDRESS VAT_ADDRESS SPOTTER_ADDRESS PROXY_ACTIONS JUG_ADDRESS DAI_JOIN_ADDRESS ETH_JOIN_ADDRESS MIGRATION_ACTIONS_PROXY SAI_ADDRESS DAI_ADDRESS SCD_MCD_MIGRATION ERC20_PROXY_0X NEW_IDAI_ADDRESS wrapper price tokens success orderAddresses tRet success tokensLeft tokensReturned user maxColl collAmount collToken borrowToken swapAmount user maxBorrow borrowAmount collToken borrowToken swapAmount lendingPool COMPOUND_SAVER_FLASH_LOAN FACTORY_ADDRESS logger maxColl loanAmount paramsData maxBorrow loanAmount paramsData currAuthority guard currAuthority guard 
+totalSupply balanceOf transfer transferFrom approve allowance decimals canCall permit forbid permit forbid newGuard logFlashLoan canCall setOwner setAuthority isAuthorized  execute execute setCache read write add sub mul div min max imin imax wmul rmul wdiv rdiv rpow isCustomFeeSet getCustomServiceFee setServiceFee disableServiceFee enterMarkets exitMarket getAssetsIn getAccountLiquidity mint mint redeem redeemUnderlying borrow repayBorrow repayBorrow repayBorrowBehalf repayBorrowBehalf liquidateBorrow liquidateBorrow exchangeRateCurrent supplyRatePerBlock borrowRatePerBlock totalReserves reserveFactorMantissa borrowBalanceCurrent totalBorrowsCurrent getCash balanceOfUnderlying underlying mint repayBorrow getUnderlyingPrice paybackDebt getFee enterMarket approveCToken getUnderlyingAddr getUserAddress getMaxCollateral getMaxBorrow LogRepay LogBoost getBestPrice allowance balanceOf approve transfer transferFrom deposit withdraw swapEtherToToken swapTokenToEther swapTokenToToken getExpectedRate swap takeOrder wethToKyberEth repay boost flashLoan repayWithLoan boostWithLoan givePermission removePermission 
+DSAuth inherits from DSAuthEvents DSProxy inherits from DSAuth DSProxy inherits from DSNote CTokenInterface inherits from ERC20 CompoundSaverHelper inherits from DSMath ConstantAddressesExchange inherits from ConstantAddressesExchangeMainnet ExchangeHelper inherits from ConstantAddressesExchange CompoundSaverProxy inherits from CompoundSaverHelper CompoundSaverProxy inherits from ExchangeHelper CompoundFlashLoanTaker inherits from CompoundSaverProxy 
+note auth 
+Approval FlashLoan LogNote LogSetAuthority LogSetOwner Repay Boost 
+owner is equal to msg sender
+owner is equal to owner_
+authority is equal to authority_
+If src corresponds to 
+target is equal to cache read
+If target corresponds to 
+target is equal to cache write
+response is equal to execute
+cache is equal to DSProxyCache
+ is equal to target
+z is equal to add divided by WAD
+z is equal to add divided by RAY
+z is equal to add divided by y
+z is equal to add divided by y
+z is equal to 
+n is divided by 2
+n is different from 0
+x is equal to rmul
+If n Invalid symbol 2 is different from 0
+z is equal to rmul
+owner is equal to msg sender
+ is equal to CustomServiceFee
+ is equal to CustomServiceFee
+If _amount is greater then wholeDebt
+_amount is equal to wholeDebt
+If _borrowToken corresponds to ETH_ADDRESS
+
+fee is equal to 
+feeAmount is equal to 
+If feeAmount is greater then 
+feeAmount is equal to _amount divided by 5
+ is equal to _cTokenAddrColl
+ is equal to _cTokenAddrBorrow
+If _tokenAddr is different from ETH_ADDRESS
+If _cTokenAddress corresponds to CETH_ADDRESS
+If liquidityInEth corresponds to 0
+If _cCollAddress corresponds to CETH_ADDRESS
+If liquidityInEth is greater then usersBalance
+If liquidityInToken is greater then usersBalance
+If _cBorrowAddress corresponds to CETH_ADDRESS
+ is equal to 
+_src is equal to wethToKyberEth
+_dest is equal to wethToKyberEth
+If  corresponds to 4
+If  is different from KYBER_ETH_ADDRESS
+ is equal to takeOrder
+If  corresponds to 0
+ is equal to 
+If  is greater or equal to price
+If  is different from KYBER_ETH_ADDRESS
+ is equal to takeOrder
+If  is greater then 0
+If  is different from 
+ is equal to 
+If  corresponds to KYBER_ETH_ADDRESS
+ is equal to 
+ increments of tRet
+If  corresponds to KYBER_ETH_ADDRESS
+ increments of 
+ increments of 
+ is equal to 
+
+If  corresponds to KYBER_ETH_ADDRESS
+tokensLeft is equal to 
+tokensLeft is equal to 
+If  corresponds to KYBER_ETH_ADDRESS
+tokensReturned is equal to 
+tokensReturned is equal to 
+swapAmount decreases of getFee
+borrowAmount decreases of getFee
+If collToken is different from ETH_ADDRESS
+If  is less or equal to maxColl
+If  is less or equal to maxBorrow
+If currAuthority corresponds to 
+guard is equal to 

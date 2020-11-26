@@ -1,0 +1,46 @@
+solidity ^0.4.24 
+ITokenController Controlled ApproveAndCallFallBack MiniMeToken MiniMeTokenFactory 
+Checkpoint 
+Checkpoint has fromBlock
+Checkpoint has value
+controller name decimals symbol version parentToken parentSnapShotBlock creationBlock balances allowed totalSupplyHistory transfersEnabled tokenFactory previousBalanceFrom previousBalanceTo snapshot cloneToken curTotalSupply previousBalanceTo curTotalSupply previousBalanceFrom min max mid newCheckPoint oldCheckPoint size token balance newToken 
+proxyPayment onTransfer onApprove Controlled changeController receiveApproval MiniMeToken transfer transferFrom doTransfer balanceOf approve allowance approveAndCall totalSupply balanceOfAt totalSupplyAt createCloneToken generateTokens destroyTokens enableTransfers getValueAt updateValueAtNow isContract min  claimTokens createCloneToken 
+MiniMeToken inherits from Controlled 
+onlyController 
+ClaimedTokens Transfer NewCloneToken Approval 
+controller is equal to msg sender
+controller is equal to _newController
+tokenFactory is equal to _tokenFactory
+name is equal to _tokenName
+decimals is equal to _decimalUnits
+symbol is equal to _tokenSymbol
+parentToken is equal to _parentToken
+parentSnapShotBlock is equal to _parentSnapShotBlock
+transfersEnabled is equal to _transfersEnabled
+creationBlock is equal to block number
+If msg sender is different from controller
+If  is less then _amount
+ decreases of _amount
+If _amount corresponds to 0
+If previousBalanceFrom is less then _amount
+
+
+ is equal to _amount
+If  Invalid symbol 
+If  is different from 0
+If  Invalid symbol 
+If  is different from 0
+transfersEnabled is equal to _transfersEnabled
+If checkpoints length corresponds to 0
+If _block is greater or equal to  fromBlock
+If _block is less then checkpoints 0 fromBlock
+While max is greater then min
+If checkpoints mid fromBlock is less or equal to _block
+min is equal to mid
+max is equal to mid minus 1
+If  Invalid symbol 
+newCheckPoint fromBlock is equal to 
+newCheckPoint value is equal to 
+oldCheckPoint value is equal to 
+If _addr corresponds to 0
+If _token corresponds to 0x0

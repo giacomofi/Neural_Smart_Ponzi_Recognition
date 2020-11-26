@@ -1,0 +1,22 @@
+solidity ^0.5.0 
+Ownable SafeMath IERC20 ERC20 ERC20Detailed E_Share 
+SafeMath 
+_owner c c c c _balances _allowances _totalSupply _name _symbol _decimals DECIMALS INITIAL_SUPPLY 
+owner isOwner renounceOwnership transferOwnership _transferOwnership add sub mul div mod totalSupply balanceOf transfer allowance approve transferFrom totalSupply balanceOf transfer allowance approve transferFrom increaseAllowance decreaseAllowance _transfer _mint _burn _approve _burnFrom name symbol decimals 
+ERC20 inherits from IERC20 ERC20Detailed inherits from IERC20 E_Share inherits from ERC20 E_Share inherits from ERC20Detailed E_Share inherits from Ownable 
+onlyOwner 
+OwnershipTransferred Transfer Approval 
+_owner is equal to msg sender
+_owner is equal to 
+_owner is equal to newOwner
+If a corresponds to 0
+ is equal to _balances sender sub
+ is equal to _balances recipient add
+_totalSupply is equal to _totalSupply add
+ is equal to _balances account add
+_totalSupply is equal to _totalSupply sub
+ is equal to _balances account sub
+ is equal to value
+_name is equal to name
+_symbol is equal to symbol
+_decimals is equal to decimals

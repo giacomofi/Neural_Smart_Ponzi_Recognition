@@ -1,0 +1,31 @@
+solidity ^0.4.16 
+owned tokenRecipient RTXGOLD MyAdvancedToken 
+owner _myTokeName _mySymbol _myinitialSupply _myDecimal name symbol decimals totalSupply balanceOf allowance previousBalances spender sellPrice buyPrice frozenAccount amount 
+owned transferOwnership receiveApproval RTXGOLD _transfer transfer transferFrom approve approveAndCall burn burnFrom MyAdvancedToken _transfer mintToken freezeAccount setPrices buy sell 
+MyAdvancedToken inherits from owned MyAdvancedToken inherits from RTXGOLD 
+onlyOwner 
+Transfer Burn FrozenFunds 
+owner is equal to msg sender
+owner is equal to newOwner
+decimals is equal to _myDecimal
+totalSupply is equal to _myinitialSupply multiplied by 
+ is equal to totalSupply
+name is equal to _myTokeName
+symbol is equal to _mySymbol
+ decreases of _value
+ increments of _value
+ decreases of _value
+ is equal to _value
+
+ decreases of _value
+totalSupply decreases of _value
+ decreases of _value
+ decreases of _value
+totalSupply decreases of _value
+ decreases of _value
+ increments of _value
+ increments of mintedAmount
+totalSupply increments of mintedAmount
+ is equal to freeze
+sellPrice is equal to newSellPrice
+buyPrice is equal to newBuyPrice

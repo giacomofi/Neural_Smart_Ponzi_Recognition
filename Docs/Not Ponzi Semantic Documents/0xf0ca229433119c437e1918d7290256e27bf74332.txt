@@ -1,0 +1,24 @@
+solidity ^0.4.26 
+IERC20 UniswapExchangeInterface KyberNetworkProxyInterface OrFeedInterface Ourbitrage 
+name symbol decimals _DEFAULT_MAX_RATE _ETH_TOKEN_ADDRESS _kyber _orfeed _uniswap _owner _feeCollector _fundingToken _allowedSlippage token token token ourbitrage kyberAddress token oldTokenBalance token currentTokenBalance ourbitrage token tokenBalance ethAmount ourbitrage token ethBalance tokenBalance ourbitrage ourbitrage token currentTokenBalance newBalance 
+transfer approve transferFrom totalSupply balanceOf allowance tokenAddress factoryAddress addLiquidity removeLiquidity getEthToTokenInputPrice getEthToTokenOutputPrice getTokenToEthInputPrice getTokenToEthOutputPrice ethToTokenSwapInput ethToTokenTransferInput ethToTokenSwapOutput ethToTokenTransferOutput tokenToEthSwapInput tokenToEthTransferInput tokenToEthSwapOutput tokenToEthTransferOutput tokenToTokenSwapInput tokenToTokenTransferInput tokenToTokenSwapOutput tokenToTokenTransferOutput tokenToExchangeSwapInput tokenToExchangeTransferInput tokenToExchangeSwapOutput tokenToExchangeTransferOutput transfer transferFrom approve allowance balanceOf totalSupply setup maxGasPrice getUserCapInWei getUserCapInTokenWei enabled info getExpectedRate tradeWithHint swapEtherToToken swapTokenToEther getExchangeRate getTokenDecimalCount getTokenAddress getSynthBytes32 getForexAddress  isOwner getVersion getPrice getEthBalance getFundingTokenAddress hasFundingTokenApproval getFundingTokenBalance getWalletTokenBalance setKyberNetworkProxyInterface setOrFeedInterface setFeeCollector setupFundingToken withdrawETH withdrawToken depositFunds_APPROVE_FIRST arbEthFromKyberToUniswap arbEthFromUniswapToKyber transferOwnership _withdrawETH _withdrawToken _transferOwnership _getProfitLoss 
+onlyOwner 
+Transfer Approval Arbitrage 
+_owner is equal to msg sender
+_kyber is equal to KyberNetworkProxyInterface
+_orfeed is equal to OrFeedInterface
+_feeCollector is equal to feeCollector
+If  is different from 
+ is equal to tokenAddress
+ is equal to UniswapExchangeInterface
+ is equal to allowedSlippage
+If tokenBalance is greater then 0
+ is equal to _getProfitLoss
+If tokenBalance is greater then 0
+ is equal to _getProfitLoss
+_owner is equal to newOwner
+If newBalance is less then oldBalance
+profit is equal to 0
+loss is equal to oldBalance minus newBalance
+profit is equal to newBalance minus oldBalance
+loss is equal to 0

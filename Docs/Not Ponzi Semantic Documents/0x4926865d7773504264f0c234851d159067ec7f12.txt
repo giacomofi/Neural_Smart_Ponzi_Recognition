@@ -1,0 +1,70 @@
+solidity 0.6.1 experimental ABIEncoderV2 
+SafeMath ERC165 SupportsInterface Abilitable MigrationReceiver ERC20 DappToken DappTokenMock 
+SafeMath SafeMath 
+SignatureData 
+SignatureData has r
+SignatureData has s
+SignatureData has v
+SignatureData has kind
+OVERFLOW SUBTRAHEND_GREATER_THEN_MINUEND DIVISION_BY_ZERO supportedInterfaces NOT_AUTHORIZED INVALID_INPUT SUPER_ABILITY ALLOW_SUPER_ABILITY EMPTY_SLOT_1 EMPTY_SLOT_2 ALL_DEFAULT_ABILITIES addressToAbility ABILITY_SET_WHITELISTED ABILITY_SET_MIGRATE_ADDRESS ABILITY_SET_MIGRATOR_ADDRESS NOT_ENOUGH_BALANCE NOT_ENOUGH_ALLOWANCE NOT_WHITELISTED_ADDRESS MIGRATION_NOT_STARTED MIGRATION_STARTED NOT_ABLE_TO_MIGRATE INVALID_SIGNATURE CLAIM_PERFORMED CLAIM_EXPIRED INVALID_SIGNATURE_KIND CLAIM_CANCELED tokenName tokenSymbol tokenDecimals tokenTotalSupply balances allowed tokenTransferProxy whitelistedRecipients barteredToken migrationAddress approvedMigrators MAGIC_ON_MIGRATION_RECEIVED claimPerformed claimCancelled balance claim claim 
+mul div sub add mod supportsInterface supportsInterface grantAbilities revokeAbilities setAbilities isAble onMigrationReceived name symbol decimals totalSupply balanceOf transfer transferFrom approve allowance name symbol decimals totalSupply balanceOf allowance setWhitelistedRecipient setApprovedMigrator startMigration migrate onMigrationReceived transfer approve approveWithSignature cancelApproveWithSignature generateClaim isValidSignature transferFrom deposit withdraw 
+SupportsInterface inherits from ERC165 DappToken inherits from ERC20 DappToken inherits from SupportsInterface DappToken inherits from Abilitable DappToken inherits from MigrationReceiver DappTokenMock inherits from DappToken 
+hasAbilities 
+SetAbilities Transfer Approval Transfer Approval WhitelistedRecipient ApprovedMigrator 
+If _factor1 corresponds to 0
+product is equal to _factor1 multiplied by _factor2
+quotient is equal to _dividend divided by _divisor
+difference is equal to _minuend minus _subtrahend
+sum is equal to _addend1 plus _addend2
+remainder is equal to _dividend Invalid symbol _divisor
+ is equal to True
+ is equal to ALL_DEFAULT_ABILITIES
+ Invalid symbol _abilities
+ Invalid symbol 
+ is equal to _abilities
+ is equal to True
+ is equal to True
+ is equal to True
+ is equal to True
+_name is equal to tokenName
+_symbol is equal to tokenSymbol
+_decimals is equal to tokenDecimals
+_totalSupply is equal to tokenTotalSupply
+_balance is equal to 
+_remaining is equal to 
+ is equal to _state
+ is equal to _state
+migrationAddress is equal to _target
+ is equal to 0
+tokenTotalSupply is equal to tokenTotalSupply sub
+tokenTotalSupply is equal to tokenTotalSupply add
+ is equal to balances _migrator add
+ is equal to allowed _migrator tokenTransferProxy add
+ is equal to msg sender sub
+ is equal to balances _to add
+_success is equal to True
+ is equal to _value
+_success is equal to True
+ is equal to True
+ is equal to _value
+ is equal to balances _approver sub
+If _feeRecipient corresponds to 
+_feeRecipient is equal to msg sender
+ is equal to balances _feeRecipient add
+ is equal to True
+_claim is equal to keccak256
+If _signature kind corresponds to SignatureKind eth_sign
+ is equal to balances _from sub
+ is equal to balances _to add
+ is equal to allowed _from msg sender sub
+_success is equal to True
+tokenTotalSupply is equal to tokenTotalSupply add
+ is equal to balances _receiver add
+ is equal to allowed _receiver tokenTransferProxy add
+tokenTotalSupply is equal to tokenTotalSupply sub
+ is equal to msg sender sub
+tokenName is equal to _name
+tokenSymbol is equal to _symbol
+tokenDecimals is equal to _decimals
+barteredToken is equal to ERC20
+tokenTransferProxy is equal to _tokenTransferProxy

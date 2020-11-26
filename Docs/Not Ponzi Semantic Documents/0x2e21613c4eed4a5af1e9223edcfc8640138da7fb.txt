@@ -1,0 +1,46 @@
+solidity ^0.4.24 solidity ^0.4.24 solidity ^0.4.24 solidity ^0.4.24 solidity ^0.4.24 solidity ^0.4.24 
+SafeMath Ownable Blacklistable Pausable ERC20Recovery FiatTokenV1 
+SafeMath 
+_owner blacklister blacklisted pauser paused name symbol decimals masterMinter initialized balances allowed totalSupply_ minters minterAllowed mintingAllowedAmount updatedAllowance updatedAllowance updatedAllowance updatedAllowance balance balance token balance 
+mul div sub add setOwner owner transferOwnership isBlacklisted blacklist unBlacklist updateBlacklister pause unpause updatePauser balanceOf transfer initialize mint minterAllowance isMinter totalSupply balanceOf approve increaseAllowance decreaseAllowance _approve allowance transferFrom transfer increaseMinterAllowance decreaseMinterAllowance burn lawEnforcementWipingBurn updateMasterMinter tokenFallback reclaimToken 
+Blacklistable inherits from Ownable Pausable inherits from Ownable FiatTokenV1 inherits from Ownable FiatTokenV1 inherits from Pausable FiatTokenV1 inherits from Blacklistable 
+onlyOwner onlyBlacklister notBlacklisted whenNotPaused onlyPauser onlyMinters onlyMasterMinter 
+OwnershipTransferred Blacklisted UnBlacklisted BlacklisterChanged Pause Unpause PauserChanged Mint Transfer Burn Approval MinterConfigured MinterRemoved MasterMinterChanged 
+If a corresponds to 0
+c is equal to a multiplied by b
+c is equal to a plus b
+_owner is equal to newOwner
+ is equal to True
+ is equal to False
+blacklister is equal to _newBlacklister
+paused is equal to True
+paused is equal to False
+pauser is equal to _newPauser
+name is equal to _name
+symbol is equal to _symbol
+decimals is equal to _decimals
+masterMinter is equal to _masterMinter
+pauser is equal to _pauser
+blacklister is equal to _blacklister
+initialized is equal to True
+totalSupply_ is equal to totalSupply_ add
+ is equal to balances _to add
+ is equal to mintingAllowedAmount sub
+If minterAllowance corresponds to 0
+ is equal to False
+ is equal to _amount
+ is equal to balances _from sub
+ is equal to balances _to add
+ is equal to allowed _from msg sender sub
+ is equal to msg sender sub
+ is equal to balances _to add
+ is equal to updatedAllowance
+ is equal to True
+ is equal to updatedAllowance
+If minterAllowance is greater then 0
+ is equal to False
+totalSupply_ is equal to totalSupply_ sub
+ is equal to balance sub
+totalSupply_ is equal to totalSupply_ sub
+ is equal to 0
+masterMinter is equal to _newMasterMinter

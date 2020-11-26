@@ -1,0 +1,72 @@
+solidity 0.4.24 solidity ^0.4.24 solidity ^0.4.24 solidity 0.4.24 solidity 0.4.24 solidity 0.4.24 solidity 0.4.24 solidity ^0.4.24 solidity 0.4.24 solidity 0.4.24 solidity 0.4.24 solidity 0.4.24 solidity 0.4.24 solidity 0.4.24 solidity 0.4.24 solidity ^0.4.24 solidity 0.4.24 solidity 0.4.24 solidity 0.4.24 solidity 0.4.24 solidity 0.4.24 solidity 0.4.24 solidity 0.4.24 solidity 0.4.24 solidity 0.4.24 solidity 0.4.24 solidity 0.4.24 solidity 0.4.24 solidity 0.4.24 solidity 0.4.24 
+EternalStorage ERC20Basic ERC20 IBridgeValidators ValidatorStorage Validatable Message SafeMath IUpgradeabilityOwnerStorage Ownable BasicTokenBridge MessageRelay Upgradeable Initializable InitializableBridge AddressUtils Sacrifice Claimable VersionableBridge BasicBridge BasicForeignBridge ERC20Bridge OtherSideBridgeStorage IScdMcdMigration IDaiAdapter ISaiTop IPot IChai ERC677Receiver TokenSwapper ChaiConnector ForeignBridgeErcToNative 
+SafeMath SafeMath 
+uintStorage stringStorage addressStorage bytesStorage boolStorage intStorage VALIDATOR_CONTRACT i r s v prefix msgLength requiredSignatures amount hash encounteredAddresses i v r s posr poss recoveredAddress j length bstr k UPGRADEABILITY_OWNER OWNER MIN_PER_TX MAX_PER_TX DAILY_LIMIT EXECUTION_MAX_PER_TX EXECUTION_DAILY_LIMIT DECIMAL_SHIFT nextLimit nextLimit INITIALIZED DEPLOYED_AT_BLOCK size TRANSFER value token balance returnData returnDataResult callData GAS_PRICE REQUIRED_BLOCK_CONFIRMATIONS recipient amount txHash contractAddress ERC20_TOKEN BRIDGE_CONTRACT CHAI_TOKEN_ENABLED INTEREST_RECEIVER INTEREST_COLLECTION_PERIOD LAST_TIME_INTEREST_PAID INVESTED_AMOUNT MIN_DAI_TOKEN_BALANCE ON_TOKEN_TRANSFER ONE receiver interest pot chi amount newInvestedAmountInDai invested initialDaiBalance withdrawal redeemed newInvested MIN_HDTOKEN_BALANCE SWAP_TOKENS amount currentBalance res esTs mcdMigrationContract hdToken fdToken curHDTokenBalance curFDTokenBalance tokenToOperate hdToken fdToken 
+totalSupply balanceOf transfer allowance transferFrom approve isValidator requiredSignatures owner validatorContract requiredSignatures addressArrayContains parseMessage isMessageValid requiredMessageLength recoverAddressFromSignedMessage hashMessage hasEnoughValidSignatures uintToString mul div sub add upgradeabilityOwner owner transferOwnership setOwner totalSpentPerDay totalExecutedPerDay dailyLimit executionDailyLimit maxPerTx executionMaxPerTx minPerTx decimalShift withinLimit withinExecutionLimit getCurrentDay setTotalSpentPerDay setTotalExecutedPerDay setDailyLimit setExecutionDailyLimit setExecutionMaxPerTx setMaxPerTx setMinPerTx relayedMessages setRelayedMessages setInitialize isInitialized deployedAtBlock isContract claimValues claimNativeCoins claimErc20Tokens safeTransfer getBridgeInterfacesVersion getBridgeMode setGasPrice gasPrice setRequiredBlockConfirmations requiredBlockConfirmations claimTokens executeSignatures onExecuteMessage onFailedMessage erc20token setErc20token _relayTokens relayTokens relayTokens _setBridgeContractOnOtherSide bridgeContractOnOtherSide swapSaiToDai daiJoin dai caged chi rho drip pot daiToken balanceOf dai join draw exit transfer onTokenTransfer rdivup isChaiTokenEnabled chaiToken initializeChaiToken initializeChaiToken setMinDaiTokenBalance minDaiTokenBalance removeChaiToken interestReceiver setInterestReceiver lastInterestPayment interestCollectionPeriod setInterestCollectionPeriod payInterest _payInterest dsrBalance chaiBalance daiBalance investedAmountInDai setInvestedAmountInDai investedAmountInChai isDaiNeedsToBeInvested convertDaiToChai _convertChaiToDai initialize getBridgeMode claimTokens onExecuteMessage onFailedMessage saiTopContract isTokenSwapAllowed halfDuplexErc20token setMinHDTokenBalance minHDTokenBalance isHDTokenBalanceAboveMinBalance tokenBalance migrationContract swapTokens relayTokens relayTokens relayTokens relayTokens _relayTokens 
+ERC20 inherits from ERC20Basic Validatable inherits from EternalStorage Validatable inherits from ValidatorStorage Ownable inherits from EternalStorage BasicTokenBridge inherits from EternalStorage BasicTokenBridge inherits from Ownable MessageRelay inherits from EternalStorage Initializable inherits from EternalStorage InitializableBridge inherits from Initializable BasicBridge inherits from InitializableBridge BasicBridge inherits from Validatable BasicBridge inherits from Ownable BasicBridge inherits from Upgradeable BasicBridge inherits from Claimable BasicBridge inherits from VersionableBridge BasicForeignBridge inherits from EternalStorage BasicForeignBridge inherits from Validatable BasicForeignBridge inherits from BasicBridge BasicForeignBridge inherits from BasicTokenBridge BasicForeignBridge inherits from MessageRelay ERC20Bridge inherits from BasicForeignBridge OtherSideBridgeStorage inherits from EternalStorage ChaiConnector inherits from Ownable ChaiConnector inherits from ERC20Bridge ChaiConnector inherits from TokenSwapper ForeignBridgeErcToNative inherits from BasicForeignBridge ForeignBridgeErcToNative inherits from ERC20Bridge ForeignBridgeErcToNative inherits from OtherSideBridgeStorage ForeignBridgeErcToNative inherits from ChaiConnector 
+onlyValidator onlyOwner onlyRelevantSender onlyIfUpgradeabilityOwner validAddress chaiTokenEnabled 
+Transfer Approval OwnershipTransferred DailyLimitChanged ExecutionDailyLimitChanged GasPriceChanged RequiredBlockConfirmationChanged RelayedMessage UserRequestForAffirmation TokensSwapped PaidInterest 
+i is less then array length
+If  corresponds to value
+
+i is less then requiredSignatures
+ is equal to recoveredAddress
+If i corresponds to 0
+While j is different from 0
+j is divided by 10
+While i is different from 0
+ is equal to 
+i is divided by 10
+If _a corresponds to 0
+c is equal to _a multiplied by _b
+c is equal to _a plus _b
+ is equal to newOwner
+ is equal to _value
+ is equal to _value
+ is equal to _dailyLimit
+ is equal to _dailyLimit
+ is equal to _maxPerTx
+ is equal to _maxPerTx
+ is equal to _minPerTx
+ is equal to _status
+ is equal to True
+If _token corresponds to 
+If 
+If returnData length is greater then 0
+ is equal to _gasPrice
+ is equal to _blockConfirmations
+ is equal to Message parseMessage
+
+ is equal to _token
+ is equal to _bridgeContract
+ is equal to True
+ is equal to 100 ether
+ is equal to 1 weeks
+ is equal to _interestReceiver
+ is equal to _minBalance
+ is equal to receiver
+ is equal to period
+If lastInterestPayment plus interestCollectionPeriod is less then now Invalid symbol 
+ is equal to now
+ is equal to amount
+If amount corresponds to 0
+ is equal to _validatorContract
+ is equal to block number
+ is equal to _requiredBlockConfirmations
+ is equal to _gasPrice
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to 
+ is equal to _decimalShift
+If _token corresponds to 
+If currentBalance is less then amount
+If tokenBalance is greater then 0
+If esTs is greater then 0 Invalid symbol 
+ is equal to _minBalance
+If tokenBalance is greater then minHDTokenBalance
+If tokenToOperate corresponds to ERC20
+tokenToOperate is equal to fdToken
+If tokenToOperate corresponds to hdToken
+

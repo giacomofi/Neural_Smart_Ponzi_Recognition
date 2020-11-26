@@ -1,0 +1,29 @@
+solidity ^0.4.16 
+owned tokenRecipient TokenERC20 EncryptedToken 
+owner name symbol decimals totalSupply balanceOf allowance previousBalances spender INITIAL_SUPPLY buyPrice frozenAccount amount amount 
+owned transferOwnership receiveApproval TokenERC20 _transfer transfer transferFrom approve approveAndCall burn burnFrom EncryptedToken _transfer mintToken freezeAccount setPrices buy  selfdestructs 
+EncryptedToken inherits from owned EncryptedToken inherits from TokenERC20 
+onlyOwner 
+Transfer Burn FrozenFunds 
+owner is equal to msg sender
+owner is equal to newOwner
+totalSupply is equal to initialSupply multiplied by 10 Invalid symbol 
+ is equal to totalSupply
+name is equal to tokenName
+symbol is equal to tokenSymbol
+ decreases of _value
+ increments of _value
+ decreases of _value
+ is equal to _value
+
+ decreases of _value
+totalSupply decreases of _value
+ decreases of _value
+ decreases of _value
+totalSupply decreases of _value
+ decreases of _value
+ increments of _value
+ increments of mintedAmount
+totalSupply increments of mintedAmount
+ is equal to freeze
+buyPrice is equal to newBuyPrice

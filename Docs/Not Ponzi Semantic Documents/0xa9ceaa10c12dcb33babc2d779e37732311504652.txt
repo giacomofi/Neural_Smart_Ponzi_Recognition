@@ -1,0 +1,22 @@
+solidity ^0.5.0 
+SafeMath Roles WhitelistAdminRole WhitelistedRole RequestHashStorage Bytes StorageFeeCollector RequestOpenHashSubmitter 
+Roles Roles SafeMath 
+Role 
+Role has bearer
+c c c c _whitelistAdmins _whitelisteds minimumFee rateFeesNumerator rateFeesDenominator requestBurnerContract computedAllFee requestHashStorage contentSize 
+mul div sub add mod add remove has isWhitelistAdmin addWhitelistAdmin renounceWhitelistAdmin _addWhitelistAdmin _removeWhitelistAdmin isWhitelisted addWhitelisted removeWhitelisted renounceWhitelisted _addWhitelisted _removeWhitelisted declareNewHash  extractBytes32 setFeeParameters setRequestBurnerContract getFeesAmount collectForREQBurning submitHash  
+WhitelistedRole inherits from WhitelistAdminRole RequestHashStorage inherits from WhitelistedRole StorageFeeCollector inherits from WhitelistAdminRole RequestOpenHashSubmitter inherits from StorageFeeCollector 
+onlyWhitelistAdmin onlyWhitelisted 
+WhitelistAdminAdded WhitelistAdminRemoved WhitelistedAdded WhitelistedRemoved NewHash UpdatedFeeParameters UpdatedMinimumFeeThreshold UpdatedBurnerContract 
+If a corresponds to 0
+ is equal to True
+ is equal to False
+requestBurnerContract is equal to _requestBurnerContract
+minimumFee is equal to _minimumFee
+rateFeesNumerator is equal to _rateFeesNumerator
+rateFeesDenominator is equal to _rateFeesDenominator
+requestBurnerContract is equal to _requestBurnerContract
+If rateFeesDenominator is different from 0
+computedAllFee is equal to computedAllFee div
+If computedAllFee is less or equal to minimumFee
+requestHashStorage is equal to RequestHashStorage

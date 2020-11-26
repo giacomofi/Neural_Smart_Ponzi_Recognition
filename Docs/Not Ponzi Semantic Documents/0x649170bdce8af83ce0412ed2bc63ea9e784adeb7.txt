@@ -1,0 +1,25 @@
+solidity ^0.4.24 
+Database DBInterface Events Operators 
+uintStorage stringStorage addressStorage bytesStorage bytes32Storage boolStorage intStorage i database database events operatorID operatorAddress oldAddress oldAddress modelID 
+enableContractManagement setAddress setUint setString setBytes setBytes32 setBool setInt deleteAddress deleteUint deleteString deleteBytes deleteBytes32 deleteBool deleteInt setContractManager setAddress setUint setString setBytes setBytes32 setBool setInt deleteAddress deleteUint deleteString deleteBytes deleteBytes32 deleteBool deleteInt uintStorage stringStorage addressStorage bytesStorage bytes32Storage boolStorage intStorage message transaction registration contractChange asset escrow order exchange operator consensus registerOperator removeOperator changeOperatorAddress changeReferrerAddress updateIPFS addAsset removeAsset acceptToken payoutToken destroy 
+onlyApprovedContract onlyApprovedContract onlyOwner onlyOperator 
+LogInitialized LogEvent LogTransaction LogAddress LogContractChange LogAsset LogEscrow LogOrder LogExchange LogOperator LogConsensus 
+i is less then _owners length
+ is equal to True
+
+ is equal to True
+ is equal to _contractManager
+ is equal to True
+ is equal to _value
+ is equal to _value
+ is equal to _value
+ is equal to _value
+ is equal to _value
+ is equal to _value
+ is equal to _value
+database is equal to DBInterface
+database is equal to Database
+events is equal to Events
+If _referrerAddress corresponds to 
+If _tokenAddress corresponds to 
+If _tokenAddress corresponds to 

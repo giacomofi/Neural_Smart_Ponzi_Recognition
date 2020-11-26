@@ -1,0 +1,29 @@
+solidity ^0.5.0 solidity ^0.5.1 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.1 
+IERC20 IToken Context SafeMath ERC20 ERC20Burnable ERC20Detailed Roles MinterRole ERC20Mintable PauserRole Pausable ERC20Pausable Token TokenFactory 
+SafeMath Roles Roles 
+Role 
+Role has bearer
+c c c c _balances _allowances _totalSupply _name _symbol _decimals _minters _pausers _paused _supplyCap PERMIT_TYPEHASH VERSION DOMAIN_SEPARATOR permitNonces chainID digest amount newToken 
+totalSupply balanceOf transfer allowance approve transferFrom totalSupply balanceOf transfer allowance approve transferFrom mint burn burnFrom pause unpause redeem permit _msgSender _msgData add sub sub mul div div mod mod totalSupply balanceOf transfer allowance approve transferFrom increaseAllowance decreaseAllowance _transfer _mint _burn _approve _burnFrom burn burnFrom name symbol decimals add remove has isMinter addMinter renounceMinter _addMinter _removeMinter mint isPauser addPauser renouncePauser _addPauser _removePauser paused pause unpause transfer transferFrom approve increaseAllowance decreaseAllowance initDomainSeparator cap _mint redeem permit createToken 
+ERC20 inherits from Context ERC20 inherits from IERC20 ERC20Burnable inherits from Context ERC20Burnable inherits from ERC20 ERC20Detailed inherits from IERC20 MinterRole inherits from Context ERC20Mintable inherits from ERC20 ERC20Mintable inherits from MinterRole PauserRole inherits from Context Pausable inherits from Context Pausable inherits from PauserRole ERC20Pausable inherits from ERC20 ERC20Pausable inherits from Pausable Token inherits from IToken Token inherits from ERC20Detailed Token inherits from ERC20Burnable Token inherits from ERC20Mintable Token inherits from ERC20Pausable 
+onlyMinter onlyPauser whenNotPaused whenPaused 
+Transfer Approval Transfer Approval TokenRedeemed MinterAdded MinterRemoved PauserAdded PauserRemoved Paused Unpaused 
+If a corresponds to 0
+ is equal to _balances sender sub
+ is equal to _balances recipient add
+_totalSupply is equal to _totalSupply add
+ is equal to _balances account add
+ is equal to _balances account sub
+_totalSupply is equal to _totalSupply sub
+ is equal to amount
+_name is equal to name
+_symbol is equal to symbol
+_decimals is equal to decimals
+ is equal to True
+ is equal to False
+_paused is equal to False
+_paused is equal to True
+_paused is equal to False
+_supplyCap is equal to supplyCap
+If minter is different from 
+DOMAIN_SEPARATOR is equal to keccak256

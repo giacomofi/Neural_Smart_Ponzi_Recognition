@@ -1,0 +1,38 @@
+solidity ^0.4.25 
+SafeMath Ownable Token StandardToken StockMintToken RepaymentToken CreditableToken Flower 
+SafeMath SafeMath SafeMath 
+c c c owner note_contract balances allowed totalSupply mintingFinished burner name symbol decimals INITIAL_SUPPLY Image_root Note_root Document_root DigestCode_root TxHash_root ContractSource CodeVersion SecretKey_Pre Name_New TxHash_Pre DigestCode_New Image_New Note_New Document_New CreditRate 
+mul div sub add transferOwnership totalSupply balanceOf transfer transferFrom approve allowance transfer transferFrom balanceOf approve allowance stockmint finishMinting burn repayment credit connectContract getIssuer getTrustee getName getDigestCodeRoot getTxHashRoot getImageRoot getNoteRoot getDocumentRoot getCodeVersion getContractSource getSecretKeyPre getNameNew getTxHashPre getDigestCodeNew getImageNew getNoteNew getDocumentNew updateCreditRate setNewBlock approveAndCall 
+StandardToken inherits from Token StockMintToken inherits from StandardToken StockMintToken inherits from Ownable RepaymentToken inherits from StandardToken RepaymentToken inherits from Ownable CreditableToken inherits from StandardToken CreditableToken inherits from Ownable Flower inherits from CreditableToken Flower inherits from RepaymentToken Flower inherits from StockMintToken 
+onlyOwner canMint hasMintPermission hasRepaymentPermission 
+OwnershipTransferred Transfer Approval setNewBlockEvent StockMint Burn MintFinished Repayment Paidto Credit Drawdown 
+owner is equal to msg sender
+owner is equal to newOwner
+If  is greater or equal to _value Invalid symbol 
+ decreases of _value
+ increments of _value
+If  is greater or equal to _value Invalid symbol  Invalid symbol 
+ increments of _value
+ decreases of _value
+ decreases of _value
+ is equal to _value
+totalSupply is equal to totalSupply add
+ is equal to balances _to add
+mintingFinished is equal to True
+ is equal to balances burner sub
+totalSupply is equal to totalSupply sub
+totalSupply is equal to totalSupply add
+ is equal to balances owner add
+ is equal to balances owner sub
+totalSupply is equal to totalSupply sub
+totalSupply is equal to INITIAL_SUPPLY
+ is equal to INITIAL_SUPPLY
+note_contract is equal to _note_address
+CreditRate is equal to _rate
+SecretKey_Pre is equal to _SecretKey_Pre
+Name_New is equal to _Name_New
+TxHash_Pre is equal to _TxHash_Pre
+DigestCode_New is equal to _DigestCode_New
+Image_New is equal to _Image_New
+Note_New is equal to _Note_New
+ is equal to _value

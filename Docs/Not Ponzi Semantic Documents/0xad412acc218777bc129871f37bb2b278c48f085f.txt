@@ -1,0 +1,117 @@
+solidity ^0.5.16 
+SafeMath Ownable Adminable Token Dex 
+SafeMath 
+owner newOwner admins decimals invalidOrder tokens lastActiveTransaction orderFills feeAccount inactivityReleasePeriod hashed maxFeeWithdrawal maxFeeTrade dexToken dexTokenFeeDiscount baseCurrency initialized hash hash fee orderHash amount i tradeHash 
+mul div sub add transferOwnership acceptOwnership setAdmin transfer approveAndCall approve transferFrom invalidateOrdersBefore init setInactivityReleasePeriod setFeeAccount setDexToken setDexTokenFeeDiscount setBaseCurrency updateAccountActivity adminUpdateAccountActivity tokenFallback receiveApproval depositToken depositTokenFor transferFromAndDepositTokenFunction depositTokenFunction depositEther depositEtherFor emergencyWithdraw adminWithdraw balanceOf adminTrade toWei fromWei 
+Adminable inherits from Ownable Dex inherits from Ownable Dex inherits from Adminable 
+onlyOwner onlyAdmin 
+OwnershipTransferred Deposit EmergencyWithdraw Withdraw 
+If a corresponds to 0
+c is equal to a multiplied by b
+c is equal to a plus b
+newOwner is equal to _newOwner
+owner is equal to msg sender
+newOwner is equal to 
+ is equal to _authorization
+ is equal to now
+initialized is equal to True
+feeAccount is equal to _feeAccount
+dexToken is equal to _dexToken
+dexTokenFeeDiscount is equal to _dexTokenFeeDiscount
+inactivityReleasePeriod is equal to 2 weeks
+maxFeeWithdrawal is equal to 0.05 ether
+maxFeeTrade is equal to 0.10 ether
+owner is equal to msg sender
+ is equal to True
+inactivityReleasePeriod is equal to _expiry
+feeAccount is equal to _newFeeAccount
+success is equal to True
+dexToken is equal to _dexToken
+success is equal to True
+dexTokenFeeDiscount is equal to _dexTokenFeeDiscount
+success is equal to True
+ is equal to _boolean
+success is equal to True
+ is equal to now
+ is equal to True
+ is equal to now
+success is equal to True
+ is equal to tokens _token _beneficiary add
+If tx origin corresponds to _beneficiary
+ is equal to now
+ is equal to  _beneficiary add
+If msg sender corresponds to _beneficiary
+ is equal to now
+ is equal to tokens _token msg sender sub
+If _token corresponds to 
+success is equal to True
+ is equal to True
+ is equal to tokens _token _user sub
+If  corresponds to 1
+fee is equal to  divided by 1 ether
+If  corresponds to 1 Invalid symbol 
+ is equal to tokens dexToken feeAccount add
+ is equal to tokens dexToken _user sub
+If  is greater then maxFeeWithdrawal
+ is equal to maxFeeWithdrawal
+fee is equal to _fee 0 mul divided by 1 ether
+ is equal to tokens _token feeAccount add
+_amount is equal to _amount sub
+If _token corresponds to 
+ is equal to now
+success is equal to True
+If  is greater then maxFeeTrade
+ is equal to maxFeeTrade
+If  is greater then maxFeeTrade
+ is equal to maxFeeTrade
+ is equal to 
+i is less then  divided by 5
+ is equal to keccak256
+ is equal to keccak256
+ is equal to  sub
+If  is less then 
+ is equal to 
+ is equal to amount 2 sub
+ is equal to amount 0 add
+ is equal to toWei
+ is equal to toWei
+ is equal to toWei
+ is equal to 
+ is equal to  divided by 1e18
+If  corresponds to  Invalid symbol 
+If  corresponds to 1
+ is equal to 
+If  corresponds to 1
+ is equal to 
+ is equal to 
+ is equal to fromWei
+If  corresponds to 1
+ is equal to 
+If  corresponds to 1
+ is equal to 
+ is equal to 
+ is equal to fromWei
+ is equal to fromWei
+ is equal to fromWei
+ is equal to fromWei
+If  corresponds to 1 Invalid symbol 
+ is equal to tokens dexToken _addresses 2 sub
+ is equal to tokens dexToken feeAccount add
+ is equal to 0
+ is equal to tokens _addresses 1 feeAccount add
+If  corresponds to 1 Invalid symbol 
+ is equal to tokens dexToken  sub
+ is equal to tokens dexToken feeAccount add
+ is equal to 0
+ is equal to tokens _addresses 0 feeAccount add
+ is equal to tokens _addresses 0 _addresses 2 sub
+ is equal to tokens _addresses 0  add
+ is equal to tokens _addresses 1  sub
+ is equal to tokens _addresses 1 _addresses 2 add
+ is equal to orderFills orderHash 1 add
+ is equal to now
+ is equal to True
+ is equal to now
+success is equal to True
+If _token corresponds to 
+If _token corresponds to 

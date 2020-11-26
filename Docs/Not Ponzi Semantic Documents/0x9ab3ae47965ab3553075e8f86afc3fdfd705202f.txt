@@ -1,0 +1,10 @@
+solidity 0.5.12 
+DSPauseAbstract PotAbstract JugAbstract SaiMomLike SpellAction DssSpell 
+description MCD_VAT MCD_JUG MCD_POT ZERO_FIVE_PCT_RATE ONE_PCT_RATE SIXTEEN_PCT_RATE RAD MILLION ETH_FEE BAT_FEE DSR_RATE USDC_FEE pause action tag eta sig expiration done MILLION SAIMOM SCD_EIGHT_FIVE_PCT_FEE _tag _action 
+delay plot exec file file drip file file file drip setCap setFee execute description schedule cast 
+sig is equal to abi encodeWithSignature
+action is equal to 
+tag is equal to _tag
+expiration is equal to now plus 30 days
+eta is equal to now plus 
+done is equal to True

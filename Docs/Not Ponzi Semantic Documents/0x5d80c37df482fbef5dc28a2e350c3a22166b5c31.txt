@@ -1,0 +1,57 @@
+solidity 0.5.10 solidity 0.5.10 solidity 0.5.10 solidity 0.5.10 
+PayableOwnable SafeMath IERC20 PumaPayPullPayment 
+SafeMath 
+PullPayment 
+PullPayment has paymentID
+PullPayment has businessID
+PullPayment has uniqueReferenceID
+PullPayment has currency
+PullPayment has initialPaymentAmountInCents
+PullPayment has fiatAmountInCents
+PullPayment has frequency
+PullPayment has numberOfPayments
+PullPayment has startTimestamp
+PullPayment has nextPaymentTimestamp
+PullPayment has lastPaymentTimestamp
+PullPayment has cancelTimestamp
+PullPayment has treasuryAddress
+_owner c c c c RATE_CALCULATION_NUMBER OVERFLOW_LIMITER_NUMBER ONE_ETHER FUNDING_AMOUNT MINIMUM_AMOUNT_OF_ETH_FOR_OPERATORS EMPTY_BYTES32 token conversionRates executors pullPayments amountInPMA customerAddress initialAmountInCents currency 
+owner isOwner renounceOwnership transferOwnership _transferOwnership mul div sub add mod transfer approve transferFrom totalSupply balanceOf allowance  addExecutor removeExecutor setRate registerPullPayment deletePullPayment executePullPayment getRate calculatePMAFromFiat isValidRegistration isValidDeletion doesPaymentExist isFundingNeeded 
+PumaPayPullPayment inherits from PayableOwnable 
+onlyOwner isExecutor executorExists executorDoesNotExists paymentExists paymentNotCancelled isValidPullPaymentExecutionRequest isValidDeletionRequest isValidAddress validConversionRate validAmount 
+OwnershipTransferred Transfer Approval LogExecutorAdded LogExecutorRemoved LogSetConversionRate LogSmartContractActorFunded LogPaymentRegistered LogPaymentCancelled LogPullPaymentExecuted 
+_owner is equal to msg sender
+_owner is equal to 
+_owner is equal to newOwner
+If a corresponds to 0
+token is equal to IERC20
+ is equal to True
+
+
+ is equal to False
+
+ is equal to _rate
+
+pullPayments _addresses 0 _addresses 1 currency is equal to _currency
+pullPayments _addresses 0 _addresses 1 initialPaymentAmountInCents is equal to _initialPaymentAmountInCents
+pullPayments _addresses 0 _addresses 1 fiatAmountInCents is equal to _fiatAmountInCents
+pullPayments _addresses 0 _addresses 1 frequency is equal to _frequency
+pullPayments _addresses 0 _addresses 1 startTimestamp is equal to _startTimestamp
+pullPayments _addresses 0 _addresses 1 numberOfPayments is equal to _numberOfPayments
+pullPayments _addresses 0 _addresses 1 paymentID is equal to 
+pullPayments _addresses 0 _addresses 1 businessID is equal to 
+pullPayments _addresses 0 _addresses 1 uniqueReferenceID is equal to _uniqueReferenceID
+pullPayments _addresses 0 _addresses 1 treasuryAddress is equal to 
+pullPayments _addresses 0 _addresses 1 nextPaymentTimestamp is equal to _startTimestamp
+pullPayments _addresses 0 _addresses 1 lastPaymentTimestamp is equal to 0
+pullPayments _addresses 0 _addresses 1 cancelTimestamp is equal to 0
+
+pullPayments _customerAddress _pullPaymentExecutor cancelTimestamp is equal to now
+
+If initialAmountInCents is greater then 0
+amountInPMA is equal to calculatePMAFromFiat
+pullPayments customerAddress msg sender initialPaymentAmountInCents is equal to 0
+amountInPMA is equal to calculatePMAFromFiat
+pullPayments customerAddress msg sender nextPaymentTimestamp is equal to pullPayments customerAddress msg sender nextPaymentTimestamp plus pullPayments customerAddress msg sender frequency
+pullPayments customerAddress msg sender numberOfPayments is equal to pullPayments customerAddress msg sender numberOfPayments minus 1
+pullPayments customerAddress msg sender lastPaymentTimestamp is equal to now

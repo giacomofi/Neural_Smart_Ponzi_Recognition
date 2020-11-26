@@ -1,0 +1,18 @@
+solidity ^0.6.0 
+IndexInterface ConnectorInterface DSMath Controllers Listings InstaConnectors 
+instaIndex chief connectors staticConnectors connectorArray connectorCount staticConnectorArray i i 
+master connectorID name add sub enableChief disableChief addToArr addToArrStatic enable disable enableStatic isConnector isStaticConnector connectorLength staticConnectorLength 
+Controllers inherits from DSMath Listings inherits from Controllers InstaConnectors inherits from Listings 
+isChief 
+LogAddController LogRemoveController LogEnable LogDisable LogEnableStatic 
+ is equal to True
+ is equal to True
+ is equal to True
+isOk is equal to True
+i is less then _connectors length
+If 
+isOk is equal to False
+isOk is equal to True
+i is less then _connectors length
+If 
+isOk is equal to False

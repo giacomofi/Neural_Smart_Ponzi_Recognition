@@ -1,0 +1,16 @@
+solidity ^0.5.0 
+ERC20 CTokenInterface CEtherInterface ComptrollerInterface CompoundBasicProxy 
+ETH_ADDRESS COMPTROLLER markets 
+totalSupply balanceOf transfer transferFrom approve allowance decimals allocateTo mint mint redeem redeemUnderlying borrow repayBorrow repayBorrow repayBorrowBehalf repayBorrowBehalf liquidateBorrow liquidateBorrow exchangeRateCurrent supplyRatePerBlock borrowRatePerBlock totalReserves reserveFactorMantissa borrowBalanceCurrent totalBorrowsCurrent getCash balanceOfUnderlying underlying mint repayBorrow enterMarkets exitMarket deposit withdraw borrow payback withdrawTokens enterMarket exitMarket approveCToken 
+CTokenInterface inherits from ERC20 
+Approval 
+If not _inMarket
+If _tokenAddr is different from ETH_ADDRESS
+
+If _tokenAddr is different from ETH_ADDRESS
+If not _inMarket
+If _tokenAddr is different from ETH_ADDRESS
+If _tokenAddr is different from ETH_ADDRESS
+If _tokenAddr is different from ETH_ADDRESS
+ is equal to _cTokenAddr
+If _tokenAddr is different from ETH_ADDRESS

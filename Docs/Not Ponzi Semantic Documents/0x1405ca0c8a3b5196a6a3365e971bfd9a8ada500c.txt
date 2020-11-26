@@ -1,0 +1,6 @@
+solidity ^0.4.24 
+Minter_Database Minter_MiniMeTokenFactory Minter_MiniMeToken Minter 
+database factory 
+addressStorage createCloneToken generateTokens changeController cloneToken mintAssetTokens changeTokenController 
+database is equal to Minter_Database
+asset is equal to factory createCloneToken

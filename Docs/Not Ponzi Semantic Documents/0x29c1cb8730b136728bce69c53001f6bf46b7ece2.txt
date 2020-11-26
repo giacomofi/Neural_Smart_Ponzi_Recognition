@@ -1,0 +1,18 @@
+solidity ^0.4.8 
+Token StandardToken TokenFGE 
+totalSupply balances allowed name decimals symbol version 
+balanceOf transfer transferFrom approve allowance transfer transferFrom balanceOf approve allowance TokenFGE approveAndCall 
+StandardToken inherits from Token TokenFGE inherits from StandardToken 
+Transfer Approval 
+ decreases of _value
+ increments of _value
+ increments of _value
+ decreases of _value
+ decreases of _value
+ is equal to _value
+ is equal to _initialAmount
+totalSupply is equal to _initialAmount
+name is equal to _tokenName
+decimals is equal to _decimalUnits
+symbol is equal to _tokenSymbol
+ is equal to _value

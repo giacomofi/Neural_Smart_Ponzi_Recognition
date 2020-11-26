@@ -1,0 +1,4 @@
+solidity 0.6.4 experimental ABIEncoderV2 
+ProtocolAdapter ERC20 Factory UniswapV1Adapter 
+adapterType tokenType getBalance approve transfer transferFrom balanceOf totalSupply decimals symbol name getToken adapterType tokenType getBalance 
+UniswapV1Adapter inherits from ProtocolAdapter 

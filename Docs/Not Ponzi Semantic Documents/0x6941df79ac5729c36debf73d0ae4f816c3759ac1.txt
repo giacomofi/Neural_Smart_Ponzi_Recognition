@@ -1,0 +1,10 @@
+solidity 0.5.12 
+DSPauseAbstract PotAbstract JugAbstract SpellAction DssSpell 
+description MCD_PAUSE MCD_JUG MCD_POT SEVEN_PCT_RATE EIGHT_PCT_RATE DSR_RATE pause action tag eta sig expiration done _tag _action 
+delay plot exec file file drip ilks drip execute description schedule cast 
+sig is equal to abi encodeWithSignature
+action is equal to 
+tag is equal to _tag
+expiration is equal to now plus 30 days
+eta is equal to now plus 
+done is equal to True

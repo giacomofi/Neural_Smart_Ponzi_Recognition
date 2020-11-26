@@ -1,0 +1,13 @@
+TwoAndAHalfPonzi 
+Payout 
+Payout has addr
+Payout has yield
+VALUE VALUEBACK payouts payoutIndex payoutTotal entryIndex 
+TwoAndAHalfPonzi  
+If msg value is different from VALUE
+payouts length increments of 1
+payouts entryIndex addr is equal to msg sender
+payouts entryIndex yield is equal to VALUEBACK
+While payouts payoutIndex yield is less then this balance
+payoutTotal increments of payouts payoutIndex yield
+payoutIndex increments of 1

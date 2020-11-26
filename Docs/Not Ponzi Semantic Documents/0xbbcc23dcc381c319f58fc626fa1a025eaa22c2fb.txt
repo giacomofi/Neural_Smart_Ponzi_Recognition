@@ -1,0 +1,36 @@
+solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 
+SafeMath IERC20 ERC20Detailed ERC20 Roles PauserRole Pausable ERC20Pausable MinterRole ERC20Mintable Ownable IWhitelist BurnerRole ERC20Burnable ERC20Whitelistable CanReclaimEther SafeERC20 CanReclaimToken etfTestToken 
+SafeMath Roles Roles Roles SafeMath SafeERC20 
+Role 
+Role has bearer
+c c c c _name _symbol _decimals _balances _allowed _totalSupply _pausers _paused _minters _owner _burners whitelist newAllowance newAllowance balance underlying leverage 
+mul div sub add mod transfer approve transferFrom totalSupply balanceOf allowance name symbol decimals totalSupply balanceOf allowance transfer approve transferFrom increaseAllowance decreaseAllowance _transfer _mint _burn _burnFrom add remove has isPauser addPauser renouncePauser _addPauser _removePauser paused pause unpause transfer transferFrom approve increaseAllowance decreaseAllowance isMinter addMinter renounceMinter _addMinter _removeMinter mint owner isOwner renounceOwnership transferOwnership _transferOwnership isWhitelisted isBurner addBurner renounceBurner _addBurner _removeBurner burn burnFrom setWhitelist isWhitelisted transfer transferFrom mint burnBlacklisted reclaimEther safeTransfer safeTransferFrom safeApprove safeIncreaseAllowance safeDecreaseAllowance reclaimToken 
+ERC20Detailed inherits from IERC20 ERC20 inherits from IERC20 Pausable inherits from PauserRole ERC20Pausable inherits from ERC20 ERC20Pausable inherits from Pausable ERC20Mintable inherits from ERC20 ERC20Mintable inherits from MinterRole ERC20Burnable inherits from ERC20 ERC20Burnable inherits from BurnerRole ERC20Whitelistable inherits from ERC20Mintable ERC20Whitelistable inherits from ERC20Burnable ERC20Whitelistable inherits from Ownable CanReclaimEther inherits from Ownable CanReclaimToken inherits from Ownable etfTestToken inherits from ERC20Detailed etfTestToken inherits from ERC20Pausable etfTestToken inherits from ERC20Mintable etfTestToken inherits from ERC20Burnable etfTestToken inherits from ERC20Whitelistable etfTestToken inherits from CanReclaimEther etfTestToken inherits from CanReclaimToken 
+onlyPauser whenNotPaused whenPaused onlyMinter onlyOwner onlyBurner onlyWhitelisted notWhitelisted 
+Transfer Approval PauserAdded PauserRemoved Paused Unpaused MinterAdded MinterRemoved OwnershipTransferred BurnerAdded BurnerRemoved WhitelistChanged 
+If a corresponds to 0
+_name is equal to name
+_symbol is equal to symbol
+_decimals is equal to decimals
+ is equal to value
+ is equal to _allowed from msg sender sub
+ is equal to msg sender spender add
+ is equal to msg sender spender sub
+ is equal to _balances from sub
+ is equal to _balances to add
+_totalSupply is equal to _totalSupply add
+ is equal to _balances account add
+_totalSupply is equal to _totalSupply sub
+ is equal to _balances account sub
+ is equal to _allowed account msg sender sub
+ is equal to True
+ is equal to False
+_paused is equal to False
+_paused is equal to True
+_paused is equal to False
+_owner is equal to msg sender
+_owner is equal to 
+_owner is equal to newOwner
+whitelist is equal to _whitelist
+underlying is equal to _underlying
+leverage is equal to _leverage

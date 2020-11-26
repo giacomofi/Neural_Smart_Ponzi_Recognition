@@ -1,0 +1,95 @@
+solidity 0.6.1 experimental ABIEncoderV2 
+ERC2477 Xcert XcertBurnable XcertMutable XcertPausable XcertRevokable SafeMath Abilitable ERC721 ERC721Metadata ERC721Enumerable ERC721TokenReceiver ERC165 SupportsInterface AddressUtils NFTokenMetadataEnumerable ERC20 XcertToken XcertCustom 
+SafeMath SafeMath AddressUtils 
+SignatureData 
+SignatureData has r
+SignatureData has s
+SignatureData has v
+SignatureData has kind
+OVERFLOW SUBTRAHEND_GREATER_THEN_MINUEND DIVISION_BY_ZERO NOT_AUTHORIZED INVALID_INPUT SUPER_ABILITY ALLOW_SUPER_ABILITY EMPTY_SLOT_1 EMPTY_SLOT_2 ALL_DEFAULT_ABILITIES addressToAbility supportedInterfaces size ZERO_ADDRESS NOT_VALID_NFT NOT_OWNER_OR_OPERATOR NOT_OWNER_APPROWED_OR_OPERATOR NOT_ABLE_TO_RECEIVE_NFT NFT_ALREADY_EXISTS INVALID_INDEX MAGIC_ON_ERC721_RECEIVED nftName nftSymbol uriPrefix uriPostfix tokens idToIndex ownerToIds idToOwnerIndex idToOwner idToApproval ownerToOperators tokenOwner uri _owner tokenToRemoveIndex lastTokenIndex lastToken tokenIndex tokenToRemoveIndex lastTokenIndex lastToken j length bstr k ABILITY_CREATE_ASSET ABILITY_REVOKE_ASSET ABILITY_TOGGLE_TRANSFERS ABILITY_UPDATE_ASSET_URI_INTEGRITY_DIGEST ABILITY_UPDATE_URI MUTABLE BURNABLE PAUSABLE REVOKABLE HASH_ALGORITHM CAPABILITY_NOT_SUPPORTED TRANSFERS_DISABLED NOT_VALID_XCERT NOT_XCERT_OWNER_OR_OPERATOR INVALID_SIGNATURE INVALID_SIGNATURE_KIND CLAIM_PERFORMED CLAIM_EXPIRED CLAIM_CANCELED NOT_OWNER claimPerformed claimCancelled schemaURIIntegrityDigest idToIntegrityDigest addressToAuthorized isPaused tokenOwner claim claim ABILITY_NONE ABILITY_ALL i 
+tokenURIIntegrity tokenURISchemaIntegrity create setUri destroy updateTokenURIIntegrityDigest setPause revoke mul div sub add mod grantAbilities revokeAbilities setAbilities isAble safeTransferFrom safeTransferFrom transferFrom approve setApprovalForAll balanceOf ownerOf getApproved isApprovedForAll name symbol tokenURI totalSupply tokenByIndex tokenOfOwnerByIndex onERC721Received supportsInterface supportsInterface isDeployedContract safeTransferFrom safeTransferFrom transferFrom approve setApprovalForAll balanceOf ownerOf getApproved isApprovedForAll totalSupply tokenByIndex tokenOfOwnerByIndex name symbol tokenURI _setUri _create _destroy _transferFrom _safeTransferFrom _uint2str name symbol decimals totalSupply balanceOf transfer transferFrom approve allowance create setUri revoke setPause updateTokenURIIntegrityDigest destroy setApprovalForAllWithSignature cancelSetApprovalForAllWithSignature generateClaim isValidSignature tokenURISchemaIntegrity tokenURIIntegrity _transferFrom 
+SupportsInterface inherits from ERC165 NFTokenMetadataEnumerable inherits from ERC721 NFTokenMetadataEnumerable inherits from ERC721Metadata NFTokenMetadataEnumerable inherits from ERC721Enumerable NFTokenMetadataEnumerable inherits from SupportsInterface XcertToken inherits from ERC2477 XcertToken inherits from Xcert XcertToken inherits from XcertBurnable XcertToken inherits from XcertMutable XcertToken inherits from XcertPausable XcertToken inherits from XcertRevokable XcertToken inherits from NFTokenMetadataEnumerable XcertToken inherits from Abilitable XcertCustom inherits from XcertToken 
+hasAbilities 
+SetAbilities Transfer Approval ApprovalForAll Transfer Approval ApprovalForAll Transfer Approval IsPaused TokenURIIntegrityDigestUpdate 
+If _factor1 corresponds to 0
+product is equal to _factor1 multiplied by _factor2
+quotient is equal to _dividend divided by _divisor
+difference is equal to _minuend minus _subtrahend
+sum is equal to _addend1 plus _addend2
+remainder is equal to _dividend Invalid symbol _divisor
+ is equal to ALL_DEFAULT_ABILITIES
+ Invalid symbol _abilities
+ Invalid symbol 
+ is equal to _abilities
+ is equal to True
+addressCheck is equal to size is greater then 0
+ is equal to True
+ is equal to True
+ is equal to True
+ is equal to _approved
+ is equal to _approved
+_owner is equal to 
+_name is equal to nftName
+_symbol is equal to nftSymbol
+If  is greater then 0
+uri is equal to 
+If  is greater then 0
+uri is equal to 
+uriPrefix is equal to _prefix
+uriPostfix is equal to _postfix
+ is equal to _to
+ is equal to ownerToIds _to length minus 1
+ is equal to tokens length minus 1
+If  is different from 
+If lastTokenIndex is different from tokenToRemoveIndex
+lastToken is equal to 
+ is equal to lastToken
+ is equal to tokenToRemoveIndex
+lastTokenIndex is equal to tokens length minus 1
+lastToken is equal to 
+ is equal to lastToken
+ is equal to tokenIndex
+ is equal to 0
+If  is different from 
+If lastTokenIndex is different from tokenToRemoveIndex
+ is equal to lastToken
+ is equal to tokenToRemoveIndex
+ is equal to _to
+ is equal to ownerToIds _to length minus 1
+
+If _i corresponds to 0
+While j is different from 0
+j is divided by 10
+j is equal to _i
+While j is different from 0
+ is equal to 
+j is divided by 10
+str is equal to 
+ is equal to True
+ is equal to _tokenURIIntegrityDigest
+isPaused is equal to _isPaused
+ is equal to _tokenURIIntegrityDigest
+ is equal to True
+ is equal to _approved
+If _feeRecipient corresponds to 
+_feeRecipient is equal to msg sender
+ is equal to True
+If _signature kind corresponds to SignatureKind eth_sign
+digest is equal to abi encodePacked
+hashAlgorithm is equal to HASH_ALGORITHM
+digest is equal to abi encodePacked
+hashAlgorithm is equal to HASH_ALGORITHM
+nftName is equal to _name
+nftSymbol is equal to _symbol
+uriPrefix is equal to _uriPrefix
+uriPostfix is equal to _uriPostfix
+schemaURIIntegrityDigest is equal to _schemaURIIntegrityDigest
+i is less then _capabilities length
+ is equal to True
+ is equal to ABILITY_CREATE_ASSET
+ is equal to ABILITY_UPDATE_ASSET_URI_INTEGRITY_DIGEST
+ is equal to SUPER_ABILITY
+ is equal to ABILITY_NONE
+ is equal to ABILITY_ALL
+ is equal to True
+ is equal to True

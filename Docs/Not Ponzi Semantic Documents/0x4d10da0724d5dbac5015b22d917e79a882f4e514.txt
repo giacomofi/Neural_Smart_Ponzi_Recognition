@@ -1,0 +1,8 @@
+solidity ^0.4.24 
+CrowdsaleReserveInterface ERC20 DividendInterface Events DB CrowdsaleReserve 
+database events erc20 
+issueETH receiveETH refundETHAsset issueERC20 requestERC20 approveERC20 refundERC20Asset decimals totalSupply balanceOf allowance transfer approve transferFrom issueDividends totalSupply getERC20 transaction addressStorage uintStorage setUint deleteUint setBool boolStorage issueETH receiveETH refundETHAsset issueERC20 requestERC20 approveERC20 refundERC20Asset 
+CrowdsaleReserve inherits from CrowdsaleReserveInterface 
+Transfer Approval 
+database is equal to DB
+events is equal to Events

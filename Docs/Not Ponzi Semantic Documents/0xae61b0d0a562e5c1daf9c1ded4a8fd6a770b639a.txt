@@ -1,0 +1,5 @@
+solidity 0.6.5 experimental ABIEncoderV2 
+ProtocolAdapter CToken CompoundRegistry CompoundDebtAdapter 
+REGISTRY override override cToken 
+adapterType tokenType getBalance borrowBalanceStored getCToken getBalance 
+CompoundDebtAdapter inherits from ProtocolAdapter 

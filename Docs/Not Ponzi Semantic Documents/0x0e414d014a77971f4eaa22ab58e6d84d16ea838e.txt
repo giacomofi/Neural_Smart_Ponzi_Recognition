@@ -1,0 +1,18 @@
+solidity ^0.5.12 
+IConditionalTokens IRealitio RealitioProxy 
+conditionalTokens realitio nuancedBinaryTemplateId contentHash payouts payouts answer i payouts answer 
+reportPayouts getContentHash getOpeningTS resultFor resolve getSingleSelectPayouts getNuancedBinaryPayouts 
+conditionalTokens is equal to _conditionalTokens
+realitio is equal to _realitio
+nuancedBinaryTemplateId is equal to _nuancedBinaryTemplateId
+If templateId corresponds to 0 Invalid symbol 
+payouts is equal to getSingleSelectPayouts
+If answer corresponds to 
+i is less then numOutcomes
+ is equal to 1
+ is equal to 1
+If answer corresponds to 
+ is equal to 1
+ is equal to 1
+ is equal to 4 minus answer
+ is equal to answer

@@ -1,0 +1,36 @@
+solidity 0.4.25 
+SafeMath owned tokenRecipient TokenERC20 Scalecoin 
+SafeMath SafeMath SafeMath 
+c c c owner name symbol decimals totalSupply tokensForCrowdsale tokensForTeam tokensForOwner teamWallet balanceOf allowance previousBalances spender startTime endTime exchangeRate tokensSold frozenAccount ethervalueWEI token tokenAmount tokenAmount tokenAmount amount 
+mul div sub add transferOwnership receiveApproval _transfer transfer transferFrom approve approveAndCall burn burnFrom _transfer  forwardEherToOwner startIco stopICO isICORunning setICOExchangeRate manualWithdrawToken manualWithdrawEther mintToken freezeAccount 
+Scalecoin inherits from owned Scalecoin inherits from TokenERC20 
+onlyOwner 
+Transfer Burn FrozenFunds 
+If a corresponds to 0
+owner is equal to msg sender
+owner is equal to newOwner
+ is equal to tokensForCrowdsale
+ is equal to tokensForTeam
+ is equal to tokensForOwner
+ is equal to balanceOf _from sub
+ is equal to balanceOf _to add
+ is equal to allowance _from msg sender sub
+ is equal to _value
+
+ is equal to msg sender sub
+totalSupply is equal to totalSupply sub
+ is equal to balanceOf _from sub
+ is equal to allowance _from msg sender sub
+totalSupply is equal to totalSupply sub
+ is equal to balanceOf _from sub
+ is equal to balanceOf _to add
+tokensSold is equal to tokensSold add
+startTime is equal to start
+endTime is equal to end
+exchangeRate is equal to exchangeRateInWei
+endTime is equal to 0
+If endTime is greater then now Invalid symbol 
+exchangeRate is equal to newExchangeRate
+ is equal to balanceOf target add
+totalSupply is equal to totalSupply add
+ is equal to freeze

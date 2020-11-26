@@ -1,0 +1,12 @@
+solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 
+ILendingRateOracle Ownable LendingRateOracle 
+_owner borrowRates liquidityRates 
+getMarketBorrowRate setMarketBorrowRate owner isOwner renounceOwnership transferOwnership _transferOwnership getMarketBorrowRate setMarketBorrowRate getMarketLiquidityRate setMarketLiquidityRate 
+LendingRateOracle inherits from ILendingRateOracle LendingRateOracle inherits from Ownable 
+onlyOwner 
+OwnershipTransferred 
+_owner is equal to msg sender
+_owner is equal to 
+_owner is equal to newOwner
+ is equal to _rate
+ is equal to _rate

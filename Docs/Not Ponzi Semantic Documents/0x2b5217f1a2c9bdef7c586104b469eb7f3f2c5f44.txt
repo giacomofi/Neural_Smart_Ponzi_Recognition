@@ -1,0 +1,12 @@
+solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.0 solidity ^0.5.14 
+Context Roles WhitelistAdminRole WhitelistedRole MetaFactoryWhitelist 
+Roles Roles 
+Role 
+Role has bearer
+_whitelistAdmins _whitelisteds 
+_msgSender _msgData add remove has isWhitelistAdmin addWhitelistAdmin renounceWhitelistAdmin _addWhitelistAdmin _removeWhitelistAdmin isWhitelisted addWhitelisted removeWhitelisted renounceWhitelisted _addWhitelisted _removeWhitelisted 
+WhitelistAdminRole inherits from Context WhitelistedRole inherits from Context WhitelistedRole inherits from WhitelistAdminRole MetaFactoryWhitelist inherits from WhitelistedRole 
+onlyWhitelistAdmin onlyWhitelisted 
+WhitelistAdminAdded WhitelistAdminRemoved WhitelistedAdded WhitelistedRemoved 
+ is equal to True
+ is equal to False

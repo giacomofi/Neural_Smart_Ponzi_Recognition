@@ -1,0 +1,176 @@
+ShinySquirrels 
+PlayerEntry PlayerStat 
+PlayerEntry has addr
+PlayerEntry has deposit
+PlayerEntry has paid
+PlayerEntry has multiplier
+PlayerEntry has fee
+PlayerEntry has skip
+PlayerEntry has squirrels
+PlayerEntry has shinyThings
+PlayerEntry has sprockets
+PlayerEntry has stars
+PlayerEntry has hearts
+PlayerStat has addr
+PlayerStat has entries
+PlayerStat has deposits
+PlayerStat has paid
+PlayerStat has skips
+PlayerStat has squirrels
+PlayerStat has shinyThings
+PlayerStat has sprockets
+PlayerStat has stars
+PlayerStat has hearts
+minDeposit maxDeposit baseFee baseMultiplier maxMultiplier currentPosition balance feeBalance totalDeposits totalPaid totalSquirrels totalShinyThings totalSprockets totalStars totalHearts totalSkips owner players theLine playerStats player deposit multiplier fee skip squirrels shinyThings sprockets stars hearts playerIndex lineIndex nextPayout payout i 
+ShinySquirrels totals settings playerByAddress waitingForPayout entryPayout entryPayoutDue lineOfPlayers  play skipInLine DynamicPyramid collectFees updateSettings 
+owner is equal to msg sender
+playerCount is equal to players length
+currentPlaceInLine is equal to currentPosition
+playersWaiting is equal to waitingForPayout
+totalDepositsInFinneys is equal to totalDeposits divided by 1 finney
+totalPaidOutInFinneys is equal to totalPaid divided by 1 finney
+squirrelFriends is equal to totalSquirrels
+shinyThingsFound is equal to totalShinyThings
+sprocketsCollected is equal to totalSprockets
+starsWon is equal to totalStars
+heartsEarned is equal to totalHearts
+balanceInFinneys is equal to balance divided by 1 finney
+feeBalanceInFinneys is equal to feeBalance divided by 1 finney
+minimumDepositInFinneys is equal to minDeposit divided by 1 finney
+maximumDepositInFinneys is equal to maxDeposit divided by 1 finney
+entries is equal to playerStats addr entries
+depositedInFinney is equal to playerStats addr deposits divided by 1 finney
+paidOutInFinney is equal to playerStats addr paid divided by 1 finney
+skippedAhead is equal to playerStats addr skips
+squirrels is equal to playerStats addr squirrels
+shinyThings is equal to playerStats addr shinyThings
+sprockets is equal to playerStats addr sprockets
+stars is equal to playerStats addr stars
+hearts is equal to playerStats addr hearts
+waiting is equal to players length minus currentPosition
+payout is equal to players theLine index deposit multiplied by players theLine index multiplier divided by 100
+payoutDue is equal to entryPayout minus players theLine index paid
+addr is equal to player addr
+orderJoined is equal to 
+depositInFinney is equal to player deposit divided by 1 finney
+payoutInFinney is equal to depositInFinney multiplied by player multiplier divided by 100
+multiplierPercent is equal to player multiplier
+paid is equal to player paid divided by 1 finney
+skippedAhead is equal to player skip
+squirrels is equal to player squirrels
+shinyThings is equal to player shinyThings
+sprockets is equal to player sprockets
+stars is equal to player stars
+hearts is equal to player hearts
+If deposit is less then minDeposit Invalid symbol 
+If players length Invalid symbol 5 corresponds to 0
+multiplier increments of 2
+fee increments of 1
+stars increments of 1
+If deposit is less then 1 ether
+multiplier decreases of 
+fee decreases of 
+shinyThings increments of 1
+If deposit is greater or equal to 1 Invalid symbol 
+skip increments of 4
+fee increments of 3
+If deposit is greater or equal to 2 ether Invalid symbol 
+multiplier increments of 3
+fee increments of 2
+hearts increments of 1
+If deposit is greater or equal to 3 ether
+stars increments of 1
+msg sender hearts increments of hearts
+msg sender stars increments of stars
+msg sender squirrels increments of squirrels
+msg sender shinyThings increments of shinyThings
+msg sender sprockets increments of sprockets
+totalHearts increments of hearts
+totalStars increments of stars
+totalSquirrels increments of squirrels
+totalShinyThings increments of shinyThings
+totalSprockets increments of sprockets
+skip increments of msg sender squirrels
+msg sender squirrels decreases of 
+multiplier increments of msg sender stars multiplied by 2
+fee decreases of msg sender hearts
+multiplier increments of msg sender sprockets
+fee decreases of 
+If msg sender shinyThings is greater or equal to 1
+skip increments of 1
+fee decreases of 
+If msg sender hearts is greater or equal to 1 Invalid symbol  Invalid symbol  Invalid symbol  Invalid symbol 
+multiplier increments of 30
+If msg sender hearts is greater or equal to 1 Invalid symbol 
+multiplier increments of 15
+msg sender hearts decreases of 1
+msg sender stars decreases of 1
+If msg sender sprockets is greater or equal to 1 Invalid symbol 
+msg sender squirrels increments of 5
+msg sender sprockets decreases of 1
+msg sender shinyThings decreases of 1
+If multiplier is greater then maxMultiplier
+multiplier corresponds to maxMultiplier
+If waitingForPayout is greater then 15 Invalid symbol 
+skip is equal to waitingForPayout divided by 2
+feeBalance increments of deposit multiplied by fee divided by 100
+balance increments of deposit minus deposit multiplied by fee divided by 100
+totalDeposits increments of deposit
+players length increments of 1
+theLine length increments of 1
+ is equal to skipInLine
+players playerIndex addr is equal to msg sender
+players playerIndex deposit is equal to deposit
+players playerIndex multiplier is equal to multiplier
+players playerIndex fee is equal to fee
+players playerIndex squirrels is equal to squirrels
+players playerIndex shinyThings is equal to shinyThings
+players playerIndex sprockets is equal to sprockets
+players playerIndex stars is equal to stars
+players playerIndex hearts is equal to hearts
+players playerIndex skip is equal to skip
+ is equal to playerIndex
+msg sender entries increments of 1
+msg sender deposits increments of deposit
+msg sender skips increments of skip
+totalSkips increments of skip
+While balance is greater then 0
+If nextPayout is less or equal to balance
+payout is equal to nextPayout
+payout is equal to balance
+players theLine currentPosition paid increments of payout
+players theLine currentPosition addr paid increments of payout
+balance decreases of payout
+totalPaid increments of payout
+If balance is greater then 0
+nextPayout is equal to entryPayoutDue
+If skip is greater then 0 Invalid symbol 
+If skip is greater then waitingForPayout minus 2
+skip is equal to waitingForPayout minus 2
+While i is less then skip
+ is equal to 
+newLineIndex is equal to currentLineIndex minus i
+newLineIndex is equal to currentLineIndex
+skip is equal to 0
+skipped is equal to skip
+msg sender squirrels is equal to 0
+msg sender shinyThings is equal to 0
+msg sender sprockets is equal to 0
+msg sender stars is equal to 0
+msg sender hearts is equal to 0
+If msg sender is different from owner
+If  is greater then balance plus feeBalance
+feeBalance is equal to  minus balance
+feeBalance is equal to 0
+If msg sender is different from owner
+If newMultiplier is less then 80 Invalid symbol 
+If maxMultiplier is less then 125 Invalid symbol 
+If newFee is less then 0 Invalid symbol 
+If minDeposit is less then 1 finney Invalid symbol 
+If maxDeposit is less then 1 finney Invalid symbol 
+
+baseMultiplier is equal to newMultiplier
+maxMultiplier is equal to newMaxMultiplier
+baseFee is equal to newFee
+minDeposit is equal to newMinDeposit
+maxDeposit is equal to newMaxDeposit

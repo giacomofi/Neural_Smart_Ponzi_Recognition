@@ -1,0 +1,33 @@
+FountainOfWealth 
+InvestorArray 
+InvestorArray has etherAddress
+InvestorArray has amount
+investors investors_needed_until_jackpot totalplayers feerate profitrate jackpotrate fee feeamount balance totaldeposited totalpaidout owner amount tot_pl payout nr 
+FountainOfWealth  enter 
+onlyowner 
+owner is equal to msg sender
+If msg value is less then 100 finney
+totalplayers is equal to tot_pl plus 1
+investors_needed_until_jackpot is equal to 20 minus 
+investors length increments of 1
+investors tot_pl etherAddress is equal to msg sender
+investors tot_pl amount is equal to amount
+feeamount is equal to amount multiplied by fee divided by 100
+balance increments of amount
+totaldeposited increments of amount
+If feeamount is different from 0
+If balance is greater then feeamount
+balance decreases of feeamount
+totalpaidout increments of feeamount
+If fee is less then 100
+fee increments of 4
+fee is equal to 100
+While balance is greater then investors nr amount multiplied by 40 divided by 100 Invalid symbol 
+If nr Invalid symbol 20 corresponds to 0 Invalid symbol 
+payout is equal to investors nr amount multiplied by 70 divided by 100
+balance decreases of investors nr amount multiplied by 70 divided by 100
+totalpaidout increments of investors nr amount multiplied by 70 divided by 100
+payout is equal to investors nr amount multiplied by 40 divided by 100
+balance decreases of investors nr amount multiplied by 40 divided by 100
+totalpaidout increments of investors nr amount multiplied by 40 divided by 100
+nr increments of 1

@@ -1,0 +1,16 @@
+solidity ^0.6.0 
+XHT 
+name symbol decimals totalSupply owner deprecated last_mint_block balanceOf allowance _value 
+mint transfer_ownership deprecate transfer approve transferFrom _transfer 
+Transfer Approval 
+last_mint_block is equal to block number
+owner is equal to _to
+deprecated is equal to _to
+ is equal to _value
+ decreases of _value
+If _from corresponds to 
+totalSupply increments of _value
+ decreases of _value
+If _to corresponds to 
+totalSupply decreases of _value
+ increments of _value

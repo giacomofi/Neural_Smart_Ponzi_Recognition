@@ -1,0 +1,28 @@
+solidity 0.5.14 
+Context Roles lexDAORole MinterRole PauserRole Pausable SafeMath IERC20 ERC20 ERC20Detailed ERC20Burnable ERC20Mintable ERC20Capped ERC20Pausable LexToken 
+Roles Roles Roles SafeMath 
+Role 
+Role has bearer
+_lexDAOs _minters _pausers _paused c c c c _balances _allowances _totalSupply _name _symbol _decimals _cap stamp 
+_msgSender _msgData add remove has islexDAO addlexDAO renouncelexDAO _addlexDAO _removelexDAO isMinter addMinter renounceMinter _addMinter _removeMinter isPauser addPauser renouncePauser _addPauser _removePauser paused pause unpause add sub sub mul div div mod mod totalSupply balanceOf transfer allowance approve transferFrom totalSupply balanceOf transfer allowance approve transferFrom increaseAllowance decreaseAllowance _transfer _mint _burn _approve _burnFrom _beforeTokenTransfer name symbol decimals burn burnFrom mint cap _mint transfer transferFrom approve increaseAllowance decreaseAllowance lexDAOtransfer lexDAOmint lexDAOburn 
+lexDAORole inherits from Context MinterRole inherits from Context Pausable inherits from PauserRole ERC20 inherits from Context ERC20 inherits from IERC20 ERC20Detailed inherits from IERC20 ERC20Burnable inherits from Context ERC20Burnable inherits from ERC20 ERC20Mintable inherits from MinterRole ERC20Mintable inherits from ERC20 ERC20Capped inherits from ERC20Mintable ERC20Pausable inherits from Pausable ERC20Pausable inherits from ERC20 LexToken inherits from lexDAORole LexToken inherits from ERC20Detailed LexToken inherits from ERC20Burnable LexToken inherits from ERC20Capped LexToken inherits from ERC20Pausable 
+onlylexDAO onlyMinter onlyPauser whenNotPaused whenPaused 
+lexDAOAdded lexDAORemoved MinterAdded MinterRemoved PauserAdded PauserRemoved Paused Unpaused Transfer Approval 
+ is equal to True
+ is equal to False
+_paused is equal to False
+_paused is equal to True
+_paused is equal to False
+If a corresponds to 0
+ is equal to _balances sender sub
+ is equal to _balances recipient add
+_totalSupply is equal to _totalSupply add
+ is equal to _balances account add
+ is equal to _balances account sub
+_totalSupply is equal to _totalSupply sub
+ is equal to amount
+_name is equal to name
+_symbol is equal to symbol
+_decimals is equal to decimals
+_cap is equal to cap
+stamp is equal to _stamp

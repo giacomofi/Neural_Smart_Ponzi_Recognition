@@ -1,0 +1,41 @@
+solidity 0.4.26 
+SafeMath Address Roles MinterRole IERC165 IERC721 IERC721Receiver ERC165 ERC721 IERC721Enumerable ERC721Enumerable IERC721Metadata ERC721Metadata ERC721Mintable ERC721MetadataMintable ERC721Burnable StandardNFT StandardNFTFactory 
+Roles SafeMath Address SafeMath 
+Role 
+Role has bearer
+c c c c size _minters _INTERFACE_ID_ERC165 _supportedInterfaces _ERC721_RECEIVED _tokenOwner _tokenApprovals _ownedTokensCount _operatorApprovals _INTERFACE_ID_ERC721 owner owner owner owner retval _ownedTokens _ownedTokensIndex _allTokens _allTokensIndex _INTERFACE_ID_ERC721_ENUMERABLE lastTokenIndex tokenIndex lastTokenId lastTokenIndex tokenIndex lastTokenId _name _symbol _owner _tokenURIs _INTERFACE_ID_ERC721_METADATA i contracts lastContractAddress c 
+mul div sub add mod isContract add remove has isMinter addMinter renounceMinter _addMinter _removeMinter supportsInterface balanceOf ownerOf approve getApproved setApprovalForAll isApprovedForAll transferFrom safeTransferFrom safeTransferFrom onERC721Received supportsInterface _registerInterface balanceOf ownerOf approve getApproved setApprovalForAll isApprovedForAll transferFrom safeTransferFrom safeTransferFrom _exists _isApprovedOrOwner _mint _burn _burn _transferFrom _checkOnERC721Received _clearApproval totalSupply tokenOfOwnerByIndex tokenByIndex tokenOfOwnerByIndex totalSupply tokenByIndex _transferFrom _mint _burn _tokensOfOwner _addTokenToOwnerEnumeration _addTokenToAllTokensEnumeration _removeTokenFromOwnerEnumeration _removeTokenFromAllTokensEnumeration name symbol tokenURI name symbol tokenURI _setTokenURI _burn mint mintWithTokenURI burn transfer transferAll getContractCount newStandardNFT seeStandardNFT 
+IERC721 inherits from IERC165 ERC165 inherits from IERC165 ERC721 inherits from ERC165 ERC721 inherits from IERC721 IERC721Enumerable inherits from IERC721 ERC721Enumerable inherits from ERC165 ERC721Enumerable inherits from ERC721 ERC721Enumerable inherits from IERC721Enumerable IERC721Metadata inherits from IERC721 ERC721Metadata inherits from ERC165 ERC721Metadata inherits from ERC721 ERC721Metadata inherits from IERC721Metadata ERC721Mintable inherits from MinterRole ERC721Mintable inherits from ERC721 ERC721MetadataMintable inherits from ERC721Metadata ERC721MetadataMintable inherits from ERC721Mintable ERC721Burnable inherits from ERC721 StandardNFT inherits from ERC721Enumerable StandardNFT inherits from ERC721MetadataMintable StandardNFT inherits from ERC721Burnable 
+onlyMinter 
+MinterAdded MinterRemoved Transfer Approval ApprovalForAll newStandardNFTContract 
+If a corresponds to 0
+ is equal to True
+ is equal to False
+ is equal to True
+ is equal to to
+ is equal to approved
+ is equal to to
+ is equal to _ownedTokensCount to add
+ is equal to _ownedTokensCount owner sub
+ is equal to 
+ is equal to _ownedTokensCount from sub
+ is equal to _ownedTokensCount to add
+ is equal to to
+If 
+If  is different from 
+ is equal to 
+ is equal to 0
+ is equal to _ownedTokens to length
+ is equal to _allTokens length
+If tokenIndex is different from lastTokenIndex
+ is equal to lastTokenId
+ is equal to tokenIndex
+ is equal to lastTokenId
+ is equal to tokenIndex
+ is equal to 0
+_name is equal to name
+_symbol is equal to symbol
+ is equal to uri
+If  is different from 0
+i is less then _tokenId length
+lastContractAddress is equal to 

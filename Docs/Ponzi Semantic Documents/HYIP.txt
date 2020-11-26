@@ -1,0 +1,30 @@
+solidity ^0.4.2 
+HYIP 
+Investor 
+Investor has etherAddress
+Investor has deposit
+Investor has investmentTime
+PAYOUT_INTERVAL BENEFICIARIES_INTEREST INVESTORS_INTEREST INTEREST_DENOMINATOR m_admin m_latestPaidTime m_investors m_beneficiaries paidPeriods investorsPayout beneficiariesPayout idx eachBeneficiaryPayout payout 
+HYIP  Invest status performPayouts addInvestor changeAdmin addBeneficiary resetBeneficiaryList 
+adminOnly 
+Payout 
+m_admin is equal to msg sender
+m_latestPaidTime is equal to now
+bank is equal to this balance
+investorsCount is equal to m_investors length
+beneficiariesCount is equal to m_beneficiaries length
+unpaidTime is equal to now minus m_latestPaidTime
+unpaidIntervals is equal to unpaidTime divided by PAYOUT_INTERVAL
+While m_latestPaidTime plus PAYOUT_INTERVAL is less then now
+If m_beneficiaries length is greater then 0
+beneficiariesPayout is equal to  divided by INTEREST_DENOMINATOR
+idx is equal to 0
+idx is less then m_beneficiaries length
+If 
+idx is equal to m_investors length
+ is greater then 0
+If m_investors idx investmentTime is greater then m_latestPaidTime plus PAYOUT_INTERVAL
+If 
+investorsPayout increments of payout
+m_latestPaidTime increments of PAYOUT_INTERVAL
+m_admin is equal to newAdmin

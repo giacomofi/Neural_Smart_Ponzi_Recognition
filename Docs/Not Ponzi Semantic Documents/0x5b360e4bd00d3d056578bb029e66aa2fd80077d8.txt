@@ -1,0 +1,45 @@
+solidity ^0.5.0 
+Killable Context Ownable EternalStorage UsingStorage IGroup AddressValidator UsingValidator AddressConfig UsingConfig AllocatorStorage 
+_owner _owner msgSender currentOwner uIntStorage stringStorage addressStorage bytesStorage boolStorage intStorage _storage tmp errorMessage _validator token allocator allocatorStorage withdraw withdrawStorage marketFactory marketGroup propertyFactory propertyGroup metricsGroup metricsFactory policy policyFactory policySet policyGroup lockup lockupStorage voteTimes voteTimesStorage voteCounter voteCounterStorage _config 
+kill _msgSender _msgData owner isOwner renounceOwnership transferOwnership _transferOwnership changeOwner getUint getString getAddress getBytes getBool getInt setUint setString setAddress setBytes setBool setInt deleteUint deleteString deleteAddress deleteBytes deleteBool deleteInt eternalStorage getStorageAddress createStorage setStorage changeOwner isGroup addGroup getGroupKey validateIllegalAddress validateGroup validateGroups validateAddress validateAddresses addressValidator setAllocator setAllocatorStorage setWithdraw setWithdrawStorage setMarketFactory setMarketGroup setPropertyFactory setPropertyGroup setMetricsFactory setMetricsGroup setPolicyFactory setPolicyGroup setPolicySet setPolicy setToken setLockup setLockupStorage setVoteTimes setVoteTimesStorage setVoteCounter setVoteCounterStorage config configAddress setLastBlockNumber getLastBlockNumber getLastBlockNumberKey setBaseBlockNumber getBaseBlockNumber getBaseBlockNumberKey setPendingIncrement getPendingIncrement getPendingIncrementKey setLastAssetValueEachMetrics getLastAssetValueEachMetrics getLastAssetValueEachMetricsKey setLastAssetValueEachMarketPerBlock getLastAssetValueEachMarketPerBlock getLastAssetValueEachMarketPerBlockKey 
+Ownable inherits from Context UsingStorage inherits from Ownable AddressConfig inherits from Ownable AddressConfig inherits from UsingValidator AddressConfig inherits from Killable AllocatorStorage inherits from UsingStorage AllocatorStorage inherits from UsingConfig AllocatorStorage inherits from UsingValidator AllocatorStorage inherits from Killable 
+onlyOwner onlyCurrentOwner hasStorage 
+OwnershipTransferred 
+_owner is equal to msg sender
+_owner is equal to msgSender
+_owner is equal to 
+_owner is equal to newOwner
+currentOwner is equal to _newOwner
+ is equal to _value
+ is equal to _value
+ is equal to _value
+ is equal to _value
+ is equal to _value
+ is equal to _value
+_storage is equal to 
+_storage is equal to _storageAddress
+
+If _addr corresponds to _target1
+_validator is equal to 
+allocator is equal to _addr
+allocatorStorage is equal to _addr
+withdraw is equal to _addr
+withdrawStorage is equal to _addr
+marketFactory is equal to _addr
+marketGroup is equal to _addr
+propertyFactory is equal to _addr
+propertyGroup is equal to _addr
+metricsFactory is equal to _addr
+metricsGroup is equal to _addr
+policyFactory is equal to _addr
+policyGroup is equal to _addr
+policySet is equal to _addr
+policy is equal to _addr
+token is equal to _addr
+lockup is equal to _addr
+lockupStorage is equal to _addr
+voteTimes is equal to _addr
+voteTimesStorage is equal to _addr
+voteCounter is equal to _addr
+voteCounterStorage is equal to _addr
+_config is equal to AddressConfig

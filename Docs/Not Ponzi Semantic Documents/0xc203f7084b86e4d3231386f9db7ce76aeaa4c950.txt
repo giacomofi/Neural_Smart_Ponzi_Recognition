@@ -1,0 +1,12 @@
+solidity 0.5.13 
+Resolver ReverseRegistrar OrchidCurator OrchidList OrchidSelect OrchidUntrusted 
+Entry 
+Entry has adjust_
+Entry has valid_
+ens_ owner_ entries_ entry entry ens_ allowed copy ens_ 
+setName setName claim claimWithResolver node good hand kill tend list good good good 
+OrchidList inherits from OrchidCurator OrchidSelect inherits from OrchidCurator OrchidUntrusted inherits from OrchidCurator 
+owner_ is equal to msg sender
+owner_ is equal to owner
+entry adjust_ is equal to adjust
+entry valid_ is equal to True

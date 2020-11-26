@@ -1,0 +1,62 @@
+solidity ^0.5.10 
+ERC20Basic Ownable SafeMath ERC20 Pausable BasicToken ERC865 StandardToken MintableToken PausableToken ECDSA ERC865Token CappedToken KittiefightToken 
+SafeMath ECDSA 
+owner c c c paused balances totalSupply_ allowed oldValue mintingFinished r s v signatures hashedTx from hashedTx from hashedTx from hashedTx from oldValue hashedTx spender cap symbol name decimals amountOfTokenToMint isTransferWhitelistOnly transfersWhitelist hashedTx from hashedTx from 
+totalSupply balanceOf transfer transferOwnership mul div sub add allowance transferFrom approve pause unpause totalSupply transfer balanceOf transferPreSigned approvePreSigned increaseApprovalPreSigned decreaseApprovalPreSigned transferFromPreSigned transferFrom approve allowance increaseApproval decreaseApproval mint finishMinting transfer transferFrom approve increaseApproval decreaseApproval recover toEthSignedMessageHash transferPreSigned approvePreSigned increaseApprovalPreSigned decreaseApprovalPreSigned transferFromPreSigned transferPreSignedHashing approvePreSignedHashing increaseApprovalPreSignedHashing decreaseApprovalPreSignedHashing transferFromPreSignedHashing recover mint isUserAllowedToTransfer setWhitelistedOnly whitelistUserForTransfers blacklistUserForTransfers transfer transferFrom transferPreSigned approvePreSigned 
+ERC20 inherits from ERC20Basic Pausable inherits from Ownable BasicToken inherits from ERC20Basic ERC865 inherits from ERC20 StandardToken inherits from ERC20 StandardToken inherits from BasicToken MintableToken inherits from StandardToken MintableToken inherits from Ownable PausableToken inherits from StandardToken PausableToken inherits from Pausable ERC865Token inherits from ERC865 ERC865Token inherits from StandardToken CappedToken inherits from MintableToken KittiefightToken inherits from ERC865Token KittiefightToken inherits from PausableToken KittiefightToken inherits from CappedToken 
+onlyOwner whenNotPaused whenPaused canMint 
+Transfer OwnershipTransferred Approval Pause Unpause Mint MintFinished TransferPreSigned ApprovalPreSigned UserAllowedToTransfer TransferWhitelistOnly 
+owner is equal to msg sender
+owner is equal to newOwner
+If a corresponds to 0
+paused is equal to True
+paused is equal to False
+ is equal to msg sender sub
+ is equal to balances _to add
+ is equal to balances _from sub
+ is equal to balances _to add
+ is equal to allowed _from msg sender sub
+ is equal to _value
+ is equal to msg sender _spender add
+If _subtractedValue is greater then oldValue
+ is equal to 0
+ is equal to oldValue sub
+totalSupply_ is equal to totalSupply_ add
+ is equal to balances _to add
+mintingFinished is equal to True
+If signature length is different from 65
+If  is greater then 0x7FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5D576E7357A4501DDFE92F46681B20A0
+If v is different from 27 Invalid symbol 
+ is equal to 
+ is equal to balances _to add
+ is equal to msg sender add
+ is equal to True
+ is equal to _value
+ is equal to balances from sub
+ is equal to msg sender add
+ is equal to True
+ is equal to allowed from _spender add
+ is equal to balances from sub
+ is equal to msg sender add
+ is equal to True
+If _subtractedValue is greater then oldValue
+ is equal to 0
+ is equal to oldValue sub
+ is equal to balances from sub
+ is equal to msg sender add
+ is equal to True
+ is equal to balances _from sub
+ is equal to balances _to add
+ is equal to allowed _from spender sub
+ is equal to balances spender sub
+ is equal to msg sender add
+ is equal to True
+cap is equal to _cap
+If isTransferWhitelistOnly is different from _isWhitelistOnly
+isTransferWhitelistOnly is equal to _isWhitelistOnly
+ is equal to True
+ is equal to False
+
+
+
+

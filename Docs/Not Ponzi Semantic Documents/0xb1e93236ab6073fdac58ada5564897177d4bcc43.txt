@@ -1,0 +1,39 @@
+solidity ^0.5.1 
+IterableMapping Ownable Pausable SafeMath ERC20Basic BasicToken ERC20 StandardToken PausableToken Seele 
+SafeMath 
+itmap IndexValue KeyFlag 
+itmap has data
+itmap has keys
+itmap has size
+IndexValue has keyIndex
+IndexValue has value
+KeyFlag has key
+KeyFlag has deleted
+keyIndex _tmpKeyIndex owner paused c balances totalSupply_ allowed oldValue name symbol decimals INITIAL_SUPPLY key value 
+insert iterate_start iterate_valid iterate_next iterate_get iterate_getValue transferOwnership pause unpause mul div sub add totalSupply balanceOf transfer totalSupply transfer balanceOf allowance transferFrom approve transferFrom approve allowance increaseApproval decreaseApproval transfer transferFrom approve increaseApproval decreaseApproval balancesStart balancesGetBool balancesGetNext balancesGetValue 
+Pausable inherits from Ownable BasicToken inherits from ERC20Basic ERC20 inherits from ERC20Basic StandardToken inherits from ERC20 StandardToken inherits from BasicToken PausableToken inherits from StandardToken PausableToken inherits from Pausable Seele inherits from PausableToken 
+onlyOwner whenNotPaused whenPaused 
+OwnershipTransferred Pause Unpause Transfer Approval 
+ key value is equal to value
+If keyIndex is greater then 0
+keyIndex is equal to 
+ key keyIndex is equal to keyIndex plus 1
+ keyIndex key is equal to key
+While _tmpKeyIndex is less then self keys length Invalid symbol  _tmpKeyIndex deleted
+key is equal to  keyIndex key
+value is equal to  key value
+owner is equal to msg sender
+owner is equal to newOwner
+paused is equal to True
+paused is equal to False
+If _a corresponds to 0
+c is equal to _a multiplied by _b
+c is equal to _a plus _b
+ is equal to allowed _from msg sender sub
+ is equal to _value
+ is equal to 
+If _subtractedValue is greater or equal to oldValue
+ is equal to 0
+ is equal to oldValue sub
+totalSupply_ is equal to INITIAL_SUPPLY
+ is equal to IterableMapping iterate_get

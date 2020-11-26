@@ -1,0 +1,36 @@
+solidity ^0.5.10 
+SafeMath Token AbstractToken REO 
+c c c accounts allowances MAX_TOKEN_COUNT owner frozenAccount tokenCount frozen name symbol decimals token 
+mul safeDiv safeSub safeAdd totalSupply balanceOf transfer transferFrom approve allowance balanceOf transfer transferFrom approve allowance totalSupply transfer transferFrom approve createTokens mintToken burn setOwner freezeTransfers unfreezeTransfers refundTokens freezeAccount 
+AbstractToken inherits from Token AbstractToken inherits from SafeMath REO inherits from AbstractToken 
+Transfer Approval Burn Freeze Unfreeze FrozenFunds RefundTokens 
+If a corresponds to 0
+If  is less then _value
+If _value is greater then 0 Invalid symbol 
+ is equal to safeSub
+ is equal to safeAdd
+If  is less then _value
+If  is less then _value
+If _value is greater then 0 Invalid symbol 
+ is equal to safeSub
+ is equal to safeSub
+ is equal to safeAdd
+ is equal to _value
+owner is equal to msg sender
+
+
+If _value is greater then 0
+If _value is greater then safeSub
+ is equal to safeAdd
+tokenCount is equal to safeAdd
+If mintedAmount is greater then 0
+ is equal to safeAdd
+tokenCount is equal to safeAdd
+ is equal to safeSub
+tokenCount is equal to safeSub
+owner is equal to _newOwner
+If not frozen
+frozen is equal to True
+
+frozen is equal to False
+ is equal to freeze

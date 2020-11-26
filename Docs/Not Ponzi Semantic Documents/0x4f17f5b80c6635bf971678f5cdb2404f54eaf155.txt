@@ -1,0 +1,64 @@
+solidity ^0.4.23 
+SafeMath Ownable ERC223 ContractReceiver CHEJPY 
+SafeMath 
+TKN 
+TKN has sender
+TKN has value
+TKN has data
+TKN has sig
+c c c owner totalSupply tkn u name symbol decimals initialSupply totalSupply distributeAmount mintingFinished balanceOf allowance frozenAccount unlockUnixTime j j empty length receiver totalAmount j totalAmount j totalAmount j 
+mul div sub add transferOwnership balanceOf totalSupply transfer transfer transfer name symbol decimals transferFrom approve allowance tokenFallback name symbol decimals totalSupply balanceOf freezeAccounts lockupAccounts transfer transfer transfer isContract transferToAddress transferToContract transferFrom approve allowance burn mint finishMinting distributeAirdrop distributeAirdrop collectTokens setDistributeAmount autoDistribute  
+CHEJPY inherits from ERC223 CHEJPY inherits from Ownable 
+onlyOwner canMint 
+OwnershipTransferred Transfer Transfer Approval FrozenFunds LockedFunds Burn Mint MintFinished 
+If a corresponds to 0
+owner is equal to msg sender
+owner is equal to newOwner
+tkn sender is equal to _from
+tkn value is equal to _value
+tkn data is equal to _data
+tkn sig is equal to 
+totalSupply is equal to initialSupply
+ is equal to totalSupply
+j is less then targets length
+ is equal to isFrozen
+j is less then targets length
+ is equal to 
+
+ is equal to msg sender sub
+ is equal to balanceOf _to add
+
+
+ is equal to msg sender sub
+ is equal to balanceOf _to add
+ is equal to msg sender sub
+ is equal to balanceOf _to add
+ is equal to balanceOf _from sub
+ is equal to balanceOf _to add
+ is equal to allowance _from msg sender sub
+ is equal to _value
+ is equal to balanceOf _from sub
+totalSupply is equal to totalSupply sub
+totalSupply is equal to totalSupply add
+ is equal to balanceOf _to add
+mintingFinished is equal to True
+amount is equal to amount mul
+j is less then addresses length
+ is equal to balanceOf addresses j add
+ is equal to msg sender sub
+j is less then addresses length
+ is equal to amounts j mul
+totalAmount is equal to totalAmount add
+j is equal to 0
+j is less then addresses length
+ is equal to balanceOf addresses j add
+ is equal to msg sender sub
+j is less then addresses length
+ is equal to amounts j mul
+ is equal to balanceOf addresses j sub
+totalAmount is equal to totalAmount add
+ is equal to msg sender add
+distributeAmount is equal to _unitAmount
+If msg value is greater then 0
+ is equal to balanceOf owner sub
+ is equal to msg sender add

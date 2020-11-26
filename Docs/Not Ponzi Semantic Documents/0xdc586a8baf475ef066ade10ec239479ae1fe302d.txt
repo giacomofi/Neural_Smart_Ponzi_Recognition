@@ -1,0 +1,16 @@
+solidity ^0.5.0 
+Gem Join ERC20 Vat Flipper BidProxy 
+Urn Ilk 
+Urn has ink
+Urn has art
+Ilk has Art
+Ilk has rate
+Ilk has spot
+Ilk has line
+Ilk has dust
+ilk urns ilks gem ETH_FLIPPER BAT_FLIPPER VAT_ADDRESS DAI_JOIN ETH_JOIN BAT_JOIN DAI_ADDRESS WETH_ADDRESS BAT_ILK ETH_ILK tendAmount flipper flipper bid flipper join ilk amount amount balance balance amountInVat amountDiff 
+dec gem join exit approve transfer transferFrom deposit withdraw allowance dec gem join exit totalSupply balanceOf transfer transferFrom approve allowance decimals can dai frob hope move bids tend dent deal daiBid collateralBid closeBid exitCollateral exitDai withdrawToken withdrawEth joinDai 
+Approval 
+ is equal to 
+
+If _amount is greater or equal to amountInVat

@@ -1,0 +1,21 @@
+solidity 0.4.19 
+RegularToken UnboundedRegularToken HBToken 
+balances allowed totalSupply MAX_UINT allowance decimals name symbol 
+transfer transferFrom balanceOf approve allowance transferFrom HBToken 
+UnboundedRegularToken inherits from RegularToken HBToken inherits from UnboundedRegularToken 
+Transfer Approval 
+If  is greater or equal to _value Invalid symbol 
+ decreases of _value
+ increments of _value
+If  is greater or equal to _value Invalid symbol  Invalid symbol 
+ increments of _value
+ decreases of _value
+ decreases of _value
+ is equal to _value
+If  is greater or equal to _value Invalid symbol  Invalid symbol 
+ increments of _value
+ decreases of _value
+If allowance is less then MAX_UINT
+ decreases of _value
+totalSupply is equal to 678000000 multiplied by 10 Invalid symbol 
+ is equal to totalSupply

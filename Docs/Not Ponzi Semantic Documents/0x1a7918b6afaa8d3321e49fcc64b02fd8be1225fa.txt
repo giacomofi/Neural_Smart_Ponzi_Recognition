@@ -1,0 +1,51 @@
+SecurityTransferAgent ERC20Basic ERC20 ERC677Receiver ERC677 ERC677Token SafeMath CheckpointToken ERC865 Announcement Ownable Recoverable Roles RBAC SecurityToken 
+SafeMath Roles SafeMath 
+Checkpoint Role 
+Checkpoint has blockNumber
+Checkpoint has value
+Role has bearer
+c c c name symbol decimals transactionVerifier tokenBalances tokensTotal allowed oldValue currentBlockNumber fromBalance toBalance min max mid signatures hashedTx from r s v owner roles ROLE_ADMIN ROLE_ANNOUNCE ROLE_FORCE ROLE_ISSUE ROLE_BURN ROLE_INFO ROLE_SETVERIFIER version url announcements announcementsByAddress issuer blackHoleBalance totalSupplyNow burner burnerBalance totalSupplyNow 
+verify totalSupply balanceOf transfer allowance transferFrom approve tokenFallback transferAndCall transferAndCall mul div sub add CheckpointToken allowance approve transferFrom transfer totalSupply totalSupplyAt balanceOf balanceAt increaseApproval decreaseApproval increaseApproval decreaseApproval balanceAtBlock transferInternal setCheckpoint getCheckpoint transferPreSigned transferPreSignedHashing recover announcementName announcementURI announcementType announcementHash Ownable transferOwnership Recoverable recoverTokens tokensToBeReturned add remove check has RBAC checkRole hasRole adminAddRole adminRemoveRole addRole removeRole SecurityToken announce forceTransfer issueTokens burnTokens setTokenInformation setTransactionVerifier 
+ERC20 inherits from ERC20Basic ERC677Token inherits from ERC20 ERC677Token inherits from ERC677 CheckpointToken inherits from ERC677Token ERC865 inherits from CheckpointToken Recoverable inherits from Ownable SecurityToken inherits from CheckpointToken SecurityToken inherits from RBAC SecurityToken inherits from Recoverable SecurityToken inherits from ERC865 
+onlyOwner onlyRole onlyAdmin 
+Transfer Approval ERC677Transfer TransferPreSigned Debug OwnershipTransferred RoleAdded RoleRemoved Issued Burned Forced Announced UpdatedTokenInformation UpdatedTransactionVerifier 
+If a corresponds to 0
+name is equal to _name
+symbol is equal to _symbol
+decimals is equal to _decimals
+ is equal to value
+tokenCount is equal to balanceAtBlock
+tokenCount is equal to balanceAtBlock
+balance is equal to balanceAtBlock
+balance is equal to balanceAtBlock
+ is equal to msg sender spender add
+If subtractedValue is greater then oldValue
+ is equal to 0
+ is equal to oldValue sub
+ is equal to getCheckpoint
+If  is different from 
+value is equal to transactionVerifier verify
+If  Invalid symbol 
+ is equal to Checkpoint
+If checkpoints length corresponds to 0
+If blockNumber is greater or equal to checkpoints length sub blockNumber
+If blockNumber is less then checkpoints 0 blockNumber
+While max is greater then min
+If checkpoints mid blockNumber is less or equal to blockNumber
+min is equal to mid
+max is equal to mid sub
+ is equal to True
+If sig length is different from 65
+If v is less then 27
+v increments of 27
+If v is different from 27 Invalid symbol 
+owner is equal to msg sender
+owner is equal to newOwner
+ is equal to True
+ is equal to False
+url is equal to _url
+ is equal to announcements length
+name is equal to _name
+symbol is equal to _symbol
+url is equal to _url
+transactionVerifier is equal to newVerifier

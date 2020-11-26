@@ -1,0 +1,6 @@
+solidity 0.6.4 experimental ABIEncoderV2 
+DyDxAdapter ProtocolAdapter SoloMargin DyDxDebtAdapter 
+SOLO WETH SAI USDC DAI accountWei 
+getMarketId adapterType tokenType getBalance getAccountWei adapterType tokenType getBalance 
+DyDxDebtAdapter inherits from ProtocolAdapter DyDxDebtAdapter inherits from DyDxAdapter 
+If token corresponds to WETH

@@ -1,0 +1,27 @@
+solidity 0.5.14 solidity 0.5.14 solidity 0.5.14 solidity 0.5.14 solidity 0.5.14 solidity 0.5.14 
+ERC20 SafeMath StandardToken Ownable BurnableToken SportValueCoin 
+SafeMath 
+c c c c balances allowed totalSupply_ oldValue owner symbol version name decimals INITIAL_SUPPLY 
+totalSupply balanceOf transfer transferFrom approve allowance mul div sub add mod totalSupply balanceOf allowance transfer approve transferFrom increaseApproval decreaseApproval _mint _burn _burnFrom renounceOwnership transferOwnership _transferOwnership burn burnFrom _burn 
+StandardToken inherits from ERC20 BurnableToken inherits from StandardToken SportValueCoin inherits from BurnableToken 
+onlyOwner 
+Transfer Approval OwnershipRenounced OwnershipTransferred Burn 
+If _a corresponds to 0
+ is equal to msg sender sub
+ is equal to balances _to add
+ is equal to _value
+ is equal to balances _from sub
+ is equal to balances _to add
+ is equal to allowed _from msg sender sub
+ is equal to 
+If _subtractedValue is greater or equal to oldValue
+ is equal to 0
+ is equal to oldValue sub
+totalSupply_ is equal to totalSupply_ add
+ is equal to balances _account add
+totalSupply_ is equal to totalSupply_ sub
+ is equal to balances _account sub
+ is equal to allowed _account msg sender sub
+owner is equal to msg sender
+owner is equal to 
+owner is equal to _newOwner

@@ -1,0 +1,91 @@
+EtherAds 
+Ad charityFundation 
+Ad has etherAddress
+Ad has amount
+Ad has href
+Ad has anchor
+Ad has imgId
+Ad has countryId
+Ad has refId
+charityFundation has href
+charityFundation has anchor
+charityFundation has imgId
+charityFundations charityFoundationIdx officialWebsite ads payoutIdx balance fees contractExpirationTime headerColor maximumDeposit txsThreshold prolongH minDeposits txsPerHour lastHour frozenMinDeposit owners value minimalDeposit id level txsThresholdIndex txsPerLast24hours i currtHour txsCounter amount level0Fee level1Fee level2Fee refId i i refId sharedFee i i id 
+EtherAds  buyAd prolongateContract getMinimalDeposit getCurrentLevel updateTxStats distributeEarnings resetContract setReferralId collectFees changeOwner setOfficialWebsite addCharityFundation resetFoundationtList giveMeat 
+onlyowners 
+BuyAd ResetContract PayoutEarnings 
+ is equal to owner0
+ is equal to owner1
+ is equal to owner2
+charityFoundationIdx increments of 1
+If charityFoundationIdx is greater or equal to charityFundations length
+charityFoundationIdx is equal to 0
+If value is less then minimalDeposit
+If value is greater then maximumDeposit
+value is equal to maximumDeposit
+If  is greater then 100 Invalid symbol 
+ads length increments of 1
+ads id etherAddress is equal to msg sender
+ads id amount is equal to value
+ads id href is equal to href
+ads id imgId is equal to imgId
+ads id anchor is equal to anchor
+ads id countryId is equal to countryId
+balance increments of value
+headerColor is equal to _headerColor
+contractExpirationTime is equal to now plus 
+If  is greater then frozenMinDeposit
+frozenMinDeposit is equal to 
+While i is less then 24
+txsPerLast24hours increments of 
+i increments of 1
+i is equal to 0
+While txsPerLast24hours is greater then 
+i is equal to i plus 1
+If lastHour is less then currtHour
+txsCounter is equal to 0
+lastHour is equal to currtHour
+txsCounter increments of 1
+ is equal to txsCounter
+
+If balance is greater or equal to amount
+fees increments of amount divided by 100 multiplied by 15
+If refId corresponds to 
+balance increments of level0Fee plus level1Fee plus level2Fee
+refId is equal to  refId
+If refId corresponds to 
+balance increments of level1Fee plus level2Fee
+refId is equal to  refId
+If refId corresponds to 
+balance increments of level2Fee
+balance decreases of amount
+payoutIdx increments of 1
+If now is greater then contractExpirationTime
+balance is equal to balance divided by 2
+ads length is equal to 0
+payoutIdx is equal to 0
+contractExpirationTime is equal to now plus 14 days
+frozenMinDeposit is equal to 0
+While i is less then 24
+ is equal to 0
+i increments of 1
+While i is less then ads length
+If ads i etherAddress corresponds to referral
+refId is equal to 
+i increments of 1
+ads id refId is equal to refId
+If fees corresponds to 0
+While i is less then 3
+i increments of 1
+fees is equal to 0
+While i is less then 3
+If msg sender corresponds to 
+ is equal to newOwner
+i increments of 1
+officialWebsite is equal to url
+charityFundations length increments of 1
+charityFundations id href is equal to href
+charityFundations id anchor is equal to anchor
+charityFundations id imgId is equal to imgId
+charityFundations length is equal to 0
+balance increments of msg value

@@ -1,0 +1,18 @@
+solidity ^0.5.0 
+IERC20 ILegacyERC20 EtomicSwap 
+Payment 
+Payment has paymentHash
+Payment has lockTime
+Payment has state
+payments paymentHash paymentHash token token paymentHash token token paymentHash token token 
+totalSupply balanceOf allowance transfer approve transferFrom totalSupply balanceOf allowance transfer approve transferFrom ethPayment erc20Payment receiverSpend senderRefund 
+Transfer Approval Transfer Approval PaymentSent ReceiverSpent SenderRefunded 
+ is equal to Payment
+ is equal to Payment
+
+payments _id state is equal to PaymentState ReceivedSpent
+If _tokenAddress corresponds to 
+
+payments _id state is equal to PaymentState SenderRefunded
+If _tokenAddress corresponds to 
+

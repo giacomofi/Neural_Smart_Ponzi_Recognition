@@ -1,0 +1,33 @@
+solidity 0.4.25 solidity 0.4.25 
+SafeMath AWToken 
+c c c c name symbol decimals totalSupply supplied surplusSupply beforeFrequency centerFrequency afterFrequency owner usdtPrice gameAddr balanceOf allowance awCount i number count 
+add sub sub mul div div mod mod setGameAddr calculationNeedAW riseUsdt gainAWToken transfer approve transferFrom burn 
+validDestination 
+Transfer Approval 
+If a corresponds to 0
+name is equal to _name
+symbol is equal to _symbol
+decimals is equal to _decimals
+totalSupply is equal to _totalSupply multiplied by 
+owner is equal to _owner
+surplusSupply is equal to totalSupply
+gameAddr is equal to addr
+If count is greater then index
+i is less then count
+usdtPrice is equal to SafeMath add
+surplusSupply is equal to SafeMath sub
+supplied is equal to SafeMath add
+
+If number is less or equal to 18900
+If number is less or equal to 6000
+count is equal to SafeMath div
+beforeFrequency is equal to riseUsdt
+ is equal to SafeMath add
+ is equal to SafeMath sub
+ is equal to SafeMath add
+ is equal to value
+ is equal to SafeMath sub
+ is equal to SafeMath add
+ is equal to SafeMath sub
+ is equal to SafeMath sub
+ is equal to SafeMath add

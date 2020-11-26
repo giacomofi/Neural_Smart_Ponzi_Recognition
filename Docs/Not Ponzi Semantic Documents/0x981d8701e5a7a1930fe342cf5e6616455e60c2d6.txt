@@ -1,0 +1,22 @@
+solidity ^0.4.26 
+SafeMath Owned APPLE 
+c c c owner newOwner name symbol decimals _balances _allowed totalSupply 
+safeMul safeDiv safeSub safeAdd _assert transferOwnership acceptOwnership balanceOf transfer burn transferFrom approve allowance 
+APPLE inherits from SafeMath APPLE inherits from Owned 
+onlyOwner 
+OwnershipTransferred Approval Transfer Burn 
+If not assertion
+owner is equal to msg sender
+newOwner is equal to _newOwner
+owner is equal to newOwner
+newOwner is equal to 
+ is equal to totalSupply
+If _to corresponds to 
+ is equal to safeSub
+ is equal to safeAdd
+ is equal to safeSub
+totalSupply is equal to safeSub
+ is equal to safeAdd
+ is equal to safeSub
+ is equal to safeSub
+ is equal to value

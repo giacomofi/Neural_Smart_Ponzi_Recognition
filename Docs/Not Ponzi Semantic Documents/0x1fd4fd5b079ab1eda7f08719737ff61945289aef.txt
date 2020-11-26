@@ -1,0 +1,19 @@
+solidity ^0.4.16 
+tokenRecipient FZC 
+name symbol decimals totalSupply balanceOf allowance previousBalances spender 
+receiveApproval FZC _transfer transfer transferFrom approve approveAndCall burn burnFrom 
+Transfer Burn 
+totalSupply is equal to initialSupply multiplied by 10 Invalid symbol 
+ is equal to totalSupply
+name is equal to tokenName
+symbol is equal to tokenSymbol
+ decreases of _value
+ increments of _value
+ decreases of _value
+ is equal to _value
+
+ decreases of _value
+totalSupply decreases of _value
+ decreases of _value
+ decreases of _value
+totalSupply decreases of _value

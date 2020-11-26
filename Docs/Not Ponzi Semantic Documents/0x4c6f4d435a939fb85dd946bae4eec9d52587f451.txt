@@ -1,0 +1,15 @@
+solidity ^0.5.11 solidity ^0.5.11 solidity ^0.5.11 
+IERC20 SafeMath WithCoffeeToken 
+SafeMath 
+c c c c balances allowances name symbol decimals totalSupply 
+transfer transferFrom approve balanceOf allowance add sub sub mul div div mod mod transfer transferFrom approve balanceOf allowance 
+WithCoffeeToken inherits from IERC20 
+Transfer Approval 
+If a corresponds to 0
+ is equal to totalSupply
+ is equal to msg sender sub
+ is equal to balances to add
+ is equal to allowances from msg sender sub
+ is equal to balances from sub
+ is equal to balances to add
+ is equal to value

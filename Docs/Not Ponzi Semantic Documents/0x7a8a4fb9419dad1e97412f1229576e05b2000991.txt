@@ -1,0 +1,8 @@
+solidity 0.5.6 
+Digital_Identity 
+Identity 
+Identity has did
+Identity has contentAddress
+name identities 
+createIdentity 
+ is equal to Identity

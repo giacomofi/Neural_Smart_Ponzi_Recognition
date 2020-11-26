@@ -1,0 +1,21 @@
+solidity ^0.5.7 
+SafeMath ERC20Standard GoldenCoinP 
+SafeMath 
+c c c c totalSupply name decimals symbol version balances allowed 
+mul div sub add mod balanceOf transfer transferFrom approve allowance 
+GoldenCoinP inherits from ERC20Standard 
+onlyPayloadSize 
+Transfer Approval 
+If a corresponds to 0
+ is equal to msg sender sub
+ is equal to balances _recipient add
+ is equal to balances _to add
+ is equal to balances _from sub
+ is equal to allowed _from msg sender sub
+ is equal to _value
+totalSupply is equal to 777000000000000000000000000000
+name is equal to GoldenCoinP
+decimals is equal to 18
+symbol is equal to GCP
+version is equal to 1.0
+ is equal to totalSupply

@@ -1,0 +1,462 @@
+solidity =0.6.4 
+SafeMath MUSystem 
+SafeMath 
+User DepositTemp WithdrawTemp 
+User has UserTotalAmtWithdrawalCurrentPack
+User has UserWithdrawalFromFirstRefunded
+User has UserTotalAmtDepositCurrentPack
+User has UserAmtDepositCurrentPackTRUE
+User has UserWithdrawalFromDisparity
+User has UserTotalAmtWithdrawal
+User has UserSellTokenPackNum
+User has UserBuyTokenPrevPack
+User has UserTotalAmtDeposit
+User has UserBuyTokenPackNum
+User has UserBuyFirstPack
+User has UserBuyFirstDate
+User has UserContinued
+User has UserFirstAmt
+User has UserSellDate
+User has UserBuyDate
+User has UserCycle
+DepositTemp has useraddress
+DepositTemp has p
+DepositTemp has bonus
+DepositTemp has userAmt
+DepositTemp has amtToSend
+DepositTemp has bonusAmount
+DepositTemp has userBuyDate
+DepositTemp has userSellDate
+DepositTemp has userFirstAmt
+DepositTemp has userContinued
+DepositTemp has userAmtToStore
+DepositTemp has availableTokens
+DepositTemp has userTokenObtain
+DepositTemp has userBuyFirstPack
+DepositTemp has userBuyFirstDate
+DepositTemp has currentPackNumber
+DepositTemp has amtForfirstRefund
+DepositTemp has userBuyTokenPackNum
+DepositTemp has userTotalAmtDeposit
+DepositTemp has bonusAmountRefunded
+DepositTemp has userBuyTokenPrevPack
+DepositTemp has currentPackStartDate
+DepositTemp has userAmtOverloadToSend
+DepositTemp has currentPackTokenPriceSellout
+DepositTemp has userAmtDepositCurrentPackTRUE
+DepositTemp has userTotalAmtDepositCurrentPack
+WithdrawTemp has useraddress
+WithdrawTemp has userTotalAmtWithdrawalCurrentPack
+WithdrawTemp has userTokensReturnAboveCurrentPack
+WithdrawTemp has userWithdrawalFromFirstRefunded
+WithdrawTemp has userTotalAmtDepositCurrentPack
+WithdrawTemp has userAmtDepositCurrentPackTRUE
+WithdrawTemp has userTokensReturnToCurrentPack
+WithdrawTemp has currentPackTokenPriceSellout
+WithdrawTemp has currentPackTokenPriceBuyout
+WithdrawTemp has withdrawAmtAboveCurrentPack
+WithdrawTemp has userWithdrawalFromDisparity
+WithdrawTemp has bonusTokensReturnDecrease
+WithdrawTemp has returnTokenInCurrentPack
+WithdrawTemp has withdrawAmtToCurrentPack
+WithdrawTemp has remainsFromFirstRefunded
+WithdrawTemp has overallDisparityAmounts
+WithdrawTemp has userTotalAmtWithdrawal
+WithdrawTemp has useFromFirstRefunded
+WithdrawTemp has remainsFromDisparity
+WithdrawTemp has TokensReturnDecrease
+WithdrawTemp has currentPackStartDate
+WithdrawTemp has userAvailableAmount
+WithdrawTemp has currentPackDeposits
+WithdrawTemp has currentPackNumber
+WithdrawTemp has userBuyFirstPack
+WithdrawTemp has userTokensReturn
+WithdrawTemp has useFromDisparity
+WithdrawTemp has overallRefunded
+WithdrawTemp has userSellDate
+WithdrawTemp has userFirstAmt
+WithdrawTemp has userBuyDate
+WithdrawTemp has bonusToSend
+WithdrawTemp has withdrawAmt
+WithdrawTemp has wAtoStore
+WithdrawTemp has thisBal
+WithdrawTemp has bonus
+WithdrawTemp has diff
+WithdrawTemp has dsp
+WithdrawTemp has ra
+c c c c name symbol decimals totalSupply creatorOwner balances users Cycle PrevPackCost feeTransfered NextPackDelta NextPackYield CurrentPackFee RestartModeDate CurrentPackCost OverallDeposits OverallRefunded PrevPackTotalAmt CurrentPackYield CurrentPackDelta RestartMode CurrentPackNumber OverallWithdrawals CurrentPackRestAmt CurrentPackTotalAmt CurrentPackDeposits CurrentPackStartDate CurrentPackTotalToPay OverallDisparityAmounts PrevPackTokenPriceBuyout NextPackTokenPriceBuyout PrevPackTokenPriceSellout CurrentPackTokenPriceBuyout CurrentPackDisparityAmounts CurrentPackTokenPriceSellout CurrentPackTotalToPayDisparity dsp d user w user 
+mul div sub add mod packSettings aboutCurrentPack aboutUser nextPack restart transferFee deposit withdraw transfer balanceOf mint 
+Deposit Withdraw Transfer NextPack 
+If a corresponds to 0
+creatorOwner is equal to msg sender
+CurrentPackNumber is equal to 1
+Cycle is equal to 0
+CurrentPackNumber is equal to _currentPackNumber
+If _currentPackNumber corresponds to 1
+CurrentPackTokenPriceSellout is equal to 10
+CurrentPackTokenPriceBuyout is equal to 10
+CurrentPackCost is equal to 50000000000000000
+CurrentPackFee is equal to 0
+If _currentPackNumber corresponds to 2
+PrevPackTotalAmt is equal to CurrentPackCost
+CurrentPackDelta is equal to 0
+NextPackTokenPriceBuyout is equal to CurrentPackTokenPriceSellout multiplied by 110 divided by 100
+NextPackYield is equal to NextPackTokenPriceBuyout divided by CurrentPackTokenPriceSellout
+NextPackDelta is equal to NextPackYield
+CurrentPackTokenPriceSellout is equal to NextPackTokenPriceBuyout plus NextPackDelta
+CurrentPackTokenPriceBuyout is equal to CurrentPackTokenPriceSellout
+CurrentPackCost is equal to 5000000000000000 multiplied by CurrentPackTokenPriceSellout
+CurrentPackTotalAmt is equal to CurrentPackCost plus PrevPackTotalAmt
+CurrentPackFee is equal to 0
+If _currentPackNumber is greater then 2
+PrevPackTokenPriceSellout is equal to CurrentPackTokenPriceSellout
+PrevPackTokenPriceBuyout is equal to CurrentPackTokenPriceBuyout
+PrevPackCost is equal to CurrentPackCost
+PrevPackTotalAmt is equal to CurrentPackTotalAmt
+CurrentPackDelta is equal to NextPackDelta
+CurrentPackTokenPriceBuyout is equal to NextPackTokenPriceBuyout
+NextPackTokenPriceBuyout is equal to PrevPackTokenPriceSellout multiplied by 110
+If NextPackTokenPriceBuyout is less or equal to 100
+NextPackTokenPriceBuyout is equal to PrevPackTokenPriceSellout multiplied by 11 divided by 10
+If NextPackTokenPriceBuyout is greater then 100
+NextPackTokenPriceBuyout is equal to NextPackTokenPriceBuyout multiplied by 10 Invalid symbol 3
+NextPackTokenPriceBuyout is equal to  divided by 10
+NextPackYield is equal to NextPackTokenPriceBuyout minus PrevPackTokenPriceSellout
+NextPackDelta is equal to NextPackYield multiplied by 101
+If NextPackDelta is less or equal to 100
+NextPackDelta is equal to CurrentPackDelta plus 
+If NextPackDelta is greater then 100
+NextPackDelta is equal to NextPackDelta multiplied by 10 Invalid symbol 3
+NextPackDelta is equal to  divided by 10
+NextPackDelta is equal to CurrentPackDelta plus NextPackDelta
+CurrentPackTokenPriceSellout is equal to NextPackTokenPriceBuyout plus NextPackDelta
+CurrentPackCost is equal to 5000000000000000 multiplied by CurrentPackTokenPriceSellout
+CurrentPackTotalToPay is equal to 5000000000000000 multiplied by CurrentPackTokenPriceBuyout
+CurrentPackTotalAmt is equal to CurrentPackCost plus PrevPackTotalAmt minus CurrentPackTotalToPay
+CurrentPackFee is equal to PrevPackTotalAmt minus CurrentPackTotalToPay minus 
+CurrentPackDisparityAmounts is equal to 0
+CurrentPackDeposits is equal to 0
+CurrentPackStartDate is equal to now
+If CurrentPackDeposits plus OverallDisparityAmounts is greater then 
+dsp is equal to CurrentPackDeposits plus OverallDisparityAmounts minus CurrentPackDisparityAmounts minus OverallRefunded
+dsp is equal to 0
+If msg sender UserBuyDate is greater then CurrentPackStartDate Invalid symbol 
+wAmtToCurrentPack is equal to msg sender UserAmtDepositCurrentPackTRUE
+wAmtToCurrentPack is equal to 0
+If msg sender UserSellDate is greater then CurrentPackStartDate Invalid symbol 
+witCP is equal to msg sender UserTotalAmtWithdrawalCurrentPack
+witCP is equal to 0
+If msg sender UserBuyDate is greater then CurrentPackStartDate Invalid symbol 
+depCP is equal to msg sender UserTotalAmtDepositCurrentPack
+depCP is equal to 0
+remainsFromFirstRefunded is equal to 
+remainsFromDisparity is equal to 
+userAvailableAmount is equal to  multiplied by CurrentPackTokenPriceBuyout plus wAmtToCurrentPack
+If userAvailableAmount is greater then remainsFromDisparity
+userAvailableAmount is equal to userAvailableAmount minus remainsFromDisparity
+userAvailableAmount is equal to 0
+If userAvailableAmount is less then 10
+userAvailableAmount is equal to 0
+If CurrentPackDeposits plus OverallDisparityAmounts is greater then 
+dsp is equal to CurrentPackDeposits plus OverallDisparityAmounts minus CurrentPackDisparityAmounts minus OverallRefunded
+If  is greater then dsp
+userAvailableAmount1 is equal to  minus dsp
+userAvailableAmount1 is equal to 0
+feeTransfered is equal to False
+CurrentPackNumber is equal to _currentPackNumber plus 1
+If _currentPackNumber is greater then 0
+If _rm corresponds to True
+If RestartMode corresponds to False
+RestartMode is equal to True
+RestartModeDate is equal to now
+If now is greater then RestartModeDate plus 14 multiplied by 1 days
+Cycle is equal to Cycle plus 1
+RestartMode is equal to False
+If RestartMode corresponds to True
+RestartMode is equal to False
+RestartModeDate is equal to 0
+If CurrentPackNumber is greater then 2 Invalid symbol  Invalid symbol 
+If  is greater or equal to CurrentPackFee
+feeTransfered is equal to True
+d userAmt is equal to msg value
+d useraddress is equal to msg sender
+d availableTokens is equal to 
+d currentPackTokenPriceSellout is equal to CurrentPackTokenPriceSellout
+d currentPackNumber is equal to CurrentPackNumber
+d currentPackStartDate is equal to CurrentPackStartDate
+d userBuyTokenPackNum is equal to d useraddress UserBuyTokenPackNum
+d userBuyTokenPrevPack is equal to d useraddress UserBuyTokenPrevPack
+If d userBuyTokenPackNum corresponds to d currentPackNumber minus 1
+d userBuyTokenPrevPack is equal to True
+If d userBuyTokenPackNum corresponds to d currentPackNumber Invalid symbol 
+d userBuyTokenPrevPack is equal to True
+d userBuyTokenPrevPack is equal to False
+d userBuyFirstDate is equal to d useraddress UserBuyFirstDate
+d userBuyDate is equal to d useraddress UserBuyDate
+d userContinued is equal to d useraddress UserContinued
+d userTotalAmtDepositCurrentPack is equal to d useraddress UserTotalAmtDepositCurrentPack
+d userTotalAmtDeposit is equal to d useraddress UserTotalAmtDeposit
+If d userBuyTokenPackNum corresponds to d currentPackNumber Invalid symbol 
+d userAmtDepositCurrentPackTRUE is equal to d useraddress UserAmtDepositCurrentPackTRUE
+d userTotalAmtDepositCurrentPack is equal to 0
+d userAmtDepositCurrentPackTRUE is equal to 0
+If d useraddress UserSellTokenPackNum corresponds to d currentPackNumber Invalid symbol 
+d p is equal to d useraddress UserTotalAmtWithdrawalCurrentPack divided by 20
+d userAmt is equal to d userAmt sub
+d userTokenObtain is equal to d userAmt divided by d currentPackTokenPriceSellout
+If d userTokenObtain multiplied by d currentPackTokenPriceSellout is less then d userAmt
+d userTokenObtain is equal to d userTokenObtain plus 1
+If d userTokenObtain is greater then d availableTokens
+d amtToSend is equal to d currentPackTokenPriceSellout multiplied by 
+d userAmt is equal to d userAmt sub
+d userTokenObtain is equal to d availableTokens
+If d userAmt is greater or equal to 100 multiplied by 1 finney
+If now is less or equal to 
+d bonus is equal to d userTokenObtain multiplied by 75 divided by 10000 plus 1
+If now is less or equal to 
+d bonus is equal to d userTokenObtain multiplied by 50 divided by 10000 plus 1
+If now is less or equal to 
+d bonus is equal to d userTokenObtain multiplied by 25 divided by 10000 plus 1
+If d userContinued is greater or equal to 4 Invalid symbol 
+d bonus is equal to d bonus plus d userTokenObtain divided by 100 plus 1
+If d bonus is greater then 0
+d userTokenObtain is equal to d userTokenObtain add
+If d userTokenObtain is greater then d availableTokens
+d userAmtOverloadToSend is equal to d currentPackTokenPriceSellout multiplied by 
+d bonusAmountRefunded is equal to d userAmtOverloadToSend
+d userTokenObtain is equal to d availableTokens
+d amtToSend is equal to d amtToSend add
+d bonus is equal to 0
+d bonusAmount is equal to d bonus multiplied by d currentPackTokenPriceSellout
+If d userBuyTokenPackNum corresponds to 0
+d userContinued is equal to 1
+d userBuyFirstDate is equal to now
+d userFirstAmt is equal to d userAmt add
+d userBuyFirstPack is equal to d currentPackNumber
+d amtForfirstRefund is equal to d userFirstAmt multiplied by 6 divided by 10
+OverallDisparityAmounts is equal to OverallDisparityAmounts plus d userFirstAmt multiplied by 7 divided by 10
+CurrentPackDisparityAmounts is equal to CurrentPackDisparityAmounts plus d userFirstAmt multiplied by 7 divided by 10
+d amtToSend is equal to d amtToSend add
+OverallRefunded is equal to OverallRefunded plus d amtForfirstRefund
+d userFirstAmt is equal to d useraddress UserFirstAmt
+d userBuyFirstPack is equal to d useraddress UserBuyFirstPack
+If d userBuyTokenPrevPack corresponds to True
+If d userBuyTokenPackNum corresponds to d currentPackNumber minus 1
+d userContinued is equal to d userContinued plus 1
+d userContinued is equal to 1
+d userAmtToStore is equal to d userAmt add
+d userTotalAmtDepositCurrentPack is equal to d userTotalAmtDepositCurrentPack add
+d userTotalAmtDeposit is equal to d userTotalAmtDeposit add
+d userAmtDepositCurrentPackTRUE is equal to d userAmtDepositCurrentPackTRUE add
+CurrentPackDeposits is equal to CurrentPackDeposits add
+OverallDeposits is equal to OverallDeposits add
+user UserBuyFirstDate is equal to d userBuyFirstDate
+user UserBuyFirstPack is equal to d userBuyFirstPack
+user UserBuyTokenPackNum is equal to d currentPackNumber
+user UserBuyDate is equal to now
+user UserFirstAmt is equal to d userFirstAmt
+user UserBuyTokenPrevPack is equal to d userBuyTokenPrevPack
+user UserContinued is equal to d userContinued
+user UserTotalAmtDepositCurrentPack is equal to d userTotalAmtDepositCurrentPack
+user UserTotalAmtDeposit is equal to d userTotalAmtDeposit
+user UserAmtDepositCurrentPackTRUE is equal to d userAmtDepositCurrentPackTRUE
+If  corresponds to 0
+If d amtToSend is greater then 0
+w useraddress is equal to msg sender
+w userFirstAmt is equal to w useraddress UserFirstAmt
+w userBuyFirstPack is equal to w useraddress UserBuyFirstPack
+w currentPackNumber is equal to CurrentPackNumber
+w currentPackStartDate is equal to CurrentPackStartDate
+w currentPackTokenPriceSellout is equal to CurrentPackTokenPriceSellout
+w currentPackTokenPriceBuyout is equal to CurrentPackTokenPriceBuyout
+w overallRefunded is equal to OverallRefunded
+w overallDisparityAmounts is equal to OverallDisparityAmounts
+w userTotalAmtWithdrawal is equal to w useraddress UserTotalAmtWithdrawal
+w userWithdrawalFromFirstRefunded is equal to w useraddress UserWithdrawalFromFirstRefunded
+w remainsFromFirstRefunded is equal to 
+w userWithdrawalFromDisparity is equal to w useraddress UserWithdrawalFromDisparity
+w remainsFromDisparity is equal to 
+w thisBal is equal to 
+w currentPackDeposits is equal to CurrentPackDeposits
+If w useraddress UserBuyTokenPackNum corresponds to w currentPackNumber Invalid symbol 
+w userTotalAmtDepositCurrentPack is equal to w useraddress UserTotalAmtDepositCurrentPack
+w userAmtDepositCurrentPackTRUE is equal to w useraddress UserAmtDepositCurrentPackTRUE
+w withdrawAmtToCurrentPack is equal to w useraddress UserAmtDepositCurrentPackTRUE
+w returnTokenInCurrentPack is equal to True
+w returnTokenInCurrentPack is equal to False
+If w useraddress UserSellTokenPackNum corresponds to w currentPackNumber Invalid symbol 
+w userTotalAmtWithdrawalCurrentPack is equal to w useraddress UserTotalAmtWithdrawalCurrentPack
+If CurrentPackDeposits plus OverallDisparityAmounts is greater then 
+w dsp is equal to CurrentPackDeposits plus OverallDisparityAmounts minus CurrentPackDisparityAmounts minus OverallRefunded
+w dsp is equal to 0
+w userAvailableAmount is equal to  multiplied by w currentPackTokenPriceBuyout plus w withdrawAmtToCurrentPack
+If w thisBal is greater or equal to w dsp
+If w userAvailableAmount is greater then w thisBal minus w dsp
+If w currentPackNumber corresponds to w userBuyFirstPack
+If w userAvailableAmount is greater then w thisBal minus w dsp plus w userAmtDepositCurrentPackTRUE
+w userAvailableAmount is equal to w thisBal minus w dsp plus w userAmtDepositCurrentPackTRUE
+If w userAvailableAmount is greater then w thisBal minus w dsp plus w remainsFromDisparity plus w userAmtDepositCurrentPackTRUE
+w userAvailableAmount is equal to w thisBal minus w dsp plus w remainsFromDisparity plus w userAmtDepositCurrentPackTRUE
+If w userAmtDepositCurrentPackTRUE is greater then w remainsFromDisparity
+If w userAvailableAmount is greater then w userAmtDepositCurrentPackTRUE
+w userAvailableAmount is equal to w userAmtDepositCurrentPackTRUE
+If w userAvailableAmount is greater then w remainsFromDisparity
+w userAvailableAmount is equal to w remainsFromDisparity
+If w userAvailableAmount is greater then w thisBal plus w remainsFromFirstRefunded
+w userAvailableAmount is equal to w thisBal plus w remainsFromFirstRefunded
+If w currentPackNumber is greater then 2
+w ra is equal to True
+If WithdrawTokens is greater then 0 Invalid symbol 
+w userTokensReturn is equal to WithdrawTokens
+If w returnTokenInCurrentPack corresponds to True
+w userTokensReturnToCurrentPack is equal to w withdrawAmtToCurrentPack div
+If w userTokensReturn is greater then w userTokensReturnToCurrentPack
+w userTokensReturnAboveCurrentPack is equal to w userTokensReturn sub
+w withdrawAmtAboveCurrentPack is equal to w userTokensReturnAboveCurrentPack mul
+w withdrawAmtToCurrentPack is equal to w userTokensReturn mul
+w userTokensReturnToCurrentPack is equal to w userTokensReturn
+w withdrawAmtAboveCurrentPack is equal to 0
+w userTokensReturnAboveCurrentPack is equal to 0
+w withdrawAmtToCurrentPack is equal to 0
+w userTokensReturnToCurrentPack is equal to 0
+w userTokensReturnAboveCurrentPack is equal to w userTokensReturn
+w withdrawAmtAboveCurrentPack is equal to w userTokensReturnAboveCurrentPack mul
+w withdrawAmt is equal to w withdrawAmtToCurrentPack add
+w withdrawAmt is equal to WithdrawAmount
+If w withdrawAmt is greater then w userAvailableAmount
+w withdrawAmt is equal to w userAvailableAmount
+If w remainsFromDisparity is greater then 0
+If w userAvailableAmount is greater or equal to w remainsFromDisparity
+w userAvailableAmount is equal to w userAvailableAmount minus w remainsFromDisparity
+w userAvailableAmount is equal to 0
+If w userAvailableAmount is less then 100
+w userAvailableAmount is equal to 0
+If AllowToUseDisparity corresponds to False Invalid symbol 
+If w withdrawAmt is greater then w userAvailableAmount
+w withdrawAmt is equal to w userAvailableAmount
+If w returnTokenInCurrentPack corresponds to True
+w userTokensReturnToCurrentPack is equal to w withdrawAmtToCurrentPack div
+If w withdrawAmt is greater then w withdrawAmtToCurrentPack
+w withdrawAmtAboveCurrentPack is equal to w withdrawAmt sub
+w userTokensReturnAboveCurrentPack is equal to w withdrawAmtAboveCurrentPack div
+w withdrawAmtToCurrentPack is equal to w withdrawAmt
+w userTokensReturnToCurrentPack is equal to w withdrawAmtToCurrentPack div
+w withdrawAmtAboveCurrentPack is equal to 0
+w userTokensReturnAboveCurrentPack is equal to 0
+w withdrawAmtToCurrentPack is equal to 0
+w userTokensReturnToCurrentPack is equal to 0
+w withdrawAmtAboveCurrentPack is equal to w withdrawAmt
+w userTokensReturnAboveCurrentPack is equal to w withdrawAmtAboveCurrentPack div
+If AllowToUseDisparity corresponds to True Invalid symbol 
+If w withdrawAmt is greater then w userAvailableAmount
+w useFromDisparity is equal to w withdrawAmt minus w userAvailableAmount
+If w remainsFromDisparity is less then w useFromDisparity
+w useFromDisparity is equal to w remainsFromDisparity
+w userWithdrawalFromDisparity is equal to w userWithdrawalFromDisparity add
+If w remainsFromFirstRefunded is greater then 0
+If w useFromDisparity is greater then w remainsFromDisparity minus w remainsFromFirstRefunded
+w useFromFirstRefunded is equal to w useFromDisparity plus w remainsFromFirstRefunded minus w remainsFromDisparity
+If w remainsFromFirstRefunded is less then w useFromFirstRefunded
+w useFromFirstRefunded is equal to w remainsFromFirstRefunded
+w userWithdrawalFromFirstRefunded is equal to w userWithdrawalFromFirstRefunded plus w useFromFirstRefunded
+w withdrawAmt is equal to w withdrawAmt sub
+If  divided by 50000000000000 is less then 10
+w bonus is equal to  divided by 100
+w bonusToSend is equal to w bonus
+If w thisBal is greater then w dsp Invalid symbol 
+If w withdrawAmt plus w bonus is greater then 
+w bonusToSend is equal to 0
+w diff is equal to w bonus
+If w userTokensReturnAboveCurrentPack is greater then 0
+w bonusTokensReturnDecrease is equal to w diff divided by w currentPackTokenPriceBuyout
+If w userTokensReturnAboveCurrentPack is greater or equal to w bonusTokensReturnDecrease
+w userTokensReturnAboveCurrentPack is equal to w userTokensReturnAboveCurrentPack minus w bonusTokensReturnDecrease
+w diff is equal to w bonusTokensReturnDecrease minus w userTokensReturnAboveCurrentPack
+w userTokensReturnAboveCurrentPack is equal to 0
+w bonusTokensReturnDecrease is equal to w diff multiplied by w currentPackTokenPriceBuyout divided by w currentPackTokenPriceSellout
+w userTokensReturnToCurrentPack is equal to w userTokensReturnToCurrentPack minus w bonusTokensReturnDecrease
+w bonusTokensReturnDecrease is equal to w diff divided by w currentPackTokenPriceSellout
+If w userTokensReturnToCurrentPack is greater or equal to w bonusTokensReturnDecrease
+w userTokensReturnToCurrentPack is equal to w userTokensReturnToCurrentPack minus w bonusTokensReturnDecrease
+If w thisBal is less or equal to w dsp
+If w bonus is greater then 0
+w bonusToSend is equal to 0
+w diff is equal to w bonus
+If w userTokensReturnAboveCurrentPack is greater then 0
+w bonusTokensReturnDecrease is equal to w diff divided by w currentPackTokenPriceBuyout
+If w userTokensReturnAboveCurrentPack is greater or equal to w bonusTokensReturnDecrease
+w userTokensReturnAboveCurrentPack is equal to w userTokensReturnAboveCurrentPack minus w bonusTokensReturnDecrease
+w diff is equal to w bonusTokensReturnDecrease minus w userTokensReturnAboveCurrentPack
+w userTokensReturnAboveCurrentPack is equal to 0
+w bonusTokensReturnDecrease is equal to w diff multiplied by w currentPackTokenPriceBuyout divided by w currentPackTokenPriceSellout
+w userTokensReturnToCurrentPack is equal to w userTokensReturnToCurrentPack minus w bonusTokensReturnDecrease
+w bonusTokensReturnDecrease is equal to w diff divided by w currentPackTokenPriceSellout
+If w userTokensReturnToCurrentPack is greater or equal to w bonusTokensReturnDecrease
+w userTokensReturnToCurrentPack is equal to w userTokensReturnToCurrentPack minus w bonusTokensReturnDecrease
+If w withdrawAmt is greater then w thisBal
+w diff is equal to w withdrawAmt plus 100 minus w thisBal
+If w userTokensReturnAboveCurrentPack is greater then 0
+w TokensReturnDecrease is equal to w diff divided by w currentPackTokenPriceBuyout
+If w userTokensReturnAboveCurrentPack is greater or equal to w TokensReturnDecrease
+w userTokensReturnAboveCurrentPack is equal to w userTokensReturnAboveCurrentPack minus w TokensReturnDecrease
+w withdrawAmtAboveCurrentPack is equal to w userTokensReturnAboveCurrentPack multiplied by w currentPackTokenPriceBuyout
+w diff is equal to w TokensReturnDecrease minus w userTokensReturnAboveCurrentPack
+w userTokensReturnAboveCurrentPack is equal to 0
+w TokensReturnDecrease is equal to w diff multiplied by w currentPackTokenPriceBuyout divided by w currentPackTokenPriceSellout
+w userTokensReturnToCurrentPack is equal to w userTokensReturnToCurrentPack minus w TokensReturnDecrease
+w TokensReturnDecrease is equal to w diff divided by w currentPackTokenPriceSellout
+If w userTokensReturnToCurrentPack is greater or equal to w TokensReturnDecrease
+w userTokensReturnToCurrentPack is equal to w userTokensReturnToCurrentPack minus w TokensReturnDecrease
+w withdrawAmtToCurrentPack is equal to w userTokensReturnToCurrentPack multiplied by w currentPackTokenPriceSellout
+w withdrawAmt is equal to w withdrawAmtToCurrentPack plus w withdrawAmtAboveCurrentPack
+If w withdrawAmt is greater or equal to w useFromFirstRefunded
+w withdrawAmt is equal to w withdrawAmt minus w useFromFirstRefunded
+w diff is equal to w useFromFirstRefunded minus w withdrawAmt
+w withdrawAmt is equal to 0
+w useFromFirstRefunded is equal to w useFromFirstRefunded minus w diff
+If w withdrawAmt is greater then w thisBal
+w withdrawAmt is equal to w thisBal
+If w userAmtDepositCurrentPackTRUE is greater then w withdrawAmtToCurrentPack
+user UserAmtDepositCurrentPackTRUE is equal to w userAmtDepositCurrentPackTRUE minus w withdrawAmtToCurrentPack
+user UserAmtDepositCurrentPackTRUE is equal to 0
+If w overallDisparityAmounts is greater then w useFromDisparity
+OverallDisparityAmounts is equal to w overallDisparityAmounts minus w useFromDisparity
+OverallDisparityAmounts is equal to 0
+If w userBuyFirstPack corresponds to w currentPackNumber Invalid symbol 
+If CurrentPackDisparityAmounts is greater then w useFromDisparity
+CurrentPackDisparityAmounts is equal to CurrentPackDisparityAmounts minus w useFromDisparity
+CurrentPackDisparityAmounts is equal to 0
+If w overallRefunded is greater then w useFromFirstRefunded
+OverallRefunded is equal to w overallRefunded minus w useFromFirstRefunded
+OverallRefunded is equal to 0
+If w currentPackDeposits is greater then w withdrawAmtToCurrentPack
+CurrentPackDeposits is equal to w currentPackDeposits minus w withdrawAmtToCurrentPack
+CurrentPackDeposits is equal to 0
+w userTokensReturn is equal to w userTokensReturnToCurrentPack plus w userTokensReturnAboveCurrentPack
+w wAtoStore is equal to w withdrawAmt plus w useFromFirstRefunded plus w bonusToSend
+w userTotalAmtWithdrawal is equal to w userTotalAmtWithdrawal plus w wAtoStore
+w userTotalAmtWithdrawalCurrentPack is equal to w userTotalAmtWithdrawalCurrentPack plus w wAtoStore
+OverallWithdrawals is equal to OverallWithdrawals plus w wAtoStore
+user UserSellTokenPackNum is equal to w currentPackNumber
+user UserSellDate is equal to now
+user UserTotalAmtWithdrawal is equal to w userTotalAmtWithdrawal
+user UserTotalAmtWithdrawalCurrentPack is equal to w userTotalAmtWithdrawalCurrentPack
+user UserWithdrawalFromFirstRefunded is equal to w userWithdrawalFromFirstRefunded
+user UserWithdrawalFromDisparity is equal to w userWithdrawalFromDisparity
+If w userTokensReturn corresponds to  plus 1
+w userTokensReturn is equal to 
+If w userTokensReturnToCurrentPack corresponds to  plus 1
+w userTokensReturnToCurrentPack is equal to 
+If w userTokensReturnAboveCurrentPack corresponds to  plus 1
+w userTokensReturnAboveCurrentPack is equal to 
+If w ra corresponds to True
+If w withdrawAmt plus w bonus is greater then 0
+ is equal to balances _from sub
+If _to corresponds to 
+If _rttcp corresponds to True
+ is equal to balances _to add
+ is equal to 
+totalSupply is equal to totalSupply sub
+ is equal to balances _to add
+ is equal to  add
+totalSupply is equal to totalSupply add

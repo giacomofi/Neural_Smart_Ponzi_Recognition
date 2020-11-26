@@ -1,0 +1,17 @@
+solidity ^0.4.24 
+EternalStorage SafeMath ERC20 Ownable airdrop 
+SafeMath 
+uintStorage stringStorage addressStorage bytesStorage boolStorage intStorage totalSupply owner total erc20token i 
+mul div sub add balanceOf transfer approve allowance transferFrom transferOwnership setTxCount txCount multisendToken 
+Ownable inherits from EternalStorage airdrop inherits from Ownable 
+onlyOwner 
+Approval Transfer OwnershipTransferred Multisended 
+If a corresponds to 0
+c is equal to a multiplied by b
+c is equal to a plus b
+owner is equal to msg sender
+owner is equal to newOwner
+ is equal to _txCount
+i is less then _contributors length
+ is equal to  multiplied by 1 ether
+total increments of 

@@ -1,0 +1,46 @@
+solidity 0.5.16 
+IDaiBackstopSyndicate IJoin IVat IFlopper SafeMath IERC20 ERC20 SimpleFlopper TwoStepOwnable EnumerableSet DaiBackstopSyndicateV0 
+SafeMath SafeMath EnumerableSet 
+AuctionIDSet 
+AuctionIDSet has index
+AuctionIDSet has values
+c c c c _balances _allowances _totalSupply _auction _owner _newPotentialOwner toDeleteIndex lastIndex lastValue output i _status _activeAuctions _MKR_BACKSTOP_BID_PRICE_DENOMINATED_IN_DAI _DAI _MKR _DAI_JOIN _VAT shareFloat vatDaiLockedInAuctions vatDaiBalance combinedVatDai makerBalance vatDaiRedeemed expectedLot activeAuctions auctionVatDai bidder i 
+enlist defect enterAuction finalizeAuction ceaseFire getStatus getActiveAuctions join exit dai hope move wards rely deny bids vat gem ONE beg pad ttl tau kicks live vow file kick tick dent deal cage yank add sub mul div mod totalSupply balanceOf transfer allowance approve transferFrom totalSupply balanceOf transfer allowance approve transferFrom increaseAllowance decreaseAllowance _transfer _mint _burn _approve _burnFrom isEnabled getTotalNumberOfAuctions getMKRAddress getDaiAddress getFlopperAddress getAuctionInformation getCurrentBid _reprice _bid _finalize owner isOwner transferOwnership cancelOwnershipTransfer acceptOwnership add remove contains enumerate length get enlist defect enterAuction finalizeAuction ceaseFire getStatus getActiveAuctions _getActiveAuctionVatDaiTotal 
+ERC20 inherits from IERC20 DaiBackstopSyndicateV0 inherits from IDaiBackstopSyndicate DaiBackstopSyndicateV0 inherits from SimpleFlopper DaiBackstopSyndicateV0 inherits from TwoStepOwnable DaiBackstopSyndicateV0 inherits from ERC20 
+onlyOwner notWhenDeactivated 
+AuctionEntered AuctionFinalized Kick Transfer Approval OwnershipTransferred 
+If a corresponds to 0
+ is equal to _balances sender sub
+ is equal to _balances recipient add
+_totalSupply is equal to _totalSupply add
+ is equal to _balances account add
+_totalSupply is equal to _totalSupply sub
+ is equal to _balances account sub
+ is equal to value
+_owner is equal to tx origin
+_newPotentialOwner is equal to newOwner
+_owner is equal to msg sender
+If 
+ is equal to set values length
+
+If lastIndex is different from toDeleteIndex
+ is equal to lastValue
+ is equal to toDeleteIndex plus 1
+i is less then set values length
+ is equal to 
+_status is equal to Status ACCEPTING_DEPOSITS
+backstopTokensMinted is equal to daiAmount
+mkrRedeemed is equal to makerBalance mul divided by 1e18
+daiRedeemed is equal to vatDaiRedeemed divided by 1e27
+
+If _status is different from Status ACTIVATED
+_status is equal to Status ACTIVATED
+If end is different from 0
+If bidder corresponds to 
+_status is equal to Status DEACTIVATED
+status is equal to _status
+activeAuctions is equal to _activeAuctions enumerate
+vatDai is equal to 0
+i is less then activeAuctions length
+ is equal to SimpleFlopper getCurrentBid
+If bidder corresponds to 

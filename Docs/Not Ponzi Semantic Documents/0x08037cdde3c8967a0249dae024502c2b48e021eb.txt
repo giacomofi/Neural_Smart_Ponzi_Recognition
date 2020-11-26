@@ -1,0 +1,11 @@
+solidity ^0.5.10 
+Ownable Airdrop 
+owner distributors i 
+transferOwnership setDistributor airdrop 
+Airdrop inherits from Ownable 
+onlyOwner onlyOwnerOrDistributor 
+Received 
+owner is equal to msg sender
+owner is equal to newOwner
+ is equal to _allowed
+i is less then _to length
