@@ -1,3 +1,8 @@
+#
+# Author: giacomo
+# 22-11-20
+# Exploratory data analysis for contracts.csv ponzi.csv not_ponzi.csv
+
 import seaborn as sns
 import matplotlib.pyplot as plt
 import pandas as pd

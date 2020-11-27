@@ -1,3 +1,9 @@
+#
+# Author: giacomo
+# 22-11-20
+#
+# Class AST. If you need to instantiate an ast object use this
+
 class AST:
 
     name = ''
