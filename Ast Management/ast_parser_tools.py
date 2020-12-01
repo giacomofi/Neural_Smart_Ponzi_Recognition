@@ -30,7 +30,7 @@ class ASTSemanticExtraction:
         Semantic extraction from a Solidity AST. Start from the root of the tree, then it will be explored in deep.
         The AST is a SourceUnit type.
         WARNING: Some types of operations and statements could contain operation and statements of the same type, so in some cases, recursion is unavoidable.
-        Fields of a AST.
+        Fields of a AST: children
         :param directory:
         """
         # Return all json files inside directory
@@ -230,7 +230,7 @@ class ASTSemanticExtraction:
     def identifier_extraction(element):
         """
         Extract Identifier type name
-        :param element:
+        :param element: element must be Identifier type
         :return:
         """
         return element['name']
@@ -238,7 +238,7 @@ class ASTSemanticExtraction:
     def member_access_name(self, element):
         """
         Extract MemberAccess type infos
-        :param element:
+        :param element: element must be MemberAccess type
         """
         member_extraction = ''
         expression = element['expression']
@@ -321,13 +321,17 @@ class ASTSemanticExtraction:
     def index_access_extraction(self, element):
         """
         Index Access type infos extraction -- Possible recursive case
+        Fields are: base and index
+        base: the base of the index. Ex: list[0]. base is list
+        index: the index
         WARNING: IndexAccess is a particular case of recursion because, both of the base and index field could have an inner IndexAccess type, so both must be checked for recursion.
-        :param element:
+        :param element: element must be IndexAccess
         """
         base = element['base']
         base_name = ''
         index_info = ''
         index_type = element['index']['type']
+        # Check base type
         if base['type'] == 'Identifier':
             base_name = element['base']['name']
         elif base['type'] == 'IndexAccess':
@@ -340,6 +344,7 @@ class ASTSemanticExtraction:
             elif index_type == 'MemberAccess':
                 index_info += self.index_access_extraction(base) + self.delimiter + self.member_access_name(element['index'])
             return index_info
+        # Check index type
         if index_type == 'Identifier':
             index_info += base_name + self.delimiter + self.identifier_extraction(element['index'])
         elif index_type == 'NumberLiteral':
@@ -358,8 +363,12 @@ class ASTSemanticExtraction:
     def binary_operation_extraction(self, element):
         """
         BinaryOperation type dissecting
+        Fields are operator, left and right
+        operator: the binary operator
+        left: left part of binary operation
+        right: right part of binary operation
         :param element: element must be the 'condition' field
-        :return:
+        :return: element must be a BinaryOperation
         """
         # BinaryOperation has a left and a right part plus an operator
         left_part = ''
@@ -432,7 +441,8 @@ class ASTSemanticExtraction:
         """
         Function which analyse the UnaryOperation type
         operator: the unary operator
-        :param element:
+        subExpression: the expression checked by unary operator
+        :param element: element must be UnaryOperation type
         :return:
         """
         unary_operation_return = ''
@@ -444,12 +454,22 @@ class ASTSemanticExtraction:
         return unary_operation_return
 
     def block_analysis(self, element):
+        """
+        Analysis of Block type
+        Possible fields: statement
+        Each statement has a type
+        :param element: element must be Block type
+        """
         statements = element['statements']
+        # Statement list could be empty
         if len(statements) == 0:
             pass
         else:
+            # For each statement check what type it is
             for statement in statements:
+                # Statement ; it's not interesting
                 if statement is not None and statement != ';':
+                    # Check statement's type
                     statement_type = statement['type']
                     if statement_type == 'VariableDeclarationStatement':
                         self.state_variable_declaration_extraction(statement)
@@ -469,7 +489,11 @@ class ASTSemanticExtraction:
                         self.member_access_name(statement)
 
     def body_analysis(self, element):
-
+        """
+        body field analysis
+        Chek type, which could be IfStatement or Block
+        :param element: element must be body field
+        """
         body_type = element['type']
         if body_type == 'IfStatement':
             self.if_statement_analysis(element)
@@ -480,7 +504,7 @@ class ASTSemanticExtraction:
         """
         Function to analyze a IfStatement type.
         We have some interesting fields:
-        contidition: the condition of the if statement
+        condition: the condition of the if statement
         trueBody: if the condition is true then something is done. trueBody contains that
         falseBody: if the condition is false then something is done. falseBody contains that
         :param element:
@@ -490,11 +514,13 @@ class ASTSemanticExtraction:
         true_body = element['TrueBody']
         false_body = element['FalseBody']
         condition_type = condition['type']
+        # Check condition type
         if condition_type == 'BinaryOperation':
             if_statement_returns = 'If ' + self.binary_operation_extraction(condition)
         elif condition_type == 'UnaryOperation':
             if_statement_returns = 'If ' + self.unary_operation_extraction(condition)
         self.wildcards.append(if_statement_returns)
+        # TrueBody and FalseBody analysis
         if true_body is not None and true_body != ';':
             self.true_body_analysis(true_body)
         if false_body is not None and false_body != ';':
@@ -512,36 +538,59 @@ class ASTSemanticExtraction:
         condition = element['condition']
         body = element['body']
         condition_type = condition['type']
+        # Check while condition
         if condition_type == 'BinaryOperation':
             while_condition_returns = 'While ' + self.binary_operation_extraction(condition)
         elif condition_type == 'UnaryOperation':
             while_condition_returns = 'While ' + self.unary_operation_extraction(condition)
         self.wildcards.append(while_condition_returns)
+        # Analyzing body
         self.body_analysis(body)
 
     def for_statement_analysis(self, element):
+        """
+        ForStatement analysis
+        Fields: are initExpression, conditionExpression, loopExpression
+        initExpression: the initial state of the for loop. Ex: i = 0
+        conditionLoop: the exit condition from loop. Ex: i < N
+        loopExpression: the forward step of the loop. Ex: i++
+        :param element: element must be a ForStatement
+        """
+        # initExpression could be None
         if element['initExpression'] is not None:
+            # Check initExpression type
             if element['initExpression']['type'] == 'StateVariableDeclaration' or element['initExpression']['type'] == 'VariableDeclarationStatement':
                 self.wildcards.append(self.state_variable_declaration_extraction(element['initExpression']))
             else:
                 self.wildcards.append(self.expression_statement_extraction(element['initExpression']))
         else:
             pass
+        # conditionExpression could be None
         if element['conditionExpression'] is not None:
+            # if not None could be only a BinaryOperation
             self.wildcards.append(self.binary_operation_extraction(element['conditionExpression']))
         else:
             pass
+        # loopExpression could be None
         if element['loopExpression'] is not None:
+            # Check loopExpression type
             if element['loopExpression'] == 'ExpressionStatement':
                 self.wildcards.append(self.expression_statement_extraction(element['loopExpression']))
             elif element['loopExpression'] == 'UnaryOperation':
                 self.wildcards.append(self.unary_operation_extraction(element['loopExpression']))
         else:
             pass
+        # Analyzing body
         body = element['body']
         self.body_analysis(body)
 
     def expression_statement_extraction(self, element):
+        """
+        Analysis of expression field of ExpressionStatement
+        Possible types: BinaryOperation, VariableDeclarationStatement, IfStatement,
+        ForStatement, WhileStatement, FunctionCall, MemberAccess
+        :param element: element must be an ExpressionStatement
+        """
         expression = element['expression']
         expression_type = expression['type']
         if expression_type == 'BinaryOperation':
@@ -559,8 +608,12 @@ class ASTSemanticExtraction:
         elif expression_type == 'MemberAccess':
             self.member_access_name(expression)
 
-    # Could be ExpressionStatement or Block
     def true_body_analysis(self, element):
+        """
+        TrueBody field analysis. Field which manages the false condition of the If statement
+        Possible types: Block, ExpressionStatement
+        :param element: Element must be an expression
+        """
         true_body_type = element['type']
         if true_body_type == 'Block':
             self.block_analysis(element)
@@ -571,7 +624,7 @@ class ASTSemanticExtraction:
         """
         FalseBody field analysis. Field which manages the false condition of the If statement
         Possible types: Block, ExpressionStatement
-        :param element:
+        :param element: Element must be an expression
         """
         false_body_type = element['type']
         if false_body_type == 'Block':
@@ -598,6 +651,9 @@ class ASTSemanticExtraction:
         self.functions = []
 
     def reset_ast_object(self):
+        """
+        Reset AST list
+        """
         self.ast_objects = []
 
     def return_values(self):
@@ -619,6 +675,11 @@ class ASTSemanticExtraction:
 
     @staticmethod
     def symbol_to_semantic(symbol):
+        """
+        Converts an alphanumeric symbol to its semantic meaning
+        :param symbol: Alphanumeric symbol that must be converted to its semantic
+        :return:
+        """
         symbol_switcher = {
             '+': 'plus',
             '-': 'minus',
