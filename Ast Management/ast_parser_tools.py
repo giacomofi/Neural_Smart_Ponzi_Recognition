@@ -4,6 +4,7 @@ from os.path import isfile, join, abspath
 from json import JSONDecodeError
 from ast_build import AST
 import json
+from parsing_error import ParsingError
 
 
 class ASTSemanticExtraction:
@@ -66,12 +67,14 @@ class ASTSemanticExtraction:
                         self.pragma_directive_extraction(child)
                     elif typing == 'ContractDefinition':
                         self.contract_definition_extraction(child)
+                    else:
+                        raise ParsingError('AST field missed')
 
     @staticmethod
     def get_ast(directory):
         """
         Get your contracts' ast
-        :param directory:
+        :param directory: The directory in which your AST are located
         :return: json ast of your solidity contracts
         """
         return [f for f in listdir(directory) if isfile(join(directory, f))]
@@ -79,8 +82,8 @@ class ASTSemanticExtraction:
     def open_file(self, directory, file_name):
         """
         Load AST from json file
-        :param file_name:
-        :param directory:
+        :param file_name: The file to open
+        :param directory: The directory which is location of file_name
         :return: data of the current AST which has been analyzed
         """
         name = file_name.split('.')
@@ -100,7 +103,7 @@ class ASTSemanticExtraction:
     def pragma_directive_extraction(self, childs):
         """
         One of the possible type of a child is PragmaDirective. With this function you can extract information from that type of child
-        :param childs:
+        :param childs: All the elements inside the AST
         """
         # Pragma name
         name = childs['name']
@@ -109,6 +112,10 @@ class ASTSemanticExtraction:
         self.pragmas.append(name + ' ' + value)
 
     def contract_definition_extraction(self, childs):
+        """
+        Analyzes all the elements inside the contract
+        :param childs:
+        """
         # Contract name
         name = childs['name']
         # Base contracts field is for all the contracts inherited by the current contract
@@ -137,8 +144,14 @@ class ASTSemanticExtraction:
                 self.modifier_definition_extraction(sub_node)
             elif sub_node_type == 'FunctionDefinition':
                 self.function_definition_analysis(sub_node)
+            else:
+                raise ParsingError('AST field missed')
 
     def function_definition_analysis(self, element):
+        """
+        Analyzes all the elements inside a function definition
+        :param element: element must be FunctionDefinition type
+        """
         function_name = element['name']
         self.functions.append(function_name)
         function_parameters = element['parameters']['parameters']
@@ -159,8 +172,8 @@ class ASTSemanticExtraction:
     def inheritance_relationship_extraction(self, name, base_contracts):
         """
         Save the inheritance relationships of the contract currently analyzed.
-        :param name:
-        :param base_contracts:
+        :param name: the contract in exam
+        :param base_contracts: the contracts inheritated by the contract currently analyzed
         """
         for base_contract in base_contracts:
             relationship = name + ' inherits from ' + base_contract['baseName']['namePath']
@@ -169,7 +182,7 @@ class ASTSemanticExtraction:
     def state_variable_declaration_extraction(self, element):
         """
         Function to extract StateVariableDeclaration type infos
-        :param element:
+        :param element: element must be StateVariableDeclaration
         """
         if element['variables'] is not None:
             element_variable = element['variables'][0]['name']
@@ -178,7 +191,7 @@ class ASTSemanticExtraction:
     def struct_definition_extraction(self, element):
         """
         Function to extract StructDefinition type infos
-        :param element:
+        :param element: element must be StructDefinition
         """
         struct_name = element['name']
         self.structs.append(struct_name)
@@ -192,11 +205,13 @@ class ASTSemanticExtraction:
                 member_name = member['name']
                 component = struct_name + ' has ' + member_name
                 self.struct_components.append(component)
+            else:
+                raise ParsingError('AST field missed')
 
     def event_definition_extraction(self, element):
         """
         Function to extract EventDefinition type infos
-        :param element:
+        :param element: element must be EventDefinition
         """
         event_name = element['name']
         self.events.append(event_name)
@@ -204,7 +219,7 @@ class ASTSemanticExtraction:
     def using_for_declaration_extraction(self, element):
         """
         Function to extract UsingForDeclaration type extraction
-        :param element:
+        :param element: element must be UsingForDeclaration
         """
         library_name = element['libraryName']
         self.libraries.append(library_name)
@@ -212,7 +227,7 @@ class ASTSemanticExtraction:
     def modifier_definition_extraction(self, element):
         """
         ModifierDefinition analysis
-        :param element:
+        :param element: element must be ModifierDefinition
         """
         self.modifiers.append(element['name'])
         # Modifier has statements inside. We must check them to look for interesting infos
@@ -225,6 +240,10 @@ class ASTSemanticExtraction:
                 self.state_variable_declaration_extraction(statement)
             elif statement_type == 'ExpressionStatement':
                 self.expression_statement_extraction(statement)
+            elif statement_type == 'IfStatement':
+                self.if_statement_analysis(statement)
+            else:
+                raise ParsingError('AST field missed')
 
     @staticmethod
     def identifier_extraction(element):
@@ -266,12 +285,14 @@ class ASTSemanticExtraction:
             # It must contain the first member of the expression and then the following result of the expression
             member_extraction += self.member_access_name(expression) + self.delimiter + member_name
             return member_extraction
+        else:
+            raise ParsingError('AST field missed')
         return member_extraction
 
     def number_literal_extraction(self, element):
         """
         NumberLiteral type infos extraction
-        :param element:
+        :param element: element is NumberLiteral
         :return:
         """
         if element['subdenomination'] is not None:
@@ -283,7 +304,8 @@ class ASTSemanticExtraction:
     def boolean_literal_extraction(element):
         """
         BooleanLiteral type infos extraction
-        :param element:
+        Possible fields: value
+        :param element: element must be BooleanLiteral type
         :return:
         """
         return str(element['value'])
@@ -292,7 +314,8 @@ class ASTSemanticExtraction:
     def string_literal_extraction(element):
         """
         StringLiteral type infos extraction
-        :param element:
+        Possible fields: value
+        :param element: element must be StringLiteral type
         :return:
         """
         return element['value']
@@ -304,18 +327,22 @@ class ASTSemanticExtraction:
     def function_call_extraction(self, element):
         """
         This function analyze the workflow of a FunctionCall type inside the tree
-        :param element:
+        Fields: expression
+        :param element: element must be FunctionCall type
         """
         # The function call expression
         expression = element['expression']
         # The function name
         function_call_infos = ''
+        # Check expression type
         if expression['type'] == 'Identifier':
             function_call_infos += self.identifier_extraction(expression)
         elif expression['type'] == 'MemberAccess':
             function_call_infos += self.member_access_name(expression)
         elif expression['type'] == 'ElementaryTypeName':
             function_call_infos += self.elementary_type_name_expression(expression)
+        else:
+            raise ParsingError('AST field missed')
         return function_call_infos
 
     def index_access_extraction(self, element):
@@ -343,6 +370,8 @@ class ASTSemanticExtraction:
                 index_info += self.index_access_extraction(base) + self.delimiter + self.index_access_extraction(element['index'])
             elif index_type == 'MemberAccess':
                 index_info += self.index_access_extraction(base) + self.delimiter + self.member_access_name(element['index'])
+            else:
+                raise ParsingError('AST field missed')
             return index_info
         # Check index type
         if index_type == 'Identifier':
@@ -358,6 +387,8 @@ class ASTSemanticExtraction:
             index_info += self.member_access_name(element['index'])
         elif index_type == 'FunctionCall':
             index_info += self.function_call_extraction(element['index'])
+        else:
+            raise ParsingError('AST field missed')
         return index_info
 
     def binary_operation_extraction(self, element):
@@ -451,6 +482,8 @@ class ASTSemanticExtraction:
         if sub_expression['type'] == 'Identifier':
             sub_expression_name = sub_expression['name']
             unary_operation_return += operator + self.delimiter + sub_expression_name
+        else:
+            raise ParsingError('AST field missed')
         return unary_operation_return
 
     def block_analysis(self, element):
@@ -487,6 +520,8 @@ class ASTSemanticExtraction:
                         self.binary_operation_extraction(statement)
                     elif statement_type == 'MemberAccess':
                         self.member_access_name(statement)
+                    else:
+                        raise ParsingError('AST field missed')
 
     def body_analysis(self, element):
         """
@@ -499,6 +534,8 @@ class ASTSemanticExtraction:
             self.if_statement_analysis(element)
         elif body_type == 'Block':
             self.block_analysis(element)
+        else:
+            raise ParsingError('AST field missed')
 
     def if_statement_analysis(self, element):
         """
@@ -543,6 +580,8 @@ class ASTSemanticExtraction:
             while_condition_returns = 'While ' + self.binary_operation_extraction(condition)
         elif condition_type == 'UnaryOperation':
             while_condition_returns = 'While ' + self.unary_operation_extraction(condition)
+        else:
+            raise ParsingError('AST field missed')
         self.wildcards.append(while_condition_returns)
         # Analyzing body
         self.body_analysis(body)
@@ -588,13 +627,17 @@ class ASTSemanticExtraction:
         """
         Analysis of expression field of ExpressionStatement
         Possible types: BinaryOperation, VariableDeclarationStatement, IfStatement,
-        ForStatement, WhileStatement, FunctionCall, MemberAccess
+        ForStatement, WhileStatement, FunctionCall, MemberAccess, Identifier
         :param element: element must be an ExpressionStatement
         """
         expression = element['expression']
         expression_type = expression['type']
         if expression_type == 'BinaryOperation':
             self.wildcards.append(self.binary_operation_extraction(expression))
+        elif expression_type == 'UnaryOperation':
+            self.wildcards.append(self.unary_operation_extraction(expression))
+        elif expression_type == 'Identifier':
+            pass
         elif expression_type == 'VariableDeclarationStatement':
             self.state_variable_declaration_extraction(expression)
         elif expression_type == 'IfStatement':
@@ -607,6 +650,8 @@ class ASTSemanticExtraction:
             self.function_call_extraction(expression)
         elif expression_type == 'MemberAccess':
             self.member_access_name(expression)
+        else:
+            raise ParsingError('AST field missed')
 
     def true_body_analysis(self, element):
         """
@@ -619,6 +664,12 @@ class ASTSemanticExtraction:
             self.block_analysis(element)
         elif true_body_type == 'ExpressionStatement':
             self.expression_statement_extraction(element)
+        elif true_body_type == 'NumberLiteral':
+            self.number_literal_extraction(element)
+        elif true_body_type == 'MemberAccess':
+            self.member_access_name(element)
+        else:
+            raise ParsingError('AST field missed')
 
     def false_body_analysis(self, element):
         """
@@ -631,6 +682,13 @@ class ASTSemanticExtraction:
             self.block_analysis(element)
         elif false_body_type == 'ExpressionStatement':
             self.expression_statement_extraction(element)
+        elif false_body_type == 'NumberLiteral':
+            self.number_literal_extraction(element)
+        elif false_body_type == 'MemberAccess':
+            self.member_access_name(element)
+        else:
+            print(element)
+            raise ParsingError('AST field missed')
 
     def reset(self):
         """

@@ -41,14 +41,14 @@ if __name__ == '__main__':
             writer = csv.writer(file)
             writer.writerow(['Name', 'Text', 'Target'])
             for ast in parser.ast_objects:
-                writer.writerow([ast.name, ast.contracts + ast.inheritance_relationships + ast.modifiers + ast.events + ast.state_variables + ast.structs + ast.struct_components + ast.functions + ast.wildcards, 0])
+                writer.writerow([ast.name, ast.contracts + ast.inheritance_relationships + ast.modifiers + ast.events + ast.state_variables + ast.structs + ast.struct_components + ast.functions + ast.wildcards, 1])
             parser.reset()
             parser.reset_ast_object()
             parser.semantic_extraction('/home/giacomo/PycharmProjects/ast_generator/Not Smart Ponzi AST/')
             for ast in parser.ast_objects:
                 # Avoids empty text rows
                 if ast.contracts:
-                    writer.writerow([ast.name, ast.contracts + ast.inheritance_relationships + ast.modifiers + ast.events + ast.state_variables + ast.structs + ast.struct_components + ast.functions + ast.wildcards, 1])
+                    writer.writerow([ast.name, ast.contracts + ast.inheritance_relationships + ast.modifiers + ast.events + ast.state_variables + ast.structs + ast.struct_components + ast.functions + ast.wildcards, 0])
 
     parser = ASTSemanticExtraction()
     parser.semantic_extraction('/home/giacomo/PycharmProjects/ast_generator/Ponzi Abstract Syntax Trees/')
