@@ -144,8 +144,21 @@ class ASTSemanticExtraction:
                 self.modifier_definition_extraction(sub_node)
             elif sub_node_type == 'FunctionDefinition':
                 self.function_definition_analysis(sub_node)
+            elif sub_node_type == 'EnumDefinition':
+                self.enum_infos_extraction(sub_node)
             else:
+                print(sub_node)
                 raise ParsingError('AST field missed')
+
+    def enum_infos_extraction(self, element):
+        enum_name = element['name']
+        enum_infos = ''
+        enum_infos += enum_name + self.delimiter + 'has values'
+        members = element['members']
+        for member in members:
+            if member['type'] == 'EnumValue':
+                enum_infos += self.delimiter + member['name']
+        self.wildcards.append(enum_infos)
 
     def function_definition_analysis(self, element):
         """
@@ -242,7 +255,10 @@ class ASTSemanticExtraction:
                 self.expression_statement_extraction(statement)
             elif statement_type == 'IfStatement':
                 self.if_statement_analysis(statement)
+            elif statement_type == 'InLineAssemblyStatement':
+                pass
             else:
+                print(statement)
                 raise ParsingError('AST field missed')
 
     @staticmethod
@@ -349,9 +365,13 @@ class ASTSemanticExtraction:
             function_call_infos += self.member_access_name(expression)
         elif expression['type'] == 'ElementaryTypeNameExpression':
             function_call_infos += self.elementary_type_name_expression(expression)
+        elif expression['type'] == 'FunctionCall':
+            function_call_infos += self.function_call_extraction(expression)
+            return function_call_infos
         elif expression['type'] == 'NewExpression':
             pass
         else:
+            print(expression['type'])
             raise ParsingError('AST field missed')
         return function_call_infos
 
@@ -538,6 +558,8 @@ class ASTSemanticExtraction:
                         self.identifier_extraction(statement)
                     elif statement_type == 'NumberLiteral':
                         self.number_literal_extraction(statement)
+                    elif statement_type == 'StringLiteral':
+                        self.string_literal_extraction(statement)
                     elif statement_type == 'IndexAccess':
                         self.index_access_extraction(statement)
                     elif statement_type == 'IfStatement':
@@ -552,11 +574,32 @@ class ASTSemanticExtraction:
                         self.function_call_extraction(statement)
                     elif statement_type == 'BinaryOperation':
                         self.binary_operation_extraction(statement)
+                    elif statement_type == 'UnaryOperation':
+                        self.unary_operation_extraction(statement)
                     elif statement_type == 'MemberAccess':
                         self.member_access_name(statement)
+                    elif statement_type == 'EmitStatement':
+                        self.emit_statement_extraction(statement)
+                    elif statement_type == 'TupleExpression':
+                        self.tuple_expression_extraction(statement)
+                    elif statement_type == 'Conditional':
+                        self.conditional_extraction(statement)
+                    elif statement_type == 'InLineAssemblyStatement':
+                        pass
                     else:
                         print(statement)
                         raise ParsingError('AST field missed')
+
+    def emit_statement_extraction(self, element):
+
+        event_call = element['eventCall']
+        event_call_infos = ''
+        if event_call['type'] == 'FunctionCall':
+            event_call_infos = self.function_call_extraction(event_call)
+        else:
+            raise ParsingError('AST field missed')
+        return event_call_infos
+
 
     def body_analysis(self, element):
         """
@@ -569,6 +612,8 @@ class ASTSemanticExtraction:
             self.if_statement_analysis(element)
         elif body_type == 'Block':
             self.block_analysis(element)
+        elif body_type == 'ExpressionStatement':
+            self.expression_statement_extraction(element)
         else:
             raise ParsingError('AST field missed')
 
@@ -723,6 +768,12 @@ class ASTSemanticExtraction:
             self.number_literal_extraction(element)
         elif true_body_type == 'BooleanLiteral':
             self.boolean_literal_extraction(element)
+        elif true_body_type == 'Identifier':
+            self.identifier_extraction(element)
+        elif true_body_type == 'StringLiteral':
+            self.string_literal_extraction(element)
+        elif true_body_type == 'FunctionCall':
+            self.function_call_extraction(element)
         elif true_body_type == 'MemberAccess':
             self.member_access_name(element)
         elif true_body_type == 'IfStatement':
@@ -730,6 +781,7 @@ class ASTSemanticExtraction:
         elif true_body_type == 'BinaryOperation':
             self.binary_operation_extraction(element)
         else:
+            print(element)
             raise ParsingError('AST field missed')
 
     def false_body_analysis(self, element):
@@ -747,6 +799,12 @@ class ASTSemanticExtraction:
             self.number_literal_extraction(element)
         elif false_body_type == 'BooleanLiteral':
             self.boolean_literal_extraction(element)
+        elif false_body_type == 'Identifier':
+            self.identifier_extraction(element)
+        elif false_body_type == 'StringLiteral':
+            self.string_literal_extraction(element)
+        elif false_body_type == 'FunctionCall':
+            self.function_call_extraction(element)
         elif false_body_type == 'MemberAccess':
             self.member_access_name(element)
         elif false_body_type == 'IfStatement':
