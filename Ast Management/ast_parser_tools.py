@@ -255,6 +255,8 @@ class ASTSemanticExtraction:
                 self.expression_statement_extraction(statement)
             elif statement_type == 'IfStatement':
                 self.if_statement_analysis(statement)
+            elif statement_type == 'EmitStatement':
+                self.emit_statement_extraction(statement)
             elif statement_type == 'InLineAssemblyStatement':
                 pass
             else:
@@ -290,6 +292,8 @@ class ASTSemanticExtraction:
         elif expression['type'] == 'BooleanLiteral':
             boolean = self.boolean_literal_extraction(expression)
             member_extraction = boolean + self.delimiter + member_name
+        elif expression['type'] == 'TupleExpression':
+            pass
         elif expression['type'] == 'FunctionCall':
             pass
         # Possible recursive case
@@ -370,6 +374,8 @@ class ASTSemanticExtraction:
             return function_call_infos
         elif expression['type'] == 'NewExpression':
             pass
+        elif expression['type'] == 'TupleExpression':
+            pass
         else:
             print(expression['type'])
             raise ParsingError('AST field missed')
@@ -402,7 +408,10 @@ class ASTSemanticExtraction:
                 index_info += self.index_access_extraction(base) + self.delimiter + self.member_access_name(element['index'])
             elif index_type == 'BinaryOperation':
                 index_info += self.index_access_extraction(base) + self.delimiter + self.binary_operation_extraction(element['index'])
+            elif index_type == 'FunctionCall':
+                index_info += self.index_access_extraction(base) + self.delimiter + self.function_call_extraction(element['index'])
             else:
+                # print(index_type)
                 raise ParsingError('AST field missed')
             return index_info
         # Check index type
@@ -519,6 +528,8 @@ class ASTSemanticExtraction:
         if sub_expression['type'] == 'Identifier':
             sub_expression_name = sub_expression['name']
             unary_operation_return += operator + self.delimiter + sub_expression_name
+        elif sub_expression['type'] == 'NumberLiteral':
+            unary_operation_return += operator + self.delimiter + self.number_literal_extraction(sub_expression)
         elif sub_expression['type'] == 'FunctionCall':
             unary_operation_return += operator + self.delimiter + self.function_call_extraction(sub_expression)
         elif sub_expression['type'] == 'MemberAccess':
@@ -526,9 +537,9 @@ class ASTSemanticExtraction:
         elif sub_expression['type'] == 'IndexAccess':
             unary_operation_return += operator + self.delimiter + self.index_access_extraction(sub_expression)
         elif sub_expression['type'] == 'TupleExpression':
-            print(self.tuple_expression_extraction(sub_expression))
+            pass
         else:
-            # print(sub_expression['type'])
+            print(sub_expression)
             raise ParsingError('AST field missed')
         return unary_operation_return
 
@@ -586,6 +597,8 @@ class ASTSemanticExtraction:
                         self.conditional_extraction(statement)
                     elif statement_type == 'InLineAssemblyStatement':
                         pass
+                    elif statement_type == 'Block':
+                        self.block_analysis(statement)
                     else:
                         print(statement)
                         raise ParsingError('AST field missed')
@@ -662,6 +675,8 @@ class ASTSemanticExtraction:
             while_condition_returns = 'While ' + self.unary_operation_extraction(condition)
         elif condition_type == 'BooleanLiteral':
             while_condition_returns = 'While ' + self.boolean_literal_extraction(condition)
+        elif condition_type == 'MemberAccess':
+            while_condition_returns = 'While ' + self.member_access_name(condition)
         else:
             print(condition_type)
             raise ParsingError('AST field missed')
@@ -735,6 +750,8 @@ class ASTSemanticExtraction:
             self.member_access_name(expression)
         elif expression_type == 'Conditional':
             self.conditional_extraction(expression)
+        elif expression_type == 'TupleExpression':
+            pass
         else:
             # print(expression)
             raise ParsingError('AST field missed')
@@ -748,6 +765,10 @@ class ASTSemanticExtraction:
             con_info = self.unary_operation_extraction(condition)
         elif condition['type'] == 'Identifier':
             con_info = self.identifier_extraction(condition)
+        elif condition['type'] == 'MemberAccess':
+            con_info = self.member_access_name(condition)
+        elif condition['type'] == 'TupleExpression':
+            pass
         else:
             print(condition['type'])
             raise ParsingError('AST field missed')
@@ -778,8 +799,14 @@ class ASTSemanticExtraction:
             self.member_access_name(element)
         elif true_body_type == 'IfStatement':
             self.if_statement_analysis(element)
+        elif true_body_type == 'IndexAccess':
+            self.index_access_extraction(element)
         elif true_body_type == 'BinaryOperation':
             self.binary_operation_extraction(element)
+        elif true_body_type == 'UnaryOperation':
+            self.unary_operation_extraction(element)
+        elif true_body_type == 'TupleExpression':
+            pass
         else:
             print(element)
             raise ParsingError('AST field missed')
@@ -809,8 +836,14 @@ class ASTSemanticExtraction:
             self.member_access_name(element)
         elif false_body_type == 'IfStatement':
             self.if_statement_analysis(element)
+        elif false_body_type == 'IndexAccess':
+            self.index_access_extraction(element)
         elif false_body_type == 'BinaryOperation':
             self.binary_operation_extraction(element)
+        elif false_body_type == 'UnaryOperation':
+            self.unary_operation_extraction(element)
+        elif false_body_type == 'TupleExpression':
+            pass
         else:
             # print(element)
             raise ParsingError('AST field missed')
