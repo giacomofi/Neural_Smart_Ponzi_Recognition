@@ -36,10 +36,6 @@ if __name__ == '__main__':
     X_test_name_df = pd.DataFrame(X_test_name.todense(), columns=[x+'_text' for x in cv_name.get_feature_names()])
     X_test_text_df = pd.DataFrame(X_test_text.todense(), columns=[y+'_title' for y in cv_text.get_feature_names()])
 
-
-    # train_contracts = pd.concat([X_train_name_df, X_train_text_df], axis=1)
-    # test_contracts = pd.concat([X_test_name_df, X_test_text_df], axis=1)
-
     model = model_switcher.logistic_regression(['l1'],[1, 1.5, 2, 2.5],['balanced'],[True, False],[42],['liblinear'])
 
     model.fit(X_train_text_df.values, y_train)
