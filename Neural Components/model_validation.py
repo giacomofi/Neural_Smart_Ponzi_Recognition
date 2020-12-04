@@ -1,15 +1,11 @@
 import pandas as pd
-import io
 
 from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.model_selection import train_test_split, cross_val_score
-from sklearn.metrics import confusion_matrix
+from sklearn.model_selection import cross_val_score
 from nltk.stem import WordNetLemmatizer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.model_selection import GridSearchCV
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.linear_model import LogisticRegression
+
 
 # Defining a lemmatizer
 lemmatizer = WordNetLemmatizer()
