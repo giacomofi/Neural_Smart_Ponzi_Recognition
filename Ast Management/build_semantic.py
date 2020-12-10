@@ -5,6 +5,9 @@
 # Semantic is defined by all variables, structs, wildcards, inheritance relationships and so on
 # This version builds a txt file for each AST
 
+
+############### DON'T USE THIS ##################
+
 from ast_parser_tools import ASTSemanticExtraction
 
 if __name__ == '__main__':
