@@ -6,8 +6,11 @@ from os import listdir
 from os.path import isfile, join
 import os
 
+this_dir, _ = os.path.split(__file__)
+data_dir = this_dir.replace('Ast Management', 'Not Smart Ponzi')
+not_smart_ponzi_source_code_dir = this_dir.replace('Ast Management', 'Not Smart Ponzi Source Code')
 
-sub_directories = [x[0] for x in os.walk('/home/giacomo/PycharmProjects/ast_generator/Not Smart Ponzi/')]
+sub_directories = [x[0] for x in os.walk(data_dir + '/')]
 for sub_dir in sub_directories:
     s = sub_dir
     contracts = [f for f in listdir(sub_dir) if isfile(join(sub_dir, f))]
@@ -25,7 +28,7 @@ for sub_dir in sub_directories:
             else:
                 pass
 
-            with open('/home/giacomo/Scrivania/contracts source code/' + contract_name,'w') as file:
+            with open(not_smart_ponzi_source_code_dir + '/' + contract_name,'w') as file:
                 file.write(source_code)
 
 

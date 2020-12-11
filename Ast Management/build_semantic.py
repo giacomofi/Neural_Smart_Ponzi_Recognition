@@ -6,7 +6,7 @@
 # This version builds a txt file for each AST
 
 
-############### DON'T USE THIS ##################
+############### DEPRECATED ##################
 
 from ast_parser_tools import ASTSemanticExtraction
 
@@ -20,7 +20,8 @@ if __name__ == '__main__':
     for ast in parser.ast_objects:
         try:
             # Generating semantic documents for Smart Ponzies
-            with open('/home/giacomo/PycharmProjects/ast_generator/Ponzi Semantic Documents/' + ast.name + '.txt', 'w') as file:
+            with open('/home/giacomo/PycharmProjects/ast_generator/Ponzi Semantic Documents/' + ast.name + '.txt',
+                      'w') as file:
                 # Check all the AST objects parameters
                 # If a parameter is empty then we don't have semantic, so, no file writing
                 if len(ast.pragmas) != 0:
@@ -90,7 +91,8 @@ if __name__ == '__main__':
     # We repeat the same process, but now we build semantic for Not Ponzies
     for ast in parser.ast_objects:
         try:
-            with open('/home/giacomo/PycharmProjects/ast_generator/Not Ponzi Semantic Documents/' + ast.name + '.txt', 'w') as file:
+            with open('/home/giacomo/PycharmProjects/ast_generator/Not Ponzi Semantic Documents/' + ast.name + '.txt',
+                      'w') as file:
                 if len(ast.pragmas) != 0:
                     for pragma in ast.pragmas:
                         file.write(pragma)
