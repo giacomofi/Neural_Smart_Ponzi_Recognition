@@ -1,7 +1,7 @@
 #
 # Author: giacomo
 # 27 - 11 - 20
-# Logistic Regression - Decision Tree - Random Forest - Multinomial Nonlinear Bayes
+# Logistic Regression - Decision Tree - Random Forest - Multinomial Naive Bayes
 #
 
 from sklearn.naive_bayes import MultinomialNB
@@ -85,9 +85,9 @@ def random_forest(n_estimators, criterion, max_depth, bootstrap, min_samples_spl
     return model
 
 
-def multinomial_nonlinear_bayes(fit_prior, alpha):
+def multinomial_naive_bayes(fit_prior, alpha):
     """
-    Return a multinomial nonlinear Bayes model
+    Return a multinomial naive Bayes model
     :param fit_prior: Whether to learn class prior probabilities or not. If false, a uniform prior will be used.
     :param alpha: Additive (Laplace/Lidstone) smoothing parameter (0 for no smoothing).
     :return:

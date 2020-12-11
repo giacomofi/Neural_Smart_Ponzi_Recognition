@@ -5,13 +5,16 @@ from sklearn.model_selection import train_test_split
 import model_switcher
 from sklearn.metrics import confusion_matrix
 from nltk.stem import WordNetLemmatizer
+import os
 
 if __name__ == '__main__':
 
+    this_dir, _ = os.path.split(__file__)
+    data_dir = this_dir.replace('Neural Components', 'Docs')
     # Defining a lemmatizer
     lemmatizer = WordNetLemmatizer()
     # Reading the contracts dataset
-    contracts = pd.read_csv('/home/giacomo/PycharmProjects/ast_generator/Docs/contracts2.csv')
+    contracts = pd.read_csv(data_dir + '/contracts2.csv')
 
     # Features extraction
     # Setting X as Name and Text features

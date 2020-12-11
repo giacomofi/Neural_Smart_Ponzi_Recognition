@@ -1,16 +1,17 @@
 import pandas as pd
-
+import os
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.model_selection import cross_val_score
 from nltk.stem import WordNetLemmatizer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.model_selection import GridSearchCV
 
-
+this_dir, _ = os.path.split(__file__)
+data_dir = this_dir.replace('Neural Components', 'Docs')
 # Defining a lemmatizer
 lemmatizer = WordNetLemmatizer()
 # Reading the contracts dataset
-contracts = pd.read_csv('/home/giacomo/PycharmProjects/ast_generator/Docs/contracts2.csv')
+contracts = pd.read_csv(data_dir + '/contracts2.csv')
 
 # Features extraction
 # Setting X as Name and Text features
