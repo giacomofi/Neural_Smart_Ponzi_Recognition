@@ -7,10 +7,10 @@ if __name__ == '__main__':
     rows = [['Model', 'Target', 'Precision', 'Recall', 'F1-Score'],
             ['Decision Tree', '0', '0.99', '0.99', '0.99'],
             ['Decision Tree', '1', '0.93', '0.89', '0.91'],
-            ['Logistic Regression', '0', '1.00', '1.00', '1.00'],
+            ['Logistic Regression', '0', '0.99', '0.99', '0.99'],
             ['Logistic Regression', '1', '0.99', '0.96', '0.97'],
-            ['Multinomial Naive Bayes', '0', '1.00', '1.00', '1.00'],
-            ['Multinomial Naive Bayes', '1', '1.00', '0.97', '0.99']]
+            ['Multinomial Naive Bayes', '0', '0.98', '0.98', '0.98'],
+            ['Multinomial Naive Bayes', '1', '0.97', '0.95', '0.96']]
 
     table = Texttable()
     table.set_cols_align(["c"] * 5)

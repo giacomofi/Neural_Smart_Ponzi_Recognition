@@ -6,14 +6,16 @@
 import seaborn as sns
 import matplotlib.pyplot as plt
 import pandas as pd
+import os
 from wordcloud import WordCloud, STOPWORDS
 
 if __name__ == '__main__':
-
+    this_dir, _ = os.path.split(__file__)
+    data_dir = this_dir.replace('EDA', 'Docs')
     # Set theme for seaborn
     sns.set_theme(style="whitegrid")
     # Reading dataset
-    contracts = pd.read_csv('/home/giacomo/PycharmProjects/ast_generator/Docs/contracts.csv')
+    contracts = pd.read_csv(data_dir + '/contracts.csv')
     # Building count plot for target variable
     sns.countplot(x="Target", data=contracts)
     # Show plot
@@ -52,10 +54,10 @@ if __name__ == '__main__':
     plt.figure(figsize=(14, 14))
     plt.imshow(wc)
     plt.axis("off")
-    plt.savefig('/home/giacomo/PycharmProjects/ast_generator/EDA/Most Used Terms in Wildcards')
+    plt.savefig(this_dir + '/Most Used Terms in Wildcards')
 
-    ponzi = pd.read_csv('/home/giacomo/PycharmProjects/ast_generator/Docs/ponzi.csv')
-    not_ponzi = pd.read_csv('/home/giacomo/PycharmProjects/ast_generator/Docs/not_ponzi.csv')
+    ponzi = pd.read_csv(data_dir + '/ponzi.csv')
+    not_ponzi = pd.read_csv(data_dir + '/not_ponzi.csv')
     text = ' '
 
     # iterate through the csv file
@@ -87,7 +89,7 @@ if __name__ == '__main__':
     plt.figure(figsize=(14, 14))
     plt.imshow(wc)
     plt.axis("off")
-    plt.savefig('/home/giacomo/PycharmProjects/ast_generator/EDA/Most used terms in Ponzies')
+    plt.savefig(this_dir + '/Most used terms in Ponzies')
 
     text = ' '
 
@@ -120,5 +122,5 @@ if __name__ == '__main__':
     plt.figure(figsize=(14, 14))
     plt.imshow(wc)
     plt.axis("off")
-    plt.savefig('/home/giacomo/PycharmProjects/ast_generator/EDA/Most used terms in Not Ponzies')
+    plt.savefig(this_dir + '/Most used terms in Not Ponzies')
 
