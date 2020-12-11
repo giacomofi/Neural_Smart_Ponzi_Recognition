@@ -14,6 +14,7 @@ if __name__ == '__main__':
     # Defining a lemmatizer
     lemmatizer = WordNetLemmatizer()
     # Reading the contracts dataset
+    print(data_dir + '/contracts2.csv')
     contracts = pd.read_csv(data_dir + '/contracts2.csv')
 
     # Features extraction
