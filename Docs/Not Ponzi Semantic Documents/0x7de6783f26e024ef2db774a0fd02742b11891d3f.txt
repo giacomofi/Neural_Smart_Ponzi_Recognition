@@ -7,14 +7,16 @@ Freezer inherits from Ownable Pauser inherits from Ownable Locker inherits from 
 onlyOwner isFreezed isPause isLockup isMinting 
 Transfer Approval OwnershipTransferred Freezed Unfreezed Pause Resume LockedUp Finished 
 _owner is equal to msg sender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
 If a corresponds to 0
  is equal to True
+Invalid symbol freezing dsc
 pausing is equal to True
 pausing is equal to False
  is equal to lockup target add
  is equal to lockup target sub
+Invalid symbol lockup target
 minting is equal to True
 minting is equal to False
 totalSupply is equal to totalSupply mul

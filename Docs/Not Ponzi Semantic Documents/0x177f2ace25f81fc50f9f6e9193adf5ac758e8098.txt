@@ -20,7 +20,7 @@ _owner is equal to 0xAB35D3476251C6b614dC2eb36380D7AF1232D822
 _launchTimestamp is equal to block timestamp
  is equal to True
 _lastLockDropTimestamp is equal to block timestamp
-_lastLockDropAddress is equal to 
+_lastLockDropAddress is equal to address
 If y is greater then 0
 mintingLimit increments of 2 Invalid symbol 24 multiplied by 
 If y is greater then 1

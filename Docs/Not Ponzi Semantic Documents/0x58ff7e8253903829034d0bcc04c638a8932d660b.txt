@@ -17,4 +17,4 @@ name is equal to _tokenName
 decimals is equal to _decimalUnits
 symbol is equal to _tokenSymbol
  is equal to _value
-If 
+If not _spender call

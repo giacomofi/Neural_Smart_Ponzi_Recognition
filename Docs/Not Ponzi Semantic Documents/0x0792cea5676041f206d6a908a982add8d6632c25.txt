@@ -18,4 +18,4 @@ name is equal to IberiCoin
 decimals is equal to 5
 symbol is equal to IBCO
  is equal to _value
-If 
+If not _spender call

@@ -21,6 +21,10 @@ ilk is equal to ilk_
  is equal to 1
 If what corresponds to beg
 beg is equal to data
+If what corresponds to ttl
+ttl is equal to uint48
+If what corresponds to tau
+tau is equal to uint48
 id is equal to 
 bids id bid is equal to bid
 bids id lot is equal to lot
@@ -36,4 +40,6 @@ bids id tic is equal to add
 bids id guy is equal to msg sender
 bids id lot is equal to lot
 bids id tic is equal to add
+Invalid symbol bids id
+Invalid symbol bids id
 flip is equal to 

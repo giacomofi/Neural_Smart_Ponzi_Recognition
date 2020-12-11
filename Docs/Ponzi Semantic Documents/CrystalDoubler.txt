@@ -8,8 +8,8 @@ owner is equal to msg sender
 If msg value is greater then 500 finney
 Total_Players is equal to depositors length plus 1
 depositors length increments of 1
- EtherAddress is equal to msg sender
- Amount is equal to Amount
+depositors length minus 1 EtherAddress is equal to msg sender
+depositors length minus 1 Amount is equal to Amount
 Balance increments of Amount
 Total_Deposited increments of Amount
 While Balance is greater then depositors nr Amount multiplied by 200 divided by 100 Invalid symbol 

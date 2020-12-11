@@ -4,6 +4,7 @@ symbol name decimals _totalSupply _totalBurned owner balances allowed
 REBITCOIN totalSupply totalBurned balanceOf transfer transferFrom approve allowance burn burnFrom 
 onlyOwner 
 Transfer Approval Burn 
+If msg sender is different from owner
 owner is equal to msg sender
  is equal to _totalSupply
 l_totalSupply is equal to _totalSupply

@@ -18,4 +18,4 @@ name is equal to ThonksV2
 decimals is equal to 18
 symbol is equal to THV2
  is equal to _value
-If 
+If not _spender call

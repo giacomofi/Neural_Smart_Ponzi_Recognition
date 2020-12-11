@@ -20,7 +20,7 @@ If _subtractedValue is greater then oldValue
  is equal to 0
  is equal to oldValue sub
 owner is equal to msg sender
-owner is equal to 
+owner is equal to address
 owner is equal to _newOwner
 totalSupply_ is equal to totalSupply_ add
  is equal to balances _to add

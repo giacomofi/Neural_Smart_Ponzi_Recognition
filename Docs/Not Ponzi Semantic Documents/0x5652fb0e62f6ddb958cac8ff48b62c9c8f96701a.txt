@@ -11,7 +11,7 @@ MinterAdded MinterRemoved OwnershipTransferred RestrictionsDisabled AdminAdded A
 If a corresponds to 0
  is equal to True
  is equal to False
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
 _restrictionsEnabled is equal to False
  is equal to True
@@ -44,9 +44,9 @@ i is less then ownership length
 stamp is equal to _stamp
 fundsToken is equal to _fundsToken
  is equal to True
-If 
+If not isRestrictionEnabled
 If from corresponds to owner
-If 
+If not checkWhitelistAllowed
 If restrictionCode corresponds to SUCCESS_CODE
 If restrictionCode corresponds to FAILURE_NON_WHITELIST
 success is equal to super transfer

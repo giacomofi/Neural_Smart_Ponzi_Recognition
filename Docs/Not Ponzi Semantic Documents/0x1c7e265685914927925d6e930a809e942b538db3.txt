@@ -6,6 +6,7 @@ add sub mul div mod balanceOf transfer allowance transferFrom approve postBounty
 onlyBountyMaker onlyBountyMakerOrBountyHunter onlyArbiter inState 
 Approval Transfer bountyPosted bountyClaimed bountyWithdrawn Disputed Resolved 
 If a corresponds to 0
+State has values Blank Posted Claimed Disputed
 bountyMaker is equal to _bountyMaker
 state is equal to State Posted
 bounty is equal to _bounty

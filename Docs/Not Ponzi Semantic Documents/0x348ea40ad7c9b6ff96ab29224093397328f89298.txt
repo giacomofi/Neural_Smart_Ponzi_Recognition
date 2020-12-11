@@ -4,11 +4,15 @@ FACTORY ETH SAI_POOL CSAI_POOL underlyingToken totalSupply underlyingTokenType u
 getMetadata getComponents approve transfer transferFrom balanceOf totalSupply decimals symbol name isCToken name symbol decimals getToken getMetadata getComponents getPoolName getSymbol convertToString 
 UniswapV1TokenAdapter inherits from TokenAdapter 
  is equal to Component
+underlyingTokenType is equal to CToken
+underlyingTokenType is equal to ERC20
  is equal to Component
 If token corresponds to SAI_POOL
+If token corresponds to CSAI_POOL
 If returnData length corresponds to 32
 i is less then 32
-If  is different from 
+If  is different from byte
+Invalid symbol length
 result is equal to 
 i is less then length
  is equal to 

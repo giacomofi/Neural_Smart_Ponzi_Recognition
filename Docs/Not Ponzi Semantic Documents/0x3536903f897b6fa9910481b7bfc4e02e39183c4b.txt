@@ -3,6 +3,7 @@ IERC20 CoveredCall
 currentState buyer seller underlyingAssetToken purchasingToken underlyingAssetAmount strikePrice premiumAmount expirationDate oldPremiumAmount paymentAmount 
 totalSupply balanceOf transfer allowance approve transferFrom initialize updatePremium open close redeem 
 Transfer Approval PremiumUpdated Initialized Opened Redeemed Closed 
+ContractStates has values NONE STATUS_INITIALIZED STATUS_OPEN STATUS_REDEEMED STATUS_CLOSED
 seller is equal to msg sender
 underlyingAssetToken is equal to _underlyingAssetToken
 underlyingAssetAmount is equal to _underlyingAssetAmount

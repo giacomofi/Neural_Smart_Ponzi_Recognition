@@ -34,7 +34,7 @@ onlyOwner onlySolo
 OwnershipTransferred ContractStatusSet LogOperationExecuted LogOperationCanceled 
 If a corresponds to 0
 _owner is equal to msg sender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
 If not must
 If not must
@@ -45,23 +45,26 @@ If not must
 If not must
 If not must
 i is greater then 0
+Invalid symbol i
 If  is different from 0
 If input corresponds to 0
 While j is different from 0
+Invalid symbol length
 j is divided by 10
 j is equal to input
 i is greater then 0
- is equal to 
+Invalid symbol i
+ is equal to byte
 j is divided by 10
- is equal to 
- is equal to 
+ is equal to byte
+ is equal to byte
 i is less then 20
  is equal to char
 z is equal to z Invalid symbol 4
  is equal to char
 z is equal to z Invalid symbol 4
- is equal to 
- is equal to 
+ is equal to byte
+ is equal to byte
 i is less then 32
  is equal to char
 z is equal to z Invalid symbol 4
@@ -69,11 +72,23 @@ z is equal to z Invalid symbol 4
 z is equal to z Invalid symbol 4
 If input is less then 10
 If target corresponds to 0 Invalid symbol 
+AssetDenomination has values Wei Par
+AssetReference has values Delta Target
+Status has values Normal Liquid Vapor
+ActionType has values Deposit Withdraw Transfer Buy Sell Trade Liquidate Vaporize Call
+AccountLayout has values OnePrimary TwoPrimary PrimaryAndSecondary
+MarketLayout has values ZeroMarkets OneMarket TwoMarkets
 If actionType corresponds to Actions ActionType Deposit Invalid symbol  Invalid symbol 
+If actionType corresponds to Actions ActionType Call
 If actionType corresponds to Actions ActionType Transfer Invalid symbol 
+If actionType corresponds to Actions ActionType Liquidate Invalid symbol 
 SOLO_MARGIN is equal to SoloMargin
+SignatureType has values NoPrepend Decimal Hexadecimal Invalid
 If sigType corresponds to SignatureType NoPrepend
 signedHash is equal to hash
+If sigType corresponds to SignatureType Decimal
+signedHash is equal to keccak256
+signedHash is equal to keccak256
 g_isOperational is equal to True
 EIP712_DOMAIN_HASH is equal to keccak256
 g_isOperational is equal to False

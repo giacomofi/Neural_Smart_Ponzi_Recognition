@@ -11,8 +11,8 @@ events is equal to Events
 minter is equal to MinterInterface
 reserve is equal to CrowdsaleReserveInterface
 kyber is equal to KyberInterface
-If _paymentToken corresponds to 
-If _paymentToken corresponds to 
+If _paymentToken corresponds to address
+If _paymentToken corresponds to address
 collected is equal to collectPayment
 collected is equal to convertTokens
 If collected is less then fundingRemaining
@@ -20,7 +20,7 @@ amount is equal to
 amount is equal to 
 If collected is greater then fundingRemaining
 If amount is greater then max
-If  corresponds to 
+If address corresponds to address
 paymentBalanceBefore is equal to 
 fundingBalanceBefore is equal to _fundingToken balanceOf
 change is equal to _amount sub

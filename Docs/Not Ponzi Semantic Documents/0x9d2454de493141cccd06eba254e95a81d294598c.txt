@@ -16,7 +16,10 @@ whitelist is equal to _whitelist
 startTime is equal to _startTime
 endTime is equal to _endTime
 If  corresponds to 0
+Invalid symbol totalBids
  is equal to Offer
+Invalid symbol totalBids
+Invalid symbol msg sender
 startTime is equal to _startTime
 endTime is equal to _endTime
 i is less then bidders length

@@ -25,7 +25,7 @@ totalSupply_ is equal to totalSupply_ add
  is equal to balances _to add
 mintingFinished is equal to True
 If signature length is different from 65
-If  is greater then 0x7FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5D576E7357A4501DDFE92F46681B20A0
+If uint256 is greater then 0x7FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5D576E7357A4501DDFE92F46681B20A0
 If v is different from 27 Invalid symbol 
  is equal to 
  is equal to balances _to add

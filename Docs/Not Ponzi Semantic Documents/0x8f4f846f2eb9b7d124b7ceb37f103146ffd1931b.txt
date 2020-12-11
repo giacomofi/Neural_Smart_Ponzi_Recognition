@@ -8,7 +8,7 @@ onlyOwner onlyPayloadSize whenNotPaused whenPaused
 Transfer Approval Pause Unpause DestroyedBlackFunds AddedBlackList RemovedBlackList Issue Redeem Deprecate Params 
 If a corresponds to 0
 owner is equal to msg sender
-If newOwner is different from 
+If newOwner is different from address
 owner is equal to newOwner
 If fee is greater then maximumFee
 fee is equal to maximumFee

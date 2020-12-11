@@ -8,7 +8,7 @@ onlyOwner
 OwnershipRenounced OwnershipTransferred Transfer Approval Burn Freeze Unfreeze 
 owner is equal to msg sender
 owner is equal to newOwner
-owner is equal to 
+owner is equal to address
 If a corresponds to 0
 c is equal to a multiplied by b
 c is equal to a plus b

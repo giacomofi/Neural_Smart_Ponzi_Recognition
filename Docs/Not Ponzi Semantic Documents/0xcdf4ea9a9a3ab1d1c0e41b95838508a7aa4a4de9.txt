@@ -6,7 +6,7 @@ Ownable inherits from Context SwapAndDepositFactory inherits from ISwapAndDeposi
 onlyOwner 
 OwnershipTransferred SwapDeposit SwapContract NewSwapContract 
 _owner is equal to _msgSender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
 libraryAddress is equal to _libraryAddress
 authAddress is equal to _authAddress

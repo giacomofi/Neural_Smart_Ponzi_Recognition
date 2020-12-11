@@ -11,9 +11,11 @@ Approval FlashLoan LogNote LogSetAuthority LogSetOwner Repay Boost
 owner is equal to msg sender
 owner is equal to owner_
 authority is equal to authority_
-If src corresponds to 
+If src corresponds to address
+If src corresponds to owner
+If authority corresponds to DSAuthority
 target is equal to cache read
-If target corresponds to 
+If target corresponds to address
 target is equal to cache write
 response is equal to execute
 cache is equal to DSProxyCache
@@ -63,12 +65,12 @@ If  is greater then 0
 If  is different from 
  is equal to 
 If  corresponds to KYBER_ETH_ADDRESS
- is equal to 
+ is equal to  value
  increments of tRet
 If  corresponds to KYBER_ETH_ADDRESS
  increments of 
  increments of 
- is equal to 
+ is equal to _addresses 0 call value
 
 If  corresponds to KYBER_ETH_ADDRESS
 tokensLeft is equal to 
@@ -81,5 +83,5 @@ borrowAmount decreases of getFee
 If collToken is different from ETH_ADDRESS
 If  is less or equal to maxColl
 If  is less or equal to maxBorrow
-If currAuthority corresponds to 
+If currAuthority corresponds to address
 guard is equal to 

@@ -17,3 +17,4 @@ If msg value is less then stake plus DELTA
 mustBeDestroyed is equal to True
 newPeriod is equal to _newPeriod
 If blockheight plus period is greater then block number
+If msg sender is different from owner

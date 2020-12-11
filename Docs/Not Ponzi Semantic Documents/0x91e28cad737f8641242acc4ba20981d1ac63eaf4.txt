@@ -11,7 +11,7 @@ onlyOwner onlyWLManagers onlyWLOperators onlyFundingManagers onlyFundingOperator
 OwnershipTransferred WLManagersAdded WLManagersRemoved WLOperatorsAdded WLOperatorsRemoved FundingManagersAdded FundingManagersRemoved FundingOperatorsAdded FundingOperatorsRemoved FundsUnlockerManagersAdded FundsUnlockerManagersRemoved FundsUnlockerOperatorsAdded FundsUnlockerOperatorsRemoved MaxWLAmountChanged MinterOrigins MinterChanged WalletOnTopAddressChanged LogWLThresholdBalanceChanged LogWLAddressAdded LogWLMassiveAddressesAdded LogWLAddressRemoved ATDeployed 
 If a corresponds to 0
 _owner is equal to msg sender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
 whitelistThresholdBalance is equal to _whitelistThresholdBalance
 FAddress is equal to _factoryAddress
@@ -34,11 +34,14 @@ _walletOnTopAddress is equal to _wallet
  is equal to False
 whitelistThresholdBalance is equal to _newThreshold
 whitelist _subscriber maxAmount is equal to _newMaxToken
+Invalid symbol whitelistLength
 whitelist _subscriber permitted is equal to True
 whitelist _subscriber maxAmount is equal to _maxAmnt
 i is less then _subscriber length
+Invalid symbol whitelistLength
 whitelist _subscriber i permitted is equal to True
 whitelist _subscriber i maxAmount is equal to 
+Invalid symbol whitelistLength
 whitelist _subscriber permitted is equal to False
 whitelist _subscriber maxAmount is equal to 0
 fAddress is equal to _fAddress

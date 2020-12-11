@@ -12,9 +12,10 @@ Ownable inherits from Context HintoTips inherits from Ownable
 onlyOwner isPublisher tipExists 
 OwnershipTransferred ApprovePublisher PublisherDisapproved TipPublished TipVoided 
 _owner is equal to _msgSender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
  is equal to True
  is equal to False
  is equal to tip
+Invalid symbol tipsCount
 tips _tipId isValid is equal to False

@@ -13,11 +13,11 @@ c is equal to a divided by b
 owner is equal to msg sender
 newOwner is equal to _newOwner
 owner is equal to newOwner
-newOwner is equal to 
+newOwner is equal to address
 symbol is equal to INVC
 name is equal to Investcoin
 decimals is equal to 18
-_totalSupply is equal to 10000000 multiplied by 10 Invalid symbol 
+_totalSupply is equal to 10000000 multiplied by 10 Invalid symbol uint
  is equal to _totalSupply
  is equal to msg sender sub
  is equal to balances to add

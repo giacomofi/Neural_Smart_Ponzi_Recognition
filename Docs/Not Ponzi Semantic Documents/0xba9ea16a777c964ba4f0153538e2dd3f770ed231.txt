@@ -61,5 +61,6 @@ If value is greater then restrict
 If balance is greater then 0
  is equal to lastHolder
  is equal to 
+Invalid symbol shareholders length
  is equal to 0
  is equal to 0

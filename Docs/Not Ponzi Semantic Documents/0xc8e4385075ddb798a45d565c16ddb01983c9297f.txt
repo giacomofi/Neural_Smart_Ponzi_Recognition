@@ -14,7 +14,24 @@ Transfer Approval TransferSingle TransferBatch ApprovalForAll URI TransferSingle
 result is equal to 
 index increments of 32
 EIP712_DOMAIN_HASH is equal to keccak256
+SignatureType has values Illegal EIP712 EthSign WalletBytes WalletBytes32 NSignatureTypes
 If signatureType corresponds to SignatureType Illegal
+If signatureType corresponds to SignatureType EIP712
+r is equal to _sig readBytes32
+s is equal to _sig readBytes32
+v is equal to uint8
+recovered is equal to ecrecover
+isValid is equal to _signerAddress corresponds to recovered
+If signatureType corresponds to SignatureType EthSign
+r is equal to _sig readBytes32
+s is equal to _sig readBytes32
+v is equal to uint8
+recovered is equal to ecrecover
+isValid is equal to _signerAddress corresponds to recovered
+If signatureType corresponds to SignatureType WalletBytes
+isValid is equal to ERC1271_MAGICVALUE corresponds to 
+If signatureType corresponds to SignatureType WalletBytes32
+isValid is equal to ERC1271_MAGICVALUE corresponds to 
 If a corresponds to 0
  is equal to balances _from _id sub
  is equal to balances _to _id add
@@ -27,6 +44,7 @@ i is less then nTransfer
 i is less then _owners length
  is equal to 
 If _interfaceID corresponds to INTERFACE_SIGNATURE_ERC165 Invalid symbol 
+FeeTokenType has values ERC1155 ERC20 NTypes
 
  is equal to abi decode
 
@@ -42,5 +60,5 @@ fee is equal to
 feeRecipient is equal to 
 If feeTokenType corresponds to FeeTokenType ERC1155
  is equal to abi decode
-If tokenAddress corresponds to 
+If tokenAddress corresponds to address
 tokenAddress is equal to abi decode

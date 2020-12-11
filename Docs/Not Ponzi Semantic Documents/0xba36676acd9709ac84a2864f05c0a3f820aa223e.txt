@@ -12,7 +12,7 @@ c is equal to a divided by b
 owner is equal to msg sender
 newOwner is equal to _newOwner
 owner is equal to newOwner
-newOwner is equal to 
+newOwner is equal to address
 symbol is equal to CLOG
 name is equal to CLO Gold
 decimals is equal to 18

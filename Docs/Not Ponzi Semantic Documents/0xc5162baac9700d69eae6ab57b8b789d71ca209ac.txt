@@ -4,9 +4,12 @@ name symbol decimals ETH_TOKEN_ADDRESS MAX_QTY proxy saiAddress daiAddress unisw
 tokenAddress factoryAddress addLiquidity removeLiquidity getEthToTokenInputPrice getEthToTokenOutputPrice getTokenToEthInputPrice getTokenToEthOutputPrice ethToTokenSwapInput ethToTokenTransferInput ethToTokenSwapOutput ethToTokenTransferOutput tokenToEthSwapInput tokenToEthTransferInput tokenToEthSwapOutput tokenToEthTransferOutput tokenToTokenSwapInput tokenToTokenTransferInput tokenToTokenSwapOutput tokenToTokenTransferOutput tokenToExchangeSwapInput tokenToExchangeTransferInput tokenToExchangeSwapOutput tokenToExchangeTransferOutput transfer transferFrom approve allowance balanceOf totalSupply setup totalSupply balanceOf transfer transferFrom approve allowance decimals maxGasPrice getUserCapInWei getUserCapInTokenWei enabled info getExpectedRate tradeWithHint getUniswapToken getUniswapContractAddress swapEtherToToken1 swapTokenToEther1 kyberToUniSwapArb u2kArb any2Arb  withdrawETHAndTokens getTokenBalance getKyberExpectedRate 
 onlyOwner 
 Approval 
+If msg sender is different from owner
 owner is equal to msg sender
 If uniswapContract corresponds to uniswapSai
+If uniswapContract corresponds to uniswapDai
 If tokenAddress corresponds to saiAddress
+If tokenAddress corresponds to daiAddress
 If fromExch corresponds to 2
 ethBack is equal to swapTokenToEther1
 ethBack is equal to usi tokenToEthSwapInput

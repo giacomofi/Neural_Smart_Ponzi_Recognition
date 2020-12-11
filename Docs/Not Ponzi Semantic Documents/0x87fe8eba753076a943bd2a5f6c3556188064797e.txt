@@ -23,18 +23,18 @@ _totalSupply is equal to _totalSupply sub
  is equal to amount
 UNISWAP_FACTORY is equal to UniswapFactoryInterface
 COMPOUND_ORACLE is equal to CompoundOracleInterface
-If  corresponds to 
+If address corresponds to address
 UNISWAP_FACTORY is equal to UniswapFactoryInterface
-If 
-If 
+If not isETH
+If not isETH
 
-If 
-If  corresponds to 
+If not isETH
+If address corresponds to address
 _name is equal to name
 _symbol is equal to symbol
 _decimals is equal to decimals
 _owner is equal to _msgSender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
 collateral is equal to _collateral
 collateralExp is equal to _collExp
@@ -50,17 +50,20 @@ windowSize is equal to _windowSize
 i is less then vaultOwners length
 
  is equal to 
+Invalid symbol index
 liquidationIncentive value is equal to _liquidationIncentive
 liquidationFactor value is equal to _liquidationFactor
 transactionFee value is equal to _transactionFee
 minCollateralizationRatio value is equal to _minCollateralizationRatio
 name is equal to _name
 symbol is equal to _symbol
-decimals is equal to 
+decimals is equal to uint8
 totalFee is equal to 0
  is equal to Vault
 i is less then vaultsToExerciseFrom length
 If oTokensToExercise corresponds to 0
+If vault oTokensIssued is greater or equal to oTokensToExercise
+oTokensToExercise is equal to oTokensToExercise sub
 vault underlying is equal to 0
 vault oTokensIssued is equal to newOTokensBalance
 vault oTokensIssued is equal to vault oTokensIssued sub
@@ -81,18 +84,19 @@ vault oTokensIssued is equal to vault oTokensIssued sub
 
 vault collateral is equal to vault collateral add
 If rightSideExp is less then leftSideExp
-exp is equal to 
+exp is equal to uint256
 stillSafe is equal to leftSideVal mul is less or equal to rightSideVal
-exp is equal to 
+exp is equal to uint256
 stillSafe is equal to leftSideVal is less or equal to rightSideVal mul
 If numeratorExp is less then denomExp
-exp is equal to 
+exp is equal to uint256
 numOptions is equal to numeratorVal div
-exp is equal to 
+exp is equal to uint256
 numOptions is equal to 
 If amtCollateralToPayExp is greater then 0
 amtCollateralToPay is equal to 
 amtCollateralToPay is equal to 
 
 
-If  corresponds to 
+If address corresponds to address
+If asset corresponds to address

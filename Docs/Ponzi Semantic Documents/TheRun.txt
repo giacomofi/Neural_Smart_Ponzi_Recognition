@@ -7,6 +7,7 @@ Balance Payout_id Last_Payout WinningPot Min_multiplier fees feeFrac PotFrac adm
 theRun  init Participate random ChangeOwnership WatchBalance WatchBalanceInEther CollectAllFees GetAndReduceFeesByFraction NextPayout WatchFees WatchWinningPot WatchLastPayout Total_of_Players PlayerInfo PayoutQueueSize 
 onlyowner 
 admin is equal to msg sender
+If msg sender corresponds to admin
 If msg value is less then 500 finney
 If msg value is greater then 20 ether
 deposit is equal to 20 ether

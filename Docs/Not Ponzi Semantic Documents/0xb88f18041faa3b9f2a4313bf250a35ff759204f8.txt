@@ -7,12 +7,15 @@ MerkleDrop inherits from MultiSigTools
 only_signer is_majority_sig 
 TransferMultiSig DropToken 
 multisig_contract is equal to MultiSigInterface
+
 multisig_contract is equal to MultiSigInterface
 i is less then self length
 If  corresponds to addr
 i is less then self length
 If  corresponds to addr
  is equal to 
+Invalid symbol self length minus 1
+Invalid symbol self length
  is equal to new_addr
 c is equal to a plus b
 c is equal to a minus b

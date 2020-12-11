@@ -3,4 +3,4 @@ StringHelpers
 b i 
 toString 
 i is less then 20
- is equal to 
+ is equal to byte

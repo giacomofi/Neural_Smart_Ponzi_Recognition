@@ -25,7 +25,22 @@ paused is equal to False
  is equal to lockedBaseQuantity _target add
 If  corresponds to 0
 If _timeNow is greater or equal to 1615334400
-totalSupply is equal to initialSupply multiplied by 10 Invalid symbol 
+If _timeNow is greater or equal to 1612915200
+If _timeNow is greater or equal to 1610236800
+If _timeNow is greater or equal to 1607558400
+If _timeNow is greater or equal to 1604966400
+If _timeNow is greater or equal to 1602288000
+If _timeNow is greater or equal to 1599696000
+If _timeNow is greater or equal to 1597017600
+If _timeNow is greater or equal to 1594339200
+If _timeNow is greater or equal to 1591747200
+If _timeNow is greater or equal to 1589068800
+If _timeNow is greater or equal to 1586476800
+If _timeNow is greater or equal to 1583798400
+If _timeNow is greater or equal to 1581292800
+If _timeNow is greater or equal to 1578614400
+If _timeNow is greater or equal to 1575936000
+totalSupply is equal to initialSupply multiplied by 10 Invalid symbol uint256
  is equal to totalSupply
 name is equal to tokenName
 symbol is equal to tokenSymbol

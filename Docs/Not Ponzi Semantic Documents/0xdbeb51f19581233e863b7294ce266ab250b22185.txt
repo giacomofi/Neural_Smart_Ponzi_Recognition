@@ -25,11 +25,11 @@ _success is equal to True
 _contract is equal to 
 _isFrom is equal to msg sender corresponds to 
 i is less then _n
-If  corresponds to 
+If  corresponds to bytes32
 If msg sender corresponds to 
 _isFrom is equal to True
 If _is_locked corresponds to False
-CONTRACT_ADDRESS is equal to 
+CONTRACT_ADDRESS is equal to address
 resolver is equal to _resolver
 key is equal to _key
 _success is equal to True

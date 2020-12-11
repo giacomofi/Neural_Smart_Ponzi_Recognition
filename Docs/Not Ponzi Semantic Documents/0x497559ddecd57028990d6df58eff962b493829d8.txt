@@ -14,7 +14,7 @@ OwnershipTransferred Transfer Approval Transfer Approval iBailout bBailout
 owner is equal to msg sender
 newOwner is equal to _newOwner
 owner is equal to newOwner
-newOwner is equal to 
+newOwner is equal to address
 symbol is equal to BRSD
 name is equal to BRRRRRRR
 decimals is equal to 2
@@ -64,6 +64,7 @@ rate is equal to _rate
 brr is equal to _brr
 If _totalSupply is greater or equal to _mostRecent
 If  is greater or equal to _totalSupply sub
+If _totalSupply is less then _mostRecent
  is equal to _balances sender sub
  is equal to _balances recipient add
 _totalSupply is equal to _totalSupply add

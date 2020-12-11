@@ -6,6 +6,7 @@ InvestorArray has percentage_ownership
 investors total_investors fees balance totaldeposited totalpaidout totaldividends Message_To_Investors owner PRE_payout PRE_amount PRE_i amount alreadyinvestor alreadyinvestor_id i k 
 EthVentures4  Enter NewOwner Emergency NewMessage NewManualInvestor ManualDeposit 
 manager 
+If msg sender corresponds to owner
 owner is equal to msg sender
 If msg value is less then 2 ether
 totalpaidout increments of PRE_amount divided by 100
@@ -27,9 +28,9 @@ alreadyinvestor_id is equal to i
 If alreadyinvestor corresponds to False
 total_investors is equal to investors length plus 1
 investors length increments of 1
- etherAddress is equal to msg sender
- amount is equal to amount
- percentage_ownership is equal to amount divided by totaldeposited multiplied by 10000000000
+investors length minus 1 etherAddress is equal to msg sender
+investors length minus 1 amount is equal to amount
+investors length minus 1 percentage_ownership is equal to amount divided by totaldeposited multiplied by 10000000000
 Message_To_Investors is equal to New Investor has joined us!
 k is less then investors length
 investors k percentage_ownership is equal to investors k amount divided by totaldeposited multiplied by 10000000000
@@ -46,8 +47,8 @@ Message_To_Investors is equal to new_sms
 totaldeposited increments of new_amount
 total_investors is equal to investors length plus 1
 investors length increments of 1
- etherAddress is equal to new_investor
- amount is equal to new_amount
- percentage_ownership is equal to new_amount divided by totaldeposited multiplied by 10000000000
+investors length minus 1 etherAddress is equal to new_investor
+investors length minus 1 amount is equal to new_amount
+investors length minus 1 percentage_ownership is equal to new_amount divided by totaldeposited multiplied by 10000000000
 Message_To_Investors is equal to New manual Investor has been added by the Manager!
 Message_To_Investors is equal to Manual Deposit received from the Manager

@@ -10,7 +10,7 @@ database is equal to DBInterface
 database is equal to DBInterface
 events is equal to Events
 reserve is equal to EscrowReserveInterface
-If 
+If not database boolStorage
 If roiCheckpoints is less or equal to 4
 unlockAmount is equal to 
 If not _withhold

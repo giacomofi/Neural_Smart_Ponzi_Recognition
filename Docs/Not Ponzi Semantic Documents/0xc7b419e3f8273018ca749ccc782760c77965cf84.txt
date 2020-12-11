@@ -17,7 +17,7 @@ owner is equal to newOwner
 tkn sender is equal to _from
 tkn value is equal to _value
 tkn data is equal to _data
-tkn sig is equal to 
+tkn sig is equal to bytes4
 totalSupply is equal to initialSupply
  is equal to totalSupply
 j is less then targets length

@@ -27,6 +27,6 @@ _decimals is equal to decimals
  is equal to False
 _cap is equal to cap
 _owner is equal to msg sender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
 If balance corresponds to 0

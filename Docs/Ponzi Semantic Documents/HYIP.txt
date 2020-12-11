@@ -8,6 +8,7 @@ PAYOUT_INTERVAL BENEFICIARIES_INTEREST INVESTORS_INTEREST INTEREST_DENOMINATOR m
 HYIP  Invest status performPayouts addInvestor changeAdmin addBeneficiary resetBeneficiaryList 
 adminOnly 
 Payout 
+If msg sender corresponds to m_admin
 m_admin is equal to msg sender
 m_latestPaidTime is equal to now
 bank is equal to this balance
@@ -20,11 +21,13 @@ If m_beneficiaries length is greater then 0
 beneficiariesPayout is equal to  divided by INTEREST_DENOMINATOR
 idx is equal to 0
 idx is less then m_beneficiaries length
-If 
+If not m_beneficiaries idx send
 idx is equal to m_investors length
  is greater then 0
 If m_investors idx investmentTime is greater then m_latestPaidTime plus PAYOUT_INTERVAL
-If 
+If not m_investors idx etherAddress send
 investorsPayout increments of payout
 m_latestPaidTime increments of PAYOUT_INTERVAL
+Invalid symbol paidPeriods
 m_admin is equal to newAdmin
+Invalid symbol m_beneficiaries

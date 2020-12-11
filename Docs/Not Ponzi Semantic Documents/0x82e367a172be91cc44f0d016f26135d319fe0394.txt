@@ -8,7 +8,7 @@ onlyOwner
 Transfer Approval OwnershipTransferred 
 If a corresponds to 0
 _owner is equal to msg sender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
 token is equal to IERC20
 i is less then recipients length

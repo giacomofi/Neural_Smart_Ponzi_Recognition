@@ -8,13 +8,14 @@ onlyOwner
 Transfer Approval OwnershipTransferred TokensReleased TokenVestingRevoked 
 If a corresponds to 0
 _owner is equal to msg sender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
 _beneficiary is equal to beneficiary
 _revocable is equal to revocable
 _duration is equal to duration
 _cliff is equal to start add
 _start is equal to start
- is equal to  add
+ is equal to address add
  is equal to True
 If block timestamp is less then _cliff
+If block timestamp is greater or equal to _start add Invalid symbol 

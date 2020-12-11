@@ -8,9 +8,9 @@ owner is equal to _to
 deprecated is equal to _to
  is equal to _value
  decreases of _value
-If _from corresponds to 
+If _from corresponds to address
 totalSupply increments of _value
  decreases of _value
-If _to corresponds to 
+If _to corresponds to address
 totalSupply decreases of _value
  increments of _value

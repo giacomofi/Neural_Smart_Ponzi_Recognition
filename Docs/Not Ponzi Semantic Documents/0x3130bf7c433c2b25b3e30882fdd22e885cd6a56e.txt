@@ -17,25 +17,28 @@ If a corresponds to 0
  is equal to to
  is equal to _ownedTokensCount to add
  is equal to _ownedTokensCount owner sub
- is equal to 
+ is equal to address
  is equal to _ownedTokensCount from sub
  is equal to _ownedTokensCount to add
  is equal to to
-If 
-If  is different from 
- is equal to 
+If not to isContract
+If  is different from address
+ is equal to address
  is equal to 0
  is equal to _ownedTokens to length
  is equal to _allTokens length
 If tokenIndex is different from lastTokenIndex
  is equal to lastTokenId
  is equal to tokenIndex
+Invalid symbol _ownedTokens from length
  is equal to lastTokenId
  is equal to tokenIndex
+Invalid symbol _allTokens length
  is equal to 0
 _name is equal to name
 _symbol is equal to symbol
  is equal to uri
 If  is different from 0
+Invalid symbol _tokenURIs tokenId
 i is less then _tokenId length
-lastContractAddress is equal to 
+lastContractAddress is equal to address

@@ -7,7 +7,13 @@ ERC20toUniPoolZapV2_General inherits from Initializable ERC20toUniPoolZapV2_Gene
 initializer onlyOwner stopInEmergency 
 Transfer Approval details residualETH 
 If a corresponds to 0
+
+initializing is equal to True
+initialized is equal to True
+
+initializing is equal to False
 owner is equal to newOwner
+
 If _IncomingTokenContractAddress corresponds to _UniPoolsUnderlyingTokenAddress
 nonConvertiblePortion is equal to SafeMath div
 UniSwapExchangeContractAddress is equal to IuniswapExchange_ERC20toUniPoolZapV1

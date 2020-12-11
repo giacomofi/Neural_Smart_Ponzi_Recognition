@@ -36,9 +36,11 @@ shield is equal to
 i is less then connectorArrayLength
 
  is equal to connector
+Invalid symbol count
 i is less then connectorArrayLength
 
  is equal to ConnectorsData
+Invalid symbol count
 i is less then staticLength
  is equal to connectorsContract staticConnectorArray
 i is less then staticLength

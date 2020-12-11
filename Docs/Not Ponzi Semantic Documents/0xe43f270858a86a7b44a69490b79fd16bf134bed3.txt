@@ -11,15 +11,19 @@ If  corresponds to addr
 i is less then self length
 If  corresponds to addr
  is equal to 
+Invalid symbol self length minus 1
+Invalid symbol self length
  is equal to new_addr
 multisig_contract is equal to MultiSigInterface
+
 multisig_contract is equal to MultiSigInterface
 
  is equal to True
-If 
+If not address_status addr
  is equal to False
 i is less then addresses length
  is equal to False
+Invalid symbol addresses
 i is less then _list length
 i is less then _list length
 i is less then _list length
@@ -27,7 +31,7 @@ c is equal to a plus b
 c is equal to a minus b
 c is equal to a multiplied by b
 c is equal to a divided by b
-If _token corresponds to 
+If _token corresponds to address
 object_erc20_pool is equal to ERC20TokenBankInterface
 exchange_erc20_token is equal to _exchange_erc20_token
 benifit_pool is equal to _benifit_pool

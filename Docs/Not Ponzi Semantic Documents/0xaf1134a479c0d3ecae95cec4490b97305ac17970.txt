@@ -6,7 +6,7 @@ Ownable inherits from Context Registry inherits from Ownable
 onlyOwner 
 OwnershipTransferred 
 _owner is equal to msgSender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
  is equal to info
  is equal to DEPRECATED

@@ -18,4 +18,4 @@ name is equal to ZTAR COIN
 decimals is equal to 2
 symbol is equal to ZTAR
  is equal to _value
-If 
+If not _spender call

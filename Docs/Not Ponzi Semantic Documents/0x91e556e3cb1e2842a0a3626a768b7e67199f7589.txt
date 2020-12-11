@@ -3,7 +3,7 @@ DSPauseAbstract PotAbstract JugAbstract VatAbstract SaiMomLike SpellAction DssSp
 description MCD_VAT MCD_JUG MCD_POT TWELVE_PCT_RATE RAD MILLION USDC_FEE SAI_LINE GLOBAL_AMOUNT pause action tag eta sig expiration done MILLION SAIMOM SCD_EIGHT_PCT_FEE _tag _action 
 delay plot exec drip file file file drip file file setCap setFee execute description schedule cast 
 sig is equal to abi encodeWithSignature
-action is equal to 
+action is equal to address
 tag is equal to _tag
 expiration is equal to now plus 30 days
 eta is equal to now plus 

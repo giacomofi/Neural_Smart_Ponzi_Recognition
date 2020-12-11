@@ -10,7 +10,7 @@ Ownable inherits from Context ERC20Detailed inherits from IERC20 LoanContract in
 onlyOwner onlyFrozen onlyAdmin onlyCreated onlyActive onlyRepaid onlyFailedToFund onlyProxy onlyOriginator onlyKYC onlyAdmin 
 OwnershipTransferred LoanContractCreated MinAmountUpdated MaxAmountUpdated MinInterestRateUpdated MaxInterestRateUpdated MinTermLengthUpdated MinAuctionLengthUpdated OperatorFeeUpdated AuthAddressUpdated DaiProxyAddressUpdated SwapFactoryAddressUpdated AdministratorUpdated AddTokenToAcceptedList RemoveTokenFromAcceptedList LoanDispatcherCreated Transfer Approval SwapDeposit SwapContract LoanCreated MinimumFundingReached FullyFunded Funded LoanRepaid RepaymentWithdrawn RefundWithdrawn FullyRefunded FailedToFund LoanFundsWithdrawn LoanDefaulted AuctionSuccessful FundsUnlockedWithdrawn FullyFundsUnlockedWithdrawn LoanFundsUnlocked OperatorWithdrawn LoanContractCreated MinAmountUpdated MaxAmountUpdated MinInterestRateUpdated MaxInterestRateUpdated MinTermLengthUpdated MinAuctionLengthUpdated OperatorFeeUpdated AuthAddressUpdated DaiProxyAddressUpdated SwapFactoryAddressUpdated AdministratorUpdated AddTokenToAcceptedList RemoveTokenFromAcceptedList LoanDispatcherCreated 
 _owner is equal to _msgSender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
 _name is equal to name
 _symbol is equal to symbol
@@ -19,6 +19,7 @@ If a corresponds to 0
 
 
 
+LoanState has values CREATED FAILED_TO_FUND ACTIVE DEFAULTED REPAID CLOSED FROZEN
 tokenAddress is equal to _tokenAddress
 proxyContractAddress is equal to _proxyAddress
 proxy is equal to IDAIProxy
@@ -62,6 +63,7 @@ If isAuctionExpired Invalid symbol currentState corresponds to LoanState CREATED
 If not minimumReached
 If isDefaulted Invalid symbol currentState corresponds to LoanState ACTIVE
 If currentState corresponds to LoanState CREATED
+If currentState corresponds to LoanState ACTIVE Invalid symbol 
 currentState is equal to state
 borrowerDebt is equal to calculateValueWithInterest
 operatorBalance is equal to 

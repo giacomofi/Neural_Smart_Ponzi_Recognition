@@ -14,7 +14,7 @@ If a corresponds to 0
 decimals is equal to 18
 name is equal to CAZPLUS
 symbol is equal to PLUS
-totalSupply_ is equal to 9999999999 multiplied by 10 Invalid symbol 
+totalSupply_ is equal to 9999999999 multiplied by 10 Invalid symbol uint256
  is equal to amount_tokenSale
  is equal to amount_developmentTeam
  is equal to amount_marketing

@@ -18,4 +18,4 @@ name is equal to EthereumSuper
 decimals is equal to 18
 symbol is equal to ETHS
  is equal to _value
-If 
+If not _spender call

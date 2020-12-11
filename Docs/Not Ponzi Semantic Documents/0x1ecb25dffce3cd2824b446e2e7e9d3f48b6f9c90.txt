@@ -17,5 +17,5 @@ If  is greater or equal to _value Invalid symbol  Invalid symbol
  decreases of _value
 If allowance is less then MAX_UINT
  decreases of _value
-totalSupply is equal to 678000000 multiplied by 10 Invalid symbol 
+totalSupply is equal to 678000000 multiplied by 10 Invalid symbol uint256
  is equal to totalSupply

@@ -25,8 +25,8 @@ freezer is equal to newFreezer
 nominatedOwner is equal to nominee
 If msg sender is different from owner
 owner is equal to msg sender
-nominatedOwner is equal to 
-owner is equal to 
+nominatedOwner is equal to address
+owner is equal to address
 name is equal to newName
 symbol is equal to newSymbol
 paused is equal to True

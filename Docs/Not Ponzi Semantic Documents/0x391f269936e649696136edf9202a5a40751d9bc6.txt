@@ -22,7 +22,7 @@ depositingTokenFlag is equal to False
  is equal to tokens tokenGive msg sender add
 If  is less then amount
 If availableVolume is less then amount
-If 
+If not canBeTransferred
 If  Invalid symbol block number is less or equal to expires
  is equal to amountGet sub
  is equal to tokens tokenGive user mul divided by amountGive

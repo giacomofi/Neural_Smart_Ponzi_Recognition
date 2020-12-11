@@ -4,5 +4,6 @@ getAttribute verify RestrictedTransferAgent verify
 RestrictedTransferAgent inherits from SecurityTransferAgent 
 AttributesSet 
 KYC is equal to _KYC
-If  corresponds to 
+If address corresponds to address
 If KYC getAttribute Invalid symbol KYC getAttribute
+

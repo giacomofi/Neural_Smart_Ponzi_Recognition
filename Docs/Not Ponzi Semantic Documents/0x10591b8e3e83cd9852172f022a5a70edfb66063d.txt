@@ -28,10 +28,13 @@ SetFuturesContract SetOwner Trade Deposit Withdraw WithdrawTo FeeChange AllowFut
 If not assertion
 owner is equal to newOwner
  is equal to isAdmin
-If fistFuturesContract corresponds to 
+If fistFuturesContract corresponds to address
 fistFuturesContract is equal to futuresContract
  is equal to isFuturesContract
  is equal to block number
+If msg sender is different from owner Invalid symbol 
+If not msg sender
+Errors has values INVLID_PRICE INVLID_SIGNATURE TOKENS_DONT_MATCH ORDER_ALREADY_FILLED GAS_TOO_HIGH
 If expiry is greater then 1000000
 inactivityReleasePeriod is equal to expiry
 owner is equal to msg sender
@@ -50,12 +53,12 @@ character Invalid symbol reserve Invalid symbol 128
 If fistFuturesContract corresponds to futuresContract
 If  corresponds to True
 If  is less then 
-If 
+If not futuresContractAllowed
 If availableBalanceOf is less then amount
-If 
-If 
-If 
-If 
+If not futuresContractAllowed
+If not futuresContractAllowed
+If not futuresContractAllowed
+If not futuresContractAllowed
 If availableBalanceOf is less then amount
 If  corresponds to 0
  is equal to block number
@@ -66,21 +69,21 @@ If  corresponds to 0
 If  corresponds to 0
  is equal to block number
  is equal to block number
-If 
+If not 
 If  corresponds to 0
  is equal to block number
  is equal to block number
-If 
+If not 
 If availableBalanceOf is less then amount
-If token corresponds to 
-If 
-If 
-If 
+If token corresponds to address
+If not msg sender send
+If not 
+If not futuresContracts futuresContract
  is equal to True
-If 
+If not futuresContracts futuresContract
 If ecrecover is different from user
  is equal to True
-If 
+If not msg sender
 If ecrecover is different from user
  is equal to True
 
@@ -89,9 +92,9 @@ If ecrecover is different from user
 If feeWithdrawal is greater then 50 finney
 feeWithdrawal is equal to 50 finney
 If availableBalanceOf is less then amount
-If token corresponds to 
-If 
-If 
+If token corresponds to address
+If not user send
+If not 
  is equal to block number
 i is less then amount length
 If ecrecover is different from t maker

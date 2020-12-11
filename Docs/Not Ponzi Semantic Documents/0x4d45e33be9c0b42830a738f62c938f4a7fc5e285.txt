@@ -11,7 +11,7 @@ onlyOwner
 OwnershipTransferred Transfer Approval FundCollectorSet SaleTokenSet TokenWalletSet BonusConditionsSet WhitelistSet ExTokenSet TokensPurchased 
 If a corresponds to 0
 _owner is equal to msg sender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
 fundCollector is equal to collector
 saleToken is equal to IERC20
@@ -26,3 +26,4 @@ _exTokens exToken accepted is equal to accepted
 _exTokens exToken rate is equal to rate
 If amount is less then bonusThreshold
 If block timestamp is less or equal to tierOneBonusTime
+If block timestamp is less or equal to tierTwoBonusTime

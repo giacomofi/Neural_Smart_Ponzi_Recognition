@@ -32,6 +32,10 @@ If len plus off is greater then buf capacity
 data is equal to data Invalid symbol 
 If len plus off is greater then buf capacity
 If value is less or equal to 23
+If value is less or equal to 0xFF
+If value is less or equal to 0xFFFF
+If value is less or equal to 0xFFFFFFFF
+If value is less or equal to 0xFFFFFFFFFFFFFFFF
 If value is greater or equal to 0
 self id is equal to _id
 self callbackAddress is equal to _callbackAddress
@@ -44,26 +48,30 @@ requestId is equal to keccak256
 _req nonce is equal to requests
  is equal to _oracle
 requests increments of 1
+Invalid symbol pendingRequests _requestId
 oracle is equal to ChainlinkRequestInterface
 link is equal to LinkTokenInterface
  is equal to _oracle
 ens is equal to ENSInterface
 ensNode is equal to _node
+Invalid symbol pendingRequests _requestId
 owner is equal to msg sender
-owner is equal to 
+owner is equal to address
 owner is equal to _newOwner
 i is less then oracles length
 request is equal to buildChainlinkRequest
 requestId is equal to sendChainlinkRequestTo
  is equal to answerCounter
 answers answerCounter minimumResponses is equal to minimumResponses
-answers answerCounter maxResponses is equal to 
+answers answerCounter maxResponses is equal to uint128
 answerCounter is equal to answerCounter add
+Invalid symbol requestAnswers _clRequestId
 paymentAmount is equal to _paymentAmount
 minimumResponses is equal to _minimumResponses
 jobIds is equal to _jobIds
 oracles is equal to _oracles
  is equal to _allowed
+Invalid symbol requestAnswers _requestId
 If responseLength Invalid symbol 2 corresponds to 0
 currentAnswerTemp is equal to median1 add divided by 2
 currentAnswerTemp is equal to quickselect
@@ -72,7 +80,7 @@ latestCompletedAnswer is equal to _answerId
 updatedTimestampValue is equal to now
  is equal to now
  is equal to currentAnswerTemp
-
+While True
 pivot is equal to 
 a1Len is equal to 0
 a2Len is equal to 0
@@ -80,6 +88,18 @@ i is equal to 0
 i is less then aLen
 If  is less then pivot
  is equal to 
+Invalid symbol a1Len
+If  is greater then pivot
+ is equal to 
+Invalid symbol a2Len
 If k is less or equal to a1Len
 aLen is equal to a1Len
  is equal to swap
+If k is greater then 
+k is equal to k sub
+aLen is equal to a2Len
+ is equal to swap
+Invalid symbol answers _answerId
+If answers _answerId responses length is greater or equal to answers _answerId minimumResponses
+If answers _answerId responses length corresponds to answers _answerId maxResponses
+If latestCompletedAnswer is less or equal to _answerId

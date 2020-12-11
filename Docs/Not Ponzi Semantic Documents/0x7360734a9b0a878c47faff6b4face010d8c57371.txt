@@ -18,5 +18,12 @@ _symbol is equal to symbol
 _decimals is equal to decimals
 owner is equal to msg sender
 If mode corresponds to 0
+If mode corresponds to 1
+If mode corresponds to 2
+If mode corresponds to 3
+If mode corresponds to 4
+If mode corresponds to 5
+If mode corresponds to 6
+If mode corresponds to 7
  is equal to True
 owner is equal to _owner

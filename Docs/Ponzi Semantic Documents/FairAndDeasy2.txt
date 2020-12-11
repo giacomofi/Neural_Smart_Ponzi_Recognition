@@ -6,6 +6,7 @@ Person has amount
 persons payoutIdx balance owner amount idx transactionAmount 
 fairandeasy  enter setOwner 
 onlyowner 
+If msg sender corresponds to owner
 owner is equal to msg sender
 If msg value is less then 1 divided by 100 ether
 If msg value is greater then 50 ether

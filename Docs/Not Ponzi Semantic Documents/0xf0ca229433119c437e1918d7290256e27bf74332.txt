@@ -8,7 +8,7 @@ _owner is equal to msg sender
 _kyber is equal to KyberNetworkProxyInterface
 _orfeed is equal to OrFeedInterface
 _feeCollector is equal to feeCollector
-If  is different from 
+If  is different from address
  is equal to tokenAddress
  is equal to UniswapExchangeInterface
  is equal to allowedSlippage

@@ -30,7 +30,7 @@ onlyAdmin
 SwapPerformed Transfer Approval 
 admin is equal to msg sender
 swapperLibrary is equal to _swapperLibrary
-If srcToken is different from 
-If 
+If srcToken is different from address
+If not isContract
 If balance corresponds to 0
-If token corresponds to 
+If token corresponds to address

@@ -36,10 +36,11 @@ Lottery has awardAmount
 c c c c random numberArray i temp owner specifyAddr technologyAddr gameAddr temp staticDividendUsdt staticPrizePool staticTotalRecharge allPlayer shareholdersV1 shareholdersV2 shareholdersV3 shareholdersV4 usdtPool tether awToken game playerMap player award index i player performance numberArray i number motionAndStaticAmount withdrawableBalance value difference number motionAndStaticAmount withdrawableBalance amount value handlingFee count i proportionOfInvestment personalAmount player amount remaining player length tempAddr player length i levelCount j areaTotal tempPlayer count player number reward length splitEqually i staticPool60 amount length splitEqually i player player usdtPrice staticAmount player superiorPlayer 
 add sub sub mul div div mod mod getNowTime rand returnArray  resetNodePool addWalletAndDynamicIncome usdtNode getShareholder getStatistics getSubordinatesAndPerformanceByAddr getPlayerInfo getRevenueAndPerformance withdrawImpl withdrawService afterStaticPayment staticDividend participateFomo increasePerformance promotionMechanisms rewardDistribution fosterInteraction releaseStaticPoolAndV4 updateRevenue participateLottery getPlayer exchange register transfer transferFrom burn balanceOf calculationNeedAW usdtPrice deposit updateLotteryPoolAndTodayAmountTotal redeemAW buyLotto 
 If a corresponds to 0
-
+While True
 number is equal to number plus 9
 If temp corresponds to 0
  is equal to temp
+Invalid symbol i
 If i corresponds to len
 owner is equal to _owner
 specifyAddr is equal to _specifyAddr
@@ -57,6 +58,7 @@ playerMap addr dynamicIncome is equal to SafeMath add
 If shareholdersV4 length is less then 1
 staticPrizePool is equal to SafeMath add
 i is less then shareholdersV4 length
+Invalid symbol index
 If index corresponds to count
 i is less then player subordinates length
  is equal to SafeMath add
@@ -80,15 +82,17 @@ If playerMap allPlayer i rechargeAmount corresponds to 0 Invalid symbol
 playerMap allPlayer i wallet is equal to SafeMath add
 playerMap allPlayer i staticIncome is equal to SafeMath add
 staticDividendUsdt increments of personalAmount
+Invalid symbol count
 If count corresponds to 100
 player rechargeAmount is equal to SafeMath add
 staticTotalRecharge is equal to SafeMath add
 playerMap technologyAddr wallet is equal to SafeMath add
 usdtPool is equal to SafeMath add
 staticPrizePool is equal to SafeMath add
-
+While player superior
 player is equal to 
 player subbordinateTotalPerformance is equal to SafeMath add
+Invalid symbol length
 If length corresponds to 50
 If player subbordinateTotalPerformance is greater or equal to 10 multiplied by 10 Invalid symbol 10
 If player subordinates length is greater then 30
@@ -98,13 +102,27 @@ If player shareholderLevel corresponds to i
 j is less then length
 If i corresponds to 0 Invalid symbol 
 If areaTotal is greater or equal to 3 multiplied by 10 Invalid symbol 10
+Invalid symbol levelCount
+If i corresponds to 1 Invalid symbol 
+If playerMap  j shareholderLevel is greater or equal to 1 Invalid symbol 
+Invalid symbol levelCount
+If i corresponds to 2 Invalid symbol 
+If playerMap  j shareholderLevel is greater or equal to 2 Invalid symbol 
+Invalid symbol levelCount
+If i corresponds to 3 Invalid symbol 
+If playerMap  j shareholderLevel is greater or equal to 3 Invalid symbol 
+Invalid symbol levelCount
 If levelCount is greater or equal to 2
 player shareholderLevel is equal to i plus 1
 If i corresponds to 0
-
+If i corresponds to 1
+If i corresponds to 2
+If i corresponds to 3
+While tempPlayer superior
 tempPlayer is equal to 
 If tempPlayer underUmbrellaLevel is less then i plus 1
 tempPlayer underUmbrellaLevel is equal to i plus 1
+Invalid symbol count
 If count corresponds to 49
 
 number is equal to SafeMath add
@@ -128,7 +146,7 @@ player lotteryTotalRevenue is equal to SafeMath add
 staticPrizePool is equal to SafeMath add
 staticPrizePool is equal to SafeMath add
 If playerMap addr isExist corresponds to True
-If superiorAddr corresponds to  Invalid symbol 
+If superiorAddr corresponds to address Invalid symbol 
 player is equal to DappDatasets Player
  is equal to player
 player is equal to DappDatasets Player

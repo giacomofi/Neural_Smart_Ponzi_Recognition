@@ -6,7 +6,7 @@ onlyOwner
 betPlaced betStarted betAccepted betNotPlaced startWinnerDraw amountWonByOwner amountWonByWinner startWithDraw successWithDraw rollbackWithDraw showParticipants showBetNumber calledConstructor successDrawWinner notReadyDrawWinner 
 owner is equal to msg sender
 latestBlockNumber is equal to block number
-cumulativeHash is equal to 
+cumulativeHash is equal to bytes32
 If isRunning corresponds to True
 cumulativeHash is equal to keccak256
 latestBlockNumber is equal to block number
@@ -33,7 +33,8 @@ If autoDistributeWinning corresponds to True
  is equal to 0
 
  is equal to amountWon
-cumulativeHash is equal to 
+cumulativeHash is equal to bytes32
+Invalid symbol bets
 potSize is equal to 0
 boolSuccessFlag is equal to True
 latestBlockNumber is equal to block number
@@ -48,7 +49,8 @@ If autoDistributeWinning corresponds to True
  is equal to 0
 
  is equal to amountWon
-cumulativeHash is equal to 
+cumulativeHash is equal to bytes32
+Invalid symbol bets
 potSize is equal to 0
  is equal to 0
 

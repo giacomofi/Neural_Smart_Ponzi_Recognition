@@ -5,6 +5,7 @@ Person has amount
 persons payoutIdx collectedFees balance owner amount idx transactionAmount 
 test  enter kill setOwner 
 onlyowner 
+If msg sender corresponds to owner
 owner is equal to msg sender
 If msg value Invalid symbol 2 is different from 0
 amount is equal to msg value

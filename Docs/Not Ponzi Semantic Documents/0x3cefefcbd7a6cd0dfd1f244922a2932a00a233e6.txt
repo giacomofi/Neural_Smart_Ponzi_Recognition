@@ -20,7 +20,7 @@ parentToken is equal to _parentToken
 parentSnapShotBlock is equal to _parentSnapShotBlock
 transfersEnabled is equal to _transfersEnabled
 creationBlock is equal to block number
-If _erc20Address is different from 
+If _erc20Address is different from address
 erc20 is equal to ERC20
 If msg sender is different from controller
 If  is less then _amount
@@ -30,12 +30,13 @@ If previousBalanceFrom is less then _amount
 
 
  is equal to _amount
+Invalid symbol msg sender
 assetIncomeIssued is equal to assetIncomeIssued add
-If  corresponds to 
-If  corresponds to 
+If address corresponds to address
+If address corresponds to address
 assetIncome is equal to assetIncome add
 valuePerToken is equal to valuePerToken add
-If  corresponds to 
+If address corresponds to address
 actualBalance is equal to 
 actualBalance is equal to erc20 balanceOf
 If diffBalance is greater then 0
@@ -44,9 +45,9 @@ assetIncome is equal to assetIncome add
  is equal to incomeOwed _investor add
  is equal to valuePerToken
 If  Invalid symbol 
-If  is different from 0
+If address is different from 0
 If  Invalid symbol 
-If  is different from 0
+If address is different from 0
 transfersEnabled is equal to _transfersEnabled
 If checkpoints length corresponds to 0
 If _block is greater or equal to checkpoints length sub fromBlock
@@ -56,9 +57,9 @@ If checkpoints mid fromBlock is less or equal to _block
 min is equal to mid
 max is equal to mid sub
 If  Invalid symbol 
-newCheckPoint fromBlock is equal to 
-newCheckPoint value is equal to 
-oldCheckPoint value is equal to 
+newCheckPoint fromBlock is equal to uint128
+newCheckPoint value is equal to uint128
+oldCheckPoint value is equal to uint128
 If _addr corresponds to 0
 assetIncome is equal to assetIncome add
 valuePerToken is equal to valuePerToken add

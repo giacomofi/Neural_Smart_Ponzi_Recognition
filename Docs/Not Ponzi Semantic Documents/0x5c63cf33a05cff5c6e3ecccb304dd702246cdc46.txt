@@ -5,9 +5,9 @@ receiveApproval owned transferOwnership TokenERC20 _transfer transfer transferFr
 onlyOwner 
 Transfer Burn 
 owner is equal to msg sender
-If newOwner is different from 
+If newOwner is different from address
 owner is equal to newOwner
-totalSupply is equal to initialSupply multiplied by 10 Invalid symbol 
+totalSupply is equal to initialSupply multiplied by 10 Invalid symbol uint256
  is equal to totalSupply
 name is equal to tokenName
 symbol is equal to tokenSymbol

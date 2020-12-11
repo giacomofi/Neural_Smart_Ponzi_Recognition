@@ -5,7 +5,7 @@ token balance payment_info bank account total_amount remain old addr
 balanceOf transfer transferFrom _claimStdTokens safeAdd safeSub safeMul safeDiv balance token issue change_token_bank bank_balance bank_token claim_payment newPayment 
 only_owner 
 ClaimedTokens ClaimedPayment ChangedBank CreateERC20Payment 
-If _token corresponds to 
+If _token corresponds to address
 c is equal to a plus b
 c is equal to a minus b
 c is equal to a multiplied by b

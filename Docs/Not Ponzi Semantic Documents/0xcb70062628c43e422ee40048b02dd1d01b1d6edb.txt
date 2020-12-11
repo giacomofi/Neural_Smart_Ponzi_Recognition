@@ -16,6 +16,7 @@ If a corresponds to 0
 
 
 
+LoanState has values CREATED FAILED_TO_FUND ACTIVE DEFAULTED REPAID CLOSED FROZEN
 tokenAddress is equal to _tokenAddress
 proxyContractAddress is equal to _proxyAddress
 proxy is equal to IDAIProxy
@@ -59,6 +60,7 @@ If isAuctionExpired Invalid symbol currentState corresponds to LoanState CREATED
 If not minimumReached
 If isDefaulted Invalid symbol currentState corresponds to LoanState ACTIVE
 If currentState corresponds to LoanState CREATED
+If currentState corresponds to LoanState ACTIVE Invalid symbol 
 currentState is equal to state
 borrowerDebt is equal to calculateValueWithInterest
 operatorBalance is equal to 

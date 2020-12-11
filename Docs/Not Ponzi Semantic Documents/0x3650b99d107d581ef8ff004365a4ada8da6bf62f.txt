@@ -16,7 +16,7 @@ root is equal to keccak256
 owner is equal to msg sender
 pendingOwner is equal to newOwner
 owner is equal to pendingOwner
-pendingOwner is equal to 
+pendingOwner is equal to address
 blockFreezeSeconds is equal to blockFreezePeriodSeconds
 token is equal to IERC20
 operator is equal to msg sender

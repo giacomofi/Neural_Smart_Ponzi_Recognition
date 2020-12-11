@@ -62,7 +62,7 @@ vk IC is equal to
 i is less then input length
 vk_x is equal to Pairing addition
 vk_x is equal to Pairing addition
-If 
+If not Pairing pairingProd4
 proof A is equal to Pairing G1Point
 proof B is equal to Pairing G2Point
 proof C is equal to Pairing G1Point

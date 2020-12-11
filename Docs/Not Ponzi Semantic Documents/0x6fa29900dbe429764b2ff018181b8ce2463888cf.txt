@@ -60,7 +60,7 @@ If times is greater or equal to 5 Invalid symbol
 If times is greater or equal to 21
 If keccak256 corresponds to keccak256
 _owner is equal to _msgSender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
  is equal to True
  is equal to False
@@ -68,7 +68,7 @@ startTime is equal to time
 coefficient is equal to coeff
 value is equal to value multiplied by ethWei
 If userGlobal id corresponds to 0
-If  is different from 0
+If uint is different from 0
 user allInvest is equal to user allInvest add
 user freezeAmount is equal to user freezeAmount add
 user staticLevel is equal to getLevel
@@ -81,7 +81,8 @@ user allInvest is equal to value
 user dynamicLevel is equal to getLineLevel
 user inviteCode is equal to userGlobal inviteCode
 user referrer is equal to userGlobal referrer
-If 
+If not compareStr
+Invalid symbol userRoundMapping rid referrerAddr inviteAmount
 If  is different from 0 Invalid symbol 
  is equal to isEnoughBalance
 If sendMoney is greater then 0
@@ -155,6 +156,7 @@ user staticLevel is equal to getLevel
 user dynamicLevel is equal to getLineLevel
 If user reInvestCount is less then 12
 user reInvestCount is equal to 0
+Invalid symbol rid
 startTime is equal to 
 coefficient is equal to 10
 If roundId corresponds to 0
@@ -185,6 +187,7 @@ referrer is equal to userMapping user referrer
 i is less then user invests length
 If unlockDay is greater or equal to 80
 allUnlock is equal to allUnlock add
+Invalid symbol uid
 userGlobal id is equal to uid
 userGlobal userAddress is equal to user
 userGlobal inviteCode is equal to inviteCode

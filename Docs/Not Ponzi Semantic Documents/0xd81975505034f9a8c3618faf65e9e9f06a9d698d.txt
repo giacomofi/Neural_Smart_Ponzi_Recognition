@@ -17,16 +17,16 @@ counter _value is equal to counter _value sub
  is equal to to
  is equal to approved
  is equal to to
- is equal to 
+ is equal to address
  is equal to to
-If 
-If  is different from 
- is equal to 
+If not to isContract
+If  is different from address
+ is equal to address
 _owner is equal to msgSender
 _initialized is equal to True
 _owner is equal to msgSender
 _initialized is equal to True
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
 _name is equal to name
 _symbol is equal to symbol

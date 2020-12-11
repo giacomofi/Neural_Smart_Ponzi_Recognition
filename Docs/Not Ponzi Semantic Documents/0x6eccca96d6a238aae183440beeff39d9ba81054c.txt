@@ -21,6 +21,7 @@ owner is equal to newOwner
 If _subtractedValue is greater then oldValue
  is equal to 0
  is equal to oldValue sub
+Stages has values none icoStart icoEnd
 currentStage is equal to Stages none
  is equal to balances owner add
 totalSupply_ is equal to totalSupply_ add

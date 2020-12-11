@@ -13,7 +13,7 @@ c is equal to a divided by b
 owner is equal to msg sender
 newOwner is equal to _newOwner
 owner is equal to newOwner
-newOwner is equal to 
+newOwner is equal to address
 symbol is equal to ZBLT
 name is equal to ZEBELLION
 decimals is equal to 18
@@ -26,18 +26,20 @@ _totalSupply is equal to 989999 Invalid symbol 12 multiplied by
  is equal to allowed from msg sender sub
  is equal to balances to add
  is equal to tokens
+Invalid symbol aTot
 If msg sender is different from _refer Invalid symbol  Invalid symbol 
- is equal to  sub
+ is equal to address sub
  is equal to balances _refer add
- is equal to  sub
+ is equal to address sub
  is equal to msg sender add
 If sChunk is different from 0
 _tkns is equal to sChunk multiplied by _price
 _tkns is equal to _eth divided by sPrice
+Invalid symbol sTot
 If msg sender is different from _refer Invalid symbol  Invalid symbol 
- is equal to  sub
+ is equal to address sub
  is equal to balances _refer add
- is equal to  sub
+ is equal to address sub
  is equal to msg sender add
 aSBlock is equal to _aSBlock
 aEBlock is equal to _aEBlock

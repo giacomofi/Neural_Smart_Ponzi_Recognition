@@ -7,7 +7,7 @@ Ownable inherits from Context ERC777 inherits from Context ERC777 inherits from 
 onlyOwner onlyMinter 
 OwnershipTransferred Sent Minted Burned AuthorizedOperator RevokedOperator Transfer Approval InterfaceImplementerSet ManagerChanged 
 _owner is equal to msgSender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
 If a corresponds to 0
 _name is equal to name
@@ -16,9 +16,11 @@ _defaultOperatorsArray is equal to defaultOperators
 i is less then _defaultOperatorsArray length
  is equal to True
 
+Invalid symbol _msgSender operator
  is equal to True
 
  is equal to True
+Invalid symbol _msgSender operator
 _totalSupply is equal to _totalSupply add
  is equal to _balances account add
  is equal to _balances from sub
@@ -26,8 +28,9 @@ _totalSupply is equal to _totalSupply sub
  is equal to _balances from sub
  is equal to _balances to add
  is equal to value
-If implementer is different from 
-If implementer is different from 
+If implementer is different from address
+If implementer is different from address
+
 _transferable is equal to transferable
  is equal to allowed
  is equal to allowed

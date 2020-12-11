@@ -11,19 +11,23 @@ owner balance fee multiplier users entries unpaidEntries dValue index theEntry p
 LuckyDoubler  init join rand changeOwner changeMultiplier changeFee multiplierFactor currentFee totalEntries userStats entryDetails 
 onlyowner 
 owner is equal to msg sender
+If msg sender corresponds to owner
 If msg value is less then 1 ether
 If msg value is greater then 1 ether
 dValue is equal to 1 ether
-If msg sender id corresponds to 
+If msg sender id corresponds to address
 msg sender id is equal to msg sender
 msg sender deposits is equal to 0
 msg sender payoutsReceived is equal to 0
+Invalid symbol msg sender deposits
 balance increments of  divided by 100
 If balance is greater then theEntry payout
 theEntry paid is equal to True
+Invalid symbol theEntry entryAddress payoutsReceived
 balance decreases of payout
 If index is less then unpaidEntries length minus 1
  is equal to 
+Invalid symbol unpaidEntries length
 If fees is greater then 0
 owner is equal to newOwner
 If multi is less then 110 Invalid symbol 
@@ -36,7 +40,7 @@ feePercentage is equal to fee
 info is equal to The fee percentage applied to all deposits. It can change to speed payouts (max 5%).
 count is equal to entries length
 info is equal to The number of deposits.
-If users user id is different from 
+If users user id is different from address
 deposits is equal to users user deposits
 payouts is equal to users user payoutsReceived
 info is equal to Users stats: total deposits, payouts received.

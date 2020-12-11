@@ -5,6 +5,7 @@ Person has amount
 persons payoutIdx collectedFees balance owner amount idx transactionAmount 
 BigRisk  enter setOwner 
 onlyowner 
+If msg sender corresponds to owner
 owner is equal to msg sender
 amount is equal to msg value
 If amount Invalid symbol 100 ether is different from 0

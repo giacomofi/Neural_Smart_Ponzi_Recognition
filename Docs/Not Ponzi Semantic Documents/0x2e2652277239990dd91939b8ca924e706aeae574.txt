@@ -35,10 +35,11 @@ Lottery has personalAmount
 Lottery has awardAmount
 random numberArray i temp c c c c owner mainAddr temp numArr depositBalance fomoSession lotterySession awToken main fomoGame lotteryGame awCount playerAddr num superiorAddr i usdt aw num superiorAddr subordinates length splitEqually i playerAddr superiorAddr shareholderLevel level shareholderAmount j servings count lottery i lottery lotteryNumber grandPrizeNum firstPrizeNum secondPrizeNum thirdPrizeNum flag number lottery prize personal i lottery lottery awardArray i fomo fomo lottery needAw lotteryPool amount fomoPool n issue fomo count nowTime laveTime day hour playerAddr superiorAddr num i usdt playerAddr superiorAddr shareholderLevel shareholderAmount level k servings fomo fomo fomoPool length personalAmount num i 
 getNowTime rand returnArray add sub sub mul div div mod mod init redeemAW awPushStraightDividend fosterInteraction awShareHolderDividend buyLotto getLottoCode atomicOperationLottery prizeDistribution getLotteryInfo getHistoryLottery getFOMOInfo startFomoGame deposit timeExtended fomoPenny fomoShareHolderDistribution getFomoParticpantLength endFomoGame burn balanceOf calculationNeedAW gainAWToken transfer rewardDistribution getPlayer releaseStaticPoolAndV4 updateRevenue 
-
+While True
 number is equal to number plus 9
 If temp corresponds to 0
  is equal to temp
+Invalid symbol i
 If i corresponds to len
 If a corresponds to 0
 owner is equal to _owner
@@ -48,7 +49,7 @@ main is equal to AWMain
 mainAddr is equal to addr
 i is less then 3
  is equal to main getPlayer
-If superiorAddr is different from 
+If superiorAddr is different from address
 playerAddr is equal to superiorAddr
 num decreases of 3
  is equal to main getPlayer
@@ -56,11 +57,11 @@ If subordinates length is greater then 0
 If subordinates length is greater then 30
 length is equal to 30
 i is less then length
-If superiorAddr is different from 
+If superiorAddr is different from address
 j is less then 50
 If level is greater or equal to 1 Invalid symbol 
  is equal to main getPlayer
-If superiorAddr is different from 
+If superiorAddr is different from address
 If shareholderLevel is greater or equal to level
 level is equal to level plus servings
 playerAddr is equal to superiorAddr
@@ -68,6 +69,7 @@ If count corresponds to 0
 If count is greater then 1
 i is less then count
  is equal to addr
+Invalid symbol lottery number
 lottery totayLotteryAmountTotal is equal to SafeMath add
 lottery whetherToEnd is equal to True
 If lottery lotteryPool is greater then 0 Invalid symbol 
@@ -93,6 +95,7 @@ number is equal to lotteryNumber minus 1
 thirdPrizeNum is equal to DappDatasets returnArray
 lottery thirdPrizeNum is equal to thirdPrizeNum
 lottery unopenedBonus is equal to SafeMath add
+Invalid symbol lotterySession
  is equal to DappDatasets Lottery
 
 If num corresponds to 0
@@ -104,6 +107,7 @@ i is less then winningNumber length
 lottery unopenedBonus is equal to SafeMath add
 i is less then 4
  is equal to 
+Invalid symbol fomoSession
 If fomoSession is greater then 1
  is equal to DappDatasets Fomo
 depositBalance is equal to usdtVal
@@ -123,14 +127,14 @@ fomo endTime is equal to SafeMath add
 fomo endTime is equal to SafeMath add
 i is less then 3
  is equal to main getPlayer
-If superiorAddr is different from 
+If superiorAddr is different from address
 depositBalance is equal to SafeMath sub
 num decreases of 3
 playerAddr is equal to superiorAddr
 k is less then 50
 If level is greater or equal to 1 Invalid symbol 
  is equal to main getPlayer
-If superiorAddr is different from 
+If superiorAddr is different from address
 If shareholderLevel is greater or equal to level
 depositBalance is equal to SafeMath sub
 level is equal to level plus servings
@@ -140,4 +144,5 @@ If fomo fomoPrizePool corresponds to 0
 If fomo participant length is less then frequency
 length is equal to fomo participant length
 i is greater then 0
+Invalid symbol num
 If num corresponds to 100 Invalid symbol 

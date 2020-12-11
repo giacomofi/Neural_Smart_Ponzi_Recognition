@@ -7,7 +7,7 @@ Factory inherits from Ownable
 onlyOwner 
 OwnershipTransferred Transfer Approval NewPanelCreated ATFactoryAddressChanged TFactoryAddressChanged FPFactoryAddressChanged InternalDEXAddressChanged 
 _owner is equal to msg sender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
 If a corresponds to 0
 seedAddress is equal to _seedAddress

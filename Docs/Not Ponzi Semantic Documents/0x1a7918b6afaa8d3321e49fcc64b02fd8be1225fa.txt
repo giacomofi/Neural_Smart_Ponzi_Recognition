@@ -23,7 +23,7 @@ If subtractedValue is greater then oldValue
  is equal to 0
  is equal to oldValue sub
  is equal to getCheckpoint
-If  is different from 
+If address is different from address
 value is equal to transactionVerifier verify
 If  Invalid symbol 
  is equal to Checkpoint

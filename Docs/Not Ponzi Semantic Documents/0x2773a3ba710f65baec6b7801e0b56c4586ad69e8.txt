@@ -74,18 +74,18 @@ If times is greater or equal to 5 Invalid symbol
 If times is greater or equal to 11 Invalid symbol 
 If keccak256 corresponds to keccak256
 _owner is equal to _msgSender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
  is equal to True
  is equal to False
 If userGlobal id corresponds to 0
-If  is different from 0
+If uint is different from 0
 user allInvest is equal to user allInvest add
 user freezeAmount is equal to user freezeAmount add
 user seedFreezeAmount is equal to user seedFreezeAmount add
 user staticLevel is equal to getLevel
 user dynamicLevel is equal to getLineLevel
-If 
+If not compareStr
 userRoundMapping rid referrerAddr performance is equal to userRoundMapping rid referrerAddr performance add
 user id is equal to userGlobal id
 user userAddress is equal to msg sender
@@ -96,7 +96,8 @@ user dynamicLevel is equal to getLineLevel
 user allInvest is equal to value
 user inviteCode is equal to userGlobal inviteCode
 user referrer is equal to userGlobal referrer
-If 
+If not compareStr
+Invalid symbol userRoundMapping rid referrerAddr inviteAmount
 userRoundMapping rid referrerAddr performance is equal to userRoundMapping rid referrerAddr performance add
 investCount is equal to investCount add
 investMoney is equal to investMoney add
@@ -196,12 +197,14 @@ endTime is equal to startTime add
 dividendRate is equal to newRate
 statisticsDay is equal to 0
 If _now is less then endTime
+If _now is greater then startTime
 If yeji is less or equal to 50000 multiplied by ethWei
 If yeji is greater then 50000 multiplied by ethWei Invalid symbol 
 If yeji is greater then 100000 multiplied by ethWei Invalid symbol 
 If yeji is greater then 150000 multiplied by ethWei Invalid symbol 
 If yeji is greater then 200000 multiplied by ethWei Invalid symbol 
 If yeji is greater then 250000 multiplied by ethWei
+Invalid symbol uid
 userGlobal id is equal to uid
 userGlobal userAddress is equal to user
 userGlobal inviteCode is equal to inviteCode

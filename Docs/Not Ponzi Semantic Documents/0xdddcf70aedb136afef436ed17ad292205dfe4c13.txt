@@ -14,6 +14,7 @@ If a corresponds to 0
 owner is equal to msg sender
  is equal to True
  is equal to True
+Invalid symbol admins _admin
 i is less then 10
 isWoner is equal to False
 If _card delegate corresponds to msg sender
@@ -24,13 +25,21 @@ If cardCount is greater then 0
 pos is less then totalTeams
 If cardOwnerOf corresponds to _owner
  is equal to pos
-If oldOwner is different from 
+Invalid symbol resultIndex
+If oldOwner is different from address
 cards _cardId price is equal to _price
 cards _cardId isSale is equal to True
 cards _cardId isSale is equal to False
 If _sellingPrice is less then FIRST_PRICE_LIMIT
-payment is equal to 
+payment is equal to uint256
+If _sellingPrice is less then SECOND_PRICE_LIMIT
+payment is equal to uint256
+If _sellingPrice is less then THIRD_PRICE_LIMIT
+payment is equal to uint256
+payment is equal to uint256
 cardOwner is equal to cards _cardId delegate
+Invalid symbol ownershipCardCount _to
 cards _cardId delegate is equal to _to
 cards _cardId isSale is equal to False
-If _from is different from 
+If _from is different from address
+Invalid symbol ownershipCardCount _from

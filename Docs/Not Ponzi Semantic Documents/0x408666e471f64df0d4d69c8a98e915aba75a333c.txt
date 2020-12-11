@@ -30,14 +30,14 @@ _totalSupply is equal to _totalSupply sub
  is equal to amount
 _decimals is equal to decimals_
 _cap is equal to cap
-If from corresponds to 
+If from corresponds to address
 min is equal to _min
 rate is equal to _rate
 offer is equal to _offer
 RR is equal to RR add
  is equal to requests
 rr review is equal to review
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
 rate is equal to newRate
 closed is equal to offerClosed

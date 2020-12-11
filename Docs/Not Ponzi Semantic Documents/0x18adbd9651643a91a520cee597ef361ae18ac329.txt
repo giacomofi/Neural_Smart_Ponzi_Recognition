@@ -6,7 +6,7 @@ KYCRegistry inherits from Ownable
 onlyOwner onlyAdmin 
 OwnershipTransferred RemovedFromKYC AddedToKYC 
 _owner is equal to msg sender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
 admin is equal to _admin
  is equal to False

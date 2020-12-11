@@ -11,7 +11,7 @@ onlyOwner canMint whenNotPaused whenPaused onlyManager
 OwnershipTransferred Transfer Approval Transfer MintFinished WithdrawEther Paused Unpaused ManagerAdded ManagerRemoved Repayment Reward ExternalPurchase CrowdsaleClose 
 If a corresponds to 0
 _owner is equal to msg sender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
 _name is equal to name
 _symbol is equal to symbol
@@ -37,6 +37,7 @@ index is equal to i
 If index is greater or equal to managers length
 index is less then managers length minus 1
  is equal to 
+Invalid symbol managers length
 usdt_token is equal to _usdt_token
 If rewards _to length is less then repayments length
 i is less then repayments length

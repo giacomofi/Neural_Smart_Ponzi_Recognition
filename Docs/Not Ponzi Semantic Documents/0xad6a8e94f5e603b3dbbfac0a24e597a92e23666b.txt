@@ -19,19 +19,19 @@ owner is equal to nextOwner
 secretSigner is equal to newSecretSigner
 croupier is equal to newCroupier
 maxProfit is equal to _maxProfit
-jackpotSize increments of 
+jackpotSize increments of uint128
 If modulo is less or equal to MAX_MASK_MODULO
 rollUnder is equal to  Invalid symbol POPCNT_MODULO
 mask is equal to betMask
 rollUnder is equal to betMask
  is equal to getDiceWinAmount
-lockedInBets increments of 
-jackpotSize increments of 
+lockedInBets increments of uint128
+jackpotSize increments of uint128
 bet amount is equal to amount
-bet modulo is equal to 
-bet rollUnder is equal to 
-bet placeBlockNumber is equal to 
-bet mask is equal to 
+bet modulo is equal to uint8
+bet rollUnder is equal to uint8
+bet placeBlockNumber is equal to uint40
+bet mask is equal to uint40
 bet gambler is equal to msg sender
 bet amount is equal to 0
  is equal to getDiceWinAmount
@@ -40,7 +40,7 @@ If  Invalid symbol bet mask is different from 0
 diceWin is equal to diceWinAmount
 If dice is less then rollUnder
 diceWin is equal to diceWinAmount
-lockedInBets decreases of 
+lockedInBets decreases of uint128
 If amount is greater or equal to MIN_JACKPOT_BET
 If jackpotRng corresponds to 0
 jackpotWin is equal to jackpotSize
@@ -48,8 +48,8 @@ jackpotSize is equal to 0
 If jackpotWin is greater then 0
 bet amount is equal to 0
  is equal to getDiceWinAmount
-lockedInBets decreases of 
-jackpotSize decreases of 
+lockedInBets decreases of uint128
+jackpotSize decreases of uint128
 jackpotFee is equal to 
 If houseEdge is less then HOUSE_EDGE_MINIMUM_AMOUNT
 houseEdge is equal to HOUSE_EDGE_MINIMUM_AMOUNT

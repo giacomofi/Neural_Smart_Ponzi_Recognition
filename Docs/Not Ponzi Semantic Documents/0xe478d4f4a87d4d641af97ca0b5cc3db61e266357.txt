@@ -15,6 +15,6 @@ _totalSupply is equal to _totalSupply sub
 _owner is equal to newOwner
 paused is equal to True
 paused is equal to False
-_totalSupply is equal to INIT_TOTALSUPPLY multiplied by 10 Invalid symbol 
+_totalSupply is equal to INIT_TOTALSUPPLY multiplied by 10 Invalid symbol uint256
 _owner is equal to _tokenOwner
  is equal to _totalSupply

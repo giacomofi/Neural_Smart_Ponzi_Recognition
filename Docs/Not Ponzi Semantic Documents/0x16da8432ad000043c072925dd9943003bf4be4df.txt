@@ -34,8 +34,9 @@ _paused is equal to False
 _paused is equal to True
 _paused is equal to False
 _owner is equal to msg sender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
+LoanStatus has values STATUS_FRESH STATUS_CANCELD STATUS_LENDED STATUS_MORTAGE_FORCE_TAKED STATUS_PAYBACKED
 kgcInstance is equal to ERC20Interface
 totalTrans is equal to totalTrans add
 trans loanStartedAt is equal to now

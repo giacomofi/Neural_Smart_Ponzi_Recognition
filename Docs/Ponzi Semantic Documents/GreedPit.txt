@@ -14,6 +14,7 @@ GreedPit  init jumpIn rand addNewUser collectFees changeOwner changeBaseMultipli
 onlyowner 
 Jump Rescue NewHero 
 owner is equal to msg sender
+If msg sender corresponds to owner
 If msg value is less then 100 finney
 If msg value is greater then 5
 timeOfLastDeposit is equal to now
@@ -25,6 +26,8 @@ randMultiplier is equal to
 randMultiplier is equal to 
 randMultiplier is equal to 
 While tokensToUse is greater then 0 Invalid symbol 
+Invalid symbol tokensToUse
+Invalid symbol tokensUsed
 If finalMultiplier is greater then maxMultiplier
 finalMultiplier is equal to maxMultiplier
 If msg value is less then 50 ether
@@ -35,6 +38,7 @@ collectedFees increments of  divided by 100
 While balance is greater then entries payoutOrder payout
 saviour is equal to False
 If msg sender addr is different from entries payoutOrder entryAddress
+Invalid symbol msg sender rescueCount
 If entryDeposit is greater or equal to 1 ether
 msg sender rescueTokens increments of 
 msg sender rescueTokens increments of 
@@ -43,13 +47,21 @@ isHero is equal to entries payoutOrder entryAddress corresponds to hero
 If saviour Invalid symbol  Invalid symbol  Invalid symbol  Invalid symbol 
 If dValue is less then 10 ether
 saviourShare is equal to 3 plus rand
+If dValue is greater or equal to 10 ether Invalid symbol 
+saviourShare is equal to 7 plus rand
+If dValue is greater or equal to 25 ether Invalid symbol 
+saviourShare is equal to 12 plus rand
+If dValue is greater or equal to 40 ether
+saviourShare is equal to rand
 saviourShare is multiplied by profit divided by 100
 balance decreases of entryPayout
 usersProfits increments of entryPayout
+Invalid symbol rescues
+Invalid symbol payoutOrder
 If saviour Invalid symbol msg sender rescueCount is greater then rescueRecord
 rescueRecord is equal to msg sender rescueCount
 hero is equal to msg sender
-If users Address addr corresponds to 
+If users Address addr corresponds to address
 users Address id is equal to 
 users Address addr is equal to Address
 users Address nickname is equal to UnnamedPlayer

@@ -1,5 +1,5 @@
 MyScheme 
-treeBalance numInvestorsMinusOne treeDepth myTree amount 
+treeBalance numInvestorsMinusOne treeDepth myTree amount i eachLevelGets numInLevel 
 MyScheme getNumInvestors  
 treeBalance is equal to 0
 myTree length is equal to 6
@@ -14,4 +14,14 @@ treeBalance increments of 1000000000000000000
 If numInvestorsMinusOne is less or equal to 2
 treeBalance is equal to 0
 treeDepth is equal to 1
+If numInvestorsMinusOne plus 1 corresponds to myTree length
+i is less then myTree length minus treeDepth minus 2
+treeBalance decreases of 500000000000000000
+i is equal to 0
+i is less then myTree length minus treeDepth minus 2
+treeBalance decreases of eachLevelGets divided by numInLevel minus 1
+If numInLevel multiplied by  divided by 2 minus 1 corresponds to i
+numInLevel increments of 1
+myTree length increments of treeDepth plus 3
+treeDepth increments of 1
 treeBalance increments of amount

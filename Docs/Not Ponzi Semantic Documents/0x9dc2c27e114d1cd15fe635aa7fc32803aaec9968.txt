@@ -41,6 +41,7 @@ allocations sender j balance is equal to 0
 total_lockamount is equal to total_lockamount add
 If total_unlockamount is greater then 0
 If total_lockamount corresponds to 0 Invalid symbol 
+Invalid symbol allocations sender
 x is less then balanceRequires length
 sum is equal to sum add
 i is less then times length

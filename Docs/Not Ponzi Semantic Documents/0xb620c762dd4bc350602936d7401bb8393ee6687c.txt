@@ -45,7 +45,9 @@ computedHash is equal to keccak256
 computedHash is equal to keccak256
 If a corresponds to 0
 If _segmentNumber is less then  Invalid symbol 
-If  Invalid symbol _verificationRate corresponds to 0
+If uint256 Invalid symbol _verificationRate corresponds to 0
+JobStatus has values Inactive Active
+ClaimStatus has values Pending Slashed Complete
 verificationRate is equal to _verificationRate
 verificationPeriod is equal to _verificationPeriod
 verificationSlashingPeriod is equal to _verificationSlashingPeriod
@@ -54,6 +56,7 @@ missedVerificationSlashAmount is equal to _missedVerificationSlashAmount
 doubleClaimSegmentSlashAmount is equal to _doubleClaimSegmentSlashAmount
 finderFee is equal to _finderFee
 msg sender deposit is equal to msg sender deposit add
+Invalid symbol msg sender
 job jobId is equal to numJobs
 job streamId is equal to _streamId
 job transcodingOptions is equal to _transcodingOptions
@@ -65,7 +68,7 @@ job endBlock is equal to _endBlock
 numJobs is equal to numJobs add
 If _endBlock is greater then msg sender withdrawBlock
 msg sender withdrawBlock is equal to _endBlock
-If job transcoderAddress is different from 
+If job transcoderAddress is different from address
 job transcoderAddress is equal to msg sender
 job broadcasterAddress deposit is equal to job broadcasterAddress deposit sub
 job escrow is equal to job escrow add

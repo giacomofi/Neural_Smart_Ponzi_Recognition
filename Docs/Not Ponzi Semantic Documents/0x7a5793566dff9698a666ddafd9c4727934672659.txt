@@ -9,6 +9,7 @@ Transfer Approve LaunchContract FreezeTransfers UnFreezeTransfers MintTokens Tok
 If a corresponds to 0
 owner is equal to msg sender
 If msg sender is different from owner
+If msg sender is different from owner
 owner is equal to _newOwner
 name is equal to Community Bank Coin
 symbol is equal to CBC

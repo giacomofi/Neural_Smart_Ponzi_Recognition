@@ -34,11 +34,11 @@ dividendManagerAddress is equal to _dividendManagerAddress
  is equal to 99
 t value is equal to t value add
  is equal to block number add
-If _ref is different from  Invalid symbol 
+If _ref is different from address Invalid symbol 
  is equal to _ref
 allTicketsPrice is equal to allTicketsPrice add
  is equal to allTicketsPrice
-If  is different from 
+If  is different from address
  is equal to refs _ref add
 ownersWeis is equal to ownersWeis add
 ownersWeis is equal to ownersWeis add
@@ -48,9 +48,9 @@ wBlock rate is equal to
 If _lastByte corresponds to 153
 wBlock jp is equal to True
 If JPBlocks length is greater then 0
-wBlock value is equal to  sub
+wBlock value is equal to _blockNum minus 1 sub
 wBlock value is equal to 
-If 
+If not winBlocks _blockNum exists
 
 winValue is equal to getJPValue
 winValue is equal to 

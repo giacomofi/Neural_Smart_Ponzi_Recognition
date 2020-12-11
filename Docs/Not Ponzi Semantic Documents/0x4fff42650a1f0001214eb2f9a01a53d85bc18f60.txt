@@ -22,6 +22,15 @@ If number is less or equal to 18900
 If number is less or equal to 6000
 count is equal to SafeMath div
 beforeFrequency is equal to riseUsdt
+If number is less or equal to 12000
+If beforeFrequency is less then 600
+beforeFrequency is equal to riseUsdt
+count is equal to SafeMath div
+centerFrequency is equal to riseUsdt
+If centerFrequency is less then 600
+centerFrequency is equal to riseUsdt
+count is equal to SafeMath div
+afterFrequency is equal to riseUsdt
  is equal to SafeMath add
  is equal to SafeMath sub
  is equal to SafeMath add

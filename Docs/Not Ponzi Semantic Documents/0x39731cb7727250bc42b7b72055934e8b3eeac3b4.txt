@@ -9,7 +9,7 @@ OwnershipTransferred Transfer Approval
 owner is equal to msg sender
 newOwner is equal to _newOwner
 owner is equal to newOwner
-newOwner is equal to 
+newOwner is equal to address
 symbol is equal to GLX
 name is equal to Glare
 decimals is equal to 18

@@ -27,7 +27,7 @@ _decimals is equal to decimals
  is equal to False
 _cap is equal to cap
 _owner is equal to msg sender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
 If balance corresponds to 0
 _guardCounter is equal to 1
@@ -42,18 +42,19 @@ _cap is equal to cap
 _bonusRate is equal to newBonusRate
 _bonusTime is equal to newBonusTime
 _defaultRate is equal to newDefaultRate
-If 
+If not isOpen
 If block timestamp is less or equal to _bonusTime
-If 
+If not isWhitelistAdmin
 i is less then accounts length
 _beneficiary is equal to beneficiary
 _revocable is equal to revocable
 _duration is equal to duration
 _cliff is equal to start add
 _start is equal to start
- is equal to  add
+ is equal to address add
  is equal to True
 If block timestamp is less then _cliff
+If block timestamp is greater or equal to _start add Invalid symbol 
 token is equal to 
 i is less then teamAddr length
 i is less then advisorAddr length

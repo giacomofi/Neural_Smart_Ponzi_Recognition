@@ -11,21 +11,26 @@ UpgradeabilityProxy inherits from Proxy AdminUpgradeabilityProxy inherits from U
 onlyOwner ifAdmin 
 OwnershipTransferred Transfer Approval Upgraded AdminChanged NewProposal Execution 
 _owner is equal to msg sender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
 If _data length is greater then 0
  is equal to _implementation delegatecall
+If msg sender corresponds to _admin
  is equal to newImplementation delegatecall
  is equal to 
 proposalTime is equal to _proposalTime
 first is equal to 1
 size is equal to 0
  is equal to Proposal
+Invalid symbol size
 prop canceled is equal to True
 i is less then first plus size
 If prop created plus proposalTime is less or equal to now
-If 
+If not prop canceled
 If sig corresponds to 0x8f283970 Invalid symbol  Invalid symbol 
  is equal to prop subject call
 rv is equal to 
 
+Invalid symbol proposals i
+Invalid symbol first
+Invalid symbol size

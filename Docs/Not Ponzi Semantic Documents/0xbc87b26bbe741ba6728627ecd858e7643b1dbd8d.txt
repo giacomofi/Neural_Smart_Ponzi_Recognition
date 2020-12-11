@@ -25,5 +25,5 @@ _paused is equal to False
 _paused is equal to True
 _paused is equal to False
 _supplyCap is equal to supplyCap
-If minter is different from 
+If minter is different from address
 DOMAIN_SEPARATOR is equal to keccak256

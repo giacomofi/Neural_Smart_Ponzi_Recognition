@@ -4,3 +4,6 @@ SOLO WETH SAI USDC DAI override override accountWei
 adapterType tokenType getBalance getMarketId getAccountWei getBalance 
 DyDxAssetAdapter inherits from ProtocolAdapter DyDxAssetAdapter inherits from DyDxAdapter 
 If token corresponds to WETH
+If token corresponds to SAI
+If token corresponds to USDC
+If token corresponds to DAI

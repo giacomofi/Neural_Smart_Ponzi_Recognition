@@ -17,9 +17,16 @@ i is less then _owners length
  is equal to _value
  is equal to _value
  is equal to _value
+Invalid symbol addressStorage _key
+Invalid symbol uintStorage _key
+Invalid symbol stringStorage _key
+Invalid symbol bytesStorage _key
+Invalid symbol bytes32Storage _key
+Invalid symbol boolStorage _key
+Invalid symbol intStorage _key
 database is equal to DBInterface
 database is equal to Database
 events is equal to Events
-If _referrerAddress corresponds to 
-If _tokenAddress corresponds to 
-If _tokenAddress corresponds to 
+If _referrerAddress corresponds to address
+If _tokenAddress corresponds to address
+If _tokenAddress corresponds to address

@@ -3,7 +3,7 @@ DSPauseAbstract PotAbstract JugAbstract VatAbstract CatAbstract VowAbstract Flip
 description MCD_PAUSE MCD_JUG MCD_POT MCD_VOW MCD_VAT MCD_CAT MCD_FLIP_ETH_A MCD_FLIP_BAT_A MCD_FLOP FOUR_PCT_RATE WAD RAD MILLION HOUR DSR_RATE ETH_LINE ETH_FEE BAT_FEE SAI_LINE GLOBAL_AMOUNT ETH_FLIP_TTL BAT_FLIP_TTL ETH_FLIP_TAU BAT_FLIP_TAU FLOP_TTL LUMP WAIT_DELAY pause SAI_MOM action tag eta sig expiration done MILLION WAD _tag _action SAI_FEE SAI_AMOUNT 
 delay plot exec file file drip file file file drip file file file file file file file file file setCap setFee execute description schedule cast 
 sig is equal to abi encodeWithSignature
-action is equal to 
+action is equal to address
 tag is equal to _tag
 expiration is equal to now plus 30 days
 eta is equal to now plus 

@@ -1,6 +1,6 @@
 solidity ^0.5.10 
 InstaLottos 
-manager betamount playercount lowerbound upperbound contractactive rnd winner cb tmp 
+manager betamount playercount lowerbound upperbound contractactive rnd winner cb cbnow cb90 cb10 tmp 
 getcontractactive getbetamount getplayercount getupperbound getmanager getcontractbalance setbetamount setupperbound setcontractactive setmanager playlottery settlewin random destroyContract  
 onlyManager 
 Playlottery 
@@ -14,6 +14,8 @@ betamount is equal to btamt
 upperbound is equal to upbound
 contractactive is equal to act
 manager is equal to newmngr
+Invalid symbol playercount
 If playnum corresponds to rnd
+If cb is less or equal to 
 If cb is less or equal to 
 playercount is equal to 0

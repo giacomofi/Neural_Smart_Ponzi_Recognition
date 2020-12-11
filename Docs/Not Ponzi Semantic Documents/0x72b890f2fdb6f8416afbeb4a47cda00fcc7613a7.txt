@@ -4,7 +4,7 @@ token balance token_contract target_addr amount is_minted otm
 balanceOf transfer transferFrom _claimStdTokens destroyTokens generateTokens mint createOneTimeMint 
 TokenInterface inherits from TransferableToken 
 ClaimedTokens NewOneTimeMint 
-If _token corresponds to 
+If _token corresponds to address
 token_contract is equal to TokenInterface
 target_addr is equal to _target
 amount is equal to _amount

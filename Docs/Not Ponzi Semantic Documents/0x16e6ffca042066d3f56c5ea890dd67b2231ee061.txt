@@ -9,7 +9,7 @@ Ownable inherits from Context PauserRole inherits from Context Pausable inherits
 onlyOwner onlyPauser whenNotPaused whenPaused onlyCurrentOwner hasStorage 
 OwnershipTransferred PauserAdded PauserRemoved Paused Unpaused 
 _owner is equal to msgSender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
  is equal to True
  is equal to False
@@ -23,7 +23,13 @@ currentOwner is equal to _newOwner
  is equal to _value
  is equal to _value
  is equal to _value
-_storage is equal to 
+Invalid symbol uIntStorage _key
+Invalid symbol stringStorage _key
+Invalid symbol addressStorage _key
+Invalid symbol bytesStorage _key
+Invalid symbol boolStorage _key
+Invalid symbol intStorage _key
+_storage is equal to address
 _storage is equal to _storageAddress
 _owner is equal to msg sender
 

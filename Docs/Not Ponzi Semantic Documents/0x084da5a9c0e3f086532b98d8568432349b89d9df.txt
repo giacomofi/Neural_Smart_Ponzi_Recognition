@@ -14,11 +14,11 @@ If a corresponds to 0
  is equal to True
  is equal to False
 owner is equal to msg sender
-newOwner is equal to 
+newOwner is equal to address
 If account corresponds to owner
 newOwner is equal to _newOwner
 owner is equal to newOwner
-newOwner is equal to 
+newOwner is equal to address
 _paused is equal to False
 _paused is equal to True
 _paused is equal to False
@@ -44,6 +44,7 @@ If timelockList from length is greater then 0
  is equal to True
  is equal to False
  is equal to _balances holder sub
+Invalid symbol timelockList holder idx
  is equal to 
 timelockList holder length decreases of 1
  is equal to _balances holder add

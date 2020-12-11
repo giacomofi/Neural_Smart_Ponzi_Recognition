@@ -7,7 +7,7 @@ Ownable inherits from Context ERC20Detailed inherits from IERC20 RTK inherits fr
 onlyOwner 
 OwnershipTransferred Transfer Approval WhitelistFrom WhitelistTo Shot 
 _owner is equal to msgSender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
 If a corresponds to 0
 _name is equal to name

@@ -15,16 +15,17 @@ Claimable inherits from Ownable Adminable inherits from Claimable AuthorizationD
 onlyOwner onlyPendingOwner onlyAdmin 
 OwnershipRenounced OwnershipTransferred AdminAccepted AdminRejected WalletSaved WalletDeleted WalletNotSaved WalletNotDeleted 
 owner is equal to msg sender
-owner is equal to 
+owner is equal to address
 owner is equal to _newOwner
 pendingOwner is equal to newOwner
 owner is equal to pendingOwner
-pendingOwner is equal to 
+pendingOwner is equal to address
 adminInfo valid is equal to True
 adminInfo index is equal to adminArray length
 adminTable lastAdmin index is equal to adminInfo index
  is equal to lastAdmin
 adminArray length decreases of 1
+Invalid symbol adminTable _admin
 i is less then _wallets length
 i is less then _wallets length
 If walletInfo sequenceNum is less then _sequenceNum
@@ -38,3 +39,4 @@ walletInfo sellLimit is equal to _sellLimit
 walletInfo tradeClass is equal to _tradeClass
 If walletInfo sequenceNum is greater then 0
 walletCount decreases of 1
+Invalid symbol walletTable _wallet

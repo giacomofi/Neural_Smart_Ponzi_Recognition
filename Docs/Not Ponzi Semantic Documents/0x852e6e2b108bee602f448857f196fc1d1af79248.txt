@@ -9,7 +9,7 @@ _name is equal to name
 _symbol is equal to symbol
 _decimals is equal to decimals
 _owner is equal to _msgSender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
 
 
@@ -20,3 +20,4 @@ administrator is equal to admin
 auth is equal to IAuthorization
 If auctionBalance plus fundingAmount is greater then maxAmount
 newFundingAmount is equal to maxAmount minus auctionBalance
+

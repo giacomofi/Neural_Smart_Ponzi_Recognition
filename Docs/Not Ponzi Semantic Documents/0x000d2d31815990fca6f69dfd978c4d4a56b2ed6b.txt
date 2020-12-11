@@ -11,11 +11,11 @@ Accessible allowAccess denyAccess transferOwnership getSignature setSignature de
 TrueProfileStorage inherits from Accessible TrueProfileLogic inherits from Accessible 
 ownership accessible 
 owner is equal to msg sender
-If _address is different from 
+If _address is different from address
  is equal to True
-If _address is different from 
+If _address is different from address
  is equal to False
-If _address is different from 
+If _address is different from address
 owner is equal to _address
 
  is equal to tempSignature
@@ -26,6 +26,12 @@ owner is equal to _address
  is equal to _value
  is equal to _value
  is equal to _value
+Invalid symbol addressStorage _key
+Invalid symbol uIntStorage _key
+Invalid symbol stringStorage _key
+Invalid symbol bytesStorage _key
+Invalid symbol boolStorage _key
+Invalid symbol intStorage _key
 trueProfileStorage is equal to TrueProfileStorage
  is equal to trueProfileStorage getSignature
 If this isValidSignatureTrueProof Invalid symbol this isNotRevokedTrueProof

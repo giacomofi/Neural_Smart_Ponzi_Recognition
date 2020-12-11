@@ -4,7 +4,10 @@ mbytes muint maddr
 setBytes getBytes setUint getUint setAddr getAddr 
  is equal to _byte
 _byte is equal to 
+Invalid symbol msg sender _id
  is equal to _num
 _num is equal to 
+Invalid symbol msg sender _id
  is equal to _addr
 _addr is equal to 
+Invalid symbol msg sender _id

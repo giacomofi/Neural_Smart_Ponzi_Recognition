@@ -14,6 +14,6 @@ owner is equal to _newOwner
 _paused is equal to False
 _paused is equal to True
 _paused is equal to False
-owner is equal to 
+owner is equal to address
 _totalSupply is equal to INIT_TOTALSUPPLY
  is equal to _totalSupply

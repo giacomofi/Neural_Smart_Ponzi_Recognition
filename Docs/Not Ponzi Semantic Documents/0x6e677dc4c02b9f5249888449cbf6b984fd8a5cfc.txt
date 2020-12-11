@@ -19,6 +19,7 @@ onlyCreator onlyAuthorizedCaller
 InterfaceImplementerSet ManagerChanged Sent Minted Burned AuthorizedOperator RevokedOperator NewUser ETHPriceUpdated TokenPriceUpdated RegisterUser BuyLevel GetLevelProfit LostLevelProfit BurnLevelProfit 
 If a corresponds to 0
 _token is equal to token
+Invalid symbol _currentUserID
 _creator is equal to msgSender
  is equal to _newUser
  is equal to msgSender
@@ -29,6 +30,7 @@ _suid is equal to suid
 _oracle is equal to oracle
 If height corresponds to 0 Invalid symbol 
  is equal to allowed
+Invalid symbol _currentUserID
 If _currentUserID corresponds to 63
 _burnersSet is equal to True
  is equal to _newUser
@@ -37,23 +39,27 @@ _burnersSet is equal to True
  is equal to True
  is equal to True
 While level is greater then 0 Invalid symbol 
+Invalid symbol level
 
 referrerID is equal to 
+Invalid symbol _currentUserID
  is equal to _newUser
  is equal to newUser
  is equal to True
 If  Invalid symbol  Invalid symbol 
-If  is different from 
+If address is different from address
 lvl is greater then 0
  is equal to True
-If 
+If not  level
  is equal to True
 users user holdings is equal to 0
-If referrer corresponds to 
+Invalid symbol level minus 1
+If referrer corresponds to address
 referrer is equal to _creator
 If referrer isContract Invalid symbol 
 
 If level is different from MAX_LEVEL Invalid symbol 
+Invalid symbol  level
 If  Invalid symbol 
 user holdings is equal to user holdings add
 If levelPrice is less or equal to user holdings
@@ -62,6 +68,7 @@ If _currentUserID Invalid symbol 2 is different from 0
 uplineID increments of 1
 If  corresponds to 0 Invalid symbol 
 _user holdings is equal to 0
+Invalid symbol  level
  is equal to 200 multiplied by 
  is equal to 300 multiplied by 
  is equal to 500 multiplied by 

@@ -13,6 +13,7 @@ onlypig
 NewKing 
 pig is equal to msg sender
 ranking length is equal to 10
+If msg sender corresponds to pig
 If msg value is less then 100 finney
 If msg value is greater then maxDeposit multiplied by 1 ether
 dValue is equal to maxDeposit multiplied by 1 ether
@@ -22,7 +23,7 @@ donkeysInvested increments of dValue
 msg sender invested increments of dValue
 While ranking index invested is less then newEntry Invalid symbol 
 If index is greater then 0
-done is equal to  addr invested is greater then newEntry
+done is equal to index minus 1 addr invested is greater then newEntry
 If ranking index addr corresponds to msg sender
 existingAt is equal to index
 
@@ -30,6 +31,7 @@ If ranking index addr corresponds to msg sender
  is equal to 
 samePosition is equal to True
 If not done
+Invalid symbol index
 done is equal to True
 index is equal to 0
 If ranking index addr corresponds to msg sender Invalid symbol 
@@ -40,10 +42,12 @@ If not samePosition
 While balance is greater then entries payoutOrder payout
 entries payoutOrder paid is equal to True
 balance decreases of payout
+Invalid symbol carrots
+Invalid symbol payoutOrder
 If fees is greater then 0
 If entries length is greater or equal to 50 Invalid symbol 
 fees is equal to dValue multiplied by fee divided by 100
-If ranking luckyDonkey addr is different from 
+If ranking luckyDonkey addr is different from address
 If msg sender invested is greater then investmentRecord
 donkeyKing is equal to msg sender
 investmentRecord is equal to msg sender invested
@@ -52,7 +56,7 @@ If ranking 0 addr is different from donkeys donkeyKing addr Invalid symbol
  is equal to 
 i is greater then index
  is equal to 
-If donkeys Address addr corresponds to 
+If donkeys Address addr corresponds to address
 donkeys Address addr is equal to Address
 donkeys Address nickname is equal to GullibleDonkey
 donkeys Address invested is equal to 0

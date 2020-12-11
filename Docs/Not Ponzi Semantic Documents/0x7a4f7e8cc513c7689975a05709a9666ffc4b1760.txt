@@ -14,7 +14,7 @@ owner is equal to admin
 symbol is equal to SAMPLE
 name is equal to model_youngjoooh
 decimals is equal to 18
-_totalSupply is equal to 100000000 multiplied by 10 Invalid symbol 
+_totalSupply is equal to 100000000 multiplied by 10 Invalid symbol uint
 _stopTrade is equal to False
  is equal to _totalSupply
 _stopTrade is equal to True

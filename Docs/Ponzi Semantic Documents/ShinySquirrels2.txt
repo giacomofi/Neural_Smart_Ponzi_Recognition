@@ -80,6 +80,94 @@ fee increments of 2
 hearts increments of 1
 If deposit is greater or equal to 3 ether
 stars increments of 1
+If players length Invalid symbol 5 corresponds to 1
+multiplier increments of 4
+fee increments of 2
+squirrels increments of 1
+If deposit is less then 1 ether
+multiplier increments of 6
+fee increments of 3
+squirrels increments of 1
+If deposit is greater or equal to 2 ether
+If waitingForPayout is greater or equal to 20
+skip increments of waitingForPayout divided by 2
+fee increments of 2
+shinyThings increments of 1
+multiplier increments of 4
+fee increments of 4
+hearts increments of 1
+If deposit is greater or equal to 4 ether
+multiplier increments of 1
+fee decreases of 
+skip increments of 1
+hearts increments of 1
+stars increments of 1
+If players length Invalid symbol 5 corresponds to 2
+multiplier increments of 7
+fee increments of 6
+sprockets increments of 1
+If waitingForPayout is greater or equal to 10
+multiplier decreases of 
+fee decreases of 
+skip increments of 1
+squirrels increments of 1
+If deposit is greater or equal to 3 ether
+multiplier increments of 2
+skip increments of 1
+stars increments of 1
+shinyThings increments of 1
+If deposit corresponds to maxDeposit
+multiplier increments of 2
+skip increments of 1
+hearts increments of 1
+squirrels increments of 1
+If players length Invalid symbol 5 corresponds to 3
+multiplier decreases of 
+fee increments of 0
+skip increments of 3
+shinyThings increments of 1
+If deposit is less then 1 ether
+multiplier decreases of 
+fee increments of 2
+skip increments of 5
+squirrels increments of 1
+If deposit corresponds to 1 ether
+multiplier increments of 10
+fee increments of 4
+skip increments of 2
+hearts increments of 1
+If deposit corresponds to maxDeposit
+multiplier increments of 1
+fee increments of 5
+skip increments of 1
+sprockets increments of 1
+stars increments of 1
+hearts increments of 1
+If players length Invalid symbol 5 corresponds to 4
+multiplier increments of 2
+fee decreases of 
+squirrels increments of 1
+If deposit is less then 1 ether
+multiplier increments of 3
+fee increments of 2
+skip increments of 3
+If deposit is greater or equal to 2 ether
+multiplier increments of 2
+fee increments of 2
+skip increments of 1
+stars increments of 1
+If deposit corresponds to maxDeposit divided by 2
+multiplier increments of 2
+fee increments of 5
+skip increments of 3
+shinyThings increments of 1
+sprockets increments of 1
+If deposit is greater or equal to 3 ether
+multiplier increments of 1
+fee increments of 1
+skip increments of 1
+sprockets increments of 1
+hearts increments of 1
 msg sender hearts increments of hearts
 msg sender stars increments of stars
 msg sender squirrels increments of squirrels
@@ -143,12 +231,15 @@ players theLine currentPosition addr paid increments of payout
 balance decreases of payout
 totalPaid increments of payout
 If balance is greater then 0
+Invalid symbol currentPosition
 nextPayout is equal to entryPayoutDue
 If skip is greater then 0 Invalid symbol 
 If skip is greater then waitingForPayout minus 2
 skip is equal to waitingForPayout minus 2
 While i is less then skip
  is equal to 
+Invalid symbol i
+
 newLineIndex is equal to currentLineIndex minus i
 newLineIndex is equal to currentLineIndex
 skip is equal to 0

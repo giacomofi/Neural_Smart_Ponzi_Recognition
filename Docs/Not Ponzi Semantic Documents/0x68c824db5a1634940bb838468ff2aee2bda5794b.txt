@@ -25,7 +25,7 @@ _name is equal to name
 _symbol is equal to symbol
 _decimals is equal to decimals
 _owner is equal to _msgSender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
 _config is equal to AddressConfig
 _validator is equal to 
@@ -40,13 +40,13 @@ oppositeCount is equal to oppositeCount add
 _policy is equal to IPolicy
 If result corresponds to False
 _votingEndBlockNumber is equal to 0
-If  corresponds to 
+If  corresponds to address
 _votingEndBlockNumber is equal to block number add
 voteTimes is equal to voteTimes add
 voteTimesByProperty is equal to voteTimesByProperty add
 market is equal to _market
 property is equal to _property
-_storage is equal to 
+_storage is equal to address
 _storage is equal to _storageAddress
 totalCount is equal to totalCount add
 blockNumber is equal to blockNumber add
@@ -99,9 +99,15 @@ currentOwner is equal to _newOwner
  is equal to _value
  is equal to _value
  is equal to _value
+Invalid symbol uIntStorage _key
+Invalid symbol stringStorage _key
+Invalid symbol addressStorage _key
+Invalid symbol bytesStorage _key
+Invalid symbol boolStorage _key
+Invalid symbol intStorage _key
 
 If _addr corresponds to _target1
-If  corresponds to 
+If  corresponds to address
 i is less then policySet count
 If policyAddress corresponds to _currentPolicyAddress
 author is equal to _own

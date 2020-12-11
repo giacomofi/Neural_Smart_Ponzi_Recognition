@@ -39,9 +39,11 @@ INITIAL_SUPPLY is equal to totalSupply_
  is equal to balances _from sub
  is equal to balances _to add
  is equal to msg sender
+Invalid symbol msg sender
 content is equal to msgs _id content
 timestamp is equal to msgs _id timestamp
 i is less then msgs length
 If  corresponds to _owner
  is equal to i
+Invalid symbol counter
 len is equal to msgs length

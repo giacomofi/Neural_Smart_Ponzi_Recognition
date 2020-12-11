@@ -9,28 +9,32 @@ Controllers inherits from DSMath LinkedList inherits from Controllers InstaConne
 isChief 
 LogAddController LogRemoveController LogEnable LogDisable LogEnableStatic 
  is equal to True
-If last is different from 
+Invalid symbol chief _userAddress
+If last is different from address
 list _connector prev is equal to last
 list last next is equal to _connector
-If first corresponds to 
+If first corresponds to address
 first is equal to _connector
 last is equal to _connector
 count is equal to add
-If list _connector prev is different from 
+If list _connector prev is different from address
 list _connector prev next is equal to list _connector next
 first is equal to list _connector next
-If list _connector next is different from 
+If list _connector next is different from address
 list _connector next prev is equal to list _connector prev
 last is equal to list _connector prev
 count is equal to sub
+Invalid symbol list _connector
  is equal to True
+Invalid symbol connectors _connector
+Invalid symbol staticCount
  is equal to _connector
  is equal to True
 isOk is equal to True
 i is less then _connectors length
-If 
+If not connectors _connectors i
 isOk is equal to False
 isOk is equal to True
 i is less then _connectors length
-If 
+If not staticConnectors _connectors i
 isOk is equal to False

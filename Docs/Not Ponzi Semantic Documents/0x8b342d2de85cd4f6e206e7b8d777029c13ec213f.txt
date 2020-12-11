@@ -8,7 +8,7 @@ onlyOwner whenNotPaused whenPaused
 OwnershipTransferred Transfer Approval Paused Unpaused ClaimedTokens RegisterBlacklist UnregisterBlacklist 
 If a corresponds to 0
 _owner is equal to msg sender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
  is equal to value
  is equal to _allowed from msg sender sub

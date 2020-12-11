@@ -10,7 +10,7 @@ If a corresponds to 0
 c is equal to a multiplied by b
 c is equal to a plus b
 owner is equal to msg sender
-If newOwner is different from 
+If newOwner is different from address
 owner is equal to newOwner
 distributionFinished is equal to True
 totalDistributed is equal to totalDistributed add
@@ -25,10 +25,24 @@ tokens is equal to tokensPerEth mul divided by 1 ether
 If msg value is greater or equal to requestMinimum Invalid symbol  Invalid symbol  Invalid symbol 
 If msg value is greater or equal to bonusCond1 Invalid symbol 
 countbonus is equal to tokens multiplied by 10 divided by 100
+If msg value is greater or equal to bonusCond2 Invalid symbol 
+countbonus is equal to tokens multiplied by 20 divided by 100
+If msg value is greater or equal to bonusCond3
+countbonus is equal to tokens multiplied by 35 divided by 100
+If msg value is greater or equal to requestMinimum Invalid symbol  Invalid symbol  Invalid symbol 
+If msg value is greater or equal to bonusCond2 Invalid symbol 
+countbonus is equal to tokens multiplied by 2 divided by 100
+If msg value is greater or equal to bonusCond3
+countbonus is equal to tokens multiplied by 3 divided by 100
+countbonus is equal to 0
 bonus is equal to tokens plus countbonus
 If tokens corresponds to 0
 If  corresponds to False Invalid symbol 
  is equal to True
+Invalid symbol progress0drop
+If tokens is greater then 0 Invalid symbol 
+If now is greater or equal to deadline Invalid symbol  Invalid symbol 
+If msg value is greater or equal to bonusCond1
 If totalDistributed is greater or equal to totalSupply
 distributionFinished is equal to True
  is equal to msg sender sub

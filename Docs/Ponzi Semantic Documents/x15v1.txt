@@ -5,6 +5,7 @@ earnerarray has amount
 crazyearners deposits_until_jackpot totalearners feerate profitrate jackpotrate alpha feeamount balance totaldeposited totalmoneyearned kappa calculator beta amount tot_pl payout nr 
 x15  enter 
 onlyowner 
+If msg sender corresponds to kappa
 kappa is equal to msg sender
 If msg value is less then 30 ether
 totalearners is equal to tot_pl plus 1

@@ -17,9 +17,9 @@ c is equal to _a plus _b
 i is less then _array length
 fullAmount increments of 
 owner is equal to msg sender
-owner is equal to 
+owner is equal to address
 owner is equal to _newOwner
-If 
+If not governanceContracts addr
  is equal to True
 success is equal to True
 
@@ -56,7 +56,7 @@ tokensForWithdraw decreases of paidTokens
 token_ is equal to IQDAO
 lostTime is equal to 7862400
 maximumDurationToFreeze is equal to 94694400
-If now is less then 
+If now is less then uint256
 _amountTokens is equal to _combineArray
 _periods is equal to getAddressToId _lockSlotId periods
 _tokens is equal to getAddressToId _lockSlotId tokens

@@ -7,15 +7,17 @@ isMaster
 LogNewMaster LogNewCheck LogNewAccount AccountCreated 
 master is equal to _newMaster
  is equal to _newCheck
+Invalid symbol versionCount
  is equal to _newAccount
-If _connectors is different from 
+If _connectors is different from address
  is equal to _connectors
-If _check is different from 
+If _check is different from address
  is equal to _check
 _account is equal to build
 If _targets length is greater then 0
 _account is equal to createClone
 master is equal to _master
 list is equal to _list
+Invalid symbol versionCount
  is equal to _account
  is equal to _connectors

@@ -14,9 +14,11 @@ If a corresponds to 0
 name is equal to _name
 symbol is equal to _symbol
 decimals is equal to _decimals
-totalSupply is equal to 10000000000 multiplied by 10 Invalid symbol 
+totalSupply is equal to 10000000000 multiplied by 10 Invalid symbol uint256
  is equal to totalSupply
 crowdsaleContract is equal to crowdsale
+If now is less then unlocktime
+ is equal to 0
  is equal to msg sender sub
  is equal to balances _to add
 

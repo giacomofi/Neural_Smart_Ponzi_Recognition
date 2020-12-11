@@ -7,7 +7,7 @@ ERC20 inherits from IERC20 FlashWETH inherits from ERC20
 onlyOwner 
 OwnershipTransferred Transfer Approval Approval Transfer Deposit Withdrawal FlashMint 
 _owner is equal to msg sender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
 If a corresponds to 0
  is equal to _balances sender sub

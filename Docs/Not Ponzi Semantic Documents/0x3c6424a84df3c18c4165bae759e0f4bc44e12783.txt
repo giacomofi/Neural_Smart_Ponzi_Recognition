@@ -15,8 +15,9 @@ _name is equal to name
 _symbol is equal to symbol
 _decimals is equal to decimals
 _owner is equal to msg sender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
+Invalid symbol nonces _signer
  is equal to value
  is equal to _allowed from msg sender sub
  is equal to msg sender spender add
@@ -40,6 +41,7 @@ If _reward is greater then 0
  is equal to _allowed signer _spender sub
 If _reward is greater then 0
 While release is different from 0
+Invalid symbol count
 release is equal to 
 i is less then _index plus 1
 _release is equal to 
@@ -48,10 +50,13 @@ _balance is equal to
  is equal to _balances _from sub
  is equal to freezings currentKey add
  is equal to freezingBalance _to add
+Invalid symbol freezings currentKey
  is equal to msg sender add
  is equal to msg sender sub
 If next corresponds to 0
+Invalid symbol chains headKey
  is equal to next
+Invalid symbol chains currentKey
  is equal to getFreezing
 While release is different from 0 Invalid symbol 
 tokens increments of balance

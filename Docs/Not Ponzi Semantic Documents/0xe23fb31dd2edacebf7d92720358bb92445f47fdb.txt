@@ -19,6 +19,7 @@ BidPlaced
 _guardCounter is equal to 1
 _guardCounter increments of 1
 If a corresponds to 0
+State has values Default Proposal Rebalance Drawdown
 core is equal to _core
 coreInstance is equal to ICore
 vault is equal to _vault

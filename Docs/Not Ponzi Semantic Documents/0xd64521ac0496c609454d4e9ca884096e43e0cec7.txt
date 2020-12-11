@@ -9,7 +9,7 @@ If not assertion
 owner is equal to msg sender
 owner is equal to newOwner
  is equal to totalSupply
-If _to corresponds to 
+If _to corresponds to address
  is equal to safeSub
  is equal to safeAdd
  is equal to safeSub

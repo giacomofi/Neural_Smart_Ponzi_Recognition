@@ -14,9 +14,10 @@ If _value corresponds to True
 modules increments of 1
  is equal to True
 modules decreases of 1
+Invalid symbol authorised _module
  is equal to _module
 owner is equal to _newOwner
- is equal to 
+ is equal to _target call value
 If not success
 If msg data length is greater then 0
-If module corresponds to 
+If module corresponds to address

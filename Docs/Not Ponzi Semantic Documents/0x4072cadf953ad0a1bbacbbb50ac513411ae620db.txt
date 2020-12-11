@@ -6,11 +6,12 @@ Ownable inherits from Context Arbitrator inherits from Ownable
 onlyOwner 
 OwnershipTransferred Transfer Approval LogRequestArbitration LogSetRealitio LogSetQuestionFee LogSetDisputeFee LogSetCustomDisputeFee 
 _owner is equal to msgSender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
 realitio is equal to IRealitio
 disputeFee is equal to fee
  is equal to fee
+Invalid symbol arbitration_bounties questionId
  increments of msg value
 If paid is greater or equal to arbitrationFee
 metadata is equal to _metadata

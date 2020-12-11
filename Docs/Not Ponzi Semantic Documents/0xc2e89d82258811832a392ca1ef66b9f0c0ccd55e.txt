@@ -9,7 +9,7 @@ ERC20 inherits from IERC20 Pausable inherits from PauserRole ReferralTracker inh
 onlyOwner onlyPauser whenNotPaused whenPaused onlyRegistry onlyAdmin 
 OwnershipTransferred Transfer Approval PauserAdded PauserRemoved Paused Unpaused ReferralRegistered ReferralBonusWithdrawn FundsAdded FundsRemoved 
 _owner is equal to msg sender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
 If a corresponds to 0
  is equal to _balances sender sub
@@ -28,3 +28,4 @@ registryAddress is equal to registryAddress_
 token is equal to ERC20
 admin is equal to _admin
  is equal to unclaimedReferrals referrer add
+Invalid symbol msg sender

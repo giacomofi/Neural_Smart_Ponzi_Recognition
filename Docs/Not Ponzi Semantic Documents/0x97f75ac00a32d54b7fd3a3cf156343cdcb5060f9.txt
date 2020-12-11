@@ -18,14 +18,18 @@ LogNote
  is equal to 0
  is equal to 1
 live is equal to 1
-z is equal to x plus 
-z is equal to x minus 
-z is equal to  multiplied by y
+z is equal to x plus uint
+z is equal to x minus uint
+z is equal to int multiplied by y
 ilks ilk rate is equal to 10 Invalid symbol 27
 If what corresponds to Line
 Line is equal to data
 If what corresponds to spot
 ilks ilk spot is equal to data
+If what corresponds to line
+ilks ilk line is equal to data
+If what corresponds to dust
+ilks ilk dust is equal to data
 live is equal to 0
  is equal to add
  is equal to sub

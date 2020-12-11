@@ -18,4 +18,4 @@ name is equal to GemToken
 decimals is equal to 5
 symbol is equal to GEM
  is equal to _value
-If 
+If not _spender call

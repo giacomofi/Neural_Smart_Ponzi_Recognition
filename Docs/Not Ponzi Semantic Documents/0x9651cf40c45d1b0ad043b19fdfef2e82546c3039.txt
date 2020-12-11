@@ -30,21 +30,24 @@ userLink _owner first is equal to _next
 If _next corresponds to 0
 userLink _owner last is equal to _prev
 userLink _owner count is equal to sub
-If accountLink _account last is different from 
+Invalid symbol userList _owner _account
+If accountLink _account last is different from address
 accountList _account _owner prev is equal to accountLink _account last
 accountList _account accountLink _account last next is equal to _owner
-If accountLink _account first corresponds to 
+If accountLink _account first corresponds to address
 accountLink _account first is equal to _owner
 accountLink _account last is equal to _owner
 accountLink _account count is equal to add
-If _prev is different from 
+If _prev is different from address
 accountList _account _prev next is equal to _next
-If _next is different from 
+If _next is different from address
 accountList _account _next prev is equal to _prev
-If _prev corresponds to 
+If _prev corresponds to address
 accountLink _account first is equal to _next
-If _next corresponds to 
+If _next corresponds to address
 accountLink _account last is equal to _prev
 accountLink _account count is equal to sub
+Invalid symbol accountList _account _owner
+Invalid symbol accounts
  is equal to accounts
  is equal to _account

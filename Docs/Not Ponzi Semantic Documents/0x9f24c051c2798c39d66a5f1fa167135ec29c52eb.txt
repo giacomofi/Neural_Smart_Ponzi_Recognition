@@ -4,7 +4,7 @@ name symbol decimals totalSupply lockAll owner newOwner frozens balanceOf previo
 transferOwnership acceptOwnership freezeAccount freezeAll contTransfer transfer _transfer 
 onlyOwner 
 Transfer FrozenFunds OwnerUpdate 
-totalSupply is equal to 5000000000 multiplied by 10 Invalid symbol 
+totalSupply is equal to 5000000000 multiplied by 10 Invalid symbol uint256
  is equal to totalSupply
 owner is equal to msg sender
 newOwner is equal to tOwner

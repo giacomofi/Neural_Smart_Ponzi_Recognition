@@ -9,7 +9,7 @@ Ownable inherits from Context Authorization inherits from IAuthorization Authori
 onlyOwner 
 OwnershipTransferred UserDepositCompleted UserWithdrawnCompleted AddressUnlockedForWithdrawal MigrationFinished RemovedFromKYC AddedToKYC 
 _owner is equal to _msgSender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
 kycAddress is equal to _kycAddress
 depositAddress is equal to _depositAddress

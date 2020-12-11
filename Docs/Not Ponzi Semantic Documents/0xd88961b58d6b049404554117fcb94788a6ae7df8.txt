@@ -34,13 +34,13 @@ token has voteStatus
 name symbol comment owner admin indexCount registerFee ratePlaces openMarketFee minQtdDiv minQtd index tokens exists pass refToken tokenMaker tokenTaker amount 
 name symbol decimals transfer transferFrom balanceOf allowance  getTokenByAddr getTokenByIndex getLikesByAddr getVoteStatus getLikesByIndex getPairByAddr getPairByIndex getOrders getDones changeOwner changeAdmin registerToken createMarket createOrder tokenLike tokenDislike changeRegisterFee changeMinQtdDiv changeOpenMarketFee cancelOrder fillOrder 
 orderPlaced orderDone orderCanceled orderRemovedLowBalance 
-owner is equal to 
-admin is equal to 
+owner is equal to address
+admin is equal to address
 If msg sender corresponds to owner
 owner is equal to _newOwner
 If msg sender corresponds to owner
 admin is equal to _newAdmin
-If 
+If not exists _token
 indexCount is equal to indexCount plus 1
  is equal to _token
 tokens _token tokenBase is equal to _token
@@ -66,7 +66,7 @@ tokens _token marketsCount is equal to tokens _token marketsCount plus 1
  _tokenPair ordersCount sell is equal to _sell
  _tokenPair ordersCount date is equal to now
  is equal to 0
-If 
+If not msg sender like
 tokens _token likesCount is equal to tokens _token likesCount plus 1
 msg sender like is equal to True
 
@@ -74,7 +74,7 @@ tokens _token dislikesCount is equal to tokens _token dislikesCount minus 1
 msg sender dislike is equal to False
 tokens _token likesCount is equal to tokens _token likesCount minus 1
 msg sender like is equal to False
-If 
+If not msg sender dislike
 tokens _token dislikesCount is equal to tokens _token dislikesCount plus 1
 msg sender dislike is equal to True
 
@@ -89,6 +89,7 @@ openMarketFee is equal to _openMarketFee
  is equal to 
  _orderId orderId is equal to _orderId
  is equal to _orderId
+Invalid symbol  _tokenPair ordersCount
  _tokenPair ordersCount is equal to  _tokenPair ordersCount minus 1
  _orderID amount is equal to  _orderID amount minus amount
  _tokenPair donesCount is equal to  _tokenPair donesCount plus 1
@@ -101,4 +102,5 @@ If  _orderID amount is less then minQtd
  is equal to 
  _orderID orderId is equal to _orderID
  is equal to _orderID
+Invalid symbol  _tokenPair ordersCount
  _tokenPair ordersCount is equal to  _tokenPair ordersCount minus 1

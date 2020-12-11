@@ -6,7 +6,7 @@ Partner inherits from Ownable
 onlyOwner 
 OwnershipTransferred FeeWalletChanged FeeChanged 
 _owner is equal to msg sender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
 _referralId is equal to referralId
 _feeWallet is equal to feeWallet

@@ -30,7 +30,7 @@ UTXO has amount
 PayNote has utxo
 PayNote has blocknumber
 PayNote has txhash
-balance cmp_amount balance cmp_amount q r t input success t input success nsignals i p_input t j out success root i buffsz last_tx level buffparity i sz i sz i PTR_ROLLUP_BLOCK PTR_DEPOSIT_STATE PTR_WITHDRAW_STATE PTR_ROLLUP_TX_NUM PTR_ALIVE PTR_TX_VK PTR_TREE_UPDATE_VK PTR_VERSION PTR_RELAYER pos pos pos pos pos pos DEPOSIT_EXISTS DEPOSIT_EXPIRES_BLOCKS CHALLENGE_EXPIRES_BLOCKS BN254_ORDER MAX_AMOUNT VERSION _amount deposit_hash deposit_hash withdraw_hash state cur_rollup_tx_num nitems hashes i item itemhash HARDFORK_TX_NUM inputs inputs 
+balance cmp_amount balance cmp_amount q r t input success t input success nsignals i p_input t j out success root i buffsz last_tx level buffparity i sz i sz i PTR_ROLLUP_BLOCK PTR_DEPOSIT_STATE PTR_WITHDRAW_STATE PTR_ROLLUP_TX_NUM PTR_ALIVE PTR_TX_VK PTR_TREE_UPDATE_VK PTR_VERSION PTR_RELAYER pos pos pos pos pos pos DEPOSIT_EXISTS DEPOSIT_EXPIRES_BLOCKS CHALLENGE_EXPIRES_BLOCKS BN254_ORDER MAX_AMOUNT VERSION _amount deposit_hash deposit_hash withdraw_hash state cur_rollup_tx_num nitems hashes i item itemhash txhash deposit_hash txhash withdraw_hash HARDFORK_TX_NUM inputs inputs 
 totalSupply balanceOf transfer allowance approve transferFrom abstractReceive abstractTransfer abstractBalanceOf addition scalar_mul verify keccak256MerkleProof keccak256MerkleTree set_uint256 get_uint256 set_address get_address set_bool get_bool set_bytes32 get_bytes32 set_uint256 get_uint256 set_uint256_list get_uint256_list get_rollup_block set_rollup_block get_deposit_state set_deposit_state get_withdraw_state set_withdraw_state get_rollup_tx_num set_rollup_tx_num get_alive set_alive get_tx_vk set_tx_vk get_tree_update_vk set_tree_update_vk get_version set_version get_relayer set_relayer blockItemNoteVerify blockItemNoteVerifyPair blockItemHash groth16verify rollup_block deposit_state withdraw_state rollup_tx_num alive tx_vk tree_update_vk relayer initialized version challenge_expires_blocks deposit_expires_blocks init deposit depositCancel withdraw publishBlock stopRollup challengeTx challengeUTXOTreeUpdate challengeDoubleSpend get_tx_vk get_tree_update_vk 
 OptimisticRollup inherits from UnstructuredStorage Zeropool inherits from OptimisticRollup 
 onlyInitialized onlyUninitialized onlyRelayer onlyAlive 
@@ -61,6 +61,7 @@ i is less then input length
  is equal to 
  is equal to 
 j is less then nsignals
+t is equal to addition
  is equal to t X
  is equal to t Y
  is equal to 
@@ -98,6 +99,8 @@ txhash is equal to keccak256
 itemhash is equal to keccak256
 i is less then nitems
 If item ctx delta corresponds to 0
+If item ctx delta is less then MAX_AMOUNT
+If item ctx delta is greater then BN254_ORDER minus MAX_AMOUNT Invalid symbol 
  is equal to itemhash
 If get_rollup_tx_num is greater then lastvalid
  is equal to base item new_root
@@ -105,9 +108,9 @@ If get_rollup_tx_num is greater then lastvalid
  is equal to 
  is equal to 
  is equal to 
- is equal to 
+ is equal to uint256
  is equal to cur item ctx delta
- is equal to  Invalid symbol BN254_ORDER
+ is equal to uint256 Invalid symbol BN254_ORDER
  is equal to prev item new_root
  is equal to right_root
  is equal to cur id

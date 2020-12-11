@@ -18,7 +18,7 @@ _amount is equal to sub
  is equal to getBestPrice
 If daiBalance is greater then 0
  is equal to getBestPrice
- is equal to 
+ is equal to  value
 daiReturned is equal to sub
 If ethReturned is greater then 0
  is equal to 

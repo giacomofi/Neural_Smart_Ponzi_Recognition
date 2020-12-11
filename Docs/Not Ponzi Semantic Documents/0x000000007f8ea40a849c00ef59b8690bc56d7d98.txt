@@ -9,6 +9,7 @@ enlist defect enterAuction finalizeAuction ceaseFire getStatus getActiveAuctions
 ERC20 inherits from IERC20 DaiBackstopSyndicateV0 inherits from IDaiBackstopSyndicate DaiBackstopSyndicateV0 inherits from SimpleFlopper DaiBackstopSyndicateV0 inherits from TwoStepOwnable DaiBackstopSyndicateV0 inherits from ERC20 
 onlyOwner notWhenDeactivated 
 AuctionEntered AuctionFinalized Kick Transfer Approval OwnershipTransferred 
+Status has values ACCEPTING_DEPOSITS ACTIVATED DEACTIVATED
 If a corresponds to 0
  is equal to _balances sender sub
  is equal to _balances recipient add
@@ -19,13 +20,16 @@ _totalSupply is equal to _totalSupply sub
  is equal to value
 _owner is equal to tx origin
 _newPotentialOwner is equal to newOwner
+Invalid symbol _newPotentialOwner
+Invalid symbol _newPotentialOwner
 _owner is equal to msg sender
-If 
+If not contains
  is equal to set values length
 
 If lastIndex is different from toDeleteIndex
  is equal to lastValue
  is equal to toDeleteIndex plus 1
+Invalid symbol  value
 i is less then set values length
  is equal to 
 _status is equal to Status ACCEPTING_DEPOSITS
@@ -36,11 +40,11 @@ daiRedeemed is equal to vatDaiRedeemed divided by 1e27
 If _status is different from Status ACTIVATED
 _status is equal to Status ACTIVATED
 If end is different from 0
-If bidder corresponds to 
+If bidder corresponds to address
 _status is equal to Status DEACTIVATED
 status is equal to _status
 activeAuctions is equal to _activeAuctions enumerate
 vatDai is equal to 0
 i is less then activeAuctions length
  is equal to SimpleFlopper getCurrentBid
-If bidder corresponds to 
+If bidder corresponds to address

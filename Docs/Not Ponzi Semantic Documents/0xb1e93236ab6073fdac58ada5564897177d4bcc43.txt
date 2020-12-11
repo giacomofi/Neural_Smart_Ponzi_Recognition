@@ -19,7 +19,10 @@ If keyIndex is greater then 0
 keyIndex is equal to 
  key keyIndex is equal to keyIndex plus 1
  keyIndex key is equal to key
+Invalid symbol self size
+Invalid symbol _tmpKeyIndex
 While _tmpKeyIndex is less then self keys length Invalid symbol  _tmpKeyIndex deleted
+Invalid symbol _tmpKeyIndex
 key is equal to  keyIndex key
 value is equal to  key value
 owner is equal to msg sender

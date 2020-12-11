@@ -5,6 +5,7 @@ InvestorArray has amount
 investors total_investors fees balance totaldeposited totalpaidout totaldividends Message_To_Investors owner PRE_payout PRE_amount PRE_i amount alreadyinvestor alreadyinvestor_id i 
 EthVenturesFinal  Enter NewOwner Emergency EmergencyBalanceReset NewMessage NewManualInvestor ManualDeposit 
 manager 
+If msg sender corresponds to owner
 owner is equal to msg sender
 If msg value is less then 2 ether
 totalpaidout increments of PRE_amount divided by 100
@@ -26,8 +27,8 @@ alreadyinvestor_id is equal to i
 If alreadyinvestor corresponds to False
 total_investors is equal to investors length plus 1
 investors length increments of 1
- etherAddress is equal to msg sender
- amount is equal to amount
+investors length minus 1 etherAddress is equal to msg sender
+investors length minus 1 amount is equal to amount
 Message_To_Investors is equal to New Investor has joined us!
 investors alreadyinvestor_id amount increments of amount
 If fees is different from 0
@@ -42,8 +43,8 @@ Message_To_Investors is equal to The Balance has been edited by the Manager!
 Message_To_Investors is equal to new_sms
 total_investors is equal to investors length plus 1
 investors length increments of 1
- etherAddress is equal to new_investor
- amount is equal to new_amount
+investors length minus 1 etherAddress is equal to new_investor
+investors length minus 1 amount is equal to new_amount
 Message_To_Investors is equal to New manual Investor has been added by the Manager!
 totaldeposited increments of msg value
 balance increments of msg value

@@ -7,7 +7,7 @@ onlyOwner
 Transfer Approval UpgradeContractChange UpgradeBurn OwnershipTransferred Transfer Approval UpgradeContractChange UpgradeBurn 
 If a corresponds to 0
 _owner is equal to msg sender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
  is equal to totalSupply
  is equal to SafeMath sub

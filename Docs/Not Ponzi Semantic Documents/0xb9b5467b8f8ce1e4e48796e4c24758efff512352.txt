@@ -18,4 +18,4 @@ name is equal to NLC Token
 decimals is equal to 18
 symbol is equal to NLC
  is equal to _value
-If 
+If not _spender call

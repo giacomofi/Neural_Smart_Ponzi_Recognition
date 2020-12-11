@@ -5,6 +5,7 @@ Person has amount
 persons payoutIdx collectedFees balance owner amount idx transactionAmount 
 quadrupler  enter setOwner 
 onlyowner 
+If msg sender corresponds to owner
 owner is equal to msg sender
 If msg value is less then 1 ether
 If msg value is greater then 999 ether

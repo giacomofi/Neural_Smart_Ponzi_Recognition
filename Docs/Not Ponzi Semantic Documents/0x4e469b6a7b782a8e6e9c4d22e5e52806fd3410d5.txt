@@ -6,5 +6,5 @@ iColabRegistry inherits from Ownable
 onlyOwner 
 OwnershipTransferred FileRegistered 
 _owner is equal to msg sender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner

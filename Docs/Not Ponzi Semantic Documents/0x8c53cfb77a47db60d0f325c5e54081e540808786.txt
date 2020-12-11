@@ -9,8 +9,8 @@ GasReport TokenSwapped
 owner is equal to msg sender
  is equal to True
  is equal to False
-If token corresponds to 
-If token corresponds to 
+If token corresponds to address
+If token corresponds to address
 erc20 is equal to ERC20
 If quantity is different from 0
 If g length is different from 0
@@ -20,12 +20,12 @@ i is less then end
 len is equal to len minus quantity
 i is less then end
 i is less then 10
-If  corresponds to 
+If  corresponds to address
  is equal to addr
 swapProxySize is equal to swapProxySize plus 1
 i is less then 10
 If  corresponds to addr
- is equal to 
+ is equal to address
 swapProxySize is equal to swapProxySize minus 1
 If swapProxySize corresponds to 0
  is equal to getBestRate
@@ -38,7 +38,7 @@ name is equal to spi name
 
 i is equal to 0
 i is less then 10
-If  is different from 
+If  is different from address
 spi is equal to SwapProxyInterface
 tmp is equal to spi getSwapRate
 If tmp is greater then rate

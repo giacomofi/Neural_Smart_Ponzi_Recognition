@@ -10,10 +10,10 @@ If a corresponds to 0
 c is equal to a multiplied by b
 c is equal to a plus b
 owner is equal to msg sender
-newOwner is equal to 
+newOwner is equal to address
 newOwner is equal to _newOwner
 owner is equal to msg sender
-newOwner is equal to 
+newOwner is equal to address
  is equal to True
  is equal to authorization
  is equal to balances _sender sub

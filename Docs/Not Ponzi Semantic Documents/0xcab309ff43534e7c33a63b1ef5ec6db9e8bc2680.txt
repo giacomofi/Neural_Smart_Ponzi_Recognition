@@ -15,7 +15,7 @@ _paused is equal to True
 _paused is equal to False
 _owner is equal to msg sender
 _owner is equal to msgSender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
 
 If _addr corresponds to _target1
@@ -50,7 +50,13 @@ currentOwner is equal to _newOwner
  is equal to _value
  is equal to _value
  is equal to _value
-_storage is equal to 
+Invalid symbol uIntStorage _key
+Invalid symbol stringStorage _key
+Invalid symbol addressStorage _key
+Invalid symbol bytesStorage _key
+Invalid symbol boolStorage _key
+Invalid symbol intStorage _key
+_storage is equal to address
 _storage is equal to _storageAddress
 voteTimes is equal to voteTimes add
 voteTimesByProperty is equal to voteTimesByProperty add
@@ -68,13 +74,13 @@ If _a corresponds to 0
 number is equal to number add
 index is equal to index add
 i is less then index
-If  corresponds to 
+If  corresponds to address
 i is less then policySet count
 If policyAddress corresponds to _currentPolicyAddress
 _policy is equal to IPolicy
 If result corresponds to False
 _votingEndBlockNumber is equal to 0
-If  corresponds to 
+If  corresponds to address
 _votingEndBlockNumber is equal to block number add
 blockNumber is equal to blockNumber add
 value is equal to value add

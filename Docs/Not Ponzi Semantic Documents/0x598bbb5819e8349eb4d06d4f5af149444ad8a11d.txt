@@ -13,7 +13,7 @@ Trial has matchesCriteria
 owner hashtags revolutions owner factory criteria hashtag distributionBlockPeriod distributionAmount lastDistributionBlockNumber testingMode locked citizens names trials bastilleBalance trial scale shouldClose trial winnerScale loserScale bastilleVote remainingRewardCakes i voter winningCakes rewardCakes i voter randomHash probabilityPercent million threshold trial blocksSince firstCitizen i citizenIndex citizen trial distributed trial trial 
 createRevolution getRevolution lockRevolution lock vote closeTrial pseudoRandomNumber trialLottery distribute getScaleAmount trialStatus getName setName voteAndSetName  
 RevolutionCreated TrialOpened TrialClosed VoteReceived Distribution 
-If  corresponds to 
+If address corresponds to address
  is equal to 
 factory is equal to msg sender
 owner is equal to _owner
@@ -27,7 +27,7 @@ locked is equal to False
 locked is equal to True
 If _vote is different from trial matchesCriteria
 trial opened is equal to True
-If trial citizen corresponds to 
+If trial citizen corresponds to address
 trial citizen is equal to _citizen
 trial lastLotteryBlock is equal to block number
 If _vote corresponds to False

@@ -22,7 +22,7 @@ price is equal to 0.00372805 ether
 symbol is equal to iBBTs
 name is equal to iBlockchain Bank and Trust Securities/Share Token 
 decimals is equal to 2
-_totalShares is equal to 10000000 multiplied by 10 Invalid symbol 
+_totalShares is equal to 10000000 multiplied by 10 Invalid symbol uint
  is equal to _totalShares
  is equal to True
 owner is equal to newOwner

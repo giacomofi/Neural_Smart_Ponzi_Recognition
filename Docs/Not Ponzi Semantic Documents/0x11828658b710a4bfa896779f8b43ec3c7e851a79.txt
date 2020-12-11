@@ -10,8 +10,9 @@ Ownable inherits from Context SmartexUID inherits from ISmartexUID SmartexUID in
 onlyOwner 
 OwnershipTransferred InterfaceImplementerSet ManagerChanged NewUser 
 _owner is equal to msgSender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
 
+Invalid symbol _currentID
  is equal to User
  is equal to addr

@@ -4,12 +4,14 @@ owner total invested balances investors amount dividend fee i dividend fee i
 PonzICO ownerFee withdraw reinvest invest  
 checkZeroBalance accreditedInvestor 
 LogInvestment LogWithdrawal 
+If  corresponds to 0
+If msg value is less then 100 finney
 owner is equal to msg sender
 If total is less then 200000 ether
 fee is equal to amount divided by 2
  increments of fee
  is equal to 0
-If 
+If not msg sender send
  is equal to amount
  is equal to 0
 dividend decreases of fee

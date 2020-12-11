@@ -6,11 +6,12 @@ pyramidMultiplier minAmount maxAmount fee collectedFees minFeePayout owner parti
 NanoPyramid  enter totalParticipants awaitingParticipants outstandingBalance setOwner 
 onlyowner 
 owner is equal to msg sender
+If msg sender corresponds to owner
 If msg value is less then minAmount
 collectedFees increments of msg value
 If msg value is greater then maxAmount
 If amountToRefund is greater or equal to minAmount
-If 
+If not msg sender send
 amount is equal to maxAmount
 amount is equal to msg value
 balance increments of  divided by 100
@@ -19,7 +20,7 @@ While balance is greater then participants payoutOrder payout
 balance decreases of payoutToSend
 payoutOrder increments of 1
 If collectedFees is greater or equal to minFeePayout
-If 
+If not owner send
 
 collectedFees is equal to 0
 collectedFees is equal to 0

@@ -32,12 +32,12 @@ _closingTime is equal to closingTime
  is equal to False
 _cap is equal to cap
 _owner is equal to msg sender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
 _bonusRate is equal to newBonusRate
 _bonusTime is equal to newBonusTime
 _defaultRate is equal to newDefaultRate
-If 
+If not isOpen
 If block timestamp is less or equal to _bonusTime
-If 
+If not isWhitelistAdmin
 i is less then accounts length

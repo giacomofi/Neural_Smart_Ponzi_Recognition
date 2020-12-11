@@ -9,9 +9,12 @@ finalizeDaiDeposit finalizeDharmaDaiDeposit mint redeem tradeDDaiForUSDC tradeUS
 DharmaReserveManagerV3Staging inherits from DharmaReserveManagerV3Interface DharmaReserveManagerV3Staging inherits from TwoStepOwnable 
 onlyOwner onlyOwnerOr 
 RoleModified RolePaused RoleUnpaused OwnershipTransferred 
+Role has values DEPOSIT_MANAGER ADJUSTER WITHDRAWAL_MANAGER PAUSER
 If a corresponds to 0
 _owner is equal to tx origin
 _newPotentialOwner is equal to newOwner
+Invalid symbol _newPotentialOwner
+Invalid symbol _newPotentialOwner
 _owner is equal to msg sender
 _limit is equal to 1e21
 dDaiMinted is equal to _DDAI mint
@@ -19,7 +22,7 @@ daiReceived is equal to _DDAI redeem
 dDaiMinted is equal to _TRADE_HELPER tradeUSDCForDDai
 usdcReceived is equal to _TRADE_HELPER tradeDDaiForUSDC
 success is equal to token transfer
- is equal to 
+ is equal to target call value
 _limit is equal to daiAmount
 _primaryRecipient is equal to recipient
 storedRoleStatus paused is equal to True
@@ -27,10 +30,10 @@ storedRoleStatus paused is equal to False
 paused is equal to _isPaused
 hasRole is equal to _isRole
 dharmaSmartWallet is equal to _isSmartWallet
-depositManager is equal to  account
-adjuster is equal to  account
-withdrawalManager is equal to  account
-pauser is equal to  account
+depositManager is equal to uint256 account
+adjuster is equal to uint256 account
+withdrawalManager is equal to uint256 account
+pauser is equal to uint256 account
 dai is equal to _DAI balanceOf
 dDai is equal to _DDAI balanceOf
 dDaiUnderlying is equal to _DDAI balanceOfUnderlying
@@ -39,8 +42,10 @@ dDaiAmount is equal to
 recipient is equal to _primaryRecipient
 If account is different from storedRoleStatus account
 storedRoleStatus account is equal to account
-hasRole is equal to msg sender corresponds to  account
-paused is equal to  paused
+hasRole is equal to msg sender corresponds to uint256 account
+paused is equal to uint256 paused
 nonce is less then 10
-target is equal to 
+target is equal to address
 If target corresponds to smartWallet
+Invalid symbol nonce
+If not isOwner

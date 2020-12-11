@@ -9,6 +9,7 @@ EnergyChainValidator inherits from ChainValidator
  is equal to map list length
  is equal to foundIndex plus 1
  is equal to 
+Invalid symbol map list length
  is equal to 0
 If vesting is less then MIN_VESTING Invalid symbol 
 If maxNumOfValidators is different from 0 Invalid symbol  Invalid symbol 
@@ -18,6 +19,7 @@ count is equal to 0
 i is equal to batch multiplied by 100
 i is less then  multiplied by 100 Invalid symbol 
  is equal to 
+Invalid symbol count
 If i is greater or equal to usersTotalCount
 end is equal to True
 end is equal to False

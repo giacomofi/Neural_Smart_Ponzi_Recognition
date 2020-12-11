@@ -7,7 +7,7 @@ StandardToken inherits from ERC20 BurnableToken inherits from StandardToken Burn
 onlyOwner canMint 
 Transfer Approval OwnershipRenounced OwnershipTransferred Burn Mint MintFinished 
 owner is equal to msg sender
-owner is equal to 
+owner is equal to address
 owner is equal to _newOwner
  is equal to msg sender sub
  is equal to balances _to add

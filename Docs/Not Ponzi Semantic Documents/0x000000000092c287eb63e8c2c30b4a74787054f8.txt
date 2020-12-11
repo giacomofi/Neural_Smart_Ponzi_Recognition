@@ -6,3 +6,4 @@ BaseUpgradeabilityProxy inherits from Proxy UpgradeabilityProxy inherits from Ba
 ifAdmin 
 Upgraded AdminChanged 
 If _data length is greater then 0
+If msg sender corresponds to _admin

@@ -21,7 +21,7 @@ PumaPayPullPayment inherits from PayableOwnable
 onlyOwner isExecutor executorExists executorDoesNotExists paymentExists paymentNotCancelled isValidPullPaymentExecutionRequest isValidDeletionRequest isValidAddress validConversionRate validAmount 
 OwnershipTransferred Transfer Approval LogExecutorAdded LogExecutorRemoved LogSetConversionRate LogSmartContractActorFunded LogPaymentRegistered LogPaymentCancelled LogPullPaymentExecuted 
 _owner is equal to msg sender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
 If a corresponds to 0
 token is equal to IERC20

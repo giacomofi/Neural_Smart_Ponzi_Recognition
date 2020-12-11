@@ -12,8 +12,8 @@ c is equal to a multiplied by b
 c is equal to a divided by b
 newOwner is equal to _newOwner
 owner is equal to newOwner
-newOwner is equal to 
-owner is equal to 
+newOwner is equal to address
+owner is equal to address
  is equal to _totalSupply
  is equal to msg sender sub
  is equal to balances to add

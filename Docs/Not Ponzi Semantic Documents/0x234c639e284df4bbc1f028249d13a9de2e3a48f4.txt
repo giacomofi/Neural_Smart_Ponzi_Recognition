@@ -10,7 +10,7 @@ KauriStaking inherits from Ownable
 onlyOwner 
 Approval Transfer OwnershipRenounced OwnershipTransferred TokensStaked TokensUnstaked 
 owner is equal to msg sender
-owner is equal to 
+owner is equal to address
 owner is equal to _newOwner
 token is equal to _token
  is equal to Staked

@@ -18,49 +18,61 @@ ownerWallet is equal to msg sender
  is equal to 0.0025 ether
  is equal to 0.00025 ether
 unlimited_level_price is equal to 0.00025 ether
+Invalid symbol currUserID
 userStruct is equal to UserStruct
  is equal to userStruct
  is equal to ownerWallet
+Invalid symbol pool1currUserID
 pooluserStruct is equal to PoolUserStruct
 pool1activeUserID is equal to pool1currUserID
  is equal to pooluserStruct
  is equal to msg sender
+Invalid symbol pool2currUserID
 pooluserStruct is equal to PoolUserStruct
 pool2activeUserID is equal to pool2currUserID
  is equal to pooluserStruct
  is equal to msg sender
+Invalid symbol pool3currUserID
 pooluserStruct is equal to PoolUserStruct
 pool3activeUserID is equal to pool3currUserID
  is equal to pooluserStruct
  is equal to msg sender
+Invalid symbol pool4currUserID
 pooluserStruct is equal to PoolUserStruct
 pool4activeUserID is equal to pool4currUserID
  is equal to pooluserStruct
  is equal to msg sender
+Invalid symbol pool5currUserID
 pooluserStruct is equal to PoolUserStruct
 pool5activeUserID is equal to pool5currUserID
  is equal to pooluserStruct
  is equal to msg sender
+Invalid symbol pool6currUserID
 pooluserStruct is equal to PoolUserStruct
 pool6activeUserID is equal to pool6currUserID
  is equal to pooluserStruct
  is equal to msg sender
+Invalid symbol pool7currUserID
 pooluserStruct is equal to PoolUserStruct
 pool7activeUserID is equal to pool7currUserID
  is equal to pooluserStruct
  is equal to msg sender
+Invalid symbol pool8currUserID
 pooluserStruct is equal to PoolUserStruct
 pool8activeUserID is equal to pool8currUserID
  is equal to pooluserStruct
  is equal to msg sender
+Invalid symbol pool9currUserID
 pooluserStruct is equal to PoolUserStruct
 pool9activeUserID is equal to pool9currUserID
  is equal to pooluserStruct
  is equal to msg sender
+Invalid symbol pool10currUserID
 pooluserStruct is equal to PoolUserStruct
 pool10activeUserID is equal to pool10currUserID
  is equal to pooluserStruct
  is equal to msg sender
+Invalid symbol currUserID
 userStruct is equal to UserStruct
  is equal to userStruct
  is equal to msg sender
@@ -73,6 +85,7 @@ sent is equal to
 
 If _level is less then 100 Invalid symbol 
 If not sent
+Invalid symbol pool1currUserID
 userStruct is equal to PoolUserStruct
  is equal to userStruct
  is equal to msg sender
@@ -81,6 +94,7 @@ sent is equal to
 pool1users pool1Currentuser payment_received increments of 1
 If pool1users pool1Currentuser payment_received is greater or equal to 2
 pool1activeUserID increments of 1
+Invalid symbol pool2currUserID
 userStruct is equal to PoolUserStruct
  is equal to userStruct
  is equal to msg sender
@@ -89,6 +103,7 @@ sent is equal to
 pool2users pool2Currentuser payment_received increments of 1
 If pool2users pool2Currentuser payment_received is greater or equal to 3
 pool2activeUserID increments of 1
+Invalid symbol pool3currUserID
 userStruct is equal to PoolUserStruct
  is equal to userStruct
  is equal to msg sender
@@ -97,6 +112,7 @@ sent is equal to
 pool3users pool3Currentuser payment_received increments of 1
 If pool3users pool3Currentuser payment_received is greater or equal to 3
 pool3activeUserID increments of 1
+Invalid symbol pool4currUserID
 userStruct is equal to PoolUserStruct
  is equal to userStruct
  is equal to msg sender
@@ -105,6 +121,7 @@ sent is equal to
 pool4users pool4Currentuser payment_received increments of 1
 If pool4users pool4Currentuser payment_received is greater or equal to 3
 pool4activeUserID increments of 1
+Invalid symbol pool5currUserID
 userStruct is equal to PoolUserStruct
  is equal to userStruct
  is equal to msg sender
@@ -113,6 +130,7 @@ sent is equal to
 pool5users pool5Currentuser payment_received increments of 1
 If pool5users pool5Currentuser payment_received is greater or equal to 3
 pool5activeUserID increments of 1
+Invalid symbol pool6currUserID
 userStruct is equal to PoolUserStruct
  is equal to userStruct
  is equal to msg sender
@@ -121,6 +139,7 @@ sent is equal to
 pool6users pool6Currentuser payment_received increments of 1
 If pool6users pool6Currentuser payment_received is greater or equal to 3
 pool6activeUserID increments of 1
+Invalid symbol pool7currUserID
 userStruct is equal to PoolUserStruct
  is equal to userStruct
  is equal to msg sender
@@ -129,6 +148,7 @@ sent is equal to
 pool7users pool7Currentuser payment_received increments of 1
 If pool7users pool7Currentuser payment_received is greater or equal to 3
 pool7activeUserID increments of 1
+Invalid symbol pool8currUserID
 userStruct is equal to PoolUserStruct
  is equal to userStruct
  is equal to msg sender
@@ -137,6 +157,7 @@ sent is equal to
 pool8users pool8Currentuser payment_received increments of 1
 If pool8users pool8Currentuser payment_received is greater or equal to 3
 pool8activeUserID increments of 1
+Invalid symbol pool9currUserID
 userStruct is equal to PoolUserStruct
  is equal to userStruct
  is equal to msg sender
@@ -145,6 +166,7 @@ sent is equal to
 pool9users pool9Currentuser payment_received increments of 1
 If pool9users pool9Currentuser payment_received is greater or equal to 3
 pool9activeUserID increments of 1
+Invalid symbol pool10currUserID
 userStruct is equal to PoolUserStruct
  is equal to userStruct
  is equal to msg sender
@@ -153,4 +175,4 @@ sent is equal to
 pool10users pool10Currentuser payment_received increments of 1
 If pool10users pool10Currentuser payment_received is greater or equal to 3
 pool10activeUserID increments of 1
-If 
+If not 

@@ -21,14 +21,14 @@ i is less then receivers length
  is equal to 
  is equal to newBalance
 _totalSupply is equal to _totalSupply add
-If 
+If not excludedFromStaking account
 fus_total is equal to fus_total sub
 fus_total is equal to fus_total add
 fullUnitsStaked_total is equal to fus_total
  is equal to _allowed account msg sender sub
  is equal to newBalance
 _totalSupply is equal to _totalSupply sub
-If 
+If not excludedFromStaking account
 fus_total is equal to fus_total sub
 fus_total is equal to fus_total add
 fullUnitsStaked_total is equal to fus_total
@@ -37,27 +37,27 @@ sixPercent is equal to 1
 value is equal to value sub
  is equal to newBalance_from
  is equal to newBalance_to
-If 
+If not excludedFromStaking from
 fus_total is equal to fus_total sub
 fus_total is equal to fus_total add
-If 
+If not excludedFromStaking to
 fus_total is equal to fus_total sub
 fus_total is equal to fus_total add
 fullUnitsStaked_total is equal to fus_total
 If fus_total is greater then 0
 _totalRewardsPerUnit is equal to _totalRewardsPerUnit add
- is equal to  add
+ is equal to address add
 amountToBurn is equal to amountToBurn sub
 _totalSupply is equal to _totalSupply sub
  is equal to viewUnpaidRewards
  is equal to _totalRewardsPerUnit
 
  is equal to 0
-If 
+If not msg sender
 fus_total is equal to fus_total sub
 fus_total is equal to fus_total add
 fullUnitsStaked_total is equal to fus_total
- is equal to  sub
+ is equal to address sub
  is equal to newBalance_staker
  is equal to exclude
 fullUnitsStaked_total is equal to 

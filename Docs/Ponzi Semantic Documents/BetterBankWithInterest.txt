@@ -26,8 +26,8 @@ If interest is greater then
 interest is equal to 
  decreases of interest
  decreases of withdraw_amount
-If 
-If 
+If not msg sender send
+If not msg sender send
 If msg sender corresponds to thebank
 minimum_deposit_amount is equal to new_limit
 If msg sender corresponds to thebank

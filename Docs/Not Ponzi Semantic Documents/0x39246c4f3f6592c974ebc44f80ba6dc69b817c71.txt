@@ -15,10 +15,10 @@ _totalSupply is equal to _totalSupply sub
  is equal to amount
 UNISWAP_FACTORY is equal to UniswapFactoryInterface
 COMPOUND_ORACLE is equal to CompoundOracleInterface
-If  corresponds to 
+If address corresponds to address
 UNISWAP_FACTORY is equal to UniswapFactoryInterface
-If 
-If 
+If not isETH
+If not isETH
 
-If 
-If  corresponds to 
+If not isETH
+If address corresponds to address

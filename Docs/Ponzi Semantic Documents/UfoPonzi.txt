@@ -5,6 +5,7 @@ Participant has amount
 participants payoutIdx collectedFees balance owner idx transactionAmount 
 UfoPonzi  enter collectFees setOwner 
 onlyowner 
+If msg sender corresponds to owner
 owner is equal to msg sender
 balance increments of msg value
 If msg value is less then 1 ether

@@ -6,14 +6,14 @@ SwapInput has mainToken
 SwapInput has tokensSold
 SwapInput has minTokensBought
 SwapInput has outToken
-c c c c _owner msgSender first last check from returnValue ASCII_ZERO ASCII_RELATIVE_ZERO ASCII_LOWER_EX COLON COMMA LPAREN RPAREN FOUR_BIT_MASK returnValue num num num num result i length j length bstr i num z result i shift z result i shift FILE UNISWAP_FACTORY WETH deadline exchangeAddress boughtTokens out_exchange out_exchange wethBalance 
+c c c c _owner msgSender first last check from returnValue ASCII_ZERO ASCII_RELATIVE_ZERO ASCII_LOWER_EX COLON COMMA LPAREN RPAREN FOUR_BIT_MASK returnValue num num num num result i length j length bstr i num z result i shift z result i shift FILE UNISWAP_FACTORY WETH deadline exchangeAddress boughtTokens exchangeAddress eth_bought inputs exchangeAddress minEthBought boughtTokens out_exchange in_exchange in_exchange out_exchange eth_bought taker_token_reserve taker_eth_reserve numerator denominator out_exchange in_exchange in_exchange out_exchange eth_bought maker_token_reserve maker_eth_reserve numerator denominator wethBalance 
 add sub sub mul div div mod mod _msgSender _msgData owner isOwner renounceOwnership transferOwnership _transferOwnership exchange getExchangeCost getPartialAmount getPartialAmountRoundedUp divisionRoundedUp maxUint256 maxUint32 getNumBits totalSupply balanceOf allowance transfer transferFrom approve balanceOf allowance approve transfer transferFrom checkSuccess ensureAllowance createExchange getExchange getToken getTokenWithId initializeFactory tokenAddress factoryAddress addLiquidity removeLiquidity getEthToTokenInputPrice getEthToTokenOutputPrice getTokenToEthInputPrice getTokenToEthOutputPrice ethToTokenSwapInput ethToTokenTransferInput ethToTokenSwapOutput ethToTokenTransferOutput tokenToEthSwapInput tokenToEthTransferInput tokenToEthSwapOutput tokenToEthTransferOutput tokenToTokenSwapInput tokenToTokenTransferInput tokenToTokenSwapOutput tokenToTokenTransferOutput tokenToExchangeSwapInput tokenToExchangeTransferInput tokenToExchangeSwapOutput tokenToExchangeTransferOutput checkSuccess that that that that that that that that that that that that that that that that that that that that that that stringifyTruncated stringify stringify stringify stringify char totalSupply balanceOf allowance transfer transferFrom approve name symbol decimals balanceOf allowance approve approveMax transfer transferFrom deposit withdraw  exchange getExchangeCost getExchangeCostSell suicideMe 
 Ownable inherits from Context UniswapDydxExchangeWrapper inherits from Ownable UniswapDydxExchangeWrapper inherits from ExchangeWrapper 
 onlyOwner 
 OwnershipTransferred Transfer Approval 
 If a corresponds to 0
 _owner is equal to msgSender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
 If numerator corresponds to 0
 While first is less then last
@@ -58,26 +58,29 @@ If not must
 If not must
 If not must
 i is greater then 0
+Invalid symbol i
 If  is different from 0
 If input corresponds to 0
 While j is different from 0
+Invalid symbol length
 j is divided by 10
 j is equal to input
 i is greater then 0
- is equal to 
+Invalid symbol i
+ is equal to byte
 j is divided by 10
 
 num is equal to 1
 num is equal to 0
- is equal to 
- is equal to 
+ is equal to byte
+ is equal to byte
 i is less then 20
  is equal to char
 z is equal to z Invalid symbol 4
  is equal to char
 z is equal to z Invalid symbol 4
- is equal to 
- is equal to 
+ is equal to byte
+ is equal to byte
 i is less then 32
  is equal to char
 z is equal to z Invalid symbol 4
@@ -87,6 +90,9 @@ If input is less then 10
 UNISWAP_FACTORY is equal to _uniswapFactory
 WETH is equal to _wethToken
 If takerToken corresponds to WETH
+If makerToken corresponds to WETH
 If takerToken corresponds to WETH
+If makerToken corresponds to WETH
 If takerToken corresponds to WETH
+If makerToken corresponds to WETH
 If wethBalance is greater then 0

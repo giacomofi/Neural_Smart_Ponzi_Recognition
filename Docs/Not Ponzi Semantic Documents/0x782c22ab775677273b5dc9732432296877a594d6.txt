@@ -27,6 +27,7 @@ If _subtractedValue is greater then oldValue
  is equal to oldValue sub
 totalSupply_ is equal to INITIAL_SUPPLY
  is equal to INITIAL_SUPPLY
+AllocationType has values PRESALE COMPANY
 startTime is equal to _startTime
 companyWallet is equal to _companyWallet
 IBST is equal to 

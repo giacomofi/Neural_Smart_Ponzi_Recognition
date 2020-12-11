@@ -9,8 +9,8 @@ OwnershipRenounced OwnershipTransferred setControl renounceControl Pause Unpause
 If a corresponds to 0
 owner is equal to msg sender
 controller is equal to _controller
-controller is equal to 
-owner is equal to 
+controller is equal to address
+owner is equal to address
 owner is equal to _newOwner
  is equal to freeze
 paused is equal to True

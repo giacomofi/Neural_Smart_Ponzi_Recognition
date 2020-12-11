@@ -33,10 +33,10 @@ token has voteStatus
 name symbol comment owner indexCount registerFee ratePlaces openMarketFee actionFee minQtd index tokens exists pass refToken amount orderAmount tokenMaker top tokenMaker tokenTaker amount top 
 name symbol decimals transfer transferFrom balanceOf allowance  getTokenByAddr getTokenByIndex getLikesByAddr getVoteStatus getLikesByIndex getPairByAddr getPairByIndex getOrders getDones changeOwner registerToken createMarket createOrder tokenLike tokenDislike changeRegisterFee changeOpenMarketFee changeActionFee withdraw cancelOrder fillOrder 
 orderPlaced orderDone orderCanceled orderRemovedLowBalance ctrWithdraw 
-owner is equal to 
+owner is equal to address
 If msg sender corresponds to owner
 owner is equal to _newOwner
-If 
+If not exists _token
 indexCount is equal to indexCount plus 1
  is equal to _token
 tokens _token tokenBase is equal to _token
@@ -61,7 +61,7 @@ tokens _token marketsCount is equal to tokens _token marketsCount plus 1
  _tokenPair ordersCount amount is equal to _amount
  _tokenPair ordersCount sell is equal to _sell
  _tokenPair ordersCount date is equal to now
-If 
+If not msg sender like
 tokens _token likesCount is equal to tokens _token likesCount plus 1
 msg sender like is equal to True
 
@@ -69,7 +69,7 @@ tokens _token dislikesCount is equal to tokens _token dislikesCount minus 1
 msg sender dislike is equal to False
 tokens _token likesCount is equal to tokens _token likesCount minus 1
 msg sender like is equal to False
-If 
+If not msg sender dislike
 tokens _token dislikesCount is equal to tokens _token dislikesCount plus 1
 msg sender dislike is equal to True
 

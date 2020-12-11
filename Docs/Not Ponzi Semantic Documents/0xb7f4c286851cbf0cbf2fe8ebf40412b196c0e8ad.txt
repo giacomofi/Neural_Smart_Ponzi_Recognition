@@ -37,18 +37,18 @@ If not isFunding
 isFunding is equal to False
 If _newContractAddr corresponds to newContractAddr
 newContractAddr is equal to _newContractAddr
-If _newFundDeposit corresponds to 
+If _newFundDeposit corresponds to address
 ethFundDeposit is equal to _newFundDeposit
 
-If newContractAddr corresponds to 
+If newContractAddr corresponds to address
 If tokens corresponds to 0
  is equal to 0
 tokenMigrated is equal to safeAdd
-If 
+If not newContract migrate
 If this balance corresponds to 0
-If 
+If not ethFundDeposit send
 If _eth corresponds to 0
-If _addr corresponds to 
+If _addr corresponds to address
 If tokens plus tokenRaised is greater then currentSupply
 tokenRaised is equal to safeAdd
  increments of tokens

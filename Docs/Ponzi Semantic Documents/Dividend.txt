@@ -6,6 +6,7 @@ Contributor has profit
 contributors unprocessedProfits totalContributors totalContributions totalProfit totalSUM deployer profitAddr profit profitAmount contriTotal proi contri recontri recoi cProfit 
 Dividend  Enter PayOut TestContract SetProfitAddr 
 execute 
+If msg sender corresponds to deployer
 deployer is equal to msg sender
 profitAddr is equal to deployer
 If msg sender corresponds to profitAddr
@@ -27,9 +28,9 @@ recontri is equal to True
 If recontri corresponds to False
 totalContributors is equal to contributors length plus 1
 contributors length increments of 1
- addr is equal to msg sender
- contribution is equal to contri
- profit is equal to 0
+contributors length minus 1 addr is equal to msg sender
+contributors length minus 1 contribution is equal to contri
+contributors length minus 1 profit is equal to 0
 If msg sender corresponds to contributors ContibutorNumber addr
 If cProfit is different from 0
 contributors ContibutorNumber profit is equal to 0

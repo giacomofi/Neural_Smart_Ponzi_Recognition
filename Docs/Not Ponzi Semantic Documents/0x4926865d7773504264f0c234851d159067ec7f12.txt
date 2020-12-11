@@ -22,6 +22,7 @@ remainder is equal to _dividend Invalid symbol _divisor
  Invalid symbol _abilities
  Invalid symbol 
  is equal to _abilities
+SignatureKind has values eth_sign trezor no_prefix
  is equal to True
  is equal to True
  is equal to True
@@ -48,12 +49,14 @@ _success is equal to True
  is equal to True
  is equal to _value
  is equal to balances _approver sub
-If _feeRecipient corresponds to 
+If _feeRecipient corresponds to address
 _feeRecipient is equal to msg sender
  is equal to balances _feeRecipient add
  is equal to True
 _claim is equal to keccak256
 If _signature kind corresponds to SignatureKind eth_sign
+If _signature kind corresponds to SignatureKind trezor
+If _signature kind corresponds to SignatureKind no_prefix
  is equal to balances _from sub
  is equal to balances _to add
  is equal to allowed _from msg sender sub

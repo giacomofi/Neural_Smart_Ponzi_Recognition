@@ -5,6 +5,7 @@ Owned transferOwnership balanceOf transfer transferFrom approve allowance DUCont
 DUContract inherits from ERC20Interface DUContract inherits from Owned 
 onlyOwner notStopped 
 TransferOwnership Transfer Approval Blacklisted DeleteFromBlacklist RejectedPaymentToBlacklistedAddr RejectedPaymentFromBlacklistedAddr 
+If msg sender is different from owner
 owner is equal to msg sender
 owner is equal to _new
  is equal to totalSupply

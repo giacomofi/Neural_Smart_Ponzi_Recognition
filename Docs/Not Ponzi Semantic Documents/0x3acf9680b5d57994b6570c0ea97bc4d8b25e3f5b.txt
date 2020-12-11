@@ -7,7 +7,7 @@ ERC20 inherits from IERC20 ERC20 inherits from Ownable ERC20Burnable inherits fr
 onlyOwner 
 OwnershipTransferred Transfer Approval 
 If a corresponds to 0
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
  is equal to  minus value
  is equal to  plus value

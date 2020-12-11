@@ -7,6 +7,7 @@ onlyOwner
 OwnershipTransferred DotTokenCreated Bonded Unbonded Initialized Closed Judged Settled Expired Reset 
 owner is equal to msg sender
 owner is equal to newOwner
+ContestStatus has values Uninitialized Initialized Expired Judged Settled
 coord is equal to ZapCoordinatorInterface
 reserveToken is equal to FactoryTokenInterface
 bondage is equal to BondageInterface
@@ -34,6 +35,8 @@ If dots is greater then 0
 winValue is equal to reserveToken balanceOf divided by numWin
 status is equal to ContestStatus Settled
 If status corresponds to ContestStatus Expired
+Invalid symbol redeemed_list
+Invalid symbol curves_list
 status is equal to ContestStatus Initialized
 If status corresponds to ContestStatus Initialized Invalid symbol 
 status is equal to ContestStatus Expired
@@ -41,12 +44,13 @@ tokensBalance is equal to curveToken balanceOf
 reserveCost is equal to 
 tokensBalance is equal to curveToken balanceOf
 reserveCost is equal to currentCost _costOfNDots
-tokenAddress is equal to 
+tokenAddress is equal to address
 i is less then curves_list length
 If _endpoint corresponds to 
  is equal to b
 b is equal to 
 i is less then 20
+ is equal to byte
 bytesString is equal to abi encodePacked
 i plus 1 is greater then 0
 result increments of to_inc
@@ -56,7 +60,7 @@ coordinator is equal to ZapCoordinatorInterface
 bondage is equal to BondageInterface
 dispatch is equal to DispatchInterface
 start_time is equal to now
- is equal to 
+ is equal to bytes32
 i is less then tmp_params length
  is equal to 
 queryId is equal to dispatch query

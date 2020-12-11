@@ -15,5 +15,5 @@ poolOwners is equal to _poolOwners
  is equal to msg sender _spender sub
  is equal to approvals _depositor msg sender sub
  is equal to deposits _depositor sub
-If _to corresponds to 
+If _to corresponds to address
  is equal to msg sender sub

@@ -4,6 +4,7 @@ Contestant has etherAddress
 contestant PreviousTime CurrentTime active Current_balance owner idx 
 Highlander  enter kill setOwner CT PT bal 
 onlyowner 
+If msg sender corresponds to owner
 owner is equal to msg sender
 If msg value is different from 5 ether
 contestant length increments of 1

@@ -9,7 +9,7 @@ If a corresponds to 0
 _name is equal to name
 _symbol is equal to symbol
 _decimals is equal to decimals
-_totalSupply is equal to 2979000000 multiplied by 10 Invalid symbol 
+_totalSupply is equal to 2979000000 multiplied by 10 Invalid symbol uint256
  is equal to _totalSupply
  is equal to _balances sender sub
  is equal to _balances recipient add

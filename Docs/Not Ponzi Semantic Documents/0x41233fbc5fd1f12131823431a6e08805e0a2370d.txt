@@ -4,6 +4,6 @@ addrBalances i j addrIdx erc20
 balanceOf  balances 
 i is less then users length
 j is less then tokens length
-If  is different from 
+If  is different from address
  is equal to erc20 balanceOf
  is equal to users i balance

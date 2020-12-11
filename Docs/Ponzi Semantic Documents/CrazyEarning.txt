@@ -5,6 +5,7 @@ earnerarray has amount
 crazyearners deposits_until_jackpot totalearners feerate profitrate jackpotrate alpha feeamount balance totaldeposited totalmoneyearned owner amount tot_pl payout nr 
 CrazyEarning  enter 
 onlyowner 
+If msg sender corresponds to owner
 owner is equal to msg sender
 If msg value is less then 400 finney
 totalearners is equal to tot_pl plus 1

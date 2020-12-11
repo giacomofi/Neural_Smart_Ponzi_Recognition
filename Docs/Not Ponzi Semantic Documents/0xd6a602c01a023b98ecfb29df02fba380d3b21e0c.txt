@@ -6,13 +6,17 @@ Controllers inherits from DSMath Listings inherits from Controllers InstaConnect
 isChief 
 LogAddController LogRemoveController LogEnable LogDisable LogEnableStatic 
  is equal to True
+Invalid symbol chief _userAddress
  is equal to True
+Invalid symbol connectorCount
+Invalid symbol connectors _connector
+Invalid symbol connectorCount
  is equal to True
 isOk is equal to True
 i is less then _connectors length
-If 
+If not connectors _connectors i
 isOk is equal to False
 isOk is equal to True
 i is less then _connectors length
-If 
+If not staticConnectors _connectors i
 isOk is equal to False

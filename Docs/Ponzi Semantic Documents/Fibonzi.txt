@@ -10,43 +10,59 @@ Pool has owner
 Token has tokenId
 Token has playerId
 Token has used
-owner poolCount playerCount poolJoinedCount fiboIndex poolToCreate tokenCount tokenUsed fiboMax tokenToReward currentShare players pools playersWallets playersToken playersBalance price price share i count j i i currentFibo count i used i 
+owner poolCount playerCount poolJoinedCount fiboIndex poolToCreate tokenCount tokenUsed fiboMax tokenToReward currentShare players pools playersWallets playersToken playersBalance price price share i count j i i currentFibo i count i used i 
 Fibonzi openPool joinPool distributeReward withdraw createPool createPlayer createPoolIfNeeded createPlayerToken getFibo getPlayerUsableTokensCount usePlayerToken 
 PlayerCreated PlayerBalance PoolCreated PoolJoined PoolPrize TokenCreated TokenUsed 
 owner is equal to msg sender
+Invalid symbol fiboIndex
 fiboMax is equal to 18
 pools poolId owner is equal to players msg sender playerId
 If msg value is greater then pools poolId price
 pools poolId price is equal to 2 multiplied by price
+Invalid symbol poolJoinedCount
 If fiboIndex is less or equal to fiboMax
 pools poolId owner is equal to players msg sender playerId
 If msg value is greater then pools poolId price
 pools poolId price is equal to 2 multiplied by price
+Invalid symbol poolJoinedCount
 If fiboIndex is less or equal to fiboMax
 If tokenCount minus tokenUsed is greater then 0
 tokenToReward is equal to tokenCount minus tokenUsed
 currentShare is equal to share
 i is less then playerCount
-j is less then  wallet length
-If 
+j is less then i plus 1 wallet length
+If not i plus 1 wallet j used
+Invalid symbol count
 If count is greater then 0
- playerBalance increments of share multiplied by count
- is equal to  playerBalance
+i plus 1 playerBalance increments of share multiplied by count
+ is equal to i plus 1 playerBalance
 players playersWallets owner playerBalance increments of 
  is equal to players playersWallets owner playerBalance
 i is less then 10
 players msg sender playerBalance is equal to 0
  is equal to 0
+Invalid symbol poolCount
  is equal to Pool
 i is less then playerCount
+Invalid symbol playerCount
  is equal to Player
  is equal to playerCount
 If poolJoinedCount is greater then currentFibo
+Invalid symbol fiboIndex
+If poolJoinedCount corresponds to currentFibo
+If currentFibo is greater then poolCount
+poolToCreate is equal to currentFibo minus poolCount
+i is less then poolToCreate
+poolToCreate is equal to 0
+Invalid symbol tokenCount
 If tokenCount Invalid symbol 9 corresponds to 0
+Invalid symbol tokenCount
 If n is less or equal to 1
 i is less then msg sender length
-If 
+If not msg sender i used
+Invalid symbol count
 i is less then msg sender length
 If  Invalid symbol 
 msg sender i used is equal to True
 used is equal to True
+Invalid symbol tokenUsed

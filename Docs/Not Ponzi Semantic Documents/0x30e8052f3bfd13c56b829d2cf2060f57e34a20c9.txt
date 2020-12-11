@@ -20,11 +20,11 @@ currentTimelock is equal to now plus timelockDuration
 If pendingTimelockDuration is different from 0
 timelockDuration is equal to pendingTimelockDuration
 pendingTimelockDuration is equal to 0
-If pendingProxyActions is different from 
+If pendingProxyActions is different from address
 proxyActions is equal to pendingProxyActions
-pendingProxyActions is equal to 
-If pendingProxyActionsStorage is different from 
+pendingProxyActions is equal to address
+If pendingProxyActionsStorage is different from address
 proxyActionsStorage is equal to pendingProxyActionsStorage
-pendingProxyActionsStorage is equal to 
+pendingProxyActionsStorage is equal to address
 currentTimelock is equal to 0
  is equal to newProxy

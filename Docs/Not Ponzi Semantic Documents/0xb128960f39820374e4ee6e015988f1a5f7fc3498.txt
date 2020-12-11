@@ -8,9 +8,9 @@ allocator is equal to msg sender
 allocator is equal to newAllocator
  is equal to owner
  is equal to True
- is equal to 
- is equal to 
+ is equal to address
+ is equal to address
  is equal to to
  is equal to msg sender
- is equal to 
+ is equal to address
  is equal to value

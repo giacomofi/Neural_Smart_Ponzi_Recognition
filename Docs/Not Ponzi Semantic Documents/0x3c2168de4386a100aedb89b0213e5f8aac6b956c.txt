@@ -25,6 +25,7 @@ _upgradeabilityOwner is equal to newUpgradeabilityOwner
  is equal to _foreignMaxPerTx
  is equal to _status
 If defaultDecimals is greater then _decimals
+If defaultDecimals is less then _decimals
 _name is equal to name
 _symbol is equal to symbol
 _decimals is equal to decimals

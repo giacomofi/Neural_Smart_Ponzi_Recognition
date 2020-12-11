@@ -10,17 +10,36 @@ Game has state
 Game has result
 Game has choice
 Game has profit
-c c c owner CROUPIER_BOB minStake maxStake WIN_COEFFICIENT DICE_COEFFICIENT deposit withdrawal status listGames size addr game_title user_choice game_title user_choice game_title game choice profit user_choice game i transfer_value 
+c c c owner CROUPIER_BOB minStake maxStake WIN_COEFFICIENT DICE_COEFFICIENT deposit withdrawal status listGames size addr game_title user_choice game_title user_choice game_title game choice profit user_choice length i game i transfer_value 
 mul div sub add game_coin game_knb game_dice confirm demo_game get_player_choice pay_royalty multisend startProphylaxy stopProphylaxy  
 onlyCroupier betInRange onlyOwner isNotContract contractIsOn 
 NewGame DemoGame ConfirmGame Deposit Withdrawal 
+GameState has values Pending Win Lose Draw
+Games has values CoinFlip KNB Dice
  is equal to Game
  is equal to Game
  is equal to Game
-game result is equal to  Invalid symbol 12
+game result is equal to uint256 Invalid symbol 12
 If game game_title corresponds to Games CoinFlip
 If game result corresponds to user_choice
 profit is equal to 
+game state is equal to GameState Win
+game profit is equal to profit
+game state is equal to GameState Lose
+If game game_title corresponds to Games KNB
+If game result is different from user_choice
+If user_choice corresponds to 1 Invalid symbol  Invalid symbol  Invalid symbol 
+profit is equal to 
+game state is equal to GameState Win
+game profit is equal to profit
+game state is equal to GameState Lose
+profit is equal to game bet sub
+game state is equal to GameState Draw
+If game game_title corresponds to Games Dice
+i is less then length
+If user_choice corresponds to game result
+profit is equal to 
+If profit is greater then 0
 game state is equal to GameState Win
 game profit is equal to profit
 game state is equal to GameState Lose

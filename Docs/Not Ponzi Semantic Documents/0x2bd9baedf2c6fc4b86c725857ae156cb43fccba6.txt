@@ -19,6 +19,7 @@ liquidEther is equal to liquidEther add
 thisAuctionTotalEther is equal to liquidEther
 frozenEther is equal to 0
 lastSuccessfulSale is equal to 0
+Invalid symbol auctionCounter
 window is equal to 
 If block timestamp is greater or equal to lastThaw add
 If liquidEther is greater then 0.1 ether

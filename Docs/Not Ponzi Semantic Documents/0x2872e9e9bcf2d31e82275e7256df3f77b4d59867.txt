@@ -2,6 +2,8 @@ solidity ^0.4.25
 IMarketplace IERC20Token IUniswapFactory IUniswapExchange UniswapAdaptor 
 exchangeTemplate tokenCount name symbol decimals marketplace uniswap_factory datacoin c eth_amount from_token_exchange exfrom to_token_exchange exto eth_amount to_token_exchange exto from_token_exchange exfrom pricePerSecondData fromToken exadd pricePerSecondData exadd price ex datacoin_before_transfer received_datacoin 
 getProduct getSubscription getPriceInData buyFor name symbol decimals totalSupply balanceOf allowance transfer transferFrom approve createExchange getExchange getToken getTokenWithId initializeFactory tokenAddress factoryAddress addLiquidity removeLiquidity getEthToTokenInputPrice getEthToTokenOutputPrice getTokenToEthInputPrice getTokenToEthOutputPrice ethToTokenSwapInput ethToTokenTransferInput ethToTokenSwapOutput ethToTokenTransferOutput tokenToEthSwapInput tokenToEthTransferInput tokenToEthSwapOutput tokenToEthTransferOutput tokenToTokenSwapInput tokenToTokenTransferInput tokenToTokenSwapOutput tokenToTokenTransferOutput tokenToExchangeSwapInput tokenToExchangeTransferInput tokenToExchangeSwapOutput tokenToExchangeTransferOutput transfer transferFrom approve allowance balanceOf setup mul getConversionRateInput getConversionRateOutput _getPricePerSecondData buyWithERC20 buyWithETH _buyWithUniswap 
+ProductState has values NotDeployed Deployed
+Currency has values DATA USD
 marketplace is equal to IMarketplace
 uniswap_factory is equal to IUniswapFactory
 datacoin is equal to IERC20Token
@@ -18,5 +20,5 @@ If pricePerSecondData corresponds to 0x0
 If pricePerSecondData corresponds to 0x0
 If msg value is greater then 0x0
 If from_token corresponds to 0x0
-received_datacoin is equal to 
+received_datacoin is equal to ex ethToTokenTransferInput value
 received_datacoin is equal to ex tokenToTokenTransferInput

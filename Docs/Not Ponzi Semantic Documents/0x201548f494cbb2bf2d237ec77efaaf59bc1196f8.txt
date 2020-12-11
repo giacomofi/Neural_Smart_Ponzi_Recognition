@@ -12,9 +12,9 @@ onlyOwner whenNotStoped onlyCmo onlyOwnerOrCmo
 OwnershipTransferred Stoped CmoshipTransferred Transfer Approval Burn Locked Released 
 If a corresponds to 0
 stoped is equal to _needStoped
-owner is equal to 
+owner is equal to address
 owner is equal to newOwner
-owner is equal to 
+owner is equal to address
 cmo is equal to newCmo
  is equal to balanceOf _from sub
  is equal to balanceOf _to add
@@ -40,6 +40,7 @@ If fronzed_released is greater then 0 Invalid symbol
  is equal to 
 If _type corresponds to 2
 If lockedDetail _who 1 length is greater then 0
+Invalid symbol lockedDetail _who 1
 i is less then _amounts length
 _total is equal to _total add
  is equal to _total
@@ -52,6 +53,7 @@ _total is equal to _total add
  is equal to lockedAmount _who 1 add
 If _type corresponds to 0
  is equal to lockedAmount _who 2 sub
+Invalid symbol lockedDetail _who 1
  is equal to False
  is equal to True
 totalSupply is equal to 2000000000000000000000000000

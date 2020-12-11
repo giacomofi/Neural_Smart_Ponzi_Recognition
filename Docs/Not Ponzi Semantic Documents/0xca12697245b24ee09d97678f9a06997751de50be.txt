@@ -11,14 +11,14 @@ database is equal to DBInterface
 events is equal to Events
 kyber is equal to KyberInterface
 minter is equal to MinterInterface
-If _paymentToken corresponds to 
-If 
+If _paymentToken corresponds to address
+If not database boolStorage
 percent is equal to percent mul
-If 
+If not database boolStorage
 percent is equal to percent add
-If _paymentTokenAddress corresponds to 
+If _paymentTokenAddress corresponds to address
 If _paymentTokenAddress is different from platformTokenAddress
-If _paymentTokenAddress corresponds to 
-amount is equal to 
+If _paymentTokenAddress corresponds to address
+amount is equal to kyber trade value
 amount is equal to kyber trade
 amount is equal to _amount

@@ -2,6 +2,7 @@ DividendProfit
 deployer dividendAddr 
 DividendProfit  SetAddr TestContract 
 execute 
+If msg sender corresponds to deployer
 deployer is equal to msg sender
 dividendAddr is equal to deployer
 If this balance is greater then 69 finney

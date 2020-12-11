@@ -8,7 +8,7 @@ Transfer OwnerUpdate AppendCaller RemoveCaller CalledUpdate Transfer Approval Pr
 owner is equal to msg sender
 newOwner is equal to _newOwner
 owner is equal to newOwner
-newOwner is equal to 
+newOwner is equal to address
 y is equal to x
 While z is less then y
 y is equal to z
@@ -22,17 +22,23 @@ formula is equal to _formula
 impl is equal to _impl
 If data corresponds to _oldCalled
 data is equal to IData
+If reserve corresponds to _oldCalled
+reserve is equal to IReserve
+If formula corresponds to _oldCalled
+formula is equal to IFormula
+If impl corresponds to _oldCalled
+impl is equal to I$martFundImpl
 ema is equal to formula calcEma
 If _sf multiplied by 1 ether is greater then  Invalid symbol 
 id is different from 0x0
 _sf increments of getBUU
 _eth increments of getBUU
-If  is different from 
+If address is different from address
 If _projectID corresponds to _proposeID
-projectID is equal to 
-projectID is equal to 
-proposeID is equal to 
-disproposeID is equal to 
+projectID is equal to uint256
+projectID is equal to uint256
+proposeID is equal to uint256
+disproposeID is equal to uint256
 If _sf is greater then 0
 If _eth is greater then 0
 If _sf is greater then 0

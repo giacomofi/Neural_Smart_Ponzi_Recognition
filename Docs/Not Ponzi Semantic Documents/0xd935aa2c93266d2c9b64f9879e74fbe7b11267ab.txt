@@ -9,7 +9,8 @@ If pull is greater then 0
 If pull is greater then 0
 If pull is greater then 0
 If pull is greater then 0
-If what corresponds to 
-If what is different from 
-If what corresponds to 
-If what corresponds to 
+If what corresponds to bytes32
+If what corresponds to bytes32
+If what is different from bytes32
+If what corresponds to bytes32
+If what corresponds to bytes32

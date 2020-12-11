@@ -7,7 +7,7 @@ onlyOwner onlyCurrentOwner hasStorage
 OwnershipTransferred 
 _owner is equal to msg sender
 _owner is equal to msgSender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
 currentOwner is equal to _newOwner
  is equal to _value
@@ -16,7 +16,13 @@ currentOwner is equal to _newOwner
  is equal to _value
  is equal to _value
  is equal to _value
-_storage is equal to 
+Invalid symbol uIntStorage _key
+Invalid symbol stringStorage _key
+Invalid symbol addressStorage _key
+Invalid symbol bytesStorage _key
+Invalid symbol boolStorage _key
+Invalid symbol intStorage _key
+_storage is equal to address
 _storage is equal to _storageAddress
 
 If _addr corresponds to _target1

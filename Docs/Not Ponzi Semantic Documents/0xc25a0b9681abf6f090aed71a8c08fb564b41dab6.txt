@@ -12,13 +12,14 @@ Transaction has senderFee
 Transaction has receiverFee
 Transaction has lastInteraction
 Transaction has status
-UINT_MAX c c arbitrator arbitratorExtraData c c c c _balances _allowances _totalSupply AMOUNT_OF_CHOICES transactions arbitrator arbitratorExtraData feeTimeout disputeIDtoTransactionID transaction transaction transaction amount transaction transaction transaction arbitrationCost transaction arbitrationCost transaction extraFeeSender extraFeeReceiver transaction transaction transactionID transaction transaction amount senderFee receiverFee count i j 
+UINT_MAX c c arbitrator arbitratorExtraData c c c c _balances _allowances _totalSupply AMOUNT_OF_CHOICES transactions arbitrator arbitratorExtraData feeTimeout disputeIDtoTransactionID transaction transaction transaction amount transaction transaction transaction arbitrationCost transaction arbitrationCost transaction extraFeeSender extraFeeReceiver transaction transaction transactionID transaction transaction amount senderFee receiverFee splitArbitrationFee count i j 
 addCap subCap mulCap createDispute arbitrationCost appeal appealCost appealPeriod disputeStatus currentRuling rule rule executeRuling isPermitted totalSupply balanceOf transfer allowance approve transferFrom add sub mul div mod totalSupply balanceOf transfer allowance approve transferFrom increaseAllowance decreaseAllowance _transfer _mint _burn _approve _burnFrom createTransaction pay reimburse executeTransaction timeOutBySender timeOutByReceiver payArbitrationFeeBySender payArbitrationFeeByReceiver raiseDispute submitEvidence appeal rule executeRuling getCountTransactions getTransactionIDsByAddress 
 Arbitrable inherits from IArbitrable ERC20 inherits from IERC20 MultipleArbitrableTokenTransaction inherits from IArbitrable 
 requireArbitrationFee requireAppealFee onlyArbitrator 
 DisputeCreation AppealPossible AppealDecision MetaEvidence Dispute Evidence Ruling Transfer Approval Payment HasToPayFee Ruling TransactionCreated 
 If _b is greater then _a
 If _a corresponds to 0
+DisputeStatus has values Waiting Appealable Solved
 arbitrator is equal to _arbitrator
 arbitratorExtraData is equal to _arbitratorExtraData
 If a corresponds to 0
@@ -29,6 +30,9 @@ _totalSupply is equal to _totalSupply add
 _totalSupply is equal to _totalSupply sub
  is equal to _balances account sub
  is equal to value
+Party has values Sender Receiver
+Status has values NoDispute WaitingSender WaitingReceiver DisputeCreated Resolved
+RulingOptions has values NoRuling SenderWins ReceiverWins
 arbitrator is equal to _arbitrator
 arbitratorExtraData is equal to _arbitratorExtraData
 feeTimeout is equal to _feeTimeout
@@ -49,7 +53,7 @@ transaction lastInteraction is equal to now
 If transaction senderFee is less then arbitrationCost
 transaction status is equal to Status WaitingSender
 transaction status is equal to Status DisputeCreated
-transaction disputeId is equal to 
+transaction disputeId is equal to arbitrator createDispute value
  is equal to _transactionID
 If transaction senderFee is greater then _arbitrationCost
 transaction senderFee is equal to _arbitrationCost
@@ -59,9 +63,11 @@ transaction amount is equal to 0
 transaction senderFee is equal to 0
 transaction receiverFee is equal to 0
 transaction status is equal to Status Resolved
-If _ruling corresponds to 
+If _ruling corresponds to uint
+If _ruling corresponds to uint
 i is less then transactions length
 If transactions i sender corresponds to _address Invalid symbol 
+Invalid symbol count
 transactionIDs is equal to 
 count is equal to 0
 j is less then transactions length

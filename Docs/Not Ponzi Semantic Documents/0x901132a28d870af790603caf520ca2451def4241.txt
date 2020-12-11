@@ -6,13 +6,13 @@ DepositLocker inherits from DepositLockerInterface DepositLocker inherits from O
 onlyOwner isInitialised isDeposited isNotDeposited onlyDepositorsProxy 
 DepositorRegistered Deposit Withdraw Slash 
 owner is equal to msg sender
-If newOwner is different from 
+If newOwner is different from address
 owner is equal to newOwner
 releaseTimestamp is equal to _releaseTimestamp
 slasher is equal to _slasher
 depositorsProxy is equal to _depositorsProxy
 initialized is equal to True
-owner is equal to 
+owner is equal to address
  is equal to True
 numberOfDepositors increments of 1
 valuePerDepositor is equal to _valuePerDepositor

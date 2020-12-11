@@ -4,7 +4,7 @@ name symbol decimals totalSupply sellScale lockAll owner newOwner frozens balanc
 TokenBasic transferOwnership acceptOwnership contBuy freezeAccount setScale freezeAll contTransfer transfer _transfer sellToAddress sell  
 onlyOwner 
 Transfer FrozenFunds OwnerUpdate 
-totalSupply is equal to 1000000000 multiplied by 10 Invalid symbol 
+totalSupply is equal to 1000000000 multiplied by 10 Invalid symbol uint256
  is equal to totalSupply
 owner is equal to msg sender
 newOwner is equal to tOwner

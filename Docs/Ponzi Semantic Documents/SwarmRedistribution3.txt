@@ -18,6 +18,8 @@ decimals is equal to 18
 taxRate is equal to 20
 JohanNygren is equal to 0x948176CB42B65d835Ee4324914B104B66fB93B52
 campaignOpen is equal to True
+If msg sender is different from JohanNygren
+If campaignOpen is different from True
 JohanNygren is equal to _newAddress
 campaignOpen corresponds to False
  is equal to msg value
@@ -26,7 +28,7 @@ totalSupply increments of msg value
 totalSupply increments of msg value
 If  is less then _value
  decreases of _value
-If 
+If not msg sender send
 totalSupply decreases of _value
 If _to corresponds to msg sender
 If  is less then _value
@@ -57,6 +59,10 @@ If dividendPathways parent index amount minus _taxCollected is greater then 0
 dividendPathways parent index amount decreases of _taxCollected
  is equal to False
 
+Invalid symbol swarmTree
+Invalid symbol JohanInSwarm
 If not JohanWasInSwarm
+Invalid symbol dividendPathways node index
 i is less then dividendPathways node length minus 1
  is equal to 
+Invalid symbol dividendPathways node length

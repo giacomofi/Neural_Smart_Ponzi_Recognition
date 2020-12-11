@@ -10,7 +10,11 @@ owner_only auditor_only
 Claim 
 owner is equal to msg sender
 auditor is equal to owner
+If msg sender is different from owner
+If msg sender is different from auditor
 If msg value is less then required
+If msg value is greater then required
+If not msg sender send
 If oldestHash corresponds to 0
 oldestHash is equal to 
 newestHash is equal to 
@@ -22,7 +26,7 @@ newestHash is equal to
 If entries newestHash expires is different from 0
  is equal to Entry
 depositCount increments of values length
-If 
+If not msg sender send
 i is less then max Invalid symbol  Invalid symbol 
 recovered increments of entries ptr deposit
 ptr is equal to entries ptr next
@@ -49,5 +53,5 @@ expires is equal to entry expires
 deposit is equal to entry deposit
 paidOut increments of amount
 totalPaidOut increments of amount
-If 
+If not addr send
 If depositCount is greater then 0

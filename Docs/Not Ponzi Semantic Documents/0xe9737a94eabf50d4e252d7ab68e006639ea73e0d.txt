@@ -22,11 +22,11 @@ allowAuthorizedLogicContractsCallsOnly onlyOwner allowAccountCallsOnly allowAuth
 EnabledStaticCall Invoked Received AccountInit ManagerChanged OwnerChanged UpdateLogicSubmitted UpdateLogicCancelled UpdateLogicDone LogicInitialised ProposalExecuted AccountLogicEntered AccountLogicInitialised ChangeAdminKeyTriggered ChangeAdminKeyByBackupTriggered ChangeAllOperationKeysTriggered UnfreezeTriggered ChangeAdminKey ChangeAdminKeyByBackup AddOperationKey ChangeAllOperationKeys Freeze Unfreeze RemoveBackup CancelDelay CancelAddBackup CancelRemoveBackup ProposeAsBackup ApproveProposal CancelProposal 
 manager is equal to _manager
 i is less then _logics length
- is equal to 
+ is equal to _target call value
  is equal to _module
 manager is equal to _newMgr
 If msg data length is greater then 0
-If logic corresponds to 
+If logic corresponds to address
 owner is equal to msg sender
 owner is equal to _newOwner
 i is less then _initialLogics length
@@ -41,15 +41,19 @@ pt dueTime is equal to pt curPendingTime plus now
 pt curPendingTime is equal to pt nextPendingTime
 p value is equal to _value
 p dueTime is equal to now plus pt curPendingTime
+Invalid symbol pendingLogics _logic
+Invalid symbol pendingLogics _logic
 If  is different from _value
 
 logicCount increments of 1
  is equal to True
 logicCount decreases of 1
+Invalid symbol authorized _logic
 If _logic is different from lastLogic
 i is less then len
 If _logic corresponds to 
  is equal to lastLogic
+Invalid symbol authorizedLogics length
  is equal to  plus 1
 item pubKey is equal to _key
 item status is equal to _status
@@ -57,14 +61,17 @@ b backup is equal to _backup
 b effectiveDate is equal to _effective
 b expiryDate is equal to _expiry
 b expiryDate is equal to _expiry
+Invalid symbol backupData _account _index
 item hash is equal to _hash
 item dueTime is equal to _dueTime
+Invalid symbol delayData _account _actionId
 If p hash is greater then 0
 If p hash corresponds to _hash
 i is less then p approval length
 p hash is equal to _hash
 p approval length is equal to 0
 p hash is equal to _hash
+Invalid symbol proposalData _client _proposer _actionId
  is equal to _keys length minus 1
 index is less then _keys length
 item pubKey is equal to _key
@@ -78,12 +85,12 @@ If a corresponds to 0
 If a Invalid symbol b corresponds to 0
 accountStorage is equal to _accountStorage
 If signature length is different from 65
-If  is greater then 0x7FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5D576E7357A4501DDFE92F46681B20A0
+If uint256 is greater then 0x7FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5D576E7357A4501DDFE92F46681B20A0
 If v is different from 27 Invalid symbol 
 If _index is greater then 0
  is equal to _nonce
 i is less or equal to MAX_DEFINED_BACKUP_INDEX
-If backup is different from  Invalid symbol isEffectiveBackup
+If backup is different from address Invalid symbol isEffectiveBackup
 backupCount increments of 1
 k is less then approved length
 If backup corresponds to 
@@ -92,7 +99,7 @@ i is less or equal to MAX_DEFINED_BACKUP_INDEX
 If _backup corresponds to backup Invalid symbol isEffectiveBackup
 isBackup is equal to True
 i is less or equal to MAX_DEFINED_BACKUP_INDEX
-If backup is different from  Invalid symbol isEffectiveBackup
+If backup is different from address Invalid symbol isEffectiveBackup
 i is less then keyCount
 pk is equal to 
 i is less then accountStorage getOperationKeyCount
@@ -101,10 +108,12 @@ i is less or equal to accountStorage getOperationKeyCount
 If accountStorage getKeyStatus corresponds to 0
 i is less or equal to accountStorage getOperationKeyCount
 If accountStorage getKeyStatus corresponds to 1
-If _backup corresponds to 
+If _backup corresponds to address
 i is less or equal to MAX_DEFINED_BACKUP_INDEX
 b is equal to accountStorage getBackupAddress
 If b corresponds to _backup
 index is equal to i
 If methodId corresponds to ADD_OPERATION_KEY
 index is equal to 2
+If methodId corresponds to PROPOSE_AS_BACKUP Invalid symbol 
+index is equal to 4

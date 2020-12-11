@@ -8,16 +8,18 @@ If chr corresponds to
 i is less then bAvailableChrs length
 If chr corresponds to 
 i is less then bStr length
-If  is greater then 65 Invalid symbol 
- is equal to 
+If uint8 is greater then 65 Invalid symbol 
+ is equal to bytes1
  is equal to 
 If bStr length is less then 1 Invalid symbol 
 i is less then bStr length
 
 If i corresponds to 0 Invalid symbol  Invalid symbol continuousFlag
 continuousFlag is equal to True
-If  is different from  Invalid symbol 
- is equal to 
+
+continuousFlag is equal to False
+If  is different from address Invalid symbol 
+ is equal to address
  is equal to msg sender
  is equal to lowerUsername
  is equal to 

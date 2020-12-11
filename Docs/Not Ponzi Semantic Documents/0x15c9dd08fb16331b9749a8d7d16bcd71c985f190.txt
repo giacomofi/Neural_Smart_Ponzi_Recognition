@@ -18,7 +18,7 @@ _owner is equal to msg sender
 If isOwner Invalid symbol isAllowed
 proposedOwner is equal to _proposedOwner
 _owner is equal to proposedOwner
-proposedOwner is equal to 
+proposedOwner is equal to address
 stopped is equal to True
 stopped is equal to False
  is equal to totalSupply
@@ -31,6 +31,8 @@ If lockedBalance is less or equal to 0
  is equal to _locked
  is equal to _value
  is equal to 
+Invalid symbol lockup _who length
+Invalid symbol lockup _who
  is equal to msg sender sub
 totalSupply is equal to totalSupply sub
 totalSupply is equal to totalSupply add

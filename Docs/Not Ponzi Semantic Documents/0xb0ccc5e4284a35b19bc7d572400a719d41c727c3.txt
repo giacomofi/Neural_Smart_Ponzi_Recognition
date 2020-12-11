@@ -7,9 +7,10 @@ ERC20DepositPool inherits from TrustListTools
 only_signer is_majority_sig is_trusted 
 TransferMultiSig ClaimedTokens DepositPoolTransfer OutsideTransfer InternalTransfer DepositERC20 WithdrawERC20 LockERC20 UnlockERC20 NewERC20DepositPool 
 multisig_contract is equal to MultiSigInterface
+
 multisig_contract is equal to MultiSigInterface
 list is equal to TrustListInterface
-If _token corresponds to 
+If _token corresponds to address
 c is equal to a plus b
 c is equal to a minus b
 c is equal to a multiplied by b

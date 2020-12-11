@@ -8,7 +8,9 @@ LogSetAuthority LogSetOwner
 owner is equal to msg sender
 owner is equal to owner_
 authority is equal to authority_
-If src corresponds to 
+If src corresponds to address
+If src corresponds to owner
+If authority corresponds to DSAuthority
  is equal to destination
 If msg sig corresponds to 0
 resolver is equal to Resolver

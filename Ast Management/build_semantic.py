@@ -9,19 +9,23 @@
 ############### DEPRECATED ##################
 
 from ast_parser_tools import ASTSemanticExtraction
+import os
 
 if __name__ == '__main__':
 
+    this_dir, _ = os.path.split(__file__)
+    data_dir = this_dir.replace('Ast Management', 'Docs')
+    ponzi_ast_dir = this_dir.replace('Ast Management', 'Ponzi Abstract Syntax Trees')
+    not_ponzi_ast_dir = this_dir.replace('Ast Management', 'Not Smart Ponzi Ast')
     # Instantiating the parser
     parser = ASTSemanticExtraction()
     # Get semantic from all the Ponzi AST
-    parser.semantic_extraction('/home/giacomo/PycharmProjects/ast_generator/Ponzi Abstract Syntax Trees/')
+    parser.semantic_extraction(ponzi_ast_dir + '/')
     # Check every AST object
     for ast in parser.ast_objects:
         try:
             # Generating semantic documents for Smart Ponzies
-            with open('/home/giacomo/PycharmProjects/ast_generator/Ponzi Semantic Documents/' + ast.name + '.txt',
-                      'w') as file:
+            with open(data_dir + '/Ponzi Semantic Documents/' + ast.name + '.txt', 'w') as file:
                 # Check all the AST objects parameters
                 # If a parameter is empty then we don't have semantic, so, no file writing
                 if len(ast.pragmas) != 0:
@@ -81,17 +85,15 @@ if __name__ == '__main__':
                             file.write('\n')
         except FileNotFoundError:
             print("The file does not exists or maybe you're looking for it in the wrong directory")
-        finally:
-            file.close()
     # Reset parser
     parser.reset()
     parser.reset_ast_object()
     # Semantic extraction from Not Ponzies AST
-    parser.semantic_extraction('/home/giacomo/PycharmProjects/ast_generator/Not Smart Ponzi AST/')
+    parser.semantic_extraction(not_ponzi_ast_dir + '/')
     # We repeat the same process, but now we build semantic for Not Ponzies
     for ast in parser.ast_objects:
         try:
-            with open('/home/giacomo/PycharmProjects/ast_generator/Not Ponzi Semantic Documents/' + ast.name + '.txt',
+            with open(data_dir + '/Not Ponzi Semantic Documents/' + ast.name + '.txt',
                       'w') as file:
                 if len(ast.pragmas) != 0:
                     for pragma in ast.pragmas:
@@ -150,5 +152,3 @@ if __name__ == '__main__':
                             file.write('\n')
         except FileNotFoundError:
             print("The file does not exists or maybe you're looking for it in the wrong directory")
-        finally:
-            file.close()

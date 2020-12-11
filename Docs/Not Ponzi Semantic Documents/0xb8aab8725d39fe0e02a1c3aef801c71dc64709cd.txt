@@ -8,6 +8,11 @@ isConstructor totalSupply balanceOf transfer allowance approve transferFrom init
 ERC20Detailed inherits from Initializable ERC20Detailed inherits from IERC20 Context inherits from Initializable ERC20 inherits from Initializable ERC20 inherits from Context ERC20 inherits from IERC20 MinterRole inherits from Initializable MinterRole inherits from Context ERC20Mintable inherits from Initializable ERC20Mintable inherits from ERC20 ERC20Mintable inherits from MinterRole PauserRole inherits from Initializable PauserRole inherits from Context Pausable inherits from Initializable Pausable inherits from Context Pausable inherits from PauserRole ERC20Pausable inherits from Initializable ERC20Pausable inherits from ERC20 ERC20Pausable inherits from Pausable StandaloneERC20 inherits from Initializable StandaloneERC20 inherits from ERC20Detailed StandaloneERC20 inherits from ERC20Mintable StandaloneERC20 inherits from ERC20Pausable 
 initializer onlyMinter onlyPauser whenNotPaused whenPaused 
 Transfer Approval MinterAdded MinterRemoved PauserAdded PauserRemoved Paused Unpaused 
+
+initializing is equal to True
+initialized is equal to True
+
+initializing is equal to False
 _name is equal to name
 _symbol is equal to symbol
 _decimals is equal to decimals
@@ -21,8 +26,8 @@ _totalSupply is equal to _totalSupply sub
  is equal to amount
  is equal to True
  is equal to False
-If 
-If 
+If not isMinter
+If not isPauser
 _paused is equal to False
 _paused is equal to True
 _paused is equal to False

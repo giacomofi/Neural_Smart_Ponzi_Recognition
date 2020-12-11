@@ -8,19 +8,19 @@ onlyOwner onlyPayloadSize
 Transfer Approval Transfer Approval 
 owner is equal to msg sender
  is equal to 10000000000e6
-If newOwner is different from 
+If newOwner is different from address
 owner is equal to newOwner
  is equal to balances _from sub
  is equal to allowed _from msg sender sub
  is equal to balances _to add
 If _value is different from 0 Invalid symbol 
  is equal to _value
-If 
+If not isContract
  is equal to msg sender sub
  is equal to balances _to add
  is equal to 
  is equal to 
-If 
+If not isContract
  is equal to msg sender sub
  is equal to balances _to add
  is equal to 

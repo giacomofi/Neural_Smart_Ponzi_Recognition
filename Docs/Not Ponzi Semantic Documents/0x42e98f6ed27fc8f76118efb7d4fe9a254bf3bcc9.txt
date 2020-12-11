@@ -18,6 +18,8 @@ pause is equal to False
  is equal to balances _to add
  is equal to _allowance sub
  is equal to _value
+If  is greater then 0
+totalLockAmt is equal to totalLockAmt add
  is equal to TOTAL_SUPPLY
 totalSupply is equal to TOTAL_SUPPLY
 If diff is greater or equal to partition

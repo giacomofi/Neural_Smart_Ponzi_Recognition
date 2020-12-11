@@ -5,6 +5,7 @@ Participant has PayAmount
 participants payoutIdx collectedFees balance timeout owner idx NeedAmount NeedAmount 
 Doubler  enter NextPayout collectFees collectBalance setOwner 
 onlyowner 
+If msg sender corresponds to owner
 collectedFees increments of msg value
 owner is equal to msg sender
 If msg value is greater or equal to 100 finney Invalid symbol 

@@ -5,6 +5,7 @@ totalSupply balanceOf transfer transferFrom approve allowance AREToken totalSupp
 AREToken inherits from ERC20Interface 
 onlyOwner 
 Transfer Approval 
+If msg sender is different from owner
 owner is equal to msg sender
  is equal to _totalSupply
 totalSupply is equal to _totalSupply

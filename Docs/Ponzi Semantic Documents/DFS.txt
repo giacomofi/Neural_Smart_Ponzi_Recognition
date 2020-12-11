@@ -10,18 +10,18 @@ numDeposits deposits owner1 owner2 amount i rest depositDays profit amountToWith
 makeDeposit pay 
 If msg value is less then 3 ether Invalid symbol 
 If msg value is greater then 1000 ether
-If 
+If not msg sender send
 amount is equal to 1000 ether
 amount is equal to msg value
  is equal to Deposit
-If 
-If 
-If ref1 is different from 
-If 
-If ref2 is different from 
-If 
-If ref3 is different from 
-If 
+If not owner1 send
+If not owner2 send
+If ref1 is different from address
+If not ref1 send
+If ref2 is different from address
+If not ref2 send
+If ref3 is different from address
+If not ref3 send
 While i is less then numDeposits Invalid symbol 
 If deposits i plan corresponds to 1
 If depositDays is greater then 30
@@ -38,7 +38,8 @@ profit is equal to deposits i amount multiplied by depositDays multiplied by 9 d
 If profit is greater then deposits i payed
 amountToWithdraw is equal to profit minus deposits i payed
 If this balance is greater then amountToWithdraw
-If 
+If not deposits i sender send
 deposits i payed is equal to profit
+Invalid symbol i
 If i corresponds to numDeposits
 i is equal to 0

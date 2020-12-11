@@ -9,7 +9,7 @@ Poll has totalMine
 Poll has account
 Poll has startTime
 Poll has leftMine
-owner c c c c totalSupply balances pausedPublic pausedOwnerAdmin admin allowed oldValue _decimals fourYears businessPoll communityPoll techPoll duration amount curTime currentDecayPeriod lastDecayPeriod right_duration left_duration i availableAmount totalMine currentDecayPeriod totalMine leftMine duration amount curTime _value currentDecayPeriod lastDecayPeriod right_duration left_duration i left name symbol decimals initLiquidity changed 
+owner c c c c totalSupply balances pausedPublic pausedOwnerAdmin admin allowed oldValue _decimals fourYears businessPoll communityPoll techPoll duration amount curTime currentDecayPeriod lastDecayPeriod right_duration left_duration i i i availableAmount totalMine currentDecayPeriod totalMine leftMine duration amount curTime _value currentDecayPeriod lastDecayPeriod right_duration left_duration i i i left name symbol decimals initLiquidity changed 
 transferOwnership mul div sub add mod balanceOf transfer transfer balanceOf pause allowance transferFrom approve transferFrom approve allowance increaseApproval decreaseApproval transfer transferFrom approve increaseApproval decreaseApproval _setPollAccount setBusinessAccount setCommunityAccount setTechAccount setAllAccount _activePoll activeBusinessPoll activeCommunityPoll activeTechPoll _getAvailablePoll getAvailableBPoll getAvailableCpoll getAvailableTpoll _getPollInfo getBPollInfo getTPollInfo getCPollInfo getLiquidity _minePoll mineBusinessPoll mineCommunityPoll mineTechPoll transfer transferFrom burn burnFrom emergencyERC20Drain changeAdmin changeAll 
 BasicToken inherits from ERC20Basic Pausable inherits from Ownable ERC20 inherits from ERC20Basic StandardToken inherits from ERC20 StandardToken inherits from BasicToken PausableToken inherits from StandardToken PausableToken inherits from Pausable PollToken inherits from PausableToken SuperPointsToken inherits from PollToken 
 onlyOwner whenNotPaused validDestination 
@@ -19,6 +19,8 @@ owner is equal to newOwner
 If a corresponds to 0
  is equal to msg sender sub
  is equal to balances _to add
+
+If not pausedOwnerAdmin
 pausedPublic is equal to newPausedPublic
 pausedOwnerAdmin is equal to newPausedOwnerAdmin
  is equal to balances _from sub
@@ -44,6 +46,11 @@ amount is equal to amount plus poll amountPerMinute multiplied by right_duration
 If poll lastMineTime corresponds to 0
 i is less then currentDecayPeriod
 amount is equal to amount plus poll amountPerMinute multiplied by fourYears divided by 
+If poll lastMineTime is greater then 0 Invalid symbol 
+i is less then currentDecayPeriod
+amount is equal to amount plus poll amountPerMinute multiplied by fourYears divided by 
+i is less then currentDecayPeriod
+amount is equal to amount plus poll amountPerMinute multiplied by fourYears divided by 
  is equal to _getAvailablePoll
 If poll lastMineTime is greater then 0
 duration is equal to curTime minus poll lastMineTime
@@ -57,6 +64,11 @@ amount is equal to amount plus poll amountPerMinute multiplied by right_duration
 If poll lastMineTime corresponds to 0
 i is less then currentDecayPeriod
 amount is equal to amount plus poll amountPerMinute multiplied by fourYears divided by 
+If poll lastMineTime is greater then 0 Invalid symbol 
+i is less then currentDecayPeriod
+amount is equal to amount plus poll amountPerMinute multiplied by fourYears divided by 
+i is less then currentDecayPeriod
+amount is equal to amount plus poll amountPerMinute multiplied by fourYears divided by 
 poll leftMine is equal to left
  is equal to  plus _value
 poll totalMine is equal to poll totalMine plus amount
@@ -64,7 +76,7 @@ poll lastMineTime is equal to curTime
 poll currentDecayPeriod is equal to currentDecayPeriod
 admin is equal to msg sender
 changed is equal to False
-totalSupply is equal to 100000000000 multiplied by 10 Invalid symbol 
+totalSupply is equal to 100000000000 multiplied by 10 Invalid symbol uint256
  is equal to initLiquidity
  is equal to msg sender sub
 totalSupply is equal to totalSupply sub

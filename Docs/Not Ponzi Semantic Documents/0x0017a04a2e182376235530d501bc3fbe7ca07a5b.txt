@@ -18,7 +18,7 @@ KolMission has nodePassed
 KolMission has done
 KolOffering has target
 KolOffering has targetAmount
-c c c totalSupply balances allowed userSupplyed owner name token dealTime missionId nodeRate releasedAll balanceAll totalSuperNodes totalNodes halfSuperNodes mostNodes halfNodes minSuperNodes minNodes most half less Voter missionList nodeBalance nodeReleasedBalance kolOfferings offeringList iName balance allLeftBalance minNodesNum minSuperNodesNum passNodes passSuperNodes rate isNode j amount releaseKol fund balance recycles balance allLeftBalance 
+c c c totalSupply balances allowed userSupplyed owner name token dealTime missionId nodeRate releasedAll balanceAll totalSuperNodes totalNodes halfSuperNodes mostNodes halfNodes minSuperNodes minNodes most half less Voter missionList nodeBalance nodeReleasedBalance kolOfferings offeringList iName balance allLeftBalance minNodesNum minSuperNodesNum passNodes passSuperNodes rate m isNode j amount releaseKol fund balance recycles balance allLeftBalance 
 mul div sub add max64 min64 max256 min256 balanceOf transfer allowance transferFrom approve transfer balanceOf transferFrom approve allowance queryNode querySuperNode transferOwnership missionPassed createKolMission voteMission excuteVote getMission1 getMission2 getOfferings addKolOffering voted getKOL queryBalance transferAllKolToFund recycleKOL leftKOL 
 ERC20 inherits from ERC20Basic BasicToken inherits from ERC20Basic StandardToken inherits from BasicToken StandardToken inherits from ERC20 KOL inherits from StandardToken KOLLockNode inherits from Ownable 
 onlyOwner onlySuperNode onlyNode onlyNodes 
@@ -30,23 +30,51 @@ Transfer Approval MissionPassed OfferingFinished MissionLaunched AllTokenBack Re
  is equal to allowed _from msg sender sub
  is equal to _value
 owner is equal to msg sender
-If newOwner is different from 
+If newOwner is different from address
 owner is equal to newOwner
 token is equal to KOL
  is equal to KolMission
+Invalid symbol missionId
 If _type corresponds to 1
+If _type corresponds to 2
 If now is greater then missionList _missionId endTime
 If _type corresponds to 1
 If  is greater or equal to minSuperNodesNum Invalid symbol 
 missionList _missionId superPassed is equal to True
+If _type corresponds to 2
+If  is greater or equal to minNodesNum Invalid symbol 
+missionList _missionId nodePassed is equal to True
 If _agree corresponds to True
 If _type corresponds to 1
+Invalid symbol missionList _missionId agreeSuperNodes
+If _type corresponds to 2
+Invalid symbol missionList _missionId agreeNodes
 If _type corresponds to 1
+Invalid symbol missionList _missionId refuseSuperNodes
+If _type corresponds to 2
+Invalid symbol missionList _missionId refuseNodes
 If _type corresponds to 1
 If missionList _missionId agreeSuperNodes is greater or equal to passSuperNodes
 missionList _missionId superPassed is equal to True
+If missionList _missionId refuseSuperNodes is greater or equal to passSuperNodes
+missionList _missionId done is equal to True
+If _type corresponds to 2
+If missionList _missionId agreeNodes is greater or equal to passNodes
+missionList _missionId nodePassed is equal to True
+If missionList _missionId refuseNodes is greater or equal to passNodes
+missionList _missionId done is equal to True
  is equal to True
 If missionList _missionId name corresponds to TRANSFER ALL KOL TO FUND
+missionList _missionId done is equal to True
+If missionList _missionId name corresponds to RECYCLE KOL FROM OLDNODE
+missionList _missionId done is equal to True
+If missionList _missionId name corresponds to CHANGE RELEASE RATE
+nodeRate is equal to missionList _missionId rate
+missionList _missionId done is equal to True
+m is less then offeringList _missionId length
+ is equal to offeringList _missionId m target add
+balanceAll is equal to balanceAll add
+nodeRate is equal to missionList _missionId rate
 missionList _missionId done is equal to True
 j is less then _targetAmount length
 isNode is equal to token queryNode Invalid symbol token querySuperNode

@@ -10,3 +10,9 @@ currentOwner is equal to _newOwner
  is equal to _value
  is equal to _value
  is equal to _value
+Invalid symbol uIntStorage _key
+Invalid symbol stringStorage _key
+Invalid symbol addressStorage _key
+Invalid symbol bytesStorage _key
+Invalid symbol boolStorage _key
+Invalid symbol intStorage _key

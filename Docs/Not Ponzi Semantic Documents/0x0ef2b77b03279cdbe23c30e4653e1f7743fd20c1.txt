@@ -16,7 +16,7 @@ currentOwner is equal to _owner
 newOwner is equal to _newOwner
 _newOwner is equal to newOwner
 _owner is equal to msg sender
-_newOwner is equal to 
+_newOwner is equal to address
 _paused is equal to False
 _paused is equal to value
 
@@ -30,9 +30,11 @@ If __len is greater then 0
 i is less then __len
 __reserved is equal to __reserved add
 If amount is less or equal to __available
+If __available is greater then 0
 contracts is equal to 
 If amount corresponds to _whitelistTrigger Invalid symbol _whitelistingMode Invalid symbol whitelisted Invalid symbol 
-If recipient corresponds to  Invalid symbol 
+If recipient corresponds to address Invalid symbol 
+If recipient corresponds to address Invalid symbol 
 If _safeMode Invalid symbol  Invalid symbol 
  is equal to _balances sender sub
  is equal to _balances recipient add
@@ -40,7 +42,7 @@ _totalSupply is equal to _totalSupply add
  is equal to _balances account add
 _totalSupply is equal to _totalSupply add
  is equal to _balances account add
-If 
+If not _addressAllocations account address
  is equal to True
  is equal to _balances account sub
 _totalSupply is equal to _totalSupply sub
@@ -49,11 +51,11 @@ _cap is equal to _cap sub
 _name is equal to value
 _symbol is equal to value
 i is less then accounts length
-If  is different from  Invalid symbol  Invalid symbol whitelisted
+If  is different from address Invalid symbol  Invalid symbol whitelisted
  is equal to refereeAccount
 _whitelistCounter is equal to _whitelistCounter add
 i is less then _whitelistRewardsArr length
-If __receiver is different from 
+If __receiver is different from address
 If __receiver is different from __cursor Invalid symbol 
 __distributedAmount is equal to __distributedAmount add
 __cursor is equal to 

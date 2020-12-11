@@ -32,8 +32,9 @@ _paused is equal to False
 _paused is equal to True
 _paused is equal to False
 _owner is equal to msg sender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
+StakeTransStatus has values STATUS_STAKED STATUS_WITHDRAWED
 kgcInstance is equal to ERC20Interface
  is equal to current add
 totalTrans is equal to totalTrans add

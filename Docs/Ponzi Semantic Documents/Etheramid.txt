@@ -23,4 +23,5 @@ While  Invalid symbol
 Tree next totalPayout increments of toSend
 rest decreases of toSend
 next is equal to Tree next inviter
+Invalid symbol level
 Tree next totalPayout increments of rest

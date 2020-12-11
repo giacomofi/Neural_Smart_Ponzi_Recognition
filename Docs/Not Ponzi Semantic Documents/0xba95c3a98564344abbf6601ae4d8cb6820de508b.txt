@@ -5,7 +5,7 @@ balanceOf transfer transferFrom approve allowance transfer transferFrom balanceO
 StandardERC20Token inherits from Token 
 Transfer Approval Transfer Approval 
  is equal to _initialAmount
-totalSupply is equal to _initialAmount multiplied by 10 Invalid symbol 
+totalSupply is equal to _initialAmount multiplied by 10 Invalid symbol uint256
 name is equal to _tokenName
 decimals is equal to _decimalUnits
 symbol is equal to _tokenSymbol

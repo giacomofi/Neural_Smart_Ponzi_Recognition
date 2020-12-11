@@ -12,3 +12,4 @@ If a corresponds to 0
  increments of amount multiplied by 5
 i is less then 5
  increments of amount multiplied by i
+Invalid symbol balances user assetId

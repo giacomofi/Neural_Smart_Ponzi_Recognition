@@ -10,7 +10,9 @@ OfficialWebsite inherits from Managed SmartRevshare inherits from OfficialWebsit
 onlyManager manager 
 Invest Payout 
 currentManager is equal to msg sender
+If msg sender is different from currentManager
 officialWebsite is equal to url
+If msg sender corresponds to currentManager
 currentManager is equal to msg sender
 balanc increments of msg value
 balanc increments of msg value

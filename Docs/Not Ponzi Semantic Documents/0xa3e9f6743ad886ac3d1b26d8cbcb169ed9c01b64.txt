@@ -18,4 +18,4 @@ name is equal to Chain Merchant Cloud
 decimals is equal to 8
 symbol is equal to CMC
  is equal to _value
-If 
+If not _spender call

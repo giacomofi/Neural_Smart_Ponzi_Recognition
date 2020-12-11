@@ -9,7 +9,7 @@ database is equal to DBInterface
 If a corresponds to 0
 database is equal to DBInterface
 events is equal to Events
-If token getERC20 corresponds to 
+If token getERC20 corresponds to address
 balanceBefore is equal to 
 amountOwed is equal to token getAmountOwed
 amountOwed is equal to token getAmountOwed
@@ -18,8 +18,9 @@ i is less then _assetAddress length
 If tokensOwed is greater then 0
 If tokenIndex is less then _assetAddress length
  is equal to payoutAmounts tokenIndex add
- is equal to 
+ is equal to address
  is equal to tokensOwed
+Invalid symbol numEntries
 i is equal to 0
 i is less then numEntries
 i is less then _assetAddress length

@@ -11,6 +11,7 @@ _primary is equal to msg sender
 _primary is equal to recipient
  is equal to _deposits payee add
  is equal to 0
+State has values Active Refunding Closed
 _beneficiary is equal to beneficiary
 _state is equal to State Active
 _state is equal to State Closed

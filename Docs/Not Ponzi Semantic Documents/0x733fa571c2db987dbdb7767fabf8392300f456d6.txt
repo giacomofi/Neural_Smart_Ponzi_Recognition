@@ -4,13 +4,13 @@ _DAI _DDAI _DUSDC
 transfer approve balanceOf allowance tradeEthForDai tradeDaiForEth tradeDDaiForDUSDC tradeDUSDCForDDai _revertOnFailure 
 daiReceived is equal to _DAI balanceOf
 ok is equal to 
-If _DAI allowance is different from 
+If _DAI allowance is different from uint256
 ethReceived is equal to 
  is equal to 
-If _DDAI allowance is different from 
+If _DDAI allowance is different from uint256
 dUSDCReceived is equal to _DUSDC balanceOf
 ok is equal to 
-If _DUSDC allowance is different from 
+If _DUSDC allowance is different from uint256
 dDaiReceived is equal to _DDAI balanceOf
 ok is equal to 
 If not ok

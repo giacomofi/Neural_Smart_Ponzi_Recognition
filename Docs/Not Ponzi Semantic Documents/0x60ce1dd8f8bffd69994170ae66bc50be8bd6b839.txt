@@ -11,9 +11,10 @@ _owner is equal to newOwner
 If a corresponds to 0
 If i corresponds to 0
 While j is different from 0
+Invalid symbol length
 j is divided by 10
 While i is different from 0
- is equal to 
+ is equal to byte
 i is divided by 10
 _totalSupply is equal to hardcap
  is equal to _totalSupply

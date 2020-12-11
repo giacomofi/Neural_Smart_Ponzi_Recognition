@@ -23,7 +23,7 @@ onlyOwner isExecutor executorExists executorDoesNotExists paymentExists paymentN
 Transfer Approval OwnershipTransferred LogExecutorAdded LogExecutorRemoved LogSmartContractActorFunded LogPaymentRegistered LogPaymentCancelled LogPullPaymentExecuted 
 If a corresponds to 0
 _owner is equal to msg sender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
 token is equal to IERC20
  is equal to True
@@ -48,6 +48,15 @@ pullPayments _addresses 0 _addresses 1 cancelTimestamp is equal to 0
 If  corresponds to TYPE_PULL_PAYMENT_WITH_FREE_TRIAL
 pullPayments _addresses 0 _addresses 1 nextPaymentTimestamp is equal to  plus 
 pullPayments _addresses 0 _addresses 1 lastPaymentTimestamp is equal to 0
+If  corresponds to TYPE_RECURRING_PULL_PAYMENT_WITH_INITIAL
+pullPayments _addresses 0 _addresses 1 lastPaymentTimestamp is equal to now
+pullPayments _addresses 0 _addresses 1 nextPaymentTimestamp is equal to  plus 
+If  corresponds to TYPE_PULL_PAYMENT_WITH_PAID_TRIAL
+pullPayments _addresses 0 _addresses 1 lastPaymentTimestamp is equal to now
+pullPayments _addresses 0 _addresses 1 nextPaymentTimestamp is equal to  plus 
+pullPayments _addresses 0 _addresses 1 lastPaymentTimestamp is equal to now
+pullPayments _addresses 0 _addresses 1 nextPaymentTimestamp is equal to  plus 
+pullPayments _addresses 0 _addresses 1 numberOfPayments is equal to  minus 1
 
 pullPayments _customerAddress _pullPaymentExecutor cancelTimestamp is equal to now
 

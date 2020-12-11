@@ -15,7 +15,7 @@ _totalSupply is equal to _totalSupply sub
  is equal to _balances account sub
  is equal to value
 oracle is equal to OracleInterface
-_reserveOwnerSupply is equal to 300000000 multiplied by 10 Invalid symbol 
+_reserveOwnerSupply is equal to 300000000 multiplied by 10 Invalid symbol uint
 owner is equal to msg sender
 amountWei is equal to 
 If balanceOf is less or equal to amountWei
@@ -23,5 +23,6 @@ amountWei is equal to amountWei mul
 amountWei is equal to amountWei mul
 amountWei is equal to amountWei div
 amountWei is equal to amountWei mul
+If msg sender is different from owner
 owner is equal to msg sender
 price_ is equal to price

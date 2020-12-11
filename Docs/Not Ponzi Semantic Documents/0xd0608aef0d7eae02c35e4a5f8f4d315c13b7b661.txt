@@ -11,7 +11,7 @@ ERC20 inherits from IERC20 Pausable inherits from PauserRole ReferralTracker inh
 onlyOwner onlyPauser whenNotPaused whenPaused onlyRegistry onlyAdmin onlyAdmin onlyAdmin 
 OwnershipTransferred Transfer Approval PauserAdded PauserRemoved Paused Unpaused ReferralRegistered ReferralBonusWithdrawn FundsAdded FundsRemoved RemovedFromKYC AddedToKYC UserDepositCompleted UserWithdrawnCompleted AddressUnlockedForWithdrawal 
 _owner is equal to msg sender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
 If a corresponds to 0
  is equal to _balances sender sub
@@ -30,6 +30,7 @@ registryAddress is equal to registryAddress_
 token is equal to ERC20
 admin is equal to _admin
  is equal to unclaimedReferrals referrer add
+Invalid symbol msg sender
 admin is equal to _admin
  is equal to False
  is equal to True
@@ -39,6 +40,7 @@ ref is equal to ReferralTracker
 admin is equal to _admin
 deposits from deposited is equal to True
 deposits from deposited is equal to True
+Invalid symbol msg sender
 deposits user unlockedForWithdrawal is equal to True
 kyc is equal to KYCRegistry
 deposit is equal to DepositRegistry

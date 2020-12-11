@@ -12,7 +12,7 @@ If a corresponds to 0
  is equal to True
  is equal to False
 _owner is equal to msg sender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
 _paused is equal to False
 _paused is equal to True

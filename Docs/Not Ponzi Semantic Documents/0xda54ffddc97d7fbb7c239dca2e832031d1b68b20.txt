@@ -4,6 +4,6 @@ balanceOf baseAddr bcontract distributedAmount i
 transferFrom  sendOutToken 
 cannotAirdrop 
 i is less then addrs length
-If  corresponds to 
+If  corresponds to address
 If bcontract balanceOf is greater then 0 Invalid symbol 
 distributedAmount increments of 100

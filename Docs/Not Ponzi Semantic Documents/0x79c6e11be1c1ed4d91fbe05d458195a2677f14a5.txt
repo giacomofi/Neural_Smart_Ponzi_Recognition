@@ -7,7 +7,7 @@ Oracle inherits from ChainlinkRequestInterface Oracle inherits from OracleInterf
 onlyOwner hasAvailableFunds isValidRequest onlyAuthorizedNode onlyLINK permittedFunctionsForLINK checkCallbackAddress validRequestLength 
 OwnershipRenounced OwnershipTransferred OracleRequest CancelOracleRequest 
 owner is equal to msg sender
-owner is equal to 
+owner is equal to address
 owner is equal to _newOwner
 If _a corresponds to 0
 c is equal to _a multiplied by _b
@@ -15,5 +15,7 @@ c is equal to _a plus _b
 LinkToken is equal to LinkTokenInterface
  is equal to keccak256
 withdrawableTokens is equal to withdrawableTokens add
+Invalid symbol commitments _requestId
  is equal to _allowed
 withdrawableTokens is equal to withdrawableTokens sub
+Invalid symbol commitments _requestId

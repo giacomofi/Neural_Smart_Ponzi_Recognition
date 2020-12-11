@@ -23,5 +23,5 @@ totalSupply_ is equal to totalSupply_ sub
  is equal to balances _account sub
  is equal to allowed _account msg sender sub
 owner is equal to msg sender
-owner is equal to 
+owner is equal to address
 owner is equal to _newOwner

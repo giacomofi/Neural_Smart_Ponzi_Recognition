@@ -7,11 +7,13 @@ realitio is equal to _realitio
 nuancedBinaryTemplateId is equal to _nuancedBinaryTemplateId
 If templateId corresponds to 0 Invalid symbol 
 payouts is equal to getSingleSelectPayouts
-If answer corresponds to 
+If templateId corresponds to nuancedBinaryTemplateId
+payouts is equal to getNuancedBinaryPayouts
+If answer corresponds to uint256
 i is less then numOutcomes
  is equal to 1
  is equal to 1
-If answer corresponds to 
+If answer corresponds to uint256
  is equal to 1
  is equal to 1
  is equal to 4 minus answer

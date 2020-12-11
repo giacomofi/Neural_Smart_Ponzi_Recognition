@@ -13,25 +13,34 @@ len is greater or equal to 32
 dest increments of 32
 src increments of 32
 If self corresponds to 0
-If  Invalid symbol 0xffffffffffffffffffffffffffffffff corresponds to 0
+If uint256 Invalid symbol 0xffffffffffffffffffffffffffffffff corresponds to 0
 ret increments of 16
-self is equal to 
-If  Invalid symbol 0xffffffffffffffff corresponds to 0
+self is equal to bytes32
+If uint256 Invalid symbol 0xffffffffffffffff corresponds to 0
 ret increments of 8
-self is equal to 
-If  Invalid symbol 0xffffffff corresponds to 0
+self is equal to bytes32
+If uint256 Invalid symbol 0xffffffff corresponds to 0
 ret increments of 4
-self is equal to 
-If  Invalid symbol 0xffff corresponds to 0
+self is equal to bytes32
+If uint256 Invalid symbol 0xffff corresponds to 0
 ret increments of 2
-self is equal to 
-If  Invalid symbol 0xff corresponds to 0
+self is equal to bytes32
+If uint256 Invalid symbol 0xff corresponds to 0
 ret increments of 1
 ret _len is equal to len
 l is equal to 0
 ptr is less then end
 If b is less then 0x80
 ptr increments of 1
+If b is less then 0xE0
+ptr increments of 2
+If b is less then 0xF0
+ptr increments of 3
+If b is less then 0xF8
+ptr increments of 4
+If b is less then 0xFC
+ptr increments of 5
+ptr increments of 6
 If other _len is less then self _len
 shortest is equal to other _len
 idx is less then shortest
@@ -46,6 +55,11 @@ If self _len corresponds to 0
 rune _len is equal to 0
 If b is less then 0x80
 l is equal to 1
+If b is less then 0xE0
+l is equal to 2
+If b is less then 0xF0
+l is equal to 3
+l is equal to 4
 If l is greater then self _len
 rune _len is equal to self _len
 self _ptr increments of self _len
@@ -57,6 +71,14 @@ If self _len corresponds to 0
 If b is less then 0x80
 ret is equal to b
 length is equal to 1
+If b is less then 0xE0
+ret is equal to b Invalid symbol 0x1F
+length is equal to 2
+If b is less then 0xF0
+ret is equal to b Invalid symbol 0x0F
+length is equal to 3
+ret is equal to b Invalid symbol 0x07
+length is equal to 4
 If length is greater then self _len
 i is less then length
 divisor is equal to divisor divided by 256
@@ -80,6 +102,7 @@ If needlelen is less or equal to selflen
 If needlelen is less or equal to 32
 While ptrdata is different from needledata
 If ptr is greater or equal to end
+Invalid symbol ptr
 idx is equal to 0
 idx is less or equal to selflen minus needlelen
 If hash corresponds to testHash
@@ -89,6 +112,7 @@ If needlelen is less or equal to 32
 ptr is equal to selfptr plus selflen minus needlelen
 While ptrdata is different from needledata
 If ptr is less or equal to selfptr
+Invalid symbol ptr
 ptr is equal to selfptr plus 
 While ptr is greater or equal to selfptr
 If hash corresponds to testHash
@@ -108,9 +132,11 @@ If ptr corresponds to self _ptr
 self _len is equal to 0
 self _len decreases of token _len plus needle _len
 While ptr is less or equal to self _ptr plus self _len
+Invalid symbol cnt
 ptr is equal to findPtr plus needle _len
 If parts length corresponds to 0
 i is less then parts length
+length increments of parts i _len
 i is less then parts length
 retptr increments of parts i _len
 If i is less then parts length minus 1
@@ -119,6 +145,7 @@ owner is equal to msg sender
 owner is equal to _newOwner
 If  corresponds to False
  is equal to True
+Invalid symbol managers _manager
 rootName is equal to _rootName
 rootNode is equal to _rootNode
 ensRegistry is equal to ENS
@@ -126,4 +153,4 @@ ensResolver is equal to ENSResolver
 ensResolver is equal to ENSResolver
  is equal to _label toSlice
  is equal to rootName toSlice
-If currentOwner corresponds to 
+If currentOwner corresponds to address

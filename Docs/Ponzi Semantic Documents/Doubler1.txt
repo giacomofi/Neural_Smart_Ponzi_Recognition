@@ -5,15 +5,18 @@ Participant has amount
 participants payoutIdx collectedFees balance owner fee idx txAmount 
 Doubler  enter collectFees setOwner 
 onlyowner 
+If msg sender corresponds to owner
 owner is equal to msg sender
 collectedFees increments of fee
+Invalid symbol participants length
 participants idx etherAddress is equal to msg sender
 participants idx amount is equal to msg value minus fee
 balance increments of msg value minus fee
 If balance is greater or equal to txAmount
-If 
+If not participants payoutIdx etherAddress send
 balance decreases of txAmount
+Invalid symbol payoutIdx
 If collectedFees corresponds to 0
-If 
+If not owner send
 collectedFees is equal to 0
 owner is equal to _owner

@@ -45,11 +45,14 @@ symbol is equal to _symbol
 If extraSupplay is greater then 0
  is equal to balanceOf owner add
 totalSupply is equal to totalSupply add
+If extraSupplay is less then 0
+ is equal to balanceOf owner sub
+totalSupply is equal to totalSupply sub
  is equal to balanceOf src sub
  is equal to balanceOf where add
 _confidence_transfers src nonce increments of 1
  is equal to True
- is equal to  multiplied by 10 Invalid symbol 18
+ is equal to uint256 multiplied by 10 Invalid symbol 18
 totalSupply is equal to 157000000 multiplied by 10 Invalid symbol 18
 name is equal to SPAS 157 Coin
 symbol is equal to SPAS157

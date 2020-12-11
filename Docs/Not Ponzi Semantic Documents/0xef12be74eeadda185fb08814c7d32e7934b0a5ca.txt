@@ -5,6 +5,7 @@ DEPOSIT_INCREMENT_PERCENT BIG_REWARD_PERCENT SMALL_REWARD_PERCENT MAX_TIME NEVER
  _forceTransfer _gameState donate firstPlay play reset currentRequiredDeposit gameState startBlocks mul div sub add mod 
 currentGame exactDeposit 
 Action 
+GameState has values NEEDS_DONATION READY_FOR_FIRST_PLAY IN_PROGRESS GAME_OVER
 endTime is equal to NEVER
 currentGameNumber is equal to 1
 currentDepositNumber is equal to 1
@@ -21,21 +22,24 @@ escrow is equal to escrow add
  is equal to msg sender
 endTime is equal to now add
 escrow is equal to escrow add
+Invalid symbol currentDepositNumber
 _gameStarted is equal to True
-If addressToPay is different from 
+If addressToPay is different from address
 payoutProof is equal to _forceTransfer
  is equal to 
  is equal to msg sender
 endTime is equal to now add
 escrow is equal to 
+Invalid symbol currentDepositNumber
 escrow is equal to escrow sub
 If escrow is greater then 0
 endTime is equal to NEVER
 escrow is equal to 0
+Invalid symbol currentGameNumber
 currentDepositNumber is equal to 1
 _gameStarted is equal to False
- is equal to 
- is equal to 
+ is equal to address
+ is equal to address
 If  is greater then INITIAL_INCENTIVE
 escrow is equal to INITIAL_INCENTIVE
 escrow is equal to 

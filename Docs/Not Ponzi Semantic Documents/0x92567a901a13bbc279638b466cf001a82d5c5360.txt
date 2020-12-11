@@ -9,7 +9,7 @@ ERC20 inherits from IERC20 ERC20Burnable inherits from ERC20 ERC20Mintable inher
 onlyOwner onlyPrimary onlyMinter 
 OwnershipTransferred PrimaryTransferred Transfer Approval MinterAdded MinterRemoved FrozenFunds Deposited Withdrawn PayeeAdded PaymentReleased PaymentReceived RefundsClosed RefundsEnabled 
 _owner is equal to msg sender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
 _primary is equal to msg sender
 _primary is equal to recipient
@@ -35,6 +35,7 @@ i is less then payees length
 _totalReleased is equal to _totalReleased add
  is equal to shares_
 _totalShares is equal to _totalShares add
+State has values Active Refunding Closed
 _beneficiary is equal to beneficiary
 _state is equal to State Active
 _state is equal to State Closed

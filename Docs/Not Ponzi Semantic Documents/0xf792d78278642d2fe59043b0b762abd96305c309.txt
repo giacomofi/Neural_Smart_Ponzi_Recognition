@@ -15,28 +15,31 @@ If a corresponds to 0
  is equal to True
  is equal to to
  is equal to approved
-If  is different from 
- is equal to 
+If  is different from address
+ is equal to address
  is equal to to
  is equal to _ownedTokensCount to add
  is equal to _ownedTokensCount from sub
- is equal to 
-If 
+ is equal to address
+If not to isContract
  is equal to length
  is equal to lastToken
+Invalid symbol _ownedTokens from length
  is equal to 0
  is equal to tokenIndex
  is equal to _allTokens length
  is equal to lastToken
  is equal to 0
+Invalid symbol _allTokens length
  is equal to 0
  is equal to tokenIndex
 _name is equal to name
 _symbol is equal to symbol
  is equal to uri
 If  is different from 0
+Invalid symbol _tokenURIs tokenId
 _owner is equal to msg sender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
 _decimals is equal to 0
 _totalSupply is equal to 100000000000

@@ -100,17 +100,21 @@ decimals totalSupply balanceOf transfer transferFrom approve allowance changeCon
 Storage inherits from Owned StorageInterfaceContract inherits from StorageContractAdapter StorageInterfaceContract inherits from Storage MultiEventsHistoryAdapter inherits from EventsHistorySourceAdapter ChronoBankPlatformEmitter inherits from MultiEventsHistoryAdapter ChronoBankPlatformInterface inherits from ChronoBankPlatformEmitter ChronoBankPlatformBackendProvider inherits from Owned ChronoBankPlatformRouter inherits from BaseByzantiumRouter ChronoBankPlatformRouter inherits from ChronoBankPlatformRouterCore ChronoBankPlatformRouter inherits from ChronoBankPlatformEmitter ChronoBankPlatformRouter inherits from StorageAdapter ChronoBankPlatform inherits from ChronoBankPlatformRouterCore ChronoBankPlatform inherits from ChronoBankPlatformEmitter ChronoBankPlatform inherits from StorageInterfaceContract ChronoBankPlatform inherits from ChronoBankPlatformCore 
 onlyContractOwner onlyAllowed onlyOwner onlyDesignatedManager onlyOneOfContractOwners onlyProxy checkTrust onlyAfterBlock 
 Transfer Approval OwnershipTransferred ErrorCode Transfer Issue Revoke RevokeExternal OwnershipChange Approve Recovery 
+If msg sender corresponds to contractOwner
 contractOwner is equal to msg sender
 If _to corresponds to 0x0
 pendingContractOwner is equal to _to
 If msg sender is different from pendingContractOwner
 contractOwner is equal to pendingContractOwner
+Invalid symbol pendingContractOwner
 If newOwner corresponds to 0x0
 contractOwner is equal to newOwner
+Invalid symbol pendingContractOwner
 i is less then tokens length
 If balance is greater then 0
 If balance is greater then 0
 If _value is greater then 
+If 
 manager is equal to _manager
  is equal to _value
  is equal to _value
@@ -137,15 +141,15 @@ If _value corresponds to 0x0
 
 If count corresponds to 0x0
 If get is different from 0x0
-If 
-If 
+If not includes
+If not includes
 If index is less then lastIndex
-If 
+If not includes
 If _value corresponds to get
 If _value corresponds to get
 _idx is equal to 0
 _idx is less then _destCount
-If 
+If not includes
  is equal to _destValue
 _idx is equal to 0
 _idx is less then _sourceCount
@@ -156,13 +160,13 @@ result is equal to
 i is less then valuesCount
  is equal to get
 i is less then self length
- is equal to 
+ is equal to address
 i is less then self length
- is equal to 
+ is equal to uint
 If from is different from 0x0
 If from is different from 0x0
 If startValue corresponds to 0x0
-If 
+If not canGetNextWithIterator
 _nextValue is equal to iterator currentValue
 iterator currentValue is equal to getNextValue
 iterator valuesLeft decreases of 1
@@ -183,15 +187,15 @@ If _value corresponds to 0x0
 
 If count corresponds to 0x0
 If get is different from 0x0
-If 
-If 
+If not includes
+If not includes
 If index is less then lastIndex
-If 
+If not includes
 If _value corresponds to get
 If _value corresponds to get
 _idx is equal to 0
 _idx is less then _destCount
-If 
+If not includes
  is equal to _destValue
 _idx is equal to 0
 _idx is less then _sourceCount
@@ -202,13 +206,13 @@ result is equal to
 i is less then valuesCount
  is equal to get
 i is less then self length
- is equal to 
+ is equal to address
 i is less then self length
- is equal to 
+ is equal to uint
 If from is different from 0x0
 If from is different from 0x0
 If startValue corresponds to 0x0
-If 
+If not canGetNextWithIterator
 _nextValue is equal to iterator currentValue
 iterator currentValue is equal to getNextValue
 iterator valuesLeft decreases of 1
@@ -217,6 +221,12 @@ localEventsHistory is equal to _eventsHistory
 platformBackend is equal to _updatedPlatformBackend
 contractOwner is equal to msg sender
 platformBackendProvider is equal to _platformBackendProvider
+
+
+If contractOwner corresponds to msg sender Invalid symbol partowners
+If proxies corresponds to msg sender
+
+If block number is greater or equal to blockNumber
 _owner is equal to _assetOwner
 _totalSupply is equal to totalSupply
 _name is equal to name
@@ -234,6 +244,7 @@ If txContext balanceFrom is less then value
 If txContext from corresponds to 
 txContext toHolderId is equal to _createHolderId
 txContext balanceTo is equal to _balanceOf
+Invalid symbol success
 If txContext fromHolderId corresponds to txContext toHolderId
 If _value corresponds to 0
 txContext balanceFrom is equal to _balanceOf
@@ -255,7 +266,7 @@ If _value corresponds to 0 Invalid symbol
 
 txContext to is equal to _to
 If _value corresponds to 0
-If 
+If not isReissuable
 If _totalSupply plus _value is less then _totalSupply
 txContext toHolderId is equal to _createHolderId
 txContext balanceTo is equal to _balanceOf
@@ -276,7 +287,7 @@ If assetOwner corresponds to newOwnerId
 If fromId corresponds to getHolderId
 
 If getHolderId is different from 0
-If 
+If not isCreated
 If txContext fromHolderId corresponds to txContext senderHolderId
 txContext allowanceValue is equal to _allowance
 If 

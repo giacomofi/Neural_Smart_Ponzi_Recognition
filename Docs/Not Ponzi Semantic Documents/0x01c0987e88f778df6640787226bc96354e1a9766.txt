@@ -7,7 +7,7 @@ Pausable inherits from Ownable BasicToken inherits from ERC20Basic ERC20 inherit
 onlyOwner whenNotPaused whenPaused validDestination 
 OwnershipRenounced OwnershipTransferred Pause Unpause Transfer Approval Burn 
 owner is equal to msg sender
-owner is equal to 
+owner is equal to address
 owner is equal to _newOwner
 paused is equal to True
 paused is equal to False

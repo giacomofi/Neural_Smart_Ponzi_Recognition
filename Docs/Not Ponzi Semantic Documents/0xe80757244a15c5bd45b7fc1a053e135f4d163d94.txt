@@ -56,6 +56,7 @@ self currentSize is equal to self currentSize add
 If  is greater then self currentSize
 If  is less then 
  is equal to 
+Invalid symbol self currentSize
 self currentSize is equal to self currentSize sub
 self heapList length is equal to self heapList length sub
 While newVal is less then 
@@ -73,29 +74,38 @@ bridge is equal to _bridge
 If _type corresponds to 0
 color is equal to erc20TokenCount
 erc20TokenCount increments of 1
+If _type corresponds to 1
+color is equal to NFT_FIRST_COLOR plus nftTokenCount
+nftTokenCount increments of 1
+color is equal to NST_FIRST_COLOR plus nstTokenCount
+nstTokenCount increments of 1
  is equal to True
  is equal to PriorityQueue Token
 vault is equal to _vault
 bridge is equal to _bridge
 epochLength is equal to _epochLength
 epochLength is equal to _epochLength
-If slot signer corresponds to 
+If slot signer corresponds to address
 slot owner is equal to _signerAddr
 slot signer is equal to _signerAddr
 slot tendermint is equal to _tenderAddr
 slot activationEpoch is equal to 0
-If _signerAddr corresponds to  Invalid symbol 
-slot activationEpoch is equal to 
-If slot signer is different from 
+Invalid symbol slot eventCounter
+If _signerAddr corresponds to address Invalid symbol 
+slot activationEpoch is equal to uint32
+Invalid symbol slot eventCounter
+If slot signer is different from address
 slot owner is equal to slot newOwner
 slot signer is equal to slot newSigner
 slot tendermint is equal to slot newTendermint
 slot activationEpoch is equal to 0
-slot newSigner is equal to 
+slot newSigner is equal to address
 slot newTendermint is equal to 0x0
-If slot signer is different from 
+Invalid symbol slot eventCounter
+If slot signer is different from address
 i is greater or equal to 256 minus _epochLength
-count increments of  Invalid symbol 0x01
+count increments of uint8 Invalid symbol 0x01
 If slot activationEpoch is greater then 0
 If newHeight is greater or equal to lastEpochBlockHeight plus epochLength
+Invalid symbol lastCompleteEpoch
 lastEpochBlockHeight is equal to newHeight

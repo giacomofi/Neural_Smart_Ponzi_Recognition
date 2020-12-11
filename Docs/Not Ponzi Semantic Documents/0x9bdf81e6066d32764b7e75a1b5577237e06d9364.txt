@@ -452,11 +452,11 @@ w userTokensReturnAboveCurrentPack is equal to
 If w ra corresponds to True
 If w withdrawAmt plus w bonus is greater then 0
  is equal to balances _from sub
-If _to corresponds to 
+If _to corresponds to address
 If _rttcp corresponds to True
  is equal to balances _to add
  is equal to 
 totalSupply is equal to totalSupply sub
  is equal to balances _to add
- is equal to  add
+ is equal to address add
 totalSupply is equal to totalSupply add

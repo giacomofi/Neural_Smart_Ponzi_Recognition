@@ -15,7 +15,7 @@ _notEntered is equal to True
 _notEntered is equal to False
 _notEntered is equal to True
 _owner is equal to msgSender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
 _wallet is equal to wallet
 _secondWallet is equal to secondWallet
@@ -24,6 +24,7 @@ _orderUSDMinAmount is equal to 20 multiplied by
 _oracle is equal to oracle
 _orderUSDMinAmount is equal to amount
  is equal to allowed
+Invalid symbol _currentOrderID
  is equal to order
 order amount is equal to 0
 

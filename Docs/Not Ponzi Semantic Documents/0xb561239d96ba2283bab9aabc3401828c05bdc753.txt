@@ -65,6 +65,7 @@ owner is equal to newOwner
  is equal to FuturesAsset
 If futuresContracts futuresContract expirationBlock is greater then 0
  is equal to FuturesContract
+Errors has values INVALID_PRICE INVALID_SIGNATURE ORDER_ALREADY_FILLED GAS_TOO_HIGH OUT_OF_BALANCE FUTURES_CONTRACT_EXPIRED FLOOR_OR_CAP_PRICE_REACHED POSITION_ALREADY_EXISTS UINT48_VALIDATION FAILED_ASSERTION
 owner is equal to msg sender
 feeAccount is equal to feeAccount_
 makerFee is equal to makerFee_
@@ -74,9 +75,10 @@ DmexOracleContract is equal to DmexOracleContract_
 makerFee is equal to makerFee_
 takerFee is equal to takerFee_
  is equal to isAdmin
-If val is different from 
-If val is different from 
-If val is different from 
+If msg sender is different from owner Invalid symbol 
+If val is different from uint48
+If val is different from uint64
+If val is different from uint128
 If  Invalid symbol  Invalid symbol  Invalid symbol 
 If block number is greater then t futuresContract expirationBlock Invalid symbol  Invalid symbol 
 If ecrecover is different from t maker
@@ -86,34 +88,38 @@ If t futuresContract floorPrice is greater or equal to t makerPrice Invalid symb
 tv qty is equal to min
 If positionExists Invalid symbol positionExists
 tv qty is equal to min
+
+tv qty is equal to min
+
+tv qty is equal to min
 If tv qty corresponds to 0
 If safeMul is greater then calculateTradeValue
 If not takerIsBuying
 If  Invalid symbol 
-If 
+If not checkEnoughBalance
 
-If 
+If not checkEnoughBalance
 If t makerPrice is less then 
 tv makerProfit is equal to calculateProfit
 tv makerLoss is equal to calculateLoss
 If  Invalid symbol 
-If 
+If not checkEnoughBalance
 
-If 
+If not checkEnoughBalance
 If t makerPrice is greater then 
 tv takerProfit is equal to calculateProfit
 tv takerLoss is equal to calculateLoss
 If  Invalid symbol 
-If 
+If not checkEnoughBalance
 
-If 
+If not checkEnoughBalance
 If t makerPrice is greater then 
 tv makerProfit is equal to calculateProfit
 tv makerLoss is equal to calculateLoss
 If  Invalid symbol 
-If 
+If not checkEnoughBalance
 
-If 
+If not checkEnoughBalance
 If t makerPrice is less then 
 tv takerProfit is equal to calculateProfit
 tv takerLoss is equal to calculateLoss
@@ -177,5 +183,8 @@ If futuresContracts futuresContract closed corresponds to True
 If futuresContracts futuresContract expirationBlock is greater then block number Invalid symbol  Invalid symbol 
 If price is less or equal to futuresContracts futuresContract floorPrice
 futuresContracts futuresContract closingPrice is equal to futuresContracts futuresContract floorPrice
+If price is greater or equal to futuresContracts futuresContract capPrice
+futuresContracts futuresContract closingPrice is equal to futuresContracts futuresContract capPrice
+futuresContracts futuresContract closingPrice is equal to price
 futuresContracts futuresContract closed is equal to True
 i is less then futuresContracts length

@@ -39,6 +39,10 @@ If len plus off is greater then buf capacity
 data is equal to data Invalid symbol 
 If len plus off is greater then buf capacity
 If value is less or equal to 23
+If value is less or equal to 0xFF
+If value is less or equal to 0xFFFF
+If value is less or equal to 0xFFFFFFFF
+If value is less or equal to 0xFFFFFFFFFFFFFFFF
 If value is greater or equal to 0
 self id is equal to _id
 self callbackAddress is equal to _callbackAddress
@@ -48,11 +52,13 @@ requestId is equal to keccak256
 _req nonce is equal to requestCount
  is equal to _oracle
 requestCount increments of 1
+Invalid symbol pendingRequests _requestId
 oracle is equal to ChainlinkRequestInterface
 link is equal to LinkTokenInterface
  is equal to _oracle
 ens is equal to ENSInterface
 ensNode is equal to _node
+Invalid symbol pendingRequests _requestId
 If a corresponds to 0
 ownerAddress is equal to msg sender
 oraclePrice is equal to 100000000000000000

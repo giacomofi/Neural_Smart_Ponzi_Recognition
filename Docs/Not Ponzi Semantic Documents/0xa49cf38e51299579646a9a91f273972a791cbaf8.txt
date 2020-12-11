@@ -6,5 +6,5 @@ ExampleExchangeThief inherits from Ownable
 onlyOwner 
 OwnershipTransferred Transfer Approval 
 _owner is equal to msg sender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner

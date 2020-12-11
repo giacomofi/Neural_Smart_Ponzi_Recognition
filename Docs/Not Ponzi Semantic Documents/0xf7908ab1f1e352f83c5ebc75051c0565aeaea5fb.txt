@@ -27,18 +27,19 @@ Poll has cooldown
 Claim has protocol
 Claim has claim
 Claim has dossier
-owner c c c c c c InterfaceId_ERC165 supportedInterfaces InterfaceId_ERC721 InterfaceId_ERC721Exists InterfaceId_ERC721Enumerable InterfaceId_ERC721Metadata ERC721_RECEIVED size points rights operators dnsDomains sponsoring sponsoringIndexes escapeRequests escapeRequestsIndexes pointsOwnedBy pointOwnerIndexes managerFor managerForIndexes spawningFor spawningForIndexes votingFor votingForIndexes transferringFor transferringForIndexes point point len point point point point point prefix point point request point point had prev i prevSponsoring last moved newSponsoring point was prev i prevRequests last moved newRequests owned deed deed deed deed prev i owner last moved deed prev i prevMfor last moved mfor deed prev i prevSfor last moved sfor deed prev i prevVfor last moved vfor deed prev i prevTfor last moved tfor azimuth pollDuration pollCooldown totalVoters upgradeProposals upgradePolls upgradeHasAchievedMajority documentProposals documentPolls documentHasAchievedMajority documentMajorities poll poll poll poll poll poll maxClaims claims cur empty i currClaims i protocolHash claimHash theirClaims i thisClaim theirClaims i thisClaim polls previousEcliptic erc721Received claims id retval id _tokenURIBytes prefix old size pointSize sponsorSize owner majority majority pools fromPool poolStars poolStarsRegistered inviters isInviter invited invitedBy pool prefix prefix pool 
+owner c c c c c c InterfaceId_ERC165 supportedInterfaces InterfaceId_ERC721 InterfaceId_ERC721Exists InterfaceId_ERC721Enumerable InterfaceId_ERC721Metadata ERC721_RECEIVED size points rights operators dnsDomains sponsoring sponsoringIndexes escapeRequests escapeRequestsIndexes pointsOwnedBy pointOwnerIndexes managerFor managerForIndexes spawningFor spawningForIndexes votingFor votingForIndexes transferringFor transferringForIndexes point point len point point point point point prefix point point request point point had prev i prevSponsoring last moved newSponsoring point was prev i prevRequests last moved newRequests owned deed deed deed deed prev i owner last moved deed prev i prevMfor last moved mfor deed prev i prevSfor last moved sfor deed prev i prevVfor last moved vfor deed prev i prevTfor last moved tfor azimuth pollDuration pollCooldown totalVoters upgradeProposals upgradePolls upgradeHasAchievedMajority documentProposals documentPolls documentHasAchievedMajority documentMajorities poll poll poll poll poll poll maxClaims claims cur empty i currClaims i protocolHash claimHash theirClaims i thisClaim theirClaims i thisClaim polls previousEcliptic erc721Received claims id retval id _tokenURIBytes prefix old size yearsSince2019 pointSize sponsorSize owner majority majority pools fromPool poolStars poolStarsRegistered inviters isInviter invited invitedBy pool prefix prefix pool 
 renounceOwnership transferOwnership _transferOwnership mul div sub add mul div sub add mul div sub add supportsInterface supportsInterface _registerInterface balanceOf ownerOf exists approve getApproved setApprovalForAll isApprovedForAll transferFrom safeTransferFrom safeTransferFrom totalSupply tokenOfOwnerByIndex tokenByIndex name symbol tokenURI onERC721Received isContract setDnsDomains isActive getKeys getKeyRevisionNumber hasBeenLinked isLive getContinuityNumber getSpawnCount getSpawned hasSponsor getSponsor isSponsor getSponsoringCount getSponsoring isEscaping getEscapeRequest isRequestingEscapeTo getEscapeRequestsCount getEscapeRequests activatePoint setKeys incrementContinuityNumber registerSpawned loseSponsor setEscapeRequest cancelEscape doEscape getPrefix getPointSize registerSponsor registerEscapeRequest getOwner isOwner getOwnedPointCount getOwnedPoints getOwnedPointAtIndex getManagementProxy isManagementProxy canManage getManagerForCount getManagerFor getSpawnProxy isSpawnProxy canSpawnAs getSpawningForCount getSpawningFor getVotingProxy isVotingProxy canVoteAs getVotingForCount getVotingFor getTransferProxy isTransferProxy canTransfer getTransferringForCount getTransferringFor isOperator setOwner setManagementProxy setSpawnProxy setVotingProxy setTransferProxy setOperator reconfigure incrementTotalVoters getUpgradeProposals getUpgradeProposalCount getDocumentProposals getDocumentProposalCount getDocumentMajorities hasVotedOnUpgradePoll hasVotedOnDocumentPoll startUpgradePoll startDocumentPoll startPoll castUpgradeVote castDocumentVote processVote updateUpgradePoll updateDocumentPoll checkPollMajority addClaim removeClaim clearClaims findClaim findEmptySlot onUpgrade upgrade balanceOf ownerOf exists safeTransferFrom safeTransferFrom transferFrom approve setApprovalForAll getApproved isApprovedForAll name symbol tokenURI configureKeys spawn doSpawn transferPoint escape cancelEscape adopt reject detach getSpawnLimit canEscapeTo setManagementProxy setSpawnProxy setVotingProxy setTransferProxy startUpgradePoll startDocumentPoll castUpgradeVote castDocumentVote updateUpgradePoll updateDocumentPoll createGalaxy setDnsDomains setPoolSize sendPoint canSend getPool canReceive getPoolStars getInviters getInvited 
 SupportsInterfaceWithLookup inherits from ERC165 ERC721Basic inherits from ERC165 ERC721Enumerable inherits from ERC721Basic ERC721Metadata inherits from ERC721Basic ERC721 inherits from ERC721Basic ERC721 inherits from ERC721Enumerable ERC721 inherits from ERC721Metadata Azimuth inherits from Ownable Polls inherits from Ownable Claims inherits from ReadsAzimuth EclipticBase inherits from Ownable EclipticBase inherits from ReadsAzimuth Ecliptic inherits from EclipticBase Ecliptic inherits from SupportsInterfaceWithLookup Ecliptic inherits from ERC721Metadata DelegatedSending inherits from ReadsAzimuth 
 onlyOwner activePointOwner activePointManager validPointId activePointVoter 
 OwnershipRenounced OwnershipTransferred Transfer Approval ApprovalForAll OwnerChanged Activated Spawned EscapeRequested EscapeCanceled EscapeAccepted LostSponsor ChangedKeys BrokeContinuity ChangedSpawnProxy ChangedTransferProxy ChangedManagementProxy ChangedVotingProxy ChangedDns UpgradePollStarted DocumentPollStarted UpgradeMajority DocumentMajority ClaimAdded ClaimRemoved Upgraded Transfer Approval ApprovalForAll Pool Sent 
 owner is equal to msg sender
-owner is equal to 
+owner is equal to address
 owner is equal to _newOwner
 If _a corresponds to 0
 c is equal to _a multiplied by _b
 c is equal to _a plus _b
  is equal to True
+Size has values Galaxy Star Planet
  is equal to _primary
  is equal to _secondary
  is equal to _tertiary
@@ -47,17 +48,21 @@ If point encryptionKey corresponds to _encryptionKey Invalid symbol  Invalid sym
 point encryptionKey is equal to _encryptionKey
 point authenticationKey is equal to _authenticationKey
 point cryptoSuiteVersion is equal to _cryptoSuiteVersion
+Invalid symbol point keyRevisionNumber
+Invalid symbol point continuityNumber
 If prefix corresponds to _point
-If 
+If not point hasSponsor
 
-If 
+If not point escapeRequested
 If _point is less then 0x10000
 If _point is less then 0x100
 If _point is less then 0x10000
 If  Invalid symbol 
 
+Invalid symbol i
  is equal to moved
  is equal to i plus 1
+
 prevSponsoring length is equal to last
  is equal to 0
 
@@ -66,8 +71,10 @@ point sponsor is equal to _sponsor
 point hasSponsor is equal to _hasSponsor
 If  Invalid symbol 
 
+Invalid symbol i
  is equal to moved
  is equal to i plus 1
+
 prevRequests length is equal to last
  is equal to 0
 
@@ -76,16 +83,20 @@ point escapeRequestedTo is equal to _sponsor
 point escapeRequested is equal to _isEscaping
 If prev corresponds to _owner
 If 0x0 is different from prev
+Invalid symbol i
  is equal to moved
  is equal to i plus 1
+
 owner length is equal to last
  is equal to 0
 rights _point owner is equal to _owner
  is equal to pointsOwnedBy _owner length
 If prev corresponds to _proxy
 If 0x0 is different from prev
+Invalid symbol i
  is equal to moved
  is equal to i plus 1
+
 prevMfor length is equal to last
  is equal to 0
 If 0x0 is different from _proxy
@@ -93,8 +104,10 @@ If 0x0 is different from _proxy
 deed managementProxy is equal to _proxy
 If prev corresponds to _proxy
 If 0x0 is different from prev
+Invalid symbol i
  is equal to moved
  is equal to i plus 1
+
 prevSfor length is equal to last
  is equal to 0
 If 0x0 is different from _proxy
@@ -102,8 +115,10 @@ If 0x0 is different from _proxy
 deed spawnProxy is equal to _proxy
 If prev corresponds to _proxy
 If 0x0 is different from prev
+Invalid symbol i
  is equal to moved
  is equal to i plus 1
+
 prevVfor length is equal to last
  is equal to 0
 If 0x0 is different from _proxy
@@ -111,8 +126,10 @@ If 0x0 is different from _proxy
 deed votingProxy is equal to _proxy
 If prev corresponds to _proxy
 If 0x0 is different from prev
+Invalid symbol i
  is equal to moved
  is equal to i plus 1
+
 prevTfor length is equal to last
  is equal to 0
 If 0x0 is different from _proxy
@@ -126,6 +143,7 @@ totalVoters is equal to totalVoters add
 If 0 corresponds to poll start
 If 0 corresponds to poll start
 _poll start is equal to block timestamp
+Invalid symbol _poll voted
 _poll yesVotes is equal to 0
 _poll noVotes is equal to 0
 _poll duration is equal to pollDuration
@@ -143,7 +161,10 @@ majority is equal to checkPollMajority
 If cur corresponds to 0
  is equal to Claim
  is equal to Claim
+Invalid symbol i
+Invalid symbol claims _point i
 i is less then maxClaims
+Invalid symbol currClaims i
 i is less then maxClaims
 If  Invalid symbol 
 i is less then maxClaims
@@ -153,25 +174,29 @@ polls is equal to _polls
 claims is equal to _claims
 
 _tokenURI is equal to https://azimuth.network/erc721/0000000000.json
- is equal to 
- is equal to 
- is equal to 
- is equal to 
- is equal to 
- is equal to 
- is equal to 
- is equal to 
- is equal to 
- is equal to 
+ is equal to byte
+ is equal to byte
+ is equal to byte
+ is equal to byte
+ is equal to byte
+ is equal to byte
+ is equal to byte
+ is equal to byte
+ is equal to byte
+ is equal to byte
 
 If msg sender corresponds to _target
 
-If 
-If 
+If not azimuth isActive
+If not azimuth isOwner
 
 
 If size corresponds to Azimuth Size Galaxy
-If 
+If size corresponds to Azimuth Size Star
+If yearsSince2019 is less then 6
+limit is equal to uint32
+limit is equal to 65535
+If not azimuth hasBeenLinked
 
 
 If msg sender corresponds to _target
@@ -181,6 +206,7 @@ If False corresponds to
  is equal to True
 If False corresponds to 
  is equal to True
+Invalid symbol pools pool prefix
  is equal to pool
  is equal to _as
 pool is equal to 

@@ -6,6 +6,7 @@ Participant has payout
 participants payoutIdx collectedFees balance fee factor owner amount idx transactionAmount 
 RobinHoodPonzi  enter Infos participantDetails 
 onlyowner 
+If msg sender corresponds to owner
 owner is equal to msg sender
 If msg value is less then 1 finney
 If msg value is greater then 1000 ether

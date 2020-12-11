@@ -7,8 +7,13 @@ Ownable inherits from Initializable ERC20Detailed inherits from Initializable ER
 initializer onlyOwner onlyMonetaryPolicy whenRebaseNotPaused whenTokenNotPaused validRecipient 
 OwnershipRenounced OwnershipTransferred Transfer Approval LogRebase LogRebasePaused LogTokenPaused LogMonetaryPolicyUpdated LogRebase 
 If a corresponds to 0
+
+initializing is equal to True
+initialized is equal to True
+
+initializing is equal to False
 _owner is equal to sender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
 _name is equal to name
 _symbol is equal to symbol

@@ -6,12 +6,15 @@ balance collectedFees feePercent pyramidMultiplier payoutOrder creator participa
 DynamicPyramid  init addPayout collectAllFees collectFeesInEther collectPercentOfFees changeOwner changeMultiplier changeFeePercentage currentMultiplier currentFeePercentage currentPyramidBalanceApproximately nextPayoutWhenPyramidBalanceTotalsApproximately feesSeperateFromBalanceApproximately totalParticipants numberOfParticipantsWaitingForPayout participantDetails 
 onlyowner 
 creator is equal to msg sender
+If msg sender corresponds to creator
 If msg value is less then 1 ether
 collectedFees increments of msg value
 If msg value is greater or equal to 50 ether
 _fee is divided by 2
 If participants length corresponds to 10
 pyramidMultiplier is equal to 200
+If participants length corresponds to 25
+pyramidMultiplier is equal to 150
 balance increments of  divided by 100
 collectedFees increments of  divided by 100
 While balance is greater then participants payoutOrder payout

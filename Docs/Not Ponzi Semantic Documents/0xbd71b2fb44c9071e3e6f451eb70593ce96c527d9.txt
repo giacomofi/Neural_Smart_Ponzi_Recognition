@@ -19,9 +19,9 @@ If _amount is greater then maxFreeCollateral
 _amount is equal to maxFreeCollateral
 If daiAmount is greater then cdpWholeDebt
 mkrAmount is equal to stabilityFeeInMkr
- is equal to 
+ is equal to  value
 _amount is equal to sub
- is equal to 
+ is equal to  value
 daiAmount is equal to sub
 If daiAmount is greater then cdpWholeDebt
  is equal to getBestPrice

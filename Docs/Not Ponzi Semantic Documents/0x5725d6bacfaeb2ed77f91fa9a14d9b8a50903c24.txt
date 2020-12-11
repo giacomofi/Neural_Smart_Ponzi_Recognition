@@ -12,7 +12,7 @@ c is equal to a plus b
  is equal to msg sender sub
  is equal to balances _to add
 owner is equal to msg sender
-owner is equal to 
+owner is equal to address
 owner is equal to _newOwner
  is equal to balances _who sub
 totalSupply_ is equal to totalSupply_ sub
@@ -37,7 +37,7 @@ companyWallet is equal to _companyWallet
  is equal to 
  is equal to msg sender add
 
-If 
+If not hasTranfered _who
  is equal to True
 If 0 is different from mbaccToken balanceOf
  is equal to balances _who add

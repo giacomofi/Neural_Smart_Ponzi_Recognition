@@ -3,7 +3,7 @@ tokenRecipient FZC
 name symbol decimals totalSupply balanceOf allowance previousBalances spender 
 receiveApproval FZC _transfer transfer transferFrom approve approveAndCall burn burnFrom 
 Transfer Burn 
-totalSupply is equal to initialSupply multiplied by 10 Invalid symbol 
+totalSupply is equal to initialSupply multiplied by 10 Invalid symbol uint256
  is equal to totalSupply
 name is equal to tokenName
 symbol is equal to tokenSymbol

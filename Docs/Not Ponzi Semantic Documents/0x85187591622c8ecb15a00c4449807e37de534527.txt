@@ -31,11 +31,12 @@ transfersEnabled is equal to True
 If _amount corresponds to 0
 
 If previousBalanceFrom minus _amount is less then minHolderAmount
+Invalid symbol holders _from
 curTotalSupplyHolders is equal to curTotalSupplyHolders minus previousBalanceFrom
 curTotalSupplyHolders is equal to curTotalSupplyHolders minus _amount
 If previousBalanceTo plus _amount is greater or equal to minHolderAmount
 
-If 
+If not holders _to
  is equal to True
  is equal to _amount
  is equal to  plus _addedAmount
@@ -47,19 +48,20 @@ If  Invalid symbol
 If  Invalid symbol 
 
 If previousBalanceFrom minus _amount is less then minHolderAmount
+Invalid symbol msg sender
 transfersEnabled is equal to _transfersEnabled
 If checkpoints length corresponds to 0
-If _block is greater or equal to  fromBlock
+If _block is greater or equal to checkpoints length minus 1 fromBlock
 If _block is less then checkpoints 0 fromBlock
 While max is greater then min
 If checkpoints mid fromBlock is less or equal to _block
 min is equal to mid
 max is equal to mid minus 1
 If  Invalid symbol 
-newCheckPoint fromBlock is equal to 
-newCheckPoint value is equal to 
-oldCheckPoint value is equal to 
-If _token corresponds to 
+newCheckPoint fromBlock is equal to uint128
+newCheckPoint value is equal to uint128
+oldCheckPoint value is equal to uint128
+If _token corresponds to address
 minHolderAmount is equal to _minHolderAmount
 token is equal to LIBRAToken
 i is equal to 0
@@ -73,7 +75,9 @@ i is less then dividends length
 If  Invalid symbol 
  is equal to SafeMath add
 dividends _dividendIndex recycled is equal to True
-If 
+If not notClaimed _notClaimed exists
  is equal to NotClaimed
 notClaimed notClaimedList lastIdx listIndex is equal to notClaimed _notClaimed listIndex
  is equal to 
+Invalid symbol notClaimedList length
+Invalid symbol notClaimed _notClaimed

@@ -92,11 +92,11 @@ _success is equal to True
 _contract is equal to 
 _isFrom is equal to msg sender corresponds to 
 i is less then _n
-If  corresponds to 
+If  corresponds to bytes32
 If msg sender corresponds to 
 _isFrom is equal to True
 If _is_locked corresponds to False
-CONTRACT_ADDRESS is equal to 
+CONTRACT_ADDRESS is equal to address
 resolver is equal to _resolver
 key is equal to _key
 _success is equal to True
@@ -110,7 +110,7 @@ If  Invalid symbol
 _item_index is equal to NONE
 _item_index is equal to 
 If  corresponds to True
-_item is equal to  item
+_item is equal to _item_index minus 1 item
 _item is equal to EMPTY_BYTES
 If find is different from NONE Invalid symbol 
 _success is equal to False
@@ -118,19 +118,23 @@ If self last_index corresponds to NONE
 If  Invalid symbol 
 self first_index is equal to self last_index is equal to _index
 self count is equal to 1
- next_index is equal to _index
+self last_index minus 1 next_index is equal to _index
 self last_index is equal to _index
+Invalid symbol self count
  is equal to True
  is equal to _index
 _success is equal to True
 If  corresponds to True
 If item previous_index corresponds to NONE
 self first_index is equal to item next_index
- next_index is equal to item next_index
+item previous_index minus 1 next_index is equal to item next_index
 If item next_index corresponds to NONE
 self last_index is equal to item previous_index
- previous_index is equal to item previous_index
+item next_index minus 1 previous_index is equal to item previous_index
+Invalid symbol _index minus 1
  is equal to False
+Invalid symbol item item
+Invalid symbol self count
 _success is equal to True
 _success is equal to False
 If _item_index is different from NONE
@@ -148,79 +152,79 @@ _item is equal to EMPTY_BYTES
 _yes is equal to 
 _yes is equal to 
 If  corresponds to True
-_previous_index is equal to  previous_index
+_previous_index is equal to _current_index minus 1 previous_index
 _previous_index is equal to NONE
 If _current_index is different from NONE
 _previous_item is equal to get
 _previous_item is equal to EMPTY_BYTES
 If  corresponds to True
-_next_index is equal to  next_index
+_next_index is equal to _current_index minus 1 next_index
 _next_index is equal to NONE
 If _current_index is different from NONE
 _next_item is equal to get
 _next_item is equal to EMPTY_BYTES
 _item_index is equal to find
-_item is equal to 
+_item is equal to uint256
 _success is equal to append
 _success is equal to remove
 _success is equal to remove_item
 _total_count is equal to total
 _index is equal to start
-_start_item is equal to 
+_start_item is equal to uint256
 _index is equal to end
-_end_item is equal to 
+_end_item is equal to uint256
 _yes is equal to valid
 _yes is equal to valid_item
 _previous_index is equal to previous
-_previous_item is equal to 
+_previous_item is equal to uint256
 _next_index is equal to next
-_next_item is equal to 
+_next_item is equal to uint256
 _item_index is equal to find
-_item is equal to 
+_item is equal to address
 _item_index is equal to find
-_item is equal to 
+_item is equal to uint256
 _success is equal to append
 _success is equal to remove
 _success is equal to remove_item
 _total_count is equal to total
 _index is equal to start
-_start_item is equal to 
+_start_item is equal to uint256
 _index is equal to end
-_end_item is equal to 
+_end_item is equal to uint256
 _yes is equal to valid
 _yes is equal to valid_item
 _previous_index is equal to previous
-_previous_item is equal to 
+_previous_item is equal to uint256
 _next_index is equal to next
-_next_item is equal to 
+_next_item is equal to uint256
 _success is equal to append
 _success is equal to remove
 _success is equal to remove_item
 _total_count is equal to total
 _index is equal to start
-_start_item is equal to 
+_start_item is equal to address
 _index is equal to end
-_end_item is equal to 
+_end_item is equal to address
 _yes is equal to valid
 _yes is equal to valid_item
 _previous_index is equal to previous
-_previous_item is equal to 
+_previous_item is equal to address
 _next_index is equal to next
-_next_item is equal to 
+_next_item is equal to address
 _success is equal to append
 _success is equal to remove
 _success is equal to remove_item
 _total_count is equal to total
 _index is equal to start
-_start_item is equal to 
+_start_item is equal to address
 _index is equal to end
-_end_item is equal to 
+_end_item is equal to address
 _yes is equal to valid
 _yes is equal to valid_item
 _previous_index is equal to previous
-_previous_item is equal to 
+_previous_item is equal to address
 _next_index is equal to next
-_next_item is equal to 
+_next_item is equal to address
 _item_index is equal to find
 _item is equal to get
 _success is equal to append
@@ -242,18 +246,20 @@ _success is equal to remove
 _success is equal to remove_item
 _total_count is equal to total
 _index is equal to start
-_start_item is equal to 
+_start_item is equal to bytes32
 _index is equal to end
-_end_item is equal to 
+_end_item is equal to bytes32
 _yes is equal to valid
 _yes is equal to valid_item
 _previous_index is equal to previous
-_previous_item is equal to 
+_previous_item is equal to bytes32
 _next_index is equal to next
-_next_item is equal to 
+_next_item is equal to bytes32
 i is less then _n
 If  is greater then 0
 _for is equal to _for add
+If  is greater then 0
+_against is equal to _against add
 _length is equal to 0
 _voters is equal to 
 If _vote corresponds to True
@@ -261,10 +267,12 @@ i is equal to 0
 i is less then _n
 If  is greater then 0
  is equal to 
+Invalid symbol _length
 i is equal to 0
 i is less then _n
 If  is greater then 0
  is equal to 
+Invalid symbol _length
 If  is greater then 0
 _weight is equal to 
 _vote is equal to True

@@ -11,7 +11,7 @@ c is equal to a multiplied by b
 c is equal to a plus b
 newOwner is equal to _newOwner
 owner is equal to msg sender
-newOwner is equal to 
+newOwner is equal to address
  is equal to _authorization
  is equal to now
 initialized is equal to True
@@ -39,11 +39,11 @@ success is equal to True
  is equal to tokens _token _beneficiary add
 If tx origin corresponds to _beneficiary
  is equal to now
- is equal to  _beneficiary add
+ is equal to address _beneficiary add
 If msg sender corresponds to _beneficiary
  is equal to now
  is equal to tokens _token msg sender sub
-If _token corresponds to 
+If _token corresponds to address
 success is equal to True
  is equal to True
  is equal to tokens _token _user sub
@@ -57,7 +57,7 @@ If  is greater then maxFeeWithdrawal
 fee is equal to _fee 0 mul divided by 1 ether
  is equal to tokens _token feeAccount add
 _amount is equal to _amount sub
-If _token corresponds to 
+If _token corresponds to address
  is equal to now
 success is equal to True
 If  is greater then maxFeeTrade
@@ -68,7 +68,7 @@ If  is greater then maxFeeTrade
 i is less then  divided by 5
  is equal to keccak256
  is equal to keccak256
- is equal to  sub
+ is equal to i multiplied by 5 plus 6 sub
 If  is less then 
  is equal to 
  is equal to amount 2 sub
@@ -78,7 +78,7 @@ If  is less then
  is equal to toWei
  is equal to 
  is equal to  divided by 1e18
-If  corresponds to  Invalid symbol 
+If  corresponds to address Invalid symbol 
 If  corresponds to 1
  is equal to 
 If  corresponds to 1
@@ -100,18 +100,18 @@ If  corresponds to 1 Invalid symbol
  is equal to 0
  is equal to tokens _addresses 1 feeAccount add
 If  corresponds to 1 Invalid symbol 
- is equal to tokens dexToken  sub
+ is equal to tokens dexToken i plus 3 sub
  is equal to tokens dexToken feeAccount add
  is equal to 0
  is equal to tokens _addresses 0 feeAccount add
  is equal to tokens _addresses 0 _addresses 2 sub
- is equal to tokens _addresses 0  add
- is equal to tokens _addresses 1  sub
+ is equal to tokens _addresses 0 i plus 3 add
+ is equal to tokens _addresses 1 i plus 3 sub
  is equal to tokens _addresses 1 _addresses 2 add
  is equal to orderFills orderHash 1 add
  is equal to now
  is equal to True
  is equal to now
 success is equal to True
-If _token corresponds to 
-If _token corresponds to 
+If _token corresponds to address
+If _token corresponds to address

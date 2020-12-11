@@ -13,6 +13,8 @@ If amount is greater then 100 ether
 amount is equal to 100 ether
 If lastReparation plus SIX_HOURS is less then block timestamp
 If totalCitizens corresponds to 1
+If totalCitizens corresponds to 2
+If totalCitizens is greater or equal to 3
 piggyBank is equal to 0
 jester is equal to msg sender
 lastReparation is equal to block timestamp

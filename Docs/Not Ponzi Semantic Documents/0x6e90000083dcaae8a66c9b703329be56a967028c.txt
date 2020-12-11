@@ -1,7 +1,7 @@
 solidity ^0.5.10 
 SafeMath ERC20Interface ApproveAndCallFallBack Owned MedianiserInterface PEG 
 SafeMath 
-owner newOwner symbol name decimals _totalSupply lastPriceAdjustment timeBetweenPriceAdjustments balances allowed medianiser price feedPrice posDelta _addr 
+owner newOwner symbol name decimals _totalSupply lastPriceAdjustment timeBetweenPriceAdjustments balances allowed medianiser price feedPrice posDelta negDelta _addr 
 add sub mul div totalSupply balanceOf allowance transfer approve transferFrom receiveApproval transferOwnership acceptOwnership read totalSupply balanceOf transfer burn approve transferFrom allowance approveAndCall  getNextPriceAdjustmentTime getPEG getEther getPoolBalances inflateEtherPool getPriceETH_USD priceFeedAdjustment transferAnyERC20Token dumpContractCode 
 PEG inherits from ERC20Interface PEG inherits from Owned 
 onlyOwner canTriggerPriceAdjustment 
@@ -13,7 +13,7 @@ c is equal to a divided by b
 owner is equal to msg sender
 newOwner is equal to _newOwner
 owner is equal to newOwner
-newOwner is equal to 
+newOwner is equal to address
 symbol is equal to PEG
 name is equal to PEG Stablecoin
 decimals is equal to 18
@@ -22,7 +22,7 @@ timeBetweenPriceAdjustments is equal to 60 multiplied by 60
 medianiser is equal to MedianiserInterface
 _totalSupply is equal to 
  is equal to _totalSupply
-If to corresponds to 
+If to corresponds to address
  is equal to msg sender sub
  is equal to balances to add
 _totalSupply is equal to _totalSupply sub
@@ -33,14 +33,20 @@ _totalSupply is equal to _totalSupply sub
  is equal to balances to add
  is equal to tokens
 If now is greater or equal to lastPriceAdjustment plus timeBetweenPriceAdjustments
+If now is greater or equal to lastPriceAdjustment plus timeBetweenPriceAdjustments
 amountReceivedPEG is equal to 
- is equal to  sub
+ is equal to address sub
  is equal to msg sender add
 amountReceivedEther is equal to 
- is equal to  add
+ is equal to address add
  is equal to msg sender sub
 If feedPrice is greater then 
-newRatePEG is equal to  add
+newRatePEG is equal to address add
  is equal to newRatePEG
 _totalSupply is equal to _totalSupply add
+If feedPrice is less then 
+newRatePEG is equal to address sub
+ is equal to newRatePEG
+_totalSupply is equal to _totalSupply sub
+newRatePEG is equal to 
 lastPriceAdjustment is equal to now

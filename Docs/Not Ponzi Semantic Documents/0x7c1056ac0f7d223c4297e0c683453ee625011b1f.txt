@@ -13,7 +13,7 @@ c is equal to a divided by b
 owner is equal to msg sender
 newOwner is equal to _newOwner
 owner is equal to newOwner
-newOwner is equal to 
+newOwner is equal to address
 
 symbol is equal to 0xBUTT
 name is equal to ButtCoin
@@ -28,7 +28,7 @@ miningTarget is equal to _MAXIMUM_TARGET
 nFutureTime is equal to now plus 92275199
 locked is equal to True
 If digest is different from challenge_digest
-If  is greater then miningTarget
+If uint256 is greater then miningTarget
  is equal to digest
 If solution is different from 0x0
  is equal to msg sender add
@@ -38,17 +38,17 @@ lastRewardTo is equal to msg sender
 lastRewardAmount is equal to reward_amount
 lastRewardEthBlockNumber is equal to block number
 If previousSender is different from to
-If previousSender corresponds to 
+If previousSender corresponds to address
 _burned is equal to _burned add
-If to corresponds to 
+If to corresponds to address
 _burned is equal to _burned add
 _burned is equal to _burned add
 _totalSupply is equal to totalSupply
 previousSender is equal to msg sender
 If previousSender is different from to
-If previousSender corresponds to 
+If previousSender corresponds to address
 _burned is equal to _burned add
-If to corresponds to 
+If to corresponds to address
 _burned is equal to _burned add
 _burned is equal to _burned add
 _totalSupply is equal to totalSupply
@@ -75,4 +75,4 @@ n is equal to 234
 miningTarget is equal to 
  is equal to balances from sub
  is equal to balances to add
-If  is greater then testTarget
+If uint256 is greater then testTarget

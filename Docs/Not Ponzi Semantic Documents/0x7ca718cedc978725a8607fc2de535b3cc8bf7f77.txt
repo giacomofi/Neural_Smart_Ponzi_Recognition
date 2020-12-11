@@ -19,7 +19,7 @@ _name is equal to name
 _symbol is equal to symbol
 _decimals is equal to decimals
 _owner is equal to msg sender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
  is equal to True
  is equal to False

@@ -20,5 +20,5 @@ If _subtractedValue is greater then oldValue
 name is equal to _name
 symbol is equal to _symbol
 decimals is equal to _decimals
-totalSupply_ is equal to _totalSupply multiplied by 10 Invalid symbol 
+totalSupply_ is equal to _totalSupply multiplied by 10 Invalid symbol uint
  is equal to totalSupply_

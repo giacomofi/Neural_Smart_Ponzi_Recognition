@@ -2,7 +2,7 @@ solidity 0.5.12
 DSPauseAbstract PotAbstract JugAbstract FlipAbstract SaiMomAbstract FlipMomLike SpellAction DssSpell 
 MCD_PAUSE MCD_JUG MCD_POT MCD_FLIP_ETH_A MCD_FLIP_BAT_A MCD_ADM FLIPPER_MOM ZERO_PCT_RATE ZERO_FIVE_PCT_RATE DSR_RATE ETH_FEE BAT_FEE pause SAI_MOM MILLION WAD action tag eta sig expiration done _tag _action SAI_AMOUNT 
 setDelay delay plot exec file file drip file file file drip rely setCap setOwner setAuthority rely deny execute schedule cast 
-action is equal to 
+action is equal to address
 sig is equal to abi encodeWithSignature
 tag is equal to _tag
 expiration is equal to now plus 30 days

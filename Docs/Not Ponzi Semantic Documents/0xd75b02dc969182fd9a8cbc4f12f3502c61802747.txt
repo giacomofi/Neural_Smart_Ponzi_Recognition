@@ -14,7 +14,7 @@ owner is equal to msg sender
  is equal to _bonus
 pack is equal to _pack
  is equal to _sponsor
-If  corresponds to 
+If  corresponds to address
 ref is equal to owner
  is equal to ref
 i is less then mlm length

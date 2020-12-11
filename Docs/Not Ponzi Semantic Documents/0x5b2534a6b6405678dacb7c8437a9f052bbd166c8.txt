@@ -9,3 +9,9 @@ transferFrom transfer getDay abssub bet reward claim
  is equal to Bet
  is equal to Bet
 If diffinf is less or equal to 5000000000000000000000
+If diffinf is less or equal to 10000000000000000000000
+If diffinf is less or equal to 20000000000000000000000
+If diffinf is less or equal to 25000000000000000000000
+If diffinf is less or equal to 30000000000000000000000
+If diffinf is less or equal to 50000000000000000000000
+ is equal to Bet

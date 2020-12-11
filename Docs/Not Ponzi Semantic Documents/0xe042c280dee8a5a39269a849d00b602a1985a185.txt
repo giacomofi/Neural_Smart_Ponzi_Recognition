@@ -9,7 +9,7 @@ Ownable inherits from Context Administratable inherits from Ownable Whitelistabl
 onlyOwner onlyAdministrator onlyMinter onlyFundsToken notRestricted 
 OwnershipTransferred AdminAdded AdminRemoved AddressAddedToWhitelist AddressRemovedFromWhitelist OutboundWhitelistUpdated RestrictionsDisabled Transfer Approval FundsDistributed FundsWithdrawn MinterAdded MinterRemoved 
 If a corresponds to 0
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
  is equal to True
  is equal to False
@@ -42,9 +42,9 @@ pointsPerShare is equal to pointsPerShare add
  is equal to pointsCorrection account add
 i is less then initialOwner length
 fundsToken is equal to _fundsToken
-If 
+If not isRestrictionEnabled
 If from corresponds to owner
-If 
+If not checkWhitelistAllowed
 If restrictionCode corresponds to SUCCESS_CODE
 If restrictionCode corresponds to FAILURE_NON_WHITELIST
 success is equal to super transfer

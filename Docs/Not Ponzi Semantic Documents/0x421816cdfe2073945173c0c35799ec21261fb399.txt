@@ -4,7 +4,7 @@ _DAI
 transfer approve balanceOf allowance tradeEthForDai tradeDaiForEth _revertOnFailure 
 daiReceived is equal to _DAI balanceOf
 ok is equal to 
-If _DAI allowance is different from 
+If _DAI allowance is different from uint256
 ethReceived is equal to 
  is equal to 
 If not ok

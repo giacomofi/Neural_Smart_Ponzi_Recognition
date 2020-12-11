@@ -10,6 +10,8 @@ RES inherits from CloseIfBug SwarmRedistribution inherits from CloseIfBug SwarmR
 onlyJohan isOpen 
 Transfer Bought Sold Swarm 
 bugDiscovered is equal to False
+If msg sender is different from JohanNygren
+If bugDiscovered is different from False
 bugDiscovered is equal to True
 name is equal to RES
 symbol is equal to RES
@@ -18,7 +20,7 @@ decimals is equal to 18
 totalSupply increments of msg value
 If  is less then _value
  decreases of _value
-If 
+If not msg sender send
 totalSupply decreases of _value
 taxRate is equal to 20
 exchangeRate is equal to 0
@@ -40,8 +42,11 @@ i is less then humans length
  increments of share
  increments of share
  is equal to False
+Invalid symbol humans
+Invalid symbol dividendPathways node index
 i is less then dividendPathways node length minus 1
  is equal to 
+Invalid symbol dividendPathways node length
 If JohanNygren is different from 0
 JohanNygren is equal to msg sender
  is equal to True

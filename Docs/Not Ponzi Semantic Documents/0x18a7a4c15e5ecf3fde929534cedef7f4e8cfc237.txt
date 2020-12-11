@@ -29,5 +29,5 @@ _paused is equal to False
 _paused is equal to True
 _paused is equal to False
 _owner is equal to msg sender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner

@@ -6,9 +6,10 @@ ERC20PeriodAuction inherits from MultiSigTools
 only_signer is_majority_sig is_trusted 
 TransferMultiSig ClaimedTokens ChangeAuctionProxy ChangeMinObjAmount ChangeMinBidPrice ChangeAuctionObjPriceUnit ChangeAuctionPeriod ChangeAuctionFactory ChangeCurrentAuction NewAuction NewERC20PeriodAuction 
 multisig_contract is equal to MultiSigInterface
+
 multisig_contract is equal to MultiSigInterface
 list is equal to TrustListInterface
-If _token corresponds to 
+If _token corresponds to address
 c is equal to a plus b
 c is equal to a minus b
 c is equal to a multiplied by b
@@ -21,22 +22,22 @@ auction_factory is equal to IERC20AuctionFactory
 auction_paused is equal to False
 auction_paused is equal to False
 auction_paused is equal to True
-If  is different from 
+If address is different from address
 auction_proxy is equal to IERC20AuctionOpProxy
-If  is different from 
+If address is different from address
 minimum_object_amount is equal to new_amount
-If  is different from 
+If address is different from address
 minimum_bid_price is equal to new_price
-If  is different from 
+If address is different from address
 obj_price_unit is equal to new_unit
-If  is different from 
+If address is different from address
 auction_period is equal to new_period
-If  is different from 
+If address is different from address
 auction_factory is equal to IERC20AuctionFactory
-If  is different from 
+If address is different from address
 current_auction is equal to IERC20Auction
  is equal to True
-If  is different from 
-If 
+If address is different from address
+If not current_auction is_finished
  is equal to True
 current_auction is equal to IERC20Auction

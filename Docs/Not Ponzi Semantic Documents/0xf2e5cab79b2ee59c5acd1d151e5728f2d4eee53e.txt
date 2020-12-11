@@ -32,25 +32,29 @@ _owner is equal to
 _name is equal to nftName
 _symbol is equal to nftSymbol
 If  is greater then 0
-uri is equal to 
+uri is equal to string
 If  is greater then 0
-uri is equal to 
+uri is equal to string
 uriPrefix is equal to _prefix
 uriPostfix is equal to _postfix
  is equal to _to
  is equal to ownerToIds _to length minus 1
  is equal to tokens length minus 1
-If  is different from 
+If  is different from address
+Invalid symbol idToApproval _tokenId
 If lastTokenIndex is different from tokenToRemoveIndex
 lastToken is equal to 
  is equal to lastToken
  is equal to tokenToRemoveIndex
+Invalid symbol idToOwner _tokenId
+Invalid symbol idToOwnerIndex _tokenId
 lastTokenIndex is equal to tokens length minus 1
 lastToken is equal to 
  is equal to lastToken
  is equal to tokenIndex
  is equal to 0
-If  is different from 
+If  is different from address
+Invalid symbol idToApproval _tokenId
 If lastTokenIndex is different from tokenToRemoveIndex
  is equal to lastToken
  is equal to tokenToRemoveIndex
@@ -59,22 +63,28 @@ If lastTokenIndex is different from tokenToRemoveIndex
 
 If _i corresponds to 0
 While j is different from 0
+Invalid symbol length
 j is divided by 10
 j is equal to _i
 While j is different from 0
- is equal to 
+ is equal to byte
 j is divided by 10
-str is equal to 
+str is equal to string
+SignatureKind has values eth_sign trezor no_prefix
  is equal to True
  is equal to _tokenURIIntegrityDigest
+Invalid symbol idToIntegrityDigest _tokenId
 isPaused is equal to _isPaused
  is equal to _tokenURIIntegrityDigest
+Invalid symbol idToIntegrityDigest _tokenId
  is equal to True
  is equal to _approved
-If _feeRecipient corresponds to 
+If _feeRecipient corresponds to address
 _feeRecipient is equal to msg sender
  is equal to True
 If _signature kind corresponds to SignatureKind eth_sign
+If _signature kind corresponds to SignatureKind trezor
+If _signature kind corresponds to SignatureKind no_prefix
 digest is equal to abi encodePacked
 hashAlgorithm is equal to HASH_ALGORITHM
 digest is equal to abi encodePacked

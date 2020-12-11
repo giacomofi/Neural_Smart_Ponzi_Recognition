@@ -14,7 +14,7 @@ If a is greater then b
 owner is equal to msg sender
 newOwner is equal to _newOwner
 owner is equal to newOwner
-newOwner is equal to 
+newOwner is equal to address
 
 symbol is equal to 0xBUTT
 name is equal to ButtCoin
@@ -29,7 +29,7 @@ locked is equal to True
 
  is equal to balances account add
 If digest is different from challenge_digest
-If  is greater then miningTarget
+If uint256 is greater then miningTarget
  is equal to digest
 If solution is different from 0x0
  is equal to msg sender add
@@ -52,7 +52,7 @@ n is equal to
 If n is greater then 213
 n is equal to 213
 miningTarget is equal to 
-If  is greater then testTarget
+If uint256 is greater then testTarget
 If nFutureTime is less or equal to now
 n is equal to 
 miningTarget is equal to 
@@ -61,9 +61,9 @@ miningTarget is equal to
  is equal to msg sender sub
  is equal to balances to add
 If previousSender is different from to
-If previousSender corresponds to 
+If previousSender corresponds to address
 _burned is equal to _burned add
-If to corresponds to 
+If to corresponds to address
 _burned is equal to _burned add
 _burned is equal to _burned add
 _totalSupply is equal to totalSupply
@@ -76,9 +76,9 @@ i is less then receivers length
  is equal to allowed from msg sender sub
  is equal to balances to add
 If previousSender is different from to
-If previousSender corresponds to 
+If previousSender corresponds to address
 _burned is equal to _burned add
-If to corresponds to 
+If to corresponds to address
 _burned is equal to _burned add
 _burned is equal to _burned add
 _totalSupply is equal to totalSupply

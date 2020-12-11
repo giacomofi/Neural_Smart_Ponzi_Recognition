@@ -14,7 +14,7 @@ c is equal to a plus b
  is equal to balances _who sub
 totalSupply_ is equal to totalSupply_ sub
 owner is equal to msg sender
-owner is equal to 
+owner is equal to address
 owner is equal to _newOwner
  is equal to balances _from sub
  is equal to balances _to add

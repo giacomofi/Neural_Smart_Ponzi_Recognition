@@ -8,7 +8,7 @@ onlyOwner onlyAuthorizedCaller
 OwnershipTransferred ETHPriceUpdated TokenPriceUpdated 
 If a corresponds to 0
 _owner is equal to msgSender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
 _currentTokenPrice is equal to 10 Invalid symbol 8
 _lastTokenPriceUpdate is equal to now

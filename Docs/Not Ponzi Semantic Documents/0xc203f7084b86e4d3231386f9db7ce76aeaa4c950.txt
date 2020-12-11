@@ -8,5 +8,6 @@ setName setName claim claimWithResolver node good hand kill tend list good good 
 OrchidList inherits from OrchidCurator OrchidSelect inherits from OrchidCurator OrchidUntrusted inherits from OrchidCurator 
 owner_ is equal to msg sender
 owner_ is equal to owner
+Invalid symbol entries_ provider
 entry adjust_ is equal to adjust
 entry valid_ is equal to True

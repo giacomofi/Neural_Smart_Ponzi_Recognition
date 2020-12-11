@@ -8,7 +8,9 @@ LogSetAuthority LogSetOwner LogNote
 owner is equal to msg sender
 owner is equal to owner_
 authority is equal to authority_
-If src corresponds to 
+If src corresponds to address
+If src corresponds to owner
+If authority corresponds to DSAuthority
 z is equal to add divided by WAD
 z is equal to add divided by RAY
 z is equal to add divided by y

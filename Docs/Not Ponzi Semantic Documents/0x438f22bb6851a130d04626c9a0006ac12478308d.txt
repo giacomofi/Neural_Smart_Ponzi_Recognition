@@ -6,6 +6,11 @@ isConstructor _msgSender _msgData add sub sub mul div div mod mod initialize  to
 Context inherits from Initializable PaymentSplitter inherits from Initializable PaymentSplitter inherits from Context 
 initializer 
 PayeeAdded PaymentReleased PaymentReceived 
+
+initializing is equal to True
+initialized is equal to True
+
+initializing is equal to False
 If a corresponds to 0
 i is less then payees length
  is equal to _released account add

@@ -18,7 +18,7 @@ _totalSupply is equal to _totalSupply sub
  is equal to _balances account sub
  is equal to value
 _owner is equal to msg sender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
 _name is equal to name
 _symbol is equal to symbol

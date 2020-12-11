@@ -27,7 +27,7 @@ _paused is equal to False
 _paused is equal to True
 _paused is equal to False
 _owner is equal to msg sender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
 _guardCounter is equal to 1
 _guardCounter increments of 1
@@ -39,13 +39,13 @@ unsuccessfulBountyFeeInWCKWei is equal to _newUnsuccessfulBountyFeeInWCKWei
 bountyId is equal to bountyId add
  is equal to kittyCore getKitty
  is equal to numCatsRemainingForBountyId _bountyId sub
-If _referrer is different from 
+If _referrer is different from address
  is equal to 0
 If totalValueRemainingForBountyId is less then bounty unsuccessfulBountyFeeInWCKWei
 amountToTakeAsFees is equal to totalValueRemainingForBountyId
 amountToReturnToBountyCreator is equal to 0
 amountToTakeAsFees is equal to bounty unsuccessfulBountyFeeInWCKWei
 amountToReturnToBountyCreator is equal to totalValueRemainingForBountyId sub
-If _referrer is different from 
+If _referrer is different from address
 If amountToReturnToBountyCreator is greater then 0
  is equal to 0

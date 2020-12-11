@@ -18,7 +18,7 @@ _totalSupply is equal to _totalSupply sub
  is equal to _balances account sub
  is equal to value
 owner is equal to msg sender
-owner is equal to 
+owner is equal to address
 owner is equal to _newOwner
 paused is equal to True
 paused is equal to False
@@ -32,11 +32,14 @@ If lockInfo _holder i releaseTime is less or equal to now
 lockInfo _holder i balance is equal to 0
 If i is different from lockInfo _holder length minus 1
  is equal to 
+Invalid symbol i
+Invalid symbol lockInfo _holder length
  is equal to _balances _holder sub
  is equal to _balances _holder sub
  is equal to _balances _holder add
 lockInfo _holder i balance is equal to 0
 If i is different from lockInfo _holder length minus 1
  is equal to 
+Invalid symbol lockInfo _holder length
  is equal to _balances owner sub
  is equal to _balances owner sub

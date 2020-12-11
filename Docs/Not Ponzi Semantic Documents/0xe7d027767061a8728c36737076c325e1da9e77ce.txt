@@ -9,7 +9,7 @@ name is equal to _tokenName
 decimals is equal to _decimalUnits
 symbol is equal to _tokenSymbol
 owner is equal to _owner
-If _to is different from 
+If _to is different from address
 If  is greater or equal to now
  decreases of _value
  increments of _value

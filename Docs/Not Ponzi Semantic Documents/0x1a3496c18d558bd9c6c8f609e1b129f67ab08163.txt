@@ -13,11 +13,13 @@ c is equal to a multiplied by b
 c is equal to a plus b
 If  corresponds to 0
 If lockup_date corresponds to 0
+Invalid symbol lockup_list user_address
 user_list_index is less then user_list length
 If  corresponds to user_address
+Invalid symbol user_list user_list_index
 If not user_is_exist
  is equal to lockup_date
-If 
+If not lockup_list_flag lockup_date
  is equal to True
 user_list_index is less then user_list length
 If  is different from 0
@@ -27,7 +29,7 @@ If user_lockup_time corresponds to old_lockup_date
  is equal to new_lockup_date
 
  is equal to False
-If 
+If not lockup_list_flag new_lockup_date
  is equal to True
  is equal to msg sender sub
  is equal to balances _to add
@@ -64,6 +66,13 @@ canTransfer is equal to False
 transferFailMsg is equal to 
 If not isUserAddress
 transferFailMsg is equal to try to send token to contract
+If value is less or equal to 0
+transferFailMsg is equal to try to send wrong token amount
+If to corresponds to address
+transferFailMsg is equal to try to send token to empty address
+If value is greater then 
+transferFailMsg is equal to token amount is larger than giver holding
+canTransfer is equal to True
 
  is equal to balances _from sub
  is equal to balances to add

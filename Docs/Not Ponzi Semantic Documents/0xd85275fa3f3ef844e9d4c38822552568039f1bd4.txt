@@ -7,12 +7,13 @@ Payment has state
 payments paymentHash paymentHash token token paymentHash token token paymentHash token token 
 totalSupply balanceOf allowance transfer approve transferFrom totalSupply balanceOf allowance transfer approve transferFrom ethPayment erc20Payment receiverSpend senderRefund 
 Transfer Approval Transfer Approval PaymentSent ReceiverSpent SenderRefunded 
+PaymentState has values Uninitialized PaymentSent ReceivedSpent SenderRefunded
  is equal to Payment
  is equal to Payment
 
 payments _id state is equal to PaymentState ReceivedSpent
-If _tokenAddress corresponds to 
+If _tokenAddress corresponds to address
 
 payments _id state is equal to PaymentState SenderRefunded
-If _tokenAddress corresponds to 
+If _tokenAddress corresponds to address
 

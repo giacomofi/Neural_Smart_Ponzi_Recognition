@@ -9,6 +9,7 @@ LogEvent LogTransaction LogAddress LogContractChange LogAsset LogEscrow LogOrder
 If a corresponds to 0
 database is equal to DBInterface
 _amount is equal to msg sender div
+Invalid symbol msg sender
 valuePerToken is equal to valuePerToken add
 assetIncome is equal to assetIncome add
 valuePerToken is equal to valuePerToken add

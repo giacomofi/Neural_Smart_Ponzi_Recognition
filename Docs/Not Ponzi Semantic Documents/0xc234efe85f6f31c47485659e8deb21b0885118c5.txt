@@ -10,7 +10,7 @@ Ownable inherits from Context ERC20 inherits from Context ERC20 inherits from IE
 onlyOwner onlyAdmin 
 OwnershipTransferred Transfer Approval UserDepositCompleted UserWithdrawnCompleted AddressUnlockedForWithdrawal MigrationFinished ReferralRegistered ReferralBonusWithdrawn FundsAdded FundsRemoved RemovedFromKYC AddedToKYC UserDepositCompleted UserWithdrawnCompleted AddressUnlockedForWithdrawal MigrationFinished 
 _owner is equal to _msgSender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
 If a corresponds to 0
  is equal to _balances sender sub
@@ -32,7 +32,8 @@ deposits depositors i deposited is equal to True
  is equal to oldDeposit
 migrationAllowed is equal to False
 deposits user deposited is equal to True
- is equal to 
+ is equal to address
+Invalid symbol msg sender
 deposits user unlockedForWithdrawal is equal to True
-If  corresponds to 
-If  is different from 
+If  corresponds to address
+If  is different from address

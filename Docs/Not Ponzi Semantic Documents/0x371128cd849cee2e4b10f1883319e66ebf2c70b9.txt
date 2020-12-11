@@ -6,7 +6,7 @@ UserStruct has id
 UserStruct has referrerID
 UserStruct has referral
 UserStruct has levelExpired
-c c c owner manager adminWallet ownerWallet LEVEL_PRICE REFERRER_1_LEVEL_LIMIT PERIOD_LENGTH users userList currUserID userStruct level userStruct l referer referer1 referer2 referer3 result referrals freeReferrer noFreeReferrer i 
+c c c owner manager adminWallet ownerWallet LEVEL_PRICE REFERRER_1_LEVEL_LIMIT PERIOD_LENGTH users userList currUserID userStruct level refId referrer userStruct l referer referer1 referer2 referer3 result referrals freeReferrer noFreeReferrer i 
 mul div sub add transferOwnership setManager  regUser buyLevel payForLevel findFreeReferrer viewUserReferral viewUserLevelExpired bytesToAddress 
 SmartBitPoint inherits from Ownable 
 onlyOwner onlyOwnerOrManager 
@@ -25,6 +25,7 @@ manager is equal to _manager
  is equal to 7.29 ether
  is equal to 21.87 ether
  is equal to 65.61 ether
+Invalid symbol currUserID
 userStruct is equal to UserStruct
  is equal to userStruct
  is equal to ownerWallet
@@ -36,6 +37,7 @@ userStruct is equal to UserStruct
  is equal to 77777777777
  is equal to 77777777777
  is equal to 77777777777
+Invalid symbol currUserID
 userStruct is equal to UserStruct
  is equal to userStruct
  is equal to adminWallet
@@ -49,9 +51,27 @@ userStruct is equal to UserStruct
  is equal to 77777777777
 If msg value corresponds to 
 level is equal to 1
+If msg value corresponds to 
+level is equal to 2
+If msg value corresponds to 
+level is equal to 3
+If msg value corresponds to 
+level is equal to 4
+If msg value corresponds to 
+level is equal to 5
+If msg value corresponds to 
+level is equal to 6
+If msg value corresponds to 
+level is equal to 7
+If msg value corresponds to 
+level is equal to 8
 
+If level corresponds to 1
+
+refId is equal to users referrer id
 If users userList _referrerID referral length is greater or equal to REFERRER_1_LEVEL_LIMIT
 _referrerID is equal to findFreeReferrer id
+Invalid symbol currUserID
 userStruct is equal to UserStruct
  is equal to userStruct
  is equal to msg sender
@@ -71,7 +91,19 @@ If  corresponds to 0
  increments of PERIOD_LENGTH
 If _level corresponds to 1 Invalid symbol 
 referer is equal to 
-If 
+If _level corresponds to 2 Invalid symbol 
+referer1 is equal to 
+referer is equal to 
+If _level corresponds to 3 Invalid symbol 
+referer1 is equal to 
+referer2 is equal to 
+referer is equal to 
+If _level corresponds to 4 Invalid symbol 
+referer1 is equal to 
+referer2 is equal to 
+referer3 is equal to 
+referer is equal to 
+If not users referer isExist
 referer is equal to 
 If  is greater or equal to now
 result is equal to 

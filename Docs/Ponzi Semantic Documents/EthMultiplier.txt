@@ -9,17 +9,25 @@ EthMultiplier  invest checkInvestmentRequired buySmartContract setFeePercentage 
 entryCosts awaitingPayOut isForSale onlyOwner FPLimits POTODLimits SCPLimits 
 newInvestor lastInvestorPaidOut manualCheckInvestmentRequired newOwner newFeePercentageIsSet newPayOutPercentageIsSet smartContractIsForSale smartContractSaleEnded smartContractPriceIsSet 
 owner is equal to msg sender
+If msg value is less then min Invalid symbol 
 investors id addr is equal to msg sender
 investors id payout is equal to msg value multiplied by  divided by 100
 While this balance is greater or equal to investors payoutIdx payout
- paidOut is equal to True
+Invalid symbol payoutIdx paidOut is equal to True
+If _manual Invalid symbol 
 iPayoutIdx is less or equal to _investorId
 amount increments of investors iPayoutIdx payout
 amount is equal to  multiplied by 100 divided by 
 
+If  Invalid symbol msg value is less then priceOfSmartContract Invalid symbol 
+If msg value is greater then priceOfSmartContract
 owner is equal to msg sender
 smartContactForSale is equal to False
+If msg sender is different from owner
+If _percentage is greater then 25
 feePercentage is equal to _percentage
+If _percentage is greater then 100 Invalid symbol 
 payOutPercentage is equal to _percentageOnTopOfDeposit
 smartContactForSale is equal to _sell
+If _price is less or equal to 10 ether
 priceOfSmartContract is equal to _price

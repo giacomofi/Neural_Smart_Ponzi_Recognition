@@ -4,7 +4,7 @@ c c c name symbol decimals totalSupply owner balanceOf freezeOf allowance
 safeMul safeDiv safeSub safeAdd BCT transfer approve transferFrom burn freeze unfreeze withdrawEther  
 BCT inherits from SafeMath 
 Transfer Burn Freeze Unfreeze 
-totalSupply is equal to initialSupply multiplied by 10 Invalid symbol 
+totalSupply is equal to initialSupply multiplied by 10 Invalid symbol uint256
  is equal to totalSupply
 name is equal to tokenName
 symbol is equal to tokenSymbol

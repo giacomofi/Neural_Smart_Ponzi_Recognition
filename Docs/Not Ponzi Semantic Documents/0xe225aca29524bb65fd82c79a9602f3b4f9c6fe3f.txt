@@ -7,7 +7,8 @@ StandardToken inherits from ERC20 StandardToken inherits from Ownable Tratok inh
 onlyOwner 
 Transfer Approval FrozenAccount UnfrozenAccount 
 owner is equal to msg sender
-If newOwner is different from 
+If msg sender is different from owner
+If newOwner is different from address
 owner is equal to newOwner
 If  is greater or equal to _value Invalid symbol 
  is equal to msg sender sub
@@ -22,6 +23,7 @@ i increments of 1
 While i is less then _destinations length
 i increments of 1
  is equal to True
+Invalid symbol frozenAccounts _target
  is equal to balances _to add
  is equal to balances _from sub
  is equal to 10000000000000000
@@ -30,4 +32,4 @@ name is equal to Tratok
 decimals is equal to 5
 symbol is equal to TRAT
  is equal to _value
-If 
+If not _spender call

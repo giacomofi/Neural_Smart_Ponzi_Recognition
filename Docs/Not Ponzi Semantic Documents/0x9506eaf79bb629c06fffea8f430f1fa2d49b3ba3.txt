@@ -20,12 +20,13 @@ If _subtractedValue is greater then oldValue
  is equal to 0
  is equal to oldValue sub
 owner is equal to msg sender
-owner is equal to 
+owner is equal to address
 owner is equal to _newOwner
 totalSupply_ is equal to totalSupply_ add
  is equal to balances _to add
 mintingFinished is equal to True
 While release is different from 0
+Invalid symbol count
 release is equal to 
 i is less then _index plus 1
 _release is equal to 
@@ -34,10 +35,13 @@ _balance is equal to
  is equal to msg sender sub
  is equal to freezings currentKey add
  is equal to freezingBalance _to add
+Invalid symbol freezings currentKey
  is equal to msg sender add
  is equal to msg sender sub
 If next corresponds to 0
+Invalid symbol chains headKey
  is equal to next
+Invalid symbol chains currentKey
  is equal to getFreezing
 While release is different from 0 Invalid symbol 
 tokens increments of balance

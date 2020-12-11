@@ -20,7 +20,7 @@ If _subtractedValue is greater or equal to oldValue
  is equal to 0
  is equal to oldValue sub
 owner is equal to msg sender
-owner is equal to 
+owner is equal to address
 owner is equal to _newOwner
 paused is equal to True
 paused is equal to False

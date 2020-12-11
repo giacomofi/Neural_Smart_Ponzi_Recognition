@@ -5,22 +5,32 @@ Info has actionRole
 Info has buyLimit
 Info has sellLimit
 Info has index
-owner pendingOwner VERSION array table info info action currentExists isRemoveRequired isUpdateRequired 
+owner pendingOwner VERSION array table info info action last currentExists isRemoveRequired isUpdateRequired 
 getInfo getActionRole getSellLimit getBuyLimit renounceOwnership transferOwnership _transferOwnership transferOwnership claimOwnership getInfo getActionRole getSellLimit getBuyLimit set getArray getCount getAction 
 Claimable inherits from Ownable TradingClasses inherits from ITradingClasses TradingClasses inherits from Claimable 
 onlyOwner onlyPendingOwner 
 OwnershipRenounced OwnershipTransferred ActionCompleted 
 owner is equal to msg sender
-owner is equal to 
+owner is equal to address
 owner is equal to _newOwner
 pendingOwner is equal to newOwner
 owner is equal to pendingOwner
-pendingOwner is equal to 
+pendingOwner is equal to address
+Action has values None Insert Update Remove
 If action corresponds to Action Insert
 info index is equal to array length
 info actionRole is equal to _actionRole
 info buyLimit is equal to _buyLimit
 info sellLimit is equal to _sellLimit
+If action corresponds to Action Update
+info actionRole is equal to _actionRole
+info buyLimit is equal to _buyLimit
+info sellLimit is equal to _sellLimit
+If action corresponds to Action Remove
+table last index is equal to info index
+ is equal to last
+array length decreases of 1
+Invalid symbol table _id
 If  Invalid symbol 
 If currentExists Invalid symbol isRemoveRequired
 

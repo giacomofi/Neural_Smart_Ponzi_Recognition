@@ -14,6 +14,7 @@ viewSwap viewFiatDexSpecs changeContractOwner openSwap addFiatTraderCollateral r
 onlyNotOpenSwaps onlyInitializedSwaps onlyActiveSwaps 
 Open Close ChangedOwnership 
 owner is equal to msg sender
+States has values NOTOPEN INITIALIZED ACTIVE CLOSED
 owner is equal to _newOwner
  is equal to swap
 swap fiatTraderCollateral is equal to msg value

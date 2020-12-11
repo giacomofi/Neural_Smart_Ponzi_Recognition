@@ -27,20 +27,20 @@ If previousBalanceFrom is less then _amount
 
  is equal to _amount
 If  Invalid symbol 
-If  is different from 0
+If address is different from 0
 If  Invalid symbol 
-If  is different from 0
+If address is different from 0
 transfersEnabled is equal to _transfersEnabled
 If checkpoints length corresponds to 0
-If _block is greater or equal to  fromBlock
+If _block is greater or equal to checkpoints length minus 1 fromBlock
 If _block is less then checkpoints 0 fromBlock
 While max is greater then min
 If checkpoints mid fromBlock is less or equal to _block
 min is equal to mid
 max is equal to mid minus 1
 If  Invalid symbol 
-newCheckPoint fromBlock is equal to 
-newCheckPoint value is equal to 
-oldCheckPoint value is equal to 
+newCheckPoint fromBlock is equal to uint128
+newCheckPoint value is equal to uint128
+oldCheckPoint value is equal to uint128
 If _addr corresponds to 0
 If _token corresponds to 0x0

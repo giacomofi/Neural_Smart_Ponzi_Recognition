@@ -5,12 +5,13 @@ InvestorArray has amount
 depositors Total_Savers Fees Balance Total_Deposited Total_Paid_Out Interest_Rate Message owner amount minimal Times i payout nr 
 EthBank  enter Set_Interest_Rate 
 onlyowner 
+If msg sender corresponds to owner
 owner is equal to 0xEe462A6717f17C57C826F1ad9b4d3813495296C9
 If msg value is greater then 200 finney
 Total_Savers is equal to depositors length plus 1
 depositors length increments of 1
- etherAddress is equal to msg sender
- amount is equal to amount
+depositors length minus 1 etherAddress is equal to msg sender
+depositors length minus 1 amount is equal to amount
 Fees is equal to amount multiplied by Interest_Rate divided by 100
 Total_Deposited increments of amount
 amount decreases of amount multiplied by Interest_Rate divided by 100

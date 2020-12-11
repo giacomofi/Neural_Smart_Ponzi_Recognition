@@ -9,7 +9,7 @@ transferOwnership recover toEthSignedMessageHash toRlpItem rlpLen payloadLen toL
 ValidatorSlasher inherits from Ownable 
 onlyOwner 
 owner is equal to msg sender
-If newOwner is different from 
+If newOwner is different from address
 owner is equal to newOwner
 If signature length is different from 65
 If v is less then 27
@@ -25,8 +25,14 @@ If byte0 is less then LIST_SHORT_START
 If item len corresponds to 0
 While currPtr is less then endPtr
 currPtr is equal to currPtr plus _itemLength
+Invalid symbol count
 If byte0 is less then STRING_SHORT_START
+If byte0 is less then STRING_LONG_START
+If byte0 is less then LIST_SHORT_START
+If byte0 is less then LIST_LONG_START
 If byte0 is less then STRING_SHORT_START
+If byte0 is less then STRING_LONG_START Invalid symbol 
+If byte0 is less then LIST_SHORT_START
 If result length corresponds to 0
 If len corresponds to 0
 len is greater or equal to WORD_SIZE

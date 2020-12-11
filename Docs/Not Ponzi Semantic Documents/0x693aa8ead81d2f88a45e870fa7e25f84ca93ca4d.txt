@@ -8,13 +8,15 @@ onlyOwner
 OwnershipTransferred EthUsdAggregatorChanged 
 If a corresponds to 0
 _owner is equal to _msgSender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
 i is less then 20
- is equal to 
+ is equal to byte
 dai is equal to _dai
 usdc is equal to _usdc
 weth is equal to _weth
 ethUsdAggregator is equal to IUsdAggregator
 ethUsdAggregator is equal to IUsdAggregator
 If token corresponds to weth
+If token corresponds to usdc
+If token corresponds to dai

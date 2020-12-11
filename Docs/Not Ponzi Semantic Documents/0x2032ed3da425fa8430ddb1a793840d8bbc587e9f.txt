@@ -12,7 +12,7 @@ ReferralStat has profit
 ReferralStat has count
 Probability has from
 Probability has to
-owner DAY_IN_SECONDS YEAR_IN_SECONDS LEAP_YEAR_IN_SECONDS HOUR_IN_SECONDS MINUTE_IN_SECONDS ORIGIN_YEAR secondsAccountedFor buf i secondsInMonth secondsAccountedFor year numLeapYears i monthDayCounts usersCount openedCases totalWins probabilities betsPrizes cases casesArr caseWins caseOpenings users userCasesCount referrals usedReferrals referralStats multiplier dateTimeAPI i d casesIndex sum casesVal i maxPrize prize casinoProfit referrerProfit chance prizes prize i year month day hour timestamp 
+owner DAY_IN_SECONDS YEAR_IN_SECONDS LEAP_YEAR_IN_SECONDS HOUR_IN_SECONDS MINUTE_IN_SECONDS ORIGIN_YEAR secondsAccountedFor buf i secondsInMonth secondsAccountedFor year numLeapYears i monthDayCounts usersCount openedCases totalWins probabilities betsPrizes cases casesArr caseWins caseOpenings users userCasesCount referrals usedReferrals referralStats multiplier dateTimeAPI i d casesIndex sum casesVal i maxPrize prize casinoProfit referrerProfit chance prizes prize i year month day hour timestamp size 
 getYear getMonth getDay getHour toTimestamp transferOwnership isLeapYear leapYearsBefore getDaysInMonth parseTimestamp getYear getMonth getDay getHour getMinute getSecond getWeekday toTimestamp toTimestamp toTimestamp toTimestamp showCoefs play determinePrize increaseDailyStat withdraw random 
 EJackpot inherits from Ownable 
 onlyOwner notContract 
@@ -24,6 +24,8 @@ If year Invalid symbol 100 is different from 0
 If year Invalid symbol 400 is different from 0
 year decreases of 1
 If month corresponds to 1 Invalid symbol  Invalid symbol  Invalid symbol  Invalid symbol  Invalid symbol  Invalid symbol 
+If month corresponds to 4 Invalid symbol  Invalid symbol  Invalid symbol 
+
 dt year is equal to getYear
 buf is equal to leapYearsBefore minus leapYearsBefore
 secondsAccountedFor increments of LEAP_YEAR_IN_SECONDS multiplied by buf
@@ -43,7 +45,7 @@ dt hour is equal to getHour
 dt minute is equal to getMinute
 dt second is equal to getSecond
 dt weekday is equal to getWeekday
-year is equal to 
+year is equal to uint16
 numLeapYears is equal to leapYearsBefore minus leapYearsBefore
 secondsAccountedFor increments of LEAP_YEAR_IN_SECONDS multiplied by numLeapYears
 secondsAccountedFor increments of YEAR_IN_SECONDS multiplied by 
@@ -80,6 +82,7 @@ timestamp increments of MINUTE_IN_SECONDS multiplied by
 timestamp increments of second
 dateTimeAPI is equal to DateTimeAPI
 i is less then 1
+ is equal to True
  is equal to Probability
  is equal to 
 casesIndex is less then casesArr length
@@ -87,19 +90,26 @@ i is less then probabilities length
 sum increments of multiplier multiplied by  multiplied by 
  is equal to 
 If msg sender corresponds to owner
-If 
+Invalid symbol openedCases
+Invalid symbol msg sender
+If not msg sender
  is equal to True
+Invalid symbol usersCount
  increments of prize
+Invalid symbol msg value
 totalWins increments of prize
-If referrer corresponds to  Invalid symbol 
-If referrer is different from 
-If  is different from  Invalid symbol 
+If referrer corresponds to address Invalid symbol 
+If referrer is different from address
+If  is different from address Invalid symbol 
 referralStats msg sender count decreases of 1
  is equal to referrer
-If 
+If not usedReferrals msg sender msg sender
+Invalid symbol referralStats msg sender count
  is equal to True
 If casinoProfit is less or equal to 0
 referralStats msg sender profit increments of referrerProfit
 i is less then 1
 If chance is greater or equal to probabilities i from Invalid symbol 
 prize is equal to  multiplied by multiplier
+If addr is different from address
+If not referrer

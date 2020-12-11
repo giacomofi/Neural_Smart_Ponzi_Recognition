@@ -13,9 +13,10 @@ i is less then requiredSignatures
  is equal to recoveredAddress
 If i corresponds to 0
 While j is different from 0
+Invalid symbol length
 j is divided by 10
 While i is different from 0
- is equal to 
+ is equal to bytes1
 i is divided by 10
 If _a corresponds to 0
 c is equal to _a multiplied by _b
@@ -30,8 +31,8 @@ c is equal to _a plus _b
  is equal to _minPerTx
  is equal to _status
  is equal to True
-If _token corresponds to 
-If 
+If _token corresponds to address
+If not _to send
 If returnData length is greater then 0
  is equal to _gasPrice
  is equal to _blockConfirmations
@@ -44,6 +45,7 @@ If returnData length is greater then 0
  is equal to 1 weeks
  is equal to _interestReceiver
  is equal to _minBalance
+Invalid symbol boolStorage CHAI_TOKEN_ENABLED
  is equal to receiver
  is equal to period
 If lastInterestPayment plus interestCollectionPeriod is less then now Invalid symbol 
@@ -60,7 +62,7 @@ If amount corresponds to 0
  is equal to 
  is equal to 
  is equal to _decimalShift
-If _token corresponds to 
+If _token corresponds to address
 If currentBalance is less then amount
 If tokenBalance is greater then 0
 If esTs is greater then 0 Invalid symbol 

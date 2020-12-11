@@ -5,3 +5,4 @@ size IMPLEMENTATION_SLOT slot slot ADMIN_SLOT slot slot
 UpgradeabilityProxy inherits from Proxy AdminUpgradeabilityProxy inherits from UpgradeabilityProxy FiatTokenProxy inherits from AdminUpgradeabilityProxy 
 ifAdmin 
 Upgraded AdminChanged 
+If msg sender corresponds to _admin

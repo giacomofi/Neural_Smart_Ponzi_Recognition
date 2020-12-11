@@ -5,6 +5,7 @@ InvestorArray has amount
 investors investors_needed_until_jackpot totalplayers feerate profitrate jackpotrate fee feeamount balance totaldeposited totalpaidout owner amount tot_pl payout nr 
 FountainOfWealth  enter 
 onlyowner 
+If msg sender corresponds to owner
 owner is equal to msg sender
 If msg value is less then 100 finney
 totalplayers is equal to tot_pl plus 1

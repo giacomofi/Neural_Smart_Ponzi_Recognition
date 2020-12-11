@@ -27,6 +27,7 @@ ownerShip is equal to _realOwner
  is equal to released token add
  is equal to True
 If block timestamp is less then cliff
+If block timestamp is greater or equal to start add Invalid symbol 
 token is equal to _token
  is equal to balances burner sub
 totalSupply_ is equal to totalSupply_ sub
@@ -35,7 +36,7 @@ reserveTokensVault is equal to createTokenVaultInt
 totalSupply_ is equal to totalSupply_ add
  is equal to balances _destination add
 If  corresponds to 0x0
- is equal to 
+ is equal to address
 If  corresponds to 0x0
- is equal to 
-If  corresponds to 
+ is equal to address
+If  corresponds to address

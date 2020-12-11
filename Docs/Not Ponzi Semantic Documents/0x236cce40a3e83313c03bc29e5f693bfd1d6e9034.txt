@@ -8,14 +8,14 @@ If totaldai corresponds to 0
 If totaldai corresponds to 0
  is equal to safeAdd
 totaldai is equal to safeAdd
-If 
-If 
+If not daiContract transferFrom
+If not usdcContract transferFrom
 totaldai is equal to safeSub
  is equal to 0
-If 
-If 
+If not daiContract transfer
+If not usdcContract transfer
 usdc is equal to usdc divided by decOffset
-If 
-If 
-If 
-If 
+If not daiContract transferFrom
+If not usdcContract transfer
+If not usdcContract transferFrom
+If not daiContract transfer

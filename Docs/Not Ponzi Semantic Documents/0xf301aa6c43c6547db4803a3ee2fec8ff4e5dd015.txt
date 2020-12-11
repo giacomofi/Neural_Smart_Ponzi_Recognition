@@ -5,6 +5,6 @@ balanceOf  tokenBalance balances
 If tokenCode is greater then 0
 i is less then users length
 j is less then tokens length
-If  is different from 
+If  is different from address
  is equal to tokenBalance
  is equal to users i balance

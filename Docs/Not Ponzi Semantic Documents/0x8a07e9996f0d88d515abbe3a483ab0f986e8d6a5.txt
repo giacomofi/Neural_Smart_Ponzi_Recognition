@@ -10,7 +10,7 @@ If a corresponds to 0
 owner is equal to msg sender
 new_owner is equal to _to
 owner is equal to new_owner
-new_owner is equal to 
+new_owner is equal to address
 name is equal to _name
 symbol is equal to _symbol
 decimals is equal to _decimals

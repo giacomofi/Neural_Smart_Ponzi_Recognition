@@ -61,7 +61,7 @@ State has tokenBalances
 State has numBlocksFinalized
 State has protocolFeeData
 State has shutdownStartTime
-numBitsMantissa exponent mantissa q isCorrect calculatedRoot balanceItem _id depth accountItem _id depth owner pendingOwner _guardValue protocolRegistry lrcAddress exchangeCreationCostLRC exchanges totalStake wethAddress exchangeDeployerAddress blockVerifierAddress downtimeCostCalculator maxWithdrawalFee withdrawalFineLRC tokenRegistrationFeeLRCBase tokenRegistrationFeeLRCDelta minExchangeStakeWithDataAvailability minExchangeStakeWithoutDataAvailability revertFineLRC minProtocolTakerFeeBips maxProtocolTakerFeeBips minProtocolMakerFeeBips maxProtocolMakerFeeBips targetProtocolTakerFeeStake targetProtocolMakerFeeStake protocolFeeVault account account account callData callData currentBlock requestTimestamp requestTimestamp maxTimeInShutdown firstBlock lastBlock blockTimestamp numDowntimeMinutesUsed numMinutesLeft numMinutesToPurchase costLRC lastBlock amount totalBalance userBalance costCalculatorAddr result success publicInputs blockSize blockType blockVersion i blockIdx specifiedBlock i blockIdx specifiedBlock idx specifiedBlock fine exchangeIdInData prevBlock merkleRootBefore merkleRootAfter numDepositRequestsCommitted numWithdrawalRequestsCommitted inputTimestamp protocolTakerFeeBips protocolMakerFeeBips publicDataHash withdrawals start length newBlock data feeUpdated size recipient token tokenID token tokenID token request tokenID accountID account feeETH prevRequest request _deposit currentBlock numOpenRequests totalRequiredETH feeSurplus loopring genesisBlock genesisRequest protocolFeePoolAccount request tokenID prevRequest request lastFinalizedBlock accountID tokenID currentBlock numOpenRequests lastFinalizedBlock _deposit amount slice slot offset sc data withdrawals dataSlot1 dataSlot2 mWithdrawals tokenID accountID amount dataSlot1 dataSlot2 mWithdrawals requestedBlock previousBlock feeAmount lastRequestTimestamp blockTimestamp startTime fine feeAmountToBurn withdrawBlock bOnlyOperator start end gasLimit totalNumWithdrawn numWithdrawn totalFine amountToBurn amountToDistributer to token gasLimit retval version genesisBlockHash origin version genesisBlockHash state stake specifiedBlock selector decompressed accountID withdrawBlock additionalFeeETH 
+numBitsMantissa exponent mantissa q isCorrect calculatedRoot balanceItem _id depth accountItem _id depth owner pendingOwner _guardValue protocolRegistry lrcAddress exchangeCreationCostLRC exchanges totalStake wethAddress exchangeDeployerAddress blockVerifierAddress downtimeCostCalculator maxWithdrawalFee withdrawalFineLRC tokenRegistrationFeeLRCBase tokenRegistrationFeeLRCDelta minExchangeStakeWithDataAvailability minExchangeStakeWithoutDataAvailability revertFineLRC minProtocolTakerFeeBips maxProtocolTakerFeeBips minProtocolMakerFeeBips maxProtocolMakerFeeBips targetProtocolTakerFeeStake targetProtocolMakerFeeStake protocolFeeVault account account account callData callData currentBlock requestTimestamp requestTimestamp maxTimeInShutdown firstBlock lastBlock blockTimestamp numDowntimeMinutesUsed numMinutesLeft numMinutesToPurchase costLRC lastBlock amount totalBalance userBalance costCalculatorAddr result success publicInputs blockSize blockType blockVersion i blockIdx specifiedBlock i blockIdx specifiedBlock idx specifiedBlock fine exchangeIdInData prevBlock merkleRootBefore merkleRootAfter numDepositRequestsCommitted numWithdrawalRequestsCommitted inputTimestamp protocolTakerFeeBips protocolMakerFeeBips startIdx count startingHash endingHash i inputStartingHash inputEndingHash startIdx count startingHash endingHash i inputStartingHash inputEndingHash publicDataHash withdrawals start length newBlock data feeUpdated size recipient token tokenID token tokenID token request tokenID accountID account feeETH prevRequest request _deposit currentBlock numOpenRequests totalRequiredETH feeSurplus loopring genesisBlock genesisRequest protocolFeePoolAccount request tokenID prevRequest request lastFinalizedBlock accountID tokenID currentBlock numOpenRequests lastFinalizedBlock _deposit amount slice slot offset sc data withdrawals dataSlot1 dataSlot2 mWithdrawals tokenID accountID amount dataSlot1 dataSlot2 mWithdrawals requestedBlock previousBlock feeAmount lastRequestTimestamp startIndex endIndex blockTimestamp startTime fine feeAmountToBurn withdrawBlock bOnlyOperator start end gasLimit totalNumWithdrawn numWithdrawn totalFine amountToBurn amountToDistributer to token gasLimit retval version genesisBlockHash origin version genesisBlockHash state stake specifiedBlock selector decompressed accountID withdrawBlock additionalFeeETH 
 mul sub add decodeFloat isWhitelisted hash_t5f6p52 verifyAccountBalance isAccountBalanceCorrect getBalancesRoot getAccountInternalsRoot hashImpl registerCircuit disableCircuit verifyProofs isCircuitRegistered isCircuitEnabled transferOwnership renounceOwnership transferOwnership claimOwnership initializeExchange updateSettings updateProtocolFeeSettings canExchangeCommitBlocks getExchangeStake burnExchangeStake depositExchangeStake withdrawExchangeStake depositProtocolFeeStake withdrawProtocolFeeStake getProtocolFeeValues getProtocolFeeStake SNARK_SCALAR_FIELD MAX_PROOF_GENERATION_TIME_IN_SECONDS MAX_GAP_BETWEEN_FINALIZED_AND_VERIFIED_BLOCKS MAX_OPEN_DEPOSIT_REQUESTS MAX_OPEN_WITHDRAWAL_REQUESTS MAX_AGE_UNFINALIZED_BLOCK_UNTIL_WITHDRAW_MODE MAX_AGE_REQUEST_UNTIL_FORCED MAX_AGE_REQUEST_UNTIL_WITHDRAW_MODE MAX_TIME_IN_SHUTDOWN_BASE MAX_TIME_IN_SHUTDOWN_DELTA TIMESTAMP_HALF_WINDOW_SIZE_IN_SECONDS MAX_NUM_TOKENS MAX_NUM_ACCOUNTS MAX_TIME_TO_DISTRIBUTE_WITHDRAWALS FEE_BLOCK_FINE_START_TIME FEE_BLOCK_FINE_MAX_DURATION MIN_GAS_TO_DISTRIBUTE_WITHDRAWALS MIN_AGE_PROTOCOL_FEES_UNTIL_UPDATED GAS_LIMIT_SEND_TOKENS getAccount createOrUpdateAccount getAccountID createAccount updateAccount totalSupply balanceOf allowance transfer transferFrom approve burn burnFrom safeTransfer safeTransferWithGasLimit safeTransferFrom safeTransferFromWithGasLimit checkReturnValue getDowntimeCostLRC isInWithdrawalMode isShutdown isInMaintenance isInInitialState areUserRequestsEnabled isAnyUnfinalizedBlockTooOld getNumDowntimeMinutesLeft setOperator setAddressWhitelist setFees startOrContinueMaintenanceMode getRemainingDowntime withdrawExchangeStake withdrawTokenNotOwnedByUsers stopMaintenanceMode getDowntimeCostLRC getTotalTimeInMaintenanceSeconds bytesToBytes32 bytesToUint bytesToAddress bytesToUint16 bytesToUintX subBytes fastSHA256 decompress commitBlock verifyBlocks revertBlock commitBlockInternal validateAndUpdateProtocolFeeValues isDepositRequestForced isWithdrawalRequestForced isContract toPayable sendETH transferETH registerToken getTokenAddress getLRCFeeForRegisteringOneMoreToken registerToken getTokenID disableTokenDeposit enableTokenDeposit getDepositRequest depositTo getNumDepositRequestsProcessed getNumAvailableDepositSlots transferDeposit initializeGenesisBlock getWithdrawRequest withdraw withdrawFromMerkleTreeFor getNumWithdrawalRequestsProcessed getNumAvailableWithdrawalSlots withdrawFromDepositRequest withdrawFromApprovedWithdrawal withdrawBlockFee distributeWithdrawals transferTokens clone clone initialize isInWithdrawalMode isShutdown getNumAccounts getAccount createOrUpdateAccount isAccountBalanceCorrect getLRCFeeForRegisteringOneMoreToken registerToken getTokenID getTokenAddress disableTokenDeposit enableTokenDeposit getExchangeStake withdrawExchangeStake withdrawTokenNotOwnedByUsers withdrawProtocolFeeStake burnExchangeStake getBlockHeight getNumBlocksFinalized getBlock commitBlock verifyBlocks revertBlock getNumDepositRequestsProcessed getNumAvailableDepositSlots getDepositRequest updateAccountAndDeposit deposit depositTo getNumWithdrawalRequestsProcessed getNumAvailableWithdrawalSlots getWithdrawRequest withdraw withdrawProtocolFees withdrawFromMerkleTree withdrawFromMerkleTreeFor withdrawFromDepositRequest withdrawFromApprovedWithdrawal withdrawBlockFee distributeWithdrawals setOperator setAddressWhitelist setFees getFees startOrContinueMaintenanceMode stopMaintenanceMode getRemainingDowntime getDowntimeCostLRC getTotalTimeInMaintenanceSeconds getExchangeCreationTimestamp shutdown getRequestStats getProtocolFeeValues initialize isInWithdrawalMode isShutdown isInMaintenance getNumAccounts getAccount createOrUpdateAccount isAccountBalanceCorrect getLRCFeeForRegisteringOneMoreToken registerToken getTokenID getTokenAddress disableTokenDeposit enableTokenDeposit getExchangeStake withdrawExchangeStake withdrawTokenNotOwnedByUsers withdrawProtocolFeeStake burnExchangeStake getBlockHeight getNumBlocksFinalized getBlock commitBlock verifyBlocks revertBlock getNumDepositRequestsProcessed getNumAvailableDepositSlots getDepositRequest updateAccountAndDeposit deposit depositTo getNumWithdrawalRequestsProcessed getNumAvailableWithdrawalSlots getWithdrawRequest withdraw withdrawProtocolFees withdrawFromMerkleTree withdrawFromMerkleTreeFor withdrawFromDepositRequest withdrawFromApprovedWithdrawal withdrawBlockFee distributeWithdrawals setOperator setAddressWhitelist setFees getFees startOrContinueMaintenanceMode stopMaintenanceMode getRemainingDowntime getDowntimeCostLRC getTotalTimeInMaintenanceSeconds getExchangeCreationTimestamp shutdown getRequestStats getProtocolFeeValues updateAccountAndDepositInternal 
 Claimable inherits from Ownable ILoopring inherits from Claimable ILoopring inherits from ReentrancyGuard ILoopringV3 inherits from ILoopring BurnableERC20 inherits from ERC20 IExchange inherits from Claimable IExchange inherits from ReentrancyGuard IExchangeV3 inherits from IExchange ExchangeV3 inherits from IExchangeV3 
 onlyOwner onlyPendingOwner nonReentrant onlyOperator onlyWhenUninitialized 
@@ -74,31 +74,45 @@ isCorrect is equal to
 depth is less then 4
 If _id Invalid symbol 3 corresponds to 0
 balanceItem is equal to hashImpl
+If _id Invalid symbol 3 corresponds to 1
+balanceItem is equal to hashImpl
+If _id Invalid symbol 3 corresponds to 2
+balanceItem is equal to hashImpl
+If _id Invalid symbol 3 corresponds to 3
+balanceItem is equal to hashImpl
 _id is equal to _id Invalid symbol 2
 depth is less then 10
 If _id Invalid symbol 3 corresponds to 0
 accountItem is equal to hashImpl
+If _id Invalid symbol 3 corresponds to 1
+accountItem is equal to hashImpl
+If _id Invalid symbol 3 corresponds to 2
+accountItem is equal to hashImpl
+If _id Invalid symbol 3 corresponds to 3
+accountItem is equal to hashImpl
 _id is equal to _id Invalid symbol 2
 owner is equal to msg sender
 owner is equal to newOwner
-owner is equal to 
+owner is equal to address
 pendingOwner is equal to newOwner
 owner is equal to pendingOwner
-pendingOwner is equal to 
+pendingOwner is equal to address
 _guardValue is equal to 1
 _guardValue is equal to 0
+BlockType has values RING_SETTLEMENT DEPOSIT ONCHAIN_WITHDRAWAL OFFCHAIN_WITHDRAWAL ORDER_CANCELLATION TRANSFER
+BlockState has values NEW COMMITTED VERIFIED
 accountID is equal to getAccountID
 pubKeyX is equal to account pubKeyX
 pubKeyY is equal to account pubKeyY
 isAccountNew is equal to 
 
-If S addressWhitelist is different from 
+If S addressWhitelist is different from address
 accountID is equal to createAccount
 isAccountUpdated is equal to False
  is equal to updateAccount
 accountID is equal to 
 accountID is equal to accountID minus 1
-accountID is equal to 
+accountID is equal to uint24
  is equal to accountID plus 1
 accountID is equal to  minus 1
 isAccountUpdated is equal to 
@@ -141,14 +155,14 @@ If S numDowntimeMinutes is greater then 0
 S numDowntimeMinutes decreases of 1
 S downtimeStart is equal to 0
 If durationMinutes corresponds to 0
-If costCalculatorAddr corresponds to 
+If costCalculatorAddr corresponds to address
 time is equal to S totalTimeInMaintenanceSeconds
 If S downtimeStart is different from 0
 If S getNumDowntimeMinutesLeft is greater then 0
 time is equal to time add
 time is equal to time add
 i is less then blockIndices length
- is equal to  Invalid symbol 3
+ is equal to uint Invalid symbol 3
 If i corresponds to 0
 blockSize is equal to specifiedBlock blockSize
 blockType is equal to specifiedBlock blockType
@@ -156,12 +170,24 @@ blockVersion is equal to specifiedBlock blockVersion
 i is less then blockIndices length
 specifiedBlock state is equal to ExchangeData BlockState VERIFIED
 While idx is less then S blocks length Invalid symbol 
+Invalid symbol idx
 S numBlocksFinalized is equal to idx
 S blocks length is equal to blockIdx
 
 If numDepositRequestsCommitted is less then S depositChain length
 
+
 If blockType corresponds to ExchangeData BlockType RING_SETTLEMENT
+If blockType corresponds to ExchangeData BlockType DEPOSIT
+i is less then blockSize
+endingHash is equal to sha256
+numDepositRequestsCommitted increments of uint32
+If blockType corresponds to ExchangeData BlockType ONCHAIN_WITHDRAWAL
+
+i is less then blockSize
+endingHash is equal to sha256
+numWithdrawalRequestsCommitted increments of uint32
+If blockType is different from ExchangeData BlockType OFFCHAIN_WITHDRAWAL Invalid symbol  Invalid symbol 
 If blockType corresponds to ExchangeData BlockType ONCHAIN_WITHDRAWAL Invalid symbol 
 If blockType corresponds to ExchangeData BlockType ONCHAIN_WITHDRAWAL
 start increments of 32 plus 32 plus 4 plus 4
@@ -169,7 +195,7 @@ If now is greater then data timestamp plus ExchangeData MIN_AGE_PROTOCOL_FEES_UN
 data previousTakerFeeBips is equal to data takerFeeBips
 data previousMakerFeeBips is equal to data makerFeeBips
  is equal to S loopring getProtocolFeeValues
-data timestamp is equal to 
+data timestamp is equal to uint32
 
 If numRequestsCommitted corresponds to S depositChain length
 If numRequestsCommitted corresponds to S withdrawalChain length
@@ -178,7 +204,7 @@ If amount corresponds to 0
 success is equal to to sendETH
 tokenID is equal to registerToken
 If amountToBurn is greater then 0
-tokenID is equal to 
+tokenID is equal to uint16
  is equal to tokenID plus 1
 tokenID is equal to 
 tokenID is equal to tokenID minus 1
@@ -188,7 +214,7 @@ accumulatedHash is equal to request accumulatedHash
 accumulatedFee is equal to request accumulatedFee
 timestamp is equal to request timestamp
  is equal to  tokenAddress add
-If tokenAddress corresponds to 
+If tokenAddress corresponds to address
 totalRequiredETH is equal to totalRequiredETH add
 If amount is greater then 0 Invalid symbol 
 S id is equal to _id
@@ -199,8 +225,8 @@ S onchainDataAvailability is equal to _onchainDataAvailability
 S blockVerifier is equal to IBlockVerifier
 S lrcAddress is equal to loopring lrcAddress
 S numBlocksFinalized is equal to 1
- is equal to 
-S protocolFeeData timestamp is equal to 
+ is equal to uint24
+S protocolFeeData timestamp is equal to uint32
 S protocolFeeData takerFeeBips is equal to S loopring maxProtocolTakerFeeBips
 S protocolFeeData makerFeeBips is equal to S loopring maxProtocolMakerFeeBips
 S protocolFeeData previousTakerFeeBips is equal to S protocolFeeData takerFeeBips
@@ -215,9 +241,17 @@ If withdrawBlock withdrawals length is greater or equal to 32
  is equal to dataSlot2
 success is equal to transferTokens
 If success Invalid symbol amount is greater then 0
-data is equal to data Invalid symbol 
+data is equal to data Invalid symbol uint
 If withdrawBlock withdrawals length is greater or equal to 32
 withdrawBlock withdrawals is equal to mWithdrawals
+If endIndex is greater then startIndex
+feeAmount is equal to endIndex minus 1 accumulatedFee sub
+lastRequestTimestamp is equal to endIndex minus 1 timestamp
+startIndex is equal to previousBlock numWithdrawalRequestsCommitted
+endIndex is equal to requestedBlock numWithdrawalRequestsCommitted
+If endIndex is greater then startIndex
+feeAmount is equal to endIndex minus 1 accumulatedFee sub
+lastRequestTimestamp is equal to endIndex minus 1 timestamp
 If blockTimestamp is greater then startTime
 fine is equal to feeAmount mul divided by ExchangeData FEE_BLOCK_FINE_MAX_DURATION
 feeAmountToOperator is equal to feeAmount minus feeAmountToBurn
@@ -226,13 +260,14 @@ requestedBlock blockFeeWithdrawn is equal to True
 If end is greater then withdrawBlock blockSize
 end is equal to withdrawBlock blockSize
 While totalNumWithdrawn is less then end Invalid symbol 
-withdrawBlock numWithdrawalsDistributed is equal to 
+Invalid symbol totalNumWithdrawn
+withdrawBlock numWithdrawalsDistributed is equal to uint16
 If not bOnlyOperator
 If accountID corresponds to 0 Invalid symbol 
 to is equal to S loopring protocolFeeVault
 to is equal to  accountID owner
 If amount is greater then 0
-If token corresponds to 
+If token corresponds to address
 success is equal to to sendETH
 success is equal to token safeTransferWithGasLimit
 success is equal to True
@@ -246,8 +281,8 @@ owner is equal to _owner
 
 merkleRoot is equal to specifiedBlock merkleRoot
 publicDataHash is equal to specifiedBlock publicDataHash
-blockState is equal to 
-blockType is equal to 
+blockState is equal to uint8
+blockType is equal to uint8
 blockSize is equal to specifiedBlock blockSize
 timestamp is equal to specifiedBlock timestamp
 numDepositRequestsCommitted is equal to specifiedBlock numDepositRequestsCommitted
@@ -271,3 +306,5 @@ previousMakerFeeBips is equal to state protocolFeeData previousMakerFeeBips
  is equal to state createOrUpdateAccount
 
 additionalFeeETH is equal to state accountCreationFeeETH
+
+additionalFeeETH is equal to state accountUpdateFeeETH

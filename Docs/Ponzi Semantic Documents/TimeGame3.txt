@@ -5,6 +5,7 @@ Person has amount
 persons payoutIdx collectedFees balance TWELEVE_HOURS regeneration owner amount idx transactionAmount 
 timegame  enter setOwner 
 onlyowner 
+If msg sender corresponds to owner
 owner is equal to msg sender
 regeneration is equal to block timestamp
 If regeneration plus TWELEVE_HOURS is less then block timestamp

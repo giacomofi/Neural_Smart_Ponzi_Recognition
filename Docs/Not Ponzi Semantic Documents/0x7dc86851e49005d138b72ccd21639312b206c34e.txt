@@ -18,7 +18,7 @@ onlyOwner onlyMinterAddress whenNotPaused whenPaused onlyMemberEnabled whitelist
 OwnershipTransferred Transfer Approval Paused Unpaused Transfer Approval MemberAdded MemberEnabled MemberDisabled MemberDisabledByMember MemberDataChanged TokenExchangeRateChanged TokenExchangeOnTopRateChanged TokenExchangeDecimalsChanged OwnerDataChanged NewSeedMaxSupplyChanged MintedToken FundsUnlocked TokensBurnedForMember MintedImportedToken FundingPanelDeployed 
 If a corresponds to 0
 _owner is equal to msg sender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
  is equal to _balances sender sub
  is equal to _balances recipient add

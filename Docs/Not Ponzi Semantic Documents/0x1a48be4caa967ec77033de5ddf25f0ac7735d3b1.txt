@@ -27,11 +27,13 @@ onlyOwner onlyLoto onlyDistributor
 OwnershipTransferred Jackpot Ticket Superprize Superprize Transfer Approval DistributorAdded DistributorRemoved TokenBetAdded PlaceBet PayoutBet RefundBet 
 owner is equal to msg sender
 owner is equal to newOwner
-If gamer corresponds to 
+If gamer corresponds to address
 i is less then 4
 If block number is greater or equal to 
 i is less then 4
 If block number is greater or equal to 
+ is equal to number
+If  corresponds to prevJackpots starts i i start
  is equal to number
 numberEnd is equal to number
  is equal to gamer
@@ -91,6 +93,7 @@ temp is equal to amount multiplied by PRECISION multiplied by  divided by 75 div
 sum increments of temp
 If payouts length corresponds to 0
 While i is greater then 0
+Invalid symbol i
 If payouts i block is less or equal to block number
 hold decreases of payouts i amount
  is equal to 
@@ -121,18 +124,19 @@ _name is equal to name
 _symbol is equal to symbol
 _decimals is equal to decimals
 Rate is equal to rate
-If oldVersionAddress is different from  Invalid symbol 
+If oldVersionAddress is different from address Invalid symbol 
  is equal to True
 lotoAddress is equal to loto
 oldVersionAddress is equal to oldVersion
 newVersionAddress is equal to newVersion
-If oldVersionAddress is different from  Invalid symbol 
+If oldVersionAddress is different from address Invalid symbol 
 jackpotAddress is equal to jackpot
 houseAddress is equal to house
 superprizeAddress is equal to superprize
 freeSpinsAddress is equal to freeSpins
 uniswapAddress is equal to uniswap
 i is less or equal to 10
+ is equal to Bet
 If tokenAddress corresponds to freeSpinsAddress
  is equal to getHold
 holdBalance increments of holdAmount
@@ -142,6 +146,7 @@ length is equal to
 i is less then length
 If betQueue first blockNumber is greater or equal to block number
 length is equal to i
+Invalid symbol first
  is equal to getHold
 hold decreases of holdAmount
 balance increments of holdAmount
@@ -157,20 +162,25 @@ field is equal to  Invalid symbol 4
 field is equal to  Invalid symbol 0x0F
 If  is less then 0x10
 If field corresponds to 
+Invalid symbol matchesCount
 coefficient increments of 30
 isSuperPrize is equal to False
 isSuperPrize is equal to False
 If  corresponds to 0x10
 If field is greater then 0x09 Invalid symbol 
+Invalid symbol matchesCount
 coefficient increments of 5
 If  corresponds to 0x11
 If field is less then 0x0A
+Invalid symbol matchesCount
 coefficient increments of 3
 If  corresponds to 0x12
 If field is less then 0x0A Invalid symbol 
+Invalid symbol matchesCount
 coefficient increments of 6
 If  corresponds to 0x13
 If field is less then 0x0A Invalid symbol 
+Invalid symbol matchesCount
 coefficient increments of 6
 coefficient is multiplied by PRECISION multiplied by 8
  is equal to Transaction
@@ -191,6 +201,8 @@ freeSpinsAddress is equal to freeSpins
 newVersionAddress is equal to newVersion
 counters is equal to 
  is equal to getCounters
+Invalid symbol last
+Invalid symbol betCount
  is equal to Bet
 counters is equal to betCount Invalid symbol 128 Invalid symbol 
  is equal to getCounters
@@ -204,6 +216,7 @@ first is equal to  Invalid symbol 64
 last is equal to counters Invalid symbol 0xffffffffffffffff
 i is less then bet length
 If  is greater then 0x13
+Invalid symbol markedCount
 If  is less then 0x10
 coefficient increments of 30
 If  corresponds to 0x10

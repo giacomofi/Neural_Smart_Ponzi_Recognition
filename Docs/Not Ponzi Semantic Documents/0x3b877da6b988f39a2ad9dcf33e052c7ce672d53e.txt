@@ -3,3 +3,4 @@ ExchangeRegistry ExchangeView
 registry i 
 getExchange getDecimals 
 i is less then _tokenAddresses length
+ is equal to registry getExchange

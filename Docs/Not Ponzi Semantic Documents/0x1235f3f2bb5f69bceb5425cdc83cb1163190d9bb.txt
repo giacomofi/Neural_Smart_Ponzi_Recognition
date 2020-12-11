@@ -53,6 +53,8 @@ dappAddress is equal to nextdappAddress
 While L is less or equal to R
 If Am position is less then winning_ticket
 L is equal to m add
+If Am position minus Am size is greater or equal to winning_ticket
+R is equal to m sub
 nextTicketPrice is equal to newticketprice
 nextPickerReward is equal to newpickerreward
 nextminTickets is equal to newmintickets

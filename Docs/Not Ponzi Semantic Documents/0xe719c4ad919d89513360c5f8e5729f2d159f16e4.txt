@@ -13,11 +13,11 @@ c is equal to a divided by b
 owner is equal to msg sender
 newOwner is equal to _newOwner
 owner is equal to newOwner
-newOwner is equal to 
+newOwner is equal to address
 symbol is equal to SOLA
 name is equal to SOLA Token
 decimals is equal to 4
-_totalSupply is equal to 1000000000 multiplied by 10 Invalid symbol 
+_totalSupply is equal to 1000000000 multiplied by 10 Invalid symbol uint
  is equal to _totalSupply
  is equal to msg sender sub
  is equal to balances to add

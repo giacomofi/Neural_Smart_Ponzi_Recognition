@@ -6,9 +6,10 @@ ERC20Auction inherits from IERC20Auction ERC20Auction inherits from MultiSigTool
 only_signer is_majority_sig is_trusted 
 TransferMultiSig ClaimedTokens Transfer OutsideTransfer InternalTransfer DepositERC20 WithdrawERC20 LockERC20 UnlockERC20 Bid NewERC20Auction 
 multisig_contract is equal to MultiSigInterface
+
 multisig_contract is equal to MultiSigInterface
 list is equal to TrustListInterface
-If _token corresponds to 
+If _token corresponds to address
 c is equal to a plus b
 c is equal to a minus b
 c is equal to a multiplied by b
@@ -20,7 +21,7 @@ obj_price_unit is equal to _obj_price_unit
 auction_start_block is equal to _start_block
 auction_end_block is equal to _end_block
 auction_creator is equal to _creator
-current_buyer is equal to 
+current_buyer is equal to address
 current_bid_price is equal to 0
 current_bid_amount is equal to 0
 is_auction_settled is equal to False
@@ -28,10 +29,10 @@ buyer is equal to current_buyer
 price is equal to current_bid_price
 amount is equal to current_bid_amount
 If price corresponds to current_bid_price
-If current_buyer is different from 
+If current_buyer is different from address
 current_buyer is equal to msg sender
 current_bid_price is equal to price
 current_bid_amount is equal to amount
-If current_buyer corresponds to 
+If current_buyer corresponds to address
 is_auction_settled is equal to True
 is_auction_settled is equal to True

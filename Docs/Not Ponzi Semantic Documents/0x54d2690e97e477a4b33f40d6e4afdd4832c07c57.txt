@@ -21,14 +21,14 @@ IERC721 inherits from IERC165 Swap inherits from ISwap
 Swap Cancel Invalidate Authorize Revoke Transfer Approval Transfer Approval ApprovalForAll 
 domainSeparator is equal to Types hashDomain
  is equal to TAKEN
-If _order taker wallet corresponds to 
+If _order taker wallet corresponds to address
 finalTakerWallet is equal to msg sender
 If msg sender is different from _order taker wallet
 finalTakerWallet is equal to _order taker wallet
 If _signature v corresponds to 0
-If _order affiliate wallet is different from 
+If _order affiliate wallet is different from address
  is equal to TAKEN
-If _takerWallet corresponds to 
+If _takerWallet corresponds to address
 finalTakerWallet is equal to msg sender
 If msg sender is different from _takerWallet
 finalTakerWallet is equal to _takerWallet
@@ -38,7 +38,8 @@ If  corresponds to OPEN
  is equal to CANCELED
  is equal to _minimumNonce
  is equal to _expiry
+Invalid symbol msg sender _delegate
 If _approver corresponds to _delegate
-If _signature version corresponds to 
-If _signature version corresponds to 
+If _signature version corresponds to byte
+If _signature version corresponds to byte
 If _kind corresponds to ERC721_INTERFACE_ID

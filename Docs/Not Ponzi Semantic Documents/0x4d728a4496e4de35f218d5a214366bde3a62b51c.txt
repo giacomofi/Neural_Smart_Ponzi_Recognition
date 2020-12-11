@@ -6,7 +6,7 @@ LendingRateOracle inherits from ILendingRateOracle LendingRateOracle inherits fr
 onlyOwner 
 OwnershipTransferred 
 _owner is equal to msg sender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
  is equal to _rate
  is equal to _rate

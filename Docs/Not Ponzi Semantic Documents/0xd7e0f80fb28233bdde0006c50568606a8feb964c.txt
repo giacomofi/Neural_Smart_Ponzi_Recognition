@@ -6,15 +6,18 @@ MultiEventsHistoryAdapter inherits from EventsHistorySourceAdapter ChronoBankPla
 onlyChronoBankPlatform onlyAssetOwner onlyAccess 
 Transfer Approval ErrorCode Transfer Issue Revoke RevokeExternal OwnershipChange Approve Recovery UpgradeProposal 
 localEventsHistory is equal to _eventsHistory
-If  is different from 0x0
+If address is different from 0x0
 chronoBankPlatform is equal to _chronoBankPlatform
 symbol is equal to _symbol
 smbl is equal to stringToBytes32
 name is equal to _name
+If msg sender corresponds to address
+
 If _to is different from 0x0
 If _to is different from 0x0
 If _to is different from 0x0
 If _spender is different from 0x0
+If msg sender corresponds to getVersionFor
 If pendingVersion is different from 0x0
 If _newVersion corresponds to 0x0
 If latestVersion corresponds to 0x0
@@ -22,8 +25,13 @@ latestVersion is equal to _newVersion
 pendingVersion is equal to _newVersion
 pendingVersionTimestamp is equal to now
 If pendingVersion corresponds to 0x0
+Invalid symbol pendingVersion
+Invalid symbol pendingVersionTimestamp
 If pendingVersion corresponds to 0x0
 If pendingVersionTimestamp plus UPGRADE_FREEZE_TIME is greater then now
 latestVersion is equal to pendingVersion
+Invalid symbol pendingVersion
+Invalid symbol pendingVersionTimestamp
 If  is different from 0x0
  is equal to latestVersion
+Invalid symbol msg sender

@@ -23,5 +23,5 @@ totalEthInWei is equal to totalEthInWei plus msg value
  is equal to  minus amount
  is equal to  plus amount
  is equal to _value
-If 
+If not _spender call
 i is less then addrs length

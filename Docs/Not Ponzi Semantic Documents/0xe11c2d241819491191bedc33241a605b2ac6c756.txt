@@ -4,7 +4,7 @@ SafeMath256 SafeMath256 Roles Allocations
 Role Allocation 
 Role has bearer
 Allocation has amount
-c c c timestamp interval steps __passed _owner _newOwner _token balance balance _voken _proxies _page _ethers _vokens _shareholders _isShareholders _withdrawPos _pageShareholders _isPageShareholders _pageEndingBlock _pageEthers _pageVokens _pageVokenSum _pageVokenHoldings _pageEtherDividends _allocations __page __amount i __page __amount i i __pageEtherDividend __reserved __len i __allocation i __account __value 
+c c c timestamp interval steps __passed _owner _newOwner _token balance balance _voken _proxies _page _ethers _vokens _shareholders _isShareholders _withdrawPos _pageShareholders _isPageShareholders _pageEndingBlock _pageEthers _pageVokens _pageVokenSum _pageVokenHoldings _pageEtherDividends _allocations __page __amount i __page __amount i i __pageEtherDividend __reserved __len i __allocation __vokenHolding i __etherAmount i __account __value 
 add sub sub mul div div mod mod add remove has available reserved name symbol decimals totalSupply balanceOf transfer allowance approve transferFrom reservedOf balanceOf transfer mintWithAllocation owner isOwner transferOwnership acceptOwnership rescueTokens withdrawEther _transferOwnership page ethers vokens counter shareholders VOKEN pageEndingBlock pageEthers pageEtherSum _pageNumber pageVokens pageVokenSum vokenHolding etherDividend isProxy addProxy removeProxy allocations allocation reservedOf _mintWithAllocation  setVokenMainContract endPage pushShareholders 
 VokenShareholders inherits from Ownable VokenShareholders inherits from IAllocation 
 onlyOwner onlyProxy 
@@ -17,7 +17,7 @@ If interval corresponds to 0
 If __passed is greater or equal to steps
 _owner is equal to msg sender
 _owner is equal to msg sender
-_newOwner is equal to 
+_newOwner is equal to address
 _newOwner is equal to newOwner
 _page is equal to 1
 If pageNumber is greater then 0
@@ -52,14 +52,20 @@ __allocation amount is equal to amount
 If msg value is greater then 0
 _ethers is equal to _ethers add
  is equal to _pageEthers _page add
+
+i is less or equal to _page sub
+__vokenHolding is equal to __vokenHolding add
+If  is less then i
+ is equal to i
+ is equal to __etherAmount
 _voken is equal to vokenMainContract
  is equal to block number
 _page is equal to _page add
  is equal to _vokens
 i is less then accounts length
-If 
+If not _isShareholders __account
  is equal to True
-If 
+If not _isPageShareholders _page __account
  is equal to True
 _vokens is equal to _vokens add
  is equal to _pageVokens _page add

@@ -47,6 +47,7 @@ x1 is equal to mulmod
 z1 is equal to mulmod
 z1 is equal to mulmod
 
+
 t0 is equal to mulmod
 t1 is equal to mulmod
 u0 is equal to mulmod
@@ -75,6 +76,8 @@ z2 is equal to mulmod
 i is less then exp
  is equal to twiceProj
 If scalar corresponds to 0
+If scalar corresponds to 1
+If scalar corresponds to 2
 x1 is equal to x0
 y1 is equal to y0
 If scalar Invalid symbol 2 corresponds to 0
@@ -86,7 +89,7 @@ If scalar Invalid symbol 2 corresponds to 1
  is equal to addProj
 scalar is equal to scalar Invalid symbol 1
 If  corresponds to 0 Invalid symbol  Invalid symbol 
-If 
+If not isOnCurve
  is equal to multiplyScalar
  is equal to multiplyScalar
 If  corresponds to 0

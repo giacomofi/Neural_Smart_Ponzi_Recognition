@@ -13,7 +13,7 @@ MinterAdded MinterRemoved PauserAdded PauserRemoved Paused Unpaused OwnershipTra
 _paused is equal to False
 _paused is equal to True
 _paused is equal to False
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
 _restrictionsEnabled is equal to False
  is equal to True
@@ -47,9 +47,9 @@ i is less then ownership length
 legend is equal to _legend
 fundsToken is equal to _fundsToken
  is equal to True
-If 
+If not isRestrictionEnabled
 If from corresponds to owner
-If 
+If not checkWhitelistAllowed
 If restrictionCode corresponds to SUCCESS_CODE
 If restrictionCode corresponds to FAILURE_NON_WHITELIST
 success is equal to super transfer

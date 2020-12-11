@@ -11,6 +11,7 @@ only_owner only_authenticated only_at_stage only_accepted_token not_accepted_tok
 If tokenBalance is greater then 0
 owner is equal to msg sender
 owner is equal to _newOwner
+Stages has values Deploying Deployed Executed
 authenticator is equal to IAuthenticator
 drpsToken is equal to IToken
 drpuToken is equal to IToken
@@ -24,16 +25,18 @@ If amountToTransfer is greater then
 amountToTransfer is equal to 
 sum increments of drpsToken totalSupply
 sum increments of drpuToken totalSupply
-If  corresponds to _token
+If address corresponds to _token
 balance is equal to allocated _owner drps
+If address corresponds to _token
+balance is equal to allocated _owner drpu
 stage is equal to Stages Executed
 withdrawDeadline is equal to now plus WITHDRAW_DURATION
 claimTotalEther is equal to 
 b drpu is equal to 0
 b drps is equal to 0
-If 
+If not hasBalance
  is equal to Balance
-If _token corresponds to 
+If _token corresponds to address
 b drps increments of _value
 claimTotalWeight increments of _convertDrpsWeight
 b drpu increments of _value

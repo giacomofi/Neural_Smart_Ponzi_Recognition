@@ -9,7 +9,7 @@ IERC721 inherits from IERC165 IERC721Metadata inherits from IERC721 ERC165 inher
 onlyOwner 
 OwnershipTransferred Transfer Approval ApprovalForAll 
 _owner is equal to msg sender
-_owner is equal to 
+_owner is equal to address
 _owner is equal to newOwner
 If a corresponds to 0
 counter _value increments of 1
@@ -18,19 +18,21 @@ counter _value is equal to counter _value sub
  is equal to to
  is equal to approved
  is equal to to
- is equal to 
+ is equal to address
  is equal to to
-If 
-If  is different from 
- is equal to 
+If not to isContract
+If  is different from address
+ is equal to address
  is equal to 0
  is equal to _ownedTokens to length
  is equal to _allTokens length
 If tokenIndex is different from lastTokenIndex
  is equal to lastTokenId
  is equal to tokenIndex
+Invalid symbol _ownedTokens from length
  is equal to lastTokenId
  is equal to tokenIndex
+Invalid symbol _allTokens length
  is equal to 0
 name is equal to _name
 symbol is equal to _symbol
@@ -38,5 +40,8 @@ tokenURIPrefix is equal to _tokenURIPrefix
 tokenURIPrefix is equal to _tokenURIPrefix
  is equal to uri
 If  is different from 0
+Invalid symbol _tokenURIs tokenId
 i is less then _ba length
+ is equal to 
 i is less then _bb length
+ is equal to 

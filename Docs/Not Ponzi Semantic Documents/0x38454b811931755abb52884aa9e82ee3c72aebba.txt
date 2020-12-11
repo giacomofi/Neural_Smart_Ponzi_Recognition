@@ -27,6 +27,7 @@ changeOwner addOwner removeOwner changeRequirement getOwner getOwners isOwner am
 BasicToken inherits from ERC20Basic ERC20 inherits from ERC20Basic StandardToken inherits from ERC20 StandardToken inherits from BasicToken SparksterTokenSwap inherits from StandardToken SparksterTokenSwap inherits from multiowned 
 onlyOwner onlyManyOwners validNumOwners multiOwnedValidRequirement ownerExists ownerDoesNotExist multiOwnedOperationIsActive onlyOwnerOrOracle onlyManyOwnersOrOracle canTransfer canPurchase canSell 
 Confirmation Revoke FinalConfirmation OwnerChanged OwnerAdded OwnerRemoved RequirementChanged Transfer Approval WantsToPurchase PurchasedCallbackOnAccept WantsToDistribute NearingHardCap ReachedHardCap DistributeDone DistributedBatch ShouldCallDoneDistributing AirdroppedBatch RefundedBatch AddToGroup ChangedTransferLock ChangedAllowedToPurchase ChangedAllowedToBuyBack SetSellPrice 
+
 m_numOwners is equal to _owners length
 m_multiOwnedRequired is equal to _required
 i is less then _owners length
@@ -35,31 +36,41 @@ i is less then _owners length
  is equal to _to
  is equal to 0
  is equal to ownerIndex
+Invalid symbol m_numOwners
  is equal to _owner
  is equal to checkOwnerIndex
- is equal to 
+ is equal to address
  is equal to 0
 m_multiOwnedRequired is equal to _newRequired
 i is less then m_numOwners
+ is equal to getOwner
+Invalid symbol pending yetNeeded
 pending ownersDone decreases of ownerIndexBit
 If 512 corresponds to m_multiOwnedPendingIndex length
-If 
+If not isOperationActive
 pending yetNeeded is equal to m_multiOwnedRequired
 pending ownersDone is equal to 0
 pending index is equal to 
  is equal to _operation
 If pending ownersDone Invalid symbol ownerIndexBit corresponds to 0
 If pending yetNeeded corresponds to 1
+Invalid symbol m_multiOwnedPending _operation index
+Invalid symbol m_multiOwnedPending _operation
+Invalid symbol pending yetNeeded
 pending ownersDone Invalid symbol ownerIndexBit
 While free is less then m_numOwners
 While free is less then m_numOwners Invalid symbol 
+Invalid symbol free
 While m_numOwners is greater then 1 Invalid symbol 
+Invalid symbol m_numOwners
 If free is less then m_numOwners Invalid symbol  Invalid symbol 
  is equal to 
  is equal to free
- is equal to 
+ is equal to address
 i is less then length
 If  is different from 0
+Invalid symbol m_multiOwnedPending m_multiOwnedPendingIndex i
+Invalid symbol m_multiOwnedPendingIndex
 If a corresponds to 0
 c is equal to a multiplied by b
 c is equal to a plus b
@@ -73,6 +84,9 @@ c is equal to a plus b
 If _subtractedValue is greater then oldValue
  is equal to 0
  is equal to oldValue sub
+GroupStates has values none distributing distributed unlocked
+If confirmAndCheck Invalid symbol msg sender corresponds to oracleAddress
+If not isOwner
 oldSprk is equal to ERC20
 owner is equal to msg sender
 name is equal to Sparkster
@@ -87,11 +101,12 @@ totalSupply_ is equal to decimalAmount
  is equal to 0
 owner is equal to newAddress
 oracleAddress is equal to newAddress
-oracleAddress is equal to 
+oracleAddress is equal to address
 maxGasPrice is equal to gweiPrice mul
-If 
+If not msg sender
  is equal to True
 If currentTimestamp is less or equal to openGroup phase1endTime
+If currentTimestamp is less or equal to openGroup phase2endTime
 i is less then n
 weiTotal is equal to weiTotal add
  is equal to  groupNumber add
@@ -99,11 +114,11 @@ theGroup weiTotal is equal to weiTotal
 If getHowMuchUntilHardCap_ is less or equal to 100 ether
 If weiTotal is greater or equal to theGroup cap
 i is less then n
-If 
+If not  theAddress
  is equal to True
 i is less then n
  is equal to  groupNumber add
-If 
+If not  theAddress
  is equal to True
 If additionalBalance is greater then 0
  is equal to balances theAddress add
@@ -139,6 +154,7 @@ theGroup max2 is equal to phase2weiCap
 theGroup max3 is equal to phase3weiCap
 theGroup cap is equal to hardWeiCap
 theGroup ratio is equal to ratio
+Invalid symbol nextGroupNumber
 success is equal to True
 groupName is equal to theGroup name
 status is equal to 
@@ -173,6 +189,7 @@ newOwnerBalance is equal to newOwnerBalance sub
 openGroupNumber is equal to groupNumber
 If theGroup state is less then GroupStates distributed
 If block timestamp is less then theGroup unlockTime
+If theGroup unlockTime is greater then 0
 If getGroupState corresponds to GroupStates unlocked
 i is less then n
 balance is equal to balance add

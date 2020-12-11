@@ -6,7 +6,7 @@ ERC20 inherits from ERC20Basic AirDrop inherits from Ownable
 onlyOwner 
 OwnershipRenounced OwnershipTransferred Transfer Approval 
 owner is equal to msg sender
-owner is equal to 
+owner is equal to address
 owner is equal to _newOwner
 owner is equal to _target
 token is equal to _token

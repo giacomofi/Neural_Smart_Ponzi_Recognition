@@ -14,6 +14,7 @@ charityFundations charityFoundationIdx officialWebsite ads payoutIdx balance fee
 EtherAds  buyAd prolongateContract getMinimalDeposit getCurrentLevel updateTxStats distributeEarnings resetContract setReferralId collectFees changeOwner setOfficialWebsite addCharityFundation resetFoundationtList giveMeat 
 onlyowners 
 BuyAd ResetContract PayoutEarnings 
+If msg sender corresponds to  Invalid symbol  Invalid symbol 
  is equal to owner0
  is equal to owner1
  is equal to owner2
@@ -47,15 +48,15 @@ txsCounter is equal to 0
 lastHour is equal to currtHour
 txsCounter increments of 1
  is equal to txsCounter
-
+While True
 If balance is greater or equal to amount
 fees increments of amount divided by 100 multiplied by 15
 If refId corresponds to 
 balance increments of level0Fee plus level1Fee plus level2Fee
-refId is equal to  refId
+refId is equal to uint refId
 If refId corresponds to 
 balance increments of level1Fee plus level2Fee
-refId is equal to  refId
+refId is equal to uint refId
 If refId corresponds to 
 balance increments of level2Fee
 balance decreases of amount
@@ -71,7 +72,7 @@ While i is less then 24
 i increments of 1
 While i is less then ads length
 If ads i etherAddress corresponds to referral
-refId is equal to 
+refId is equal to int
 i increments of 1
 ads id refId is equal to refId
 If fees corresponds to 0
