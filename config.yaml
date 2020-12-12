@@ -1,0 +1,13 @@
+config:
+  ponzi_ast_location: '/home/giacomo/PycharmProjects/ast_generator/Ponzi_Abstract_Syntax_Trees'
+  not_ponzi_ast_location: '/home/giacomo/PycharmProjects/ast_generator/Not_Smart_Ponzi_AST'
+  not_smart_ponzi_source_code: '/home/giacomo/PycharmProjects/ast_generator/Not_Smart_Ponzi_Source_Code'
+  smart_ponzi_source_code: '/home/giacomo/PycharmProjects/ast_generator/Smart_Ponzi'
+  ponzi_csv: '/home/giacomo/PycharmProjects/ast_generator/Docs/ponzi.csv'
+  not_ponzi_csv: '/home/giacomo/PycharmProjects/ast_generator/Docs/not_ponzi.csv'
+  contracts_csv: '/home/giacomo/PycharmProjects/ast_generator/Docs/contracts.csv'
+  contracts2_csv: '/home/giacomo/PycharmProjects/ast_generator/Docs/contracts2.csv'
+  not_ponzi_semantic_documents: '/home/giacomo/PycharmProjects/ast_generator/Docs/Not_Ponzi_Semantic_Documents'
+  ponzi_semantic_documents: '/home/giacomo/PycharmProjects/ast_generator/Docs/Ponzi_Semantic_Documents'
+  most_used_in_ponzies: '/home/giacomo/PycharmProjects/ast_generator/Docs/Most_used_terms_in_Ponzies.txt'
+  most_used_in_not_ponzies: '/home/giacomo/PycharmProjects/ast_generator/Docs/Most_used_terms_in_Not_Ponzies.txt'
