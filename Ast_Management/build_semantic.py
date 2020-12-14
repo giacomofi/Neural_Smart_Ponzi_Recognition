@@ -10,13 +10,20 @@
 
 from ast_parser_tools import ASTSemanticExtraction
 import os
+import yaml
+from yaml import FullLoader
 
 if __name__ == '__main__':
 
     this_dir, _ = os.path.split(__file__)
-    data_dir = this_dir.replace('Ast_Management', 'Docs')
-    ponzi_ast_dir = this_dir.replace('Ast_Management', 'Ponzi_Abstract_Syntax_Trees')
-    not_ponzi_ast_dir = this_dir.replace('Ast_Management', 'Not_Smart_Ponzi Ast')
+    base_name = os.path.basename(this_dir)
+    config = this_dir.replace(base_name, 'config.yaml')
+    with open(config, 'r') as yaml_file:
+        cfg = yaml.load(yaml_file, Loader=FullLoader)
+    ponzi_semantic_documents = os.path.expanduser(cfg['config']['ponzi_semantic_documents'])
+    not_ponzi_semantic_documents = os.path.expanduser(cfg['config']['not_ponzi_semantic_documents'])
+    ponzi_ast_dir = os.path.expanduser(cfg['config']['ponzi_ast_location'])
+    not_ponzi_ast_dir = os.path.expanduser(cfg['config']['not_ponzi_ast_location'])
     # Instantiating the parser
     parser = ASTSemanticExtraction()
     # Get semantic from all the Ponzi AST
@@ -25,7 +32,7 @@ if __name__ == '__main__':
     for ast in parser.ast_objects:
         try:
             # Generating semantic documents for Smart Ponzies
-            with open(data_dir + '/Ponzi_Semantic_Documents/' + ast.name + '.txt', 'w') as file:
+            with open(ponzi_semantic_documents + ast.name + '.txt', 'w') as file:
                 # Check all the AST objects parameters
                 # If a parameter is empty then we don't have semantic, so, no file writing
                 if len(ast.pragmas) != 0:
@@ -93,7 +100,7 @@ if __name__ == '__main__':
     # We repeat the same process, but now we build semantic for Not Ponzies
     for ast in parser.ast_objects:
         try:
-            with open(data_dir + '/Not_Ponzi_Semantic_Documents/' + ast.name + '.txt',
+            with open(not_ponzi_semantic_documents + ast.name + '.txt',
                       'w') as file:
                 if len(ast.pragmas) != 0:
                     for pragma in ast.pragmas:

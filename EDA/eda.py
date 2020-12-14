@@ -8,14 +8,22 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import os
 from wordcloud import WordCloud, STOPWORDS
+import yaml
+from yaml import FullLoader
 
 if __name__ == '__main__':
     this_dir, _ = os.path.split(__file__)
-    data_dir = this_dir.replace('EDA', 'Docs')
+    base_name = os.path.basename(this_dir)
+    config = this_dir.replace(base_name, 'config.yaml')
+    with open(config, 'r') as yaml_file:
+        cfg = yaml.load(yaml_file, Loader=FullLoader)
+    contract_name = os.path.expanduser(cfg['config']['contracts_csv'])
+    ponzi_name = os.path.expanduser(cfg['config']['ponzi_csv'])
+    not_ponzi_name = os.path.expanduser(cfg['config']['not_ponzi_csv'])
     # Set theme for seaborn
     sns.set_theme(style="whitegrid")
     # Reading dataset
-    contracts = pd.read_csv(data_dir + '/contracts.csv')
+    contracts = pd.read_csv(contract_name)
     # Building count plot for target variable
     sns.countplot(x="Target", data=contracts)
     # Show plot
@@ -56,8 +64,8 @@ if __name__ == '__main__':
     plt.axis("off")
     plt.savefig(this_dir + '/Most Used Terms in Wildcards')
 
-    ponzi = pd.read_csv(data_dir + '/ponzi.csv')
-    not_ponzi = pd.read_csv(data_dir + '/not_ponzi.csv')
+    ponzi = pd.read_csv(ponzi_name)
+    not_ponzi = pd.read_csv(not_ponzi_name)
     text = ' '
 
     # iterate through the csv file

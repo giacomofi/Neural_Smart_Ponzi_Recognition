@@ -10,21 +10,25 @@
 import csv
 from ast_parser_tools import ASTSemanticExtraction
 import os
-
+import yaml
+from yaml import FullLoader
 
 if __name__ == '__main__':
 
     this_dir, _ = os.path.split(__file__)
-    data_dir = this_dir.replace('Ast_Management', 'Docs')
-    not_smart_ponzi_ast_dir = this_dir.replace('Ast_Management', 'Not_Smart_Ponzi Ast')
-    smart_ponzi_ast_dir = this_dir.replace('Ast_Management', 'Ponzi_Abstract_Syntax_Trees')
-    ponzi_name = 'ponzi.csv'
-    contract_name = 'contracts2.csv'
-    not_ponzi_name = 'not_ponzi.csv'
+    base_name = os.path.basename(this_dir)
+    config = this_dir.replace(base_name, 'config.yaml')
+    with open(config, 'r') as yaml_file:
+        cfg = yaml.load(yaml_file, Loader=FullLoader)
+    not_smart_ponzi_ast_dir = os.path.expanduser(cfg['config']['not_ponzi_ast_location'])
+    smart_ponzi_ast_dir = os.path.expanduser(cfg['config']['ponzi_ast_location'])
+    ponzi_name = os.path.expanduser(cfg['config']['ponzi_csv'])
+    contract_name = os.path.expanduser(cfg['config']['contracts2_csv'])
+    not_ponzi_name = os.path.expanduser(cfg['config']['not_ponzi_csv'])
 
     def semantic_extraction():
         # Start writing semantic for Ponzi contracts
-        with open(data_dir + '/' + ponzi_name, 'w', newline='') as file:
+        with open(ponzi_name, 'w', newline='') as file:
             writer = csv.writer(file)
             # These csv are bit different. We have name and text only, because these csv are needed only to build word clouds
             writer.writerow(['Name', 'Text'])
@@ -37,7 +41,7 @@ if __name__ == '__main__':
         # Writing semantic for Not Ponzi Contracts
         # Same process of Ponzi contracts
         parser.semantic_extraction(not_smart_ponzi_ast_dir + '/')
-        with open(data_dir + '/' + not_ponzi_name, 'w', newline='') as file:
+        with open(not_ponzi_name, 'w', newline='') as file:
             writer = csv.writer(file)
             writer.writerow(['Name', 'Text'])
             for ast in parser.ast_objects:
@@ -47,7 +51,7 @@ if __name__ == '__main__':
         parser.reset_ast_object()
         parser.semantic_extraction(smart_ponzi_ast_dir + '/')
         # Writing complete semantic
-        with open(data_dir + '/' + contract_name, 'w', newline='') as file:
+        with open(contract_name, 'w', newline='') as file:
             writer = csv.writer(file)
             writer.writerow(['Name', 'Text', 'Target'])
             for ast in parser.ast_objects:

@@ -5,14 +5,20 @@ import json
 from os import listdir
 from os.path import isfile, join
 import os
+import yaml
+from yaml import FullLoader
 
 if __name__ == '__main__':
 
     this_dir, _ = os.path.split(__file__)
-    data_dir = this_dir.replace('Ast_Management', 'Not_Smart_Ponzi')
-    not_smart_ponzi_source_code_dir = this_dir.replace('Ast_Management', 'Not_Smart_Ponzi Source Code')
+    base_name = os.path.basename(this_dir)
+    config = this_dir.replace(base_name, 'config.yaml')
+    with open(config, 'r') as yaml_file:
+        cfg = yaml.load(yaml_file, Loader=FullLoader)
+    smart_ponzi_source_code = os.path.expanduser(cfg['config']['smart_ponzi_source_code'])
+    not_smart_ponzi_source_code_dir = os.path.expanduser(cfg['config']['not_smart_ponzi_source_code'])
 
-    sub_directories = [x[0] for x in os.walk(data_dir + '/')]
+    sub_directories = [x[0] for x in os.walk(smart_ponzi_source_code + '/')]
     for sub_dir in sub_directories:
         s = sub_dir
         contracts = [f for f in listdir(sub_dir) if isfile(join(sub_dir, f))]
@@ -30,7 +36,7 @@ if __name__ == '__main__':
                 else:
                     pass
 
-                with open(not_smart_ponzi_source_code_dir + '/' + contract_name,'w') as file:
+                with open(not_smart_ponzi_source_code_dir + '/' + contract_name, 'w') as file:
                     file.write(source_code)
 
 

@@ -6,15 +6,21 @@ import model_switcher
 from sklearn.metrics import confusion_matrix
 from nltk.stem import WordNetLemmatizer
 import os
+import yaml
+from yaml import FullLoader
 
 if __name__ == '__main__':
 
     this_dir, _ = os.path.split(__file__)
-    data_dir = this_dir.replace('Neural_Components', 'Docs')
+    base_name = os.path.basename(this_dir)
+    config = this_dir.replace(base_name, 'config.yaml')
+    with open(config, 'r') as yaml_file:
+        cfg = yaml.load(yaml_file, Loader=FullLoader)
+    contract_name = os.path.expanduser(cfg['config']['contracts2_csv'])
     # Defining a lemmatizer
     lemmatizer = WordNetLemmatizer()
     # Reading the contracts dataset
-    contracts = pd.read_csv(data_dir + '/contracts2.csv')
+    contracts = pd.read_csv(contract_name)
 
     # Features extraction
     # Setting X as Name and Text features
