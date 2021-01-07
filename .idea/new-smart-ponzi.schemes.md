@@ -4,9 +4,11 @@
 ```
 https://etherscan.io/accounts/label/ponzi
 
-$($("[data-original-title='Contract']")[0].nextSibling).text()
+$($("[data-original-title='Contract']")[0].nextSibling).text();
 
-$("[data-original-title='Contract']").each((i, e) => console.log(($(e)[0].nextSibling).text))
+$("[data-original-title='Contract']").each((i, e) => console.log(($(e)[0].nextSibling).text));
+
+const addresses = $("[data-original-title='Contract']").map((i, e) => ($(e)[0].nextSibling).text);
 
 ```
 
