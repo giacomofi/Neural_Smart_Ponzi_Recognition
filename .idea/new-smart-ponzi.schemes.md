@@ -1,5 +1,10 @@
 ### New Smart Ponzi Schemes
 
+```
+$($("[data-original-title='Contract']")[0].nextSibling).text()
+
+```
+
 |  address |  source code | deply-date  |   |
 |---|---|---|---|
 |  0x9e48a065af4d02257d9c9c83d78e7c06e7bf2449 |  N |   |   |
