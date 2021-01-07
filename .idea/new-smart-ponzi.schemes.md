@@ -1,6 +1,9 @@
 ### New Smart Ponzi Schemes
 
+#### Web Scraping
 ```
+https://etherscan.io/accounts/label/ponzi
+
 $($("[data-original-title='Contract']")[0].nextSibling).text()
 
 ```
